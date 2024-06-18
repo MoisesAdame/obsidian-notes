@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Templates/Subject-Title.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Templates/Subject-Title.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Templates/Subject-Title.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md"
+                "file": "Templates/Subject-Title.md"
               }
             }
           },
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +168,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "ad2dbf01105dab65",
+  "active": "5952ef512177d27d",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/第一课.md",
