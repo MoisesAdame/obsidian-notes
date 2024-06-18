@@ -139,7 +139,7 @@
             }
           },
           {
-            "id": "dca8bf96b0c369a6",
+            "id": "ad2dbf01105dab65",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -167,7 +167,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "5952ef512177d27d",
+  "active": "ad2dbf01105dab65",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/第一课.md",
