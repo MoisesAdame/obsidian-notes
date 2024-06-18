@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "4ec51aa4dc569293",
+    "type": "split",
+    "children": [
+      {
+        "id": "e75fe677a67fe202",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0096ed49a993c27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第一课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ada8c3268ff8f739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第一课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5952ef512177d27d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第一课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b52b95abf14c412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "777a927b180c207b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0417438bc48999ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a300fe91512115a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "90d6c857a8fbfef6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#AOSR",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6636e77fbbb269dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "right": {
+    "id": "95b68c78992406e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0149387f6f736cfa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c964af48f407dc0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f64abcbbe4fca0c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e629ec231723a16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c863d81795f4a3b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md"
+              }
+            }
+          },
+          {
+            "id": "dd3e86a6715cc299",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "dca8bf96b0c369a6",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": true,
+      "aosr:Aosr": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pomodoro-timer:Toggle timer panel": false
+    }
+  },
+  "active": "0b52b95abf14c412",
+  "lastOpenFiles": [
+    "Chinese/HSK4/书学/第一课.md",
+    "Chinese/HSK4/书学/第二课.md",
+    "Templates/Subject-Title.md",
+    "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
+    "2. Memoization.md",
+    "2024-05-13.md",
+    "Chinese/HSK4/书学",
+    "Chinese/HSK4/阅读",
+    "Technologies/SQL/SQL Language/Data Manipulation Language/DELETE.md",
+    "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
+    "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
+    "School/TC3005B/TC3005B.1/8. Gestión de Lanzamiento.md",
+    "School/TC3005B/TC3005B.1/7. Control de Elementos de Proveedor.md",
+    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
+    "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
+    "School/TC3005B/TC3005B.1/5. Auditoría de la Configuración.md",
+    "School/TC3005B/TC3005B.1/6. Control de Interfaces.md",
+    "School/TC3005B/TC3005B.2/Design Patterns.md",
+    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
+    "School/TC3005B/TC3005B.5/4. ISO-IEC-15504.md",
+    "School/TC3005B/TC3005B.5/3. CMMI-DEV.md",
+    "School/TC3005B/TC3005B.4/1. Bases de Datos Distribuidas.md",
+    "School/TC3005B/TC3005B.2/Pruebas Automáticas.md",
+    "School/TC3005B/Assets/earned-value-analysis.png",
+    "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
+    "School/TC3005B/TC3005B.1/2. GitHub en la Gestión de Configuración.md",
+    "Technologies/SQL/SQL Language/Data Definition Language/CREATE VIEW.md",
+    "Technologies/SQL/SQL Language/Data Definition Language/CREATE TRIGGER.md",
+    "Technologies/SQL/SQL Language/Data Definition Language/CREATE PROCEDURE.md",
+    "Technologies/SQL/SQL Language/Data Definition Language/CONSTRAINTS.md",
+    "Chinese/HSK4",
+    "Untitled.canvas",
+    "Technologies/SQL/SQL Language/Data Definition Language",
+    "Technologies/SQL/SQL Language/Data Manipulation Language",
+    "Technologies/SQL/SQL Language",
+    "Technologies/SQL/Database Generalities",
+    "Technologies/SQL",
+    "School/TC3005B/Assets",
+    "School/TC3005B/Examen",
+    "Technologies/Neo4j/Assets/json-load-result.png",
+    "Screenshot 2024-05-24 at 16.28.44.png",
+    "Screenshot 2024-05-24 at 16.11.15.png",
+    "Masters/Systems Programming/Assets/fig1.3.png",
+    "Technologies/Neo4j/Assets/graph-parts.png",
+    "Technologies/Neo4j/Assets/movie-schema.png",
+    "Technologies/Neo4j/Assets/movie-schema.svg",
+    "Screenshot 2024-05-13 at 0.23.33.png"
+  ]
+}
