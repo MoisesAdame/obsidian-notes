@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Subject-Title.md",
+                "file": "Templates/Flashcarded Note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Subject-Title.md",
+                "file": "Templates/Flashcarded Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Subject-Title.md",
+                "file": "Templates/Flashcarded Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Subject-Title.md"
+                "file": "Templates/Flashcarded Note.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   "active": "5952ef512177d27d",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第二课.md",
+    "Templates/Flashcarded Note.md",
     "Chinese/HSK4/书学/第一课.md",
-    "Templates/Subject-Title.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "2. Memoization.md",
     "2024-05-13.md",
