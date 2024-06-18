@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c0096ed49a993c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ada8c3268ff8f739",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5952ef512177d27d",
             "type": "leaf",
             "state": {
@@ -45,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b52b95abf14c412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md"
+                "file": "Chinese/HSK4/书学/第一课.md"
               }
             }
           },
@@ -187,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,10 +167,10 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "0b52b95abf14c412",
+  "active": "5952ef512177d27d",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第一课.md",
     "Chinese/HSK4/书学/第二课.md",
+    "Chinese/HSK4/书学/第一课.md",
     "Templates/Subject-Title.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "2. Memoization.md",
