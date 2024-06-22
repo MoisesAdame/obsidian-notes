@@ -160,7 +160,7 @@
             }
           },
           {
-            "id": "ad2dbf01105dab65",
+            "id": "2383db5e68d96bb1",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -168,12 +168,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +188,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "d164b31bc5ed8a7d",
+  "active": "2383db5e68d96bb1",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第一课.md",
     "Chinese/HSK4/书学/第二课.md",
