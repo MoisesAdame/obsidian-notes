@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
+                "file": "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
+                "file": "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
+                "file": "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md"
+                "file": "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md"
               }
             }
           },
@@ -204,10 +204,10 @@
   },
   "active": "e21229decdbc61cf",
   "lastOpenFiles": [
+    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
     "Chinese/HSK4/书学/第一课.md",
-    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
     "Masters/Index.md",
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/Untitled.md",
