@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md"
+                "file": "Masters/Systems Programming/1. Background/1.1 Machine Structure.md"
               }
             }
           },
@@ -190,8 +190,11 @@
   },
   "active": "d164b31bc5ed8a7d",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第一课.md",
+    "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
+    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
+    "Masters/Index.md",
     "Chinese/HSK4/书学/第二课.md",
+    "Chinese/HSK4/书学/第一课.md",
     "Chinese/HSK4/书学/Untitled.md",
     "Chinese/HSK4/书学/Untitled 1.md",
     "Templates/Flashcarded Note.md",
@@ -217,9 +220,6 @@
     "School/TC3005B/TC3005B.2/Pruebas Automáticas.md",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
-    "School/TC3005B/TC3005B.1/2. GitHub en la Gestión de Configuración.md",
-    "Technologies/SQL/SQL Language/Data Definition Language/CREATE VIEW.md",
-    "Technologies/SQL/SQL Language/Data Definition Language/CREATE TRIGGER.md",
     "Chinese/HSK4",
     "Untitled.canvas",
     "Technologies/SQL/SQL Language/Data Definition Language",
