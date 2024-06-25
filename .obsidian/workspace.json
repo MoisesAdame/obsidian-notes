@@ -4,76 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e75fe677a67fe202",
+        "id": "2698e386b37ee950",
         "type": "tabs",
         "children": [
           {
-            "id": "d164b31bc5ed8a7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e21229decdbc61cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02b3f70fec2e0abc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Systems Programming/1. Background/1.4 Operating System User Viewpoint, Functions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f44f289c3cbb3843",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c27a9952bdc1ce13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47ea9bef487a0edb",
+            "id": "ea8aded1a3edafbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,28 +21,20 @@
             }
           },
           {
-            "id": "5952ef512177d27d",
+            "id": "0ef152e9c075cc47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "641cd82dc2db247d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.7 Summary.md",
+                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.7 Summary.md",
+                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.7 Summary.md"
+                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md"
               }
             }
           },
@@ -254,16 +181,17 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "47ea9bef487a0edb",
+  "active": "0ef152e9c075cc47",
   "lastOpenFiles": [
-    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
-    "Masters/Systems Programming/1. Background/1.7 Summary.md",
-    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
-    "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
-    "Masters/Systems Programming/1. Background/1.4 Operating System User Viewpoint, Functions.md",
-    "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
+    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
+    "Masters/Systems Programming/1. Background/1.8 Questions.md",
+    "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Chinese/HSK4/书学/第一课.md",
+    "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
+    "Masters/Systems Programming/1. Background/1.4 Operating System User Viewpoint, Functions.md",
+    "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
+    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Index.md",
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/Untitled.md",
@@ -283,7 +211,6 @@
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "School/TC3005B/TC3005B.1/5. Auditoría de la Configuración.md",
     "School/TC3005B/TC3005B.1/6. Control de Interfaces.md",
-    "School/TC3005B/TC3005B.2/Design Patterns.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Chinese/HSK4",
