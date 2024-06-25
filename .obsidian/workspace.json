@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -181,11 +181,13 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "0ef152e9c075cc47",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
+    "Masters/Systems Programming/1. Background/Untitled.md",
+    "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
     "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
-    "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Chinese/HSK4/书学/第一课.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
@@ -209,8 +211,6 @@
     "School/TC3005B/TC3005B.1/7. Control de Elementos de Proveedor.md",
     "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
-    "School/TC3005B/TC3005B.1/5. Auditoría de la Configuración.md",
-    "School/TC3005B/TC3005B.1/6. Control de Interfaces.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Chinese/HSK4",
