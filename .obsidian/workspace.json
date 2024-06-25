@@ -151,17 +151,9 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "2383db5e68d96bb1",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -181,7 +173,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "0ef152e9c075cc47",
+  "active": "dd3e86a6715cc299",
   "lastOpenFiles": [
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
