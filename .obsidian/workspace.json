@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md",
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters/Systems Programming/1. Background/1.8 Questions.md"
+                "file": "Chinese/HSK4/书学/第二课.md"
               }
             }
           },
@@ -181,11 +181,11 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "0ef152e9c075cc47",
   "lastOpenFiles": [
+    "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "Masters/Systems Programming/1. Background/Untitled.md",
-    "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
     "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
@@ -221,7 +221,6 @@
     "Technologies/SQL/Database Generalities",
     "Technologies/SQL",
     "School/TC3005B/Assets",
-    "School/TC3005B/Examen",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
