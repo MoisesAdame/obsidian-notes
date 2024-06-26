@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Chinese/HSK4/书学/第三课.md"
+              }
             }
           },
           {
@@ -186,7 +190,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "16e3b31725961f6f",
+  "active": "b23bdb57a6fb08a7",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第三课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
