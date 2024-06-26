@@ -24,8 +24,13 @@
             "id": "0ef152e9c075cc47",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -95,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Chinese/HSK4/书学/第二课.md"
+              }
             }
           },
           {
@@ -172,7 +181,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "5844fc43785ae868",
+  "active": "0ef152e9c075cc47",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第二课.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
