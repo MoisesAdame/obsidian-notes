@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/中文文件.md",
+                "file": "Chinese/HSK4/书学/第二课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "6b296010fed24aeb",
+            "id": "f3718441ed65ce38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/中文文件.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/中文文件.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/中文文件.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/中文文件.md"
+                "file": "Chinese/HSK4/书学/第三课.md"
               }
             }
           },
@@ -234,15 +234,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6b296010fed24aeb",
+  "active": "f3718441ed65ce38",
   "lastOpenFiles": [
-    "Templates/Flashcarded Note.md",
     "Templates/中文文件.md",
+    "Chinese/HSK4/书学/第三课.md",
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/第一课.md",
-    "Chinese/HSK4/书学/Untitled.md",
+    "Templates/Flashcarded Note.md",
     "Chinese/HSK4/书学/Untitled 1.md",
-    "Chinese/HSK4/书学/第三课.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "Masters/Systems Programming/1. Background/Untitled.md",
