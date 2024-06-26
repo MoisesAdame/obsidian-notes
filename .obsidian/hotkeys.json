@@ -25,15 +25,6 @@
     }
   ],
   "workspace:new-tab": [],
-  "tag-pane:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
   "workspace:undo-close-pane": [],
   "pomodoro-timer:toggle-timer-panel": [
     {
@@ -54,6 +45,15 @@
     }
   ],
   "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "editor:insert-tag": [
     {
       "modifiers": [
         "Mod"

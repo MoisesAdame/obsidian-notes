@@ -15,7 +15,7 @@ Date: {{date}} : {{time}}
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "$.path",
+				"value": "<% tp.file.path(true) %>",
 				"path": "$.path"
 			}]
 		},
