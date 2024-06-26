@@ -7,15 +7,6 @@
       "key": "Backspace"
     }
   ],
-  "workspace:copy-path": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "C"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
@@ -59,6 +50,15 @@
         "Mod"
       ],
       "key": "T"
+    }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }
