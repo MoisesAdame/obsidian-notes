@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#AOSR OR -tag:#Q OR tag:#configuration-management",
+  "search": "-tag:#AOSR OR -tag:#Q",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -13,10 +13,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.289947653269453,
-  "repelStrength": 7.81030964421968,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 150,
-  "scale": 0.8132901837551068,
+  "linkDistance": 250,
+  "scale": 0.8284817763429704,
   "close": false
 }
