@@ -39,7 +39,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Templates/中文文件.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dc08071ead17e52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Pomodoro Logs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "011a949674f57ac3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pomodoro Logs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Pomodoro Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Pomodoro Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md"
+                "file": "Pomodoro Logs.md"
               }
             }
           },
@@ -166,7 +192,7 @@
             }
           },
           {
-            "id": "5844fc43785ae868",
+            "id": "64697bc57824bc41",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -195,16 +221,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "90e9919d591b3d86",
+  "active": "011a949674f57ac3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Pomodoro Logs.md",
+    "Templates/Pomodoro Logs.md",
+    "Templates/中文文件.md",
+    "Untitled",
+    "Templates/Flashcarded Note.md",
+    "Chinese/HSK4/书学/第三课.md",
     "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/第一课.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
-    "Templates/Flashcarded Note.md",
     "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
-    "Chinese/HSK4/书学/第三课.md",
-    "Templates/中文文件.md",
     "Chinese/HSK4/书学/Untitled 1.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
@@ -223,8 +253,6 @@
     "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "School/TC3005B/TC3005B.1/8. Gestión de Lanzamiento.md",
-    "School/TC3005B/TC3005B.1/7. Control de Elementos de Proveedor.md",
-    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Chinese/HSK4",
@@ -234,7 +262,6 @@
     "Technologies/SQL/SQL Language",
     "Technologies/SQL/Database Generalities",
     "Technologies/SQL",
-    "School/TC3005B/Assets",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
