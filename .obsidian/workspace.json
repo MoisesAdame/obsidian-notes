@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -190,7 +190,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b5d35558bcaf3eba",
+  "active": "b23bdb57a6fb08a7",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第三课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
