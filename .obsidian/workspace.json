@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "679bbe28fe4d9de4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/旅游/Flashcards for Trip to China.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "16e3b31725961f6f",
             "type": "leaf",
             "state": {
@@ -42,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Chinese/旅游/Flashcards for Trip to China.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Chinese/旅游/Flashcards for Trip to China.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md"
+                "file": "Chinese/旅游/Flashcards for Trip to China.md"
               }
             }
           },
@@ -190,10 +203,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b23bdb57a6fb08a7",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第二课.md",
     "Chinese/HSK4/书学/第三课.md",
+    "Chinese/旅游/Flashcards for Trip to China.md",
+    "Chinese/旅游",
+    "Chinese/HSK4/书学/第二课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Masters/Systems Programming/Assets/fig2.1.png",
@@ -203,7 +218,6 @@
     "Pomodoro Logs.md",
     "Templates/Pomodoro Logs.md",
     "Untitled.md",
-    "Untitled",
     "Templates/Flashcarded Note.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
@@ -221,8 +235,6 @@
     "2024-05-13.md",
     "Chinese/HSK4/书学",
     "Chinese/HSK4/阅读",
-    "Technologies/SQL/SQL Language/Data Manipulation Language/DELETE.md",
-    "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Chinese/HSK4",
