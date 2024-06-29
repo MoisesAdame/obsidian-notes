@@ -63,8 +63,13 @@
             "id": "16e3b31725961f6f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第三课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -134,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Chinese/HSK4/书学/第三课.md"
+              }
             }
           },
           {
