@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md"
+                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md"
               }
             }
           },
@@ -216,28 +216,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "b975e36eaa7d6eda",
   "lastOpenFiles": [
-    "Chinese/HSK4/安全的词汇.md",
+    "Masters/Systems Programming/1. Background/1.8 Questions.md",
+    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
+    "Masters/Systems Programming/1. Background/1.7 Summary.md",
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
+    "Masters/Index.md",
     "Chinese/HSK4/书学/第三课.md",
+    "Chinese/HSK4/书学/第一课.md",
+    "Chinese/HSK4/安全的词汇.md",
     "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/旅游",
     "Chinese/HSK4/书学/第二课.md",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Masters/Systems Programming/Assets/fig2.1.png",
-    "Masters/Index.md",
-    "Chinese/HSK4/书学/第一课.md",
     "Templates/中文文件.md",
     "Pomodoro Logs.md",
     "Templates/Pomodoro Logs.md",
     "Untitled.md",
     "Templates/Flashcarded Note.md",
-    "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
-    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Chinese/HSK4/书学/Untitled 1.md",
-    "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "Masters/Systems Programming/1. Background/Untitled.md",
     "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
