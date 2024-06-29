@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md"
-              }
+              "state": {}
             }
           },
           {
@@ -216,12 +212,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b975e36eaa7d6eda",
+  "active": "16e3b31725961f6f",
   "lastOpenFiles": [
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Masters/Index.md",
     "Chinese/HSK4/书学/第三课.md",
