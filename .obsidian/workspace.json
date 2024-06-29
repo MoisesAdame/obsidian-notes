@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "b975e36eaa7d6eda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/安全的词汇.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "16e3b31725961f6f",
             "type": "leaf",
             "state": {
@@ -55,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Chinese/HSK4/安全的词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md",
+                "file": "Chinese/HSK4/安全的词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第三课.md"
+                "file": "Chinese/HSK4/安全的词汇.md"
               }
             }
           },
@@ -203,10 +216,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "679bbe28fe4d9de4",
+  "active": "b975e36eaa7d6eda",
   "lastOpenFiles": [
-    "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/HSK4/书学/第三课.md",
+    "Chinese/HSK4/安全的词汇.md",
+    "Chinese/HSK4/安全的词汇.md",
+    "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/旅游",
     "Chinese/HSK4/书学/第二课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
@@ -232,7 +247,6 @@
     "Masters/Systems Programming/1. Background/1.4 Operating System User Viewpoint, Functions.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "2. Memoization.md",
-    "2024-05-13.md",
     "Chinese/HSK4/书学",
     "Chinese/HSK4/阅读",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
