@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/安全的词汇.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/安全的词汇.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/安全的词汇.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/安全的词汇.md"
+                "file": "Chinese/HSK4/书学/第一课.md"
               }
             }
           },
@@ -216,11 +216,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b975e36eaa7d6eda",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "Chinese/HSK4/安全的词汇.md",
     "Chinese/HSK4/书学/第三课.md",
-    "Chinese/HSK4/安全的词汇.md",
-    "Chinese/HSK4/安全的词汇.md",
     "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/旅游",
     "Chinese/HSK4/书学/第二课.md",
