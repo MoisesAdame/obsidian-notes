@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
+                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md"
+                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md"
               }
             }
           },
@@ -221,11 +221,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "16e3b31725961f6f",
+  "active": "b975e36eaa7d6eda",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第三课.md",
-    "Chinese/HSK4/书学/第一课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
+    "Chinese/HSK4/书学/第一课.md",
+    "Chinese/HSK4/书学/第三课.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
