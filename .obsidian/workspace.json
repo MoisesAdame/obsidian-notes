@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
+                "file": "Chinese/HSK4/书学/第一课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md"
+                "file": "Chinese/HSK4/书学/第一课.md"
               }
             }
           },
@@ -223,9 +223,10 @@
   },
   "active": "b975e36eaa7d6eda",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第三课.md",
+    "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Chinese/HSK4/书学/第一课.md",
-    "Chinese/HSK4/书学/第三课.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
