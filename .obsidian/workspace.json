@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第二课.md",
+                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -50,13 +50,8 @@
             "id": "b975e36eaa7d6eda",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -72,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md"
+                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md"
               }
             }
           },
@@ -221,37 +215,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b975e36eaa7d6eda",
+  "active": "0ef152e9c075cc47",
   "lastOpenFiles": [
+    "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
+    "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
+    "Technologies/Vim/1. Vim Motions.md",
+    "Chinese/HSK4/书学/第二课.md",
+    "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
+    "School/TC3005B/TC3005B.1/3. Control de Cambios de la Configuración.md",
+    "School/TC3005B/TC3005B.1/2. GitHub en la Gestión de Configuración.md",
+    "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
+    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Chinese/HSK4/书学/第三课.md",
+    "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
+    "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
+    "Chinese/HSK4/书学/Untitled.canvas",
+    "Chinese/HSK4/书学/第一课.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
-    "Chinese/HSK4/书学/第一课.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
-    "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Masters/Index.md",
     "Chinese/HSK4/安全的词汇.md",
     "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/旅游",
-    "Chinese/HSK4/书学/第二课.md",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Templates/中文文件.md",
     "Pomodoro Logs.md",
     "Templates/Pomodoro Logs.md",
     "Untitled.md",
     "Templates/Flashcarded Note.md",
-    "Masters/Systems Programming/1. Background/1.5 Operating System User Viewpoint, Batch Control Language.md",
-    "Chinese/HSK4/书学/Untitled 1.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
-    "Masters/Systems Programming/1. Background/Untitled.md",
-    "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
-    "Masters/Systems Programming/1. Background/1.1 Machine Structure.md",
-    "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
-    "Masters/Systems Programming/1. Background/1.4 Operating System User Viewpoint, Functions.md",
-    "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
-    "2. Memoization.md",
     "Chinese/HSK4/书学",
     "Chinese/HSK4/阅读",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
