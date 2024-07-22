@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ef152e9c075cc47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b23bdb57a6fb08a7",
             "type": "leaf",
             "state": {
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md"
+                "file": "Chinese/HSK4/书学/第三课.md"
               }
             }
           },
@@ -215,8 +202,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0ef152e9c075cc47",
+  "active": "b23bdb57a6fb08a7",
   "lastOpenFiles": [
+    "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
     "Technologies/Vim/1. Vim Motions.md",
@@ -245,7 +233,6 @@
     "Pomodoro Logs.md",
     "Templates/Pomodoro Logs.md",
     "Untitled.md",
-    "Templates/Flashcarded Note.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "Chinese/HSK4/书学",
     "Chinese/HSK4/阅读",
