@@ -54,7 +54,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b23bdb57a6fb08a7",
+  "active": "679bbe28fe4d9de4",
   "lastOpenFiles": [
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
