@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:operating-system",
+                "query": "tag:#AOSR/1dmtr/s/4vne",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,8 +195,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "679bbe28fe4d9de4",
+  "active": "b23bdb57a6fb08a7",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第一课.md",
     "Chinese/HSK4/书学/第三课.md",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
@@ -211,7 +212,6 @@
     "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
     "Chinese/HSK4/书学/Untitled.canvas",
-    "Chinese/HSK4/书学/第一课.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
