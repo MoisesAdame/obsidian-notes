@@ -34,14 +34,6 @@
             }
           },
           {
-            "id": "b975e36eaa7d6eda",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
             "id": "16e3b31725961f6f",
             "type": "leaf",
             "state": {
@@ -205,6 +197,7 @@
   },
   "active": "679bbe28fe4d9de4",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第三课.md",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
@@ -215,7 +208,6 @@
     "School/TC3005B/TC3005B.1/2. GitHub en la Gestión de Configuración.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
-    "Chinese/HSK4/书学/第三课.md",
     "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
     "Chinese/HSK4/书学/Untitled.canvas",
