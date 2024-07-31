@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md",
+                "file": "Chinese/HSK4/书学/第三课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第一课.md"
+                "file": "Chinese/HSK4/书学/第三课.md"
               }
             }
           },
@@ -196,10 +196,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "16e3b31725961f6f",
+  "active": "679bbe28fe4d9de4",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第三课.md",
     "Chinese/HSK4/书学/第一课.md",
+    "Chinese/HSK4/书学/第三课.md",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
