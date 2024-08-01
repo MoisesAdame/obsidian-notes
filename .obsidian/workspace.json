@@ -39,20 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/阅读/第2课自写的课文.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c4f8bdfdac6c9aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "Chinese/HSK4/阅读/第1课自写的课文.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "Chinese/HSK4/阅读/第1课自写的课文.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "Chinese/HSK4/阅读/第1课自写的课文.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md"
+                "file": "Chinese/HSK4/阅读/第1课自写的课文.md"
               }
             }
           },
@@ -208,15 +195,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c4f8bdfdac6c9aa",
+  "active": "a7f846afdf20deea",
   "lastOpenFiles": [
     "Chinese/HSK4/阅读/第2课自写的课文.md",
-    "Chinese/HSK4/安全的词汇.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Chinese/HSK4/书学/第2课.md",
+    "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
+    "Chinese/HSK4/安全的词汇.md",
     "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/书学/第3课.md",
-    "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Chinese/HSK4/书学/Untitled.canvas",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
