@@ -4,50 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2698e386b37ee950",
+        "id": "3583ba97bad85d10",
         "type": "tabs",
         "children": [
           {
-            "id": "b23bdb57a6fb08a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/阅读/第1课自写的课文.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "679bbe28fe4d9de4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/阅读/第2课自写的课文.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7f846afdf20deea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第3课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cc6dc28cf27bb27",
+            "id": "661f0d7a8b52dc9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,13 +170,17 @@
   },
   "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-    "Chinese/HSK4/书学/第3课.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists",
-    "School/Quantum",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "Masters/Systems Programming/Assets/fig1.3.png",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Assets",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists",
+    "School/Quantum",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Chinese/HSK4/安全的词汇.md",
@@ -234,11 +198,9 @@
     "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
     "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
-    "Masters/Index.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
@@ -250,14 +212,11 @@
     "Untitled.canvas",
     "Technologies/SQL/SQL Language/Data Definition Language",
     "Technologies/SQL/SQL Language/Data Manipulation Language",
-    "Technologies/SQL/SQL Language",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
-    "Masters/Systems Programming/Assets/fig1.3.png",
     "Technologies/Neo4j/Assets/graph-parts.png",
     "Technologies/Neo4j/Assets/movie-schema.png",
-    "Technologies/Neo4j/Assets/movie-schema.svg",
-    "Screenshot 2024-05-13 at 0.23.33.png"
+    "Technologies/Neo4j/Assets/movie-schema.svg"
   ]
 }
