@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9cc6dc28cf27bb27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第3课.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第3课.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第3课.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md"
               }
             }
           },
@@ -195,15 +208,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7f846afdf20deea",
+  "active": "9cc6dc28cf27bb27",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第3课.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists",
+    "School/Quantum",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Chinese/HSK4/安全的词汇.md",
     "Chinese/HSK4/书学/第1课.md",
-    "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/书学/Untitled.canvas",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
@@ -225,7 +241,6 @@
     "Chinese/旅游/Flashcards for Trip to China.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
-    "Templates/中文文件.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "Chinese/HSK4/书学",
     "Chinese/HSK4/阅读",
@@ -236,8 +251,6 @@
     "Technologies/SQL/SQL Language/Data Definition Language",
     "Technologies/SQL/SQL Language/Data Manipulation Language",
     "Technologies/SQL/SQL Language",
-    "Technologies/SQL/Database Generalities",
-    "Technologies/SQL",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
