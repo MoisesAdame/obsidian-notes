@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "661f0d7a8b52dc9d",
+            "id": "c96d5269c87c9cb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "661f0d7a8b52dc9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -28,7 +41,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md"
               }
             }
           },
@@ -178,10 +192,10 @@
   },
   "active": "661f0d7a8b52dc9d",
   "lastOpenFiles": [
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
     "Technologies/Vim/1. Vim Motions.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
