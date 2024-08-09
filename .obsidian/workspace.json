@@ -41,8 +41,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md"
               }
             }
           },
@@ -190,17 +189,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "661f0d7a8b52dc9d",
+  "active": "c96d5269c87c9cb7",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
-    "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Chinese/HSK4/书学/第3课.md",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets",

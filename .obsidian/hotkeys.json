@@ -15,7 +15,6 @@
       "key": "M"
     }
   ],
-  "workspace:new-tab": [],
   "workspace:undo-close-pane": [],
   "pomodoro-timer:toggle-timer-panel": [
     {
@@ -44,14 +43,6 @@
       "key": "T"
     }
   ],
-  "editor:insert-tag": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
   "editor:insert-codeblock": [
     {
       "modifiers": [
@@ -59,6 +50,24 @@
         "Shift"
       ],
       "key": "C"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
     }
   ]
 }
