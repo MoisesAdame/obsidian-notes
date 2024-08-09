@@ -2,6 +2,7 @@
 - Bioingeniería y Biotecnología
 - Fundamentos de mutaciones
 - Entender que es una mutación (que son, tipos).
+- Links: https://drive.google.com/drive/folders/1_oNGvP_DJN1Trvyb-zzBjQTrxfTpVspF?usp=sharing
 
 ## Diego Santiago-Alarcón
 - Ecología, biología evolutiva
@@ -27,5 +28,18 @@
 
 ## Papers Introductorios
 - Sesión Introductoria: 
-- Mutation, Randomness and Evolution (libro)
-- 
+- Mutation, Randomness and Evolution (libro) -> Empezar a leerlo
+- Martes presentar algo con el grupo sobre lo leído.
+- Leer capítulos de genética y bilogía molecular. (Life de McMillan David Gillis, tiene una abeja en la portada)
+
+1. Donde trabajar
+2. Folder de trabajo (descargar campbell, de biología)
+
+
+1:00, Martes. Platicar de principios de biología.
+
+
+Lo primero que hacer
+1. Entender lenguaje
+2. Entender el estado del arte (lo que ya se hizo). Para formular la pregunta.
+3. 
