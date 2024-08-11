@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "e558cff94c56d07b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "11865ff93809e737",
             "type": "leaf",
             "state": {
@@ -55,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
+                "file": "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
+                "file": "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md"
+                "file": "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md"
               }
             }
           },
@@ -203,10 +216,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "21663ff04f3ec570",
+  "active": "e558cff94c56d07b",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
+    "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
+    "School/Quantum/Life, The Science of Biology",
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Technologies/Vim/1. Vim Motions.md",
@@ -236,7 +251,6 @@
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "Masters/Systems Programming/1. Background/1.8 Questions.md",
-    "Masters/Systems Programming/1. Background/1.7 Summary.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
@@ -247,7 +261,6 @@
     "Chinese/HSK4",
     "Untitled.canvas",
     "Technologies/SQL/SQL Language/Data Definition Language",
-    "Technologies/SQL/SQL Language/Data Manipulation Language",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
