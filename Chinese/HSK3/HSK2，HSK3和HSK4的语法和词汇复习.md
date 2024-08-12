@@ -23,22 +23,29 @@ tags:
 我**听懂**了。(I heard and understood.)
 
 ### 6. 不要/别
-**别**着急，你学会了语法。(Don't panic, you studied all the )
+**别**着急，你学会了语法。(Don't panic, you dominate all the grammar. )
 
 ### 7. 得
-我妈妈画**得**特别美。
-我姐姐做饭做**得**很好吃。
+我妈妈画**得**特别美。(My mom draws specially beautifully.)
+我姐姐做饭做**得**很好吃。(My sister cooks very delicious.)
 ### 8. 过和没有。。。过
-我还**没有**去**过**中国。
-我练习**过**打拳击三次。
+我还**没有**去**过**中国。(I haven't been to China yet.)
+我练习**过**打拳击三次。(I have practiced boxing three times.)
 
 ### 9. 都。。。了
-**都**早上九点半**了**，该离开。
+**都**早上九点半**了**，该离开。(It's already 9:30 a.m., time to go.)
 
-
-
+### 10. 虽然。。。但是。。。
+**虽然**他很穷，**但是**他毕业了。
 
 ## HSK3
+### 1. 一。。。也/都+不/没+V
+他**一**会儿**也没有**休息。
+他**一**个苹果**也没吃**。
+我**一**个颜色**都不**喜欢。
+
+### 2. V+去/来
+你
 
 
 

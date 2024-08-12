@@ -71,6 +71,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fdc94e9580034caa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第2课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 4,
@@ -225,11 +238,14 @@
   },
   "active": "c256955d58597ab9",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第2课.md",
+    "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "Templates/Flashcarded Note.md",
     "Templates/Normal Note.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
@@ -244,15 +260,12 @@
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
-    "Chinese/HSK4/书学/第3课.md",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets",
     "School/Quantum/Quantum Computing fot Computer Scientists",
     "School/Quantum",
-    "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Chinese/HSK4/安全的词汇.md",
-    "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/书学/Untitled.canvas",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
