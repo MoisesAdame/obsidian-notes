@@ -13,4 +13,14 @@ This examples are:
 4. Result of Human Engineering
 
 ## A1. Replication Error
+This is all done by the **DNA polymerase** when adding nucleotides, and goes like this:
+1. Polymerase goes to the end of the strand.
+2. Polymerase adds a complementary unit. This can fail and result in a **misinsertion**.
+3. The polymerase **proofreads** and corrects errors. If the error isn't detected, it becomes an **internal mispair**.
 
+When we have an **internal mispair** we have a **premutation**. When we replicate this, we have a **mutation**.
+
+This type of **mutation is rare** because:
+1. Misinsertions are rare.
+2. Proofreading removes most errors.
+3. Mismatch repair, removes most mispairs.
