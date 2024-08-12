@@ -8,59 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c96d5269c87c9cb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "661f0d7a8b52dc9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21663ff04f3ec570",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e558cff94c56d07b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5dda524ddb401f3",
+            "id": "971dfad9e637f238",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,9 +27,22 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "368f7a52d48d18ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md"
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md"
               }
             }
           },
@@ -229,15 +190,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c5dda524ddb401f3",
+  "active": "368f7a52d48d18ad",
   "lastOpenFiles": [
-    "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
-    "School/Quantum/Mutation, Randomness, and Evolution",
-    "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
-    "School/Quantum/Life, The Science of Biology",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
+    "School/Quantum/Life, The Science of Biology/11. Genes and Heredity.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+    "School/Quantum/Mutation, Randomness, and Evolution",
+    "School/Quantum/Life, The Science of Biology",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
@@ -264,7 +226,6 @@
     "Masters/Systems Programming/1. Background/1.6 Operating System User Viewpoint, Facilities.md",
     "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
     "Masters/Automata And Computability/2. Finite Automata And Regular Sets/4. More On Regular Sets.md",
-    "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
