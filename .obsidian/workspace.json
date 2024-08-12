@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "Chinese/HSK4/书学/第1课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -238,11 +238,12 @@
   },
   "active": "c256955d58597ab9",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
+    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
-    "Chinese/HSK4/书学/第3课.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
@@ -257,7 +258,6 @@
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Masters/Systems Programming/Assets/fig1.3.png",
