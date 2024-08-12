@@ -68,7 +68,6 @@
             }
           }
         ],
-        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md"
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md"
               }
             }
           },
@@ -217,12 +216,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11865ff93809e737",
+  "active": "971dfad9e637f238",
   "lastOpenFiles": [
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
