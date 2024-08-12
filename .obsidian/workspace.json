@@ -58,9 +58,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c2be897b4ad26492",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 3,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -213,11 +222,11 @@
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
-    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution",
     "School/Quantum/Life, The Science of Biology",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
