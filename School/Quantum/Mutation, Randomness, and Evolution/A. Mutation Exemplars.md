@@ -43,8 +43,9 @@ How the process works?
 4. If the **repair synthesis** has error, there is a **mutation**.
 
 ## A3. Symbolic Mutation Process in a Computer Program
+This is done using **Pseudo Random Number Generator (PRNG)**. Then we define a matrix of $n \times m$, where $n$ is the different types of mutations and $m$ are the possible triplet contexts.
 
-
+Considering this, we define each mutation as a segment in the number line and use our PRNG to select a place. It is important to say that 
 
 
 
