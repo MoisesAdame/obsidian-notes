@@ -58,6 +58,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09e2370dfca16678",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3,
@@ -212,8 +220,8 @@
   },
   "active": "11865ff93809e737",
   "lastOpenFiles": [
-    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
