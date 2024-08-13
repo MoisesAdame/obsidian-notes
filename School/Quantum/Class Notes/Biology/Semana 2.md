@@ -110,7 +110,16 @@ Células germinales se dividen por **meiosis**, se copia solo una mitad del crom
 
 ### Mutaciones Puntuales
 Transición: A->G, o C->T
-Transversión: A -
+Transversión: A -> C
+
+Si hay mutación y cambio de aminoácidos puede pasar que:
+- Estructura y propiedades de proteína cambie.
+- Proteína no termine.
+
+Si hay **mutación en intrones** hay señales de corte y empalme. Por ello se traduce más de lo que es.
+
+### Deleción e Inserción
+Se agrega **par de bases**
 
 
 
