@@ -34,24 +34,16 @@
             }
           },
           {
-            "id": "3163d29e2d4ba25f",
+            "id": "0b18b031c4afb438",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "09e2370dfca16678",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -106,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -122,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md"
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md"
               }
             }
           },
@@ -204,14 +197,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3163d29e2d4ba25f",
+  "active": "0b18b031c4afb438",
   "lastOpenFiles": [
+    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
@@ -222,7 +216,6 @@
     "Templates/Flashcarded Note.md",
     "Templates/Normal Note.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
     "School/Quantum/Mutation, Randomness, and Evolution",
     "School/Quantum/Life, The Science of Biology",
