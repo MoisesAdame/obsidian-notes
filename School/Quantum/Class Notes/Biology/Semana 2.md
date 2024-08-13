@@ -36,10 +36,31 @@ Cuando lo interpretan proteínas, se generan RNA. Otras bases nitogenadas cambia
 Transcripción: ADN -> RNA
 Traducción: RNA -> Proteína
 
-### De Cromosoma a ADN
+### De Cromosoma a ADN en Eucariontes
 Como se forma
-- Cromosoma
-- Se enrolla en histonas
+- Cromosoma.
+- Se enrolla en histonas (carga positiva) y grupo nitogenado (carga negativa). Se enrollan 121 pares de bases. La unión con adn e histonas es reversible, a veces esta más o menos apretado
+
+Fragmentos de ADN son **genes**. Si esta apretado, proteínas no entran y gen no se expresa.
+
+### Compactación de ADN en Procariontes
+Tienen **cromosomas** y **plásmidos**.
+
+### Genes
+Gen: Fragmento de ADN
+
+Hay genes **codificantes** y genes **no codificantes**.
+
+Partes de gen:
+1. Promotor (inicio): Promueve la expresión de ese gen
+2. Codificante (medio)
+3. Terminador (final)
+
+De un gen, no se transcribe todo, solo la **región codificante**.
+
+En genes **eucariontes**, la región codificante se divide en **bloques**. Intron (espacios blancos), exon (cajas con información). Que haya exones e intrones permite obtener mas variación, por ejemplo, diferentes proteínas.
+
+RNA polimerasa, **transcribe** empezando por el i
 
 
 
