@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md"
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md"
               }
             }
           },
@@ -224,15 +224,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b18b031c4afb438",
+  "active": "2dc85979b591a67b",
   "lastOpenFiles": [
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
