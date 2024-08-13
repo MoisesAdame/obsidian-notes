@@ -4,6 +4,8 @@ tags:
   - nucleotide
   - dna-repair
   - dna-replication
+  - computer-mutation
+  - human-engineered-mutation
 ---
 Date: 2024-08-11 : 18:18
 ***
@@ -45,8 +47,10 @@ How the process works?
 ## A3. Symbolic Mutation Process in a Computer Program
 This is done using **Pseudo Random Number Generator (PRNG)**. Then we define a matrix of $n \times m$, where $n$ is the different types of mutations and $m$ are the possible triplet contexts.
 
-Considering this, we define each mutation as a segment in the number line and use our PRNG to select a place. It is important to say that 
+Considering this, we define each mutation as a segment in the number line and use our PRNG to select a place. It is important to say that given a segment $(a, b)$, the value $|b - a| \propto p$, where $p$ is the **probability of the outcome**.
 
+## A4. Human Engineered Mutations
+Can be done cheaply using **oligonucleotides**. And the process can make any given DNA strand using the following matrix. The matrix has to be $S_{4 \times n}$, where $S_{ij}$ is the frequency of the nucleotide $i = {A, C, G, T}$ at the position $j$ of the sequence. 
 
 
 
