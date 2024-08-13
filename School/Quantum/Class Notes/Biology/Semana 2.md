@@ -60,7 +60,49 @@ De un gen, no se transcribe todo, solo la **región codificante**.
 
 En genes **eucariontes**, la región codificante se divide en **bloques**. Intron (espacios blancos), exon (cajas con información). Que haya exones e intrones permite obtener mas variación, por ejemplo, diferentes proteínas.
 
-RNA polimerasa, **transcribe** empezando por el i
+RNA polimerasa, **transcribe** empezando por el inicio del **codificante**.
+
+mRNA tiene el código de inicio de traducción **AUG**. Se generan aminoácidos (que forman proteínas) que se van uniendo por los **ribosomas**. El ribosoma para al encontrar el **codón de paro**.
+
+### Mutaciones
+Hay muchas razones:
+- Exposición a agentes genotóxicos (fumar, quimioterapia)
+- Aspectos exógenos.
+- Aspectos endógenos.
+
+**Apoptosis:** Suicidio de célula por mal funcionamiento. No ocurre en células de cáncer.
+
+Que pasa cuando hay mutación:
+1. Cromosomas son inestables.
+2. Se evade la apoptosis.
+3. Hay inflamación.
+4. Se altera el funcionamiento de la mitocondria
+
+### Tipos de Mutación
+Por ubicación:
+- Células somáticas. Todas menos gamentos.
+- Células germinales. Gamentos.
+
+Por nivel:
+- Puntuales: Nucleótidos (inserción, deleción, etc)
+- Génicas: Bloques grandes (inserción, deleción, etc).
+
+Por origen:
+- Espontáneas: Error de inserción
+- Inducidas: exposición a agentes genotóxicos
+
+Por efecto:
+- Silenciosa: CAA = CAU
+
+Tamaño:
+- Molecular
+- Cromosómico
+- Genómico (Trisomía 21)
+
+
+
+
+
 
 
 
