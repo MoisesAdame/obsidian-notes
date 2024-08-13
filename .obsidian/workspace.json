@@ -42,7 +42,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md"
               }
             }
           },
@@ -191,10 +191,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "043628d44e942ce1",
+  "active": "c37bbcf990f2ca69",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
     "School/Quantum/Class Notes/Biology/Untitled 2.md",
     "Templates/Flashcarded Note.md",
