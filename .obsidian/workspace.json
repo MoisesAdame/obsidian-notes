@@ -68,7 +68,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md"
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md"
               }
             }
           },
@@ -219,11 +218,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3163d29e2d4ba25f",
+  "active": "971dfad9e637f238",
   "lastOpenFiles": [
-    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
