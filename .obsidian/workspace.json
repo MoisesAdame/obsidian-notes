@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -192,7 +191,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9bd7376bedab37f6",
+  "active": "043628d44e942ce1",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
