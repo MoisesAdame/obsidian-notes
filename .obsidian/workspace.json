@@ -45,6 +45,32 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "690d52cbe7acb7a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2dc85979b591a67b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2,
@@ -176,11 +202,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,14 +226,18 @@
   },
   "active": "0b18b031c4afb438",
   "lastOpenFiles": [
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "School/Quantum/Class Notes/Biology/Semana 2.md",
+    "School/Quantum/Class Notes/Reunión de Inicio.md",
+    "School/Quantum/Life, The Science of Biology/Untitled.canvas",
+    "School/Quantum/Class Notes/Biology",
+    "School/Quantum/Class Notes",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Untitled.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Life, The Science of Biology/Untitled.canvas",
-    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
@@ -216,7 +247,6 @@
     "Chinese/HSK4/书学/第2课.md",
     "Templates/Flashcarded Note.md",
     "Templates/Normal Note.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/Reunión de Inicio.md",
     "School/Quantum/Mutation, Randomness, and Evolution",
     "School/Quantum/Life, The Science of Biology",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
@@ -234,12 +264,9 @@
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
-    "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
-    "Chinese/HSK4/书学",
-    "Chinese/HSK4/阅读",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Untitled.canvas",
