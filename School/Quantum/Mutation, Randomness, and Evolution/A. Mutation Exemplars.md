@@ -24,3 +24,12 @@ This type of **mutation is rare** because:
 1. Misinsertions are rare.
 2. Proofreading removes most errors.
 3. Mismatch repair, removes most mispairs.
+
+## A2. Error-prone repair of DNA damage
+
+
+
+
+
+
+
