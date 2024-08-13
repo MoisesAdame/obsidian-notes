@@ -99,8 +99,18 @@ Tamaño:
 - Cromosómico
 - Genómico (Trisomía 21)
 
+### Mutación Somáticas vs Germinales
+Es mas peligrosa una **germinal**, porque si se hereda. La **somática** no pasa nada porque es como la piel, se va renovando.
 
+Germial: Se combian por **reprodución sexual**.
+Somática: Se combina por **mitosis** (división celular).
 
+### Mutaciones Genómicas
+Células germinales se dividen por **meiosis**, se copia solo una mitad del cromosoma. Cuando se lleva de más, se lleva más de un cromosoma 
+
+### Mutaciones Puntuales
+Transición: A->G, o C->T
+Transversión: A -
 
 
 
