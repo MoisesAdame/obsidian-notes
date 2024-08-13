@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md"
+                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md"
               }
             }
           },
@@ -219,12 +219,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11865ff93809e737",
+  "active": "3163d29e2d4ba25f",
   "lastOpenFiles": [
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
