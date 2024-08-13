@@ -32,6 +32,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d9f8d80b915c261c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1,
@@ -155,7 +163,7 @@
             }
           },
           {
-            "id": "b176670afcdc2d7d",
+            "id": "9bd7376bedab37f6",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -167,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +192,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "043628d44e942ce1",
+  "active": "9bd7376bedab37f6",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
     "School/Quantum/Class Notes/Biology/Untitled 2.md",
     "Templates/Flashcarded Note.md",
