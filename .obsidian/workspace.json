@@ -63,12 +63,12 @@
             "id": "09e2370dfca16678",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md"
+                "file": "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md"
               }
             }
           },
@@ -219,13 +219,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3163d29e2d4ba25f",
+  "active": "11865ff93809e737",
   "lastOpenFiles": [
-    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+    "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
-    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Chinese/HSK4/书学/第1课.md",
