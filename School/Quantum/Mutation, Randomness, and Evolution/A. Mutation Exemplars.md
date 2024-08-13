@@ -2,6 +2,8 @@
 tags:
   - mutation
   - nucleotide
+  - dna-repair
+  - dna-replication
 ---
 Date: 2024-08-11 : 18:18
 ***
@@ -28,9 +30,27 @@ This type of **mutation is rare** because:
 ## A2. Error-prone repair of DNA damage
 ![[figA2.1.png|300]]
 
-Mutations can be caused by **damaging DNA**. One example of this is UVB light, whose photons can be absorbed by the bonds of the Thymine (T) and Cytosine (C). This causes the bonds to break and be different than how they should be, causing what is known as a **pyrimine dimer**, that can be comapared to a  jammed up zipper. Replication causes **mutation**.
+Mutations can be caused by **damaging DNA**. One example of this is UVB light, whose photons can be absorbed by the bonds of the Thymine (T) and Cytosine (C). This causes the bonds to break and be different than how they should be, causing what is known as a **pyrimidine dimer**, that can be compared to a  jammed up zipper. Replication causes **mutation**.
 
 Damage from **radiation** or **chemical exposure** can or can't be correctly repaired, the latter causing mutation
+
+**Repairing DNA** is error prone, so it has more errors than normal replication.
+
+How the process works?
+1. Damage happens in a C:G base pair (pyrimidine dimer).
+2. The damage is found and **excised (extirpado)**.
+3. **Repair Polymerase** fills the gap and **ligase** closes the opening.
+4. If the **repair synthesis** has error, there is a **mutation**.
+
+## A3. Symbolic Mutation Process in a Computer Program
+
+
+
+
+
+
+
+
 
 
 
