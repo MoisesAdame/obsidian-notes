@@ -115,7 +115,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,9 +221,11 @@
   },
   "active": "3163d29e2d4ba25f",
   "lastOpenFiles": [
-    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
+    "School/Quantum/Mutation, Randomness, and Evolution/Assets",
+    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Chinese/HSK4/书学/第1课.md",
@@ -253,7 +256,6 @@
     "Technologies/SQL/SQL Language/Data Manipulation Language/WITH.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
     "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
-    "School/TC3005B/TC3005B.1/3. Control de Cambios de la Configuración.md",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
@@ -261,13 +263,11 @@
     "Chinese/HSK4/阅读",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
-    "Chinese/HSK4",
     "Untitled.canvas",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
     "Screenshot 2024-05-24 at 16.11.15.png",
     "Technologies/Neo4j/Assets/graph-parts.png",
-    "Technologies/Neo4j/Assets/movie-schema.png",
-    "Technologies/Neo4j/Assets/movie-schema.svg"
+    "Technologies/Neo4j/Assets/movie-schema.png"
   ]
 }

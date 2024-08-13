@@ -26,10 +26,11 @@ This type of **mutation is rare** because:
 3. Mismatch repair, removes most mispairs.
 
 ## A2. Error-prone repair of DNA damage
+![[figA2.1.png|300]]
 
+Mutations can be caused by **damaging DNA**. One example of this is UVB light, whose photons can be absorbed by the bonds of the Thymine (T) and Cytosine (C). This causes the bonds to break and be different than how they should be, causing what is known as a **pyrimine dimer**, that can be comapared to a  jammed up zipper. Replication causes **mutation**.
 
-
-
+Damage from **radiation** or **chemical exposure** can or can't be correctly repaired, the latter causing mutation
 
 
 
