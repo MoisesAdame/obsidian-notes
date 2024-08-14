@@ -160,7 +160,7 @@
             }
           },
           {
-            "id": "9bd7376bedab37f6",
+            "id": "eeaabfa0cdfb60cb",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -189,7 +189,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d9f8d80b915c261c",
+  "active": "eeaabfa0cdfb60cb",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
