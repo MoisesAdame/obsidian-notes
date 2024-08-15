@@ -45,6 +45,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c98b345a381eecc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2,
@@ -199,11 +207,11 @@
   },
   "active": "87da09d8902f7fbd",
   "lastOpenFiles": [
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.1.png",
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
