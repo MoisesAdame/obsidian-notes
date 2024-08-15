@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c37bbcf990f2ca69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "043628d44e942ce1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,6 +39,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87da09d8902f7fbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Technologies/Vim/1. Vim Motions.md",
                 "mode": "source",
                 "backlinks": false,
@@ -60,6 +60,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -110,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第2课.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md"
               }
             }
           },
@@ -208,16 +210,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c37bbcf990f2ca69",
+  "active": "d9f8d80b915c261c",
   "lastOpenFiles": [
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "Technologies/Vim/1. Vim Motions.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
+    "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "Technologies/React/Hooks/2. State Hooks.md",
     "Technologies/React/Hooks/1. Generalidades.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
     "School/Quantum/Class Notes/Biology/Untitled 2.md",
@@ -237,13 +241,11 @@
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Chinese/HSK4/书学/第3课.md",
-    "Chinese/HSK4/书学/第2课.md",
     "Templates/Normal Note.md",
     "School/Quantum/Mutation, Randomness, and Evolution",
     "School/Quantum/Life, The Science of Biology",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets",
     "School/Quantum/Quantum Computing fot Computer Scientists",
