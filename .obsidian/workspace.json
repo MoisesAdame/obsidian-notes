@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+                "file": "Chinese/HSK4/书学/第2课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -111,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+                "file": "Chinese/HSK4/书学/第2课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+                "file": "Chinese/HSK4/书学/第2课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md"
+                "file": "Chinese/HSK4/书学/第2课.md"
               }
             }
           },
@@ -210,11 +208,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e259fdaa45b4b45c",
+  "active": "c37bbcf990f2ca69",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第1课.md",
+    "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
+    "Technologies/React/Hooks/2. State Hooks.md",
+    "Technologies/React/Hooks/1. Generalidades.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
@@ -233,7 +235,6 @@
     "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
-    "Chinese/HSK4/书学/第1课.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/书学/第2课.md",
@@ -243,13 +244,10 @@
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.2 Machine Language.md",
-    "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets",
     "School/Quantum/Quantum Computing fot Computer Scientists",
     "School/Quantum",
-    "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
-    "Chinese/HSK4/安全的词汇.md",
     "Chinese/HSK4/书学/Untitled.canvas",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
