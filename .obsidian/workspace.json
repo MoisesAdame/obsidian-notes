@@ -50,12 +50,38 @@
             "id": "9c98b345a381eecc",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f5b056c32446738",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 3.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "296d4d942a58da96",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -103,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -124,7 +150,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +166,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,9 +187,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,26 +228,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87da09d8902f7fbd",
+  "active": "296d4d942a58da96",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Class Notes/Biology/Semana 3.md",
+    "School/Quantum/Class Notes/Biology/Semana 2.md",
+    "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.2.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.2.png",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.1.png",
-    "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "Technologies/React/Hooks/2. State Hooks.md",
     "Technologies/React/Hooks/1. Generalidades.md",
-    "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Reunión de Inicio.md",
     "School/Quantum/Class Notes/Biology/Untitled 2.md",
     "Templates/Flashcarded Note.md",
-    "School/Quantum/Class Notes/Biology/Untitled 1.md",
-    "School/Quantum/Class Notes/Biology/Untitled.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
