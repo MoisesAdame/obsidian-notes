@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,9 +208,10 @@
   },
   "active": "87da09d8902f7fbd",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.2.png",
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.1.png",
     "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
@@ -254,7 +256,6 @@
     "Untitled.canvas",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Screenshot 2024-05-24 at 16.28.44.png",
-    "Screenshot 2024-05-24 at 16.11.15.png",
-    "Technologies/Neo4j/Assets/graph-parts.png"
+    "Screenshot 2024-05-24 at 16.11.15.png"
   ]
 }
