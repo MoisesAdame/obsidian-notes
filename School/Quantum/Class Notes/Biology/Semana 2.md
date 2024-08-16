@@ -1,6 +1,8 @@
 ---
 tags:
   - biology
+  - mutation
+  - dna
 ---
 Date: 2024-08-13 : 13:59
 ***

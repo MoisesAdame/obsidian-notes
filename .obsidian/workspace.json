@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "296d4d942a58da96",
+            "id": "a1ba7d3eac0a9f52",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -150,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 3.md"
+              }
             }
           },
           {
@@ -199,7 +203,7 @@
             }
           },
           {
-            "id": "22f35148a99daf4e",
+            "id": "3fc171340f930f79",
             "type": "leaf",
             "state": {
               "type": "timer-view",
@@ -211,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,14 +233,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "296d4d942a58da96",
+  "active": "1f5b056c32446738",
   "lastOpenFiles": [
     "School/Quantum/Class Notes/Biology/Semana 3.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
-    "School/Quantum/Class Notes/Biology/Untitled 1.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
+    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
+    "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.2.png",
     "Technologies/Vim/1. Vim Motions.md",
@@ -250,8 +257,6 @@
     "Templates/Flashcarded Note.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
