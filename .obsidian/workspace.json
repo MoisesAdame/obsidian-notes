@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 3.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 3.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 3.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md"
               }
             }
           },
@@ -215,8 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,11 +232,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1f5b056c32446738",
+  "active": "87da09d8902f7fbd",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
