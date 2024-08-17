@@ -12,10 +12,9 @@ Date: 2024-08-16 : 16:47
 
 Como leer libros cuáinticos:
 
-Primero 08 y combinar con 10 despues de 2 y 3 cap ir al 11.
+Primero 08 y combinar con 10 después de 2 y 3 cap ir al 11.
 
 El 07 es el canónico.
-
 
 Curso: [click aquí](https://www.youtube.com/@SalvadorEVenegasAndraca/streams)
 

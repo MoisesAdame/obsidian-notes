@@ -6,5 +6,6 @@
   "table-editor-obsidian",
   "pomodoro-timer",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-linter"
 ]

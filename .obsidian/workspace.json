@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -161,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing fot Computer Scientists/4. Basic Quantum Theory.md"
+                "file": "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md"
               }
             }
           },
@@ -243,16 +244,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "01744525afd0310f",
+  "active": "e259fdaa45b4b45c",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing fot Computer Scientists/4. Basic Quantum Theory.md",
-    "Templates/Normal Note.md",
-    "School/Quantum/Class Notes/Biology/Semana 2.md",
-    "Templates/中文文件.md",
-    "School/Quantum/Class Notes/Biology/Semana 3.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "Chinese/HSK4/书学/第1课.md",
+    "School/Quantum/Quantum Computing fot Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Class Notes/Biology/Semana 2.md",
+    "School/Quantum/Class Notes/Biology/Semana 3.md",
+    "Templates/Normal Note.md",
+    "Templates/中文文件.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Class Notes/Biology/Untitled 1.md",
@@ -260,7 +262,6 @@
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/Assets/fig3.1.png",
     "Chinese/HSK4/书学/第2课.md",
-    "Chinese/HSK4/书学/第1课.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "Technologies/React/Hooks/2. State Hooks.md",
     "Technologies/React/Hooks/1. Generalidades.md",
