@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -136,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+              }
             }
           },
           {
@@ -214,10 +218,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d8acdacae67c3da1",
+  "active": "700dbf2efe3d44a4",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/Untitled.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
@@ -248,7 +253,6 @@
     "School/Quantum/Mutation, Randomness, and Evolution/Assets",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
-    "Chinese/HSK4/书学/第3课.md",
     "School/Quantum/Mutation, Randomness, and Evolution",
     "School/Quantum/Life, The Science of Biology",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
