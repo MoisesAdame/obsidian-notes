@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68bf7450fa61e331",
+        "id": "ba95caf7c74cb598",
         "type": "tabs",
         "children": [
           {
-            "id": "043628d44e942ce1",
+            "id": "8b8660ad9da4930d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "e259fdaa45b4b45c",
+            "id": "cc0971936cff5f8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "74c9689caaaf05d8",
+            "id": "97e5ad1aecb8e261",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "8a08db95f22c8cd8",
+            "id": "700dbf2efe3d44a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,14 +57,6 @@
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "3f31137ac50d09e4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -218,14 +210,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8a08db95f22c8cd8",
+  "active": "700dbf2efe3d44a4",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "Chinese/HSK4/书学/第1课.md",
     "Templates/Normal Note.md",
     "Templates/中文文件.md",
