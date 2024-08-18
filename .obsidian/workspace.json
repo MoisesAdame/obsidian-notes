@@ -58,9 +58,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8acdacae67c3da1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -128,7 +136,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +173,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
-              }
+              "state": {}
             }
           },
           {
@@ -210,12 +214,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700dbf2efe3d44a4",
+  "active": "d8acdacae67c3da1",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
     "Chinese/HSK4/书学/第1课.md",
