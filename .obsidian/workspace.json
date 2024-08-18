@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -136,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+              }
             }
           },
           {
@@ -214,7 +218,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3f31137ac50d09e4",
+  "active": "8a08db95f22c8cd8",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
