@@ -100,6 +100,21 @@ Pueden ser por radiación:
 - Ionizante: Como la radioactividad. La mas peligrosa. Mas letal porque rompe las dos hebras.
 - No ionizante: Como la luz UV
 
+### Factores que Generan Mutación
+1. Procesos de Replicación y Reparación.
+2. Factores Genómicos.
+3. Exposisión ambiental. (Radiación UV, fármacos, cigarro)
+
+### La celula vigila la presencia de mutaciones
+- Homologus Recombination: Cuando se corta ADN, une las dos partes.
+- Non Homologus End Joining: También une cromosomas, pero los corta y pega, sin checar, sella de forma rápida.
+- Single Strand Break
+- Nucleotide Excision Break
+- Base Excision Repair.
+- Mismatc Repair: Chechar cuando hay equivocaciones en célula.
+
+Independientemente del mecanismo, todos hacen un sensado, identifican que pasos seguir
+
 
 
 
