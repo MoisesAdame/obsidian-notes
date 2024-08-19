@@ -62,7 +62,18 @@ Codones: Tripletes de nucleótidos que forman aminoácidos
 
 **Cambio de Sentido:** Se cambia un aminoácido por otro. Cambia el **significado** lo cual puede ser invisible, cambiar efecto o dejar proteína inutil.
 
-**Sin Sentido:** 
+**Sin Sentido:** Genera un codón de paro, dejan sin terminar todas los aminoácidos.
+
+**Mutaciones del Procesamiento del RNA:** Puede ser generado por mutaciones en el intron afectando el **Splicing**: Remoción de Intrones y Unión de Exones. (Solo pasa en eucariontes)
+
+### Mutación Génica Deleción e Inserción
+Se **pierde** o se **agrega** una base nitrogenada. Puede ser que el RNA plimerasa o se salte o se bases nitrogenadas.
+
+Mutación en una base: Polimorfismo
+
+
+### Mutación Génica: Inserción de Elementos Moviles
+Esas secuencias no son genes, son **secuencias virales** que hace miles de años se unieron y esas secuencias se llaman **transposomes** 
 
 
 
