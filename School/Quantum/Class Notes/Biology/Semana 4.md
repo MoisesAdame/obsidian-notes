@@ -71,11 +71,23 @@ Se **pierde** o se **agrega** una base nitrogenada. Puede ser que el RNA plimera
 
 Mutación en una base: Polimorfismo
 
-
 ### Mutación Génica: Inserción de Elementos Moviles
-Esas secuencias no son genes, son **secuencias virales** que hace miles de años se unieron y esas secuencias se llaman **transposomes** 
+Esas secuencias no son genes, son **secuencias virales** que hace miles de años se unieron y esas secuencias se llaman **transposones** y tienen la característica de que se activen e incorporen en cualquier parte del genoma.
 
+### Efecto de las Mutaciones
+- Perdida de Función
+- Ganancia de Función
+- Aparición de Propiedades Nuevas
+- Asociada a la Expresión Génica.
 
+#### Ganancia de Función
+- Aumento de Función normal.
+
+#### Mutaciones Heterocrónico o Ectópica
+Según la ubicación de la célula, a pesar de tener el mismo genoma, producen cosas diferentes:
+
+**Heterocrónica:** Expresión de un gen en un momento inadecuado.
+**Ect´**
 
 
 
