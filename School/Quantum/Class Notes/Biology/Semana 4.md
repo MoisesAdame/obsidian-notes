@@ -87,7 +87,19 @@ Esas secuencias no son genes, son **secuencias virales** que hace miles de años
 Según la ubicación de la célula, a pesar de tener el mismo genoma, producen cosas diferentes:
 
 **Heterocrónica:** Expresión de un gen en un momento inadecuado.
-**Ect´**
+**Ectópica:** Expresión de un gen en un lugar incorrecto.
+
+### Mutaciones Puntuales
+Son: Inserción, Duplicación o Deleción
+
+Missense hay dos:
+- Conservatica: Se mantiene la carga del aminoácido
+- No Conservativa: Se cambia la carga del aminoácido
+
+Pueden ser por radiación:
+- Ionizante: Como la radioactividad. La mas peligrosa. Mas letal porque rompe las dos hebras.
+- No ionizante: Como la luz UV
+
 
 
 
