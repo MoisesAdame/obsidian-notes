@@ -115,8 +115,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -218,7 +217,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700dbf2efe3d44a4",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
