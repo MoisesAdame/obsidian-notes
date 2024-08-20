@@ -217,10 +217,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "700dbf2efe3d44a4",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
@@ -246,7 +247,6 @@
     "School/Quantum/Class Notes/Biology/Untitled 2.md",
     "Templates/Flashcarded Note.md",
     "School/Quantum/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/A. Mutation Exemplars.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
@@ -267,7 +267,6 @@
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Untitled.canvas",
     "Technologies/Neo4j/Assets/json-load-result.png",
-    "Screenshot 2024-05-24 at 16.28.44.png",
-    "Screenshot 2024-05-24 at 16.11.15.png"
+    "Screenshot 2024-05-24 at 16.28.44.png"
   ]
 }
