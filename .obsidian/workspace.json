@@ -111,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(hermi)",
+                "query": "tag:#hsk4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,7 +231,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "75f6489cd821df47",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
