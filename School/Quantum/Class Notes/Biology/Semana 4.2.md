@@ -58,6 +58,15 @@ Nucleotide: Una sección. (de noche)
 Reparan los efectos de **especies reactivas de oxígeno**. ALgunos efectos son
 - Sitios AP (Deja azucar y quita nucleótidos).
 
+#### Mismatch Repair
+Se centra en pares incorrectos de bases. Usualmente se usa en los **errores de replicación**. Se detectan mediante ciertas encimas los **aductos** (las fallas) y se sella la unión.
+
+#### Ruptura de Ambas Cadenas
+Se tiene que checar si daño es **reparable** o **irreparable**. Si es este último, se genera apoptosis.
+
+### Fase de Cíclo Celular
+Según la fase, es como se repara la ruptura de doble cadena.
+
 
 
 
