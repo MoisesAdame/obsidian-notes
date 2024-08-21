@@ -29,6 +29,13 @@ Machine Learning has been used for topics like:
 
 Although there are **mutation databases** that could be used to train models, they are useless because they don't have information such as the environment. If this was done, we could understand better the role of the environment over the mutations and create predictions of a environment, given the mutations.
 
+The study collected a 15,000 mutation events of E. Coli **whole-genome sequencing (WGS)** as well as **metadata**. This was used to train evolution, predicting **gene mutation**, given different environments.
+
+To test their model they evolved 35 lines of E. Coli during 500 generations.
+
+Data showed many things, such as:
+- Fixation rate is linear, until the big number of generatio
+
 
 
 
