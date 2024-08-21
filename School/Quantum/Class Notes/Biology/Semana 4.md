@@ -113,14 +113,4 @@ Pueden ser por radiación:
 - Base Excision Repair.
 - Mismatc Repair: Chechar cuando hay equivocaciones en célula.
 
-Independientemente del mecanismo, todos hacen un sensado, identifican que pasos seguir
-
-
-
-
-
-
-
-
-
-
+Independientemente del mecanismo, todos hacen un sensado, identifican que pasos seguir.
