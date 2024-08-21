@@ -176,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -277,11 +276,12 @@
   },
   "active": "80b9c3ee4666181b",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Untitled 1.md",
+    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "Technologies/Vim/1. Vim Motions.md",
-    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Papers",
@@ -298,7 +298,6 @@
     "Templates/中文文件.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
     "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
-    "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
     "Chinese/HSK4/书学/第2课.md",
