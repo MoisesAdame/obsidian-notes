@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 6,
         "stacked": true
       }
     ],
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 4.2.md",
+                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 4.2.md",
+                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 4.2.md"
+                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md"
               }
             }
           },
@@ -275,11 +275,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3a86ac3ebbc4beb3",
+  "active": "d377ef433d216434",
   "lastOpenFiles": [
-    "School/Quantum/Class Notes/Biology/Semana 4.md",
-    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+    "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.34.34 a.m..png",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",

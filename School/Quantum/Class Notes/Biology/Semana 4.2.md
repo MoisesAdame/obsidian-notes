@@ -64,8 +64,16 @@ Se centra en pares incorrectos de bases. Usualmente se usa en los **errores de r
 #### Ruptura de Ambas Cadenas
 Se tiene que checar si daño es **reparable** o **irreparable**. Si es este último, se genera apoptosis.
 
-### Fase de Cíclo Celular
+### Reparaciones por Fase de Ciclo Celular
 Según la fase, es como se repara la ruptura de doble cadena.
+
+#### Non Homologus Extreme Union NEHJ
+Hay daño y lo que busca es **rápido** unir, pero puede generar deleciones.
+
+#### Recombinación Homóloga
+Intercambia cadenas entre cromosomas (uno dañado y uno no) tomando como molde el no dañado.
+
+
 
 
 
