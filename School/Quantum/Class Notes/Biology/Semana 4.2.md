@@ -38,6 +38,25 @@ Que causan estos tipos de radiaciones? Hacen **modificaciones químicas** en nuc
 
 También pueden afectar la tensión en las histonas, generando que se expresen o no ciertos genes.
 
+### Vías de Reparación
+![[Screenshot 2024-08-21 at 11.34.34 a.m..png|400]]
+#### Reparación Directa
+Se usan **photoliasas** y repara la riadiación. Quita **dímeros de pirimidina**
+
+#### Reparación Acoplada Transcripción
+Se crea ARNm, en ese proceso, puede haber equivocaciones. Se activan mecanismos para repararlos.
+
+#### Mecanismos de Reparación Global
+Se usan todo el tiempo. Corta secciones incorrectas y se reemplazan por secciones correctas.
+
+Puede actuar distinto si es de **día** o si es de **noche**.
+
+#### Base and Nucleotide Excision Repair
+Base: Solo una base. (de día)
+Nucleotide: Una sección. (de noche)
+
+Reparan los efectos de **especies reactivas de oxígeno**. ALgunos efectos son
+- Sitios AP (Deja azucar y quita nucleótidos).
 
 
 
