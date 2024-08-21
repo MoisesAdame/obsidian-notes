@@ -4,9 +4,16 @@ tags:
 ---
 Date: 2024-08-21 : 02:05
 ***
-
 ## Article's Information
-DOI: 
+**DOI:** 10.1038/s41467-018-05807-z
+**Link:** [Click Here!](https://sci-hub.se/10.1038/s41467-018-05807-z)
 
-## Subtitle
-Value
+## Abstract
+What was done?
+	Analyze and record mutations in different environments.
+
+What do they manage to prove?
+	How we can train models that predict mutation at a gene level in well-defined environments,
+
+## Introduction
+Evolution is not random and has to do with the environment. But at the same t
