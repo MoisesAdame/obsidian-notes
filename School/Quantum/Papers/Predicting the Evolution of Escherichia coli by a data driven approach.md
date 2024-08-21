@@ -1,6 +1,8 @@
 ---
 tags:
   - biology
+  - mutation
+  - evolutionary-biology
 ---
 Date: 2024-08-21 : 02:05
 ***
@@ -9,10 +11,10 @@ Date: 2024-08-21 : 02:05
 **Link:** [Click Here!](https://sci-hub.se/10.1038/s41467-018-05807-z)
 
 ## Abstract
-What was done?
+**What was done?**
 	Analyze and record mutations in different environments.
 
-What do they manage to prove?
+**What do they manage to prove?**
 	How we can train models that predict mutation at a gene level in well-defined environments,
 
 ## Introduction
@@ -34,7 +36,12 @@ The study collected a 15,000 mutation events of E. Coli **whole-genome sequencin
 To test their model they evolved 35 lines of E. Coli during 500 generations.
 
 Data showed many things, such as:
-- Fixation rate is linear, until the big number of generatio
+- Fixation rate is linear, until the big number of generations creates hypermutator cells.
+- Shared mutations across replicates decrease with the number of replicates, the same ratio across any two replicates remain the same, regardless of the number of replicates.
+- Higher likelihood to hit DNA-related functions in hypermutators (such as cancer cells).
+
+## Questions
+1. 
 
 
 
