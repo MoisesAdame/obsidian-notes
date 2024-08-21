@@ -24,9 +24,17 @@ There fate of a mutation has three outcomes:
 - Sometimes, become fixed.
 - Persist for intermediate frequencies, for long.
 
-The field that studies this fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), causes most genetic diversity such as *polymorphism* (inside a population) and *divergence* (between species). Proposing too that natural selection **removes harmful mutations**. Proposing too that natural selection **removes harmful mutations**.
+The field that studies these fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), causes most genetic diversity such as *polymorphism* (inside a population) and *divergence* (between species). Proposing too that natural selection **removes harmful mutations**. Proposing too that natural selection **removes harmful mutations**.
 
 Because of the lack of genome studies initially focused on **divergence**, neglecting **polymorphism**. Now we know that polymorphism have different pressures than divergence, some of the being advantageous in a short time.
+
+Detecting **natural selection on polymorphism** doesn't just rely on knowing things like:
+- Frequency of mutations.
+- Their *synonymous* (don't change the protein sequence) or *non-synonymous* (change the protein sequence) status.
+
+Another alternative is to analyze the effect of mutations in **protein function**. Bioinformatics work has been done being the most successful tool **Direct Coupling Analysis (DCA)** because trough comparison, manages to say if a mutation is harmful, additionally, considering things such as **epistasis** ()
+
+
 
 
 ## Questions
