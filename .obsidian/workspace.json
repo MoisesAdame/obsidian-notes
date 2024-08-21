@@ -73,6 +73,19 @@
             }
           },
           {
+            "id": "80b9c3ee4666181b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "534a6e6c6a3426e9",
             "type": "leaf",
             "state": {
@@ -81,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md"
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md"
               }
             }
           },
@@ -231,9 +244,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "80b9c3ee4666181b",
   "lastOpenFiles": [
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+    "School/Quantum/Papers",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Physics for Science and Engineering",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
@@ -275,7 +290,6 @@
     "School/Quantum/Quantum Computing for Computer Scientists",
     "School/Quantum",
     "Chinese/HSK4/书学/Untitled.canvas",
-    "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
