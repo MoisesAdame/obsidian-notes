@@ -24,7 +24,7 @@ There fate of a mutation has three outcomes:
 - Sometimes, become fixed.
 - Persist for intermediate frequencies, for long.
 
-The field that studies these fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), causes most genetic diversity such as *polymorphism* (inside a population) and *divergence* (between species). Proposing too that natural selection **removes harmful mutations**. Proposing too that natural selection **removes harmful mutations**.
+The field that studies these fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), causes most genetic diversity such as *polymorphism* (inside a population) and *divergence* (between species). Proposing too that natural selection **removes harmful mutations**.
 
 Because of the lack of genome studies initially focused on **divergence**, neglecting **polymorphism**. Now we know that polymorphism have different pressures than divergence, some of the being advantageous in a short time.
 
@@ -34,16 +34,16 @@ Detecting **natural selection on polymorphism** doesn't just rely on knowing thi
 
 Another alternative is to analyze the effect of mutations in **protein function**. Bioinformatics work has been done being the most successful tool **Direct Coupling Analysis (DCA)** because trough comparison, manages to say if a mutation is harmful, additionally, considering things such as **epistasis** (interaction between amino-acids).
 
-The study uses GLASS, a selection test that uses DCA (for predicting the effect of mutations) for comparing in the absence of natural selection.
-
-
+The study uses GLASS, a selection test that uses DCA (for predicting the effect of mutations) for comparing in the absence of natural selection. GLASS also proves that natural selection acts differently depending in the ammount of time, for instance:
+- **Short Term:** Harmful mutations.
+- **Long Term:** Purifying selection and *rate of gene evolution* influenced more by expression levels than by whether the gene is essential. 
 
 ## Questions
 1. What is a selection test (like GLASS) and what is it used for?
 2. In protein evolution, what is essentiality and what is expression level?
 3. What is strong purifying selection?
 4. What is gene expression level?
-
+5. What is transcription factor?
 
 
 

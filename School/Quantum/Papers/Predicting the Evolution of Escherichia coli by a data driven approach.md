@@ -15,7 +15,7 @@ Date: 2024-08-21 : 02:05
 	Analyze and record mutations in different environments.
 
 **What do they manage to prove?**
-	How we can train models that predict mutation at a gene level in well-defined environments,
+	How we can train models that predict mutation at a gene level in well-defined environments.
 
 ## Introduction
 Evolution is not random and has to do with the environment. But at the same time is a mixture of **deterministic** and **stochastic** events. One example of this is **antibiotic resistance**.
@@ -41,7 +41,7 @@ Data showed many things, such as:
 - Higher likelihood to hit DNA-related functions in hypermutators (such as cancer cells).
 
 ## Questions
-1. 
+1. What is the reason for hypermutator cells to appear?
 
 
 
