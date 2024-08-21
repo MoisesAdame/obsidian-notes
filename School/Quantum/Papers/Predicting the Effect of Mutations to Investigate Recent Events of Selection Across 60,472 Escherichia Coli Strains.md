@@ -24,7 +24,9 @@ There fate of a mutation has three outcomes:
 - Sometimes, become fixed.
 - Persist for intermediate frequencies, for long.
 
-The field that studies this fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), 
+The field that studies this fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), causes most genetic diversity such as *polymorphism* (inside a population) and *divergence* (between species). Proposing too that natural selection **removes harmful mutations**. Proposing too that natural selection **removes harmful mutations**.
+
+Because of the lack of genome studies initially focused on **divergence**, neglecting **polymorphism**. Now we know that polymorphism have different pressures than divergence, some of the being advantageous in a short time.
 
 
 ## Questions
@@ -32,3 +34,8 @@ The field that studies this fates is **population genetics**. In the 60s *neutra
 2. In protein evolution, what is essentiality and what is expression level?
 3. What is strong purifying selection?
 4. What is gene expression level?
+
+
+
+
+
