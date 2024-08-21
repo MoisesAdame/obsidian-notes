@@ -32,8 +32,9 @@ Detecting **natural selection on polymorphism** doesn't just rely on knowing thi
 - Frequency of mutations.
 - Their *synonymous* (don't change the protein sequence) or *non-synonymous* (change the protein sequence) status.
 
-Another alternative is to analyze the effect of mutations in **protein function**. Bioinformatics work has been done being the most successful tool **Direct Coupling Analysis (DCA)** because trough comparison, manages to say if a mutation is harmful, additionally, considering things such as **epistasis** ()
+Another alternative is to analyze the effect of mutations in **protein function**. Bioinformatics work has been done being the most successful tool **Direct Coupling Analysis (DCA)** because trough comparison, manages to say if a mutation is harmful, additionally, considering things such as **epistasis** (interaction between amino-acids).
 
+The study uses GLASS, a selection test that uses DCA (for predicting the effect of mutations) for comparing in the absence of natural selection.
 
 
 
