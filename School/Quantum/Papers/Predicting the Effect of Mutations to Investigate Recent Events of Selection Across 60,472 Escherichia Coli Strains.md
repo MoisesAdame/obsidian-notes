@@ -48,3 +48,6 @@ The study uses GLASS, a selection test that uses DCA (for predicting the effect 
 
 
 
+metodología: diagrama de flujo para contestar la pregunta de cada artículo. 
+- Explicar el que no me tocó.
+- Prepara diapos para ambos.
