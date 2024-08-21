@@ -21,4 +21,29 @@ Evolution is not random and has to do with the environment. But at the same time
 **Adaptive Laboratory Evolution (ALE)** is used for this and one of the most used hosts is *E. Coli* due to various reasons. Experiments like ethanol, antibiotics and high acidity environments, prove E. Coli acquired fitness.
 
 Machine Learning has been used for topics like:
-- Clasification 
+- Classification of the binding activity of proteins.
+- DNA.
+- Guide protein design.
+- Gene mutation probability.
+- Pleiotropy (the production by a single gene of two or more apparently unrelated effects) in adaptation.
+
+Although there are **mutation databases** that could be used to train models, they are useless because they don't have information such as the environment. If this was done, we could understand better the role of the environment over the mutations and create predictions of a environment, given the mutations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
