@@ -16,10 +16,15 @@ Date: 2024-08-21 : 03:19
 	Apply Gene-Level Amino-acid Score Shift (GLASS) to a dataset of 60,472 E. Coli.
 
 **What was found?**
-	In the **short term** essential genes are subject of strong **purifying selection** (remove harmful mutations). While in the **long term**, expression level (how much RNA and proteins they produce) determines the rate of gene evolution. 
-## Introduction
-Write here.
+	In the **short term** essential genes are subject of strong **purifying selection** (remove harmful mutations). While in the **long term**, expression level (how much RNA and proteins they produce) determines the rate of gene evolution.
 
+## Introduction
+There fate of a mutation has three outcomes:
+- Generally disappear.
+- Sometimes, become fixed.
+- Persist for intermediate frequencies, for long.
+
+The field that studies this fates is **population genetics**. In the 60s *neutral theory*, proposed that **random drift** (not natural selection), 
 
 
 ## Questions
