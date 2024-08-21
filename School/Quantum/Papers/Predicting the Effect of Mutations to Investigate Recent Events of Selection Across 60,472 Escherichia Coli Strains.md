@@ -9,7 +9,7 @@ Date: 2024-08-21 : 03:19
 **Link:** [Click Here!]([https://doi.org/10.1073/pnas.2304177120](https://doi.org/10.1073/pnas.2304177120))
 
 ## Abstract
-Value
-
+**Whats the problem?**
+	Because of the lack of genomes, microbial genomics used very few distant genomes that only allowed to see fixed mutations.
 ## Introduction
 
