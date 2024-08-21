@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "75f6489cd821df47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "534a6e6c6a3426e9",
             "type": "leaf",
             "state": {
@@ -68,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -135,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md"
               }
             }
           },
@@ -217,19 +230,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700dbf2efe3d44a4",
+  "active": "75f6489cd821df47",
   "lastOpenFiles": [
+    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Physics for Science and Engineering",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
     "School/Quantum/Quantum Computing for Computer Scientists/2.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Untitled.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/Untitled.md",
     "Chinese/HSK4/书学/第1课.md",
     "Templates/Normal Note.md",
     "Templates/中文文件.md",
@@ -262,7 +276,6 @@
     "Chinese/HSK4/书学/Untitled.canvas",
     "Chinese/旅游",
     "Masters/Systems Programming/Assets/fig2.1.png",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/TC3005B/Assets/earned-value-analysis.png",
     "Untitled.canvas",
