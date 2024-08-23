@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md"
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
               }
             }
           },
@@ -223,8 +223,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc0971936cff5f8b",
+  "active": "700dbf2efe3d44a4",
   "lastOpenFiles": [
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
@@ -238,7 +239,6 @@
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Papers",
     "School/Quantum/Physics for Science and Engineering",
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
     "School/Quantum/Quantum Computing for Computer Scientists/2.md",
