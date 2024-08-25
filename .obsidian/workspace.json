@@ -71,10 +71,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "67b454b061a3aaf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6697da41604658ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3,
-        "stacked": true
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -141,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md"
               }
             }
           },
@@ -223,23 +248,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700dbf2efe3d44a4",
+  "active": "67b454b061a3aaf5",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
-    "School/Quantum/Class Notes/Biology/Semana 4.md",
-    "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Class Notes/Biology/Semana 4.md",
+    "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.34.34 a.m..png",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
     "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Papers",
     "School/Quantum/Physics for Science and Engineering",
-    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
     "School/Quantum/Quantum Computing for Computer Scientists/2.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",

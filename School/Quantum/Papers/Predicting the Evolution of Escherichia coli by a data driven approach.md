@@ -40,6 +40,15 @@ Data showed many things, such as:
 - Shared mutations across replicates decrease with the number of replicates, the same ratio across any two replicates remain the same, regardless of the number of replicates.
 - Higher likelihood to hit DNA-related functions in hypermutators (such as cancer cells).
 
+## Results
+### The Mutation Database of E. Coli
+
+
+
+
+
+
+
 ## Questions
 1. What is the reason for hypermutator cells to appear?
 
