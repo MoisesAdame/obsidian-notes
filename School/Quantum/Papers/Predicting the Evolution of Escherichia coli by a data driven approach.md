@@ -42,6 +42,27 @@ Data showed many things, such as:
 
 ## Results
 ### The Mutation Database of E. Coli
+A total of **95 papers** were analyzed were they found **15,402 mutation events** grouped in **3819 genomic sites** across **574 evolved genomes**.
+
+Each evolution condition was defined by three attributes:
+- Strain
+- Medium
+- Stress
+
+Of the 15,402 mutation events we found out:
+- **57%** were single nucleotide polymorphism
+- **26%** were deletions.
+- **9%** insertions.
+- **8%** amplifications
+- **0.02%** inversions.
+
+Spatially we had:
+- **80.3%** in mutation sites.
+- **19.7** in intergenic regions.
+
+### Mutation Hotspots and Key Targets Across the E. Coli Genetic Landscape
+
+
 
 
 

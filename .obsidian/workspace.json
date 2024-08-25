@@ -128,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#hsk4",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -248,7 +249,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "67b454b061a3aaf5",
+  "active": "90d6c857a8fbfef6",
   "lastOpenFiles": [
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
