@@ -67,7 +67,8 @@ In **30.9% of the conditions** there was a mutation in the **RNA polymerase (rpb
 
 In **hypermutators** it was found that the most common mutations stayed the same but with a **higher rate**. Additionally **100% had DNA related mutations**, while normal cells had **56% DNA related mutations**.
 
-
+### Co-Occurring Mutations
+To see if there was an overlap in the dependencies among mutations they used a **spectral clustering approach**, which led to **6 clusters**. 
 
 
 
