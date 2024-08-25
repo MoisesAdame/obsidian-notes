@@ -61,6 +61,11 @@ Spatially we had:
 - **19.7** in intergenic regions.
 
 ### Mutation Hotspots and Key Targets Across the E. Coli Genetic Landscape
+Of the **20 most common mutated genes 12** were related to carbohydrate transport and metabolism.
+
+In **30.9% of the conditions** there was a mutation in the **RNA polymerase (rpboB) subunit**. Although this is common in all evolution experiments.
+
+In **hypermutators** it was found that the most common mutations stayed the same but with a **higher rate**. Additionally **100% had DNA related mutations**, while normal cells had **56% DNA related mutations**.
 
 
 
