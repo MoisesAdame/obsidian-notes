@@ -59,6 +59,15 @@ $$
 GLASS_{score} = \frac{S_{obs} - \mu}{\sigma}
 $$
 
+If the $GLASS_{score}$ approaches zero, means that **simulated and real mutation distributions look the same**. Conversely, means that there is a **higher level of purifying selection**.
+
+### In the Short Term, Essentiality and Expression Level Determine the Intensity of Selection Acting on a Gene
+Key concepts:
+- **Gene Essentiality:** Genes that are needed for living.
+- **Gene Expression Level:** How much a gene is converted into proteins.
+
+
+
 
 
 
