@@ -74,6 +74,11 @@ For all the genes found in all the genomes analyzed, they computed the following
 
 It was found that GLASS-P scores reflect **recent mutations**, while $\frac{\Pi_{N}}{\Pi_{S}}$ reflect **high-frequency mutations**.
 
+The level of gene expression is *directly proportional* to the **purifying selection** and to the **GLASS-P score**, but *inversely proportional* to $\frac{\Pi_{N}}{\Pi_{S}}$.
+
+Additionally, **GLASS-P scores** predict better **gene essentiality**, compared to $\frac{\Pi_{N}}{\Pi_{S}}$.
+
+### In the Long Term, the Expression Level Drives the Rate at Which a Gene Evolves
 
 
 
