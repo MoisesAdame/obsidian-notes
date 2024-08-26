@@ -100,6 +100,14 @@ The performance changes depending the **mutation and mutation site** and it is p
 To **test the predictor** they used a new condition, predicting **34.5% ± 5.7% of the mutation targets** with a **49.2% ± 5.8% precision**.
 
 ## Discussion
+This was the fist **E. Coli Evolution Database**.
+
+One of the top genes found was **transcription related (rpoB)**, and is important because affects cell metabolism and hundreds of genes positively.
+
+Hypermutators were found to be caused due to mutations in **DNA replication and repair genes**.
+
+A lot of **cross-stress protection** (when adaptation to one stress helps another) was seen. Also, **fitness advantage mutation** was seen until a lot of replicates. The stress an organism is exposed to, creates an **imprint in the genome**.
+
 
 
 
