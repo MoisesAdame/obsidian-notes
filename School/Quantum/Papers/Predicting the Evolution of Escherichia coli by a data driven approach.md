@@ -85,7 +85,13 @@ To address how predictable evolution is from the perspective of genetic mutation
 
 ### A Pattern of Shared Mutations Across Replicates
 They analyzed two ratios:
-- **Glob**
+- **Global Overlapping Ratio:** Shared mutations in all clones.
+- **Pairwise Overlapping Ratio:** Shared mutations in any two clones with same condition.
+
+Both of them **decreased** with the number of replicates. But the **global overlapping ratio** decreased more, with respect to the **pairwise overlapping ratio**.
+
+### Predicting Evolution Through Data Integration
+
 
 
 
