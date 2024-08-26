@@ -87,7 +87,7 @@ A comparison was made between *E. Coli* and *S. Enterica* focusing in genes with
 It was found that neither **GLASS-D**, nor $t$ relate to **gene essentiality**. But, they relate very good to **CAI** (a method for estimating the level of gene expression).
 
 ### Genes That Carry More Deleterious Polymorphisms Are Also More Frequently Lost
-
+There are two types of genes, full-genes and pseudogenes. Pseudogenes are caused by **nonsense mutation**. If we graph pseudogenes/full-genes versus GLASS-P, we find that there is a negative correlation. This means that **lost genes** have 
 
 
 
