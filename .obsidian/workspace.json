@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md"
+                "file": "School/Quantum/Class Notes/Biology/Semana 5.md"
               }
             }
           },
@@ -263,11 +263,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6697da41604658ec",
+  "active": "61fe6c17dd16fdb6",
   "lastOpenFiles": [
+    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
-    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Papers/Untitled.md",
