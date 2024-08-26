@@ -119,62 +119,11 @@ An ensemble predictor was used due to **previously known accurate prediction res
 
 The **output** is the average of the outputs of all the models, without any specific weights.
 
+The **prediction performance** of the ensemble predictor was **evaluated** using a leave-one-condition-out cross-validation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Questions
-1. What is the reason for hypermutator cells to appear?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Experimental Evolution and Mutation Validation
+Data:
+- Strain Used: E. coli MG1655.
+- Stress: Daily dilutions of NaCl and other substances
+- Generations per day: Approx 7-9.
+- Total number of generations: 500

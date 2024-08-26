@@ -38,6 +38,27 @@ The study uses GLASS, a selection test that uses DCA (for predicting the effect 
 - **Short Term:** Harmful mutations.
 - **Long Term:** Purifying selection and *rate of gene evolution* influenced more by expression levels than by whether the gene is essential. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Questions
 1. What is a selection test (like GLASS) and what is it used for?
 2. In protein evolution, what is essentiality and what is expression level?
