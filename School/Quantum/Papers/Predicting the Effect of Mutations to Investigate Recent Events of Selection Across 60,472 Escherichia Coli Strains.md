@@ -50,7 +50,15 @@ The main idea is to **compare DCA distributions** between real and simulated mut
 3. $N_{AA}$ is a sample of the total number of possible mutations ($19L$).
 4. Compute DCA both for $N_{AA}$ and for $19L$.
 5. Quantify the shift $S_{obs}$ between $N_{AA}$ and $19L$ distributions. 
-	1. If $S_{obs} = 0$, then 
+	1. If $S_{obs} = 0$, then both distributions are equal.
+	2. The higher the $S_{obs}$, the more beneficial mutations are.
+6. Compare $S_{obs}$ with shift values in simulated mutations (without selection)
+
+The latter comparison gives us both $\sigma$ and $\mu$ that allow us to compute the GLASS score:
+$$
+GLASS_{score} = \frac{S_{obs} - \mu}{\sigma}
+$$
+
 
 
 
