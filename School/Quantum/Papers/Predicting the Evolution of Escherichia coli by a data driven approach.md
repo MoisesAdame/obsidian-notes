@@ -73,7 +73,36 @@ To see if there was an overlap in the dependencies among mutations they used a *
 ### Fixation Rate and Number of Generations
 If we plot mutations vs. generations the relation is **linear** (with no hypermutators) and **exponential** (with hypermutators).
 
-We can also say that although 
+We can also say that although in normal clones there was a **linear** relation, **fixation rate is not constant**.
+
+It was found that factors like the **strain, stress, medium and generation** contribute to know if the mutation rate is **higher or lower**.
+
+### Mutation-Based Clustering is Informative of the Action Mechanism
+When grouping evolutions that had the same **strain** and **medium** the mutation-based clustering has information about the **mechanism of action**.
+
+### Evolutionary Signatures Increase Linearly with Replicate Experiments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
