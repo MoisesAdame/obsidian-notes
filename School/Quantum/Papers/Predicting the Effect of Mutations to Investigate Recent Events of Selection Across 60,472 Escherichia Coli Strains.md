@@ -79,6 +79,16 @@ The level of gene expression is *directly proportional* to the **purifying selec
 Additionally, **GLASS-P scores** predict better **gene essentiality**, compared to $\frac{\Pi_{N}}{\Pi_{S}}$.
 
 ### In the Long Term, the Expression Level Drives the Rate at Which a Gene Evolves
+A comparison was made between *E. Coli* and *S. Enterica* focusing in genes with at leas **10 fixed mutations during divergence** computing:
+- **Non-Synonymous to Synonymous Substitution Rate Ratio ($\frac{d_{N}}{d_{S}}$)**.
+- **Nucleotide Substitution Rate ($t$)**
+- **GLASS scores (GLASS-D):** Because of Divergence.
+
+It was found that neither **GLASS-D**, nor $t$ relate to **gene essentiality**. But, they relate very good to **CAI** (a method for estimating the level of gene expression).
+
+### Genes That Carry More Deleterious Polymorphisms Are Also More Frequently Lost
+
+
 
 
 
