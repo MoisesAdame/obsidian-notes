@@ -108,6 +108,34 @@ Hypermutators were found to be caused due to mutations in **DNA replication and 
 
 A lot of **cross-stress protection** (when adaptation to one stress helps another) was seen. Also, **fitness advantage mutation** was seen until a lot of replicates. The stress an organism is exposed to, creates an **imprint in the genome**.
 
+## Methods
+### Literature Curation and DB Construction
+Only publications with the **whole genome** were considered.
+
+The **culture condition** was represented by a vector that had three components: **stress, medium and strain**.
+
+### Ensemble Predictor
+An ensemble predictor was used due to **previously known accurate prediction results**. It is useful because takes into account **multiple models**.
+
+The **output** is the average of the outputs of all the models, without any specific weights.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
