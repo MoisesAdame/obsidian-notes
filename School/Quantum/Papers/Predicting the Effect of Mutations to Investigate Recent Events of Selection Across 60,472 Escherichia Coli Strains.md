@@ -44,6 +44,9 @@ Generally, selection is studied by comparing synonymous and non-synonymous mutat
 
 In this case, we want to infer the effects of non-synonymous mutations using DCA, a method that assigns scores to mutations giving **high scores** to mutations that **affect the stability and function** of a protein.
 
+The main idea is to **compare DCA distributions** between real and simulated mutations, goes like this:
+1. Find mutations in nature. Let $N_{AA}$ be the number of different mutations found.
+
 
 
 
