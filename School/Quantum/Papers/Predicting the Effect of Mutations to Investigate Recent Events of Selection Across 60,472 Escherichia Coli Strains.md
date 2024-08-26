@@ -34,9 +34,15 @@ Detecting **natural selection on polymorphism** doesn't just rely on knowing thi
 
 Another alternative is to analyze the effect of mutations in **protein function**. Bioinformatics work has been done being the most successful tool **Direct Coupling Analysis (DCA)** because trough comparison, manages to say if a mutation is harmful, additionally, considering things such as **epistasis** (interaction between amino-acids).
 
-The study uses GLASS, a selection test that uses DCA (for predicting the effect of mutations) for comparing in the absence of natural selection. GLASS also proves that natural selection acts differently depending in the ammount of time, for instance:
+The study uses GLASS, a selection test that uses DCA (for predicting the effect of mutations) for comparing in the absence of natural selection. GLASS also proves that natural selection acts differently depending in the amount of time, for instance:
 - **Short Term:** Harmful mutations.
 - **Long Term:** Purifying selection and *rate of gene evolution* influenced more by expression levels than by whether the gene is essential. 
+
+## Results
+### GLASS: Using Predicted Effect of Mutations to Test for Selection
+Generally, selection is studied by comparing synonymous and non-synonymous mutations, assuming that **the more non-synonymous mutations, less fitness**. Also, **the more purifying selection, the fewer remaining non-synonymous mutations**.
+
+In this case, we want to infer the effects of non-synonymous mutations using DCA, a method that assigns scores to mutations giving **high scores** to mutations that **affect the stability and function** of a protein.
 
 
 
