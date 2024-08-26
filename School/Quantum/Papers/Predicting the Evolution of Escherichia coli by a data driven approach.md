@@ -68,8 +68,12 @@ In **30.9% of the conditions** there was a mutation in the **RNA polymerase (rpb
 In **hypermutators** it was found that the most common mutations stayed the same but with a **higher rate**. Additionally **100% had DNA related mutations**, while normal cells had **56% DNA related mutations**.
 
 ### Co-Occurring Mutations
-To see if there was an overlap in the dependencies among mutations they used a **spectral clustering approach**, which led to **6 clusters**. 
+To see if there was an overlap in the dependencies among mutations they used a **spectral clustering approach**, which led to **6 clusters**. They found a high number of **membrane proteins** and **sensors for environment conditions** (used for adaptation under pressure).
 
+### Fixation Rate and Number of Generations
+If we plot mutations vs. generations the relation is **linear** (with no hypermutators) and **exponential** (with hypermutators).
+
+We can also say that although 
 
 
 
