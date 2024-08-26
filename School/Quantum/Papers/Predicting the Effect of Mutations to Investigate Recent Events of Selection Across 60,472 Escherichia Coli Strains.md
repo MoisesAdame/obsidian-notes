@@ -99,6 +99,10 @@ If we analyze to various genes under **GLASS-P** and **GLASS-D** we can see that
 - $\text{GLASS-D}_{A} = 1.62$
 - $\text{GLASS-D}_{B} = 4.82$
 
+This shows that in the **short** and **long** term, the same genes have different selective pressures.
+
+## Discussion
+### Influence of Essentiality and Expression Level on Polymorphism and Divergence
 
 
 
