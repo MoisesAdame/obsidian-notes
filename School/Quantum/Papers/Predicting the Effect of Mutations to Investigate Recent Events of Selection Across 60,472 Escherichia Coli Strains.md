@@ -87,8 +87,17 @@ A comparison was made between *E. Coli* and *S. Enterica* focusing in genes with
 It was found that neither **GLASS-D**, nor $t$ relate to **gene essentiality**. But, they relate very good to **CAI** (a method for estimating the level of gene expression).
 
 ### Genes That Carry More Deleterious Polymorphisms Are Also More Frequently Lost
-There are two types of genes, full-genes and pseudogenes. Pseudogenes are caused by **nonsense mutation**. If we graph pseudogenes/full-genes versus GLASS-P, we find that there is a negative correlation. This means that **lost genes** have 
+There are two types of genes, full-genes and pseudogenes. Pseudogenes are caused by **nonsense mutation**. If we graph pseudogenes/full-genes versus GLASS-P, we find that there is a negative correlation. This means that **lost genes** have **deleterious mutations**.
 
+### Deleterious Polymorphisms Target Transcription Factors
+Some harmful mutations can be promoted if for example, **inactivating a protein** increases fitness.
+
+### glyS, acrR, and marR: Three Genes under Divergent Short-Term Selective Pressures
+If we analyze to various genes under **GLASS-P** and **GLASS-D** we can see that they have completely different scores for example:
+- $\text{GLASS-P}_{A} = -3.91$
+- $\text{GLASS-P}_{B} = 13.24$
+- $\text{GLASS-D}_{A} = 1.62$
+- $\text{GLASS-D}_{B} = 4.82$
 
 
 
