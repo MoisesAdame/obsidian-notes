@@ -91,12 +91,15 @@ They analyzed two ratios:
 Both of them **decreased** with the number of replicates. But the **global overlapping ratio** decreased more, with respect to the **pairwise overlapping ratio**.
 
 ### Predicting Evolution Through Data Integration
+Using this data an **ensemble predictor** was trained combining outputs of an **Artificial Neural Network (ANN)**, a **Support Vector Machine(SVM)** and a **Naive Bayes (NB)** classifier. 
 
+The **inputs** for the predictor were **medium, strain, generation and stress** while the **output** is the **probability of a genome site is mutated**.
 
+The performance changes depending the **mutation and mutation site** and it is proportional to the **frequency of a genome site being mutated across various culture conditions**.
 
+To **test the predictor** they used a new condition, predicting **34.5% ± 5.7% of the mutation targets** with a **49.2% ± 5.8% precision**.
 
-
-
+## Discussion
 
 
 
