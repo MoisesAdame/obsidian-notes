@@ -65,6 +65,16 @@ If the $GLASS_{score}$ approaches zero, means that **simulated and real mutation
 Key concepts:
 - **Gene Essentiality:** Genes that are needed for living.
 - **Gene Expression Level:** How much a gene is converted into proteins.
+- **Nucleotide Diversity:** The average differences in nucleotide sequences between pairs of individuals in a population.
+
+For all the genes found in all the genomes analyzed, they computed the following values:
+- **GLASS-P scores:** The scores for the gene polymorphisms.
+- **Non-Synonymous to Synonymous Ratio ($\frac{\Pi_{N}}{\Pi_{S}}$)**.
+- **Nucleotide Diversities ($\Pi$)**
+
+It was found that GLASS-P scores reflect **recent mutations**, while $\frac{\Pi_{N}}{\Pi_{S}}$ reflect **high-frequency mutations**.
+
+
 
 
 
