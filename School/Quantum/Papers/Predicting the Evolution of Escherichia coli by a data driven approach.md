@@ -81,8 +81,11 @@ It was found that factors like the **strain, stress, medium and generation** con
 When grouping evolutions that had the same **strain** and **medium** the mutation-based clustering has information about the **mechanism of action**.
 
 ### Evolutionary Signatures Increase Linearly with Replicate Experiments
+To address how predictable evolution is from the perspective of genetic mutations, we evaluated the frequency of mutations. The results showed that **when replicates are few, there are more similarities**, conversely **alternative patterns emerge when the number of replicates increases**.
 
-
+### A Pattern of Shared Mutations Across Replicates
+They analyzed two ratios:
+- **Glob**
 
 
 
