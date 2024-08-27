@@ -61,9 +61,9 @@ $$
 The time in which all this happened is estimated to be **between 1s and 100s**, just enough for **superposition of states** to be maintained in a cell.
 
 ## 3 Decoherence
+Due to decoherence, initially we have a pure state, but after te *interaction of the environment* with the system, our system becomes **entangled** with the environment.
 
-
-
+This is important, because when we do a measurement, the **wave function collapses**, and this collapse is related to the interaction between t
 
 
 
