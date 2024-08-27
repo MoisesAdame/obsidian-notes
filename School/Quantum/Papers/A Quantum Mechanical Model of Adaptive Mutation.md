@@ -40,8 +40,18 @@ For that to be possible, the wave function must remain *coherent enough* for it 
 ## 2 Model and Results
 ### 2.1 Initiation of Mutations
 The Lowdin's mutation model:
-1. Quantum tunneling generates a DNA tautomeric form 
+1. Quantum tunneling generates a DNA tautomeric form.
+2. When repairing the strand, an incorrect base is added.
 
+The model starts because of an **H-bonded proton** between two adjacent sites, it can be described as a superposition of the tunneled and not tunneled states, follows:
+$$
+\ket{\phi_{\text{proton}}} = \alpha \ket{\phi_{\text{not tun.}}} + \beta \ket{\phi_{\text{tun.}}}   
+$$
+
+Then the correct base (C) and the incorrect base (T) are incorporated to the model in their respective estates of the superposition, that describes the DNA:
+$$
+\ket{\psi_{G}} = \alpha \ket{\phi_{\text{not tun.}}}\ket{}  + \beta \ket{\phi_{\text{tun.}}}
+$$
 
 
 
