@@ -50,8 +50,32 @@ $$
 
 Then the correct base (C) and the incorrect base (T) are incorporated to the model in their respective estates of the superposition, that describes the DNA:
 $$
-\ket{\psi_{G}} = \alpha \ket{\phi_{\text{not tun.}}}\ket{}  + \beta \ket{\phi_{\text{tun.}}}
+\ket{\psi_{G}} = \alpha\ket{\phi_{\text{not tun.}}}\ket{C}  + \beta\ket{\phi_{\text{tun.}}}\ket{T}
 $$
+
+After **transcription and translation**, we can have two aminoacidic outcomes, *arginine* (normal protein) and *histidine* (mutant protein), which causes or not the ability to ferment lactose.
+$$
+\ket{\psi_{\text{cell}}} = \alpha\ket{\phi_{\text{not tun.}}}\ket{C}\ket{\text{Arg}}  + \beta\ket{\phi_{\text{tun.}}}\ket{T}\ket{\text{His}} 
+$$
+
+The time in which all this happened is estimated to be **between 1s and 100s**, just enough for **superposition of states** to be maintained in a cell.
+
+## 3 Decoherence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
