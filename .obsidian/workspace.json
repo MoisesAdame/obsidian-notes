@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md"
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md"
               }
             }
           },
@@ -271,11 +271,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6697da41604658ec",
+  "active": "23a22df474c8f257",
   "lastOpenFiles": [
+    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
-    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
