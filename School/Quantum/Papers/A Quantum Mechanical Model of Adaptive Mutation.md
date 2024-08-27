@@ -4,6 +4,7 @@ tags:
   - biology
   - evolutionary-biology
   - mutation
+  - paper
 ---
 Date: 2024-08-26 : 20:19
 ***
@@ -13,4 +14,10 @@ Date: 2024-08-26 : 20:19
 
 ## Abstract
 **Whats the problem?**
-	The principle that muta
+	Mutations not only occur due to *evolutionary change*, they also occur due to *adaptative mutations*
+
+**What was done?**
+	Use a *wave function* (that is a coherent superposition of the proton in the state of shifted and unshifted). The use *decoherence* to *entangle* the state with the surroundings.
+
+**What as found?**
+Quantum coherence is maintained for biological time-scales.
