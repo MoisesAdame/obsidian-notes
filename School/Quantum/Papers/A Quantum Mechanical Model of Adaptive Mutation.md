@@ -18,6 +18,10 @@ Date: 2024-08-26 : 20:19
 
 **What was done?**
 	Use a *wave function* (that is a coherent superposition of the proton in the state of shifted and unshifted). Then use *decoherence* to *entangle* the state with the surroundings.
+	Estimate decoherence times ([Explained here]([[40.A Quantum Coherence & Decoherence]])) for protons inside DNA.
 
 **What as found?**
-Quantum coherence is maintained for biological time-scales.
+	Quantum *coherence is maintained* for biological time-scales. A higher *decoherence rate* increases *mutated states*.
+
+## Introduction
+Previosuly it was thought that mutations were random, but an experiment showed that a lactose rich medium produced more mutations related to lactose fermentation than a normal medium, thus proving the existence of 
