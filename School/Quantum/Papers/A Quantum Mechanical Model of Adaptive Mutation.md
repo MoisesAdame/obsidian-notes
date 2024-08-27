@@ -17,7 +17,7 @@ Date: 2024-08-26 : 20:19
 	Mutations not only occur due to *evolutionary change*, they also occur due to *adaptative mutations*
 
 **What was done?**
-	Use a *wave function* (that is a coherent superposition of the proton in the state of shifted and unshifted). The use *decoherence* to *entangle* the state with the surroundings.
+	Use a *wave function* (that is a coherent superposition of the proton in the state of shifted and unshifted). Then use *decoherence* to *entangle* the state with the surroundings.
 
 **What as found?**
 Quantum coherence is maintained for biological time-scales.
