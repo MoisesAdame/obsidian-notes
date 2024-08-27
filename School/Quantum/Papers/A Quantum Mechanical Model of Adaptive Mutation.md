@@ -23,7 +23,7 @@ Date: 2024-08-26 : 20:19
 **What as found?**
 	Quantum *coherence is maintained* for biological time-scales. A higher *decoherence rate* increases *mutated states*.
 
-## Introduction
+## 1 Introduction
 Previously it was thought that mutations were random, but an experiment showed that a lactose rich medium produced more mutations related to lactose fermentation than a normal medium, thus proving the existence of **adaptive/directed mutation**.
 
 Adaptive mutation is different from normal mutation because:
@@ -36,3 +36,25 @@ A lot of people commented things like:
 2. DNA is a *superposition of mutational states*.
 
 For that to be possible, the wave function must remain *coherent enough* for it to *interact with the environment*.
+
+## 2 Model and Results
+### 2.1 Initiation of Mutations
+The Lowdin's mutation model:
+1. Quantum tunneling generates a DNA tautomeric form 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
