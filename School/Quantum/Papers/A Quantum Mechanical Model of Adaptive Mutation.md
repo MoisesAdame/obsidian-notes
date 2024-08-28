@@ -63,7 +63,18 @@ The time in which all this happened is estimated to be **between 1s and 100s**, 
 ## 3 Decoherence
 Due to decoherence, initially we have a pure state, but after te *interaction of the environment* with the system, our system becomes **entangled** with the environment.
 
-This is important, because when we do a measurement, the **wave function collapses**, and this collapse is related to the interaction between t
+This is important, because when we do a measurement, the **wave function collapses**, and this collapse is related to the interaction between the system and the environment. For instance, we know that the **density matrix** in its diagonal has the *classical terms* and in its off-diagonal has the *interference terms* (the ones that cause a quantum behavior). Thus, after interaction between the system and the environment, the interference terms cancel out, leading to **quantum decoherence**.
+
+When talking about the cell, we can think of it as a **quantum measuring device**, that checks the processes going inside of it causing, decoherence.
+
+
+
+
+
+
+
+
+
 
 
 
