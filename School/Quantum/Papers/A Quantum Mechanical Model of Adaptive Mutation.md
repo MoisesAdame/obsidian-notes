@@ -91,6 +91,14 @@ In this case the cell **cannot distinguish** between the two states of $\ket{\ps
 
 ### Adaptive Conditions (With Lactose)
 The presence of lactose is **part of the environment**, thus the new superposition looks as follows:
+$$
+\ket{\psi_{\text{cell}}} = \alpha\ket{\phi_{\text{not tun.}}}\ket{C}\ket{\text{Arg}}\ket{\text{lactose}} + \beta\ket{\phi_{\text{tun.}}}\ket{T}\ket{\text{His}}\ket{\text{lactose}}
+$$
+
+This effect is rapidly spread across the cell, causing a  **reduction in the decoherence time**, due to the fact that the mass instead of being for one proton, is for many. FInally leading into the classical states:
+$$
+\ket{\phi_{\text{not tun.}}}\ket{C}\ket{\text{Arg}}\ket{\text{lactose}} ~ \text{or} ~ \ket{\phi_{\text{tun.}}}\ket{T}\ket{\text{His}}\ket{\text{lactose}}
+$$
 
 
 
