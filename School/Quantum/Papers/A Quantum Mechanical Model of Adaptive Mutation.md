@@ -109,6 +109,8 @@ What is important of living organisms is that the interaction between the cells 
 
 Decoherence wipes out quantum phenomena going on in the microscopic level. This is related too measurement, which has an influence in the system.
 
+Interaction between the wave function and the environment allows the cell to simultaneously sample the vast mutational spectra as a quantum superposition.
+
 
 
 
