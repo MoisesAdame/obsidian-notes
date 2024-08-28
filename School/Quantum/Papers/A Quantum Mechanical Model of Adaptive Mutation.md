@@ -103,7 +103,18 @@ $$
 This **lower decoherence time** (with respect to the non-adaptive one), means that because the cell will *decohere faster*, there will be *more mutations*.
 
 ## 5 Discussion
-Physicists have proposed that biological systems 
+Physicists have proposed that biological systems are properly described by **quantum mechanics**. This explains why thinking of DNA as a **superposition of mutation and not mutation states**, is very true.
+
+What is important of living organisms is that the interaction between the cells and the environment, allows us to determine their **macroscopic behavior**, using quantum mechanics.
+
+Decoherence wipes out quantum phenomena going on in the microscopic level. This is related too measurement, which has an influence in the system.
+
+
+
+
+
+
+
 
 
 
