@@ -73,7 +73,36 @@ t_{D} = t_{R} \left( \frac{\lambda_{T}}{\Delta x} \right)
 $$
 Where:
 - **Thermal de Broglie Wavelength ($\lambda_{T}$)**: $\lambda_{T}=\frac{\hbar}{\sqrt{ 2mk_{B}T }}$
-	- G
+	- Gas particle's mass ($m$)
+	- Boltzmann constant ($k_{B}$)
+	- Temperature ($T$)
+- **Distance ($\Delta$):** Distance between protons.
+- **Relaxation Time ($t_{R}$):** The time taken for the wave packets to dissipate the energy difference between the coherent state
+
+After plugging in the values we see that: 
+$$
+t_{D} = 0.29 t_{R}
+$$
+Unfortunately, we don't know values for $t_{R}$, but research suggests that they are large enough. Which means that **quantum coherence** is maintained for enough time to *allow the cell become a the previously described superposition*.
+
+## 4 Accelerated Decoherence by the Environment for Mutant States
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
