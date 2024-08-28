@@ -72,7 +72,8 @@ $$
 t_{D} = t_{R} \left( \frac{\lambda_{T}}{\Delta x} \right)
 $$
 Where:
-- 
+- **Thermal de Broglie Wavelength ($\lambda_{T}$)**: $\lambda_{T}=\frac{\hbar}{\sqrt{ 2mk_{B}T }}$
+	- G
 
 
 
