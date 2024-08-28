@@ -86,7 +86,11 @@ $$
 Unfortunately, we don't know values for $t_{R}$, but research suggests that they are large enough. Which means that **quantum coherence** is maintained for enough time to *allow the cell become a the previously described superposition*.
 
 ## 4 Accelerated Decoherence by the Environment for Mutant States
+### Non-Adaptive Conditions (No Lactose)
+In this case the cell **cannot distinguish** between the two states of $\ket{\psi_{\text{cell}}}$, thus, being similar to a coin toss. At the same time, decoherence time **remains the same**.
 
+### Adaptive Conditions (With Lactose)
+The presence of lactose is **part of the environment**, thus the new superposition looks as follows:
 
 
 
