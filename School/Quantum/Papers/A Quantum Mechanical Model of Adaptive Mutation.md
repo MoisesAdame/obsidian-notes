@@ -67,6 +67,13 @@ This is important, because when we do a measurement, the **wave function collaps
 
 When talking about the cell, we can think of it as a **quantum measuring device**, that checks the processes going inside of it causing, decoherence.
 
+A function that describes decoherence is the following:
+$$
+t_{D} = t_{R} \left( \frac{\lambda_{T}}{\Delta x} \right)
+$$
+Where:
+- 
+
 
 
 
