@@ -95,11 +95,15 @@ $$
 \ket{\psi_{\text{cell}}} = \alpha\ket{\phi_{\text{not tun.}}}\ket{C}\ket{\text{Arg}}\ket{\text{lactose}} + \beta\ket{\phi_{\text{tun.}}}\ket{T}\ket{\text{His}}\ket{\text{lactose}}
 $$
 
-This effect is rapidly spread across the cell, causing a  **reduction in the decoherence time**, due to the fact that the mass instead of being for one proton, is for many. FInally leading into the classical states:
+This effect is rapidly spread across the cell, causing a  **reduction in the decoherence time**, due to the fact that the mass instead of being for one proton, is for many. Finally leading into the classical states:
 $$
 \ket{\phi_{\text{not tun.}}}\ket{C}\ket{\text{Arg}}\ket{\text{lactose}} ~ \text{or} ~ \ket{\phi_{\text{tun.}}}\ket{T}\ket{\text{His}}\ket{\text{lactose}}
 $$
 
+This **lower decoherence time** (with respect to the non-adaptive one), means that because the cell will *decohere faster*, there will be *more mutations*.
+
+## 5 Discussion
+Physicists have proposed that biological systems 
 
 
 
