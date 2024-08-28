@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,15 +86,20 @@
             }
           },
           {
-            "id": "7aeca861ca1e2366",
+            "id": "b5060b9f6ac7dbd4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 6,
         "stacked": true
       }
     ],
@@ -145,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -161,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md"
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md"
               }
             }
           },
@@ -226,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,12 +250,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f47c9e7964dbd8d1",
+  "active": "b5060b9f6ac7dbd4",
   "lastOpenFiles": [
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
-    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
