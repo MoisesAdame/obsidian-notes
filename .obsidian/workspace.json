@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -246,8 +245,11 @@
   },
   "active": "4e96bb89267390fa",
   "lastOpenFiles": [
-    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
+    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
+    "School/Quantum/Physics for Science and Engineering/Assets",
+    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
@@ -278,7 +280,6 @@
     "Chinese/HSK4/书学/第2课.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "Technologies/React/Hooks/2. State Hooks.md",
-    "Technologies/React/Hooks/1. Generalidades.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
@@ -289,12 +290,9 @@
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets",
-    "School/Quantum/Quantum Computing for Computer Scientists",
-    "School/Quantum",
     "Chinese/HSK4/书学/Untitled.canvas",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "School/TC3005B/Assets/earned-value-analysis.png",
     "Untitled.canvas"
   ]
 }
