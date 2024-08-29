@@ -12,6 +12,5 @@ Buscar modelos relacionados con mutaciones, relacionados con el aspecto cuántic
 ### Preámbulo
 Se ha detectado que la mutación es un proceso **no aleatorio** y que depende tanto de factores externos (estrés, sepa medio). A la vez, es un proceso que depende de subprocesos ligados con la **mecánica cuántica** (quantum tunneling, decoherencia). 
 
-Por lo tanto, tomando en cuenta que
+Por lo tanto, tomando en cuenta que el ADN es una superposición de estados **"normales"** y estados **"mutantes"**, existe un circuito cuántico capaz de simular el proceso de replicación de ADN.
 
-existe un circuito cuántico capaz de simular el proceso de replicación de ADN que presente inserciones erroneas de nucleótidos.
