@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 5.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 5.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 5.md"
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md"
               }
             }
           },
@@ -237,8 +237,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "23a22df474c8f257",
+  "active": "4e96bb89267390fa",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
@@ -253,7 +254,6 @@
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
-    "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.34.34 a.m..png",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
