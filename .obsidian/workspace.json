@@ -84,14 +84,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9d48131cff746681",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
         "currentTab": 5,
@@ -227,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,15 +239,15 @@
   },
   "active": "4e96bb89267390fa",
   "lastOpenFiles": [
-    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
-    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
-    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
-    "School/Quantum/Physics for Science and Engineering/Assets",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
+    "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
+    "School/Quantum/Physics for Science and Engineering/Assets",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
