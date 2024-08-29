@@ -26,5 +26,7 @@ criptografía
 ## Hipótesis, Felipe
 Red neuronal, capaz de realizar una inferencia para una trayectoria.
 
-Red neuronal 
+Red neuronal que converja en trayectorias correctas
+
+soluciones que funcionen
 
