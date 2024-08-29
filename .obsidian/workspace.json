@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "f47c9e7964dbd8d1",
+            "id": "4e96bb89267390fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,16 +86,11 @@
             }
           },
           {
-            "id": "b5060b9f6ac7dbd4",
+            "id": "9d48131cff746681",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -150,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 238.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -166,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md"
+                "file": "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md"
               }
             }
           },
@@ -248,16 +244,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f47c9e7964dbd8d1",
+  "active": "4e96bb89267390fa",
   "lastOpenFiles": [
-    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
-    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
+    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
