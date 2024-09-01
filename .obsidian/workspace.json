@@ -63,12 +63,25 @@
             "id": "8bb5f820ae217eba",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8a48e031b889c99",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -136,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md"
               }
             }
           },
@@ -218,10 +231,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700dbf2efe3d44a4",
+  "active": "8bb5f820ae217eba",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
@@ -230,7 +244,6 @@
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
     "School/Quantum/Physics for Science and Engineering/Assets",
-    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
