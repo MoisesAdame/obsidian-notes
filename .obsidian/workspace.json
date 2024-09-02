@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md"
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md"
               }
             }
           },
@@ -236,10 +236,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d9b2d429a2137d4",
+  "active": "8bb5f820ae217eba",
   "lastOpenFiles": [
-    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
     "School/Quantum/Papers/[[40.A.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
