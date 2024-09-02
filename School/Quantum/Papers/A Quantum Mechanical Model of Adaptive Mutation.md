@@ -45,7 +45,7 @@ The Lowdin's mutation model:
 
 The model starts because of an **H-bonded proton** between two adjacent sites, it can be described as a superposition of the tunneled and not tunneled states, follows:
 $$
-\ket{\phi_{\text{proton}}} = \alpha \ket{\phi_{\text{not tun.}}} + \beta \ket{\phi_{\text{tun.}}}   
+\ket{\phi_{\text{proton}}} = \alpha \ket{\phi_{\text{not tun.}}} + \beta \ket{\phi_{\text{tun.}}} 
 $$
 
 Then the correct base (C) and the incorrect base (T) are incorporated to the model in their respective estates of the superposition, that describes the DNA:
