@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "file": "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,15 +73,20 @@
             }
           },
           {
-            "id": "c8a48e031b889c99",
+            "id": "1d9b2d429a2137d4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -231,16 +236,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8bb5f820ae217eba",
+  "active": "1d9b2d429a2137d4",
   "lastOpenFiles": [
+    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+    "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
+    "School/Quantum/Papers/[[40.A.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
-    "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
     "School/Quantum/Physics for Science and Engineering/Assets",
@@ -250,7 +257,6 @@
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.34.34 a.m..png",
-    "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
     "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "Technologies/Vim/1. Vim Motions.md",
     "School/Quantum/Papers",
@@ -267,7 +273,6 @@
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
     "Chinese/HSK4/书学/第2课.md",
     "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
-    "Technologies/React/Hooks/2. State Hooks.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
