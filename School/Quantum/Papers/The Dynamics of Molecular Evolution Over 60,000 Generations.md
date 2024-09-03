@@ -11,4 +11,32 @@ Date: 2024-09-03 : 17:05
 **Link:** [Click Here!](http://www.nature.com/doifinder/10.1038/nature24287)
 
 ## Abstract
-****
+**What is the problem?**
+	It is difficult to observe the dynamics of mutations in genomes in a long term.
+
+**What was done?**
+	Analyze the dynamics of molecular evolution in **12** populations of E. coli, using their whole genome sequenced every **500** gen during **60,000** gen.
+
+**What was found?**
+- Rate of **fitness gain** declines over time.
+- Molecular evolution has signatures of **rapid adaptation**.
+- Interaction between ecological and evolutionary processes play an important role.
+- Targets of natural selection **change** over time.
+
+## Introduction
+### Generalities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
