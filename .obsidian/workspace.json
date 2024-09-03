@@ -60,32 +60,6 @@
             }
           },
           {
-            "id": "8bb5f820ae217eba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 5.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9b0a652e2f7d072e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 6.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1d9b2d429a2137d4",
             "type": "leaf",
             "state": {
@@ -96,6 +70,27 @@
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f2d2d946d4103f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d7c10c4dcbe8eab",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -167,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 6.md",
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 6.md",
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 6.md"
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md"
               }
             }
           },
@@ -249,15 +244,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9b0a652e2f7d072e",
+  "active": "f2d2d946d4103f01",
   "lastOpenFiles": [
+    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+    "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
-    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
     "School/Quantum/Papers/[[40.A.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
@@ -286,7 +282,6 @@
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
     "Chinese/HSK4/书学/第2课.md",
-    "School/TC3005B/TC3005B.1/4. Contabilidad del Estado de la Configuración.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
