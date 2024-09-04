@@ -44,7 +44,14 @@ The **allele frequency trajectory** (allele frequency vs. generation) gives info
 
 Traditionally a single **driver mutation** (gives growth advantage), should fix. In contrast we have many and this can be due to **clonal interference** (multiple mutations that lead to competition). In general, models say that just one lineage must win.
 
-To test this, they used a **Hidden Markov Model** (HMM) to estimate the fixation time. Some populations resemble $M_{p}(t)$, but others segregate in **clades** ()
+To test this, they used a **Hidden Markov Model** (HMM) to estimate the fixation time. Some populations resemble $M_{p}(t)$, but others segregate in **clades** (organisms or cells that share a common ancestor).
+
+In fact **9 of the 12 populations** have clades. This clades show accumulation of fixations, even when population-wide fixation events have ceased.
+
+This cannot be explained by **clonal interference**, but rather by a **long term coexistence**.
+
+### Dynamics and Fates of New Mutations
+
 
 
 
