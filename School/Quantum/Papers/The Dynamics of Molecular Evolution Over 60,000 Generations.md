@@ -53,6 +53,10 @@ This cannot be explained by **clonal interference**, but rather by a **long term
 ### Dynamics and Fates of New Mutations
 They analyzed clade dynamics using the HMM only for basal clades in non-mutator populations. After calculating the **number of fixed mutations**, they found out that it was consistent with $M_{p}(t)$.
 
+When analyzing **transit times** (the time from when a mutation occurs to when it is fixed), we see that they can be low in the first and last generations, despite the **declining rate of fitness**.
+
+Other mutations have high frequencies before getting extinct
+
 
 
 
