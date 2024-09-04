@@ -51,7 +51,7 @@ In fact **9 of the 12 populations** have clades. This clades show accumulation o
 This cannot be explained by **clonal interference**, but rather by a **long term coexistence**.
 
 ### Dynamics and Fates of New Mutations
-
+They analyzed clade dynamics using the HMM only for basal clades in non-mutator populations. After calculating the **number of fixed mutations**, they found out that it was consistent with $M_{p}(t)$.
 
 
 
