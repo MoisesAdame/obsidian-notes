@@ -33,7 +33,7 @@ To resolve these questions they analyzed the **Long Term Evolution Experiment (L
 - Fitness gains are accompanied by accumulation of mutations.
 
 ### Reconstructing the Molecular Fossil Record
-
+They used a method that only detects mutations if they have a frequency of over **10% in the same place**, finding point mutations and indels.
 
 
 
