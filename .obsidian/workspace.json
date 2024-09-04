@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#operating-system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -162,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md"
+                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
               }
             }
           },
@@ -244,19 +243,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f2d2d946d4103f01",
+  "active": "3fc171340f930f79",
   "lastOpenFiles": [
-    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
     "School/Quantum/Papers/[[40.A.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
