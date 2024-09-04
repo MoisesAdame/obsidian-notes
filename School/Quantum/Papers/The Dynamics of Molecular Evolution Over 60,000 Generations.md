@@ -27,6 +27,9 @@ Date: 2024-09-03 : 17:05
 ### Generalities
 Research analyzed in the paper suggests that the dynamics of **evolutionary adaptations** are influenced by forces like *rapid adaptation*, *competition between mutation*, *diminishing-returns epistasis* (when the benefit of a beneficial mutation decreases in a relatively fit genotype) and *extensive genetic parallelism*. But this can be due, the short time of the analyzed research.
 
+To resolve these questions they analyzed the **Long Term Evolution Experiment (LTEE)**, which shows that:
+- Competitive fitness 
+
 
 
 
