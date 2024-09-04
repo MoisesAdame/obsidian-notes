@@ -40,7 +40,11 @@ Using the **total derived allele frequency** they analyzed the rate of accumulat
 When seeing $M_{p}(t)$ vs. $t$, six populations jumped a lot, which meat they were **mutators**. The **non-mutators** had a falling rate of molecular evolution going from 20 mutations to 10.
 
 ### Emergence of Quasi-Stable Coexistence
+The **allele frequency trajectory** (allele frequency vs. generation) gives information about selective forces.
 
+Traditionally a single **driver mutation** (gives growth advantage), should fix. In contrast we have many and this can be due to **clonal interference** (multiple mutations that lead to competition). In general, models say that just one lineage must win.
+
+To test this, they used a **Hidden Markov Model** (HMM) to estimate the fixation time. Some populations resemble $M_{p}(t)$, but others segregate in **clades** ()
 
 
 
