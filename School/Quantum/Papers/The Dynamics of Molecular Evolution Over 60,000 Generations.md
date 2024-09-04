@@ -35,6 +35,14 @@ To resolve these questions they analyzed the **Long Term Evolution Experiment (L
 ### Reconstructing the Molecular Fossil Record
 They used a method that only detects mutations if they have a frequency of over **10% in the same place**, finding point mutations and indels.
 
+Using the **total derived allele frequency** they analyzed the rate of accumulated mutations over time $M_{p}(t) = \sum f_{p,m}(t)$. Where $m$ are the mutations, $p$ is the population.
+
+When seeing $M_{p}(t)$ vs. $t$, six populations jumped a lot, which meat they were **mutators**. The **non-mutators** had a falling rate of molecular evolution going from 20 mutations to 10.
+
+### Emergence of Quasi-Stable Coexistence
+
+
+
 
 
 
