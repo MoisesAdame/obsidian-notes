@@ -55,7 +55,10 @@ They analyzed clade dynamics using the HMM only for basal clades in non-mutator 
 
 When analyzing **transit times** (the time from when a mutation occurs to when it is fixed), we see that they can be low in the first and last generations, despite the **declining rate of fitness**.
 
-Other mutations have high frequencies before getting extinct
+Other mutations have high frequencies before getting extinct. To estimate this, they estimated the fixation *probability of a mutation* as a function of its *frequency*. Without clonal interference, they should fix in their clade with a probability of 100%, but this does not happen, meaning that after a lot of generations **clonal interference is still strong**.
+
+### Parallelism at the Genetic Level
+
 
 
 
