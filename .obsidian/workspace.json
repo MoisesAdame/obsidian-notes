@@ -89,12 +89,30 @@
             "id": "9d7c10c4dcbe8eab",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第3课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "754371eb728c2553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/熟能生巧.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -161,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "Chinese/HSK4/书学/熟能生巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+                "file": "Chinese/HSK4/书学/熟能生巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md"
+                "file": "Chinese/HSK4/书学/熟能生巧.md"
               }
             }
           },
@@ -243,14 +261,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3fc171340f930f79",
+  "active": "754371eb728c2553",
   "lastOpenFiles": [
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "Chinese/HSK4/书学/熟能生巧.md",
+    "Untitled",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
@@ -277,10 +298,8 @@
     "Templates/Normal Note.md",
     "Templates/中文文件.md",
     "School/Quantum/Mutation, Randomness, and Evolution/2. Ordinary Randomness.md",
-    "School/Quantum/Mutation, Randomness, and Evolution/1. Introduction, A Curious Disconnect.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
-    "Chinese/HSK4/书学/第2课.md",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
@@ -290,7 +309,6 @@
     "School/Quantum/Life, The Science of Biology",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/Assets/fig1.3.png",
-    "School/Quantum/Quantum Computing for Computer Scientists/Assets",
     "Chinese/HSK4/书学/Untitled.canvas",
     "Masters/Systems Programming/Assets/fig2.1.png",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
