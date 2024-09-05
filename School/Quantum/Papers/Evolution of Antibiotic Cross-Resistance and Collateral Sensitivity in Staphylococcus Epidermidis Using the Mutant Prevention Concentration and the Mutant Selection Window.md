@@ -96,6 +96,7 @@ Depending on the antibiotic, there is a **gene mutation** associated with it.
 ### 4.1 Effects on Resistance on MIC and MPC
 We can see that **MIC and MPC are correlated**, but this correlation is subject of the resistance, that is to say, **more resistance, more correlation**.
 
+The MSW shifts to the right and widens when resistance evolves. Because of this **combining drugs** is more effective than increasing a single drug dosage.
 
 ### 4.2 Cross-Resistance and Collateral Sensitivity at the Network Level
 Write here.
