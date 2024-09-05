@@ -66,7 +66,13 @@ Some alleles are lost, while others become fixed. The rate in which this happens
 
 The **selective pressure** is the pressure an allele gets due to the environment given its fitness. If the allele is fit, it will have *positive selective pressure*.
 
+### Population Size
 The **effective population size ($N_{e}$)** is the sized of an imaginary population that is *randomly* mating and has the same *gene frequency changes* as the studied population.
+
+The **overall population size ($N$)** is the total number of members in a population. When there is *no offspring*, *inbreeding* and *subdivision* $N_{e} < N$. 
+
+The **rates of evolution** are very influenced by *effective population size*. For example, a catastrophe or migration can alter it. 
+
 
 
 
