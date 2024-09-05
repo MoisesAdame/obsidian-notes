@@ -30,5 +30,15 @@ R studio
 
 R for Data Science
 
+Se entregaría un review article:
+- Revisión amplia del conocimiento de ese área
+- Detectar huecos de conocimiento en ese área.
+
+Modern reviwe article (metaanalisys):
+- Empiezan a través de pregunta de investigación
+- Revisas toda la liyeratura, seleccionas trabajos que te pueden ayudar a responder pregfunta
+- Haces metaanalisys 
+
+
 
 
