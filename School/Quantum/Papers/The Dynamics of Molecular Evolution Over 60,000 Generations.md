@@ -82,7 +82,34 @@ For instance **under-dispersion** is bigger when genes appear initially, while *
 
 Thus, **new routes for adaptation are opened by earlier mutations**.
 
-## Discussi
+## Discussion
+- The targets of selection shift over time. This is for factors as:
+	- Ecological interactions.
+	- Changing genetic backgrounds.
+- Results show that adaptation to a *fixed environment* in a *long-term* has plenty of dynamism.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
