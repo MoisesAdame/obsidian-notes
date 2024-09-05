@@ -24,5 +24,11 @@ Chap 1, 2, 3, 7, 10
 
 Al cubrir primeros capítulos de a-c. Descargar secuencias de articulos propuestos.
 
+Seleccionar genes
+
+R studio
+
+R for Data Science
+
 
 
