@@ -77,8 +77,9 @@ There were two outcomes:
 - If *collateral sensitivity* evolved, the correlation became **weaker**.
 
 ### 3.2 Changes in the Mutant Selection Window
-Write here.
+In general, when **resistance evolves** the MSW gets wider. No matter if the resistance is due to evolution of cross-resistance.
 
+Conversely, when **resistance does not evolve** or there is **collateral sensitivity**, the MSW gets narrower or behaves unexpectedly.
 ### 3.3 MPC Cross-Resistance and Collateral Sensitivity
 Write here.
 
