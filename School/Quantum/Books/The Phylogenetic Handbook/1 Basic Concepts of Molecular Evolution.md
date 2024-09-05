@@ -86,7 +86,7 @@ There are many types of speciation:
 - **Parapatric Speciation:** Something between allotropic and sympatric speciation.
 
 ## 1.4 Data Used for Molecular Phylogenetics
-
+To estimate relationship between species the most common thing is comparing **morphological characters**, but now a days, we can use nucleotide sequences.
 
 
 
