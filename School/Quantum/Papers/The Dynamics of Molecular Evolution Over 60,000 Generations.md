@@ -66,8 +66,11 @@ To address **parallel genetic changes**, they used the **effective multiplicity 
 
 ### Signatures of Epistasis and Historical Contingency
 #### Definitions
-- 
+- Epistasis: The effect of a mutation, depends on other mutations.
+- Historical contingency: The evolutive outcome, depends on the path/history.
 
+#### Text
+Mutation in some genes occurs in a **non-random way**. Some appear in the first generations more often, some appear in latter generations more often.
 
 
 
