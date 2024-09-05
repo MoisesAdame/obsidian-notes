@@ -115,6 +115,10 @@ Some antibiotics have **special behaviors in their MSW**. For example:
 
 Considering that some antibiotics generate **collateral sensitivity**, we can use a combination of antibiotics to treat some genes.
 
+MSW varies dramatically and the correlation between the MIC and MPC weak- ens when cross-resistance has not evolved at the MIC.
+
+There are more cases of symmetrical relationships at the MIC level than at the MPC level
+
 
 
 
