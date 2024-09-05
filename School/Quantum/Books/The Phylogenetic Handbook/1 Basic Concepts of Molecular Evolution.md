@@ -75,8 +75,10 @@ The **rates of evolution** are very influenced by *effective population size*. F
 
 Evolution is a combination of both stochastic and deterministic events. For instance **natural selection** changes *allele frequency* due to selective pressure, while **genetic drift** changes *allele frequencies* in a totally random manner.
 
+## 1.3 Evolution and Speciation
+When a species divides and becomes two there are forces that *decrease* variation **inside a population** and forces that *increase* variation **within populations**.
 
-
+While **migration** prevents speciation because allows an exchange of mutations between populations, **isolation** favors speciation.
 
 
 
