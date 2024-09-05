@@ -58,6 +58,10 @@ When analyzing **transit times** (the time from when a mutation occurs to when i
 Other mutations have high frequencies before getting extinct. To estimate this, they estimated the fixation *probability of a mutation* as a function of its *frequency*. Without clonal interference, they should fix in their clade with a probability of 100%, but this does not happen, meaning that after a lot of generations **clonal interference is still strong**.
 
 ### Parallelism at the Genetic Level
+Mutators are more prone to **missense mutations** (change amino acid), while non-mutators are more prone to **structural variation (SV)** (genetic variation that involves large segments of DNA, typically more than 50 base pairs).
+
+In non-mutators the **non synonymous to synonymous rate ($\frac{dN}{dS} > 1$)**, whcih means mutations are adaptive. While on mutators $\frac{dN}{dS} \leq 1$, which means that mutations are passegner.
+
 
 
 
