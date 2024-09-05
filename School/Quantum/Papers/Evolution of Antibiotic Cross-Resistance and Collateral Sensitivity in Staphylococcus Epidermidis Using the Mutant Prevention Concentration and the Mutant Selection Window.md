@@ -109,7 +109,11 @@ Cross-resistance and collateral sensitivity are more important than **drug inter
 Write here.
 
 ### 4.4 Potential Clinical Applications
-Write here.
+Some antibiotics have **special behaviors in their MSW**. For example:
+- ERY R1
+- CPR R2
+
+Considering that some antibiotics generate **collateral sensitivity**, we can use a combination of antibiotics to treat some genes.
 
 
 
