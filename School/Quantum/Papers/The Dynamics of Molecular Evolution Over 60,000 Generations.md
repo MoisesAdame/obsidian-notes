@@ -72,6 +72,18 @@ To address **parallel genetic changes**, they used the **effective multiplicity 
 #### Text
 Mutation in some genes occurs in a **non-random way**. Some appear in the first generations more often, some appear in latter generations more often.
 
+When all the population has the mutation of a beneficial gene, it gets reduced.
+
+Weak genes are outcompeted by stringer genes.
+
+**Under-dispersed genes** (close to each other in time), are candidates for historical contingency.
+
+For instance **under-dispersion** is bigger when genes appear initially, while **over-dispersion** is lower, when genes appear later.
+
+Thus, **new routes for adaptation are opened by earlier mutations**.
+
+## Discussi
+
 
 
 
