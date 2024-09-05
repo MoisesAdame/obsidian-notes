@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md"
+                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md"
               }
             }
           },
@@ -249,7 +249,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "76864a9f7c9fc786",
+  "active": "f2d2d946d4103f01",
   "lastOpenFiles": [
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",

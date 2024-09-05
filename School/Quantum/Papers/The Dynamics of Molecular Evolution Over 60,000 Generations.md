@@ -74,7 +74,7 @@ Mutation in some genes occurs in a **non-random way**. Some appear in the first 
 
 When all the population has the mutation of a beneficial gene, it gets reduced.
 
-Weak genes are outcompeted by stringer genes.
+Weak genes are outcompeted by stronger genes.
 
 **Under-dispersed genes** (close to each other in time), are candidates for historical contingency.
 
