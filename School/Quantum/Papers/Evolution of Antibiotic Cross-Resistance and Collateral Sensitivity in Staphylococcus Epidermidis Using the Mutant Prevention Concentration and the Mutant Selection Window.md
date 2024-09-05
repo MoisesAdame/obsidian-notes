@@ -13,13 +13,22 @@ Date: 2024-09-04 : 19:15
 **Link:** [Click Here!](https://doi.org/10.1111/eva.12903)
 
 ## Abstract
+### Definitions
+- **Minimum Inhibitory Concentration (MIC):** Lowest concentration of an antibiotic that prevents growth of microorganism.
+- **Mutant Prevention Concentration (MPC):** Lowest concentration of an antibiotic that prevents the growth of the first step resistant mutants of a microorganism.
+- **Cross-Resistance:** Resisting to one antibiotic, makes organism resisting to another antibiotic.
+- **Collateral Sensitivity:** Resisting to one antibiotic, makes organism prone to damages of another antibiotic.
+
+### Key Questions
 **What is the problem?**
 	
 
 **What was done?**
-	Analyze the dynamics of molecular evolution in **12** populations of E. coli, using their whole genome sequenced every **500** gen during **60,000** gen.
+	
 
 **What was found?**
+
+
 
 ## 1 Introduction
 Write here.
