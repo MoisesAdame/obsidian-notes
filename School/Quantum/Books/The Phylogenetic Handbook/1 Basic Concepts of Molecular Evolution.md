@@ -73,6 +73,20 @@ The **overall population size ($N$)** is the total number of members in a popula
 
 The **rates of evolution** are very influenced by *effective population size*. For example, a catastrophe or migration can alter it. 
 
+Evolution is a combination of both stochastic and deterministic events. For instance **natural selection** changes *allele frequency* due to selective pressure, while **genetic drift** changes *allele frequencies* in a totally random manner.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
