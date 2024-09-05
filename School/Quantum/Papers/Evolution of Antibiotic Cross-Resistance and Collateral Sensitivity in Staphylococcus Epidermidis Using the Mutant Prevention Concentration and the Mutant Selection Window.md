@@ -81,8 +81,10 @@ In general, when **resistance evolves** the MSW gets wider. No matter if the res
 
 Conversely, when **resistance does not evolve** or there is **collateral sensitivity**, the MSW gets narrower or behaves unexpectedly.
 ### 3.3 MPC Cross-Resistance and Collateral Sensitivity
-Write here.
-
+#### Definitions
+- **Cross Resistance:** $max_{\text{父}} < min_{\text{儿}}$
+- **Collateral Sensitivity:** $max_{\text{儿}} < min_{\text{父}}$
+- **Symmetrical Cross-Resistance(CR)/Collateral Sensitivity(CS):** This can be either for MIC and MPC. If 
 ### 3.4 Mutations in the Genome
 Write here.
 
