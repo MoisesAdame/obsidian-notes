@@ -84,7 +84,9 @@ Conversely, when **resistance does not evolve** or there is **collateral sensiti
 #### Definitions
 - **Cross Resistance:** $max_{\text{父}} < min_{\text{儿}}$
 - **Collateral Sensitivity:** $max_{\text{儿}} < min_{\text{父}}$
-- **Symmetrical Cross-Resistance(CR)/Collateral Sensitivity(CS):** This can be either for MIC and MPC. If 
+- **Symmetrical Cross-Resistance(CR)/Collateral Sensitivity(CS):** This can be either for MIC and MPC. If a strain is resistant to antibiotic A and cross-resists antibiotic B, and then different strain is resistant to antibiotic B and cross-resists antibiotic A, thats a symmetrical relation.
+
+
 ### 3.4 Mutations in the Genome
 Write here.
 
