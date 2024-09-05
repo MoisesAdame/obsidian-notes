@@ -60,9 +60,13 @@ Other mutations have high frequencies before getting extinct. To estimate this, 
 ### Parallelism at the Genetic Level
 Mutators are more prone to **missense mutations** (change amino acid), while non-mutators are more prone to **structural variation (SV)** (genetic variation that involves large segments of DNA, typically more than 50 base pairs).
 
-In non-mutators the **non synonymous to synonymous rate ($\frac{dN}{dS} > 1$)**, whcih means mutations are adaptive. While on mutators $\frac{dN}{dS} \leq 1$, which means that mutations are passegner.
+In non-mutators the **non synonymous to synonymous rate ($\frac{dN}{dS} > 1$)**, whcih means mutations are adaptive. While on mutators $\frac{dN}{dS} \leq 1$, which means that mutations are passenger.
 
+To address **parallel genetic changes**, they used the **effective multiplicity ($m_{i}$)** (the observed number of non-synonymous changes, normalized by gene length.). Showing that there is a correlation with fixation probability in **non-mutators**, but there is not in mutators. Showing that selection plays a high role, but there is still a lot of stochastic processes.
 
+### Signatures of Epistasis and Historical Contingency
+#### Definitions
+- 
 
 
 
