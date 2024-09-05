@@ -53,6 +53,27 @@ Diploid organisms carry two alleles, for instance:
 - If both alleles are the *same*, the organism is **homozygous**.
 - If the alleles are *different*, the organism is **heterozygous**.
 
+Assume we have the following population:
+```mermaid
+graph TB;
+A((Bb))
+B((bb))
+```
+
+Where B and b are both alleles. We can say that the **allele frequency** of allele B is $f(B) = \frac{1}{4}$, while the one for allele b is $f(b) = \frac{3}{4}$.
+
+Some alleles are lost, while others become fixed. The rate in which this happens is the **fixation rate**.
+
+The **selective pressure** is the pressure an allele gets due to the environment given its fitness. If the allele is fit, it will have *positive selective pressure*.
+
+The **effective population size ($N_{e}$)** is the sized of an imaginary population that is *randomly* mating and has the same *gene frequency changes* as the studied population.
+
+
+
+
+
+
+
 
 
 
