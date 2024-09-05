@@ -80,6 +80,18 @@ When a species divides and becomes two there are forces that *decrease* variatio
 
 While **migration** prevents speciation because allows an exchange of mutations between populations, **isolation** favors speciation.
 
+There are many types of speciation:
+- **Allopatric Speciation:** Reproductive isolation, due to effects like geography.
+- **Sympatric Speciation:** Adapt to different ecological factors, without reproductive isolation.
+- **Parapatric Speciation:** Something between allotropic and sympatric speciation.
+
+## 1.4 Data Used for Molecular Phylogenetics
+
+
+
+
+
+
 
 
 
