@@ -4,128 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ba95caf7c74cb598",
+        "id": "818e0808fb8644e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8b8660ad9da4930d",
+            "id": "25bca87c5157530b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc0971936cff5f8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97e5ad1aecb8e261",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "700dbf2efe3d44a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d9b2d429a2137d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2d2d946d4103f01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76864a9f7c9fc786",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0927192d420485b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 6.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32352c7a155367ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 7.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -176,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
-    "collapsed": true
+    "width": 238.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -193,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 7.md"
-              }
+              "state": {}
             }
           },
           {
@@ -275,19 +160,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "32352c7a155367ef",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "School/Quantum/Class Notes/Biology/Semana 6.md",
-    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
-    "School/Quantum/Class Notes/Biology/Semana 7.md",
+    "School/Quantum/Books",
     "School/Quantum/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+    "School/Quantum/Class Notes/Biology/Semana 6.md",
+    "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Papers/Untitled.md",
     "Templates/Normal Note.md",
-    "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/成功之路/x f z.md",
@@ -312,15 +198,14 @@
     "School/Quantum/Papers",
     "School/Quantum/Physics for Science and Engineering",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
-    "School/Quantum/Quantum Computing for Computer Scientists/2.md",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "School/Quantum/Class Notes/Biology",
     "School/Quantum/Class Notes",
-    "School/Quantum/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
-    "School/Quantum/Mutation, Randomness, and Evolution/Assets",
-    "School/Quantum/Mutation, Randomness, and Evolution",
+    "School/Quantum/Books/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
+    "School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
+    "School/Quantum/Books/Mutation, Randomness, and Evolution",
     "School/Quantum/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
     "Masters/Systems Programming/Assets/fig1.3.png",
     "Chinese/HSK4/书学/Untitled.canvas",
