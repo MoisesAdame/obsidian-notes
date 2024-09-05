@@ -46,7 +46,14 @@ When encoding a protein, each codon generates certain **amino acid** that is lat
 **Gene Duplication:** It has many forms. In general what happens is that the genome gets larger involving *one* to *many* genes.
 
 ## 1.2 Population Dynamics
+### Alleles, Locus & Fixation
 Usually we have polymorphisms that lead to variants of a gene in a population. The location of this polymorphism is called **locus**. The different variants of a locus are called **alleles**.
+
+Diploid organisms carry two alleles, for instance:
+- If both alleles are the *same*, the organism is **homozygous**.
+- If the alleles are *different*, the organism is **heterozygous**.
+
+
 
 
 
