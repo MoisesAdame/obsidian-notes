@@ -99,7 +99,11 @@ We can see that **MIC and MPC are correlated**, but this correlation is subject 
 The MSW shifts to the right and widens when resistance evolves. Because of this **combining drugs** is more effective than increasing a single drug dosage.
 
 ### 4.2 Cross-Resistance and Collateral Sensitivity at the Network Level
-Write here.
+There are more **symmetrical relations** at the MIC leven than at the MPC level. 
+
+Due to the fact that the correlation changed, whenever there was a symmetrical relation in the MIC level, if there was no resistance, the MPC didn't behave the same way, so there was no symmetrical relation over there.
+
+Cross-resistance and collateral sensitivity are more important than **drug interactions**. And they can be used to **predict evolution**.
 
 ### 4.3 Genes Involved in Resistance
 Write here.
