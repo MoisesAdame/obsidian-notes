@@ -87,7 +87,8 @@ Thus, **new routes for adaptation are opened by earlier mutations**.
 	- Ecological interactions.
 	- Changing genetic backgrounds.
 - Results show that adaptation to a *fixed environment* in a *long-term* has plenty of dynamism.
-- 
+
+
 
 
 
