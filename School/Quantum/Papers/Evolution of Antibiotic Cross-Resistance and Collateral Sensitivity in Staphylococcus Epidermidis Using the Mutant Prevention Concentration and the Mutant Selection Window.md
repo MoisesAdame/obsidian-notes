@@ -86,13 +86,16 @@ Conversely, when **resistance does not evolve** or there is **collateral sensiti
 - **Collateral Sensitivity:** $max_{\text{儿}} < min_{\text{父}}$
 - **Symmetrical Cross-Resistance(CR)/Collateral Sensitivity(CS):** This can be either for MIC and MPC. If a strain is resistant to antibiotic A and cross-resists antibiotic B, and then different strain is resistant to antibiotic B and cross-resists antibiotic A, thats a symmetrical relation.
 
-
+Symmetrical relations are more prevalent in the **MIC** level than in the **MPC**.
 ### 3.4 Mutations in the Genome
-Write here.
+The majority of the mutations were **missense mutations**.
+
+Depending on the antibiotic, there is a **gene mutation** associated with it.
 
 ## 4 Discussion
 ### 4.1 Effects on Resistance on MIC and MPC
-Write here.
+We can see that **MIC and MPC are correlated**, but this correlation is subject of the resistance, that is to say, **more resistance, more correlation**.
+
 
 ### 4.2 Cross-Resistance and Collateral Sensitivity at the Network Level
 Write here.
