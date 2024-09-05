@@ -97,14 +97,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6fe2be989693c4b1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
         "currentTab": 6,
@@ -259,8 +251,8 @@
   },
   "active": "76864a9f7c9fc786",
   "lastOpenFiles": [
-    "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+    "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Papers/Untitled.md",
     "Templates/Normal Note.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
