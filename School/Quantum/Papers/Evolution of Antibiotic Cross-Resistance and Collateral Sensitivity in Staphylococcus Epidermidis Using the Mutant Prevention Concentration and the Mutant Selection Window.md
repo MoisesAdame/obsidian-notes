@@ -39,7 +39,6 @@ There are different types of antibiotics, if they are the same type, **cross-res
 
 
 
-
 ## 2 Materials and Methods
 ### 2.1 Bacteria and Antibiotics
 Write here.
