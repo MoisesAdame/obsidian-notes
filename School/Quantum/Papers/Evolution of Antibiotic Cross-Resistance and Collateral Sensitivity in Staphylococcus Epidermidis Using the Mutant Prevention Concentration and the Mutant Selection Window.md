@@ -37,7 +37,10 @@ MPC has the been correlated with cross-resistance. In fact, **Mutant Selection W
 
 There are different types of antibiotics, if they are the same type, **cross-resistance** tends to appear. For instance, similar **mechanism of action** means cross-resistance. But there are *exceptions*.
 
-
+What was used:
+- **7** antibiotics.
+- **5** mechanism of action.
+- **2** resistant mutants per antibiotic.
 
 ## 2 Materials and Methods
 ### 2.1 Bacteria and Antibiotics
@@ -67,7 +70,11 @@ Write here.
 
 ## 3 Results
 ### 3.1 Correlated Evolution of the MIC and MPC
-Write here.
+In general, all the mutants had an increased **MIC** and **MPC**. In general, when MIC increases, MPC does too.
+
+There were two outcomes:
+- If *cross-selection* evolved, the correlation was the same.
+- If *collateral sensitivity* evolved, the correlation became **weaker**.
 
 ### 3.2 Changes in the Mutant Selection Window
 Write here.
