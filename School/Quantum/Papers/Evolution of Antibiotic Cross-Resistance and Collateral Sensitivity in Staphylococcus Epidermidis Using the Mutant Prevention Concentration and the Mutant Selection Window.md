@@ -31,7 +31,12 @@ Date: 2024-09-04 : 19:15
 - Using MIC and MPC can allow better prediction of mutations in antibiotic-resistant bacteria.
 
 ## 1 Introduction
-Recently pathogens are more resistant to antibiotics, having both **cross-resistance** and **collateral sensitivity**.
+Recently pathogens are more resistant to antibiotics, having both **cross-resistance** and **collateral sensitivity**. A lot of work has been done correlating this to MIC, but very few to MPC.
+
+MPC has the been correlated with cross-resistance. In fact, **Mutant Selection Window (MSW)** a range that goes like $(MIC, MPC)$, shifts up or down depending the collateral-response.
+
+There are different types of antibiotics, if they are the same type, **cross-resistance** tends to appear. For instance, similar **mechanism of action** means cross-resistance. But there are *exceptions*.
+
 
 
 
