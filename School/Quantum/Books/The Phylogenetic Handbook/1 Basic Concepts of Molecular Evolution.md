@@ -37,7 +37,16 @@ When encoding a protein, each codon generates certain **amino acid** that is lat
 
 **Transversions:** Changes between a purine with a pyrimidine of viceversa. (Less common).
 
+**Indels:** They occur during duplication. Can be either **deletion** or **insertion** of one or more nucleotides. They are rare.
 
+**Mutations in Splicing:** The process of joining exons and removing introns is called splicing. When done incorrectly, can lead to mutations.
+### Genetic Variation
+**Recombination:** When parts of different DNA stands are fused in one. This usually occurs during **meiosis**.
+
+**Gene Duplication:** It has many forms. In general what happens is that the genome gets larger involving *one* to *many* genes.
+
+## 1.2 Population Dynamics
+Usually we have polymorphisms that lead to variants of a gene in a population. The location of this polymorphism is called **locus**. The different variants of a locus are called **alleles**.
 
 
 
