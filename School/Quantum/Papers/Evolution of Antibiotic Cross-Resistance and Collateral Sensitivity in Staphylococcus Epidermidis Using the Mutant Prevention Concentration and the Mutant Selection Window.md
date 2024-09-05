@@ -21,17 +21,19 @@ Date: 2024-09-04 : 19:15
 
 ### Key Questions
 **What is the problem?**
-	
+	Cross-resistance and collateral sensitivity are generally, not measured using MPC, instead they are measured using MIC.
 
 **What was done?**
-	
+	Measure MIC and MPC of **14 single drug resistant** strains against **7 antibiotics**.
 
 **What was found?**
-
-
+- MIC and MPC are **correlated**. Correlation weakens if **cross-resistance** doesn't evolve.
+- Using MIC and MPC can allow better prediction of mutations in antibiotic-resistant bacteria.
 
 ## 1 Introduction
-Write here.
+Recently pathogens are more resistant to antibiotics, having both **cross-resistance** and **collateral sensitivity**.
+
+
 
 ## 2 Materials and Methods
 ### 2.1 Bacteria and Antibiotics
