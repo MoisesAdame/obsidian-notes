@@ -13,7 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
+                "file": "Chinese/HSK4/书学/第1课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "658dbba29632002b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第2课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0e7cefad15ab85c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/成功之路/第10课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,6 +47,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -88,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
+                "file": "Chinese/HSK4/成功之路/第10课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
+                "file": "Chinese/HSK4/成功之路/第10课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md"
+                "file": "Chinese/HSK4/成功之路/第10课.md"
               }
             }
           },
@@ -170,11 +197,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "25bca87c5157530b",
+  "active": "f0e7cefad15ab85c",
   "lastOpenFiles": [
-    "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
     "Chinese/HSK4/成功之路/第10课.md",
+    "Chinese/HSK4/书学/第2课.md",
+    "Chinese/HSK4/书学/第1课.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
@@ -188,7 +218,6 @@
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Papers/Untitled.md",
     "Templates/Normal Note.md",
-    "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/成功之路/x f z.md",
     "Chinese/HSK4/成功之路",
     "Untitled",
@@ -204,9 +233,7 @@
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
-    "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.34.34 a.m..png",
-    "School/Quantum/Class Notes/Biology/Untitled 1.md",
     "School/Quantum/Papers",
     "School/Quantum/Books/Physics for Science and Engineering",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
