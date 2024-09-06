@@ -92,7 +92,29 @@ Phylogenetic methods consider similarities between genes, assuming they **come f
 
 In related species, similar genes only differ by a few point mutations. Additionally, some genes are more **conserved** than others, for example, the ones for DNA related processes.
 
-To see differences between related species, use **mucleotide sequences**. To see diferences between 
+To see differences between related species, use **nucleotide sequences**. To see differences between families and generations, use **amino acid sequences**.
+
+In order to find these relations, we need to **align homologous regions**. The more distant the organisms are, the more difficult the process.
+
+Evolution under similar *selective pressures* can give us **parallel** or **convergent evolution**. This can led to a big similarity, that can be mistaken with a **homology**.
+
+## 1.5 What is a Phylogenetic Tree?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
