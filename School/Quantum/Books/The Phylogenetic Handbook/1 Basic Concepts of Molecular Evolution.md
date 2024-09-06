@@ -99,7 +99,11 @@ In order to find these relations, we need to **align homologous regions**. The m
 Evolution under similar *selective pressures* can give us **parallel** or **convergent evolution**. This can led to a big similarity, that can be mistaken with a **homology**.
 
 ## 1.5 What is a Phylogenetic Tree?
+Is any diagram that shows the relation of *closely related* organisms or genes. They have different parts:
+- **Operational Taxonomic Units (OTU's):** The leaves.
+- **Hypothetical Taxonomic Units (HTU's):** The nodes.
 
+If a group of taxa shares the same branch it is **monophyletic**, otherwise it is **paraphyletic**. Additionally, the root is the **most distant ancestor**.
 
 
 
