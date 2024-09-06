@@ -88,6 +88,14 @@ There are many types of speciation:
 ## 1.4 Data Used for Molecular Phylogenetics
 To estimate relationship between species the most common thing is comparing **morphological characters**, but now a days, we can use nucleotide sequences.
 
+Phylogenetic methods consider similarities between genes, assuming they **come from the same ancestor**, that is *homology*. In fact, the more similarity between two sequences, the more the probable the sequences are **homologous**.
+
+In related species, similar genes only differ by a few point mutations. Additionally, some genes are more **conserved** than others, for example, the ones for DNA related processes.
+
+To see differences between related species, use **mucleotide sequences**. To see diferences between 
+
+
+
 
 
 
