@@ -105,7 +105,12 @@ Is any diagram that shows the relation of *closely related* organisms or genes. 
 
 If a group of taxa shares the same branch it is **monophyletic**, otherwise it is **paraphyletic**. Additionally, the root is the **most distant ancestor**.
 
-
+## 1.6 Methods for Inferring Phylogenetic Trees
+There are many methods, non of which is 100% trustable, they can be grouped as:
+- **Character-State Methods:** Use discrete data (sequences, morphological, etc.). Each aligned sequence is a *character* and the nucleotides are the *states*.
+- **Distance-Matrix Methods:** Calculate a difference matrix to infer relations. They are faster, but less effective.
+- **Maximum Likelihood Methods:** Use probability, but can only be used for limited number of OTU's.
+- **Clustering Methods:** Instead of evaluating many trees, they *cluster* data into a single one.
 
 
 
