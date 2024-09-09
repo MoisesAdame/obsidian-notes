@@ -112,6 +112,32 @@ There are many methods, non of which is 100% trustable, they can be grouped as:
 - **Maximum Likelihood Methods:** Use probability, but can only be used for limited number of OTU's.
 - **Clustering Methods:** Instead of evaluating many trees, they *cluster* data into a single one.
 
+## 1.7 Is Evolution Always Tree-Like
+Generally speaking trees have only **two branches**, but this is not always the case. For example the HIV virus mutates a lot, thus two leaves isn't enough.
+
+The presence of more than two leaves is called **polytomy**, for instance:
+- **Hard Polytomy:** Many branches (difficult to prove).
+- **Soft Polytomy:** Unresolved tree topology
+
+In the case of **recombination** there can be more than *one three*. Thus, it would be better to use a network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
