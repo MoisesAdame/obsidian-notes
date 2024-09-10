@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Similarity Searching Using Blast.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Similarity Searching Using Blast.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Similarity Searching Using Blast.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Similarity Searching Using Blast.md"
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md"
               }
             }
           },
@@ -208,9 +208,12 @@
   },
   "active": "3a3736fc624eafa6",
   "lastOpenFiles": [
-    "School/Quantum/Books/The Phylogenetic Handbook/1. Similarity Searching Using Blast.md",
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Seuquence Databases and Database Searching.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/1 Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis",
     "Chinese/HSK4/成功之路/第10课.md",
@@ -220,9 +223,6 @@
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
