@@ -37,8 +37,13 @@
             "id": "0998437b1900dd64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -110,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md"
+              }
             }
           },
           {
@@ -192,10 +201,10 @@
   "active": "0998437b1900dd64",
   "lastOpenFiles": [
     "School/Quantum/Books/The Phylogenetic Handbook/2. Seuquence Databases and Database Searching.md",
-    "Chinese/HSK4/书学/第3课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
-    "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+    "Chinese/HSK4/书学/第3课.md",
+    "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists",
