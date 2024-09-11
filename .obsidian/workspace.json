@@ -50,8 +50,13 @@
             "id": "9baaa180b1308091",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/书学/第3课.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -208,6 +213,8 @@
   },
   "active": "3a3736fc624eafa6",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第3课.md",
+    "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Seuquence Databases and Database Searching.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled.md",
@@ -219,10 +226,8 @@
     "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis",
-    "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
-    "Chinese/HSK4/书学/第3课.md",
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
