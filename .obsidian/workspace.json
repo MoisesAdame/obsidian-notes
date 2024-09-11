@@ -47,7 +47,7 @@
             }
           },
           {
-            "id": "0998437b1900dd64",
+            "id": "2c47cef1e8b14702",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,22 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "34000ebaabc1013b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -103,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#operating-system",
+                "query": "#evolutionary-biology :evolutionary-biology ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5,
+    "width": 262.5024719238281,
     "collapsed": true
   },
   "right": {
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md"
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md"
               }
             }
           },
@@ -224,14 +211,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "34cb74f275aacd3c",
+  "active": "2c47cef1e8b14702",
   "lastOpenFiles": [
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Seuquence Databases and Database Searching.md",
-    "Chinese/HSK4/成功之路/第10课.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/www.ihop-net.org.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "Chinese/HSK4/成功之路/第10课.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "Chinese/HSK4/书学/第3课.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
@@ -258,7 +246,6 @@
     "School/Quantum/Class Notes/Biology/Semana 5.md",
     "School/Quantum/Books/Physics for Science and Engineering/40.A Quantum Coherence & Decoherence.md",
     "School/Quantum/Class Notes/Biology/Screenshot 2024-08-21 at 11.24.46 a.m..png",
-    "School/Quantum/Papers/[[40.A.md",
     "School/Quantum/Books/Physics for Science and Engineering/Assets/fig40.2.1.gif",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",
     "School/Quantum/Books/Physics for Science and Engineering/Assets",
