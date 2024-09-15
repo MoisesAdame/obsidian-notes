@@ -71,6 +71,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60695be73c31940f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4,
@@ -225,11 +233,11 @@
   },
   "active": "87be082eb26f653f",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Chinese/HSK4/HSK4安全的词汇.md",
-    "Chinese/HSK4/书学/第4课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Seuquence Databases and Database Searching.md",
