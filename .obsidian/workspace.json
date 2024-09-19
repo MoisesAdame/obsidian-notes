@@ -8,64 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87be082eb26f653f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第1课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60695be73c31940f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第2课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50d21f6b43df2a34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第3课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a56e6be34eaa4e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第4课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6726273fbbece758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md",
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -141,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md",
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md",
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md"
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md"
               }
             }
           },
@@ -226,6 +173,7 @@
   },
   "active": "6726273fbbece758",
   "lastOpenFiles": [
+    "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第3课.md",
@@ -240,7 +188,6 @@
     "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.58.56 a.m..png",
     "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.57.27 a.m..png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
-    "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",
