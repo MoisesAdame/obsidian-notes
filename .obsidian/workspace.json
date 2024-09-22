@@ -45,6 +45,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "80522df86cc051ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2,
@@ -200,8 +208,8 @@
   },
   "active": "a69bd67df4dca4a1",
   "lastOpenFiles": [
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/成功之路/第10课.md",
