@@ -38,6 +38,12 @@ Date: 2024-09-23 : 09:07
 
 ### Bioinformatics for DNA Sequence Analysis, [[3. Multiple Alignment of DNA Sequences with MAFFT]]
 - MAFFT is a good program for MSA because it uses three strategies. The **progressive method** (uses a guide tree and does it many cycles). The **iterative refinement method** (which defines a score function that has to maximize) and the **consistency based iterative refinement method** (how well the pairwise alignments are).
+- Depending on the **number of sequences** or their **length**, we have to specify certain configuration.
+- If we have to check if the sequences are **locally** or **globally** alignable, we also have to specify certain configuration.
+- Because genomes suffer from **inversions, translocations and duplications**, not every tool works, in this case MAFFT doesn't work. Thus, we have to use tools like **TBA** or **MAUVE**.
+
+## Section D
+### Bioinformatics for DNA Sequence Analysis, [[4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences]]
 - 
 
 
