@@ -18,3 +18,20 @@ Date: 2024-09-23 : 09:07
 - While searching, we can use **text** or input **sequences**. In the latter case, tools like **BLAST** are used to search for similar sequences.
 - To input sequences we can use formats such as **FASTA**, **NEXUS**, or even **PHYLIP**.
 
+### Bioinformatics for DNA Sequence Analysis, [[1. Similarity Searching Using Blast]]
+- In the world there are three main nucleotide sequence databases NCBI, DDBJ and GenBank, which together are the **International Nucleotide Sequence Database Collaboration (INSDC)**. Of course there are other databases, but they do not have as much quality.
+- We can search for a sequence using their specific ID's or by s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
