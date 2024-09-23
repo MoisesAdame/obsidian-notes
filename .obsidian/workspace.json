@@ -60,6 +60,19 @@
             }
           },
           {
+            "id": "6445470d8a00a95a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3b26788fde23677c",
             "type": "leaf",
             "state": {
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -226,15 +239,16 @@
   },
   "active": "3b26788fde23677c",
   "lastOpenFiles": [
-    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+    "School/Quantum/Class Notes/Biology/Untitled.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
@@ -267,7 +281,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis",
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/1. Complex Numbers.md",
     "Chinese/HSK4/成功之路",
     "Untitled",
     "School/Quantum/Physics for Science and Engineering/Assets/fig40.2.1.gif.crdownload",

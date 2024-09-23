@@ -34,7 +34,11 @@ Date: 2024-09-23 : 09:07
 	- **Iterative Refinement Methods:** Used by MAFFT, and MUSCLE.
 	- **Genetic Algorithms:** Used by SAGA.
 	- **Hidden Markov Models:** Comparable to CLUSTAL.
-- When selecting a program we have to decide if we want accuracy, or less resource usage. If we want to test which 
+- When selecting a program we have to decide if we want accuracy, or less resource usage. If we want to test which alignment is better, we can use **ALTAVIST**.
+
+### Bioinformatics for DNA Sequence Analysis, [[3. Multiple Alignment of DNA Sequences with MAFFT]]
+- MAFFT is a good program for MSA because it uses three strategies. The **progressive method** (uses a guide tree and does it many cycles). The **iterative refinement method** (which defines a score function that has to maximize) and the **consistency based iterative refinement method** (how well the pairwise alignments are).
+- 
 
 
 
