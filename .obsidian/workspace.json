@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9e3c8a610079cfe1",
+        "id": "0f63c4239b122443",
         "type": "tabs",
         "children": [
           {
-            "id": "e3f11dede85f4af9",
+            "id": "58db7df9ac57bb5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+                "file": "Chinese/HSK4/书学/第4课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,90 +21,12 @@
             }
           },
           {
-            "id": "9ee1c5025bd1ea14",
+            "id": "12b54685f2ba2df2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91aa526415aa1041",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "122ca0cea41cb1c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6445470d8a00a95a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b902194e8f090039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c44c4cff0a41805",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b26788fde23677c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "Chinese/HSK4/书学/第5课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -112,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 7,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -163,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5024719238281,
-    "collapsed": true
+    "width": 262.5024719238281
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -180,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "Chinese/HSK4/书学/第5课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "Chinese/HSK4/书学/第5课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md"
+                "file": "Chinese/HSK4/书学/第5课.md"
               }
             }
           },
@@ -263,16 +184,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3b26788fde23677c",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
-    "School/Quantum/Class Notes/Biology/Semana 8.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
+    "Chinese/HSK4/书学/第5课.md",
+    "Chinese/HSK4/书学/第4课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
+    "School/Quantum/Class Notes/Biology/Semana 8.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
     "School/Quantum/Class Notes/Biology/Untitled.md",
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
@@ -286,7 +209,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.1.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.4.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
-    "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/书学/第3课.md",
@@ -303,7 +225,6 @@
     "School/Quantum/Quantum Computing fot Computer Scientists",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis",
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",

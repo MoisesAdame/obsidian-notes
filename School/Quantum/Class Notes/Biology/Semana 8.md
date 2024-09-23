@@ -3,6 +3,13 @@ tags:
 ---
 Date: 2024-09-23 : 09:07
 ***
+
+> [!IMPORTANT]  
+>**RESERACHER ADVICE**, by Salvador Venegas-Andraca, ph.D
+> 1. Dormir es para débiles.
+> 2. Si no es con matemáticas no vale.
+> 3. Regresa a la primera premisa.
+
 ## Section A
 ### The Phylogenetic Handbook, [[1. Basic Concepts of Molecular Evolution]]
 - DNA is a set of ordered nucleotides that store **genetic information**.
@@ -46,10 +53,6 @@ Date: 2024-09-23 : 09:07
 ### Bioinformatics for DNA Sequence Analysis, [[4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences]]
 - 
 
-
-1. Dormir es para debiles
-2. Si no es con matematicas no vale
-3. Regresa a la primera premisa
 
 
 
