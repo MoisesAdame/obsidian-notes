@@ -26,7 +26,15 @@ Date: 2024-09-23 : 09:07
 
 ## Section C
 ### The Phylogenetic Handbook, [[3. Multiple Sequence Alignment]]
-- An alignment is an **homology hypothesis** 
+- An alignment is an **homology hypothesis**, while aligning sequences, we encounter many problems such as *repeats*, *substitutions* and *gaps*. Factors that have to be considered to have a decent alignment.
+- There have been many approaches for aligning sequences such as the *dot-matrix algorithm*, the *dynamic programming algorithm* and others
+- But aligning multiple sequences is a more challenging task, there have been many attempts such as the:
+	- **Progressive Alignment:** Used by CLUSTAL.
+	- **Consistency-Based Scoring:** Used by T-COFFEE.
+	- **Iterative Refinement Methods:** Used by MAFFT, and MUSCLE.
+	- **Genetic Algorithms:** Used by SAGA.
+	- **Hidden Markov Models:** Comparable to CLUSTAL.
+- When selecting a program we have to decide if we want accuracy, or less resource usage. If we want to test which 
 
 
 
