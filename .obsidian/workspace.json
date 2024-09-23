@@ -32,6 +32,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4464f5ae33de8d0a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1,
@@ -85,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5024719238281
+    "width": 262.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -184,10 +193,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "12b54685f2ba2df2",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK4/书学/第4课.md",
+    "Chinese/HSK4/书学/第5课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
