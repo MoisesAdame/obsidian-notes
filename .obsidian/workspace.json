@@ -37,12 +37,12 @@
             "id": "4464f5ae33de8d0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -110,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Chinese/HSK4/书学/第5课.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,10 +189,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "12b54685f2ba2df2",
+  "active": "4464f5ae33de8d0a",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第5课.md",
+    "Chinese/HSK4/书学/第4课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
