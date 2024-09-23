@@ -9,7 +9,7 @@ Date: 2024-09-23 : 09:07
 - There are many types of **mutations** such as pint, synonymous, synonymous, transition, transversions, indels and splicing.
 - Evolution is a combination of stochastic and deterministic events such as **natural selection** and **genetic drift**.
 - **Speciation** is when one species divides into two, there are many types.
-- To see how related two species are we use phylogenetics, specifically, comparing **morphological characteres**. But, sometimes it is not as easy as that, so we have to **align nucleotide/amino-acid sequences**.
+- To see how related two species are we use phylogenetics, specifically, comparing **morphological characters**. But, sometimes it is not as easy as that, so we have to **align nucleotide/amino-acid sequences**.
 
 ## Section B
 ### The Phylogenetic Handbook, [[2. Sequence Databases and Database Searching]]
@@ -20,9 +20,13 @@ Date: 2024-09-23 : 09:07
 
 ### Bioinformatics for DNA Sequence Analysis, [[1. Similarity Searching Using Blast]]
 - In the world there are three main nucleotide sequence databases NCBI, DDBJ and GenBank, which together are the **International Nucleotide Sequence Database Collaboration (INSDC)**. Of course there are other databases, but they do not have as much quality.
-- We can search for a sequence using their specific ID's or by s
+- We can search for a sequence using their specific ID's or by including a sequence segment.
+- There have been many methods design to align sequences iot al started with the **dynamic programming** one, and then, they started using models such as **PAM/BLOSUM Matrices**. Finally, ending up with **BLAST**, that has many forms for different uses cases (nucleotide, protein, nucleotide -> protein, protein -> nucleotide, etc.)
+- Using BLAST is no simple task, it has many parameters that have to be considered such as *max target sequences*, *expect threshold* (the lower the better), *word size* and even *scoring parameters* (match/mismatch scores).
 
-
+## Section C
+### The Phylogenetic Handbook, [[3. Multiple Sequence Alignment]]
+- An alignment is an **homology hypothesis** 
 
 
 

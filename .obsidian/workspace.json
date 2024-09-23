@@ -47,6 +47,19 @@
             }
           },
           {
+            "id": "122ca0cea41cb1c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3b26788fde23677c",
             "type": "leaf",
             "state": {
@@ -60,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -213,8 +226,9 @@
   },
   "active": "3b26788fde23677c",
   "lastOpenFiles": [
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
@@ -227,7 +241,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.4.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.3.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.2.png",
-    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled 1.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.2.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.1.png",
