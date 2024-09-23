@@ -189,14 +189,15 @@
             }
           },
           {
-            "id": "931f3b8c61ae3e4e",
+            "id": "8015bddc8a6827f4",
             "type": "leaf",
             "state": {
               "type": "timer-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,7 +219,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3f11dede85f4af9",
+  "active": "8015bddc8a6827f4",
   "lastOpenFiles": [
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.4.png",
