@@ -47,7 +47,9 @@ Date: 2024-09-23 : 09:07
 - 
 
 
-
+1. Dormir es para debiles
+2. Si no es con matematicas no vale
+3. Regresa a la primera premisa
 
 
 
