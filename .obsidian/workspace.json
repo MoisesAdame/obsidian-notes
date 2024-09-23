@@ -60,10 +60,10 @@
             }
           },
           {
-            "id": "80522df86cc051ed",
+            "id": "44d83180e4e60ee0",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -189,15 +189,14 @@
             }
           },
           {
-            "id": "3fc171340f930f79",
+            "id": "931f3b8c61ae3e4e",
             "type": "leaf",
             "state": {
               "type": "timer-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,8 +222,8 @@
   "lastOpenFiles": [
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled 1.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.2.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.1.png",
