@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Chinese/HSK4/书学/第5课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Chinese/HSK4/书学/第5课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Chinese/HSK4/书学/第5课.md"
+              }
             }
           },
           {
@@ -189,7 +193,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4464f5ae33de8d0a",
+  "active": "12b54685f2ba2df2",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK4/书学/第4课.md",
