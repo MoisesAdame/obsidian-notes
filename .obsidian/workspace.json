@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md",
+                "file": "Chinese/HSK4/HSK4安全的词汇.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5024719238281,
-    "collapsed": true
+    "width": 262.5024719238281
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md",
+                "file": "Chinese/HSK4/HSK4安全的词汇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md",
+                "file": "Chinese/HSK4/HSK4安全的词汇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/书学/第5课.md"
+                "file": "Chinese/HSK4/HSK4安全的词汇.md"
               }
             }
           },
@@ -195,9 +194,11 @@
   },
   "active": "12b54685f2ba2df2",
   "lastOpenFiles": [
+    "Chinese/旅游/Flashcards for Trip to China.md",
+    "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
+    "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/书学/第4课.md",
-    "Chinese/HSK4/书学/第5课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
@@ -232,8 +233,6 @@
     "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Quantum Computing fot Computer Scientists",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis",
     "School/Quantum/Books/The Phylogenetic Handbook",
     "School/Quantum/Books",
