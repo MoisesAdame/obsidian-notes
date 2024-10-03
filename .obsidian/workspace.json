@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 6.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,8 +90,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#evolutionary-biology :evolutionary-biology ",
-                "matchingCase": false,
+                "query": "55",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -107,12 +107,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 262.5024719238281,
-    "collapsed": true
+    "width": 262.5024719238281
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md"
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md"
               }
             }
           },
@@ -211,8 +211,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab48757dec46a05e",
+  "active": "90d6c857a8fbfef6",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Semana 7.md",
+    "School/Quantum/Class Notes/Biology/Semana 8.md",
+    "School/Quantum/Class Notes/Biology/Semana 4.2.md",
+    "School/Quantum/Class Notes/Biology/Semana 2.md",
+    "School/Quantum/Class Notes/Biology/Semana 4.md",
+    "School/Quantum/Class Notes/Biology/Semana 5.md",
+    "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
@@ -231,24 +238,17 @@
     "Chinese/HSK4/书学/第4课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
-    "School/Quantum/Class Notes/Biology/Semana 8.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
-    "School/Quantum/Class Notes/Biology/Untitled.md",
-    "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.4.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.3.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.2.png",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Untitled 1.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.2.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.1.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.4.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
-    "Chinese/HSK4/书学/第1课.md",
-    "Chinese/HSK4/书学/第3课.md",
-    "Chinese/HSK4/书学/第2课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.56.25 a.m..png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "School/Quantum/Quantum Computing fot Computer Scientists",
