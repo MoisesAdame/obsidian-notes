@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "file": "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5024719238281,
-    "collapsed": true
+    "width": 317.5024719238281
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -141,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md"
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md"
               }
             }
           },
@@ -223,11 +222,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d170c9138e8707f2",
+  "active": "ab48757dec46a05e",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Semana 8.md",
+    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
+    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
-    "School/Quantum/Class Notes/Biology/Semana 8.md",
     "School/Quantum/Class Notes/Biology/Semana 9.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
@@ -241,8 +242,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
-    "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
-    "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "Chinese/HSK4/HSK4安全的词汇.md",
     "Chinese/旅游/Flashcards for Trip to China.md",

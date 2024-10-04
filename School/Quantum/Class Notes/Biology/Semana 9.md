@@ -14,3 +14,5 @@ Date: 2024-10-04 : 09:10
 	- Expones poblaciones que ya son resistentes.
 	- Aumentar estresores
 - Alinemiento de dos secuencias, la original y la que muto
+
+Leer paper del gen único. 
