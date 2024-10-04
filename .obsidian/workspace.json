@@ -58,9 +58,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a998584c8611d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "233c9a01209f576e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -129,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md",
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Quantum/Class Notes/Biology/Semana 8.md"
+                "file": "School/Quantum/Class Notes/Biology/Semana 9.md"
               }
             }
           },
@@ -211,11 +237,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ab48757dec46a05e",
+  "active": "233c9a01209f576e",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Semana 8.md",
+    "School/Quantum/Class Notes/Biology/Semana 9.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
-    "School/Quantum/Class Notes/Biology/Semana 8.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
@@ -238,7 +265,6 @@
     "Chinese/HSK4/书学/第4课.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
