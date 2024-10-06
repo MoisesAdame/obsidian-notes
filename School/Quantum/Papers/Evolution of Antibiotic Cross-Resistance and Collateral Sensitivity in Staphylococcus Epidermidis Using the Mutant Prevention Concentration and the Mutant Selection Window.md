@@ -35,6 +35,8 @@ Recently pathogens are more resistant to antibiotics, having both **cross-resist
 
 MPC has the been correlated with cross-resistance. In fact, **Mutant Selection Window (MSW)** a range that goes like $(MIC, MPC)$, shifts up or down depending the collateral-response. That window is the "moment" when the mutations can occur.
 
+As of right now, we don't know the correlations between MIC and MPC, but they depend on aspects such as the **species** and the **type of antibiotic**.
+
 There are different types of antibiotics, if they are the same type, **cross-resistance** tends to appear. For instance, similar **mechanism of action** means cross-resistance. But there are *exceptions*.
 
 What was used:
@@ -44,7 +46,7 @@ What was used:
 
 ## 2 Materials and Methods
 ### 2.1 Bacteria and Antibiotics
-Write here.
+
 
 ### 2.2 Liquid MIC
 Write here.
