@@ -46,7 +46,7 @@ What was used:
 
 ## 2 Materials and Methods
 ### 2.1 Bacteria and Antibiotics
-For each antibiotic they did a process of obtention of two independently mutant batch of bacteria resulting in 14 resistant strains.
+For each antibiotic they did a process of obtention of two independently mutant batch of bacteria resulting in 14 resistant strains. Then, they evolved **8 strains** in **100 generations** resulting in 56 adapted **resistant** strains.
 
 ### 2.2 Liquid MIC
 Write here.
