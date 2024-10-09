@@ -95,9 +95,11 @@ Important findings:
 - The same patters seen in MIC networks, were seen in MPC networks.
 - Symmetrical relations are more prevalent in the **MIC** level than in the **MPC**.
 ### 3.4 Mutations in the Genome
-The majority of the mutations were **missense mutations**.
+Out of the **13 mutations** found:
+- **9 mutations** were missense (a nucleotide change, produces an amino acid change).
+- **4 mutations** were other type of mutations.
 
-Depending on the antibiotic, there is a **gene mutation** associated with it.
+Depending on the antibiotic, there is a **gene mutation** associated with it, and **resistance** is associated to this type of mutation.
 
 ## 4 Discussion
 ### 4.1 Effects on Resistance on MIC and MPC
@@ -129,6 +131,7 @@ There are more cases of symmetrical relationships at the MIC level than at the M
 ## 5. Questions
 1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
 2. 3.3: Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity?
+3. 3.3 A qué se puede deber que las relaciones simétricas ya sea de cross-resistance o de collateral-sensitivity sean mas prevalentes en el nivel MIC que ne el MPC?
 
 
 
