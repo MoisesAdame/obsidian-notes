@@ -49,7 +49,7 @@ What was used:
 For each antibiotic they did a process of obtention of two independently mutant batch of bacteria resulting in 14 resistant strains. Then, they evolved **8 strains** in **100 generations** resulting in 56 adapted **resistant** strains.
 
 ### 2.2 Liquid MIC
-Write here.
+For the **70 resistant strains** they obtained the MIC, baiscally it was done by pouring diffe
 
 ### 2.3 Agar MIC and MPC Assays
 #### 2.3.1 Bacterial Preparation
