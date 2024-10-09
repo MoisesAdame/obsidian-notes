@@ -49,23 +49,23 @@ What was used:
 For each antibiotic they did a process of obtention of two independently mutant batch of bacteria resulting in 14 resistant strains. Then, they evolved **8 strains** in **100 generations** resulting in 56 adapted **resistant** strains.
 
 ### 2.2 Liquid MIC
-For the **70 resistant strains** they obtained the MIC, baiscally it was done by pouring diffe
+For the **70 resistant strains** they obtained the MIC, basically it was done by pouring different concentrations of antibiotic and finding the one where 95% growth inhibition.
 
 ### 2.3 Agar MIC and MPC Assays
 #### 2.3.1 Bacterial Preparation
-Write here.
+Describes how the bacteria where prepared to be tested.
 
 #### 2.3.2 Determining Agar MIC
-Write here.
+There are differences between **liquid MIC** and **agar MIC**. To avoid this, they measured MIC in agar during MPC experiments.
 
 #### 2.3.3 MPC Determination and Analysis
-Write here.
+For them, the MPC is the lowest antibiotic concentration where there was no growth across all three replicates. They did this three times resulting in **9 agar plates per drug-strain** combination.
 
 ### 2.4 Mutant Selection Window
-Write here.
+The MSW was measured in terms of the **parental MIC** value.
 
 ### 2.5 Whole-Genome Sequencing
-Write here.
+They **sequenced** the parental strain (S. epidermidis ATCC 14990) and all the resistant strains. Then, all the sequences were **aligned** to the reference genome (S. epidermidis ATCC 12228) 
 
 ### 2.6 Bioinformatics Analysis
 Write here.
