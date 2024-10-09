@@ -65,7 +65,7 @@ For them, the MPC is the lowest antibiotic concentration where there was no grow
 The MSW was measured in terms of the **parental MIC** value.
 
 ### 2.5 Whole-Genome Sequencing
-They **sequenced** the parental strain (S. epidermidis ATCC 14990) and all the resistant strains. Then, all the sequences were **aligned** to the reference genome (S. epidermidis ATCC 12228) 
+They **sequenced** the parental strain (S. epidermidis ATCC 14990) and all the resistant strains. Then, all the sequences were **aligned** to the reference genome (S. epidermidis ATCC 12228).
 
 ### 2.6 Bioinformatics Analysis
 Write here.
@@ -122,7 +122,8 @@ MSW varies dramatically and the correlation between the MIC and MPC weak- ens wh
 There are more cases of symmetrical relationships at the MIC level than at the MPC level
 
 ## 5. Questions
-1. 
+1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
+2. 
 
 
 
