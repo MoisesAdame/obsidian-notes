@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56c5d34c9d320e8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/成功之路/第10课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "755cf36041d252ce",
             "type": "leaf",
             "state": {
@@ -34,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],

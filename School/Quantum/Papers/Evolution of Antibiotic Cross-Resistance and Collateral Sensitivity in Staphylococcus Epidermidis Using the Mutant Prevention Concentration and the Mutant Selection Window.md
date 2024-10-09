@@ -108,11 +108,11 @@ We can see that **MIC and MPC are correlated**, but this correlation is subject 
 The MSW shifts to the right and widens when resistance evolves. Because of this **combining drugs** is more effective than increasing a single drug dosage. The latter is because using higher doses, increases the probability for the microorganisms to **mutate and become stronger**.
 
 ### 4.2 Cross-Resistance and Collateral Sensitivity at the Network Level
-There are more **symmetrical relations** at the MIC leven than at the MPC level. 
+There are more **symmetrical relations** at the MIC leven than at the MPC level. It can be due to the fact that the mutant strains were selected in the **MIC level**, and that an increase in MIC doesn't always mean an increase in MPC.
 
 Due to the fact that the correlation changed, whenever there was a symmetrical relation in the MIC level, if there was no resistance, the MPC didn't behave the same way, so there was no symmetrical relation over there.
 
-Cross-resistance and collateral sensitivity are more important than **drug interactions**. And they can be used to **predict evolution**.
+Cross-resistance and collateral sensitivity are more important than **drug interactions**. (Because drug interaction changes when the resistance develops, but collateral responses are more stable). And they can be used to **predict evolution**.
 
 ### 4.3 Genes Involved in Resistance
 Write here.
@@ -131,7 +131,7 @@ There are more cases of symmetrical relationships at the MIC level than at the M
 ## 5. Questions
 1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
 2. 3.3: Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity?
-3. 3.3 A qué se puede deber que las relaciones simétricas ya sea de cross-resistance o de collateral-sensitivity sean mas prevalentes en el nivel MIC que en el MPC?
+3. 4.1 (Segundo párrafo) Cómo saben y cuál es la diferencia que existen entre selección directa actuando en el MIC y selección indirecta actuando en el MPC.
 
 
 
