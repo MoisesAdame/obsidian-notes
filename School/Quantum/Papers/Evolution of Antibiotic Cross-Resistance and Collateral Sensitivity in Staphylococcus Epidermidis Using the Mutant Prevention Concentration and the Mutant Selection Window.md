@@ -105,7 +105,7 @@ Depending on the antibiotic, there is a **gene mutation** associated with it, an
 ### 4.1 Effects on Resistance on MIC and MPC
 We can see that **MIC and MPC are correlated**, but this correlation is subject of the resistance, that is to say, **more resistance, more correlation**.
 
-The MSW shifts to the right and widens when resistance evolves. Because of this **combining drugs** is more effective than increasing a single drug dosage.
+The MSW shifts to the right and widens when resistance evolves. Because of this **combining drugs** is more effective than increasing a single drug dosage. The latter is because using higher doses, increases the probability for the microorganisms to **mutate and become stronger**.
 
 ### 4.2 Cross-Resistance and Collateral Sensitivity at the Network Level
 There are more **symmetrical relations** at the MIC leven than at the MPC level. 
@@ -131,7 +131,7 @@ There are more cases of symmetrical relationships at the MIC level than at the M
 ## 5. Questions
 1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
 2. 3.3: Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity?
-3. 3.3 A qué se puede deber que las relaciones simétricas ya sea de cross-resistance o de collateral-sensitivity sean mas prevalentes en el nivel MIC que ne el MPC?
+3. 3.3 A qué se puede deber que las relaciones simétricas ya sea de cross-resistance o de collateral-sensitivity sean mas prevalentes en el nivel MIC que en el MPC?
 
 
 
