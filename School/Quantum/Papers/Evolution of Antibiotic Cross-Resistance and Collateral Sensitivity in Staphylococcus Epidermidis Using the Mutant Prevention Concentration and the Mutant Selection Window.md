@@ -82,13 +82,18 @@ There were two outcomes:
 In general, when **resistance evolves** the MSW gets wider. No matter if the resistance is due to evolution of cross-resistance.
 
 Conversely, when **resistance does not evolve** or there is **collateral sensitivity**, the MSW gets narrower or behaves unexpectedly.
+
 ### 3.3 MPC Cross-Resistance and Collateral Sensitivity
 #### Definitions
 - **Cross Resistance:** $max_{\text{父}} < min_{\text{儿}}$
 - **Collateral Sensitivity:** $max_{\text{儿}} < min_{\text{父}}$
 - **Symmetrical Cross-Resistance(CR)/Collateral Sensitivity(CS):** This can be either for MIC and MPC. If a strain is resistant to antibiotic A and cross-resists antibiotic B, and then different strain is resistant to antibiotic B and cross-resists antibiotic A, thats a symmetrical relation.
 
-Symmetrical relations are more prevalent in the **MIC** level than in the **MPC**.
+Important findings:
+- Cross-resistance was seen at least once in every resistant strain.
+- Most of the time, both mutant strains had cross resistance.
+- The same patters seen in MIC networks, were seen in MPC networks.
+- Symmetrical relations are more prevalent in the **MIC** level than in the **MPC**.
 ### 3.4 Mutations in the Genome
 The majority of the mutations were **missense mutations**.
 
@@ -123,7 +128,7 @@ There are more cases of symmetrical relationships at the MIC level than at the M
 
 ## 5. Questions
 1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
-2. 
+2. 3.3: Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity?
 
 
 
