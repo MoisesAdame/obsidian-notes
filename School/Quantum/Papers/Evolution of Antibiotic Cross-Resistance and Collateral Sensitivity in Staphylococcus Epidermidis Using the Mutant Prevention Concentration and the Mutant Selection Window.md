@@ -118,8 +118,10 @@ Cross-resistance and collateral sensitivity are more important than **drug inter
 A few gene anomalies were found across all the mutant strains:
 
 **TET and OX strains** had identical mutations on gene **SE2021**, the difference is that in the presence of **DOX** MSW of TET got wider and to the right, while the one for OX remained the same.
+![[fig4.b.png | 350]]
 
-
+Although **DOX R1** and **DOX R2** were genetically equal, they showed different **MPC collateral sensitivity** one to **OX** and one to **ERY**, but this can be due to flaws in the liquid MIC.
+![[fig5.b.png | 350]]
 
 
 
