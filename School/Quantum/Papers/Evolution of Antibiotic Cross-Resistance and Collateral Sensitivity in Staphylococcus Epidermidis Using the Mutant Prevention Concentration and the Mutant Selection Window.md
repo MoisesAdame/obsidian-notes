@@ -115,7 +115,13 @@ Due to the fact that the correlation changed, whenever there was a symmetrical r
 Cross-resistance and collateral sensitivity are more important than **drug interactions**. (Because drug interaction changes when the resistance develops, but collateral responses are more stable). And they can be used to **predict evolution**.
 
 ### 4.3 Genes Involved in Resistance
-Write here.
+A few gene anomalies were found across all the mutant strains:
+
+**TET and OX strains** had identical mutations on gene **SE2021**, the difference is that in the presence of **DOX** MSW of TET got wider and to the right, while the one for OX remained the same.
+
+
+
+
 
 ### 4.4 Potential Clinical Applications
 Some antibiotics have **special behaviors in their MSW**. For example:
