@@ -123,7 +123,7 @@ A few gene anomalies were found across all the mutant strains:
 Although **DOX R1** and **DOX R2** were genetically equal, they showed different **MPC collateral sensitivity** one to **OX** and one to **ERY**, but this can be due to flaws in the liquid MIC.
 ![[fig5.b.png | 350]]
 
-
+One last anomaly found was that although the **four strains of GEN and NEO** had different mutatio
 
 ### 4.4 Potential Clinical Applications
 Some antibiotics have **special behaviors in their MSW**. For example:
