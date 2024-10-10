@@ -132,40 +132,9 @@ Some antibiotics have **special behaviors in their MSW**. For example:
 - ERY R1
 - CPR R2
 
-Considering that some antibiotics generate **collateral sensitivity**, we can use a combination of antibiotics to treat some genes.
-
-MSW varies dramatically and the correlation between the MIC and MPC weakens when cross-resistance has not evolved at the MIC.
-
-There are more cases of symmetrical relationships at the MIC level than at the MPC level
+Use **collateral sensitivity** in a cyclic approach to extend the usefulness of current available antibiotics. But before doing it, it is important considering the MIC vs. MPC correlation, that is not always very predictable.
 
 ## 5. Questions
 1. 3.1 (Ultimo párrafo): Por qué the mixture of bactericidal and bacteriostatic antibiotics used could have confounded the relationship between MIC and MPC.
 2. 3.3: Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity?
 3. 4.1 (Segundo párrafo) Cómo saben y cuál es la diferencia que existen entre selección directa actuando en el MIC y selección indirecta actuando en el MPC.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
