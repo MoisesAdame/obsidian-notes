@@ -136,10 +136,10 @@ Some antibiotics have **special behaviors in their MSW**. For example:
 Use **collateral sensitivity** in a cyclic approach to extend the usefulness of current available antibiotics. But before doing it, it is important considering the MIC vs. MPC correlation, that is not always very predictable.
 
 ## 5. Questions
-1. 3.1 (Ultimo párrafo): ¿Por qué the la mezcla de antibióticos bactericidas y bacteriostaticos utilizados, pudo haber afectado a relación entre el MIC y MPC?
-3. 3.3: ¿Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity? ¿Qué ventajas ofrece sobre e previamente utilizado MIC en la generación de redes?
-4. 4.1 (Segundo párrafo) ¿Cómo saben y cuál es la diferencia que existen entre selección directa actuando en el MIC y selección indirecta actuando en el MPC?
-5. ¿Cuál puede ser la interpretación de un MIC = MPC, es decir, una MSW de 0?
-6. En la sección 2, Materiales y Métodos. ¿A qué se refieren exactamente con el liquid MIC?
-7. ¿A qué se le puede atribuir el hecho de que la mayoría de las mutaciones observadas fueron de tipo missense?
-8. ¿Cómo es que mutaciones en un mismo gen, como las ocurridas en las cepas de TEX y OX generen resultados en el MSW totalmente distintos? ¿Se debe ?
+1. **En la sección 2, Materiales y Métodos.** ¿A qué se refieren exactamente con el liquid MIC?
+2. **3.1 (Ultimo párrafo):** ¿Por qué the la mezcla de antibióticos bactericidas y bacteriostaticos utilizados, pudo haber afectado a relación entre el MIC y MPC?
+3. **3.3:** ¿Por qué utilizaron rangos de MPC para crear la red de cross-resistance y collateral-sensitivity? ¿Qué ventajas ofrece sobre el previamente utilizado MIC en la generación de redes?
+4. **3.4:** ¿A qué se le puede atribuir el hecho de que la mayoría de las mutaciones observadas fueron de tipo missense?
+5. **4.1 (Segundo párrafo):** ¿Cómo saben y cuál es la diferencia que existen entre selección directa actuando en el MIC y selección indirecta actuando en el MPC?
+6. **4.3:** ¿Cómo es que mutaciones en un mismo gen, como las ocurridas en las cepas de TEX y OX generen resultados en el MSW totalmente distintos? ¿Se puede deber a que mas de un gen esta siendo responsable de la resistencia?
+7. **4.4:** ¿Cuál puede ser la interpretación de un MIC = MPC, es decir, una MSW de 0?
