@@ -156,4 +156,15 @@ Beijing:
 - Lago Houhai (后海)
 - Centro de compras Taikoo Li Sanlitun (三里屯太古里)
 - Hutongs: Calle Nanluoguxiang. (胡同，南锣鼓巷)
-- Torre del tambor y de la campana ()
+- Torre del tambor y de la campana (鼓楼，钟楼)
+
+Shanghai:
+- Bund (外滩)
+- Suzhou, canales y seda (苏州)
+- Calle Nanjing (la del hotel) (南京路)
+- Parque Yuyuan (豫园)
+- Mirador del destapador
+- Templo del buda de jade (玉佛禅寺)
+- Templo Jingan (静安寺)
+- Concesión francesa.
+- Shanghai Marriage Market (人民公园相亲角)
