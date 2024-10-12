@@ -145,3 +145,15 @@ Use **collateral sensitivity** in a cyclic approach to extend the usefulness of 
 7. **4.4:** ¿Cuál puede ser la interpretación de un MIC = MPC, es decir, una MSW de 0?
 
 # Itinerario
+Beijing:
+- Muralla China, Badaling (长城，八达岭)
+- Tiananmen Square: Ciudad Prohibida, Museo nacional, Mausoleo de Mao, Parque Jingshan, Centro Nacional de Artes Escénicas de China. (故宫博物院，中国国家博物馆，毛主席纪念堂，景山公园，国家大剧院)
+- Palacio de Verano. (颐和园)
+- Templo Lama Yonghe. (雍和宮)
+- Calle de Té Maliandao (马连道，茶)
+- Templo de Confucio de Beijing. (北京孔庙)
+- 798 Art Zone (798艺术区)
+- Lago Houhai (后海)
+- Centro de compras Taikoo Li Sanlitun (三里屯太古里)
+- Hutongs: Calle Nanluoguxiang. (胡同，南锣鼓巷)
+- Torre del tambor y de la campana ()
