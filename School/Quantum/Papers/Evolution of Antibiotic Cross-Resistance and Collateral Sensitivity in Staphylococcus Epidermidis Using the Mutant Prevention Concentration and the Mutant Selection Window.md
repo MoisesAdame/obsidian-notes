@@ -143,3 +143,5 @@ Use **collateral sensitivity** in a cyclic approach to extend the usefulness of 
 5. **4.1 (Segundo párrafo):** ¿Cómo saben y cuál es la diferencia que existen entre selección directa actuando en el MIC y selección indirecta actuando en el MPC?
 6. **4.3:** ¿Cómo es que mutaciones en un mismo gen, como las ocurridas en las cepas de TEX y OX generen resultados en el MSW totalmente distintos? ¿Se puede deber a que mas de un gen esta siendo responsable de la resistencia?
 7. **4.4:** ¿Cuál puede ser la interpretación de un MIC = MPC, es decir, una MSW de 0?
+
+# Itinerario
