@@ -189,3 +189,5 @@ Luego la Aminoglico porque es mismo cambio pero en diferentes lugares
 Y ERY porque es un mismo cambio, que no está en los otros.
 
 Finalmente, en ERY, AMIN y luego TET(No tomar en cuenta la de plasmido). COn esos tres alineamientos, podemos jugar con modelo de Hector.
+
+Usar 12228 de GenBank
