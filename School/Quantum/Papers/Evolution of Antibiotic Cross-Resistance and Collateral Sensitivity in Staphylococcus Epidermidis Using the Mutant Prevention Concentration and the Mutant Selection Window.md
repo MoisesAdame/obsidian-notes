@@ -173,3 +173,11 @@ Shanghai:
 $$
 co\lor
 $$
+
+
+alineamiento de lo que esta en tabla 2.
+
+o enfocarse en un antibitioco TEX y DOX
+un alineamiento para cada tipo de antibiótico
+
+entre el silvestre y 
