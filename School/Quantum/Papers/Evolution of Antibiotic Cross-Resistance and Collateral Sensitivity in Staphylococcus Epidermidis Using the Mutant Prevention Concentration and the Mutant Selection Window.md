@@ -180,4 +180,12 @@ alineamiento de lo que esta en tabla 2.
 o enfocarse en un antibitioco TEX y DOX
 un alineamiento para cada tipo de antibiótico
 
-entre el silvestre y 
+entre el silvestre y los que muestra la tabla, las réplicas
+
+Seguro la TET porque hay 3 tipos de cambios
+
+Luego la Aminoglico porque es mismo cambio pero en diferentes lugares
+
+Y ERY porque es un mismo cambio, que no está en los otros.
+
+Finalmente, en ERY, AMIN y luego TET(No tomar en cuenta la de plasmido). COn esos tres alineamientos, podemos jugar con modelo de Hector.
