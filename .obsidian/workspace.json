@@ -13,29 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第11课.md",
+                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第11课"
-            }
-          },
-          {
-            "id": "536320a677def69e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第11课.md",
+                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 第11课"
+              "title": "Backlinks for Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window"
             }
           },
           {
@@ -128,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第11课.md",
+                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 第11课"
+              "title": "Outgoing links from Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window"
             }
           },
           {
@@ -155,10 +142,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第11课.md"
+                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 第11课"
+              "title": "Outline of Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window"
             }
           },
           {
@@ -186,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +191,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "536320a677def69e",
+  "active": "755cf36041d252ce",
   "lastOpenFiles": [
+    "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/书学/第5课.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
@@ -213,7 +202,6 @@
     "School/Quantum/Papers/The Dynamics of Molecular Evolution Over 60,000 Generations.md",
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Papers/Assets",
-    "Chinese/HSK4/成功之路/第11课.md",
     "Assets",
     "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Papers/Untitled.md",
