@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window"
+              "title": "3. Multiple Sequence Alignment"
             }
           }
         ],
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5024719238281,
-    "collapsed": true
+    "width": 317.5024719238281
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -193,9 +192,15 @@
   },
   "active": "755cf36041d252ce",
   "lastOpenFiles": [
+    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/书学/第5课.md",
-    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window",
@@ -206,24 +211,18 @@
     "Chinese/HSK4/成功之路/第10课.md",
     "School/Quantum/Papers/Untitled.md",
     "School/Quantum/Papers/Predicting the Effect of Mutations to Investigate Recent Events of Selection Across 60,472 Escherichia Coli Strains.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Class Notes/Biology/Semana 9.md",
     "School/Quantum/Class Notes/Biology/Semana 8.md",
     "School/Quantum/Papers/Predicting the Evolution of Escherichia coli by a data driven approach.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Class Notes/Biology/Semana 6.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Semana 5.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
     "School/Quantum/Papers/A Quantum Mechanical Model of Adaptive Mutation.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "Chinese/HSK4/HSK4安全的词汇.md",
-    "Chinese/旅游/Flashcards for Trip to China.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
