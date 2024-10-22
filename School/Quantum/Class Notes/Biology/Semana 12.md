@@ -19,4 +19,8 @@ Link de las secuencias del paper, [aquí](https://www.ncbi.nlm.nih.gov/bioprojec
 FASTA del gen rpIV cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=1863877&to=1864230)
 Alineaciones obtenidas, [aquí](https://trace.ncbi.nlm.nih.gov/Traces/sra-cl-be/sra_web?cmd=screen&run=SRR10584520&seqid=NC_004461.1&range=1863877-1864230&output=fasta&src=SRR10584520&local=undefined&max_lines=133333)
 
+#### Alineación para cepas AMY / GEN y NEO
+FASTA del gen fusA cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=310737&to=312818) en rango: 310737-312818
+
+
 
