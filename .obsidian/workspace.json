@@ -38,6 +38,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -206,10 +207,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "755cf36041d252ce",
+  "active": "2ea0477f07b4657e",
   "lastOpenFiles": [
-    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
+    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
