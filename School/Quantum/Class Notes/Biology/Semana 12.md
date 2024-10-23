@@ -27,6 +27,10 @@ Para encontrar el gen Se utilizó la página [UniPot](https://www.uniprot.org/un
 
 FASTA del gen SE0075 cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=73390&to=75798) en rango: 73390-75798
 
+The same process for finding gene SE0075 was executed to find gene **SE2021** whose name in the NCBI graphics is **SE_RS09855**.
+
+FASTA del gen SE0075 cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=2059306&to=2060985) en rango: 2059306-2060985
+
 
 
 
