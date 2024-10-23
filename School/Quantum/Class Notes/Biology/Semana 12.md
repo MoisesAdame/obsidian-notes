@@ -23,7 +23,7 @@ Alineaciones obtenidas, [aquí](https://trace.ncbi.nlm.nih.gov/Traces/sra-cl-be/
 FASTA del gen fusA cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=310737&to=312818) en rango: 310737-312818
 
 #### Alineación para cepas TET
-Para encontrar el gen 
+Para encontrar el gen Se utilizó la página [UniPot](https://www.uniprot.org/uniprotkb/A0A0H2VE12/entry), 
 
 
 
