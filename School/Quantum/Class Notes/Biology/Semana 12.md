@@ -35,7 +35,10 @@ Date: 2024-10-19 : 20:39
 		5.1.6 Model Uncertainty
 		5.1.7 Model Averaging
 		5.1.8 Parameter Importance
-		
+6. Single Nucleotide Polymorphisms
+7. Simple  Sequence Repeats
+
+
 
 
 ## Entregable 2
