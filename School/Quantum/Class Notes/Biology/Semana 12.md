@@ -53,6 +53,10 @@ artículo
 Link de la secuencia completa de S. epidermidis ATCC 12228, [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1).
 Link de las secuencias del paper, [aquí](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA593298)
 
+
+MX: 2281580854
+US: +1 8137051488
+
 #### Alineación para cepas de ERY
 FASTA del gen rpIV cepa silvestre: [aquí](https://www.ncbi.nlm.nih.gov/nuccore/NC_004461.1?report=fasta&from=1863877&to=1864230)
 Alineaciones obtenidas, [aquí](https://trace.ncbi.nlm.nih.gov/Traces/sra-cl-be/sra_web?cmd=screen&run=SRR10584520&seqid=NC_004461.1&range=1863877-1864230&output=fasta&src=SRR10584520&local=undefined&max_lines=133333)
