@@ -6,38 +6,36 @@ Date: 2024-10-19 : 20:39
 
 ## Entregable 0
 
-4. Genetic distances and nucleotide substitution models 111
-	4.1  Introduction 111
-    4.2  Observed and expected distances 112
-    4.3  Number of mutations in a given time interval *(optional) 113
-    4.4  Nucleotide substitutions as a homogeneous Markov process 116
-    
-
-4.4.1 The Jukes and Cantor (JC69) model 117 4.5 Derivation of Markov Process *(optional) 118 4.5.1 Inferring the expected distances 121 4.6 Nucleotide substitution models 121 4.6.1 Rate heterogeneity among sites 123
-
-109
-
-Practice
-
-Marco Salemi
-
-126
-
-7. 4.7  Software packages 126
-    
-8. 4.8  Observed vs. estimated genetic distances: the JC69 model 128
-    
-9. 4.9  Kimura 2-parameters (K80) and F84 genetic distances 131
-    
-10. 4.10  More complex models 132
-    
-    4.10.1 Modeling rate heterogeneity among sites 133
-    
-11. 4.11  Estimating standard errors using Mega4 135
-    
-12. 4.12  The problem of substitution saturation 137
-    
-13. 4.13  Choosing among different evolutionary models
+4. Genetic distances and nucleotide substitution models
+	4.1  Introduction
+    4.2  Observed and expected distances
+    4.3  Number of mutations in a given time interval
+    4.4  Nucleotide substitutions as a homogeneous Markov process
+	    4.4.1 The Jukes and Cantor (JC69) model 
+    4.5 Derivation of Markov Process 
+	    4.5.1 Inferring the expected distances
+	4.6 Nucleotide substitution models
+		4.6.1 Rate heterogeneity among sites
+	4.7  Software packages
+	4.8  Observed vs. estimated genetic distances: the JC69 model
+    4.9  Kimura 2-parameters (K80) and F84 genetic distances
+    4.10  More complex models
+	    4.10.1 Modeling rate heterogeneity among sites
+	4.11  Estimating standard errors using Mega4
+	4.12  The problem of substitution saturation
+	4.13  Choosing among different evolutionary models
+	
+5. Selection of Models of DNA Evolution with jMODELTEST
+	5.1 Introduction
+		5.1.1 Likelihood and Model Fit
+		5.1.2 Sequential Likelihood Ratio Tests
+		5.1.3 Akaike Information Criterion
+		5.1.4 Bayesian Information Criterion
+		5.1.5 Performance- Based Selection
+		5.1.6 Model Uncertainty
+		5.1.7 Model Averaging
+		5.1.8 Parameter Importance
+		
 
 
 ## Entregable 2
