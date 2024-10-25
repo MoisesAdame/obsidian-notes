@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4533032c9b08ba2a",
+        "id": "4c5a50e3f39ed181",
         "type": "tabs",
         "children": [
           {
-            "id": "a0dfe9aff3568dac",
+            "id": "31f3d0e027842437",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,6 +20,96 @@
               },
               "icon": "lucide-file",
               "title": "Entregable 0"
+            }
+          },
+          {
+            "id": "b0843f8b6f4a4837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Basic Concepts of Molecular Evolution"
+            }
+          },
+          {
+            "id": "a34af9a0cf7a7349",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Sequence Databases and Database Searching"
+            }
+          },
+          {
+            "id": "f349f6facbeeb129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Similarity Searching Using Blast"
+            }
+          },
+          {
+            "id": "b19c0f0417b77332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Multiple Sequence Alignment"
+            }
+          },
+          {
+            "id": "7c988ac5b6487a45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Multiple Alignment of DNA Sequences with MAFFT"
+            }
+          },
+          {
+            "id": "f7268be8c0d8996a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences"
             }
           }
         ],
@@ -79,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5024719238281
+    "width": 317.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -190,19 +281,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "31f3d0e027842437",
   "lastOpenFiles": [
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Class Notes/Biology/Entregable 0.md",
-    "School/Quantum/Class Notes/Biology/Semana 12.md",
-    "School/Quantum/Class Notes/Biology/Entregable 0.md",
-    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
+    "School/Quantum/Class Notes/Biology/Untitled.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
+    "School/Quantum/Class Notes/Biology/Semana 12.md",
+    "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Class Notes/Biology/Semana 9.md",
     "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/书学/第5课.md",
@@ -222,7 +315,6 @@
     "School/Quantum/Class Notes/Biology/Semana 7.md",
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
-    "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
@@ -230,7 +322,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.3.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.2.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.2.png",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.1.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "School/Quantum/Quantum Computing fot Computer Scientists",
