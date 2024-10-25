@@ -14,3 +14,5 @@ Posteriormente, se habla menciona la importancia de las alineaciones de secuenci
 
 ## Sección D, 99 Palabras
 En esta sección se aborda la **heterogeneidad composicional**, que describe diferencias en la composición de aspectos cuantificables y su impacto en el análisis filogenético. Se identifican tres tipos de evolución: estacionaria, reversible y homogénea, y se presentan métodos para detectar supuestos violados. Adicionalmente, se introduce **SeqVis** para analizar secuencias con visualización gráfica y agrupamiento. Además, se mencionan **CodonExplorer**, que permite el análisis de la variabilidad en codones y su relación con la función genética, y **UCSC Genome Browser**, que ofrece acceso a datos genómicos, herramientas de visualización y comparación de secuencias entre diferentes especies, facilitando estudios evolutivos y filogenéticos.
+
+## Sección D y E
