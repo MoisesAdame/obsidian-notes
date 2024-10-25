@@ -23,51 +23,6 @@
             }
           },
           {
-            "id": "b0843f8b6f4a4837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Basic Concepts of Molecular Evolution"
-            }
-          },
-          {
-            "id": "a34af9a0cf7a7349",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Sequence Databases and Database Searching"
-            }
-          },
-          {
-            "id": "f349f6facbeeb129",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Similarity Searching Using Blast"
-            }
-          },
-          {
             "id": "b19c0f0417b77332",
             "type": "leaf",
             "state": {
@@ -283,12 +238,12 @@
   },
   "active": "31f3d0e027842437",
   "lastOpenFiles": [
-    "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
-    "School/Quantum/Class Notes/Biology/Entregable 0.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
     "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+    "School/Quantum/Class Notes/Biology/Entregable 0.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Class Notes/Biology/Untitled.md",
