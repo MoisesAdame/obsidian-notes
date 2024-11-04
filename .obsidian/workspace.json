@@ -53,6 +53,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -221,10 +222,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d78e959488c93b4f",
+  "active": "85d0177d831bc625",
   "lastOpenFiles": [
-    "School/TheSuperTinyCompiler/2. Parsing.md",
     "School/TheSuperTinyCompiler/1. Introduction.md",
+    "School/TheSuperTinyCompiler/2. Parsing.md",
     "School/TheSuperTinyCompiler/3. Transformation.md",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
     "School/TheSuperTinyCompiler",
