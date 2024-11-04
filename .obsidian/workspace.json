@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "School/Quantum/Class Notes/Biology/Semana 12.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5024719238281
+    "width": 317.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
