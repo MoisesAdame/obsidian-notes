@@ -53,7 +53,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -222,7 +221,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af9d0f6607d5f7ce",
+  "active": "d78e959488c93b4f",
   "lastOpenFiles": [
     "School/TheSuperTinyCompiler/2. Parsing.md",
     "School/TheSuperTinyCompiler/1. Introduction.md",
