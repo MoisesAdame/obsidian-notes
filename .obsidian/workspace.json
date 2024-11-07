@@ -51,9 +51,21 @@
               "icon": "lucide-file",
               "title": "3. Transformation"
             }
+          },
+          {
+            "id": "6bc85df69e6f3831",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -221,11 +233,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af9d0f6607d5f7ce",
+  "active": "6bc85df69e6f3831",
   "lastOpenFiles": [
-    "School/TheSuperTinyCompiler/2. Parsing.md",
-    "School/TheSuperTinyCompiler/1. Introduction.md",
     "School/TheSuperTinyCompiler/3. Transformation.md",
+    "School/TheSuperTinyCompiler/1. Introduction.md",
+    "School/TheSuperTinyCompiler/2. Parsing.md",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
     "School/TheSuperTinyCompiler",
     "Technologies/SQL/SQL Language/Data Manipulation Language/LIKE.md",
