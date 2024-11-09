@@ -53,7 +53,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -221,11 +220,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af9d0f6607d5f7ce",
+  "active": "d78e959488c93b4f",
   "lastOpenFiles": [
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/TheSuperTinyCompiler/2. Parsing.md",
     "School/TheSuperTinyCompiler/1. Introduction.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Books/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/TheSuperTinyCompiler/3. Transformation.md",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
