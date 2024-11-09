@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/TheSuperTinyCompiler/3. Transformation.md",
-                "mode": "source",
+                "file": "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Transformation"
+              "title": "2. Complex Vector Spaces"
             }
           }
         ],
@@ -223,9 +223,11 @@
   },
   "active": "af9d0f6607d5f7ce",
   "lastOpenFiles": [
-    "School/TheSuperTinyCompiler/3. Transformation.md",
-    "School/TheSuperTinyCompiler/1. Introduction.md",
     "School/TheSuperTinyCompiler/2. Parsing.md",
+    "School/TheSuperTinyCompiler/1. Introduction.md",
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
+    "School/Quantum/Books/Physics for Science and Engineering/40. Quantum Mechanics.md",
+    "School/TheSuperTinyCompiler/3. Transformation.md",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
     "School/TheSuperTinyCompiler",
     "Technologies/SQL/SQL Language/Data Manipulation Language/LIKE.md",
@@ -254,8 +256,6 @@
     "School/Quantum/Quantum Computing fot Computer Scientists/2. Complex Vector Spaces.md",
     "School/Quantum/Papers/Assets",
     "Assets",
-    "Chinese/HSK4/成功之路/第10课.md",
-    "School/Quantum/Papers/Untitled.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
