@@ -51,21 +51,9 @@
               "icon": "lucide-file",
               "title": "3. Transformation"
             }
-          },
-          {
-            "id": "6bc85df69e6f3831",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -233,7 +221,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6bc85df69e6f3831",
+  "active": "af9d0f6607d5f7ce",
   "lastOpenFiles": [
     "School/TheSuperTinyCompiler/3. Transformation.md",
     "School/TheSuperTinyCompiler/1. Introduction.md",
