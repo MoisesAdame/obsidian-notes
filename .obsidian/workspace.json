@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "53461bce6fbe2fea",
+        "id": "6d5565fb2de5de2d",
         "type": "tabs",
         "children": [
           {
-            "id": "c5f7a5460f345e74",
+            "id": "697a8ba81403722f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "School/TheSuperTinyCompiler/1. Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. Introduction"
             }
           }
         ],
@@ -185,10 +190,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c5f7a5460f345e74",
+  "active": "697a8ba81403722f",
   "lastOpenFiles": [
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/TheSuperTinyCompiler/2. Parsing.md",
+    "School/Quantum/Books/Quantum Computing for Computer Scientists/2. Complex Vector Spaces.md",
     "School/TheSuperTinyCompiler/1. Introduction.md",
     "School/Quantum/Books/Physics for Science and Engineering/40. Quantum Mechanics.md",
     "School/TheSuperTinyCompiler/3. Transformation.md",
