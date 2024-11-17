@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "German/Untitled.md",
+                "file": "German/Klasse 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Klasse 1"
             }
           }
         ],
@@ -191,7 +191,7 @@
   },
   "active": "9d7d7995467c804a",
   "lastOpenFiles": [
-    "German/Untitled.md",
+    "German/Klasse 1.md",
     "German",
     "School/TheSuperTinyCompiler/1. Introduction.md",
     "School/TheSuperTinyCompiler/2. Parsing.md",

@@ -90,6 +90,11 @@ In das Kino = Ins Kino
 
 ## Preguntas
 El verbo se pone como auxiliar en inglés
-**Gehe** ich ins Kino (Vas al cine?)
+**Gehe** ich ins Kino? (Vas al cine?)
 **Wonht** sie in Mexiko? (Ella vive en México)
+Gehe Sie ins Kino? (Ustedes van al cine?)
+Geht ihr ins Kino
+Ghest du ins Kino?
+
+
 
