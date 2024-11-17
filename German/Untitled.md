@@ -39,8 +39,34 @@ E:
 F: Inglés ef
 G: gue
 H: ja
+I:
+J: iot, se lee i
+K:
+L: Inglés el
+M: Inglés em
+N: Inglés en
+O:
+P:
+Q: 
+R: erg entre e y a al final de palabra.
+S: Inglés z
+T:
+U: 
+V: Fau. Como f o como v
+W: ve
+X: ix
+Y: üpsilon
+Z: tzet
 
+Ch: j
 
+### Úmlaut
+Ä: Entre a y e.
+ö: Entre o y u
+ü: Igual que chino
+
+### Etset
+SS: 
 
 
 
