@@ -79,11 +79,17 @@ wonhen: vivir
 hören: escuchar
 
 ## Oraciones
-Ich **wonhe** in Mexico. (Yo vivo en México).
-Sie wonht in Deutschland. (Ella vive en Alemania).
+Ich **wonhe** in Mexiko. (Yo vivo en México).
+Sie **wonht** in Deutschland. (Ella vive en Alemania).
+Ihr **ghet** zur schule (Ustedes informal, van a la escuela)
+Zu: to
+Zu der schule = zur schule
 
+Ich gehe ins Kio (Yo voy al cine)
+In das Kino = Ins Kino
 
-
-
-
+## Preguntas
+El verbo se pone como auxiliar en inglés
+**Gehe** ich ins Kino (Vas al cine?)
+**Wonht** sie in Mexiko? (Ella vive en México)
 
