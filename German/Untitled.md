@@ -11,6 +11,7 @@ sie: Ella / ellos
 Sie: Usted/Ustedes
 wir: Somos
 ihr: You guys / y'all
+es: It/esto
 
 ## Artículos
 der: el
@@ -66,7 +67,23 @@ Ch: j
 ü: Igual que chino
 
 ### Etset
-SS: 
+SS: s suave
+
+## Verbos
+ich gehe: Yo voy
+er geht: Él va.
+Sie gehen: Ellos van/Ellas van/Usted va/Ustedes van
+
+kommen: venir
+wonhen: vivir
+hören: escuchar
+
+## Oraciones
+Ich **wonhe** in Mexico. (Yo vivo en México).
+Sie wonht in Deutschland. (Ella vive en Alemania).
+
+
+
 
 
 
