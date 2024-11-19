@@ -18,4 +18,10 @@ In general, we want to express how likely it is that an event occurs, that is do
 1. $P(\Omega) = 1$
 2. $P(A \cup B) = P(A) + P(B)$ if $A$ and $B$ are disjoint.
 
-If $A$ and $B$ are not disjoint, to compute probabilities we have to use the following rule: $A = ()$
+If $A$ and $B$ are not disjoint, to compute probabilities we have to use the following rule: $A = (A \cap B) \cup (A \cap B^{C})$, thus:
+$$
+P(A) = P(A \cap B) + P(A \cap B^{C})
+$$
+
+### The Probability of a Union
+We know that $A \cup B = (A \cap B^{C})$
