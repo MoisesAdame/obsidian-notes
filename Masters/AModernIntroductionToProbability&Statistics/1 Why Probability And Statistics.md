@@ -14,4 +14,9 @@ You are offered to open a door, in a selection of three doors. two of them have 
 probability, while yours has $\frac{1}{3}$. 
 
 ## 1.4 The Space Shuttle Challenger
-The Challenger was a space shuttle that exploded due to the effect 
+The Challenger was a space shuttle that exploded due to the effect of O-rings, a seal that goes inside the rockets. As calculated with previous launches, these seals failed when the temperatures decreased, and after calculating the probability of the six seals in the challenger failing given the temperature of that they it was certain all of them were going to fail.
+
+## 1.5 Statistics Versus Intelligence Agencies
+Using the serial numbers of german production during WWII, American intelligence managed to decode and thus estimate the production of german factories with a big precision.
+
+## 1.6 The Speed Of Light
