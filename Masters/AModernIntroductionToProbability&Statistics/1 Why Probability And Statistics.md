@@ -20,3 +20,4 @@ The Challenger was a space shuttle that exploded due to the effect of O-rings, a
 Using the serial numbers of german production during WWII, American intelligence managed to decode and thus estimate the production of german factories with a big precision.
 
 ## 1.6 The Speed Of Light
+One way to measure light speed is to pass light trough a slit and the reflect it trough a spinning mirror and measure the angle difference. After measuring that many times, we can give a precise result, which needs statistics to be expressed via confidence intervals
