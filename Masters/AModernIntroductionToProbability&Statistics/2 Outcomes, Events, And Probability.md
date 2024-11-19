@@ -24,4 +24,17 @@ P(A) = P(A \cap B) + P(A \cap B^{C})
 $$
 
 ### The Probability of a Union
-We know that $A \cup B = (A \cap B^{C})$
+We know that $A \cup B = B \cup (A \cap B^{C})$, thus:
+$$
+P(A \cup B) = P(B) + P(A \cap B^{C})
+$$
+Considering the previous identity, we get:
+$$
+P(A \cup B) = P(B) + P(A) - P(A \cap B)
+$$
+
+Additionally we know that $A \cup A^{C} = \Omega$, which means:
+$$
+P(A) + P(A^{C}) = P(\Omega) = 1 \implies P(A) = 1 - P(A^{C})
+$$
+## 2.4 Products of Sample Spaces
