@@ -36,6 +36,16 @@
               "icon": "lucide-file",
               "title": "2 Outcomes, Events, And Probability"
             }
+          },
+          {
+            "id": "2542eafbf6644352",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 1,
@@ -209,8 +219,9 @@
   },
   "active": "d14fa55d40ec75a6",
   "lastOpenFiles": [
-    "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
+    "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
+    "Masters/AModernIntroductionToProbability&Statistics/Untitled.md",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
     "German/Klasse 1.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",

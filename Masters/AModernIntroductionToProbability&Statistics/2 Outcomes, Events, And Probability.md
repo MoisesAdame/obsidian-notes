@@ -12,4 +12,10 @@ Date: 2024-11-19 : 12:30
 **Example:** When asking the month of a birthday of a set of people, while all the months are the sample space, $A = \{ Jan, Oct, Dec \}$ is a possible event because $A \subset \Omega$.
 
 ## 2.3 Probability
-In general, we want to express how likely it is that an event occurs, that is done trough a *probability distribution*
+In general, we want to express how likely it is that an event occurs, that is done trough a *probability function*.
+
+**Definition:** A probability function $P$ on a finite sample space $\Omega$ assigns to each event $A \subset \Omega$ a number $0 \leq P(A) \leq 1$ such that:
+1. $P(\Omega) = 1$
+2. $P(A \cup B) = P(A) + P(B)$ if $A$ and $B$ are disjoint.
+
+If $A$ and $B$ are not disjoint, to compute probabilities we have to use the following rule: $A = ()$
