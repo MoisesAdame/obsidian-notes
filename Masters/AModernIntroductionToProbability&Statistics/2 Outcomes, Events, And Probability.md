@@ -38,3 +38,5 @@ $$
 P(A) + P(A^{C}) = P(\Omega) = 1 \implies P(A) = 1 - P(A^{C})
 $$
 ## 2.4 Products of Sample Spaces
+CURP: AAAM030104HDFDGSA1
+
