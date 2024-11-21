@@ -43,7 +43,15 @@ $$
 \Omega = \Omega_{1} \times \Omega_{2} = \{ (\omega_{1}, \omega_{2}) : \omega_{1} \in \Omega_{1}, \omega_{2} \in \Omega_{2} \}
 $$
 
-If the experiments are not mutually influenced, and every 
+If the experiments are not mutually influenced, and every scenario is equally likely, if $|\Omega_{1}| = r$ and $|\Omega_{2}| = s$, then the probability for any  scenario to occur is:
+$$
+P(\{ (\omega_{x}, \omega_{y} )\}) = \frac{1}{rs}
+$$
+
+## 2.5 An Infinite Sample Space
+This can happen for example in an experiment of *how many coin tosses, until we get tails*. Here the sample space is $\Omega = $
+
+
 
 
 
