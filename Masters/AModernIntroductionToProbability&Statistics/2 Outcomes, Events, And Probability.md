@@ -65,16 +65,15 @@ Now, how would you calculate $P(\Omega)$? Thats were the definition of P is exte
 
 **Definition:** A probability function on an infinite (or finite) sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
 1. $P(\Omega) = 1$
-2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{n}$
+2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{1}, A_{2}, A_{3}, \dots$ are disjoint.
 
+## 2.6 Exercises
+### Exercise 2.1
+Let $A$ and $B$ be two events in a sample space for which $P(A) = 2/3$, $P(B) = 1/6$, and $P(A \cap B) = 1/9$. What is $P(A \cup B)$?
 
-
-
-
-
-
-
-
-
-
-
+We know that $P(A \cup B) = P(A) + P(B) - P(A \cap B)$, then:
+$$
+P(A \cup B) = \frac{2}{3} + \frac{1}{6} - \frac{1}{9} = \frac{12 + 3 - 2}{18} = \frac{13}{18}
+$$
+### Exercise 2.4
+We consider events $A$, $B$, and $C$, which can occur in some experiment. Is it true that the probability that only A occurs (and not B or C) is equal to $P(A∪B∪C)−P(B)−P(C)+P(B∩C)$?
