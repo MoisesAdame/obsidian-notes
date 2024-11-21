@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86a1357804b1a28e",
+            "id": "2542eafbf6644352",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "d14fa55d40ec75a6",
+            "id": "e7149be3fa0a8bfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,16 +35,6 @@
               },
               "icon": "lucide-file",
               "title": "2 Outcomes, Events, And Probability"
-            }
-          },
-          {
-            "id": "2542eafbf6644352",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ],
@@ -217,10 +207,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d14fa55d40ec75a6",
+  "active": "e7149be3fa0a8bfc",
   "lastOpenFiles": [
-    "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
+    "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
     "Masters/AModernIntroductionToProbability&Statistics/Untitled.md",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
     "German/Klasse 1.md",
