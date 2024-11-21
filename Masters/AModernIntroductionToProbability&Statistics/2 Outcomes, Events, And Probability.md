@@ -113,6 +113,6 @@ $$
 
 For them to **both occur**, we have to consider:
 $$
-P(D_{1} \cap D_{2}) = P(D_{1}) + P(D_{2}) - P(D_{1} \cup D_{2})
+P(D_{1} \cap D_{2}) \leq P(D_{1}) + P(D_{2})
 $$
 
