@@ -106,4 +106,13 @@ This is the correct consideration, because if we did $P(A \cup B)$, then we woul
 
 #### Exercise 2.8: Suppose the events $D_{1}$ and $D_{2}$ represent disasters, which are rare: $P(D_{1}) ≤ 10^{−6}$ and $P(D_{2}) ≤ 10^{−6}$. What can you say about the probability that at least one of the disasters occurs? What about the probability that they both occur?
 
+For **at least one occurring** we have to consider:
+$$
+P(D_{1} \cup D_{2}) = P(D_{1}) + P(D_{2}) \leq 2 \cdot 10^{-6}
+$$
+
+For them to **both occur**, we have to consider:
+$$
+P(D_{1} \cap D_{2}) = P(D_{1}) + P(D_{2}) - P(D_{1} \cup D_{2})
+$$
 
