@@ -49,12 +49,23 @@ P(\{ (\omega_{x}, \omega_{y} )\}) = \frac{1}{rs}
 $$
 
 ## 2.5 An Infinite Sample Space
-This can happen for example in an experiment of *how many coin tosses, until we get tails*. Here the sample space is $\Omega = $
+This can happen for example in an experiment of *how many coin tosses, until we get tails*. Here the sample space is $\Omega = \mathbb{N} - \{ 0 \}$. What is the probability function for this scenario?
 
+Let generalize it to $n$, where $(H, H, H, \dots, T)$, our sample space would be:
+$$
+\Omega = \{ H, T \} \times \{ H, T \} \times \cdots \times \{ H, T \}
+$$
 
+Considering that the probability of getting tails is $p$ and getting head is $1 - p$, we get:
+$$
+P(\{ n \}) = p (1-p)^{n - 1}
+$$
 
+Now, how would you calculate $P(\Omega)$? Thats were the definition of P is extended:
 
-
+**Definition:** A probability function on an infinite (or finite) sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
+1. $P(\Omega) = 1$
+2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{n}$
 
 
 
