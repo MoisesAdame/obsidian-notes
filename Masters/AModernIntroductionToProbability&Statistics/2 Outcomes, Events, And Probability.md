@@ -14,7 +14,7 @@ Date: 2024-11-19 : 12:30
 ## 2.3 Probability
 In general, we want to express how likely it is that an event occurs, that is done trough a *probability function*.
 
-**Definition:** A probability function $P$ on a finite sample space $\Omega$ assigns to each event $A \subset \Omega$ a number $0 \leq P(A) \leq 1$ such that:
+**Definition:** A *probability function $P$* on a finite sample space $\Omega$ assigns to each event $A \subset \Omega$ a number $0 \leq P(A) \leq 1$ such that:
 1. $P(\Omega) = 1$
 2. $P(A \cup B) = P(A) + P(B)$ if $A$ and $B$ are disjoint.
 
@@ -63,7 +63,7 @@ $$
 
 Now, how would you calculate $P(\Omega)$? Thats were the definition of P is extended:
 
-**Definition:** A probability function on an infinite (or finite) sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
+**Definition:** A *probability function* on an infinite (or finite) sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
 1. $P(\Omega) = 1$
 2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{1}, A_{2}, A_{3}, \dots$ are disjoint.
 
@@ -92,11 +92,18 @@ Which, only holds if the sets are **disjoint**.
 
 #### Exercise 2.7 Let $A$ and $B$ be two events. Suppose that $P(A) = 0.4$, $P(B) = 0.5$, and $P(A \cap B) = 0.1$. Find the probability that $A$ or $B$ occurs, but not both.
 
-We know that:
+We want:
 $$
-P(A \cup B) = P(A) + P(B) - P(A \cap B)
+(A^{C} \cap B) \cup (A \cap B^{C}) = (B - A \cup B) \cup (A - A \cup B)
 $$
-Thus:
+
+This means:
 $$
-P(A \cup B) = 0.4 + 0.5 - 0.1 = 0.8
+P(B - A \cup B) + P(A - A \cup B) = (0.4 - 0.1) + (0.5 - 0.1) = 0.7
 $$
+
+This is the correct consideration, because if we did $P(A \cup B)$, then we would be considering A, B or both.
+
+#### Exercise 2.8: Suppose the events $D_{1}$ and $D_{2}$ represent disasters, which are rare: $P(D_{1}) ≤ 10^{−6}$ and $P(D_{2}) ≤ 10^{−6}$. What can you say about the probability that at least one of the disasters occurs? What about the probability that they both occur?
+
+
