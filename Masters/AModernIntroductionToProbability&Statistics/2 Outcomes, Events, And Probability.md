@@ -68,12 +68,25 @@ Now, how would you calculate $P(\Omega)$? Thats were the definition of P is exte
 2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{1}, A_{2}, A_{3}, \dots$ are disjoint.
 
 ## 2.6 Exercises
-### Exercise 2.1
-Let $A$ and $B$ be two events in a sample space for which $P(A) = 2/3$, $P(B) = 1/6$, and $P(A \cap B) = 1/9$. What is $P(A \cup B)$?
+### Exercise 2.1: Let $A$ and $B$ be two events in a sample space for which $P(A) = 2/3$, $P(B) = 1/6$, and $P(A \cap B) = 1/9$. What is $P(A \cup B)$?
 
 We know that $P(A \cup B) = P(A) + P(B) - P(A \cap B)$, then:
 $$
 P(A \cup B) = \frac{2}{3} + \frac{1}{6} - \frac{1}{9} = \frac{12 + 3 - 2}{18} = \frac{13}{18}
 $$
-### Exercise 2.4
-We consider events $A$, $B$, and $C$, which can occur in some experiment. Is it true that the probability that only A occurs (and not B or C) is equal to $P(A∪B∪C)−P(B)−P(C)+P(B∩C)$?
+### Exercise 2.4: We consider events $A$, $B$, and $C$, which can occur in some experiment. Is it true that the probability that only A occurs (and not B or C) is equal to $P(A \cup B \cup C) − P(B) − P(C) + P(B \cap C)$?
+
+What this statement proposes is that $P(A) = P(A \cup B \cup C) − P(B) − P(C) + P(B \cap C)$
+
+We know that:
+$$
+P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B \cap C)
+$$
+
+Which means that:
+$$
+P(A \cap B \cap C) = P(B \cap C)
+$$
+
+
+
