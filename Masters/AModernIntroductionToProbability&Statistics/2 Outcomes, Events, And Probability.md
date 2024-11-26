@@ -180,6 +180,13 @@ $$
 
 |     | a   | b   | c   |
 | --- | --- | --- | --- |
-| a   | 0   |     |     |
-| b   |     | 0   |     |
-| c   |     |     | 0   |
+| a   | 0   | 1/6 | 1/6 |
+| b   | 0   | 0   | 1/3 |
+| c   | 0   | 1/3 | 0   |
+|     |     |     |     |
+#### Exercise 2.15 The rule $P(A ∪ B) = P(A) + P(B) − P(A ∩ B)$ from Section 2.3 is often useful to compute the probability of the union of two events. What would be the corresponding rule for three events $A$, $B$, and $C$? It should start with $P(A ∪ B ∪ C) = P(A) + P(B) + P(C) − · · ·$. Hint: you could use the sum rule suitably, or you could make a diagram as in
+
+Let's say that $D = A \cup B$, then:
+$$
+P(D \cup C) = P(D) + P(C) - P(D \cap C)
+$$
