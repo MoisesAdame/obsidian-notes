@@ -122,6 +122,22 @@ $$
 A = \{ TTH, HTT, THT \}
 $$
 $$
-B = \{  \}
+B = \{ TTH, HTT, THT, TTT \}
 $$
-
+$$
+C = \{ HHT, HHH, HTT, HTT \}
+$$
+$$
+D = \{ THH, TTH, THT, TTT \}
+$$
+For b we can say:
+$$
+A^{C} = \{ HHH,THH,HTH,HHT,TTT \}
+$$
+$$
+A \cup (C \cap D) = \{ TTH, HTT, THT \}
+$$
+#### Exercise 2.10 In some sample space we consider two events $A$ and $B$. Let $C$ be the event that $A$ or $B$ occurs, but not both. Express $C$ in terms of $A$ and $B$, using only the basic operations “union,” “intersection,” and “complement.”
+$$
+C = (A - B) \cup (B - A)
+$$
