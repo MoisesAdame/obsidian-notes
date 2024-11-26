@@ -138,6 +138,27 @@ $$
 A \cup (C \cap D) = \{ TTH, HTT, THT \}
 $$
 #### Exercise 2.10 In some sample space we consider two events $A$ and $B$. Let $C$ be the event that $A$ or $B$ occurs, but not both. Express $C$ in terms of $A$ and $B$, using only the basic operations “union,” “intersection,” and “complement.”
+It can be originally expressed as follows:
 $$
-C = (A - B) \cup (B - A)
+C = (A \cup B) \cap (A \cap B)^{C}
 $$
+Using DeMorgan's Laws we can simplify this expression to:
+$$
+C = A \cup B \cap (A^{C} \cup B^{C}) = A^{C}\cap(A \cup B) \cup B^{C}\cap(A \cup B) = (A^{C} \cap B) \cup (B^{C} \cap A)
+$$
+#### Exercise 2.11 An experiment has only two outcomes. The first has probability $p$ to occur, the second probability $p^{2}$. What is $p$?
+We know that if the first outcome has a probability of $p$ to occur, then the second outcome must have a probability of $1 - p$, thus, solving for $p$ given the information we have:
+$$
+1 - p = p^{2} \implies p^{2} + p - 1 = 0 
+$$
+
+Then after solving we get that:
+$$
+p = -\frac{1}{2} \pm \frac{\sqrt{ 5 }}{2}
+$$
+But because $0 \leq p \leq 1$, then:
+$$
+p = -\frac{1}{2} + \frac{\sqrt{ 5 }}{2}
+$$
+
+#### Exercise 2.12 In the UEFA Euro 2004 playoffs draw 10 national football teams were matched in pairs. A lot of people complained that “the draw was not fair,” because each strong team had been matched with a weak team (this is commercially the most interesting). It was claimed that such a matching is extremely unlikely. We will compute the probability of this “dream draw” in this exercise. In the spirit of the three-envelope example of Section 2.1 we put the names of the 5 strong teams in envelopes labeled 1,2,3,4, and 5 and of the 5 weak teams in envelopes labeled 6, 7, 8, 9, and 10. We shuffle the 10 envelopes and then match the envelope on top with the next envelope, the third envelope with the fourth envelope, and so on. One particular way a “dream draw” occurs is when the five envelopes labeled 1,2,3,4,5 are in the odd numbered positions (in any order!) and the others are in the even numbered positions. This way corresponds to the situation where the first match of each strong team is a home match. Since for each pair there are two possibilities for the home match, the total number of possibilities for the “dream draw” is 25 = 32 times as large.
