@@ -111,9 +111,17 @@ $$
 P(D_{1} \cup D_{2}) = P(D_{1}) + P(D_{2}) \leq 2 \cdot 10^{-6}
 $$
 
-For them to **both occur**, we have to consider:
+For both of them to occur, we have to consider that $D_{1}  \subset D_{2}$ or that $D_{2} \subset D_{1}$. Considering that we can say that:
 $$
-P(D_{1} \cap D_{2}) = P(D_{1} \cup D_{2}) - P(D_{1}) - P(D_{2})
+P(D_{1} \cap D_{2}) = min\{ P(D_{1}), P(D_{2}) \} \leq 10^{-6} 
 $$
+#### 2.9 We toss a coin three times. For this experiment we choose the sample space $\Omega = \{ HHH,THH,HTH,HHT,TTH,THT,HTT,TTT \}$. (a) Write down the set of outcomes corresponding to each of the following events: A, B, C and D. (b) Write down the set of outcomes corresponding to each of the following events: $A^{C}$, $A∪(C ∩D)$, and $A∩D^{C}$.
 
+For a we can say that:
+$$
+A = \{ TTH, HTT, THT \}
+$$
+$$
+B = \{  \}
+$$
 
