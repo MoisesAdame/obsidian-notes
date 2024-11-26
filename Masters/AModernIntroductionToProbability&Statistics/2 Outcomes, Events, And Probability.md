@@ -190,3 +190,17 @@ Let's say that $D = A \cup B$, then:
 $$
 P(D \cup C) = P(D) + P(C) - P(D \cap C)
 $$
+Then we get:
+$$
+P(D \cup C) = P(A \cup B) + P(C) - P(D \cap C)
+$$
+$$
+P(D \cup C) = P(A) + P(B) - P(A \cap B) + P(C) - P(D \cap C)
+$$
+$$
+P(D \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P((A \cap C) \cup (B \cap C))
+$$
+$$
+P(D \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P()
+$$
+
