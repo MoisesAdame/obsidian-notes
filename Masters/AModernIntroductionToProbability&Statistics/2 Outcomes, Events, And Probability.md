@@ -171,3 +171,15 @@ $$
 5 \times 5 \times 4 \times 4 \times 3 \times 3 \times 2 \times 2 \times 1 \times 1 \times = 5! \times 5!
 $$
 (C) What is the probability of a “dream draw”?
+$$
+P(\text{Dream Draw}) = 2^{5}\frac{5! \times 5!}{10!} 
+$$
+
+#### Exercise 2.14 Consider the Monty Hall “experiment” described in Section 1.3. The door behind which the car is parked we label a, the other two b and c. As the sample space we choose a product space $\Omega = \{ a, b, c \} \times \{ a, b, c \}$.  Here the first entry gives the choice of the candidate, and the second entry the choice of the quizmaster.
+(A) Make a 3×3 table in which you write the probabilities of the outcomes. N.B. You should realize that the candidate does not know that the car is in a, but the quizmaster will never open the door labeled a because he knows that the car is there. You may assume that the quizmaster makes an arbitrary choice between the doors labeled b and c, when the candidate chooses door a.
+
+|     | a   | b   | c   |
+| --- | --- | --- | --- |
+| a   | 0   |     |     |
+| b   |     | 0   |     |
+| c   |     |     | 0   |
