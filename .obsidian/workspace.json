@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7fad2402bb0d1768",
+        "id": "7d87cbe260a14c04",
         "type": "tabs",
         "children": [
           {
-            "id": "e7149be3fa0a8bfc",
+            "id": "84d655dfb57e410d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2 Outcomes, Events, And Probability"
+              "title": "New tab"
             }
           }
         ],
@@ -79,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -173,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,13 +185,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8015bddc8a6827f4",
+  "active": "84d655dfb57e410d",
   "lastOpenFiles": [
+    "German/Klasse 1.md",
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
+    "Masters/AModernIntroductionToProbability&Statistics/Exercises/2 Exercises.md",
+    "Masters/AModernIntroductionToProbability&Statistics/Exercises",
     "Masters/AModernIntroductionToProbability&Statistics/Untitled.md",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
-    "German/Klasse 1.md",
     "School/Quantum/Papers/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window.md",
     "Masters/AModernIntroductionToProbability&Statistics",
     "German",
@@ -223,7 +220,6 @@
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
     "School/Quantum/Class Notes/Biology/Semana 9.md",
-    "Chinese/HSK4/成功之路/第11课.md",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window",
     "School/Quantum/Papers/Assets",
@@ -237,7 +233,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig3.6.2.png",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets",
-    "School/Quantum/Quantum Computing fot Computer Scientists",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "Chinese/HSK4/书学/Untitled.canvas",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
