@@ -214,15 +214,14 @@ Considering the previous equation we know that:
 $$
 P(E \cup F \cup G) = P(E) + P(F) + P(G) - P(E \cap F) - P(E \cap G) - P(F \cap G) + P(E \cap F \cap G)
 $$
-We know that:
-$$
-P(E \cup F \cup G) = P(E) + P(F) + P(G) - 1
-$$
 Also:
-$$
-P(E \cup F) = P(E) + P(F) - P(E \cap F)
-$$
 $$
 P(F \cup G) = P(F) + P(G) - P(F \cap G)
 $$
-
+$$
+P(E \cup F \cup G) = P(E) + P(F \cup G) - \frac{2}{3}
+$$
+Then, we know that:
+$$
+P(E) = P(E \cup F \cup G) - P(F \cup G) + \frac{2}{3}
+$$
