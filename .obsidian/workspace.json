@@ -169,12 +169,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,7 +190,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7149be3fa0a8bfc",
+  "active": "8015bddc8a6827f4",
   "lastOpenFiles": [
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
