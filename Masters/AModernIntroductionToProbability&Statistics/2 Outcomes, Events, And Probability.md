@@ -215,31 +215,14 @@ $$
 P(E \cup F \cup G) = P(E) + P(F) + P(G) - P(E \cap F) - P(E \cap G) - P(F \cap G) + P(E \cap F \cap G)
 $$
 We know that:
-
+$$
+P(E \cup F \cup G) = P(E) + P(F) + P(G) - 1
+$$
+Also:
 $$
 P(E \cup F) = P(E) + P(F) - P(E \cap F)
 $$
 $$
-P(E \cup G) = P(E) + P(G) - P(E \cap G)
+P(F \cup G) = P(F) + P(G) - P(F \cap G)
 $$
-Then:
-$$
-P(E) = P(F) - P(E \cap F) - P(E \cup F)
-$$
-$$
-P(E) = P(G) - P(E \cap G) - P(E \cup G)
-$$
-Making them equal:
-$$
-P(F) - P(E \cap F) - P(E \cup F) = P(G) - P(E \cap G) - P(E \cup G)
-$$
-Which means:
-$$
-P(F) - P(E \cup F) - P(G) + P(E \cup G) = P(E \cap F) - P(E \cap G) = 0
-$$
-$$
-P(F) - P(E \cup F) - P(G) + P(E \cup G) = 0
-$$
-$$
-P(F) - P(E) - P(F) + P(E \cap F) - P(G) + P(E) + P(G) - P(E \cap G) = 0
-$$
+
