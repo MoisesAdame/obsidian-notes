@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d87cbe260a14c04",
+        "id": "927aa010c12ddbb4",
         "type": "tabs",
         "children": [
           {
-            "id": "84d655dfb57e410d",
+            "id": "5581807a0a78f615",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -185,8 +185,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "84d655dfb57e410d",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
+    "Technologies/React/Hooks/1. Generalidades.md",
     "German/Klasse 1.md",
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
@@ -218,8 +220,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Untitled.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
-    "School/Quantum/Class Notes/Biology/Semana 9.md",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window",
     "School/Quantum/Papers/Assets",
