@@ -11,4 +11,11 @@ $$
 P(R | L) = \frac{4}{7}
 $$
 
-Now, let's consider the three envelope p
+Now, let's consider the three envelope problem. We have two events $A = \{ 213, 312 \}$ envelope 1 is in the middle and $B = \{ 123, 321 \}$ envelope 2 is in the middle. Because there are 6 possible combinations we know $P(A) = P(B) = \frac{1}{3}$. Now, assume we know that the envelopes are not in order, then what are the probabilities of both $A$ and $B$ occurring. Let $C = \{ 132, 213, 231, 312 \}$. We know that:
+$$
+P(A | C) = \frac{P(A \cap C)}{P(C)} = \frac{\frac{2}{6}}{\frac{4}{6}} = \frac{1}{2}
+$$
+$$
+P(B | C) = \frac{P(B \cap C)}{P(C)} = \frac{0}{\frac{4}{6}} = 0
+$$
+These results obey intuition, because it is impossible to get an envelope from the set $B$ if the envelopes are not in order, while it is a 50/50 chance if we use the set $A$.
