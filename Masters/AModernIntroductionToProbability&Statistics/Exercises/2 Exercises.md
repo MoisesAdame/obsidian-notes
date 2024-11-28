@@ -182,3 +182,16 @@ P(n) = (1 - p)^{2n - 2}(p - p^{2} + p - p^{2} + p^{2}) = (1 - p)^{2n - 2}(2p - p
 $$
 
 ##### Exercise 2.19 We repeatedly toss a coin. A head has probability $p$, and a tail probability $1 − p$ to occur, where $0 < p < 1$. The outcome of the experiment we are interested in is the number of tosses it takes until a head occurs for the second time.
+(A) What would you choose as the sample space?
+$$
+\Omega = \{ 2, 3, 4, \dots \}
+$$
+(B) What is the probability that it takes 5 tosses?
+Assume we toss the coin $n$ times, if that is the case, then we'd have $2$ heads and $n - 2$ tails, which yields:
+$$
+P(n) = p^{2}(1 - p)^{n-2}
+$$
+Plugging in 5 to out formula we get:
+$$
+P(5) = p^{2}(1 - p)^{3}
+$$
