@@ -166,14 +166,19 @@ $$
 \Omega = \mathbb{N} \times \mathbb{N}
 $$
 ##### Exercise 2.18 In a laboratory, two experiments are repeated every day of the week in different rooms until at least one is successful, the probability of success being $p$ for each experiment. Supposing that the experiments in different rooms and on different days are performed independently of each other, what is the probability that the laboratory scores its first successful experiment on day $n$?
-Lets assume we do the experiments but they fail $n - 1$ times, when the day $n$ comes one of them is successful, but the other is not, then we would have:
+For this exercise we have to consider three scenarios, which are *the experiment 1 is successful*, *the experiment 2 is successful* and *both experiments are successful*. These look as follows:
 $$
-P(n) = p \times (1 - p) \times (1 - p)^{n - 1} \times (1 - p)^{n - 1} 
-$$
-Which simplified yields:
-$$
-P(n) = p \cdot (1 - p) \cdot (1 - p)^{2n -2} + p^{2} \cdot (1-p)^{2n-2}
+P(\text{experiment 1}) = p \times (1 - p) \times (1 - p)^{2n - 2}
 $$
 $$
-P(n) = (1-p)^{2n-2}(p-p^{2} + p^{2})
+P(\text{experiment 2}) = p \times (1 - p) \times (1 - p)^{2n - 2}
 $$
+$$
+P(\text{experiment 1 and 2}) = p^{2} \times (1 - p)^{2n - 2}
+$$
+Because we want any of the previous scenarios to occur, we just sum them:
+$$
+P(n) = (1 - p)^{2n - 2}(p - p^{2} + p - p^{2} + p^{2}) = (1 - p)^{2n - 2}(2p - p^{2})
+$$
+
+##### Exercise 2.19 We repeatedly toss a coin. A head has probability $p$, and a tail probability $1 − p$ to occur, where $0 < p < 1$. The outcome of the experiment we are interested in is the number of tosses it takes until a head occurs for the second time.
