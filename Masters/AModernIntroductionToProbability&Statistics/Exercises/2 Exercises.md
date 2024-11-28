@@ -160,3 +160,4 @@ Then, we know that:
 $$
 P(E) = P(E \cup F \cup G) - P(F \cup G) + \frac{2}{3}
 $$
+##### Exercise 2.17 A post office has two counters where customers can buy stamps, etc. If you are interested in the number of customers in the two queues that will form for the counters, what would you take as sample space?
