@@ -123,20 +123,3 @@ Si hay **mutación en intrones** hay señales de corte y empalme. Por ello se tr
 
 ### Deleción e Inserción
 Se agrega **par de bases**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
