@@ -1,5 +1,9 @@
 ---
 tags:
+  - probability
+  - probability/sample-space
+  - probability/event
+  - probability/probability-function
 ---
 Date: 2024-11-19 : 12:30
 ***

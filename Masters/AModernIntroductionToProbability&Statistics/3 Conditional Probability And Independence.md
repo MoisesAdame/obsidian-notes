@@ -1,5 +1,7 @@
 ---
 tags:
+  - probability
+  - probability/conditional-probability
 ---
 Date: 2024-11-28 : 14:46
 ***
@@ -26,4 +28,7 @@ These results obey intuition, because it is impossible to get an envelope from t
 >$P(A | B) = \frac{P(A \cap B)}{P(B)}$
 >provided that $P(B) > 0$
 >
+
+## 3.6 Exercises
+Here: [[3 Exercises]]
 
