@@ -10,5 +10,6 @@ N = R^{C} = \{ May, Jun, Jul, Aug \}
 $$
 Thus, following the conditional probability formula, we get:
 $$
-P(N | L) = \frac{P(N \cap L)}{P(L)} = \frac{}{}
+P(N | L) = \frac{P(N \cap L)}{P(L)} = \frac{\frac{3}{12}}{\frac{7}{12}} = \frac{3}{7}
 $$
+##### Quick Exercise 3.2 Calculate $P(C | A)$ and $P(C^{C} | A ∪ B)$.

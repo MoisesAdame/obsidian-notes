@@ -19,3 +19,11 @@ $$
 P(B | C) = \frac{P(B \cap C)}{P(C)} = \frac{0}{\frac{4}{6}} = 0
 $$
 These results obey intuition, because it is impossible to get an envelope from the set $B$ if the envelopes are not in order, while it is a 50/50 chance if we use the set $A$.
+
+>[!NOTE] Definition of Conditional Probability
+>
+>The **Conditional Probability** of A given B is:
+>$P(A | B) = \frac{P(A \cap B)}{P(B)}$
+>provided that $P(B) > 0$
+>
+

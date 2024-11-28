@@ -4,19 +4,24 @@ tags:
 Date: 2024-11-19 : 12:30
 ***
 ## 2.1 Sample Spaces
-**Definition:** The set of possible outcomes of an experiment.
+>[!NOTE] Definition of Sample Space
+>The set of possible outcomes of an experiment.
+
 **Example:** For a coin toss, $\Omega = \{ H, T \}$
 
 ## 2.2 Events
-**Definition:** A subset of the sample space.
+>[!NOTE] Definition of Event
+>A subset of the sample space.
+
 **Example:** When asking the month of a birthday of a set of people, while all the months are the sample space, $A = \{ Jan, Oct, Dec \}$ is a possible event because $A \subset \Omega$.
 
 ## 2.3 Probability
 In general, we want to express how likely it is that an event occurs, that is done trough a *probability function*.
 
-**Definition:** A *probability function $P$* on a finite sample space $\Omega$ assigns to each event $A \subset \Omega$ a number $0 \leq P(A) \leq 1$ such that:
-1. $P(\Omega) = 1$
-2. $P(A \cup B) = P(A) + P(B)$ if $A$ and $B$ are disjoint.
+>[!NOTE] Definition of a Probability Function (Finite Sample Space)
+>A *probability function $P$* on a finite sample space $\Omega$ assigns to each event $A \subset \Omega$ a number $0 \leq P(A) \leq 1$ such that:
+>1. $P(\Omega) = 1$
+>2. $P(A \cup B) = P(A) + P(B)$ if $A$ and $B$ are disjoint.
 
 If $A$ and $B$ are not disjoint, to compute probabilities we have to use the following rule: $A = (A \cap B) \cup (A \cap B^{C})$, thus:
 $$
@@ -63,9 +68,10 @@ $$
 
 Now, how would you calculate $P(\Omega)$? Thats were the definition of P is extended:
 
-**Definition:** A *probability function* on an infinite (or finite) sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
-1. $P(\Omega) = 1$
-2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{1}, A_{2}, A_{3}, \dots$ are disjoint.
+>[!NOTE] Definition of a Probability Function (Infinite Sample Space)
+>A *probability function* on an infinite sample space $\Omega$ assigns to each event $A$ in $\Omega$ a number $P(A)$ in $[0, 1]$, such that:
+>1. $P(\Omega) = 1$
+>2. $P\left( \bigcup_{i = 1}^{\infty}A_{i} \right) = \sum_{i = 1}^{\infty}P(A_{i})$ if $A_{1}, A_{2}, A_{3}, \dots$ are disjoint.
 
 ## 2.6 Exercises
 Here: [[2 Exercises]]
