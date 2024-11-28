@@ -161,3 +161,12 @@ $$
 P(E) = P(E \cup F \cup G) - P(F \cup G) + \frac{2}{3}
 $$
 ##### Exercise 2.17 A post office has two counters where customers can buy stamps, etc. If you are interested in the number of customers in the two queues that will form for the counters, what would you take as sample space?
+Given the fact that the number of customers is a Natural number, and both of the counters can have this number of customers, our sample space would be:
+$$
+\Omega = \mathbb{N} \times \mathbb{N}
+$$
+##### Exercise 2.18 In a laboratory, two experiments are repeated every day of the week in different rooms until at least one is successful, the probability of success being $p$ for each experiment. Supposing that the experiments in different rooms and on different days are performed independently of each other, what is the probability that the laboratory scores its first successful experiment on day $n$?
+Lets assume we do the experiments but they fail $n - 1$ times, when the day $n$ comes one of them is successful, but the other is not, then we would have:
+$$
+P(n) = p 
+$$
