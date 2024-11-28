@@ -168,5 +168,12 @@ $$
 ##### Exercise 2.18 In a laboratory, two experiments are repeated every day of the week in different rooms until at least one is successful, the probability of success being $p$ for each experiment. Supposing that the experiments in different rooms and on different days are performed independently of each other, what is the probability that the laboratory scores its first successful experiment on day $n$?
 Lets assume we do the experiments but they fail $n - 1$ times, when the day $n$ comes one of them is successful, but the other is not, then we would have:
 $$
-P(n) = p 
+P(n) = p \times (1 - p) \times (1 - p)^{n - 1} \times (1 - p)^{n - 1} 
+$$
+Which simplified yields:
+$$
+P(n) = p \cdot (1 - p) \cdot (1 - p)^{2n -2} + p^{2} \cdot (1-p)^{2n-2}
+$$
+$$
+P(n) = (1-p)^{2n-2}(p-p^{2} + p^{2})
 $$
