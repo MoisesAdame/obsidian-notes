@@ -29,6 +29,9 @@ These results obey intuition, because it is impossible to get an envelope from t
 >provided that $P(B) > 0$
 >
 
+## 3.2 
+
+
 ## 3.6 Exercises
 Here: [[3 Exercises]]
 
