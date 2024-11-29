@@ -27,7 +27,20 @@ Escribe aquí
 #### 2.1 Del ADN a los Genes
 Escribe aquí
 
-#### 2.2 Las Mutaciones, Tipos, Efectos y Factores que las Generan
+#### 2.2 Mutaciones, Tipos, Efectos y Factores que las Generan
 Escribe aquí
 
-#### 2.3 
+#### 2.3 Mecanismos de Reparación de las Mutaciones
+Escribe aquí
+
+#### 2.4 Bioinformática y su Aplicación para la Detección de Mutaciones
+Escribe aquí
+
+#### 2.5 Intentos de Predicción de Mutaciones
+Escribe aquí
+
+### 3 Resultados
+Escribe aquí
+
+### 4 Discusión
+Escribe aquí
