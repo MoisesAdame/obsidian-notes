@@ -21,7 +21,12 @@ Date: 2024-11-28 : 15:54
 4. Discusión
 
 ### 1 Introducción
-Escribe aquí
+Desde el descubrimiento del Ácido Desoxirribonucléico (ADN) en la década de 1950 por J.D. Watson y F.H.C Crick, este nos ha permitido replantearnos lo que significa estar vivos, siendo una herramienta de gran utilidad para extender y tener una mejor comprensión de ideas tan revolucionarias como las propuestas por Charles Darwin. 
+
+El entendimiento del ADN nos ha permitido como especie entender procesos biológicos, los cuales, son la base de aplicaciones cuyo rango es extenso que van desde el ámbito médico/biológico, permitiendo el desarrollo de vacunas, pruebas, e incluso terapias, las cuales implican la modificación de su estructura para tratar diferentes tipos de afecciones; hasta el ámbito agrícola permitiendo desarrollar cosechas con mejores propiedades que faciliten su cuidado y apoyen su crecimiento. 
+
+Pareciera entonces que el ADN es una c
+
 
 ### 2 Desarrollo
 #### 2.1 Del ADN a los Genes
