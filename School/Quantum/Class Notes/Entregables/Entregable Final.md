@@ -93,7 +93,7 @@ Implicaciones del estudio:
 Estos descubrimientos tienen efectos importantes en la medicina, ya que pueden ayudar a desarrollar mejores enfoques para prevenir y controlar la resistencia a los antibióticos. Al usar tanto MIC como MPC en estudios futuros, los investigadores podrían predecir con mayor precisión cómo evolucionarán las bacterias en presencia de distintos antibióticos. Esto también sugiere que el uso de estrategias de tratamiento combinado, basadas en la sensibilidad colateral, podría ser una buena alternativa para evitar el desarrollo de resistencias en ciertas bacterias patógenas.
 
 Aprendizaje y relevancia en formación:
-Este estudio me permitió entender a mayor profundidad los mecanismos por los cuales las bacterias desarrollan resistencia a los antibióticos y cómo pueden utilizarse parámetros como la MSW para predecir y mitigar esta resistencia. Estos conceptos, considero que son esenciales el bagaje cultural de profesionales en la microbiología, farmacología y salud pública, ya que permite combatir la resistencia antimicrobiana, sin los efectos secundarios tales como el eventual desarrollo de cepas muy difíciles de tratar.
+Este estudio me permitió entender a mayor profundidad los mecanismos por los cuales las bacterias desarrollan resistencia a los antibióticos y cómo pueden utilizarse parámetros como la MSW para predecir y mitigar esta resistencia. Estos conceptos, considero que son esenciales el bagaje cultural de profesionales en la microbiología, farmacología y salud pública, ya que permite combatir la resistencia antimicrobiana, sin los efectos secundarios tales como el eventual desarrollo de cepas muy difíciles de tratar. (Lozano‐Huntelman et al., 2019)
 
 ### 3 Resultados
 Para el presente trabajo de investigación, se hizo uso de las cepas de Staphylococus epidermidis adaptadas a la Eritromicina (ERY_R1 y ERY_R2), Gentamicina (GEN_R1 y GEN_R2), Neomicina (NEO_R1 y NEO_R2) y Tetraciclina (TET_R1 y TET_R2). 
@@ -127,7 +127,7 @@ ery_r1_consensus <- seq_consensus(ery_r1_dna,
 ery_r1_consensus_dna <- DNAString(as.character(ery_r1_consensus))
 ```
 
-Finalmente, haciendo uso de las secuencias consenso obtenidas, nuevamente se realizó una alineación con el gen objetivo de la cepa silvestre, lo cual arrojó las siguientes alineaciones:
+Finalmente, haciendo uso de las secuencias consenso generadas, nuevamente se realizó una alineación con el gen objetivo de la cepa silvestre, lo cual arrojó las siguientes alineaciones:
 ![[alignment-home.png]]
 
 ![[alignment-graph.png]]
@@ -146,5 +146,10 @@ Escribe aquí
 8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
 9. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
 10. Posada, D. (2009). Bioinformatics for DNA sequence analysis. In _Methods in molecular biology_. https://doi.org/10.1007/978-1-59745-251-9
-11. **National Center for Biotechnology Information. (s.f.).** BLAST: Basic local alignment search tool. National Institutes of Health. Retrieved December 2, 2024, from [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+11. **National Center for Biotechnology Information. (s.f.).** BLAST: Basic local alignment search tool. National Institutes of Health. Retrieved December 2, 2024, from https://blast.ncbi.nlm.nih.gov/Blast.cgi
 12. **Keck, F. (2020).** Handling biological sequences in R with the bioseq package. _Methods in Ecology and Evolution_. https://doi.org/10.1111/2041-210X.13490
+13. Pages, H. (2023). _Biostrings: Efficient manipulation of biological strings_. R package version 2.68.1. Retrieved from https://bioconductor.org/packages/Biostrings
+14. Wickham, H., Hester, J., & Bryan, J. (2023). _readr: Read rectangular text data_. R package version 2.1.4. Retrieved from https://CRAN.R-project.org/package=readr
+15. Müller, K. (2020). _here: A simpler way to find your files_. R package version 1.0.1. Retrieved from https://CRAN.R-project.org/package=here
+16. **R Core Team. (2023).** _R: A language and environment for statistical computing_. R Foundation for Statistical Computing. Retrieved from [https://www.R-project.org](https://www.r-project.org/)
+17. Lozano‐Huntelman, N. A., Singh, N., Valencia, A., Mira, P., Sakayan, M., Boucher, I., Tang, S., Brennan, K., Gianvecchio, C., Fitz‐Gibbon, S., & Yeh, P. (2019). Evolution of antibiotic cross‐resistance and collateral sensitivity in Staphylococcus epidermidis using the mutant prevention concentration and the mutant selection window. _Evolutionary Applications_, _13_(4), 808–823. https://doi.org/10.1111/eva.12903
