@@ -61,10 +61,23 @@ Existen una gran variedad de factores que provocan mutaciones, tales como los mo
 6. Predisposición genética, es decir, tendencias heredadas para cierto tipo de mutaciones. (Salemi, 2009)
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
-El ADN es un constructo que se encuentra en constante replicación y debido a que este proceso es llevado a cabo por la célula, no es perfecto; por ello existen mecanismos de reparación del ADN llevados a cabo por la célula, los cuales son muy robustos y en general permiten que exista una estabilidad 
+El ADN es un constructo que se encuentra en constante replicación y debido a que este proceso es llevado a cabo por la célula, no es perfecto; por ello existen mecanismos de reparación del ADN llevados a cabo por la célula, los cuales son muy robustos y en general permiten que exista una estabilidad genética. A continuación se enlistan y describen algunos de los más importantes:
+1. **Reparación por escisión de bases:** Detecta y corrige daños en bases individuales.
+2. **Reparación por escisión de nucleótidos:** Detecta y elimina distorsiones presentes en la doble hélice, cortando el fragmento dañado y sintetizando el fragmento nuevo.
+3. **Reparación de errores de apareaminto:** Se detectan y corrigen errores de emparejamiento, es decir, bases mal emparejadas.
+4. **Reparación por recombinación homóloga:** En ocasiones, la doble cadena sufre rupturas, por lo cual, se utiliza una hebra hermana como molde para sellar el espacio existente.
+5. **Reparación por unión de extremos no homólogos:** Repara rupturas de doble cadena cuando no hay un molde disponible. (Alberts et al., 2015)
 
-#### 2.4 Bioinformática y su Aplicación para la Detección de Mutaciones
-Escribe aquí
+#### 2.4 Revisión de Capítulos Selectos de Bioinformática
+En la primera sección se exploraron los conceptos básicos de la evolución molecular basándose en el ADN y ARN. Así, se describe cómo el ADN almacena la información genética, que se transcribe en ARN para producir proteínas o expresar genes. El ADN está compuesto por segmentos como promotores, potenciadores, intrones y exones. Posee una estructura de desoxirribosa unida por enlaces fosfodiéster, con bases (A, T, G, C) en el ADN y (A, U, G, C) en el ARN. Estas bases forman enlaces de hidrógeno, donde cada tres bases es un codón, los cuales codifican a aminoácidos, los cuales son las estructuras fundamentales de las proteínas.
+
+En la segunda sección, se habló de las bases de datos de secuencias genéticas y las herramientas para buscar similitudes entre ellas, como BLAST. En cuanto a las bases de datos, es importante remarcar el  crecimiento de colaboraciones como INSDC, que abarca a GenBank, EMBL y DDBJ. Además, se describen los tipos de archivos  para almacenamiento de secuencias más comunes como FASTA, NEXUS o PHYLIP. Así como la forma de uso de los números de acceso y versiones de secuencias, específicos para cada base de datos. Por otro lado, se describen algoritmos, como Smith-Waterman para alineamientos locales y se utiliza BLAST para alineamientos múltiples.
+
+Posteriormente, se menciona la importancia de las alineaciones de secuencias para análisis filogenéticos, estas se asume que poseen un mismo origen, aunque existen problemas como repeticiones, sustituciones y gaps, que dificultan su elaboración. Con el tiempo se han desarrollado métodos cada vez más eficaces como la alineación progresiva, iterativa y algoritmos de refinamiento basados en consistencia, utilizados por  herramientas como CLUSTAL, T-COFFEE, MAFFT, y MUSCLE para alinear múltiples secuencias; en algunos algoritmos, se utilizan las matrices PAM y BLOSUM que miden la similitud bioquímica. Mientras que, se propone la edición manual y la comparación de alineaciones usando ALTAVIST y bases de datos de alineaciones como INTERPRO.
+
+Más adelante,  se aborda la heterogeneidad composicional, que describe diferencias en la composición de aspectos cuantificables y su impacto en el análisis filogenético. Se identifican tres tipos de evolución: estacionaria, reversible y homogénea, y se presentan métodos para detectar supuestos violados. Adicionalmente, se introduce SeqVis para analizar secuencias de forma gráfica. También, se mencionan herramientas como CodonExplorer, que permite el análisis de la variabilidad en codones y su relación con la función genética, y UCSC Genome Browser, que ofrece acceso a datos genómicos, herramientas de visualización y comparación de secuencias entre diferentes especies, facilitando estudios tanto evolutivos y como filogenéticos.
+
+Finalmente en las últimas dos secciones se discutieron tanto las distancias genéticas, como modelos de sustitución de nucleótidos,  permitiéndonos comprender la evolución genética a través de mediciones y modelos matemáticos. Este análisis incluye distancias observadas y esperadas, y utiliza el proceso de Markov para modelar las sustituciones nucleotídicas con modelos como JC69 y K80. La heterogeneidad en las tasas de mutación y la saturación de sustituciones ayudan a una buena interpretación de estas distancias, Mientras que, herramientas como Mega4 ayudan a estimar errores estándar y en cuanto a modelos evolutivos, jMODELTEST selecciona el modelo óptimo usando criterios como AIC y BIC.
 
 #### 2.5 Intentos de Predicción de Mutaciones
 Escribe aquí
@@ -84,3 +97,4 @@ Escribe aquí
 6. Sadava, D. E., Hillis, D. M., Heller, H. C., & Berenbaum, M. (2012). _Life: the Science of Biology_. W. H. Freeman.
 7. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
 8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
+9. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
