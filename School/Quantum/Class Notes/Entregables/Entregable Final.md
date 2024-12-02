@@ -27,11 +27,17 @@ El entendimiento del ADN nos ha permitido como especie modelar procesos biológi
 
 Pareciera entonces que el ADN es una construcción perfecta y simple, cuya presencia permite que existan todos los tipos de vida conocidos sobre la tierra; pero esto, no es del todo así. A pesar de tener una construcción relativamente sencilla, el ADN y los mecanismos que lo rodean, son extremadamente complejos y robustos, siendo esto último dicho, ya que son capaces de detectar y corregir errores de forma casi perfecta. El hecho de que los mecanismos de corrección de errores sean casi perfectos, aunado a la idea de que cada vez que se unen los ADN's de los progenitores de forma aleatoria, nos permite reconocer la inherente existencia de discrepancias entre los ADN's de un organismo con otro, la cual, según que tan emparentados estos estén, lógicamente se amplía. (Ong & Torres, 2019)
 
-Los conceptos presentados previamente, revelan la formación del ADN de un nuevo organismo, pero como se ha descrito (Urry et al., 2016), debido a que los organismos multicelulares poseen una cantidad enorme de células las cuales están en constante reproducción, el ADN consecuentemente se encuentra todo el tiempo en un proceso donde se copia y se vuelve a reproducir, durante el cual, pueden existir discrepancias, las cuales son causadas por una cantidad innumerable de factores. A estas discrepancias del ADN, les llamamos mutaciones y aunque pueden ser benéficas o imperceptibles, e ocasiones son dañinas y provocan en el organismo que las porta, alteraciones que pueden desembocar en todo tipo de procesos, incluyendo la muerte; siendo tal, el caso del cáncer. Si bien, existe un campo enorme de estudio para los efectos de estas discrepancias, durante esta estancia se buscó el entendimiento de estos procesos mediante el uso de la bioinformática.
+Los conceptos presentados previamente, revelan la formación del ADN de un nuevo organismo, pero como se ha descrito (Urry et al., 2016), debido a que los organismos multicelulares poseen una cantidad enorme de células las cuales están en constante reproducción, el ADN consecuentemente se encuentra todo el tiempo en un proceso donde se copia y se vuelve a reproducir, durante el cual, pueden existir discrepancias, las cuales son causadas por una cantidad innumerable de factores. A estas discrepancias del ADN, les llamamos mutaciones y aunque pueden ser benéficas o imperceptibles, e ocasiones son dañinas y provocan en el organismo que las porta, alteraciones que pueden desembocar en todo tipo de procesos, incluyendo la muerte; siendo tal, el caso del cáncer. (Sadava et al., 2012) Si bien, existe un campo enorme de estudio para los efectos de estas discrepancias, durante esta estancia se buscó el entendimiento de estos procesos mediante el uso de la bioinformática.
 
 ### 2 Desarrollo
 #### 2.1 Del ADN a los Genes
-Escribe aquí
+El Ácido Desoxirribonucléico (ADN) es una molécula que almacena todo el material genético de una célula, se dice que es de doble hélice ya que se conforma por dos hebras que interactúan entre si, las cuales tienen dos partes; primero, una parte de desoxirribosas y segundo, una enlace fosfodiéster, encargado de la unión de las desoxirribosas.
+
+Toda la información se encuentra codificada en las bases nitrogenadas las cuales se dividen en dos; purinas (adenina y guanina) y pirimidinas (timina y citosina).
+
+
+
+
 
 #### 2.2 Mutaciones, Tipos, Efectos y Factores que las Generan
 Escribe aquí
@@ -57,4 +63,6 @@ Escribe aquí
 3. Wang, J. Y., & Doudna, J. A. (2023). CRISPR technology: A decade of genome editing is only the beginning. _Science_, _379_(6629). https://doi.org/10.1126/science.add8643
 4. Ong, J. Y., & Torres, J. Z. (2019). Dissecting the mechanisms of cell division. _The Journal of biological chemistry_, _294_(30), 11382–11390. https://doi.org/10.1074/jbc.AW119.008149
 5. Urry, L. A., Cain, M. L., Wasserman, S. A., Reece, J. B., & Minorsky, P. V. (2016). _Campbell Biology, Books a la Carte Edition_. Pearson.
-6. 
+6. Sadava, D. E., Hillis, D. M., Heller, H. C., & Berenbaum, M. (2012). _Life: the Science of Biology_. W. H. Freeman.
+7. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
+8. 
