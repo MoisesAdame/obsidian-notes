@@ -53,10 +53,15 @@ Generalmente, asociamos la existencia de mutaciones con efectos negativos, pero 
 3. Aparición de propiedades nuevas.
 
 Existen una gran variedad de factores que provocan mutaciones, tales como los mostrados a continuación:
-1. Errores espontáneos realizados por los mecanismos encargados de la replicación y/p
+1. Errores espontáneos realizados por los mecanismos encargados de la replicación y/o reparación del ADN.
+2. Exposición a sustancias nocivas como metales pesados, químicos o tabaco.
+3. Exposición a ciertos tipos de radiación, tales como rayos UV, rayos X y rayos gamma.
+4. Exposición a ciertos tipos de viruses, los cuales son capaces de insertar su material genético dentro del ADN del receptor.
+5. Factores Genómicos, tales como errores en procesos tales como la meiosis o la recombinación.
+6. Predisposición genética, es decir, tendencias heredadas para cierto tipo de mutaciones. (Salemi, 2009)
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
-Escribe aquí
+El ADN es un constructo que se encuentra en constante replicación y debido a que este proceso es llevado a cabo por la célula, no es perfecto; por ello existen mecanismos de reparación del ADN llevados a cabo por la célula, los cuales son muy robustos y en general permiten que exista una estabilidad 
 
 #### 2.4 Bioinformática y su Aplicación para la Detección de Mutaciones
 Escribe aquí
