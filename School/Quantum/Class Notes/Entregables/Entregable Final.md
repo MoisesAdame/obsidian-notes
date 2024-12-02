@@ -35,10 +35,19 @@ El Ácido Desoxirribonucléico (ADN) es una molécula que almacena todo el mater
 
 Para comprender como es que el ADN se decodifica, es de gran importancia considerar el Dogma Central de la genética molecular, el cual, en pocas palabras establece que primero, existe un proceso denominado transcripción, encargado de utilizar el ADN para general el Ácido Ribonucléico (ARN), una estructura que costa de una hebra conformada por purinas (adenina y guanina), así como pirimidinas (uracilo y citocina), el cual, es utilizado para un segundo proceso, denominado traducción, que consiste en el agrupamiento de codones (tríos de bases), los cuales, según su orden, son responsables de la generación de aminoácidos, que son los elementos más pequeños, que conforman a una proteína. En total, existen 64 posibles combinaciones de codones, de las cuales 61 son responsables de la codificación de 20 aminoácidos, mientras que las 3 combinaciones restantes, son codones de paro, los cuales, como su nombre lo indica, son los responsables de notificar a los mecanismos responsables, cuando parar el proceso de traducción. 
 
-En muchas ocaciones el ADN y el gen se utilizan de forma errónea como sinónimos, lo cual, se debe al hecho de que el gen es simplemente un fragmento del ADN, el cual al expresarse le da propiedades al organismo. Por su parte, los genes están constituidos por secciones entre las cuales encontramos la región promotora, la región codificante y la región terminadora. Siendo la más importante, la región codificante, ya que es la única que se somete al proceso de transcripción previamente descrito.
+En muchas ocaciones el ADN y el gen se utilizan de forma errónea como sinónimos, lo cual, se debe al hecho de que el gen es simplemente un fragmento del ADN, el cual al expresarse le da propiedades al organismo. Por su parte, los genes están constituidos por secciones entre las cuales encontramos la región promotora, la región codificante y la región terminadora. Siendo la más importante, la región codificante, ya que es la única que se somete al proceso de transcripción previamente descrito. Es importante mencionar, que esta región en células eucariotas esta constituida por intrones (regiones sin información) y exones (regiones con información), las cuales permiten la existencia de mayor variación genética.
 
 #### 2.2 Mutaciones, Tipos, Efectos y Factores que las Generan
-Como ya se mencionó con anterioridad, la mutación es cualquier alteración en la secuencia de ADN de un organismo (Gilchrist, 2024)
+Como ya se mencionó con anterioridad, la mutación es cualquier alteración en la secuencia de ADN de un organismo (Gilchrist, 2024). Por supuesto, debido a que el ADN es una estructura enorme y compleja, se han categorizado distintos tipos de mutaciones, cada una con sus propias características:
+- **Mutación Puntual:** Mutación en la que la base original es cambiada por otra.
+- **Mutación Sinónima:** Mutaciones que cambian una o varias bases, pero traducción resultan en el mismo aminoácido del codon original.
+- **Mutación No Sinónima:** Mutación en la que el cambio de bases, resulta en un aminoácido distinto al original.
+- **Transición:** Cambio entre purinas o pirimidinas, entre ellas mismas.
+- **Transversión:** Cambio de purina a pirimidina o viceversa.
+- **Indels:** Tipo de mutación frecuente durante la duplicación, puede ser ya sea la deleción o la inserción de bases.
+- **Mutaciones en el Splicing:** Splicing es el proceso en el que se remueven intrones y se unen los exones. Por su puesto, no es perfecto y cuando existen fallas en el proceso, se generan mutaciones.
+
+
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
 Escribe aquí
