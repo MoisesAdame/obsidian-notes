@@ -96,7 +96,10 @@ Aprendizaje y relevancia en formación:
 Este estudio me permitió entender a mayor profundidad los mecanismos por los cuales las bacterias desarrollan resistencia a los antibióticos y cómo pueden utilizarse parámetros como la MSW para predecir y mitigar esta resistencia. Estos conceptos, considero que son esenciales el bagaje cultural de profesionales en la microbiología, farmacología y salud pública, ya que permite combatir la resistencia antimicrobiana, sin los efectos secundarios tales como el eventual desarrollo de cepas muy difíciles de tratar.
 
 ### 3 Resultados
-Para el presen
+Para el presente trabajo de investigación, se hizo uso de las cepas de Staphylococus epidermidis adaptadas a la Eritromicina (ERY_R1 y ERY_R2), Gentamicina (GEN_R1 y GEN_R2), Neomicina (NEO_R1 y NEO_R2) y Tetraciclina (TET_R1 y TET_R2). 
+
+Todas cepas previamente mencionadas, fueron alineadas utilizando con el gen de la cepa silvestre (Staphylococcus epidermidis ATCC 12228) listado en la tabla 2 del artículo de investigación, resultando, para la cepa 
+
 
 ### 4 Discusión
 Escribe aquí
