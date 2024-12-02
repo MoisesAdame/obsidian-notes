@@ -47,7 +47,13 @@ Como ya se mencionó con anterioridad, la mutación es cualquier alteración en 
 - **Indels:** Tipo de mutación frecuente durante la duplicación, puede ser ya sea la deleción o la inserción de bases.
 - **Mutaciones en el Splicing:** Splicing es el proceso en el que se remueven intrones y se unen los exones. Por su puesto, no es perfecto y cuando existen fallas en el proceso, se generan mutaciones.
 
+Generalmente, asociamos la existencia de mutaciones con efectos negativos, pero este no siempre es el caso. La presencia de las mutaciones puede provocar aspectos tales como:
+1. Ganancia de funciones.
+2. Pérdida de funciones.
+3. Aparición de propiedades nuevas.
 
+Existen una gran variedad de factores que provocan mutaciones, tales como los mostrados a continuación:
+1. Errores espontáneos realizados por los mecanismos encargados de la replicación y/p
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
 Escribe aquí
