@@ -35,8 +35,10 @@ El Ácido Desoxirribonucléico (ADN) es una molécula que almacena todo el mater
 
 Para comprender como es que el ADN se decodifica, es de gran importancia considerar el Dogma Central de la genética molecular, el cual, en pocas palabras establece que primero, existe un proceso denominado transcripción, encargado de utilizar el ADN para general el Ácido Ribonucléico (ARN), una estructura que costa de una hebra conformada por purinas (adenina y guanina), así como pirimidinas (uracilo y citocina), el cual, es utilizado para un segundo proceso, denominado traducción, que consiste en el agrupamiento de codones (tríos de bases), los cuales, según su orden, son responsables de la generación de aminoácidos, que son los elementos más pequeños, que conforman a una proteína. En total, existen 64 posibles combinaciones de codones, de las cuales 61 son responsables de la codificación de 20 aminoácidos, mientras que las 3 combinaciones restantes, son codones de paro, los cuales, como su nombre lo indica, son los responsables de notificar a los mecanismos responsables, cuando parar el proceso de traducción. 
 
+En muchas ocaciones el ADN y el gen se utilizan de forma errónea como sinónimos, lo cual, se debe al hecho de que el gen es simplemente un fragmento del ADN, el cual al expresarse le da propiedades al organismo. Por su parte, los genes están constituidos por secciones entre las cuales encontramos la región promotora, la región codificante y la región terminadora. Siendo la más importante, la región codificante, ya que es la única que se somete al proceso de transcripción previamente descrito.
+
 #### 2.2 Mutaciones, Tipos, Efectos y Factores que las Generan
-Escribe aquí
+Como ya se mencionó con anterioridad, la mutación es cualquier alteración en la secuencia de ADN de un organismo (Gilchrist, 2024)
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
 Escribe aquí
@@ -61,4 +63,4 @@ Escribe aquí
 5. Urry, L. A., Cain, M. L., Wasserman, S. A., Reece, J. B., & Minorsky, P. V. (2016). _Campbell Biology, Books a la Carte Edition_. Pearson.
 6. Sadava, D. E., Hillis, D. M., Heller, H. C., & Berenbaum, M. (2012). _Life: the Science of Biology_. W. H. Freeman.
 7. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
-8. 
+8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
