@@ -58,7 +58,7 @@ Existen una gran variedad de factores que provocan mutaciones, tales como los mo
 3. Exposición a ciertos tipos de radiación, tales como rayos UV, rayos X y rayos gamma.
 4. Exposición a ciertos tipos de viruses, los cuales son capaces de insertar su material genético dentro del ADN del receptor.
 5. Factores Genómicos, tales como errores en procesos tales como la meiosis o la recombinación.
-6. Predisposición genética, es decir, tendencias heredadas para cierto tipo de mutaciones. (Salemi, 2009)
+6. Predisposición genética, es decir, tendencias heredadas para cierto tipo de mutaciones. (Salemi et al., 2009)
 
 #### 2.3 Mecanismos de Reparación de las Mutaciones
 El ADN es un constructo que se encuentra en constante replicación y debido a que este proceso es llevado a cabo por la célula, no es perfecto; por ello existen mecanismos de reparación del ADN llevados a cabo por la célula, los cuales son muy robustos y en general permiten que exista una estabilidad genética. A continuación se enlistan y describen algunos de los más importantes:
@@ -73,17 +73,30 @@ En la primera sección se exploraron los conceptos básicos de la evolución mol
 
 En la segunda sección, se habló de las bases de datos de secuencias genéticas y las herramientas para buscar similitudes entre ellas, como BLAST. En cuanto a las bases de datos, es importante remarcar el  crecimiento de colaboraciones como INSDC, que abarca a GenBank, EMBL y DDBJ. Además, se describen los tipos de archivos  para almacenamiento de secuencias más comunes como FASTA, NEXUS o PHYLIP. Así como la forma de uso de los números de acceso y versiones de secuencias, específicos para cada base de datos. Por otro lado, se describen algoritmos, como Smith-Waterman para alineamientos locales y se utiliza BLAST para alineamientos múltiples.
 
-Posteriormente, se menciona la importancia de las alineaciones de secuencias para análisis filogenéticos, estas se asume que poseen un mismo origen, aunque existen problemas como repeticiones, sustituciones y gaps, que dificultan su elaboración. Con el tiempo se han desarrollado métodos cada vez más eficaces como la alineación progresiva, iterativa y algoritmos de refinamiento basados en consistencia, utilizados por  herramientas como CLUSTAL, T-COFFEE, MAFFT, y MUSCLE para alinear múltiples secuencias; en algunos algoritmos, se utilizan las matrices PAM y BLOSUM que miden la similitud bioquímica. Mientras que, se propone la edición manual y la comparación de alineaciones usando ALTAVIST y bases de datos de alineaciones como INTERPRO.
+Posteriormente, se menciona la importancia de las alineaciones de secuencias para análisis filogenéticos, estas se asume que poseen un mismo origen, aunque existen problemas como repeticiones, sustituciones y gaps, que dificultan su elaboración. Con el tiempo se han desarrollado métodos cada vez más eficaces como la alineación progresiva, iterativa y algoritmos de refinamiento basados en consistencia, utilizados por  herramientas como CLUSTAL, T-COFFEE, MAFFT, y MUSCLE para alinear múltiples secuencias; en algunos algoritmos, se utilizan las matrices PAM y BLOSUM que miden la similitud bioquímica. Mientras que, se propone la edición manual y la comparación de alineaciones usando ALTAVIST y bases de datos de alineaciones como INTERPRO. (Salemi et al., 2009)
 
 Más adelante,  se aborda la heterogeneidad composicional, que describe diferencias en la composición de aspectos cuantificables y su impacto en el análisis filogenético. Se identifican tres tipos de evolución: estacionaria, reversible y homogénea, y se presentan métodos para detectar supuestos violados. Adicionalmente, se introduce SeqVis para analizar secuencias de forma gráfica. También, se mencionan herramientas como CodonExplorer, que permite el análisis de la variabilidad en codones y su relación con la función genética, y UCSC Genome Browser, que ofrece acceso a datos genómicos, herramientas de visualización y comparación de secuencias entre diferentes especies, facilitando estudios tanto evolutivos y como filogenéticos.
 
-Finalmente en las últimas dos secciones se discutieron tanto las distancias genéticas, como modelos de sustitución de nucleótidos,  permitiéndonos comprender la evolución genética a través de mediciones y modelos matemáticos. Este análisis incluye distancias observadas y esperadas, y utiliza el proceso de Markov para modelar las sustituciones nucleotídicas con modelos como JC69 y K80. La heterogeneidad en las tasas de mutación y la saturación de sustituciones ayudan a una buena interpretación de estas distancias, Mientras que, herramientas como Mega4 ayudan a estimar errores estándar y en cuanto a modelos evolutivos, jMODELTEST selecciona el modelo óptimo usando criterios como AIC y BIC.
+Finalmente en las últimas dos secciones se discutieron tanto las distancias genéticas, como modelos de sustitución de nucleótidos,  permitiéndonos comprender la evolución genética a través de mediciones y modelos matemáticos. Este análisis incluye distancias observadas y esperadas, y utiliza el proceso de Markov para modelar las sustituciones nucleotídicas con modelos como JC69 y K80. La heterogeneidad en las tasas de mutación y la saturación de sustituciones ayudan a una buena interpretación de estas distancias, Mientras que, herramientas como Mega4 ayudan a estimar errores estándar y en cuanto a modelos evolutivos, jMODELTEST selecciona el modelo óptimo usando criterios como AIC y BIC. (Posada, 2009)
 
-#### 2.5 Intentos de Predicción de Mutaciones
-Escribe aquí
+#### 2.5 Intentos de Predicción de Mutaciones (Revisión de Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window)
+Objetivo del estudio:
+La investigación buscaba entender cómo se desarrollan la resistencia cruzada y la sensibilidad colateral a los antibióticos en la bacteria S. epidermidis, causante de infecciones muy resistentes. Con esto en mente, se buscó utilizar valores como la concentración mínima inhibitoria (MIC), concentración de prevención de mutantes (MPC) y la ventana de selección de mutantes (MSW) para predecir y controlar la evolución de las resistencias de la bacteria en cuestión. Así, el estudio buscaba mejorar las estrategias para mitigar la resistencia bacteriana.
+
+Conceptos evaluados y sus definiciones:  
+Asimismo, los dos conceptos principales: resistencia cruzada, entendida como la capacidad de un organismo para desarrollar resistencia a un grupo de antibióticos cuya forma de acción es parecida, a pensar de ser expuesta sólo a uno de ellos; mientras que, la sensibilidad colateral es un fenómeno donde la resistencia a un antibiótico hace que la bacteria sea más vulnerable a otros antibióticos. También, se trataron conceptos como la concentración mínima inhibitoria (MIC), entendida como la concentración mínima de un antibiótico necesaria para inhibir el crecimiento bacteriano, concentración de prevención de mutantes (MPC), que es la concentración que evita el crecimiento de mutantes resistentes. Estas dos forman la acotación inferior y superior, respectivamente de la ventana de selección de mutantes (MSW).
+
+Principales resultados:
+Se encontró una correlación entre MIC y MPC en las cepas resistentes de S. epidermidis, el problema era que esta disminuye cuando no hay resistencia cruzada. También, se vió que la MSW, se desplazaba de acuerdo con las respuestas colaterales, permitiendo que haya mutaciones. Finalmente, se demostró que ciertas combinaciones de antibióticos pueden provocar sensibilidad colateral, lo que implica que, al diseñar tratamientos, el conocimiento de las MPC puede ayudar a predecir las posibles mutaciones y, por lo tanto, mejorar la eficacia de los tratamientos.
+
+Implicaciones del estudio:
+Estos descubrimientos tienen efectos importantes en la medicina, ya que pueden ayudar a desarrollar mejores enfoques para prevenir y controlar la resistencia a los antibióticos. Al usar tanto MIC como MPC en estudios futuros, los investigadores podrían predecir con mayor precisión cómo evolucionarán las bacterias en presencia de distintos antibióticos. Esto también sugiere que el uso de estrategias de tratamiento combinado, basadas en la sensibilidad colateral, podría ser una buena alternativa para evitar el desarrollo de resistencias en ciertas bacterias patógenas.
+
+Aprendizaje y relevancia en formación:
+Este estudio me permitió entender a mayor profundidad los mecanismos por los cuales las bacterias desarrollan resistencia a los antibióticos y cómo pueden utilizarse parámetros como la MSW para predecir y mitigar esta resistencia. Estos conceptos, considero que son esenciales el bagaje cultural de profesionales en la microbiología, farmacología y salud pública, ya que permite combatir la resistencia antimicrobiana, sin los efectos secundarios tales como el eventual desarrollo de cepas muy difíciles de tratar.
 
 ### 3 Resultados
-Escribe aquí
+Para el presen
 
 ### 4 Discusión
 Escribe aquí
@@ -98,3 +111,4 @@ Escribe aquí
 7. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
 8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
 9. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
+10. Posada, D. (2009). Bioinformatics for DNA sequence analysis. In _Methods in molecular biology_. https://doi.org/10.1007/978-1-59745-251-9
