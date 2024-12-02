@@ -26,10 +26,15 @@
             "id": "02231eb8003be617",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "School/Quantum/Class Notes/Biology/Semana 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Semana 2"
             }
           }
         ],
@@ -203,6 +208,7 @@
   },
   "active": "080fc4acbc4a6e86",
   "lastOpenFiles": [
+    "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Entregables/Entregable Final.md",
     "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises/3 Exercises.md",
@@ -216,7 +222,6 @@
     "School/Quantum/Class Notes/Biology/Semana 4.2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
-    "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Entregables/Entregable 0.md",
     "School/Quantum/Class Notes/Entregables",
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
