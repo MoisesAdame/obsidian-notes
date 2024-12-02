@@ -98,8 +98,39 @@ Este estudio me permitió entender a mayor profundidad los mecanismos por los cu
 ### 3 Resultados
 Para el presente trabajo de investigación, se hizo uso de las cepas de Staphylococus epidermidis adaptadas a la Eritromicina (ERY_R1 y ERY_R2), Gentamicina (GEN_R1 y GEN_R2), Neomicina (NEO_R1 y NEO_R2) y Tetraciclina (TET_R1 y TET_R2). 
 
-Todas cepas previamente mencionadas, fueron alineadas utilizando con el gen de la cepa silvestre (Staphylococcus epidermidis ATCC 12228) listado en la tabla 2 del artículo de investigación, resultando, para la cepa 
+Todas cepas previamente mencionadas, fueron alineadas utilizando BLASTn online de la página web de NIH (NCBI, s.f.), con el gen de la cepa silvestre (Staphylococcus epidermidis ATCC 12228) listado en la tabla 2 del artículo de investigación, resultando, para la cepa ERY_R1 de la siguiente manera:
+![[Screenshot 2024-12-02 at 8.57.08 a.m..png]]
 
+![[Screenshot 2024-12-02 at 8.59.51 a.m..png]]
+
+![[Screenshot 2024-12-02 at 9.00.28 a.m..png]]
+
+Las alineaciones obtenidas fueron descargadas y procesadas para conseguir la secuencia consenso mediante el siguiente código de R:
+```R
+# Obtaining the paths of the alignments
+ery_r1_path <- here::here("data", "ERY_R1-rpIV.fasta")
+
+# Reading the fasta files
+ery_r1_fasta <- readDNAStringSet(filepath = ery_r1_path, format = "fasta")
+
+# Converting to dna vector
+ery_r1_dna <- dna(as.character(ery_r1_fasta))
+
+# Obtaining the consensus sequence
+ery_r1_consensus <- seq_consensus(ery_r1_dna, 
+                                    method = "chr_majority", 
+                                    weights = NULL, 
+                                    gaps = FALSE
+                                  )
+
+# Convert consensus sequences to DNAString objects
+ery_r1_consensus_dna <- DNAString(as.character(ery_r1_consensus))
+```
+
+Finalmente, haciendo uso de las secuencias consenso obtenidas, nuevamente se realizó una alineación con el gen objetivo de la cepa silvestre, lo cual arrojó las siguientes alineaciones:
+![[alignment-home.png]]
+
+![[alignment-graph.png]]
 
 ### 4 Discusión
 Escribe aquí
@@ -115,3 +146,5 @@ Escribe aquí
 8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
 9. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
 10. Posada, D. (2009). Bioinformatics for DNA sequence analysis. In _Methods in molecular biology_. https://doi.org/10.1007/978-1-59745-251-9
+11. **National Center for Biotechnology Information. (s.f.).** BLAST: Basic local alignment search tool. National Institutes of Health. Retrieved December 2, 2024, from [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+12. **Keck, F. (2020).** Handling biological sequences in R with the bioseq package. _Methods in Ecology and Evolution_. https://doi.org/10.1111/2041-210X.13490
