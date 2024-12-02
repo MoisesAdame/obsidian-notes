@@ -25,8 +25,9 @@ Desde el descubrimiento del Ácido Desoxirribonucléico (ADN) en la década de 1
 
 El entendimiento del ADN nos ha permitido como especie entender procesos biológicos, los cuales, son la base de aplicaciones cuyo rango es extenso que van desde el ámbito médico/biológico, permitiendo el desarrollo de vacunas, pruebas, e incluso terapias, las cuales implican la modificación de su estructura para tratar diferentes tipos de afecciones; hasta el ámbito agrícola permitiendo desarrollar cosechas con mejores propiedades que faciliten su cuidado y apoyen su crecimiento. 
 
-Pareciera entonces que el ADN es una c
+Pareciera entonces que el ADN es una construcción perfecta y simple, cuya presencia permite que existan todos los tipos de vida conocidos sobre la tierra; pero esto, no es del todo así. A pesar de tener una construcción relativamente sencilla, el ADN y los mecanismos que lo rodean, son extremadamente complejos y robustos, siendo esto último dicho, ya que son capaces de detectar y corregir errores de forma casi perfecta. El hecho de que los mecanismos de corrección de errores sean casi perfectos, aunado a la idea de que cada vez que se unen los ADN's de los progenitores de forma aleatoria, nos permite reconocer la inherente existencia de discrepancias entre los ADN's de un organismo con otro, la cual, según que tan emparentados estos estén, lógicamente se amplía.
 
+Los conceptos presentados previamente, revelan la formación del ADN de un nuevo organismo, pero como se ha descrito, debido a que los organismos multicelulares poseen una cantidad enorme de células las cuales están en constante reproducción, el ADN consecuentemente se encuentra todo el tiempo en un proceso donde se copia y se vuelve a reproducir, durante el cual,   
 
 ### 2 Desarrollo
 #### 2.1 Del ADN a los Genes
