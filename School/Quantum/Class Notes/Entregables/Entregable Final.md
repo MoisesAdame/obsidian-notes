@@ -133,23 +133,26 @@ Finalmente, haciendo uso de las secuencias consenso generadas, nuevamente se rea
 ![[alignment-graph.png]]
 
 ### 4 Discusión
-Escribe aquí
+El presente trabajo de investigación, me permitió comprender a profundidad la naturaleza de las mutaciones y la influencia de estas sobre los organismos que las portan, adicionalmente, me familiaricé con conceptos y herramientas de la bioinformática frecuentemente usados por expertos en el área para la generación, visualización e interpretación de alineaciones genómicas, las cuales son útiles para entender las variaciones que existen entre las secuencias de los organismos.
+
+Finalmente, es importante mencionar que si bien, el trabajo realizado fue muy fructífero, en el sentido de que se nos permitió familiarizarnos con conceptos altamente especializados de un área del saber al que pocos ingenieros de software se inmizcuyen, por lo mismo, considero que el tiempo fue insuficiente, imposibilitándonos utilizar los resultados obtenidos en la parte de la computación cuántica. Por lo anterior, me gustaría seguir trabajando en este proyecto, abarcando mas a profundidad los modelos existentes de computación cuántica capaces de recrear estos procesos con el fin de entenderlos y en caso de ser posible, realizar mis aportaciones a ellos para hacerlos mas precisos y robustos de lo que ya son.
 
 ### 5 Referencias
-1. **Watson, J. D., & Crick, F. H. C. (1953).** Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. _Nature_, _171_ (4356), 737-738. https://doi.org/10.1038/171737a0
-2. **Darwin, C. (1859).** _On the origin of species by means of natural selection, or the preservation of favoured races in the struggle for life._ London: John Murray.
-3. Wang, J. Y., & Doudna, J. A. (2023). CRISPR technology: A decade of genome editing is only the beginning. _Science_, _379_(6629). https://doi.org/10.1126/science.add8643
-4. Ong, J. Y., & Torres, J. Z. (2019). Dissecting the mechanisms of cell division. _The Journal of biological chemistry_, _294_(30), 11382–11390. https://doi.org/10.1074/jbc.AW119.008149
-5. Urry, L. A., Cain, M. L., Wasserman, S. A., Reece, J. B., & Minorsky, P. V. (2016). _Campbell Biology, Books a la Carte Edition_. Pearson.
-6. Sadava, D. E., Hillis, D. M., Heller, H. C., & Berenbaum, M. (2012). _Life: the Science of Biology_. W. H. Freeman.
-7. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
-8. Gilchrist, D. (2024) _Mutation_, _National Human Genome Research Institute_. Available at: https://www.genome.gov/genetics-glossary/Mutation (Accessed: 02 December 2024).
-9. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
-10. Posada, D. (2009). Bioinformatics for DNA sequence analysis. In _Methods in molecular biology_. https://doi.org/10.1007/978-1-59745-251-9
-11. **National Center for Biotechnology Information. (s.f.).** BLAST: Basic local alignment search tool. National Institutes of Health. Retrieved December 2, 2024, from https://blast.ncbi.nlm.nih.gov/Blast.cgi
-12. **Keck, F. (2020).** Handling biological sequences in R with the bioseq package. _Methods in Ecology and Evolution_. https://doi.org/10.1111/2041-210X.13490
-13. Pages, H. (2023). _Biostrings: Efficient manipulation of biological strings_. R package version 2.68.1. Retrieved from https://bioconductor.org/packages/Biostrings
-14. Wickham, H., Hester, J., & Bryan, J. (2023). _readr: Read rectangular text data_. R package version 2.1.4. Retrieved from https://CRAN.R-project.org/package=readr
-15. Müller, K. (2020). _here: A simpler way to find your files_. R package version 1.0.1. Retrieved from https://CRAN.R-project.org/package=here
-16. **R Core Team. (2023).** _R: A language and environment for statistical computing_. R Foundation for Statistical Computing. Retrieved from [https://www.R-project.org](https://www.r-project.org/)
-17. Lozano‐Huntelman, N. A., Singh, N., Valencia, A., Mira, P., Sakayan, M., Boucher, I., Tang, S., Brennan, K., Gianvecchio, C., Fitz‐Gibbon, S., & Yeh, P. (2019). Evolution of antibiotic cross‐resistance and collateral sensitivity in Staphylococcus epidermidis using the mutant prevention concentration and the mutant selection window. _Evolutionary Applications_, _13_(4), 808–823. https://doi.org/10.1111/eva.12903
+1. Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., & Walter, P. (2015). _Molecular biology of the cell_ (6th ed.). Garland Science.
+2. Darwin, C. (1859). _On the origin of species by means of natural selection, or the preservation of favoured races in the struggle for life._ London: John Murray.
+3. Gilchrist, D. (2024). _Mutation_, National Human Genome Research Institute. Available at: [https://www.genome.gov/genetics-glossary/Mutation](https://www.genome.gov/genetics-glossary/Mutation) (Accessed: 02 December 2024).
+4. Keck, F. (2020). Handling biological sequences in R with the bioseq package. _Methods in Ecology and Evolution_. [https://doi.org/10.1111/2041-210X.13490](https://doi.org/10.1111/2041-210X.13490)
+5. Lozano‐Huntelman, N. A., Singh, N., Valencia, A., Mira, P., Sakayan, M., Boucher, I., Tang, S., Brennan, K., Gianvecchio, C., Fitz‐Gibbon, S., & Yeh, P. (2019). Evolution of antibiotic cross‐resistance and collateral sensitivity in Staphylococcus epidermidis using the mutant prevention concentration and the mutant selection window. _Evolutionary Applications_, _13_(4), 808–823. [https://doi.org/10.1111/eva.12903](https://doi.org/10.1111/eva.12903)
+6. Müller, K. (2020). _here: A simpler way to find your files_. R package version 1.0.1. Retrieved from [https://CRAN.R-project.org/package=here](https://cran.r-project.org/package=here)
+7. National Center for Biotechnology Information. (s.f.). BLAST: Basic local alignment search tool. National Institutes of Health. Retrieved December 2, 2024, from [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+8. Ong, J. Y., & Torres, J. Z. (2019). Dissecting the mechanisms of cell division. _The Journal of Biological Chemistry_, _294_(30), 11382–11390. [https://doi.org/10.1074/jbc.AW119.008149](https://doi.org/10.1074/jbc.AW119.008149)
+9. Pages, H. (2023). _Biostrings: Efficient manipulation of biological strings_. R package version 2.68.1. Retrieved from [https://bioconductor.org/packages/Biostrings](https://bioconductor.org/packages/Biostrings)
+10. Posada, D. (2009). Bioinformatics for DNA sequence analysis. In _Methods in molecular biology_. [https://doi.org/10.1007/978-1-59745-251-9](https://doi.org/10.1007/978-1-59745-251-9)
+11. R Core Team. (2023). _R: A language and environment for statistical computing_. R Foundation for Statistical Computing. Retrieved from [https://www.R-project.org](https://www.r-project.org/)
+12. Sadava, D. E., Hillis, D. M., Heller, H. C., & Berenbaum, M. (2012). _Life: The Science of Biology_. W. H. Freeman.
+13. Salemi, M., Vandamme, A., & Lemey, P. (2009). _The Phylogenetic Handbook: A Practical Approach to Phylogenetic Analysis and Hypothesis Testing_. Cambridge University Press.
+14. Urry, L. A., Cain, M. L., Wasserman, S. A., Reece, J. B., & Minorsky, P. V. (2016). _Campbell Biology, Books a la Carte Edition_. Pearson.
+15. Wang, J. Y., & Doudna, J. A. (2023). CRISPR technology: A decade of genome editing is only the beginning. _Science_, _379_(6629). [https://doi.org/10.1126/science.add8643](https://doi.org/10.1126/science.add8643)
+16. Watson, J. D., & Crick, F. H. C. (1953). Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid. _Nature_, _171_(4356), 737-738. [https://doi.org/10.1038/171737a0](https://doi.org/10.1038/171737a0)
+17. Wickham, H., Hester, J., & Bryan, J. (2023). _readr: Read rectangular text data_. R package version 2.1.4. Retrieved from [https://CRAN.R-project.org/package=readr](https://cran.r-project.org/package=readr)
+
