@@ -31,13 +31,11 @@ Los conceptos presentados previamente, revelan la formación del ADN de un nuevo
 
 ### 2 Desarrollo
 #### 2.1 Del ADN a los Genes
-El Ácido Desoxirribonucléico (ADN) es una molécula que almacena todo el material genético de una célula, se dice que es de doble hélice ya que se conforma por dos hebras que interactúan entre si, las cuales tienen dos partes; primero, una parte de desoxirribosas y segundo, una enlace fosfodiéster, encargado de la unión de las desoxirribosas.
+El Ácido Desoxirribonucléico (ADN) es una molécula que almacena todo el material genético de una célula, se dice que es de doble hélice ya que se conforma por dos hebras que interactúan entre si, las cuales tienen dos partes; primero, una parte de desoxirribosas y segundo, un enlace fosfodiéster, encargado de la unión de las desoxirribosas.
 
 Toda la información se encuentra codificada en las bases nitrogenadas las cuales se dividen en dos; purinas (adenina y guanina) y pirimidinas (timina y citosina).
 
-
-
-
+Para comprender como es que el ADN se decodifica, es de gran importancia considerar el Dogma Central de la genética molecular, el cual, en pocas palabras establece que primero, existe un proceso denominado transcripción, encargado de utilizar el ADN para general el Ácido Ribonucléico (ARN), una estructura que costa de una hebra conformada por purinas (adenina y guanina), así como pirimidinas (uracilo y citocina), el cual, es utilizado para un segundo proceso, denominado traducción el cuál consiste en el agrupamiento de codones (tríos de bases), los cuales, según su orden, son responsables de la generación de aminoácidos, que son los elementos más pequeños, que conforman a una proteína. En total, existen 64 posibles combinaciones de codones, de las cuales 61 son responsables de la codificación de 20 aminoácidos, mientras que las 3 combinaciones restantes, son codones de paro, los cuales, como su nombre lo indica, son los responsables de avisarle a los mecanismos responsables, cuando parar el proceso de traducción. 
 
 #### 2.2 Mutaciones, Tipos, Efectos y Factores que las Generan
 Escribe aquí
