@@ -32,6 +32,10 @@ $$
 ##### Quick Exercise 3.3 Show that $P(A | C) + P(A^{C} | C) = 1$
 We know that:
 $$
-P(A | C) + P(A^{C} | C)= \frac{P(A \cap C)}{P(C)} + \frac{P(A^{C} \cap C)}{P(C)} = \frac{P(C \cap (A \cup A^{C}))}{P(C)}
+P(A | C) + P(A^{C} | C) = \frac{P(A \cap C)}{P(C)} + \frac{P(A^{C} \cap C)}{P(C)} = \frac{P(C \cap (A \cup A^{C}))}{P(C)}
 $$
-We know that $A \cup A^{C}$
+We know that $A \cup A^{C} = \Omega$, and consequently, $\Omega \cap C = C$, which means that:
+$$
+P(A | C) + P(A^{C} | C) = \frac{P(C)}{P(C)} = 1
+$$
+

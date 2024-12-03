@@ -23,14 +23,19 @@ $$
 These results obey intuition, because it is impossible to get an envelope from the set $B$ if the envelopes are not in order, while it is a 50/50 chance if we use the set $A$.
 
 >[!NOTE] Definition of Conditional Probability
->
 >The **Conditional Probability** of A given B is:
 >$P(A | B) = \frac{P(A \cap B)}{P(B)}$
 >provided that $P(B) > 0$
->
 
-## 3.2 
+We now that for normal probabilities $P(A) + P(A^{C}) = 1$, but for conditional probability, it is possible to prove that:
+$$
+P(A | C) + P(A^{C} | C) = 1
+$$
 
+## 3.2 The Multiplication Rule
+>[!NOTE] Definition of the Multiplication Rule
+>For any events $A$ and $C$:
+>$P(A \cap C) = P(A | C) \cdot P(C)$
 
 ## 3.6 Exercises
 Here: [[3 Exercises]]

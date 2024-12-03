@@ -38,7 +38,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -207,10 +206,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b030818adbfbb3f8",
+  "active": "f7384c749d51ca25",
   "lastOpenFiles": [
-    "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises/3 Exercises.md",
+    "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
     "German/Klasse 1.md",
     "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
