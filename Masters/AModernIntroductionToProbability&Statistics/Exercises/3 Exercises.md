@@ -26,5 +26,12 @@ A \cup B = \{ 123, 321, 312, 213 \}
 $$
 Now, we just apply the conditional probability formula:
 $$
-P(C^{C} | A \cup B) = \frac{P(C^{C} \cap (A \cup B))}{P(A \cup B)} = \frac{}{}
+P(C^{C} | A \cup B) = \frac{P(C^{C} \cap (A \cup B))}{P(A \cup B)} = \frac{\frac{2}{6}}{\frac{4}{6}}=\frac{1}{2}
 $$
+
+##### Quick Exercise 3.3 Show that $P(A | C) + P(A^{C} | C) = 1$
+We know that:
+$$
+P(A | C) + P(A^{C} | C)= \frac{P(A \cap C)}{P(C)} + \frac{P(A^{C} \cap C)}{P(C)} = \frac{P(C \cap (A \cup A^{C}))}{P(C)}
+$$
+We know that $A \cup A^{C}$
