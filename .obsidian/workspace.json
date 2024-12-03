@@ -4,19 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7735c87d8041bcab",
+        "id": "8182039aa4773207",
         "type": "tabs",
         "children": [
           {
-            "id": "080fc4acbc4a6e86",
+            "id": "e7110bdff0884433",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png"
+                "file": "School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Screenshot 2024-12-02 at 8.57.08 a.m."
+              "icon": "lucide-file",
+              "title": "2. Sequence Databases and Database Searching"
             }
           }
         ],
@@ -187,16 +190,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "080fc4acbc4a6e86",
+  "active": "e7110bdff0884433",
   "lastOpenFiles": [
+    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/10. CodonExplorer An Interactive Online Database for the Analysis of Codon Usage and Sequence Composition.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/4. SeqVis A Tool for Detecting Compositional Heterogeneity Among Aligned Nucleotide Sequences.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/3. Multiple Alignment of DNA Sequences with MAFFT.md",
+    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
+    "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
     "School/Quantum/Class Notes/Entregables/Entregable Final.md",
     "School/Quantum/Class Notes/Entregables/alignment-graph.png",
     "School/Quantum/Class Notes/Entregables/alignment-home.png",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 9.00.28 a.m..png",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.59.51 a.m..png",
-    "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
     "School/Quantum/Class Notes/Biology/Semana 12.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
     "School/Quantum/Class Notes/Biology/Semana 2.md",
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Entregables/Untitled.md",
@@ -204,7 +212,6 @@
     "School/Quantum/Books/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Class Notes/Entregables/Entregable 0.md",
     "School/Quantum/Class Notes/Entregables/Assets",
-    "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/1. Similarity Searching Using Blast.md",
     "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises/3 Exercises.md",
     "School/Quantum/Class Notes/Biology/Semana 9.md",
@@ -218,9 +225,6 @@
     "Masters/AModernIntroductionToProbability&Statistics/1 Why Probability And Statistics.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises/2 Exercises.md",
-    "Masters/Systems Programming/1. Background/1.8 Questions.md",
-    "Technologies/SQL/SQL Language/Data Definition Language/CONSTRAINTS.md",
-    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
     "Masters/AModernIntroductionToProbability&Statistics",
