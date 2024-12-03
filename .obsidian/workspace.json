@@ -11,10 +11,15 @@
             "id": "f7384c749d51ca25",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3 Conditional Probability And Independence"
             }
           }
         ],
