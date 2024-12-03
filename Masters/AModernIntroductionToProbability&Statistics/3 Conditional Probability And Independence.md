@@ -37,6 +37,21 @@ $$
 >For any events $A$ and $C$:
 >$P(A \cap C) = P(A | C) \cdot P(C)$
 
+Assume we want to know the probability on **no coincident b-days**. For two people is easy, we just:
+$$
+P(B_{2}) = 1 - \frac{1}{365}
+$$
+
+For three people it gets a little more tricky, lets say we need $A_{3} \cap B_{2} = B_{3}$, which using the *Multiplication Rule* can be expressed as follows:
+$$
+P(B_{3}) = P(A_{3} \cap B_{2}) = P(A_{3} | B_{2}) \cdot P(B_{2})
+$$
+
+
+
+
+
+
 ## 3.6 Exercises
 Here: [[3 Exercises]]
 
