@@ -48,6 +48,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -216,10 +217,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fc78407138086bcf",
+  "active": "b6b3e9e0c36e7766",
   "lastOpenFiles": [
-    "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK4/书学/第4课.md",
+    "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/书学/第2课.md",
