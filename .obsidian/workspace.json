@@ -36,16 +36,6 @@
               "icon": "lucide-file",
               "title": "第5课"
             }
-          },
-          {
-            "id": "5c896b0862a1005d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
         "currentTab": 1,
@@ -101,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,6 +212,7 @@
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第5课.md",
+    "Untitled.canvas",
     "Chinese/HSK3/HSK2，HSK3和HSK4的语法和词汇复习.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/书学/第2课.md",
@@ -250,7 +242,6 @@
     "School/Quantum/Books/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Class Notes/Entregables/Entregable 0.md",
     "School/Quantum/Class Notes/Entregables/Assets",
-    "School/Quantum/Class Notes/Biology/Semana 9.md",
     "School/Quantum/Class Notes/Entregables",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
@@ -267,7 +258,6 @@
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.11.png",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "Chinese/HSK4/书学/Untitled.canvas",
-    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "Untitled.canvas"
+    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas"
   ]
 }
