@@ -75,13 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -192,7 +190,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b6b3e9e0c36e7766",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第5课.md",
