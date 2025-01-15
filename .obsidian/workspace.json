@@ -103,17 +103,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/成功之路/第11课.md",
+                "file": "Chinese/HSK4/成功之路/第13课.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第11课"
+              "title": "第13课"
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -283,8 +283,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d066e6a364b2fc18",
+  "active": "ede1a6000fd006df",
   "lastOpenFiles": [
+    "Chinese/HSK4/成功之路/第13课.md",
     "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/书学/第6课.md",
@@ -316,7 +317,6 @@
     "School/Quantum/Class Notes/Biology/Semana 4.md",
     "School/Quantum/Class Notes/Entregables/Untitled.md",
     "School/Quantum/Class Notes/Biology/Semana 3.md",
-    "School/Quantum/Books/Life, The Science of Biology/12. Inheritance, Genes, and Chromosomes.md",
     "School/Quantum/Class Notes/Entregables/Assets",
     "School/Quantum/Class Notes/Entregables",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises",
