@@ -213,9 +213,19 @@
               "icon": "timer",
               "title": "Timer"
             }
+          },
+          {
+            "id": "c5675a19faf5aab1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
