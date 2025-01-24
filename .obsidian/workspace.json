@@ -53,22 +53,17 @@
             }
           },
           {
-            "id": "5e9071d0346a7449",
+            "id": "b2a9c5a3baaef05e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/书学/第6课.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第6课"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -248,17 +243,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e9071d0346a7449",
+  "active": "890641959e79c7d5",
   "lastOpenFiles": [
+    "Chinese/HSK4/书学/第7课.md",
+    "Chinese/HSK4/书学/第6课.md",
     "Chinese/HSK4/书学/第5课.md",
     "Chinese/HSK4/书学/第4课.md",
     "Chinese/HSK4/书学/第3课.md",
     "Chinese/HSK4/书学/第2课.md",
     "Chinese/HSK4/书学/第1课.md",
-    "Chinese/HSK4/书学/第7课.md",
     "Chinese/HSK4/成功之路/第13课.md",
     "Chinese/HSK4/汉语教程/第五课：我听过钢琴协奏曲 《黄河》.md",
-    "Chinese/HSK4/书学/第6课.md",
     "Chinese/HSK4/成功之路/Untitled.md",
     "Chinese/HSK4/汉语教程",
     "Chinese/HSK4/成功之路/第11课.md",
