@@ -1,12 +1,20 @@
 {
   "collapse-filter": false,
-  "search": "-tag:#AOSR OR -tag:#Q",
+  "search": "tag:hsk4 OR -tag:#AOSR OR -tag:#Q",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#hsk4  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +25,6 @@
   "repelStrength": 11.193328009937,
   "linkStrength": 1,
   "linkDistance": 129,
-  "scale": 0.7093129669627339,
-  "close": true
+  "scale": 1.1117463477090004,
+  "close": false
 }
