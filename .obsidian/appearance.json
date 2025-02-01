@@ -3,5 +3,6 @@
   "baseFontSize": 18,
   "cssTheme": "Tokyo Night",
   "translucency": true,
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "showRibbon": true
 }

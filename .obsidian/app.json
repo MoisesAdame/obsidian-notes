@@ -10,6 +10,5 @@
   "vimMode": true,
   "tabSize": 6,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./",
-  "showRibbon": true
+  "attachmentFolderPath": "./"
 }
