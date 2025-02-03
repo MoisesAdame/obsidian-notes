@@ -63,7 +63,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -117,13 +116,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -245,10 +242,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "890641959e79c7d5",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "Chinese/HSK4/汉语教程/第五课：我听过钢琴协奏曲 《黄河》.md",
     "Chinese/HSK4/书学/第7课.md",
+    "Chinese/HSK4/汉语教程/第五课：我听过钢琴协奏曲 《黄河》.md",
     "Chinese/HSK4/阅读/第1课自写的课文.md",
     "Chinese/HSK4/书学/第1课.md",
     "Chinese/HSK4/书学/第6课.md",
