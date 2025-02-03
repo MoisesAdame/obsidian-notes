@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -242,7 +243,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "b73f71adfb3cf6fd",
   "lastOpenFiles": [
     "Chinese/HSK4/书学/第7课.md",
     "Chinese/HSK4/汉语教程/第五课：我听过钢琴协奏曲 《黄河》.md",
