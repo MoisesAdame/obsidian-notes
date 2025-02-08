@@ -12,7 +12,7 @@ tags:
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "Chinese/HSK4/书学",
+				"value": "Chinese/HSK4/标准教程4（上）",
 				"path": "$.path"
 			}]
 		},
