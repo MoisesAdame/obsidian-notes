@@ -33,7 +33,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -213,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8015bddc8a6827f4",
+  "active": "084125b6d387e646",
   "lastOpenFiles": [
     "Chinese/HSK4/标准教程4（上）/第7课.md",
     "Technologies/Vim/1. Vim Motions.md",
