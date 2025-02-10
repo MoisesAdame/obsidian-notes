@@ -11,13 +11,29 @@
             "id": "084125b6d387e646",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/标准教程4（上）/第7课.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "第7课"
+            }
+          },
+          {
+            "id": "a1b8db081426cf6a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -175,12 +191,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "084125b6d387e646",
+  "active": "8015bddc8a6827f4",
   "lastOpenFiles": [
     "Chinese/HSK4/标准教程4（上）/第7课.md",
     "Technologies/Vim/1. Vim Motions.md",
