@@ -44,5 +44,12 @@ Se dividen en tres:
 ### Métricas
 - Rapidez.
 - Tamaño: Cuánto pesa el proyecto (GBs). Costo de la infraestructura en cloud.
-- 
-- 
+- Facilidad de Uso: Usabilidad.
+- Fiabilidad: Ver los errores generados y evitarlos
+- Robustez: Que tal rápido me recupero de una falla.
+- Portabilidad: En cuantos dispositivos diferentes puede funcionar tu plataforma.
+
+>[!WARNING]
+>Leer Resumen [Calidad Interna vs Calidad Externa](https://experiencia21.tec.mx/courses/551022/files/217319046?wrap=1)
+
+
