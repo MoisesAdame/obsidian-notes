@@ -31,3 +31,18 @@ Date: 2025-02-10 : 14:34
 - Mantenibilidad: Que tan fácil es arreglarlo.
 - Disponibilidad: Confianza.
 - Seguridad: No solo es que no sea hackeable.
+
+Se dividen en tres:
+- Producto: Los más familiares para nosotros. Seguridad, performance, etc.
+- Organización: Como se hacen las cosas en la organización (todo a mano, con exceles, etc.). Generalmente buscan automatizar procesos.
+- Externos: Cosas como leyes o aspectos éticos
+
+## ¿Para Qué Se Hace Control de Software?
+- Utilizar estadísticas de proyectos previos, para planear mejor el siguiente proyecto.
+- Estimar bien proyectos y costos.
+
+### Métricas
+- Rapidez.
+- Tamaño: Cuánto pesa el proyecto (GBs). Costo de la infraestructura en cloud.
+- 
+- 
