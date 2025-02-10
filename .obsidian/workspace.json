@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Clase 1.md",
+                "file": "School/Ceneval/Ingeniería de Software/Requerimientos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 1"
+              "title": "Requerimientos"
             }
           }
         ],
@@ -204,8 +204,11 @@
   },
   "active": "084125b6d387e646",
   "lastOpenFiles": [
-    "Chinese/HSK4/标准教程4（上）/第7课.md",
+    "School/Ceneval/Ingeniería de Software",
+    "School/Ceneval/Untitled.md",
+    "School/Ceneval/Ingeniería de Software/Requerimientos.md",
     "School/Ceneval/Clase 1.md",
+    "Chinese/HSK4/标准教程4（上）/第7课.md",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "School/Ceneval",
     "Technologies/Neo4j/Assets/graph-parts.png",
@@ -230,10 +233,7 @@
     "Chinese/HSK4/阅读/火车的'软卧'和'硬卧'，到底有何差别？网友：风景大不同.md",
     "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "School/Quantum/Books/The Phylogenetic Handbook/1. Basic Concepts of Molecular Evolution.md",
-    "Chinese/HSK4/成功之路/第13课.md",
-    "Chinese/HSK4/成功之路/Untitled.md",
     "Chinese/HSK4/汉语教程",
-    "Chinese/HSK4/成功之路/第11课.md",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
     "School/Quantum/Class Notes/Entregables/alignment-graph.png",
