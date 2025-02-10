@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+                "file": "School/Transformación Digital/Notas/Clase 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Requerimientos"
+              "title": "Clase 1"
             }
           }
         ],
@@ -202,11 +202,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "084125b6d387e646",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+    "School/Transformación Digital/Notas/Clase 1.md",
+    "School/Transformación Digital/Notas",
+    "School/Transformación Digital",
     "School/Ceneval/Ingeniería de Software",
     "School/Ceneval/Untitled.md",
-    "School/Ceneval/Ingeniería de Software/Requerimientos.md",
     "School/Ceneval/Clase 1.md",
     "Chinese/HSK4/标准教程4（上）/第7课.md",
     "Technologies/Neo4j/Assets/json-load-result.png",
@@ -245,12 +248,9 @@
     "Masters/AModernIntroductionToProbability&Statistics/Exercises",
     "Masters/AModernIntroductionToProbability&Statistics/Assets",
     "Masters/AModernIntroductionToProbability&Statistics",
-    "German",
-    "School/TheSuperTinyCompiler",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
-    "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "Chinese/HSK4/书学/Untitled.canvas",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas"
