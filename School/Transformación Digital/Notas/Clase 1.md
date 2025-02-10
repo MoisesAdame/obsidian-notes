@@ -18,5 +18,9 @@ Date: 2025-02-10 : 16:33
 - 100% visual.
 - Tipos de aplicaciones: UI, Dashboards, process automation. Prototipos
 
+Filosofía de estas herramientas:
+- Parten de los datos, con ellos se crea la aplicación.
+
+
 
 ## Módulo
