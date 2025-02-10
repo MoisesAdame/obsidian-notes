@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🗞",
       "⚛",
       "🇩🇪",
       "👅",
-      "🗄",
-      "💽"
+      "🗄"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -46,5 +46,6 @@
   "Technologies/SQL": "🗄",
   "School/Quantum": "⚛",
   "School/TheSuperTinyCompiler": "👅",
-  "German": "🇩🇪"
+  "German": "🇩🇪",
+  "School/CENEVAL": "🗞"
 }
