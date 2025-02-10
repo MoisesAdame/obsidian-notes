@@ -20,5 +20,14 @@ Date: 2025-02-10 : 14:34
 - Limitación: Restricciones para el desarrollador en el diseño (recursos, reglas, etc.)
 - Requerimiento de Interfaz Externa: Conexión entre sistema y otro usuario, sistema o dispositivo.
 - Funcionalidad: Lo que tiene que hacer sistema para resolver problemas.
-- Requerimientos Funcionales: 
-- Requerimientos No Funcionales: 
+- Requerimientos Funcionales: Lo que hace el sistema
+- Requerimientos No Funcionales: Como lo va a hacer (performance, estilo, )
+- Atributo de Calidad: Se dividen en muchos (usabilidad, seguridad, performance, etc.). Son requerimientos no funcionales que describen características de desempeño del sistema.
+- Requerimiento de Sistema: Minimo 6 GB de RAM, tal sistema operativo, etc.
+- Requermientos de Usuario: Metas que el usuario pueda realizar.
+
+### Requerimientos No Funcionales
+- Escalabilidad: Que tan fácil se puede construir sobre el sw.
+- Mantenibilidad: Que tan fácil es arreglarlo.
+- Disponibilidad: Confianza.
+- Seguridad: No solo es que no sea hackeable.
