@@ -68,3 +68,9 @@ Que hay que hacer:
 3. Establece: La estrategia de transformación digital. Las etapas
 4. Ejecuta: La estrategia y darle seguimiento.
 
+Tendencias Que Impactan la Transformación Digital
+- Cualquier proyecto tecnológico debe ser envuelto en Transformación Digital.
+- Globalización: Ya todo está entrelazado (nivel comercial, financiero, tech, etc.)
+- Outsourcing: Tercerización, legal. Todas las empresas lo hacen.
+- Virtual Teams: Cosas como zoom
+- Herramientas
