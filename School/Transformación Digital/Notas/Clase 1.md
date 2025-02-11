@@ -74,3 +74,7 @@ Tendencias Que Impactan la Transformación Digital
 - Outsourcing: Tercerización, legal. Todas las empresas lo hacen.
 - Virtual Teams: Cosas como zoom
 - Herramientas
+
+#### Voz Datos y Videos
+- Digital es porque hay dos dígitos 1 y 0.
+- No hay nada que no sea voz, datos y video. En los próximos años lo único que cambiará es que aumentará la cantidad de información transmitida. Mayor capacidad de transmisión.
