@@ -57,8 +57,14 @@ Transformación digital es una sumatoria de iniciativas.
 
 Cuales son los pasos:
 1. Diseñar modelos de negocio
-2. Desarrollar cultura digital.
+2. Desarrollar cultura digital. Primer stopper. La cultura.
 3. Aplicar nuevas tecnologías. SOLO ESTE TIENE QUE VER CON TECH.
 4. Tomar decisiones usando datos.
-5. Co-crear con partners.
+5. Co-crear con partners. Proceso continuo, iterar.
+
+Que hay que hacer:
+1. Ubica: En que momento está tu empresa
+2. Adapta: Modelo de negocio al entorno digital. Que proceso tiene hoy y que podemos hacer en ellos,
+3. Establece: La estrategia de transformación digital. Las etapas
+4. Ejecuta: La estrategia y darle seguimiento.
 
