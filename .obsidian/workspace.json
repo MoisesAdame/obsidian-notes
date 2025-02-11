@@ -66,6 +66,16 @@
               "icon": "lucide-file",
               "title": "4. User Experience"
             }
+          },
+          {
+            "id": "2c2c2159e660e029",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 3,
@@ -252,9 +262,9 @@
   "active": "7dfb8b950656387e",
   "lastOpenFiles": [
     "3. Leveraging Data.md",
-    "4. User Experience.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
+    "4. User Experience.md",
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/No-Code Apps Google",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
