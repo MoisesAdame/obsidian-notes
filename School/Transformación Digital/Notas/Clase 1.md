@@ -78,3 +78,10 @@ Tendencias Que Impactan la Transformación Digital
 #### Voz Datos y Videos
 - Digital es porque hay dos dígitos 1 y 0.
 - No hay nada que no sea voz, datos y video. En los próximos años lo único que cambiará es que aumentará la cantidad de información transmitida. Mayor capacidad de transmisión.
+
+#### Qué le quita el sueño al CTO
+- Disponibilidad = MTBF / MTBF + MTTR
+	- MTBF: Mean Time Between Failure
+	- MTTR: Mean Time To Repair
+- Disponibilidad: Que tan disponible está un sistema (desde una compu hasta un ecosistema.)
+- Diponibilidad 365, 7 X 24: Es posible pero carísimo y por lo tanto no viable.
