@@ -68,17 +68,22 @@
             }
           },
           {
-            "id": "2c2c2159e660e029",
+            "id": "312e876fd0003c54",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "5. Publishing your App.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Publishing your App"
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -153,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. User Experience.md",
+                "file": "5. Publishing your App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +168,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4. User Experience"
+              "title": "Backlinks for 5. Publishing your App"
             }
           },
           {
@@ -259,12 +264,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7dfb8b950656387e",
+  "active": "312e876fd0003c54",
   "lastOpenFiles": [
+    "4. User Experience.md",
+    "5. Publishing your App.md",
     "3. Leveraging Data.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
-    "4. User Experience.md",
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/No-Code Apps Google",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
@@ -293,7 +299,6 @@
     "Chinese/HSK4/标准教程4（上）/第3课.md",
     "Chinese/HSK4/标准教程4（上）/第2课.md",
     "Chinese/HSK4/标准教程4（上）/第1课.md",
-    "Chinese/HSK4/阅读/第2课自写的课文.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
