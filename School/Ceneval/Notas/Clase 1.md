@@ -23,6 +23,3 @@ Date: 2025-02-10 : 14:17
 ## Consejos
 - No dejar preguntas sin responder.
 - Va a haber cosas que nunca vimos... La que suene mejor.
-- 
-
-

@@ -28,17 +28,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/标准教程4（上）/第8课.md",
+                "file": "School/Ceneval/Notas/Clase 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第8课"
+              "title": "Clase 1"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -96,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -219,13 +217,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4681859c57e721be",
+  "active": "f2a8357038029ee6",
   "lastOpenFiles": [
+    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+    "Chinese/HSK4/标准教程4（上）/第8课.md",
     "School/Ceneval/Guía",
     "School/Ceneval/Untitled.md",
     "School/Ceneval/Notas",
-    "School/Ceneval/Notas/Clase 1.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
@@ -234,7 +233,6 @@
     "School/Transformación Digital/Notas/Clase 2.md",
     "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/No-Code Apps Google",
-    "Chinese/HSK4/标准教程4（上）/第8课.md",
     "School/Transformación Digital/Notas",
     "School/Transformación Digital",
     "School/Ceneval/Ingeniería de Software",

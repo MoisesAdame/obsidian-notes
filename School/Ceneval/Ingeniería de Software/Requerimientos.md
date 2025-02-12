@@ -52,4 +52,7 @@ Se dividen en tres:
 >[!WARNING]
 >Leer Resumen [Calidad Interna vs Calidad Externa](https://experiencia21.tec.mx/courses/551022/files/217319046?wrap=1)
 
+## Técnicas de Elicitación de Requeriminetos
+### Entrevistas
+
 
