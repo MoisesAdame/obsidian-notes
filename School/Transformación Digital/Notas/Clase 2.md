@@ -131,3 +131,6 @@ Para ahorrar costo y tiempo.
 - Decisiones tomadas por intuición -> Decisiones tomadas por pruebas y validación.
 - Experimentos conducidos por expertos -> Experimentos conducidos por todos.
 - Evitar fallas -> Aprender de ellas. (Rápido y barato)
+
+#### Adaptar la Propuesta de Valor
+Transformación digital es mejorar alguno de los cuadrantes (nuevo valor, nuevos clientes o ambos).
