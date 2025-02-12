@@ -97,6 +97,21 @@ Quienes son proveedores?
 ### To Be
 Es la situación deseada. Con base en lo que recabamos, respondemos cosas como nivel de servicio, estructura de red, presupuesto, administración.
 
-Hallazgos y Recomendaciones: Como se alinean con los objetivos de la empresa.
+Hallazgos y Recomendaciones: Como se alinean con los objetivos de la empresa. Quick hits: Iniciar con acciones inmediatas.
+
+### Extracción y Análisis de Requerimientos
+Hay dos partes:
+- Lo que el cliente me dice que haga. (**Mas Importante**)
+- Lo que yo debo hacer para lograr ese objetivo.
+
+Diseño: Requerimientos -> Performance -> Tech -> Marca
+
+Visiones de Diseño:
+- Condition Driven: Lo que puedo hacer.
+- Ambition Driven: Lo que quisiera hacer.
+
+### Digital Transformation Guide
+#### Digital Transformation
+No es mejorar tu tecnología, es tu forma de pensar en la estrategia tecnológica.
 
 
