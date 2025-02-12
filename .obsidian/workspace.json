@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -202,9 +201,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2a8357038029ee6",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
-    "School/Ceneval/Clase 1.md",
+    "School/Ceneval/Guía",
+    "School/Ceneval/Untitled.md",
+    "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+    "School/Ceneval/Notas",
+    "School/Ceneval/Notas/Clase 1.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
@@ -214,11 +217,9 @@
     "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/No-Code Apps Google",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
-    "School/Ceneval/Ingeniería de Software/Requerimientos.md",
     "School/Transformación Digital/Notas",
     "School/Transformación Digital",
     "School/Ceneval/Ingeniería de Software",
-    "School/Ceneval/Untitled.md",
     "Chinese/HSK4/标准教程4（上）/第7课.md",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "School/Ceneval",
@@ -236,7 +237,6 @@
     "Chinese/HSK4/标准教程4（上）/第5课.md",
     "Chinese/HSK4/标准教程4（上）/第4课.md",
     "Chinese/HSK4/标准教程4（上）/第3课.md",
-    "Chinese/HSK4/标准教程4（上）/第2课.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
@@ -247,7 +247,6 @@
     "School/Quantum/Class Notes/Entregables/Assets",
     "School/Quantum/Class Notes/Entregables",
     "Masters/AModernIntroductionToProbability&Statistics/Exercises",
-    "Masters/AModernIntroductionToProbability&Statistics/Assets",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
