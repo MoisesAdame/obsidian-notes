@@ -66,5 +66,37 @@ Funciones de Personas:
 - Directores: Procesos
 - CTO, CxO: KPI's
 
+### Assessment
+Siempre hay que empezar por un assessment, no es broma lo de Misión, Visión y Valores. Primero que nada hay que conocer a la empresa.
+
+- **Situación Actual (As Is):** Hay que entender que tienes, para poder saber a donde ir.
+
+### As Is
+¿Lo que implementan es por **un plan** o son cosas **ideas abstractas y asiladas**?
+
+Cuál es el Modelo de Negocio?
+- Procesos
+- Ventaja competitiva
+- Principal fuente de utilidades?
+
+A nivel Tecnología:
+- Estructura organizacional
+- Normatividad, políticas
+
+A nivel Telecom (lo más caro)
+- Arquitectura
+
+Hallazgos iniciales:
+
+Situación Actual: Seguridad, infraestructura, gestión.
+
+Hay plan de recuperación para desastre?
+
+Quienes son proveedores?
+
+### To Be
+Es la situación deseada. Con base en lo que recabamos, respondemos cosas como nivel de servicio, estructura de red, presupuesto, administración.
+
+Hallazgos y Recomendaciones: Como se alinean con los objetivos de la empresa.
 
 
