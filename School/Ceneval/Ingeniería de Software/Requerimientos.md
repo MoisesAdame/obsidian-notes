@@ -74,3 +74,32 @@ Pasos:
 7. Analizar casos alternativos (cosas que no previste)
 8. Extraer sub-casos de uso
 
+### Personas
+Elementos ficticio que nos permite empatizar. Si surge un problema, preguntarse **Qué haría Kevin?**.
+
+## Validación de Requerimientos
+### Benchmarking
+Ver a la competencia y ver si lo esta haciendo o no y porqué.
+
+### Peer Review
+Que el equipo de otro proyecto te ayude a validar requerimientos.
+
+### Pruebas de Aceptación de Usuario
+Hay dos tipos:
+1. Con prototipo: Dársela a usuario para lograr un objetivo dado.
+2. MVP: Pruebas de concepto. Ir robusteciendo poco a poco una funcionalidad
+
+## Administración de Requerimientos
+Difícilmente los requerimientos estarán estáticos. Todos los factores los pueden modificar.
+
+Generalmente el cliente te pide cambiar requerimientos. Cuando eso pasa, generalmente se ponen nuevos requerimientos, pero se quitan otros.
+
+Esto se debe llevar a cabo durante **todo el ciclo de vida del software**. 
+
+Es la única parte de software que esta involucrada en **todo.**
+
+Herramientas para admin de requerimientos:
+- Políticas (reglas)
+- Atributos de Requerimientos: Información sobre requerimientos (relaciones, descripciones, tags, estatus)
+- Matriz de Trazabilidad: Relación entre los requerimientos
+
