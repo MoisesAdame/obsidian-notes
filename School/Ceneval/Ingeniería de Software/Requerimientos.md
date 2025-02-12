@@ -51,10 +51,26 @@ Se dividen en tres:
 
 >[!WARNING]
 >Leer Resumen [Calidad Interna vs Calidad Externa](https://experiencia21.tec.mx/courses/551022/files/217319046?wrap=1)
+>Ver video de [User Stories]()
 
 ## Técnicas de Elicitación de Requeriminetos
 ### Entrevistas
 Es como con un doctor, hay que tocar y entender los problemas para poder resolverlos. No hablar con tecnicismos, ni ser totalmente informal. Enaltecer tus fortalezas, no las debilidades del otro, no ser arrogante. Ser puntual. Hay que ser un poco **camaleones** a la hora de bajar requerimientos.
 
 La mayor parte de los clientes son como la novia al cenar, "No sé".
+
+Recopilar la mayor cantidad de datos posibles.
+
+### Casos de Uso
+Los vimos como UML, pero en metodologías ágiles se ven como Historias de Usario.
+
+Pasos:
+1. Identificar alcance de sistema
+2. LLuvia de ideas y actores principales
+3. Enumerar las metas de usuarios
+4. Revisar caso de uso.
+5. Expandirlos (uno por uno)
+6. Describir el escenario de éxito **Happy Path** (que nada se salga de lo esperado.)
+7. Analizar casos alternativos (cosas que no previste)
+8. Extraer sub-casos de uso
 
