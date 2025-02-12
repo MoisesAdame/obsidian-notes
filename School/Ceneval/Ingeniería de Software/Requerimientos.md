@@ -101,5 +101,17 @@ Es la única parte de software que esta involucrada en **todo.**
 Herramientas para admin de requerimientos:
 - Políticas (reglas)
 - Atributos de Requerimientos: Información sobre requerimientos (relaciones, descripciones, tags, estatus)
-- Matriz de Trazabilidad: Relación entre los requerimientos
+- Matriz de Trazabilidad: Relación entre los requerimientos.
+
+## Especificación de Requerimientos de Software (SRS)
+En el se especifican requerimientos, estandares, stakeholders.
+
+## Carcacterísticas de Requerimiento Excelente
+- Correcto: Dice las necesidades de usuario
+- Completo: Dice todos los elementos necesarios (funcionalidad, interfaces, calidad, etc.)
+- Claro: Que **todos** lo entiendan igual.
+- Conciso: Muy breve, sin tecnicismos.
+- Consistente:  No debe haber requerimientos que se **excluyan entre sí**.
+- Factible: Que se pueda hacer.
+- Verificable: Que se pueda checar si se hizo o no.
 

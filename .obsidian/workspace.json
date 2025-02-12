@@ -38,6 +38,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -217,10 +218,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2a8357038029ee6",
+  "active": "4681859c57e721be",
   "lastOpenFiles": [
-    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+    "School/Ceneval/Notas/Clase 1.md",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
     "School/Ceneval/Guía",
     "School/Ceneval/Untitled.md",
