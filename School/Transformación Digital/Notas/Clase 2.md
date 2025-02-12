@@ -40,8 +40,31 @@ Obtener feedback, validar y si es necesario refinar solución.
 
 ## Módulo Tavera
 ### Seguridad
-La seguridad son tres aspectos:
+La seguridad son **tres aspectos**:
 - Confidencialidad
 - Integridad
-- Disponibli
+- Disponibilidad
+
+De que sirve un SLA de 99.9999%, si te la roban **confidencialidad** o que este corrupta **integridad**.
+
+La **estrategia de seguridad** se debe decidir por el nivel mas alto de la organización (CEO, CTO, CFO, etc.)
+
+La seguridad no es una estrategia **tecnológica**.
+
+### Business Process Management (BPM)
+Cómo haré mi transformación digital? Puede ser en varios niveles:
+- Man Power: Buscar la gente especializada
+- Facilities Management: Tener infraestructura propia.
+- Outsourcing: Tercerizar
+- Partnership: Es el nivel más alto. Establecer alianzas es fácil, lo difícil es mantenerlas. Hay varios tipos:
+	- Revenue Share: Juntos le entramos y nos dividimos las ventas.
+	- Profit Share: Según la inversión, es lo que nos dividimos.
+	- Joint Venture: Hasta que los dos le meten dinero
+
+Funciones de Personas:
+- Gerente: Ve proyectos
+- Directores: Procesos
+- CTO, CxO: KPI's
+
+
 
