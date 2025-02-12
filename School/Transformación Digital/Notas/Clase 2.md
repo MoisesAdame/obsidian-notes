@@ -38,5 +38,10 @@ Es **relevante** porque se centra en usuario, reduce tiempo (validando fracaso) 
 #### Fase 5: Validar y Refinar Soluciones
 Obtener feedback, validar y si es necesario refinar solución.
 
-
+## Módulo Tavera
+### Seguridad
+La seguridad son tres aspectos:
+- Confidencialidad
+- Integridad
+- Disponibli
 

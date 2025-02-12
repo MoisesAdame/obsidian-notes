@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
+                "file": "School/Transformación Digital/Notas/Clase 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 5. Publishing your App"
+              "title": "Backlinks for Clase 2"
             }
           },
           {
@@ -279,15 +279,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7dfb8b950656387e",
+  "active": "7a488715da954cb1",
   "lastOpenFiles": [
-    "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/Notas/Clase 1.md",
+    "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
+    "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/Notas/Clase 2.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
-    "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
     "School/Transformación Digital/No-Code Apps Google",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
