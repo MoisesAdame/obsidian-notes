@@ -54,5 +54,7 @@ Se dividen en tres:
 
 ## Técnicas de Elicitación de Requeriminetos
 ### Entrevistas
+Es como con un doctor, hay que tocar y entender los problemas para poder resolverlos. No hablar con tecnicismos, ni ser totalmente informal. Enaltecer tus fortalezas, no las debilidades del otro, no ser arrogante. Ser puntual. Hay que ser un poco **camaleones** a la hora de bajar requerimientos.
 
+La mayor parte de los clientes son como la novia al cenar, "No sé".
 
