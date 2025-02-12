@@ -125,4 +125,9 @@ Antes y ahora:
 "Aprendizaje rápido, continuo y con rápida experimentación"
 
 #### Learn Early
+Para ahorrar costo y tiempo.
 
+#### Cambio de estrategia en Innovación
+- Decisiones tomadas por intuición -> Decisiones tomadas por pruebas y validación.
+- Experimentos conducidos por expertos -> Experimentos conducidos por todos.
+- Evitar fallas -> Aprender de ellas. (Rápido y barato)
