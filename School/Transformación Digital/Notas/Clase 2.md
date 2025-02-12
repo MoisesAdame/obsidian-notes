@@ -114,4 +114,15 @@ Visiones de Diseño:
 #### Digital Transformation
 No es mejorar tu tecnología, es tu forma de pensar en la estrategia tecnológica.
 
+#### Digital Transformation Considerations
+La transformación digital es un **cambio**.
+Antes y ahora:
+- CTO veía TI para optimizar: Ahora el CTO busca reinventar el negocio.
+- El cliente es objetivo: El cliente es dinámico.
+- Competencia entre iguales: Ahora es asimétricos.(Airbnb)
+
+#### Innovación
+"Aprendizaje rápido, continuo y con rápida experimentación"
+
+#### Learn Early
 
