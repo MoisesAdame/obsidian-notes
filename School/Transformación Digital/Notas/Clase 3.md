@@ -29,5 +29,7 @@ Un grupo con su centro de datos y las empresas dentro de este, tienen acceso a e
 Cualquier software que se encuentra disponible en internet. Usa un formato estandarizado (XML o JSON) para interactuar con el API.
 
 ### Servicios de Computo en la Nube
-- On site: Lo que tiene que pagar la organización. (Almacenamiento, servidores, data, aplicaciones.)
-- IaaS: Infraestructure as a Service. Se hacen cargo de networking, storage, servers y virtualización. Esto servía para migrar de on-site a cloud.
+- **On site:** Lo que tiene que pagar la organización. (Almacenamiento, servidores, data, aplicaciones.)
+- **IaaS:** Infraestructure as a Service. Se hacen cargo de networking, storage, servers y virtualización. Esto servía para migrar de on-site a cloud.
+- **PaaS:** Platform as a Service. Es como lo que usamos en AWS, nosotros solo desarrollamos, ellos hacen todo lo demás, desde networking hasta runtime.
+- **SaaS:** Todo es responsabilidad del proveedor de servicio. Quien lo contrata solo configura.
