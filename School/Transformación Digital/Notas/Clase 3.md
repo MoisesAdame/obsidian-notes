@@ -21,3 +21,13 @@ Aquel que da estos servicios es el: **Cloud Provider**.
 
 ### Consumo Bajo Demanda
 Dependiendo de tu consumo, yo te cobro. Este se puede entender como una **democratización del consumo de la nube**, de tal modo que empresas de todo tamaño pueden usar estos servicios.
+
+### Nube Privada
+Un grupo con su centro de datos y las empresas dentro de este, tienen acceso a este grupo.
+
+### Servicios Web
+Cualquier software que se encuentra disponible en internet. Usa un formato estandarizado (XML o JSON) para interactuar con el API.
+
+### Servicios de Computo en la Nube
+- On site: Lo que tiene que pagar la organización. (Almacenamiento, servidores, data, aplicaciones.)
+- IaaS: Infraestructure as a Service. Se hacen cargo de networking, storage, servers y virtualización. Esto servía para migrar de on-site a cloud.
