@@ -28,17 +28,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/SQL/SQL Language/Data Manipulation Language/UNION & UNION ALL.md",
+                "file": "School/Transformación Digital/Notas/Clase 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "UNION & UNION ALL"
+              "title": "Clase 1"
+            }
+          },
+          {
+            "id": "d62e17fa260a672f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Transformación Digital/Notas/Clase 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 3"
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -96,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -218,8 +234,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "d62e17fa260a672f",
   "lastOpenFiles": [
+    "School/Transformación Digital/Notas/Clase 1.md",
+    "School/Transformación Digital/Notas/Clase 3.md",
+    "Technologies/SQL/SQL Language/Data Manipulation Language/UNION & UNION ALL.md",
     "Technologies/SQL.zip",
     "Technologies/SQL/SQL Language/Data Manipulation Language/WHERE.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/IN.md",
@@ -236,7 +255,6 @@
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
     "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
-    "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/Notas/Clase 2.md",
     "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/No-Code Apps Google",
@@ -254,7 +272,6 @@
     "Technologies/Vim/1. Vim Motions.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
-    "Chinese/HSK4/HSK4安全的词汇.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
@@ -263,7 +280,6 @@
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 9.00.28 a.m..png",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.59.51 a.m..png",
     "School/Quantum/Class Notes/Entregables/Assets",
-    "School/Quantum/Class Notes/Entregables",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
