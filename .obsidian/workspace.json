@@ -211,12 +211,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d62e17fa260a672f",
+  "active": "8015bddc8a6827f4",
   "lastOpenFiles": [
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/Notas/Clase 3.md",
