@@ -61,7 +61,8 @@ La mejor arquitectura siempre es la más sencilla. Esto hace que sea mas **estab
 ### Beneficios de Cloud Computing
 - En vez de una inversión de capital, nuestros **gastos son variables**. Solo pagas por lo que consumes.
 - **Economía de Escala:** Debo vender como cloud-provider a miles de organizaciones.
-- **Time to Market:** Mayor velocidad y agilidad. Te ahorras el tiempo de cotizar, instalar y virtualizar y solo te encargas de virtualizar.
+- **Time to Market:** Mayor velocidad y agilidad. Te ahorras el tiempo de cotizar, instalar y virtualizar y solo te encargas de virtualizar. Te hace una empresa más competente y facilita la innovación.
+- No ganes dinero en centros de datos. 
 
 
 
