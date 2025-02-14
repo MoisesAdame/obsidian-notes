@@ -53,5 +53,15 @@ La nube nos permite hacer un consumo **adecuado**. Ni desperdicio, ni uso de má
 ### Qué Harías tu en la Nube
 La mejor arquitectura siempre es la más sencilla. Esto hace que sea mas **estable** y **segura**.
 
+### Terminología Importante de la Nube
+**Alta Disponibilidad:** Siempre está ahí
+**Elasticidad:** A mayor necesidad, mayor recursos.
+**Escalabilidad:** Aumento en demanda.
+
+### Beneficios de Cloud Computing
+- En vez de una inversión de capital, nuestros **gastos son variables**. Solo pagas por lo que consumes.
+- **Economía de Escala:** Debo vender como cloud-provider a miles de organizaciones.
+- **Time to Market:** Mayor velocidad y agilidad. Te ahorras el tiempo de cotizar, instalar y virtualizar y solo te encargas de virtualizar.
+
 
 
