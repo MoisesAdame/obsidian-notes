@@ -37,5 +37,14 @@ Hitos o Milestones: Son el conjunto de actividades mas chiquitas.
 
 En el cronograma agregar sección de entregables con cosas como: Project Charter
 
+### BPMN
+#### Cadena de Valor
+Actividades Primarias: Necesarias para que el negocio subsista. 
+Actividades de Soporte: No son necesarias, pero son importantes
+
+Para hacer transformación digital, se **generalmente empieza en los procesos primarios**.
+
+
+
 
 
