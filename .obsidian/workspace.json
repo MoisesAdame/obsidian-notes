@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -264,8 +264,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0af43dad7539117",
+  "active": "e7646cd6bbe484d8",
   "lastOpenFiles": [
+    "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "School/Transformación Digital/Notas/Clase 4.md",
     "School/Transformación Digital/Notas/Clase 3.md",
@@ -301,7 +302,6 @@
     "Technologies/Neo4j/Cypher Fundamentals/2. Writing Data.md",
     "Technologies/SQL/SQL Language/Data Definition Language/CREATE PROCEDURE.md",
     "Chinese/HSK4/标准教程4（上）/Untitled.md",
-    "Technologies/Vim/1. Vim Motions.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
