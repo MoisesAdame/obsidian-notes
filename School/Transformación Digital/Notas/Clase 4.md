@@ -33,7 +33,9 @@ Herramienta de planificación y gestión de proyectos.
 
 Lo importante es: Identificar las tareas.
 
-Hitos o Milestones: Son el conjunto de actividades mas ch
+Hitos o Milestones: Son el conjunto de actividades mas chiquitas.
+
+En el cronograma agregar sección de entregables con cosas como: Project Charter
 
 
 
