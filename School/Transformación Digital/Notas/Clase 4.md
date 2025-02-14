@@ -45,7 +45,13 @@ Actividades de Soporte: No son necesarias, pero son importantes
 Para hacer transformación digital, se **generalmente empieza en los procesos primarios**.
 
 ## Módulo Cloud
-### 
+### Todo en la Nube vs Implementación Local
+La nube nos permite hacer un consumo **adecuado**. Ni desperdicio, ni uso de más.
+
+**Elasticidad de la nube:** Los recursos se expanden o reducen según los cambios en la demanda.
+
+### Qué Harías tu en la Nube
+La mejor arquitectura siempre es la más sencilla. Esto hace que sea mas **estable** y **segura**.
 
 
 
