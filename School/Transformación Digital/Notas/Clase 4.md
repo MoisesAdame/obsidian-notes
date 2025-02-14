@@ -44,7 +44,8 @@ Actividades de Soporte: No son necesarias, pero son importantes
 
 Para hacer transformación digital, se **generalmente empieza en los procesos primarios**.
 
-
+## Módulo Cloud
+### 
 
 
 
