@@ -8,82 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2a8357038029ee6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 1"
-            }
-          },
-          {
-            "id": "4681859c57e721be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 2"
-            }
-          },
-          {
-            "id": "d62e17fa260a672f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 3"
-            }
-          },
-          {
-            "id": "e7646cd6bbe484d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 4"
-            }
-          },
-          {
             "id": "b0af43dad7539117",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
+                "file": "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第5课：我听过钢琴协奏曲 《黄河》"
+              "title": "第6课：我是跟旅游团一起来的"
             }
           }
         ],
-        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -264,14 +203,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7646cd6bbe484d8",
+  "active": "b0af43dad7539117",
   "lastOpenFiles": [
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
-    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
-    "School/Transformación Digital/Notas/Clase 4.md",
-    "School/Transformación Digital/Notas/Clase 3.md",
-    "School/Transformación Digital/Notas/Clase 2.md",
     "School/Transformación Digital/Notas/Clase 1.md",
+    "School/Transformación Digital/Notas/Clase 2.md",
+    "School/Transformación Digital/Notas/Clase 3.md",
+    "School/Transformación Digital/Notas/Clase 4.md",
+    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/UNION & UNION ALL.md",
     "Technologies/SQL.zip",
