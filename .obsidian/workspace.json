@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -248,8 +247,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "71baec89aee03a5d",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
     "Chinese/HSK4/标准教程4（上）/第9课.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
@@ -285,7 +285,6 @@
     "Technologies/Neo4j/Assets/graph-parts.png",
     "Technologies/Neo4j/Cypher Fundamentals/1. Reading Data.md",
     "Technologies/Neo4j/Cypher Fundamentals/2. Writing Data.md",
-    "Technologies/SQL/SQL Language/Data Definition Language/CREATE PROCEDURE.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
