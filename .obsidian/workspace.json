@@ -4,71 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "31aed2a1a90eeebf",
+        "id": "e652a765bacc92d4",
         "type": "tabs",
         "children": [
           {
-            "id": "b0af43dad7539117",
+            "id": "55b50a6f52b9af7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第5课：我听过钢琴协奏曲 《黄河》"
+              "title": "1.1 Tipos de Requerimientos"
             }
           },
           {
-            "id": "3e753694977e538e",
+            "id": "a52d1fa8b71758cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
+                "file": "School/Ceneval/Reactivos Ceneval.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第6课：我是跟旅游团一起来的"
-            }
-          },
-          {
-            "id": "b22dd5d83056ea4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4（上）/第8课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第8课"
-            }
-          },
-          {
-            "id": "71baec89aee03a5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第9课"
+              "title": "Reactivos Ceneval"
             }
           }
         ],
-        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -247,11 +216,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "55b50a6f52b9af7d",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
+    "School/Ceneval/Reactivos Ceneval.md",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "Chinese/HSK4/标准教程4（上）/第9课.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
     "School/Transformación Digital/Notas/Clase 1.md",
@@ -268,7 +239,6 @@
     "Technologies/SQL/SQL Language/Data Definition Language/CONSTRAINTS.md",
     "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Guía",
-    "School/Ceneval/Untitled.md",
     "School/Ceneval/Notas",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
@@ -284,7 +254,6 @@
     "School/Ceneval",
     "Technologies/Neo4j/Assets/graph-parts.png",
     "Technologies/Neo4j/Cypher Fundamentals/1. Reading Data.md",
-    "Technologies/Neo4j/Cypher Fundamentals/2. Writing Data.md",
     "Chinese/HSK4/汉语教程",
     "Untitled.canvas",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.57.08 a.m..png",
@@ -292,7 +261,6 @@
     "School/Quantum/Class Notes/Entregables/alignment-home.png",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 9.00.28 a.m..png",
     "School/Quantum/Class Notes/Entregables/Screenshot 2024-12-02 at 8.59.51 a.m..png",
-    "School/Quantum/Class Notes/Entregables/Assets",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig5.b.png",
     "School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "School/Quantum/Papers/Assets/Evolution of Antibiotic Cross-Resistance and Collateral Sensitivity in Staphylococcus Epidermidis Using the Mutant Prevention Concentration and the Mutant Selection Window/fig4.b.png",
