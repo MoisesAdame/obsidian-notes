@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -248,12 +248,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f95687c0058b0e65",
+  "active": "a52d1fa8b71758cd",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
     "School/Ceneval/Reactivos Ceneval.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "Templates/Normal Note (Flascard).md",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
