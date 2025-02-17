@@ -4,7 +4,6 @@ tags:
 ---
 Date: 2025-02-17 : 14:22
 ***
-
 ## Diseño y Arquitectura
 ### Arquitectura de Software
 - Arquitecto hace casas. Pero para eso **que necesita planear** checando materiales, zona, cosas sobre servicios.
@@ -36,9 +35,33 @@ Date: 2025-02-17 : 14:22
 	- Funcional: Que tiene que hacer.
 	- Información: Como se va a guardar, administrar, la información.
 	- Concurrencia: Que partes del sistema pueden ejecutarse de forma **paralela**.
-	- Development: Funciones, patrones de diseño, buenas prácticas, etc.
-	- Deployment: 
+	- Development: Funciones, patrones de diseño, buenas prácticas, etc. Que frameworks, estándares, nombre de variables
+	- Deployment: Es base de datos, servers, etc.
+	- Operacional: Cosas como soporte y así.
+- Perspectivas: Colección de actividades, tácticas y lineamientos que se usan para asegurar que un sistema exhibe un conjunto de propiedades de calidad que requieren considerarse de forma transversal a través de varias vistas del sistema. Al final sirve para **asegurar la calidad**.
+- Asegurar la calidad sirve para evitar **desviaciones** a la hora de hacer tu software. Esto sirve para evitar **perder dinero**.
 
+### Catálogo
+- Accesidbilidad: Para gente con discapacidades.
+- Evolución: Flexible a cambio.
+- Internacionalización: Diferentes lenguajes.
+- Location: Donde estas (cosas como huso horario). 
+- Performance y escalabilidad :: Que tanto tarda.
+- Seguridad :: Quien puede hacer que (roles y perfiles). No todo es **encriptar**.
+
+## Patrones de Diseño
+### Introducción
+- Sirven para **evitar** repetir código. Se llega a ellos mediante la iteración.
+- Son formas **comunes** de resolver problemas **comunes**.
+- Una especie de **template** para resolver problemas.
+- Definen **lenguaje común**, en vez de echar un choro.
+- Ahorra tiempo, dan calidad
+
+### Historia
+- Erich Game, Richard Helm, Ralph Johnson y John Vlissides son la **Gang of Four**.
+
+### Clasificación
+- Hay 3 tipos: Creacionales, estructurales y de comportamiento
 
 
 
