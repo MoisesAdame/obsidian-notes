@@ -6,7 +6,7 @@ Date: 2025-02-16 : 15:52
 ## Parte Técnica
 | Áreas                                 | Subáreas                                                                                              | Núm. de reactivos |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------- |
-| 1. Análisis de Sistemas de Software   | 1.1. Tipos de requerimientos                                                                          | 12                |
+| 1. Análisis de Sistemas de Software   | 1.1. Tipos de requerimientos.                                                                         | 12                |
 |                                       | 1.2. Técnicas y herramientas para la obtención, análisis, priorización y validación de requerimientos | 9                 |
 |                                       | 1.3. Técnicas y herramientas de documentación de requerimientos                                       | 10                |
 | 2. Diseño de Sistemas de Software     | 2.1. Diseño arquitectónico de software                                                                | 10                |
