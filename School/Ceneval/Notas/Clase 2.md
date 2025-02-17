@@ -63,6 +63,34 @@ Date: 2025-02-17 : 14:22
 ### Clasificación
 - Hay 3 tipos: Creacionales, estructurales y de comportamiento
 
+### Estructurales
+- Adapter. Es la parte intermedia entre dos interfaces.
+- Flyweight. En vez de muchas instancias, solo es una, y así ahorras memoria.
+- Proxy. 
+
+### De Comportamiento
+- Observer. Cliente servidor. Cuando cambia algo, avísmae.
+- Visitador. A ti ya te visité o no.
+- Cadena de Responsabilidad. Tengo varios objetos. Uno acaba, le manda un objeto al siguiente y así poco a poco.
+- Iterador. Movernos por elementos de un conjunto, sin exponer la implementación.
+- Memento: Regresar al estado anterior del objecto. Undo.
+- Strategy. Se usa cuando hay concurrencia o formas de hacer algo. Se elige un diferente algoritmo.
+
+### Antipatrones
+- Copy paste programming: No sabes si estas metiendo brechas de seguridad. 
+- Clase Dios: Una clase que hace todo.
+- Repeat code.
+- Código muerto.
+- Golden Hammer. A mi me funcionó algo, ya lo quiero hacer en todas partes.
+
+## Diagramas
+### Diagrama de Clases
+- Cardinalidad: Numeritos
+
+### Diagrama de Objetos
+- Intancia de una clase.
+
+### Diagrama de 
 
 
 
