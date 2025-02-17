@@ -88,11 +88,34 @@ Date: 2025-02-17 : 14:22
 - Cardinalidad: Numeritos
 
 ### Diagrama de Objetos
-- Intancia de una clase.
+- Instancia de una clase.
 
-### Diagrama de 
+### Diagrama de Secuencia.
+- Como los objetos se intercambian mensajes a lo largo del tiempo.
 
+### Colaboración
+- Que métodos usan los objetos para colaborar entre si.
 
+### Diagrama de Paquetes
+- Un paquete son clases que resuelven un problema entre si.
+
+### DIagrama de Subsistemas
+- Si hay subsistemas, es como el de paquetes
+
+### Diagrama de Componentes
+- Componentes físicos del sistema.
+- Servidor, servido de base de datos, etc.
+- Cada componente interactúa entre ellos.
+
+### Diagrama de Despliegue
+- El que confundimos con la arquitectura.
+
+### Modelo 4 + 1
+Tines 4 vistas y una guía o lo que une estas vistas, que es el diagrama de casos de uso.
+- Vista física: Diagrama de despliegue.
+- Vista de procesos: Diagrama de actividad.
+
+En la actividad, solo hacer uno
 
 
 
