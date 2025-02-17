@@ -122,7 +122,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -250,8 +251,10 @@
   },
   "active": "55b50a6f52b9af7d",
   "lastOpenFiles": [
-    "School/Ceneval/Reactivos Ceneval.md",
+    "Masters/Systems Programming/1. Background/1.2 Evolution of the Components of a Programming System.md",
     "School/Ceneval/Ingeniería de Software/Requerimientos.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Untitled.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
@@ -267,7 +270,6 @@
     "Templates/Normal Note (Flascard).md",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
-    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
