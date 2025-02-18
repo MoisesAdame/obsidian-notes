@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -262,8 +262,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dc43576298f8948",
+  "active": "55b50a6f52b9af7d",
   "lastOpenFiles": [
+    "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/Notas/Clase 5.md",
     "School/Transformación Digital/Notas/Clase 4.md",
     "Chinese/HSK4/标准教程4（上）/第9课.md",
@@ -292,7 +293,6 @@
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
-    "School/Transformación Digital/Notas/Clase 1.md",
     "School/Transformación Digital/Notas/Clase 2.md",
     "School/Transformación Digital/Notas/Clase 3.md",
     "Technologies/SQL/SQL Language/Data Manipulation Language/UNION & UNION ALL.md",
