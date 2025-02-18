@@ -52,8 +52,17 @@ Todo esto sirve para **detectar** que tipo de alianza se necesitan y **como mane
 - Buscar mejoras mediante la iteración.
 
 Usar:
-1. Prototipo (no sirve)
-2. Alfta (proof of concept)
-3. Beta (complete version)
+1. Prototipo (no sirve) (maqueta). Se ven con **quien te lo pide**, no sirve de nada con el **usuario final**.
+2. Alfa (proof of concept) (tienen muchos errores). Es importante hacer **focus groups**, por si te piden nuevas features, porque todavía puedes cambiar tu plataforma.
+3. Beta (complete version). Dársela gratis a un cliente por un tiempo corto, no por vendérselo, por si hay cosas que pulir.
 
-La versión **beta** ya está terminada, lo único que le falta para ser vendido es **lanzamiento oficial**. Ya jala al 100%
+La versión **beta** ya está terminada, lo único que le falta para ser vendido es **lanzamiento oficial**. Ya jala al 100%.
+
+Innovation...
+Tienes que **apoyarte** en entidades para lograr tu transformación digital.
+- Innovation Lab: Para solucionar problemas puntales
+- Digital Hub: Centros de capacitación, desarrollar habilidades digitales. Aprendes mas que cambiar.
+- Accelerator: Ya que incubaste una empresa, ya que existe, buscas acelerar esa empresa. Se dedican a romper esas barreras culturales. Son consultoras, staff externas.
+
+#### Leverage
+Aprovecha los **éxitos que has tenido** para tener propios beneficios. Nuevos clientes, resultados, segme
