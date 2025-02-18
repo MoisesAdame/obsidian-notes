@@ -65,4 +65,9 @@ Tienes que **apoyarte** en entidades para lograr tu transformación digital.
 - Accelerator: Ya que incubaste una empresa, ya que existe, buscas acelerar esa empresa. Se dedican a romper esas barreras culturales. Son consultoras, staff externas.
 
 #### Leverage
-Aprovecha los **éxitos que has tenido** para tener propios beneficios. Nuevos clientes, resultados, segme
+Aprovecha los **éxitos que has tenido** para tener propios beneficios. Nuevos clientes, resultados, segmentos de mercado.
+
+#### Disseminate
+Diseminar a nuevas iniciativas de transformación digital.
+
+Diseminar significa que empiezas transformación digital en **pocos procesos**, no empiezas con todos. Una vez que funcionan **agarras otra (disemninas)**. Si desde el principio haces todas, van a fallar y perderás el apoyo.
