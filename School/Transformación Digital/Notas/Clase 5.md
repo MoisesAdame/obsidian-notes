@@ -71,3 +71,14 @@ Aprovecha los **éxitos que has tenido** para tener propios beneficios. Nuevos c
 Diseminar a nuevas iniciativas de transformación digital.
 
 Diseminar significa que empiezas transformación digital en **pocos procesos**, no empiezas con todos. Una vez que funcionan **agarras otra (disemninas)**. Si desde el principio haces todas, van a fallar y perderás el apoyo.
+
+### Actividad
+- Equipos de 3.
+- En 10 minutos máximo comentar hallazgos
+- Escoger una vertical y una horizontal (entre más abajo mejor)
+- Hace 3 slides.
+- Pensar como generar innovación y valor. Pensarlo como clientes.
+- Decir en que proceso interno podemos innovar y valor. Decir la innovación y el valor.
+- Posteriormente generar un FODA con una o dos bullets por letra.
+- Cada uno decir una slide.
+
