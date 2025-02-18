@@ -44,3 +44,25 @@ Date: 2025-02-18 : 16:09
 - Primarios: En contacto con cliente. Son los primeros que se deben modelar. porque el **cliente te paga**.
 - Secundarios: Los que sustentan a los primarios. Ej. contabilidad, nomina, recursos humanos, etc.
 - Estratégicos: Los últimos que se modelan. Diseño de nuesvos productos
+
+### Business Process Management Notation (BMPN)
+#### Actividades
+- Representadas con un rectángulo
+
+#### Actores
+- Quien juega que rol.
+
+#### Eventos
+- Algo que pasa durante el curso de un proceso.
+
+#### Flujo
+- Las fechas que nos dicen el orden.
+- Lineas discontinuas: Es cuando se cambia de un carril a otro.
+
+#### Compuerta
+- Decisiones que se deben tomar.
+- Representados con un rombo.
+
+#### Socios
+- Entidades o personas externas a la organización.
+
