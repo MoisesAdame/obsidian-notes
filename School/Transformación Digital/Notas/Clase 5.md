@@ -32,3 +32,28 @@ Descubrir desde lo **lejos** esas *barreras* o *activos útiles*. Una especie de
 - Procesos
 - Plataformas
 - Partnerships
+
+Las **personas** son la *principal barrera* para el proceso de transformación.
+
+Tipos de procesos:
+- Decision Making: Basandose en datos, no en seniority.
+- Formas de trabajo: Sirven para generar cualquier bussiness output.
+
+Management Styles: Por ejemplo **elefante blanco de telmex**, todos los directivos debían estar en de acuerdo, muchas juntas. Por eso es muy lento.
+
+Partnership Types:
+Todo esto sirve para **detectar** que tipo de alianza se necesitan y **como manejarlas**. Es importante por que **EN TODOS LOS PROYECTOS DE TRANSFORMACIÖN DIGITAL SON LONG TERM**
+- Short Term: Detectas una veta en el mercado y la quieres usar.
+- Capability Building: Hacer algo que yo no hago y que no me interesa desarrollar. Podría ser de short o long term.
+- Long Term: Son alianzas que **generan un valor**.
+
+#### Iterate
+- Probar con clientes reales.
+- Buscar mejoras mediante la iteración.
+
+Usar:
+1. Prototipo (no sirve)
+2. Alfta (proof of concept)
+3. Beta (complete version)
+
+La versión **beta** ya está terminada, lo único que le falta para ser vendido es **lanzamiento oficial**. Ya jala al 100%
