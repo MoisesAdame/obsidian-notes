@@ -23,3 +23,24 @@ Date: 2025-02-19 : 14:26
 - DBA son los comandos. Esto se compila. El administrador de datos almacenados es la parte de indexado.
 - Consultas interactivas: Es con interfaz gráfica.
 - Precompilador: Son los drivers. Precompila la consulta en el lenguaje del HOST.
+
+### Arquitecturas
+- Centralizada: Todo está en un mismo servidor
+- Cliente-servidor: Varios servers que consumen entre sí.
+
+### Utilerías
+- Cargado: Llenar base de datois
+- Respaldo
+- Reorganización: Indexado. Consulta más rápido
+- Monitoreo de desempeño: Estadísticas de cosas como que query es mejor.
+
+### Clasificación de DB
+- Por modelo de datos: De red. De grafos
+- Modelo jerárquico: Para big data.
+- Modelo orientado a objetos:
+- Relacional: MySQL
+- Por número de usuario: Todos los que conocemos son multiusuario.
+- Distribuido:
+
+## Modelo Entidad Relacion
+- Visto en el semestre de Django
