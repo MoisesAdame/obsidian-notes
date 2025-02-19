@@ -256,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -280,15 +280,15 @@
   },
   "active": "eaf1b9c3c0c5bb7f",
   "lastOpenFiles": [
-    "School/Transformación Digital/Notas/Clase 5.md",
-    "School/Transformación Digital/Notas/Clase 6.md",
-    "Chinese/HSK4/标准教程4（上）/第9课.md",
-    "Chinese/HSK4/标准教程4（上）/第8课.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
-    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+    "Chinese/HSK4/标准教程4（上）/第8课.md",
+    "Chinese/HSK4/标准教程4（上）/第9课.md",
+    "School/Transformación Digital/Notas/Clase 5.md",
+    "School/Transformación Digital/Notas/Clase 6.md",
+    "School/Ceneval/Notas/Clase 1.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Untitled 1.md",
     "School/TC3005B/TC3005B.2/Design Patterns.md",
     "School/TC3005B/TC3005B.5/5. Verificación y Validación del Software.md",
