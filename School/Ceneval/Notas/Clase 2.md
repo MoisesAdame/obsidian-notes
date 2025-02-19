@@ -123,7 +123,8 @@ En la actividad, solo hacer uno
 - Multiplicidad
 - Si asociación tiene atributos, se hace un clase aparte.
 - Asosiación reflexiva, es cuando es circular. De ti a ti.
-- Agregación es cuando no necesitamos uno sin el otro
+- Agregación es cuando no necesitamos uno sin el otro. Carrito de compras necesita productos. Pero usuario no necesariamente tiene carrito.
+
 
 
 
