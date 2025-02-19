@@ -117,6 +117,14 @@ Tines 4 vistas y una guía o lo que une estas vistas, que es el diagrama de caso
 
 En la actividad, solo hacer uno
 
+### Diagrama de Clases
+- Usar la notación del lenguaje que se usará
+- Asociación: Relación entre instancias de clases.
+- Multiplicidad
+- Si asociación tiene atributos, se hace un clase aparte.
+- Asosiación reflexiva, es cuando es circular. De ti a ti.
+- Agregación es cuando no necesitamos uno sin el otro
+
 
 
 
