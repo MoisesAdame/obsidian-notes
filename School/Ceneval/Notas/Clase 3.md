@@ -61,4 +61,27 @@ Date: 2025-02-19 : 14:26
 ### Reglas de Negocio
 - Este string debe tener 10 carcateres
 - Este int no puede ser mayor a cero.
-- 
+
+## Interfaces Intuitivas
+### Mobile Design
+- Que de feedback: Progress bar, cambio de 
+- Pulido: Menos es más. Menos elementos mejor. Pesar para uso con dedos.
+- Objetivo: Que quieres que logre el usuario.
+- Contexto: ejemplo de borrado en una tabla en iOS o en android.
+- Controles: Cosas como gestos, faceid. Scroll VERTICAL!!!!!!!
+
+### Navigation Models
+- Master detail: En web que haya pop up, no botón de ver detail. En mobile si.
+- Tabs: Muy bueno en mobile, no tanto en web.
+
+### Inputs
+- En web: Solo tienes un teclado.
+- En mobile hay varios. 
+- Si input es numero, poner teclado de número, si es correo, que la primera letra no sea mayúscula.
+- Widgets: Usa las capacidades de tu entorno. Sliders en mobile.
+- Speech recognition: Esto es para accesibilidad. Evita que te metas en problemas de racismo.
+
+### Gestures
+- Todos los gestos están estudiados con bebés.
+
+
