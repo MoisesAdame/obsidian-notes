@@ -44,3 +44,21 @@ Date: 2025-02-19 : 14:26
 
 ## Modelo Entidad Relacion
 - Visto en el semestre de Django
+- Entidad débil: Entidad cuya key es una foreign key. Si la fuerte muere, la débil también
+- Multivaluado: Varios teléfonos.
+- Compuesto: Fecha
+- Dominio: 
+
+## Modelo relacional
+### Reglas de Integridad
+- Que debe tener el dato que este adentro. En SQL se llaman **constrainst**
+
+### Reglas de Integridad Referencial y Llaves Foraneas
+- Garantiza que las llaves que usemos, existan
+- Por defecto: No se pueden meter registros con llaves nulas.
+- Se pueden tener llaves foraneas nulas.
+
+### Reglas de Negocio
+- Este string debe tener 10 carcateres
+- Este int no puede ser mayor a cero.
+- 
