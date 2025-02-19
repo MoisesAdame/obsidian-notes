@@ -66,3 +66,38 @@ Date: 2025-02-18 : 16:09
 #### Socios
 - Entidades o personas externas a la organización.
 
+#### Pool
+- El caudrado de todo el proceso
+- Siempre que se manejen **dos o mas pools** debe haber una actividad de enviio y de recepción.
+
+#### Carril o Lane
+- Carriles dentro del Pool
+
+#### Fases
+- Las verticales del pool
+
+#### Actividades
+- Se representan con un rectángulo
+- De usuario (manual)
+- De servicio (sin que usuario intervenga)
+- De script (hechas por un programa)
+- Manual (no requiere al sistema)
+- Actividades cíclicas (ciclo estándar, multiples instancias y sub-proceso)
+
+#### Compuertas
+- Exclusiva: Con una X. Si o No.
+- Inclusiva: Con un O. Cuando se ejecutan **una o varias** de las opciones
+- Basada en Eventos: Con un pentágono. Se ejecuta con el evento que sucede primero.
+- Paralela: Con un +. Se ejecutan todos los flujos de forma paralela.
+
+#### Eventos
+- De inicio: Al empezar. Color verde. Pueden ser cosas como señal, timers, mensajes, condicionales.
+- Intermedio: Tiene dos anillos. Hay igual que en los de inicio.
+- Final: En rojo. Pueden ser de señal (se va), terminación (círculo rojo), compensación (regresar dinero o producto), escalación (mandarselo a un superior), múltiples (de todo).
+
+#### Calidad de Actividades
+- Debe tener **máximo 7 actividades** por proceso.
+- Si son 7 o mas se aconseja subdividirlo.
+
+
+
