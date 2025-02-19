@@ -84,4 +84,24 @@ Date: 2025-02-19 : 14:26
 ### Gestures
 - Todos los gestos están estudiados con bebés.
 
+### Orientation
+- Elegir si landscape o portratir o los dos.
+
+### Comunicaction
+- Feedback: Decir que esta cargando o cosas así. Sobre todo en mobile porque hay **falsos positivos**.
+
+### Start
+- Splash screens: Hello screen, sobre todo en mobile
+- Recovery: En mobile trabajas con recuyrsos limitados, por lo que pueden crashear. Guardar cosas, para evitar frustración.
+
+### Fisrt Impression
+- Bonito
+- Iconos
+
+### Intuitive App Charcatereistics
+- Plataforma
+- Easy to navigate.
+- Claro, simple
+- **Centra lo que más te interesa que haga el usuario**.
+
 
