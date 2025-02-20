@@ -73,17 +73,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 1.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 1"
+              "title": "第9课"
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1.3 Técnicas y Herramientas de Documentación de Requerimientos"
+              "title": "Backlinks for 第9课"
             }
           },
           {
@@ -178,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1.3 Técnicas y Herramientas de Documentación de Requerimientos"
+              "title": "Outgoing links from 第9课"
             }
           },
           {
@@ -246,8 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,16 +263,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1905d6b0eba1b478",
+  "active": "0d7dabaa89e5b182",
   "lastOpenFiles": [
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+    "Chinese/HSK4/标准教程4（上）/第9课.md",
+    "Chinese/HSK4/标准教程4（上）.zip",
     "School/Ceneval/Notas/Clase 3.md",
     "School/Ceneval/Notas/Clase 2.md",
-    "Chinese/HSK4/标准教程4（上）/第9课.md",
     "Chinese/HSK4/标准教程4（上）/第8课.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Transformación Digital/Notas/Clase 5.md",
     "School/Transformación Digital/Notas/Clase 6.md",
@@ -299,7 +299,6 @@
     "School/Ceneval/Guía/0. Assets",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Pasted image 20250217120257.png",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Pasted image 20250217121006.png",
-    "Chinese/HSK4/标准教程4（上）/Untitled.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Technologies/SQL.zip",
     "School/Ceneval/Guía",
@@ -307,7 +306,6 @@
     "School/Transformación Digital/No-Code Apps Google",
     "School/Transformación Digital/Notas",
     "School/Transformación Digital",
-    "School/Ceneval/Ingeniería de Software",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Technologies/Neo4j/Assets/graph-parts.png",
     "Untitled.canvas",
