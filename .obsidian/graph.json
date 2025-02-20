@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:hsk4 OR -tag:#AOSR OR -tag:#Q",
+  "search": "tag:ceneval OR tag:hsk4 OR -tag:#AOSR OR -tag:#Q",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -27,6 +27,20 @@
         "a": 1,
         "rgb": 4422393
       }
+    },
+    {
+      "query": "tag:#ceneval",
+      "color": {
+        "a": 1,
+        "rgb": 16740602
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +53,6 @@
   "repelStrength": 11.193328009937,
   "linkStrength": 1,
   "linkDistance": 129,
-  "scale": 0.29076621571893074,
+  "scale": 1.0288728368152547,
   "close": true
 }
