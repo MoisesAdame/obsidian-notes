@@ -104,7 +104,7 @@ Herramientas para admin de requerimientos:
 - Matriz de Trazabilidad: Relación entre los requerimientos.
 
 ## Especificación de Requerimientos de Software (SRS)
-En el se especifican requerimientos, estandares, stakeholders.
+En el se especifican requerimientos, estándares, stakeholders.
 
 ## Carcacterísticas de Requerimiento Excelente
 - Correcto: Dice las necesidades de usuario
