@@ -21,4 +21,13 @@ John Doe 83
 - Metadada: Información sobre la información.
 
 #### The Lego Data Activity
-- 
+- El color también aporta el contexto.
+- Por el gran poder computacional, cada vez se le agrega mas contexto a la información. Pero esto es mas **costoso**.
+
+#### Tipos de Datos
+- Cuantitativos: Contables o medibles.
+- Cualitativos
+
+#### Data Driven
+- Toma decisiones basadas en datos.
+- No solo es tener **muchos datos**, si no que puedes responder **cómo** y **por qué** para tomar decisiones.
