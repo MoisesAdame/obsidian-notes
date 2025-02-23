@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 第6课：我是跟旅游团一起来的"
+              "title": "Backlinks for 第9课"
             }
           },
           {
@@ -192,12 +192,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第9课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 第6课：我是跟旅游团一起来的"
+              "title": "Outgoing links from 第9课"
             }
           },
           {
@@ -278,8 +278,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa8c40672e245905",
+  "active": "e6043a4e87aa4553",
   "lastOpenFiles": [
+    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/标准教程4（上）/第9课.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Transformación Digital/Notas/Clase 6.md",
