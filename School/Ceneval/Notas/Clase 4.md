@@ -40,3 +40,17 @@ Date: 2025-02-24 : 14:13
 
 #### Lenguajes Declarativos
 - Encontrar que elementos de un dominio cumplen determinada relación definida sobre dicho dominio.
+- Ejemplo es Prolog.
+
+### Puntos en común
+- Todos usan funciones.
+- Todos tienen asignaciones.
+
+## Entorno de Desarrollo
+- Es una aplicación informática con ciertas herramientas que nos facilitan la vida a la hora de programar.
+- Pueden estar adaptados para un lenguajes o para muchos lenguajes.
+
+### Componentes de Entorno
+- Un IDE.
+- Un compilador o intérprete.
+- Depurador o debugger. Además de los breakpoints, nos sirve para loggers, que son la alternativa de el **print**.
