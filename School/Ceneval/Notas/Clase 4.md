@@ -54,3 +54,27 @@ Date: 2025-02-24 : 14:13
 - Un IDE.
 - Un compilador o intérprete.
 - Depurador o debugger. Además de los breakpoints, nos sirve para loggers, que son la alternativa de el **print**.
+- Constructor de interfaz gráfica. IGNORAR
+- Control de versiones. El mas comun es GIT
+	- Main branch: Debe estar protegida. Lo que esta ahí debe funcional al 100%
+
+### Niveles de Entorno
+En todos los proyectos debe haber tres entronos:
+- Desarrollo: Donde estamos constantemente cambiando cosas.
+- Montaje o UAT: Es la pre-producción. Ya terminé, pruébalo.
+- Producción: Súbelo.
+
+Para cada nivel, debe haber código y base de datos.
+
+## Plataforma de Desarrollo
+### Que es?
+- Entorno o ambiente de software común en el cual se implementa la programación de un conjunto de aplicaciones.
+
+### Ejemplos
+- iOS, Linux, Windows
+
+### Componentes
+- Módulo de captura y comunicación: Para AWS son interfaces web. Cosas como terraform. Puede ser por interfaz o puede ser por comandos.
+- Modulo de almacenamiento y procesado. Debe tener bases de datos.
+- 
+
