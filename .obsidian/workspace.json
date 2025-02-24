@@ -83,7 +83,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Transformación Digital/Guía/Módulo 2.md",
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Módulo 2"
+              "title": "Backlinks for 1.1 Tipos de Requerimientos"
             }
           },
           {
@@ -177,12 +176,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Transformación Digital/Guía/Módulo 2.md",
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Módulo 2"
+              "title": "Outgoing links from 1.1 Tipos de Requerimientos"
             }
           },
           {
@@ -263,10 +262,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ba351ee58ff4f09",
+  "active": "90e51a4282789ba4",
   "lastOpenFiles": [
-    "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
     "School/Transformación Digital/Guía/Módulo 2.md",
+    "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
