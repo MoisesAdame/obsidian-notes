@@ -9,3 +9,12 @@ Hay tres tipos:
 - Navegar
 - Datos
 - Externa
+
+### Automatizacion
+Hay tres cosas: Bots, 
+
+El Bot es la entidad que podemos programar en eventos y/o procesos.
+
+Los eventos o triggers 
+
+Los procesos, son los pasos que sigue el bot.
