@@ -51,7 +51,23 @@ Date: 2025-02-24 : 10:32
 ### Leveraging Data
 #Q 
 - Cada row debe tener un **key** que es un :: Identificador único.
-- Cada columna podemos elegir que sea o no **label** es 
+- Cada columna podemos elegir que sea o no **label** es decir que se :: Muestre o no su nombre.
+- Las **virtual columns** son las columnas que al inicio tienen :: Un guión bajo (\_)
+- Las **imágenes** se almacenan como :: URL o como PATH.
+- Las **ref** nos sirven para relacionar :: Diferentes hojas o tablas.
+
+### User Experience
+#Q 
+- Hay **tres tipos** de view que son :: Primary, system y reference.
+- **Primary views** son las que se pueden acceder :: Desde el menú inferior.
+- **System views** son las que se generan :: De forma automática.
+- **Reference views** son las que salen al :: Indagar en datos.
+- Las **format rules** nos sirven para dar cierto formato dada :: Cierta condición.
+
+### Publishing Your App
+#Q 
+- Para deployear una app se necesitan seguir **4 pasos** :: 1) Hacer deployment check 2) Resolver problemas 3) Deployear app 4) Testear app como usuario.
+- 
 
 ## Flashcards
 ```aosr-deck-config
