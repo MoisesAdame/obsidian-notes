@@ -81,21 +81,6 @@
               "icon": "lucide-file",
               "title": "Módulo 2"
             }
-          },
-          {
-            "id": "1d0d95fc876b66c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Publishing your App"
-            }
           }
         ],
         "currentTab": 4,
@@ -283,6 +268,7 @@
     "School/Transformación Digital/No-Code Apps Google/5. Publishing your App.md",
     "School/Transformación Digital/Guía/Módulo 2.md",
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Transformación Digital/No-Code Apps Google/4. User Experience.md",
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
@@ -292,7 +278,6 @@
     "School/Transformación Digital/Notas/Clase 5.md",
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/TC3005B/TC3005B.4/1. Bases de Datos Distribuidas.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
