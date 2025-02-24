@@ -76,5 +76,5 @@ Para cada nivel, debe haber código y base de datos.
 ### Componentes
 - Módulo de captura y comunicación: Para AWS son interfaces web. Cosas como terraform. Puede ser por interfaz o puede ser por comandos.
 - Modulo de almacenamiento y procesado. Debe tener bases de datos.
-- 
+- Modulo de presentación y control. Te deja ver dashboards
 
