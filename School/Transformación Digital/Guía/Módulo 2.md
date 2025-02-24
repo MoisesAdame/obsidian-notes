@@ -37,7 +37,21 @@ Date: 2025-02-24 : 10:32
 ## Introduction to Google AppSheet
 ### Overview
 #Q 
-- El concepto de App empieza a existir en el a
+- El concepto de App empieza a existir en el año..., cuando se lanza el... :: 2007, iPhone
+- Quién puede usar Google AppSheet :: Citizen Developers (Quien Sea)
+- Tipos de trabajadores que pueden usar no-code apps :: End users, process owners (PM y Devs) y decision makers (ejecutivos).
+
+### Getting Started
+#Q 
+- Para crear tu app lo primero que debes hacer es :: Preparar tu Google Sheets.
+- Cada hoja de tu google sheets es una :: View.
+- Las **actions** son los botones que puedes :: Customizar.
+- La forma más simple de **probar** tu app es usando :: App Preview.
+
+### Leveraging Data
+#Q 
+- Cada row debe tener un **key** que es un :: Identificador único.
+- Cada columna podemos elegir que sea o no **label** es 
 
 ## Flashcards
 ```aosr-deck-config
@@ -47,7 +61,7 @@ Date: 2025-02-24 : 10:32
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "<% tp.file.path(true) %>",
+				"value": "School/Transformación Digital/Guía/Módulo 2.md",
 				"path": "$.path"
 			}]
 		},
