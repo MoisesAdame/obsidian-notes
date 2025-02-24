@@ -28,8 +28,16 @@ Date: 2025-02-24 : 10:32
 
 #### Fuente de Datos
 #Q 
-- Los 4 tipos de **fuentes de datos** de AppSheet son :: Nativo, spreadsheets, bases de datos
+- Los 4 tipos de **fuentes de datos** de AppSheet son :: Nativo, spreadsheets, bases de datos y otros.
+- Nativo son :: AppSheet databases.
+- Spreadsheets son :: Excel o GoogleSheets
+- Bases de datos algunas son :: AWS DynamoDB, MySQL, Oracle, etc.
+- Otros son :: Dropbox, google calendar, forms, etc.
 
+## Introduction to Google AppSheet
+### Overview
+#Q 
+- El concepto de App empieza a existir en el a
 
 ## Flashcards
 ```aosr-deck-config

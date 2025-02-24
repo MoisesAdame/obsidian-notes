@@ -37,5 +37,4 @@ John Doe 83
 - Esto solo es posible a través de la nube.
 
 #### Bases de Datos
-- Colección **logicamente** coherente de datos.
-- 
+- Colección **lógicamente** coherente de datos.
