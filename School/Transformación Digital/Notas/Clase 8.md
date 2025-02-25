@@ -78,3 +78,15 @@ Es importante ver donde esta la organización.
 3. Engage: Hacer tus pruebas piloto. Ver pruebas Piloto
 4. Ejecuta: Desplegar dos o mas iniciativas. No hacerlo para todo, definir que parte del proceso
 
+#### Acercamiento a la Governanaza
+- Governanza es utilizar y explotar los datos.
+- Tradicional: Era mucho en batch, lo obtenias, modelabas, procesabas y luego lo usas.
+- Big Data: Es un ciclo lo guardas. mas o menos, entiendes dentro de lo que puedas, goviernas apropiadamente y luego usas. Todo esto con un acercamiento **iterativo y ágil**. Entiendelo, usalo e itera.
+
+#### Data Lake
+- Repositorio
+- Servicio
+- Gestión
+
+Es un concepto que sirve para organizar la información.
+
