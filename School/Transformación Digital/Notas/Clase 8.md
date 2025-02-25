@@ -10,7 +10,7 @@ Hay tres tipos:
 - Datos
 - Externa
 
-### Automatizacion
+### Automatización
 Hay tres cosas: Bots, 
 
 El Bot es la entidad que podemos programar en eventos y/o procesos.
@@ -18,3 +18,6 @@ El Bot es la entidad que podemos programar en eventos y/o procesos.
 Los eventos o triggers 
 
 Los procesos, son los pasos que sigue el bot.
+
+### Deployment
+- Hay que hacer deployment check
