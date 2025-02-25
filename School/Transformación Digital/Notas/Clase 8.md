@@ -90,3 +90,25 @@ Es importante ver donde esta la organización.
 
 Es un concepto que sirve para organizar la información.
 
+#### Ecosistema de Big Data
+##### Visión Holística del Sistema de Big Data
+- Real Time Streams: Son los que alimentan nuestro sistema
+- Datos estructurados: Igual son alimentadores.
+- Luego llega la parte de **analítica** 
+- Hasta abajo tenemos nuestra infraestructura de cloud. En cloud se almacena la información. En los servidores la información se procesa. La parte de conectividad
+
+Hay 4 elementos:
+- Datos: Estructurado y no estructurado. La semilla, el feeder.
+- Analítica.
+- La nube.
+
+Big data es un **ecosistema**.
+
+##### Cloud es Imperativo para Big Data
+- Escalabilidad: Puedes crecer la capacidad de procesamiento. Puedes graduar cuanto necesitas.
+- Elasticidad: On demand, explotar recursos.
+- Agrupamiento de Recursos: Varios servers diferentes unidos como si fuera solo uno.
+- Self-service: Tu gestionas tus recursos.
+- Fault Tolerance: SLA's muy buenos. Servicios ininterrumpidos.
+
+##### Internet of Things
