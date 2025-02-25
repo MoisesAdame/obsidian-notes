@@ -112,3 +112,22 @@ Big data es un **ecosistema**.
 - Fault Tolerance: SLA's muy buenos. Servicios ininterrumpidos.
 
 ##### Internet of Things
+- Cualquier dispositivo tenga una IP, es internet de las cosas.
+- Por que no ha despegado esto? Com mantener los sensores con energía eléctrica.
+
+##### 7 Niveles del IoT
+Los 7 en conjunto, tiene que ver con una estrategia de **transformación digital**.
+Nivel Fog:
+1. Cosas: Dispositivos, sensores, controladores
+2. Conectividad: Enlaces, protocolos, WiFi.
+
+Nivel Cloud
+3. Infraestructura global: Infraestructura cloud.
+
+Big Data
+4. Data Ingestion: Cosecha y almacenamiento de datos
+5. Data Analysis: 
+
+Valor de Negocio
+6. Applications
+7. Gente y Procesos
