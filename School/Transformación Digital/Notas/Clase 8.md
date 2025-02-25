@@ -59,4 +59,22 @@ IBM dice que Big Data es VVV: Volumen, variedad y velocidad.
 - Nivel 2: No hay BI, pero tienen datos (clientes, facturas, etc). Al menos la almacenan.
 - Nivel 3: Toman decisiones con base en la información.
 - Nivel 4: Sus datos son tantos, que obliga a que los datos se estructuren y organicen.
-- Nivel 5: El datawa
+- Nivel 5: El datawarehouse funciona y te da reportes.
+- Nivel 6: Decisiones impactan de forma significativa.
+- Nivel 7: Tienen BI desarrollado.
+
+Es importante ver donde esta la organización.
+
+#### Barreras de Entrada
+- No necesariamente es que sea **muy caro**.
+- Hay una falta de expertos.
+- Falta de presupuesto.
+- Calidad de los Datos.
+- Ecosistema.
+
+#### Big Data Adoption
+1. Educa: Entender el mercado
+2. Explora: Desarrollar estrategias en base de necesidades de la empresa.
+3. Engage: Hacer tus pruebas piloto. Ver pruebas Piloto
+4. Ejecuta: Desplegar dos o mas iniciativas. No hacerlo para todo, definir que parte del proceso
+
