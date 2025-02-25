@@ -21,3 +21,8 @@ Los procesos, son los pasos que sigue el bot.
 
 ### Deployment
 - Hay que hacer deployment check
+
+## Módulo, Tavera
+### Big Data como Innovación
+#### Definición
+Conjunto de datos con un tamaño tan g
