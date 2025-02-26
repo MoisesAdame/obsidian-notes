@@ -4,5 +4,8 @@
   "cssTheme": "Tokyo Night",
   "translucency": true,
   "interfaceFontFamily": "",
-  "showRibbon": true
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "autofading-ui"
+  ]
 }

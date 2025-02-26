@@ -17,5 +17,15 @@ Date: 2025-02-25 : 16:11
 - Ya quieres empezar a hacer **analítica predictiva**.
 
 #### Big Data Analytics
-1. Descriptive Analytics (Business Intelligence)
-2. 
+1. Descriptive Analytics (Business Intelligence). **What happened?**
+2. Predictive Analytics. **Why is likely to happen?**
+3. Prescriptive Analytics: Descubres que pasará con el dato. **So what?**, **Now what?**.
+
+#### Data Science
+- Manipulación de info desde un punto de vista **matemático**.
+- Lo que hay hoy de **Bussiness Intelligence** no sirve para **Biga Data**.
+- Actualmente **Business Intelligence** ya se queda corta, pero su valor es darle a las empresas la cultura de tomar decisiones **con base en datos**.
+
+#### Analítica vs Search
+- Search es un query
+- Analítica es descubrir el por que
