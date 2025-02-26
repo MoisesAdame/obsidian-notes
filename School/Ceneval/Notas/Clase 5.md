@@ -27,4 +27,14 @@ Date: 2025-02-26 : 14:17
 	1. Listar riesgos. (Cuales son y quien está involucrado).
 	2. Definir probabilidad de impacto. 
 	3. Establecer prioridad.
-	4. Implementar acciones. Prevenirlo (que hacer si pasa), evitar (hacer dos soluciones por si una falla), mitigar y transferir (contratar un seguro o subcontratar)
+	4. Implementar acciones. Prevenirlo (que hacer si pasa), evitar (hacer dos soluciones por si una falla), mitigar y transferir (contratar un seguro, pagar fianza o subcontratar.)
+
+### Control del Proyecto
+- Generalmente hay que iterativamente monitorear y corregir cosas como programa y costo.
+
+### Cierre de Proyecto
+- Hay que entregar producto, pero también **documentar lecciones aprendidas**.
+
+### Cocomo
+- Se llama COnstructive COst MOdel.
+- Usa **lineas de código funcionales** para estimar costos.
