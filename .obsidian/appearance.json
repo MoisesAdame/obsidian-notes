@@ -6,6 +6,7 @@
   "interfaceFontFamily": "",
   "showRibbon": true,
   "enabledCssSnippets": [
-    "autofading-ui"
+    "autofading-ui",
+    "hyphenation-and-justification"
   ]
 }

@@ -96,6 +96,16 @@
               "icon": "lucide-file",
               "title": "Clase 5"
             }
+          },
+          {
+            "id": "681601fffeddd1e7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 5,
@@ -280,10 +290,10 @@
   },
   "active": "a80f4278d51ec1c0",
   "lastOpenFiles": [
+    "School/Ceneval/Notas/Clase 5.md",
     "Chinese/HSK4/标准教程4（上）/第10课.md",
     "School/Ceneval/Notas/Clase 4.md",
     "Chinese/HSK4/成功之路/第10课.md",
-    "School/Ceneval/Notas/Clase 5.md",
     "School/Transformación Digital/Notas/Clase 9.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
