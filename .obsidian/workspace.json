@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 6.md",
+                "file": "School/Transformación Digital/Notas/Clase 8.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 6"
+              "title": "Clase 8"
             }
           },
           {
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 6,
         "stacked": true
       }
     ],
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 6.md",
+                "file": "School/Transformación Digital/Notas/Clase 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Clase 6"
+              "title": "Backlinks for Clase 9"
             }
           },
           {
@@ -207,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 6.md",
+                "file": "School/Transformación Digital/Notas/Clase 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Clase 6"
+              "title": "Outgoing links from Clase 9"
             }
           },
           {
@@ -293,12 +293,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9833df1cb8ac608",
+  "active": "97ca2fbb1c861836",
   "lastOpenFiles": [
-    "School/Transformación Digital/Notas/Clase 7.md",
     "School/Transformación Digital/Notas/Clase 8.md",
+    "School/Transformación Digital/Notas/Clase 6.md",
     "School/Transformación Digital/Notas/Clase 9.md",
     "Chinese/HSK4/标准教程4（上）/第10课.md",
+    "School/Transformación Digital/Notas/Clase 7.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
@@ -312,7 +313,6 @@
     "School/Transformación Digital/No-Code Apps Google/3. Leveraging Data.md",
     "School/Transformación Digital/No-Code Apps Google/2. Getting Started.md",
     "School/Transformación Digital/No-Code Apps Google/1. AppSheet Overview.md",
-    "School/Transformación Digital/Notas/Clase 6.md",
     "School/Transformación Digital/Notas/Clase 5.md",
     "School/Transformación Digital/Notas/Clase 1.md",
     "School/TC3005B/TC3005B.4/1. Bases de Datos Distribuidas.md",
