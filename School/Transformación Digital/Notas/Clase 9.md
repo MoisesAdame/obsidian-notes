@@ -29,3 +29,4 @@ Date: 2025-02-25 : 16:11
 #### Analítica vs Search
 - Search es un query
 - Analítica es descubrir el por que
+
