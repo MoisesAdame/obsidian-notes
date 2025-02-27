@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 7.md",
+                "file": "School/Transformación Digital/Notas/Clase 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Clase 7"
+              "title": "Backlinks for Clase 10"
             }
           },
           {
@@ -207,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Transformación Digital/Notas/Clase 7.md",
+                "file": "School/Transformación Digital/Notas/Clase 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Clase 7"
+              "title": "Outgoing links from Clase 10"
             }
           },
           {
@@ -293,8 +293,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "702bf90c0a6fa354",
+  "active": "98b95ec1ccd8d622",
   "lastOpenFiles": [
+    "School/Transformación Digital/Notas/Clase 7.md",
     "School/Transformación Digital/Notas/Clase 10.md",
     "Chinese/HSK4/标准教程4（上）/第10课.md",
     "School/Ceneval/Notas/Clase 5.md",
@@ -310,7 +311,6 @@
     "School/Transformación Digital/Notas/Clase 8.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Transformación Digital/Notas/Clase 6.md",
-    "School/Transformación Digital/Notas/Clase 7.md",
     "School/Transformación Digital/Guía/Módulo 2.md",
     "Masters/Systems Programming/1. Background/1.3 Evolution Of Operating Systems.md",
     "School/Ceneval/Notas/Clase 3.md",
