@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -197,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chinese/HSK4/HSK4计划.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第10课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +208,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HSK4计划"
+              "title": "Backlinks for 第10课"
             }
           },
           {
@@ -216,12 +217,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chinese/HSK4/HSK4计划.md",
+                "file": "Chinese/HSK4/标准教程4（上）/第10课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HSK4计划"
+              "title": "Outgoing links from 第10课"
             }
           },
           {
@@ -302,10 +303,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79e417ba4ee28fd8",
+  "active": "120dece395d84309",
   "lastOpenFiles": [
-    "School/Ceneval/Notas/Clase 5.md",
     "Chinese/HSK4/HSK4计划.md",
+    "School/Ceneval/Notas/Clase 5.md",
     "Chinese/HSK4/标准教程4（上）/第10课.md",
     "Chinese/HSK4/HSK4安全的词汇.md",
     "School/Ceneval/Reactivos Ceneval.md",
