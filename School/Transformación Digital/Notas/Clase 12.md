@@ -10,4 +10,4 @@ Miércoles evaluación de AppSheet.
 Filtrar datos, pero sin programar. Hay dos formas de hacerlo:
 1. Crear una subtabla y filtrar.
 2. Crear columnas virtuales.
-3. 
+
