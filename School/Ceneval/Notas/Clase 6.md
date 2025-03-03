@@ -38,3 +38,12 @@ Como medir la calidad.
 
 ### ISO/IEC 25000 SquaRE
 Fusionó ISO/IEC 9126 y 14598.
+
+### ISO/IEC 15504 SPICE
+Establece requisitos para una evaluación de procesos y los modelos de evaluación en una organización
+
+Diferencia entre sw y system integration. Sw es que haga las funcionalidades y lo integro. System es incluyendo a usuarios externos.
+
+Todo lo que haga PM ca en Organizational Life.
+
+En SPICE son los niveles de capacidad. Hay de nivel 0 a nivel 5.
