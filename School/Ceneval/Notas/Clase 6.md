@@ -47,3 +47,27 @@ Diferencia entre sw y system integration. Sw es que haga las funcionalidades y l
 Todo lo que haga PM ca en Organizational Life.
 
 En SPICE son los niveles de capacidad. Hay de nivel 0 a nivel 5.
+
+### SEI CMMI
+Hace lo mismo que SPICE pero con otros nombres. Es el estándar en USA, mientras que SPICE es en Europa.
+
+Tiene 5 "niveles de madurez".
+- Nivel 0 : No hay nada
+- Nivel 1: Todo lo de administración de proyectos.
+- Nivel 2: Control de calidad
+- Nivel 3: Todo lo relacionadco con el desarrollo.
+- Nivel 4: OPP que es control y medición. Medición cuantitativa de proyectos.
+- Nivel 5: Te pones a innovar, como refinar el proceso.
+
+### TSP / PSP
+TSP es en equipo
+PSP es personal.
+
+Este es el modelo de calidad perfecto, pero **todos mienten** dependes de la honestidad del desarrollador.
+
+### MoProSoft
+Región 4 del CMMI. Estándar iniciativa de la secretaría de economía.
+
+Tiene mismas categorías que CMMI. Tiene 5 niveles, pero con colores. 
+
+### ISO/IEC 
