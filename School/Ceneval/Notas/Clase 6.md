@@ -70,4 +70,38 @@ Región 4 del CMMI. Estándar iniciativa de la secretaría de economía.
 
 Tiene mismas categorías que CMMI. Tiene 5 niveles, pero con colores. 
 
-### ISO/IEC 
+### ISO/IEC 29110
+Versión internacional de MoProSoft.
+
+### ISO/IEC 33000
+Evolución del 15504.
+
+Añade cosas como sustentabilidad, DevOps. Mismos niveles y procesos.
+
+## Metodologías de Desarrollo
+### Cascada
+La mas tradicional. No pasas de fase hasta termina una fase. Todo completo.
+
+### Prototipado
+Se itera mucho. Sacas requerimientos, haces prototipo y lo vas refinando poco a poco.
+
+### Incremental
+Miniproyectos, haces funcionalidades poco a poco.
+
+### RAD
+Es el **proto-scrum**. Desarrollar rápido con iteraciones frecuentes. 
+
+### Metodologías Ágiles
+Hace a los **cambios** su fortaleza.
+
+#### SCRUM
+Marco de trabajo donde se ofrecen soluciones adaptativas a problemas complejos.
+
+Gente que se necesita:
+1. Scrum Master. (Para scrum no existe el **PM**.)
+2. Product Owner. Pone el trabajo en el **backlog**.
+3. Scrum Team. Quienes hacen el Sprint.
+
+El enfoque de SCRUM es **iterativo incremental**. Al cascarón hay que irle metiendo cositas.
+
+El problema de SCRUM es que necesita estar **muy ligado con el cliente**.
