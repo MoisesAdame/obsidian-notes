@@ -30,7 +30,7 @@ as long as it implements your three conditions, you're good.
 **Finally:** When you write an interface, you're basically saying: "I need something that..."
 
 ## Structure
-![[Screenshot 2025-03-04 at 3.08.08 p.m..png]]
+![[structure-abstract-factory.png]]
 
 ## Code Example
 ```go
@@ -101,5 +101,16 @@ func (w *WindowsFactory) CreateButton() Button {
 
 func (w *WindowsFactory) CreateCheckbox() Checkbox {
 	return &WindowsCheckbox{}
+}
+
+// -- Implement Factory Selector
+// GetFactory function (Factory Selector)
+func GetFactory(osType string) GUIFactory {
+	if osType == "mac" {
+		return &MacOSFactory{}
+	} else if osType == "windows" {
+		return &WindowsFactory{}
+	}
+	return nil
 }
 ```
