@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -238,8 +237,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc85d952e67e310d",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "Technologies/Design Patterns/Creational",
+    "Technologies/Design Patterns",
     "School/Ceneval/Notas/Clase 2.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Reactivos Ceneval.md",
@@ -268,7 +269,6 @@
     "Chinese/HSK4/成功之路/第10课.md",
     "Chinese/HSK4/HSK4计划.md",
     "School/Transformación Digital/Notas/Clase 7.md",
-    "Untitled.md",
     "School/Transformación Digital/Guía",
     "School/Transformación Digital/Notas/Pasted image 20250220211818.png",
     "School/Transformación Digital/Notas/Pasted image 20250220211815.png",
@@ -283,7 +283,6 @@
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Pasted image 20250217121006.png",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software",
     "Technologies/SQL.zip",
-    "School/Ceneval/Guía",
     "Technologies/Neo4j/Assets/json-load-result.png",
     "Technologies/Neo4j/Assets/graph-parts.png",
     "Untitled.canvas",
