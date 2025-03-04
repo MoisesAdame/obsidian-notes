@@ -4,56 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e652a765bacc92d4",
+        "id": "47d4a3cb25bf59f0",
         "type": "tabs",
         "children": [
           {
-            "id": "90e51a4282789ba4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1.1 Tipos de Requerimientos"
-            }
-          },
-          {
-            "id": "55b50a6f52b9af7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos"
-            }
-          },
-          {
-            "id": "cd19a2282f574a48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Ceneval/Notas/Clase 6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 6"
-            }
-          },
-          {
-            "id": "c106452d19f9d4c1",
+            "id": "a532f1205729abc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,39 +21,8 @@
               "icon": "lucide-file",
               "title": "第11课"
             }
-          },
-          {
-            "id": "def97aa528a5063a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 11.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 11"
-            }
-          },
-          {
-            "id": "f205958dee5eada6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Transformación Digital/Notas/Clase 12.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 12"
-            }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -236,16 +160,6 @@
             }
           },
           {
-            "id": "8015bddc8a6827f4",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
-            }
-          },
-          {
             "id": "c5675a19faf5aab1",
             "type": "leaf",
             "state": {
@@ -256,11 +170,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,16 +192,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8015bddc8a6827f4",
+  "active": "a532f1205729abc4",
   "lastOpenFiles": [
-    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
-    "School/Ceneval/Notas/Clase 6.md",
-    "School/Transformación Digital/Notas/Clase 11.md",
-    "School/Transformación Digital/Notas/Clase 12.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
+    "School/Ceneval/Notas/Clase 6.md",
+    "School/Transformación Digital/Notas/Clase 12.md",
+    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
+    "School/Transformación Digital/Notas/Clase 11.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Notas/Clase 5.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Notas/Clase 2.md",
     "School/Ceneval/Notas/Clase 4.md",
     "School/Ceneval/Reactivos Ceneval.md",
