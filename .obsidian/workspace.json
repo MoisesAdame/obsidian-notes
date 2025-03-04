@@ -43,26 +43,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+                "file": "Technologies/Design Patterns/Creational/Singleton.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.3 Técnicas y Herramientas de Documentación de Requerimientos"
+              "title": "Singleton"
             }
           },
           {
-            "id": "12c033b11a017f0c",
+            "id": "c2197eebd596ea17",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Design Patterns/Creational/Abstract Factory.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Abstract Factory"
             }
           }
         ],
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -232,14 +238,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a532f1205729abc4",
+  "active": "c2197eebd596ea17",
   "lastOpenFiles": [
+    "Technologies/Design Patterns/Creational/Singleton.md",
     "Technologies/Design Patterns/Creational/Factory Method.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "Technologies/Design Patterns/Creational/Abstract Factory.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+    "Technologies/Design Patterns/Creational/Assets/structure-singleton.png",
     "Technologies/Design Patterns/Creational/Assets/structure-factory-method.png",
     "Technologies/Design Patterns/Creational/Assets",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Reactivos Ceneval.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/TC3005B/TC3005B.2/Design Patterns.md",
     "School/Ceneval/Notas/Clase 2.md",
     "Untitled",
@@ -268,7 +277,6 @@
     "Chinese/HSK4/标准教程4/标准教程4（上）/Untitled.md",
     "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
-    "Chinese/HSK4/成功之路/第10课.md",
     "School/Transformación Digital/Guía",
     "School/Transformación Digital/Notas/Pasted image 20250220211818.png",
     "School/Transformación Digital/Notas/Pasted image 20250220211815.png",
@@ -279,7 +287,6 @@
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Pasted image 20250217120257.png",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/Pasted image 20250217121006.png",
     "Technologies/Neo4j/Assets/json-load-result.png",
-    "Technologies/Neo4j/Assets/graph-parts.png",
     "Untitled.canvas",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
     "Chinese/HSK4/书学/Untitled.canvas"
