@@ -35,35 +35,35 @@ Date: 2025-02-24 : 10:32
 - Otros son :: Dropbox, google calendar, forms, etc. #AOSR/158qg/s/4kd4
 
 #### Tipos de Views
-#Q 
-- **Table** muestra los datos de forma..., similar a una... :: Tabular, hoja de cálculo.
-- **Detail** presenta toda la información detallada de un :: Único registro.
-- **Formulario** nos permite a los datos :: Editarlos.
-- **Tarjeta** muestra... y... en un único elemento visual :: Contenido, acciones.
-- **Mapa** sirve para visualizar datos :: Geoespaciales.
-- **Gallery** presenta elementos visuales en forma de galería enfocándose en :: Imágenes.
-- **Calendario** organiza la información basada en :: Fechas
-- El **dashboard** combina :: Múltiples vistas en una.
-- El **deck o tarjeta de presentación** presenta datos en un formato de :: Tarjetas apiladas.
-- **Onboarding** sirve para guiar a :: Nuevos usuarios.
-- **Gráfico o Char** representa los datos de forma :: Visual.
+#Q  #AOSR/3p010
+- **Table** muestra los datos de forma..., similar a una... :: Tabular, hoja de cálculo. #AOSR/3p010/s/38ul
+- **Detail** presenta toda la información detallada de un :: Único registro. #AOSR/3p010/s/olo7
+- **Formulario** nos permite a los datos :: Editarlos. #AOSR/3p010/s/22m9
+- **Tarjeta** muestra... y... en un único elemento visual :: Contenido, acciones. #AOSR/3p010/s/dkp6
+- **Mapa** sirve para visualizar datos :: Geoespaciales. #AOSR/3p010/s/42mk
+- **Gallery** presenta elementos visuales en forma de galería enfocándose en :: Imágenes. #AOSR/3p010/s/1kun
+- **Calendario** organiza la información basada en :: Fechas #AOSR/3p010/s/6q5d
+- El **dashboard** combina :: Múltiples vistas en una. #AOSR/3p010/s/4c7n
+- El **deck o tarjeta de presentación** presenta datos en un formato de :: Tarjetas apiladas. #AOSR/3p010/s/1uce
+- **Onboarding** sirve para guiar a :: Nuevos usuarios. #AOSR/3p010/s/1qrp
+- **Gráfico o Chart** representa los datos de forma :: Visual. #AOSR/3p010/s/2dun
 
 #### Actions
-#Q 
-- Es una operación... :: Definida
-- Les permiten a los usuarios hacer cosas como... :: Modificar datos, navegar entre vistas, etc.
-- Generalmente se representan como :: Botones.
-- Hay 3 tipos de actions y son :: De aplicación, de datos y externos.
+#Q  #AOSR/26i00
+- Es una operación... :: Definida #AOSR/26i00/s/1o2g
+- Les permiten a los usuarios hacer cosas como... :: Modificar datos, navegar entre vistas, etc. #AOSR/26i00/s/3tpc
+- Generalmente se representan como :: Botones. #AOSR/26i00/s/5v01
+- Hay 3 tipos de actions y son :: De aplicación, de datos y externos. #AOSR/26i00/s/2oj1
 
 #### Automations
-#Q 
-- Son un conjunto de herramientas que les permite a los usuarios optimizar... sin intervención... :: Procesos, manual.
-- Usa 4 elementos que son :: Bots, eventos, procesos y tareas.
-- Los **bots** son las entidades que :: Automatizan tareas.
-- Los **eventos o triggers** son las condiciones que :: Activan a un bot.
-- Hay 3 tipos de triggers que son :: Basados en datos, programados y externos.
-- Los **procesos** son la lógica de la :: Automatización.
-- Usualmente los procesos se definen en... y pueden tener... :: Pasos, condiciones.
+#Q  #AOSR/17qe9
+- Son un conjunto de herramientas que les permite a los usuarios optimizar... sin intervención... :: Procesos, manual. #AOSR/17qe9/s/j7il
+- Usa 4 elementos que son :: Bots, eventos, procesos y tareas. #AOSR/17qe9/s/6u3i
+- Los **bots** son las entidades que :: Automatizan tareas. #AOSR/17qe9/s/7bgs
+- Los **eventos o triggers** son las condiciones que :: Activan a un bot. #AOSR/17qe9/s/3vpc
+- Hay 3 tipos de triggers que son :: Basados en datos, programados y externos. #AOSR/17qe9/s/4mbh
+- Los **procesos** son la lógica de la :: Automatización. #AOSR/17qe9/s/14qn
+- Usualmente los procesos se definen en... y pueden tener... :: Pasos, condiciones. #AOSR/17qe9/s/3mpi
 
 ## Introduction to Google AppSheet
 ### Overview
@@ -101,10 +101,6 @@ Date: 2025-02-24 : 10:32
 - Los dos **tipos de deployment** son :: Instantáneo y tradicional. #AOSR/4rud5/s/4mmu
 - El **deployment instantáneo** consiste en descargar la app en el :: AppSheet Host. #AOSR/4rud5/s/2sni
 - El **deployment tradicional** sirve si queremos que la app se consuma a..., para ello hay que crear un..., el cual se sube a la... :: Gran escala, white label, tienda de aplicaciones. #AOSR/4rud5/s/3hf7
-
-
-
-
 
 ## Flashcards
 ```aosr-deck-config
