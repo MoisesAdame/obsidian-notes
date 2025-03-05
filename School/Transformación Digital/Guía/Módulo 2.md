@@ -41,12 +41,29 @@ Date: 2025-02-24 : 10:32
 - **Formulario** nos permite a los datos :: Editarlos.
 - **Tarjeta** muestra... y... en un único elemento visual :: Contenido, acciones.
 - **Mapa** sirve para visualizar datos :: Geoespaciales.
-- **Gallery**
-#### Que es una action?
+- **Gallery** presenta elementos visuales en forma de galería enfocándose en :: Imágenes.
+- **Calendario** organiza la información basada en :: Fechas
+- El **dashboard** combina :: Múltiples vistas en una.
+- El **deck o tarjeta de presentación** presenta datos en un formato de :: Tarjetas apiladas.
+- **Onboarding** sirve para guiar a :: Nuevos usuarios.
+- **Gráfico o Char** representa los datos de forma :: Visual.
+
+#### Actions
 #Q 
 - Es una operación... :: Definida
 - Les permiten a los usuarios hacer cosas como... :: Modificar datos, navegar entre vistas, etc.
 - Generalmente se representan como :: Botones.
+- Hay 3 tipos de actions y son :: De aplicación, de datos y externos.
+
+#### Automations
+#Q 
+- Son un conjunto de herramientas que les permite a los usuarios optimizar... sin intervención... :: Procesos, manual.
+- Usa 4 elementos que son :: Bots, eventos, procesos y tareas.
+- Los **bots** son las entidades que :: Automatizan tareas.
+- Los **eventos o triggers** son las condiciones que :: Activan a un bot.
+- Hay 3 tipos de triggers que son :: Basados en datos, programados y externos.
+- Los **procesos** son la lógica de la :: Automatización.
+- Usualmente los procesos se definen en... y pueden tener... :: Pasos, condiciones.
 
 ## Introduction to Google AppSheet
 ### Overview
