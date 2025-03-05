@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#design-pattern",
+                "query": "tag:#AOSR/25t2k/s/1j19",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",

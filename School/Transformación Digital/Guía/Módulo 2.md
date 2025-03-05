@@ -34,6 +34,20 @@ Date: 2025-02-24 : 10:32
 - Bases de datos algunas son :: AWS DynamoDB, MySQL, Oracle, etc. #AOSR/158qg/s/2eb8
 - Otros son :: Dropbox, google calendar, forms, etc. #AOSR/158qg/s/4kd4
 
+#### Tipos de Views
+#Q 
+- **Table** muestra los datos de forma..., similar a una... :: Tabular, hoja de cálculo.
+- **Detail** presenta toda la información detallada de un :: Único registro.
+- **Formulario** nos permite a los datos :: Editarlos.
+- **Tarjeta** muestra... y... en un único elemento visual :: Contenido, acciones.
+- **Mapa** sirve para visualizar datos :: Geoespaciales.
+- **Gallery**
+#### Que es una action?
+#Q 
+- Es una operación... :: Definida
+- Les permiten a los usuarios hacer cosas como... :: Modificar datos, navegar entre vistas, etc.
+- Generalmente se representan como :: Botones.
+
 ## Introduction to Google AppSheet
 ### Overview
 #Q  #AOSR/2l8n7
@@ -70,6 +84,10 @@ Date: 2025-02-24 : 10:32
 - Los dos **tipos de deployment** son :: Instantáneo y tradicional. #AOSR/4rud5/s/4mmu
 - El **deployment instantáneo** consiste en descargar la app en el :: AppSheet Host. #AOSR/4rud5/s/2sni
 - El **deployment tradicional** sirve si queremos que la app se consuma a..., para ello hay que crear un..., el cual se sube a la... :: Gran escala, white label, tienda de aplicaciones. #AOSR/4rud5/s/3hf7
+
+
+
+
 
 ## Flashcards
 ```aosr-deck-config
