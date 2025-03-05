@@ -13,7 +13,7 @@
   "logLevel": "ALL",
   "logTemplate": "",
   "logFormat": "VERBOSE",
-  "useSystemNotification": false,
+  "useSystemNotification": true,
   "taskFormat": "TASKS",
   "lowFps": true
 }
