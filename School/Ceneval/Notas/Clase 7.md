@@ -34,6 +34,3 @@ Es la versión genérica de RUP, porque RUP es de IBM. Pero su enfoque es **iter
 Donde se cruza el **riesgo** y el **valor** del proyecto, es donde dices si se va a lograr o no el proyecto.
 
 Se basa en **microincrementos** e iteraciones por semanas.
-
-
- 
