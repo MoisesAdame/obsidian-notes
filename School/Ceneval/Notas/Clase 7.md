@@ -28,5 +28,12 @@ Todo esto se hace de forma cíclica.
 #### Kanban
 Su fin es tratar de identificar **cuellos de botella**, se llegan a mezclar con otros métodos. Es una ayuda visual para tu proyecto.
 
-#### 
+#### OpenUp
+Es la versión genérica de RUP, porque RUP es de IBM. Pero su enfoque es **iterativo incremental** funciona como un engranaje.
+
+Donde se cruza el **riesgo** y el **valor** del proyecto, es donde dices si se va a lograr o no el proyecto.
+
+Se basa en **microincrementos** e iteraciones por semanas.
+
+
  
