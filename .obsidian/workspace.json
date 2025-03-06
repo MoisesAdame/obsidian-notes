@@ -31,8 +31,19 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "ea2598e9508827d3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -90,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 242.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -216,10 +228,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4df9ebaff50edb02",
+  "active": "ea2598e9508827d3",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "Technologies/Design Patterns/Behavioral/Observer.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "Technologies/Design Patterns/Structural/Decorator.md",
     "Technologies/Design Patterns/Structural/Composite.md",
     "Technologies/Design Patterns/Structural/Facade.md",
