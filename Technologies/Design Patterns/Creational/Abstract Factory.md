@@ -1,6 +1,7 @@
 ---
 tags:
   - design-pattern/creational
+  - design-pattern
 ---
 Date: 2025-03-04 : 14:59
 ***

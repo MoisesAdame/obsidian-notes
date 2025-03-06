@@ -1,5 +1,7 @@
 ---
 tags:
+  - design-pattern
+  - design-pattern/structural
 ---
 Date: 2025-03-06 : 15:19
 ***

@@ -13,73 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Reactivos Ceneval.md",
+                "file": "Technologies/Design Patterns/Behavioral/Observer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Reactivos Ceneval"
-            }
-          },
-          {
-            "id": "62aac9440cd92e4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2.1 Diseño Arquitectónico de Software"
-            }
-          },
-          {
-            "id": "0b1fe00cbc2210d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Design Patterns/Structural/Composite.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Composite"
-            }
-          },
-          {
-            "id": "a32749fe7de12c04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Design Patterns/Structural/Decorator.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Decorator"
-            }
-          },
-          {
-            "id": "056251e11a05a73a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technologies/Design Patterns/Structural/Facade.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Facade"
+              "title": "Observer"
             }
           },
           {
@@ -93,7 +33,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -151,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -278,22 +216,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "056251e11a05a73a",
+  "active": "4df9ebaff50edb02",
   "lastOpenFiles": [
-    "Technologies/Design Patterns/Structural/Decorator.md",
-    "Technologies/Design Patterns/Structural/Facade.md",
-    "Technologies/Design Patterns/Structural/Composite.md",
-    "Technologies/Design Patterns/Structural/Assets/structure-decorator.png",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "Technologies/Design Patterns/Behavioral/Observer.md",
+    "Technologies/Design Patterns/Structural/Decorator.md",
+    "Technologies/Design Patterns/Structural/Composite.md",
+    "Technologies/Design Patterns/Structural/Facade.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "Technologies/Design Patterns/Structural/Assets/structure-facade.png",
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
+    "Technologies/Design Patterns/Creational/Singleton.md",
+    "Technologies/Design Patterns/Creational/Prototype.md",
+    "Technologies/Design Patterns/Creational/Factory Method.md",
+    "Technologies/Design Patterns/Creational/Builder.md",
+    "Technologies/Design Patterns/Creational/Abstract Factory.md",
+    "Technologies/Design Patterns/Structural/Assets/structure-decorator.png",
     "Technologies/Design Patterns/Structural/Assets/structure-composite.png",
     "Technologies/Design Patterns/Structural/Assets/structure-bridge.png",
     "Technologies/Design Patterns/Structural/Assets",
     "Technologies/Design Patterns/Structural/Assets/structure-adapter.png",
-    "Technologies/Design Patterns/Creational/Prototype.md",
-    "School/Ceneval/Reactivos Ceneval.md",
-    "Technologies/Design Patterns/Creational/Builder.md",
     "Technologies/Design Patterns/Creational/Assets/structure-prototype.png",
     "School/Transformación Digital/Guía/Módulo 3.md",
     "School/Transformación Digital/Notas/Clase 13.md",
@@ -308,10 +251,6 @@
     "School/Transformación Digital/Notas/Clase 9.md",
     "School/Transformación Digital/Notas/Clase 8.md",
     "School/Transformación Digital/Notas/Clase 6.md",
-    "School/Ceneval/Notas/Clase 6.md",
-    "School/Transformación Digital/Notas/Clase 5.md",
-    "School/Transformación Digital/Notas/Clase 1.md",
-    "School/Transformación Digital/Guía/Módulo 2.md",
     "Technologies/Design Patterns/Creational/Assets/structure-builder.png",
     "Technologies/Design Patterns/Creational/Assets/structure-abstract-factory.png",
     "Technologies/Design Patterns/Creational/Assets/structure-singleton.png",
@@ -325,7 +264,6 @@
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software",
     "Chinese/HSK4/标准教程4/标准教程4（下）",
     "Chinese/HSK4/标准教程4",
-    "School/Transformación Digital/Notas/Pasted image 20250220211818.png",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "Untitled.canvas",
     "School/Quantum/Life, The Science of Biology/Untitled.canvas",
