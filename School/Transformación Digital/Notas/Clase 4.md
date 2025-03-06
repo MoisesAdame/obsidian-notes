@@ -64,6 +64,3 @@ La mejor arquitectura siempre es la más sencilla. Esto hace que sea mas **estab
 - **Time to Market:** Mayor velocidad y agilidad. Te ahorras el tiempo de cotizar, instalar y virtualizar y solo te encargas de virtualizar. Te hace una empresa más competente y facilita la innovación.
 - No ganes dinero en centros de datos. 
 	- **Serverless:** Cobra por demanda, solicitud, visita.
-
-
-

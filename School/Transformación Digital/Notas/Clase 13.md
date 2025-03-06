@@ -27,6 +27,3 @@ Microsoft tiene un producto **Visual Studio AI Agents**, es el futuro de las app
 1. Ética
 2. Protección de datos (cyberseguridad)
 3. Cosas humanas (empatía, tono, )
-
-mañana examen 10 preguntas. todas abiertas
-

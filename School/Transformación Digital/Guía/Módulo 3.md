@@ -43,6 +43,25 @@ Es cuando una empresa tiene su propio... al que tiene... :: Centro de datos, acc
 
 ### Beneficios de Cloud Computing
 #Q 
+- En vez de una inversión de capital los gastos son :: Variables.
+- Como cloud provider para que el modelo de negocio funcione debo de vender a..., esto se llama... :: Millones de empresas, economía a escala.
+- Tu **time to market** se..., eso quiere decir que puedes ser una empresa mas... :: Reduce (Te ahorras el tiempo de cotizar, instalar y virtualizar y solo te encargas de virtualizar.), competitiva e innovadora.
+
+## Datos
+### Introducción
+#Q 
+- Los números y las letras :: No son datos.
+- Los datos **solo son útiles** si tengo :: El contexto.
+- Los **datos** son :: Hechos o piezas de información. Es inútil sin el procesamiento apropiado.
+- Los **datasets** son :: Datos organizados.
+- La **metadata** es la :: Información sobre la información.
+
+### Tipos de Datos
+#Q 
+- Los datos **cuantitativos** son :: Contables o medibles.
+- Los datos **cualitativos** se basan en la :: Interpretación
+- Los datos **cuantitativos** nos dicen :: Cuánto?
+- Los datos **cualitativos** nos dicen 
 
 
 
