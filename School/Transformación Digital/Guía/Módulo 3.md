@@ -28,6 +28,22 @@ Es cuando una empresa tiene su propio... al que tiene... :: Centro de datos, acc
 - **PaaS** el cloud provider se hace cargo de cosas como :: Networking, storage, servers, virtualización, O/S, middleware y runtime. Nosotros solo nos hacemos cargo de data y application.
 - **SaaS** el cloud provider se hace cargo de :: Todo (Tal vez solo tu te encargas de configurar.)
 
+### Diferencia entre la Nube y una Implementación Local
+#Q 
+- La nube nos permite tener un **consumo** :: Adecuado.
+- Cuando usamos la nube no hay :: Desperdicio, ni uso de mas.
+- Todo esto se debe a que la nube es..., lo cual implica que los recursos se... según los cambios en... :: Elástica, expanden o reducen, demanda.
+
+### Terminología Importante
+#Q 
+- **Alta disponibilidad** de un sistema es la capacidad de este de seguir siendo... aún cuando haya... :: Operacional, fallas.
+- **Elasticidad** es la habilidad de la cloud de automáticamente :: Expandir o comprimir recursos de infraestructura.
+- **Escalabilidad** sirve para gestionar una mayor... :: Carga de trabajo.
+- La **elasticidad** intenta satisfacer necesidades... mientras que la **escalabilidad** intenta satisfacer necesidades... :: Dinámicas, estáticas.
+
+### Beneficios de Cloud Computing
+#Q 
+
 
 
 ## Flashcards
@@ -38,7 +54,7 @@ Es cuando una empresa tiene su propio... al que tiene... :: Centro de datos, acc
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "<% tp.file.path(true) %>",
+				"value": "School/Transformación Digital/Guía/Módulo 3.md",
 				"path": "$.path"
 			}]
 		},
