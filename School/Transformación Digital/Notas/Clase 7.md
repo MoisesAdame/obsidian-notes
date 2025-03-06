@@ -33,7 +33,7 @@ John Doe 83
 - No solo es tener **muchos datos**, si no que puedes responder **cómo** y **por qué** para tomar decisiones.
 
 #### Los datos ahora
-- Se estan generando una gran variedad, velocidad y volumen.
+- Se están generando una gran variedad, velocidad y volumen.
 - Esto solo es posible a través de la nube.
 
 #### Bases de Datos

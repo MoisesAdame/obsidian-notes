@@ -61,7 +61,28 @@ Es cuando una empresa tiene su propio... al que tiene... :: Centro de datos, acc
 - Los datos **cuantitativos** son :: Contables o medibles.
 - Los datos **cualitativos** se basan en la :: Interpretación
 - Los datos **cuantitativos** nos dicen :: Cuánto?
-- Los datos **cualitativos** nos dicen 
+- Los datos **cualitativos** nos ayudan a entender :: El por qué?
+
+### Data Driven
+#Q 
+- Consiste en :: Tomar **decisiones** basándose en datos.
+- No solo es que tengas **muchos datos** también es que puedas :: Responder ¿cómo? o ¿por qué?
+
+### Bases de Datos
+#Q 
+- Son una colección :: Lógicamente coherente de datos.
+
+## AppSheet
+### AppSheet's DataBase
+#Q 
+- La columna **search** se encarga del :: Indexado.
+- La columna **PII** significa... y se encarga del... :: Personally Identifiable Information, encriptado.
+- El atributo **formula** es el :: Business Logic.
+
+### Características de una Buena App
+#Q 
+- Una bena app debe considerar los siguientes aspectos :: Seguridad, funcionalidad, intuitiva, diseño, estabilidad y portabilidad.
+- Que el app sea codeless no significa que esta será..., mas bien eso depende de... y de su... :: Buena, datos, datos
 
 
 
