@@ -22,3 +22,11 @@ Diferencias entre la AI descrptiva y la generativa.
 La descriptiva solo trabaja con la info que tenemos, mientras que la generativa nos da un producto.
 
 Microsoft tiene un producto **Visual Studio AI Agents**, es el futuro de las apps, sirve para conectarse al CRM y democratizar esto. A partir de Mayo, se podrá acceder a **sales agent**. El sales agent tendrá todo el contexto de mis compras y me podrá guiar, puede ayudar a **aumentar la venta**.
+
+### Areas en los que la AI puede Mejorar
+1. Ética
+2. Protección de datos (cyberseguridad)
+3. Cosas humanas (empatía, tono, )
+
+mañana examen 10 preguntas. todas abiertas
+
