@@ -3,7 +3,6 @@ tags:
 ---
 Date: 2025-02-12 : 20:24
 ***
-
 ## Módulo Cloud
 ### Cómputo en la Nuve
 Nube: La compu de alguien más.
