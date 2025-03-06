@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -278,10 +278,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a32749fe7de12c04",
+  "active": "056251e11a05a73a",
   "lastOpenFiles": [
-    "Technologies/Design Patterns/Structural/Facade.md",
     "Technologies/Design Patterns/Structural/Decorator.md",
+    "Technologies/Design Patterns/Structural/Facade.md",
     "Technologies/Design Patterns/Structural/Composite.md",
     "Technologies/Design Patterns/Structural/Assets/structure-decorator.png",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
