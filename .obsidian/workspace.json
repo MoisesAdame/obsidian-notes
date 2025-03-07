@@ -66,9 +66,18 @@
               "icon": "lucide-file",
               "title": "Command"
             }
+          },
+          {
+            "id": "5add3f76d7d405e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -253,11 +262,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adb203661a3d765b",
+  "active": "ea2598e9508827d3",
   "lastOpenFiles": [
-    "Technologies/Design Patterns/Behavioral/Command.md",
-    "Technologies/Design Patterns/Behavioral/Strategy.md",
     "Technologies/Design Patterns/Behavioral/Observer.md",
+    "Technologies/Design Patterns/Behavioral/Strategy.md",
+    "Technologies/Design Patterns/Behavioral/Command.md",
+    "Technologies/Design Patterns/Behavioral/Screenshot 2025-03-06 at 8.52.37 p.m..png",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "Technologies/Design Patterns/Behavioral/Assets/structure-strategy.png",
     "Technologies/Design Patterns/Behavioral/Assets/structure-observer.png",
@@ -290,9 +300,7 @@
     "School/Transformación Digital/Notas/Clase 7.md",
     "School/Transformación Digital/Notas/Clase 4.md",
     "School/Transformación Digital/Notas/Clase 12.md",
-    "School/Transformación Digital/Notas/Clase 9.md",
     "Technologies/Design Patterns/Creational/Assets/structure-builder.png",
-    "Technologies/Design Patterns/Creational/Assets/structure-abstract-factory.png",
     "Technologies/Design Patterns/Creational/Assets",
     "Untitled",
     "Technologies/Design Patterns/Behavioral",
