@@ -9,7 +9,7 @@ Date: 2025-03-06 : 20:42
  Turns a request into an object. This transformation lets you pass requests as a method arguments, delay or queue a request’s execution, and support undoable operations.
 
 ## Structure
-![[Screenshot 2025-03-06 at 8.52.37 p.m..png]]
+![[structure-command.png]]
 
 ## Code Example
 ```go
