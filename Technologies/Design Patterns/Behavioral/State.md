@@ -25,5 +25,65 @@ Create an interface and implement concrete states.
 
 ## Code Example
 ```go
+// State Interface
+type State interface {
+	Edit() string
+	Publish() string
+}
 
+// Concrete States
+type DraftState struct{}
+type ReviewState struct{}
+type PublishedState struct{}
+
+// State Methods for Draft
+func (d *DraftState) Edit() string {
+	return "Editing in Draft state"
+}
+
+func (d *DraftState) Publish() string {
+	return "Publishing from Draft state"
+}
+
+// State Methods for Review
+func (r *ReviewState) Edit() string {
+	return "Editing in Review state"
+}
+
+func (r *ReviewState) Publish() string {
+	return "Publishing from Review state"
+}
+
+// State Methods for Published
+func (p *PublishedState) Edit() string {
+	return "Cannot edit, the document is already Published"
+}
+
+func (p *PublishedState) Publish() string {
+	return "Already Published"
+}
+
+// Context
+type Document struct {
+	state State
+}
+
+func (d *Document) SetState(state State) {
+	d.state = state
+}
+
+func (d *Document) Edit() {
+	fmt.Println(d.state.Edit())
+}
+
+func (d *Document) Publish() {
+	fmt.Println(d.state.Publish())
+}
+
+func main() {
+	// Creating document and setting initial state
+	doc := &Document{}
+	
+	// Draft State
+	doc.SetS
 ```

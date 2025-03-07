@@ -23,37 +23,52 @@
             }
           },
           {
-            "id": "ae7af5f7ff692afb",
+            "id": "b78ea22c809a0d31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Design Patterns/Behavioral/Command.md",
+                "file": "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Command"
+              "title": "2.2 Diseño de Módulos, Componentes y de Datos de Software"
             }
           },
           {
-            "id": "5add3f76d7d405e2",
+            "id": "401d00525ddec2e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Design Patterns/Behavioral/State.md",
+                "file": "School/Ceneval/Reactivos Ceneval.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "State"
+              "title": "Reactivos Ceneval"
+            }
+          },
+          {
+            "id": "db4a8aeb25483bf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Ceneval/Notas/Clase 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 2"
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -238,14 +253,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5add3f76d7d405e2",
+  "active": "b78ea22c809a0d31",
   "lastOpenFiles": [
+    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Notas/Clase 2.md",
+    "School/Ceneval/Notas/Clase 3.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
+    "Technologies/Design Patterns/Behavioral/Template.md",
     "Technologies/Design Patterns/Behavioral/Command.md",
+    "Technologies/Design Patterns/Behavioral/State.md",
+    "Technologies/Design Patterns/Behavioral/Assets/structure-template.png",
+    "Technologies/Design Patterns/Behavioral/Untitled 1.md",
     "Technologies/Design Patterns/Behavioral/Assets/structure-state-part1.png",
     "Technologies/Design Patterns/Behavioral/Assets/structure-command.png",
-    "Technologies/Design Patterns/Behavioral/State.md",
     "Technologies/Design Patterns/Behavioral/Assets/structure-state-part2.png",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "Technologies/Design Patterns/Behavioral/Strategy.md",
     "Technologies/Design Patterns/Behavioral/Observer.md",
     "Technologies/Design Patterns/Behavioral/Assets/structure-strategy.png",
@@ -255,7 +277,6 @@
     "Technologies/Design Patterns/Structural/Decorator.md",
     "Technologies/Design Patterns/Structural/Composite.md",
     "Technologies/Design Patterns/Structural/Facade.md",
-    "School/Ceneval/Reactivos Ceneval.md",
     "Technologies/Design Patterns/Structural/Assets/structure-facade.png",
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
@@ -268,15 +289,10 @@
     "Technologies/Design Patterns/Structural/Assets/structure-composite.png",
     "Technologies/Design Patterns/Structural/Assets/structure-bridge.png",
     "Technologies/Design Patterns/Structural/Assets",
-    "Technologies/Design Patterns/Structural/Assets/structure-adapter.png",
     "School/Transformación Digital/Notas/Clase 13.md",
     "School/Transformación Digital/Notas/Clase 3.md",
     "School/Transformación Digital/Notas/Clase 2.md",
-    "School/Ceneval/Notas/Clase 2.md",
     "School/Transformación Digital/Notas/Clase 11.md",
-    "School/Transformación Digital/Notas/Clase 10.md",
-    "School/Transformación Digital/Notas/Clase 7.md",
-    "School/Transformación Digital/Notas/Clase 4.md",
     "Technologies/Design Patterns/Creational/Assets",
     "Untitled",
     "Technologies/Design Patterns/Behavioral",
