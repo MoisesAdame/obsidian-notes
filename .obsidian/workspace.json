@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -253,18 +253,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "babb03376e519e79",
+  "active": "b78ea22c809a0d31",
   "lastOpenFiles": [
-    "Chinese/HSK4/标准教程4/标准教程4（下）/Untitled.md",
-    "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-    "Chinese/HSK4/成功之路/第11课.md",
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/IMG_0202.jpeg",
+    "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（下）/Untitled.md",
+    "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
     "School/Ceneval/Notas/Clase 2.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "Chinese/HSK4/HSK4计划.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "Chinese/《基础科技汉语教程》阅读课本（下）/第40课，课文一：实数.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/《基础科技汉语教程》阅读课本（下）",
@@ -289,10 +290,8 @@
     "Technologies/Design Patterns/Structural/Assets/structure-facade.png",
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
-    "Technologies/Design Patterns/Creational/Singleton.md",
     "Technologies/Design Patterns/Structural/Assets/structure-decorator.png",
     "Technologies/Design Patterns/Structural/Assets/structure-composite.png",
-    "Technologies/Design Patterns/Structural/Assets/structure-bridge.png",
     "Technologies/Design Patterns/Structural/Assets",
     "Technologies/Design Patterns/Creational/Assets",
     "Untitled",
