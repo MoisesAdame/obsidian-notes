@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5,
-    "collapsed": true
+    "width": 242.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -255,10 +254,10 @@
   },
   "active": "b78ea22c809a0d31",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/Pasted image 20250319152311.png",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/Pasted image 20250319152311.png",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/IMG_0202.jpeg",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/Untitled.md",
@@ -292,7 +291,6 @@
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
     "Technologies/Design Patterns/Structural/Assets/structure-decorator.png",
-    "Technologies/Design Patterns/Structural/Assets/structure-composite.png",
     "Technologies/Design Patterns/Structural/Assets",
     "Technologies/Design Patterns/Creational/Assets",
     "Untitled",
