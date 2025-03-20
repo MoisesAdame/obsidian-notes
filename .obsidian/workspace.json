@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AOSR/25t2k/s/1j19",
+                "query": "tag:#Q",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
