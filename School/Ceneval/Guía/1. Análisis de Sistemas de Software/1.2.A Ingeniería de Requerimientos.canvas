@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"35bc350a3ee76656","x":-68,"y":-60,"width":250,"height":60,"color":"1","type":"text","text":"Ingeniería de Requerimientos"},
+		{"id":"c585baa9a42fbc98","type":"text","text":"1 Elicitación","x":0,"y":80,"width":250,"height":60,"color":"2"},
+		{"id":"ad547701758e21e5","x":-1620,"y":-162,"width":250,"height":60,"type":"text","text":""},
+		{"id":"e0107162817d8f17","type":"text","text":"1.1 Concepción","x":380,"y":-30,"width":250,"height":60},
+		{"id":"f8ac46d345245262","type":"text","text":"1.2 Indagación","x":380,"y":40,"width":250,"height":60},
+		{"id":"a413690e8da5a2f3","type":"text","text":"1.3 Análisis de Requerimientos","x":380,"y":120,"width":250,"height":60},
+		{"id":"ba6a3019c58c5010","type":"text","text":"1.4 Negociación","x":380,"y":200,"width":250,"height":60},
+		{"id":"798058892ef35d8e","x":-2092,"y":-67,"width":250,"height":60,"type":"text","text":""},
+		{"id":"f90b675db4a62c1f","x":-1644,"y":-61,"width":250,"height":60,"type":"text","text":""},
+		{"id":"ce7eddc286e4e765","type":"text","text":"2 Especificación","x":0,"y":320,"width":250,"height":60,"color":"3"},
+		{"id":"372e101cc72d4666","type":"text","text":"Generación de Casos Prueba","x":380,"y":430,"width":250,"height":60},
+		{"id":"25fa106b27da1ae3","type":"text","text":"Prototipado","x":380,"y":500,"width":250,"height":60},
+		{"id":"84577b478f58c0bd","type":"text","text":"Review de Requerimientos","x":380,"y":580,"width":250,"height":60},
+		{"id":"7e8c753b7dc92a14","type":"text","text":"Chechklists","x":380,"y":660,"width":250,"height":60},
+		{"id":"ebeb256e3c7db57f","type":"text","text":"3 Validación","x":0,"y":530,"width":250,"height":60,"color":"4"},
+		{"id":"5287fc3f212fe68f","type":"text","text":"4 Administración","x":0,"y":780,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[]
+}
