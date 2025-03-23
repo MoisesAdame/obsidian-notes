@@ -30,9 +30,9 @@
               "state": {
                 "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
                 "viewState": {
-                  "x": 1783.0161122918314,
-                  "y": 238.50330085250232,
-                  "zoom": -1.0632128172779411
+                  "x": 1156.786682306371,
+                  "y": 291.5028503587147,
+                  "zoom": -1.075815906570551
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -112,23 +112,6 @@
               },
               "icon": "lucide-file",
               "title": "2.3 Diseño de Interfaces"
-            }
-          },
-          {
-            "id": "647eac8087f8b545",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-                "viewState": {
-                  "x": 275,
-                  "y": 140,
-                  "zoom": -1.041643508342419
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Niveles de Desarrollo"
             }
           }
         ],
@@ -319,14 +302,14 @@
   },
   "active": "30d2dae6aeeb998d",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Notas/Clase 3.md",
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",

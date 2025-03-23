@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"d5fe887d9123616d","type":"text","text":"Requermientos","x":280,"y":20,"width":250,"height":60,"color":"1"},
+		{"id":"d5fe887d9123616d","type":"text","text":"**REQUERIMIENTOS**","x":280,"y":20,"width":250,"height":60,"color":"1"},
 		{"id":"8347d8a234f6d173","type":"text","text":"Por Nivel de Detalle","x":620,"y":-200,"width":250,"height":60,"color":"2"},
 		{"id":"c9c0cb8618141610","type":"text","text":"Por Naturaleza","x":620,"y":20,"width":250,"height":60,"color":"2"},
 		{"id":"3f6f2dc29a5a956c","type":"text","text":"Por Prioridad ","x":620,"y":260,"width":250,"height":60,"color":"2"},
