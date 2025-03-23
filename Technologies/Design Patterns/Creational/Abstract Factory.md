@@ -8,7 +8,7 @@ Date: 2025-03-04 : 14:59
 ## Intent 
 Pattern that allows us to produce **related objects** without having to fully specify the class. The "father class" has to be an interface.
 
-### In Case You Don't Remember What a Interface Is
+### In Case You Don't Remember What an Interface Is
 Consider the following situation:
 
 > _You are in the middle of a large, empty room, when a zombie suddenly attacks you._

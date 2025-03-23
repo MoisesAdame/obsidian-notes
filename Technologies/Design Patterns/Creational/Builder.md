@@ -79,5 +79,4 @@ func (b *ConcreteCarBuilder) SetSunroof(sunroof bool) CarBuilder {
 func (b *ConcreteCarBuilder) Build() Car {
 	return b.car
 }
-
 ```
