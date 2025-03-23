@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"c72ab63556cd10c0","x":-863,"y":550,"width":250,"height":60,"type":"text","text":""},
 		{"id":"93d9e59c8e3e1c0e","type":"text","text":"CMMI-DEV","x":-200,"y":-300,"width":250,"height":60},
 		{"id":"5eec4c5b748d1269","type":"text","text":"Por Etapas (Niveles de Madurez)","x":-20,"y":-120,"width":250,"height":60},
 		{"id":"e053c756018d92c5","type":"text","text":"Continuidad (Niveles de Capacidad)","x":-380,"y":-120,"width":250,"height":60},
