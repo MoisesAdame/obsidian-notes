@@ -93,7 +93,7 @@
               "type": "markdown",
               "state": {
                 "file": "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -317,13 +317,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b78ea22c809a0d31",
+  "active": "adb203661a3d765b",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-    "Technologies/Design Patterns/Creational/Factory Method.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
+    "Technologies/Design Patterns/Creational/Factory Method.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
