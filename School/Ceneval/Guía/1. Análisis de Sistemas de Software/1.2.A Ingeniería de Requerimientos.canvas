@@ -12,7 +12,8 @@
 		{"id":"c585baa9a42fbc98","type":"text","text":"1 Elicitación","x":182,"y":80,"width":250,"height":60,"color":"2"},
 		{"id":"ce7eddc286e4e765","type":"text","text":"2 Especificación","x":182,"y":320,"width":250,"height":60,"color":"3"},
 		{"id":"5287fc3f212fe68f","type":"text","text":"4 Administración","x":182,"y":780,"width":250,"height":60,"color":"2"},
-		{"id":"ebeb256e3c7db57f","type":"text","text":"3 Validación","x":182,"y":550,"width":250,"height":60,"color":"4"}
+		{"id":"ebeb256e3c7db57f","type":"text","text":"3 Validación","x":182,"y":550,"width":250,"height":60,"color":"4"},
+		{"id":"b5251856b9b56a11","type":"text","text":"Estudio de Factibilidad","x":860,"y":40,"width":250,"height":60,"color":"2"}
 	],
 	"edges":[
 		{"id":"dd50113c27e68e92","fromNode":"35bc350a3ee76656","fromSide":"bottom","toNode":"c585baa9a42fbc98","toSide":"left"},
