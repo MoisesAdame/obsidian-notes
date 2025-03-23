@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b80ff1517c5d84e",
+            "id": "95364a99a4301a3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "1.1 Tipos de Requerimientos"
-            }
-          },
-          {
-            "id": "30d2dae6aeeb998d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-                "viewState": {
-                  "x": 1156.786682306371,
-                  "y": 291.5028503587147,
-                  "zoom": -1.075815906570551
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "1.1.A Tipos de Requerimientos"
             }
           },
           {
@@ -52,6 +35,23 @@
               },
               "icon": "lucide-file",
               "title": "1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos"
+            }
+          },
+          {
+            "id": "5b80ff1517c5d84e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": -0.26678257624308266
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "1.2.A Ingeniería de Requerimientos"
             }
           },
           {
@@ -113,9 +113,19 @@
               "icon": "lucide-file",
               "title": "2.3 Diseño de Interfaces"
             }
+          },
+          {
+            "id": "45c9885f4414e059",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -300,15 +310,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30d2dae6aeeb998d",
+  "active": "45c9885f4414e059",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Notas/Clase 3.md",
