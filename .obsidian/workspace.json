@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -30,8 +30,8 @@
               "state": {
                 "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
                 "viewState": {
-                  "x": 465,
-                  "y": 680,
+                  "x": 571.0997142857145,
+                  "y": 670.3545714285715,
                   "zoom": -1.3745427210507843
                 }
               },
@@ -52,6 +52,23 @@
               },
               "icon": "lucide-file",
               "title": "1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos"
+            }
+          },
+          {
+            "id": "42394e63140e7e0b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
+                "viewState": {
+                  "x": 547.6899732082344,
+                  "y": 426.5416141929178,
+                  "zoom": -0.6826225079443312
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "1.2.A Ingeniería de Requerimientos"
             }
           },
           {
@@ -113,19 +130,8 @@
               "icon": "lucide-file",
               "title": "2.3 Diseño de Interfaces"
             }
-          },
-          {
-            "id": "42394e63140e7e0b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -310,7 +316,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42394e63140e7e0b",
+  "active": "95364a99a4301a3b",
   "lastOpenFiles": [
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
