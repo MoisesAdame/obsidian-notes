@@ -12,7 +12,7 @@ Date: 2025-02-16 : 15:52
 |                                       | [[1.3 Técnicas y Herramientas de Documentación de Requerimientos]]                                       | 10                |
 | 2. Diseño de Sistemas de Software     | [[2.1 Diseño Arquitectónico de Software]]                                                                | 10                |
 |                                       | [[2.2 Diseño de Módulos, Componentes y de Datos de Software]]                                            | 16                |
-|                                       | 2.3. Diseño de interfaces                                                                                | 7                 |
+|                                       | [[2.3 Diseño de Interfaces]]                                                                             | 7                 |
 | 3. Desarrollo de Sistemas de Software | 3.1. Lenguajes de desarrollo de software                                                                 | 10                |
 |                                       | 3.2. Paradigmas de programación                                                                          | 10                |
 |                                       | 3.3. Entornos de desarrollo                                                                              | 10                |

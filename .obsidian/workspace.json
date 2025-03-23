@@ -38,22 +38,47 @@
             }
           },
           {
-            "id": "401d00525ddec2e1",
+            "id": "c29b6a53bf6d46d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Reactivos Ceneval.md",
+                "file": "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Reactivos Ceneval"
+              "title": "2.3 Diseño de Interfaces"
+            }
+          },
+          {
+            "id": "30d2dae6aeeb998d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Tipos de Requerimientos"
+            }
+          },
+          {
+            "id": "09a252d16e3682cb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -238,18 +263,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b78ea22c809a0d31",
+  "active": "09a252d16e3682cb",
   "lastOpenFiles": [
-    "School/Ceneval/Reactivos Ceneval.md",
-    "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Notas/Clase 3.md",
+    "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.1.png",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/Pasted image 20250319152311.png",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/IMG_0202.jpeg",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/Untitled.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/e.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/Untitled.md",
@@ -260,7 +287,6 @@
     "Chinese/《基础科技汉语教程》阅读课本（下）/第40课，课文一：实数.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/《基础科技汉语教程》阅读课本（下）",
-    "School/Ceneval/Notas/Clase 3.md",
     "Technologies/Design Patterns/Behavioral/Template.md",
     "Technologies/Design Patterns/Behavioral/Command.md",
     "Technologies/Design Patterns/Behavioral/State.md",
