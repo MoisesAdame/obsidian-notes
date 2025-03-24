@@ -61,7 +61,7 @@ func (b *ConcreteCarBuilder) SetColor(color string) CarBuilder {
 	return b
 }
 
-func (b *ConcreteCarBuilder) SetEngine(engine string) CarBuilder {
+func (b *ConcreteCarBuilder) SetEngine(engine string) CarBuilder{
 	b.car.Engine = engine
 	return b
 }
