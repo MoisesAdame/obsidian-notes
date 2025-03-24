@@ -107,13 +107,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Design Patterns/Behavioral/Command.md",
+                "file": "Technologies/Design Patterns/Behavioral/Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Command"
+              "title": "Template"
             }
           },
           {
@@ -319,8 +319,10 @@
   },
   "active": "c29b6a53bf6d46d3",
   "lastOpenFiles": [
-    "Technologies/Design Patterns/Behavioral/Strategy.md",
+    "Technologies/Design Patterns/Behavioral/State.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "Technologies/Design Patterns/Behavioral/Command.md",
+    "Technologies/Design Patterns/Behavioral/Strategy.md",
     "Technologies/Design Patterns/Behavioral/Observer.md",
     "Technologies/Design Patterns/Structural/Facade.md",
     "Technologies/Design Patterns/Structural/Decorator.md",
@@ -351,8 +353,6 @@
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/IMG_0202.jpeg",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/e.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/Untitled.md",
-    "Chinese/HSK4/成功之路/第11课.md",
-    "School/Ceneval/Notas/Clase 2.md",
     "Chinese/《基础科技汉语教程》阅读课本（下）",
     "Technologies/Design Patterns/Behavioral/Assets/structure-template.png",
     "Technologies/Design Patterns/Behavioral/Assets/structure-state-part1.png",
