@@ -108,7 +108,7 @@
               "type": "markdown",
               "state": {
                 "file": "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -317,10 +317,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b78ea22c809a0d31",
+  "active": "4586bdd2046f9967",
   "lastOpenFiles": [
-    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
+    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
