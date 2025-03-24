@@ -6,7 +6,9 @@ tags:
 Date: 2025-03-06 : 14:13
 ***
 ## Intent 
-Imagine wanting to copy an object. Yo can do this by creating another object and assigning the same attributes, but a problem arises when we have to copy **private attributes**.
+Allows you to copy objects without depending on their classes.
+
+Imagine wanting to copy an object. You can do this by creating another object and assigning the same attributes, but a problem arises when we have to copy **private attributes**.
 
 This pattern delegates the cloning process to the actual objects that are being cloned, declaring a common interface
 
