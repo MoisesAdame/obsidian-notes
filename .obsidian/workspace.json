@@ -107,13 +107,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/Design Patterns/Structural/Decorator.md",
+                "file": "Technologies/Design Patterns/Behavioral/Observer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Decorator"
+              "title": "Observer"
             }
           },
           {
@@ -319,8 +319,10 @@
   },
   "active": "c29b6a53bf6d46d3",
   "lastOpenFiles": [
-    "Technologies/Design Patterns/Structural/Composite.md",
+    "Technologies/Design Patterns/Structural/Facade.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "Technologies/Design Patterns/Structural/Decorator.md",
+    "Technologies/Design Patterns/Structural/Composite.md",
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
     "Technologies/Design Patterns/Creational/Prototype.md",
@@ -329,8 +331,6 @@
     "Technologies/Design Patterns/Creational/Abstract Factory.md",
     "Technologies/Design Patterns/Creational/Singleton.md",
     "Technologies/Design Patterns/Creational/Factory Method.md",
-    "Technologies/Design Patterns/Structural/Facade.md",
-    "Technologies/Design Patterns/Structural/Decorator.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
     "School/Ceneval/Reactivos Ceneval.md",

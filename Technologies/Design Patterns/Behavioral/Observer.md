@@ -73,6 +73,5 @@ func main() {
 
 	subject.Notify("Observer 1 has been removed!")
 }
-
 ```
 
