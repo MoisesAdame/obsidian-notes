@@ -147,18 +147,18 @@
             }
           },
           {
-            "id": "51571fe08995a532",
+            "id": "3fb05b4cbbff922e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+                "file": "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos"
+              "title": "1. Identificación de la Configuración"
             }
           }
         ],
@@ -347,8 +347,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51571fe08995a532",
+  "active": "3fb05b4cbbff922e",
   "lastOpenFiles": [
+    "School/TC3005B/TC3005B.1/6. Control de Interfaces.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
@@ -381,7 +382,6 @@
     "Technologies/Design Patterns/Creational/Abstract Factory.md",
     "Technologies/Design Patterns/Creational/Singleton.md",
     "Technologies/Design Patterns/Creational/Factory Method.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
