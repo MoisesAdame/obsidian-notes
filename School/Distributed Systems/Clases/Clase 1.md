@@ -36,6 +36,8 @@ Date: 2025-03-24 : 16:06
 - Mas compleja que aplicar unos cuantos commandos.
 - Se **centra principalmente** en las personas y las regulaciones.
 
+## Generalidades
+
 
 
 
