@@ -62,4 +62,16 @@ Date: 2025-03-25 : 16:46
 - No puede haber downtime.
 - Nos proporcionarán el croquis de los hospitales.
 - Ya tienen proveedor de red.
-- 
+- Explicación técnica detallada de capa 2 y 3. Escribirla como para su equipo del.
+
+### Core Strategies
+#### Topología (Redundancia)
+#### Telemedicina
+#### IA (Análisis de Datos o Imágenes)
+#### Cloud Computing y Almacenamiento
+#### Servicio de Virtualización
+
+### Otras Preguntas
+#### Infraestructura y Red
+1. ¿Qué tipo de dispositivos médicos utilizan actualmente y qué requisitos de conectividad tienen?
+2. ¿Qué ancho de banda tienen contratado actualmente y es suficiente para la demanda proyectada?
