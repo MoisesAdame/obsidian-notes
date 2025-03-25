@@ -58,6 +58,7 @@ Tienes que utilizar una dada por un **registro internacional**.t
 - Para configurar interfaz: `interface gigabitEthernet 0/0/0`
 - Poner localización ip: `ip address <subred> <mascara>`
 - Para guardar config: `shutdown`
+- 
 
 
 
