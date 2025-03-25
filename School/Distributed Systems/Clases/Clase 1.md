@@ -37,7 +37,18 @@ Date: 2025-03-24 : 16:06
 - Se **centra principalmente** en las personas y las regulaciones.
 
 ## Generalidades
+- Mientras mas cerca de los equipos, menos ancho de banda, porque solo cuando sales es cuando se hace el cuello de botella.
+- Entre equipos distintos, cable 1 a 1. 
+- En la PC o servers, viene habilitado los puertos por default. En router no.
 
+Direcciones Públicas:
+Son de uso libre.
+- 10.0.0.0/8
+- 172.16.0.0/12
+- 192.168.0.0/16
+
+Direcciones Públicas
+Son
 
 
 
