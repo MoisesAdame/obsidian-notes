@@ -41,14 +41,20 @@ Date: 2025-03-24 : 16:06
 - Entre equipos distintos, cable 1 a 1. 
 - En la PC o servers, viene habilitado los puertos por default. En router no.
 
-Direcciones Públicas:
+**Direcciones Públicas:**
 Son de uso libre.
 - 10.0.0.0/8
 - 172.16.0.0/12
 - 192.168.0.0/16
 
-Direcciones Públicas
-Son
+**Direcciones Públicas:**
+Tienes que utilizar una dada por un **registro internacional**.t
+
+- En la entrada de **router** poner la dirección **192.168.1.0/24**. Desde la **1.1** hasta la **1.254**. La **0 y 255** no se pueden asignar. 
+- El **switch** no necesita asignarle ip, porque trabaja con en la capa de las MAC. Por eso tiene interfaces, no puertos como en el router.
+
+- Modo enable: Puedes dejar a gente sin conectividad.
+- 
 
 
 
