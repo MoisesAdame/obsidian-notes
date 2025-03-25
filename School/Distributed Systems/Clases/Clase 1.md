@@ -30,3 +30,5 @@ Date: 2025-03-24 : 16:06
 
 1. **Deployment Requirements:** Green Field (Desde cero), brown field (Ya esta funcionando). Deployment timeframes (una especie de GANTT). Bill of Material (De forma simple, decirle cuanto cuesta cada servicio y en total cuanto cuesta todo). Security Requirements (Una contaseña, bla bla bla). Riesgos (Que se caiga toda la red). Exit Criteria (Como saber si se llego al resultado esperado. Tenga un ping de punto A a punto B)
 2. **Network Design:**  
+
+## Módulo Cloud (Castañeda)
