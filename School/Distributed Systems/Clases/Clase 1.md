@@ -54,7 +54,12 @@ Tienes que utilizar una dada por un **registro internacional**.t
 - El **switch** no necesita asignarle ip, porque trabaja con en la capa de las MAC. Por eso tiene interfaces, no puertos como en el router.
 
 - Modo enable: Puedes dejar a gente sin conectividad.
-- 
+- Para ver interfaces: `show ip interface brief`
+- Para configurar interfaz: `interface gigabitEthernet 0/0/0`
+- Poner localización ip: `ip address <subred> <mascara>`
+- Para guardar config: `shutdown`
+
+
 
 
 
