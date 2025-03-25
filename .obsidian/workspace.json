@@ -145,24 +145,9 @@
               "icon": "lucide-file",
               "title": "Reactivos Ceneval"
             }
-          },
-          {
-            "id": "b78ea22c809a0d31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Clases/Clase 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 1"
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -346,9 +331,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b78ea22c809a0d31",
+  "active": "4586bdd2046f9967",
   "lastOpenFiles": [
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/Distributed Systems/Clases/Clase 1.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
@@ -357,7 +343,6 @@
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-    "School/Distributed Systems/Clases/Clase 1.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software",
     "School/Ceneval/Glosario de Estándares.md",
     "School/Distributed Systems/Clases",
