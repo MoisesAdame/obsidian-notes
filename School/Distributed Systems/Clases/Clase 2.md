@@ -139,7 +139,7 @@ Pero Tec quiere mantener su nube privada.
 
 Lo hacen para evitar hacer la inversión que hizo microsoft para cosas como el mail.
 
-Esta estrategia es la más usada hoy end´
+Esta estrategia es la más usada hoy endía.
 
 
 
