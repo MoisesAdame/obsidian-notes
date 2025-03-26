@@ -17,4 +17,39 @@ Date: 2025-03-26 : 16:12
 
 #### Cada IA se entrena para realizar una tarea específica.
 - Pero por ejemplo, ChatGPT hace varias taareas similares al mismo tiempo.
-- Algunas IA's **no son capaces de realiza**
+- Algunas IA's **no son capaces de realizar tareas sencillas** pero **pueden hacer trabajos complicados**.
+
+#### Signos de Inteligencia
+- Aprender de la experiencia.
+- Encontrar sentido a mensajes ambiguos.
+- Responder rapidamente a situaciones diversas.
+- Entender e inferir de forma racional.
+- Aplicar y adquirir conocimiento nuevo.
+
+#### Organización de la IA
+McCahrthy y su equipo organizó la IA en el siguiente cuadrante:
+1. Sistemas que actúan como humanos (comportamiento)
+2. Sistemas que piensan como humanos (pensamiento y razonamiento)
+3. Sistemas que piensan racionalmente (pensamiento y razonamiento)
+4. Sistemas que actúan racionalmente (comportamiento)
+
+Chat es tipo 2, pero nos responde como 1.
+```mermaid
+quadrantChart
+    x-axis High Reach
+    y-axis x ---> High Engagement
+    Campaign A: [0.75, 0.75]
+    Campaign B: [0.75, 0.25]
+    Campaign C: [0.25, 0.75]
+    Campaign D: [0.25, 0.25]
+```
+
+#### Tipo 1: IA que Actúa como Humano
+- El estudio de como hacer que las computadoras hagan tareas en las cuales hasta el momento el ser humano tiene un mejor desempoeño.
+- **El modelo es el hombre:** El objetivo es construir un sistema que se pase por humano.
+
+#### Tipo 2: IA que piensa como humano
+- Es como el machine learning.
+- El **modelo** es el funcionamiento de la mente, como piensa un humano, como deduce un humano.
+- Ejemplo: Redes neuronales, se inspiran en el modelo cognitivo humano.
+- 
