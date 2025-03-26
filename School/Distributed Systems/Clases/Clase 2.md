@@ -77,7 +77,7 @@ Date: 2025-03-25 : 16:46
 2. ¿Qué ancho de banda tienen contratado actualmente y es suficiente para la demanda proyectada?
 
 ### Otras otras preguntas
-- Qué equipos hay en cada torre? Qué tipos de equipos? Hay dos tipos de quipos administrables(PCS, telefonos servers) y no administrablres (Impresoras, equipos médicos)
+- Qué equipos hay en cada torre? Qué tipos de equipos? Hay dos tipos de quipos administrables(PCS, telefonos servers) y no administrablres (Impresoras, equipos médicos). QUiere que no todo se conecte con todo.
 - Prioridad, que necesitaan primero? Disponibilidad al 100% Seguridad al 100%. Luego ver IA. Lo principal es temas de IA.
 - Qué tan detallada es la estimación de costos? Solo estimación de servicios. Hardware, almacenamiento, máquina virtual.
 - Para el almacenamiento DB. Hacer porpuesta de cuanta info por paciente, cuanto tienen que almacenar y cuanto tiempo.
@@ -86,3 +86,6 @@ Date: 2025-03-25 : 16:46
 - Su ISP les da todo el internet que necesitan, no hay problema por eso.
 - De IA y analisis de datos? Todo es sus datos, trabajan con cosas como radiografías, TAGS, etc. 
 - Que se espera recibir de la IA? Análisis de patrones y diagnosticos. Pueden ser diagnosticos. Pueden ser patrones por edad. Sirve para la toma de decisiones.
+- Virtualizacion de maquinas que se virtualiza? CCompus y servers con información sensible. Puede ser servers si lo consideramos. 
+- Políticas de seguridad: Nosotros proponer solución de control de acceso a al red. No meterse mucho. Proponer como se manejaría ese sistema de control de acceso.
+- Propuesta de VPN, no implementación.
