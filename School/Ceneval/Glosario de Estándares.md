@@ -17,7 +17,9 @@ Date: 2025-03-24 : 13:53
 
 ## 4 Gestión de Proyectos de Software
 #Q 
-- ISO/IEC 9126 :: (A desarrollar)
+- ISO/IEC 9126 :: Identifica y nos ayuda a cumplir con los **6 atributos** de la calidad de software.
+- IEEE 730 :: Requisitos mínimos para SQA y guía para SQAP.
+- 
 
 
 ## Flashcards
