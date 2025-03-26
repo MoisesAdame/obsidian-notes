@@ -36,8 +36,7 @@ McCahrthy y su equipo organizó la IA en el siguiente cuadrante:
 Chat es tipo 2, pero nos responde como 1.
 ```mermaid
 quadrantChart
-    x-axis High Reach
-    y-axis x ---> High Engagement
+    y-axis Comportamiento ---> Pensamiento y Razonamiento
     Campaign A: [0.75, 0.75]
     Campaign B: [0.75, 0.25]
     Campaign C: [0.25, 0.75]
@@ -52,4 +51,29 @@ quadrantChart
 - Es como el machine learning.
 - El **modelo** es el funcionamiento de la mente, como piensa un humano, como deduce un humano.
 - Ejemplo: Redes neuronales, se inspiran en el modelo cognitivo humano.
-- 
+
+#### Tipo 3: IA que Piensa Racionalmente
+- Las principales IA's que se implementaron fueron en los 70's. Un ejemplo era el sistema MISIN.
+- Las leyes del pensamiento racional se basan en lógica.
+- La lógica anterior no fue suficiente y por es se creo la **fuzzy logic** que es una lógica de estados, y es multiestados.
+
+#### Tipo 4: IA que actua racionalmente
+- Relacionada con conductas inteligentes en artefactos.
+- Trae el paradigma del **agente**.
+
+#### Agente
+- Definición: Es algo que hace algo.
+- Agente racional: Es aquel que actua con el fin de lograr el mejor resultado...
+- Russel y Norvig: Todo aquello que percibe su ambiente y que reacciona al ambiente a través de acciones. PEAS
+
+#### Agente Inteligente
+Entidad **física o virtual** que posee ciertas características generales:
+- Representar el entorno
+- Percibir el entorno
+- Actua en el entorno
+- Puede comunicarse
+- Posee objetivos
+- Posee recursos propios.
+
+#### Sueño de la IA
+Que se pueda diseñar agente **inteligente/racional** que opere o actue en diversos ambientes.
