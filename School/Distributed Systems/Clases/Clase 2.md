@@ -120,4 +120,26 @@ Cosas que te hacen proveedor cloud:
 1. Autoservicio: Tu levantas un proyecto en GCP 
 2. Catálogo: Todos los recursos estén catalogados, empaquetados, que te enseñen las diferentes variantes
 3. Elasticidad: Debe dar elasticidad de forma rápida. Debe de ayudarte a escalar de forma rápida.
-4. Consumo a la Medida: Pagas por el recurso que consumes. Puede ser GB o núcleos. También se cobra por tiempo. Otra forma de que se cobra es por llamada. La desventaja de esto 
+4. Consumo a la Medida: Pagas por el recurso que consumes. Puede ser GB o núcleos. También se cobra por tiempo. Otra forma de que se cobra es por llamada. La desventaja de esto es que **estimar costos** es un reto y en ocasiones **no es rentable**. Es un costo **operativo variable**
+5. Confidencialidad/Virtualidad: Mucha seguridad porque almacenan muchos tipos de datos.
+
+#### Modelo de Prestación de Servicios
+- Proveedor: Es el dueño, el que administra y el que opera los recursos. Por ello, el dueño define las **reglas del juego**. Su misión es desarrollar y mantener los proces de automatización para prestar sus servicios a consumidores.
+
+#### Ejemplo 1: Caso Nume Pública
+1. Azure es el proveedor.
+2. Banco contrata servicio de correo electrónico a 100 de sus colaboradores administrado por Microsoft360. Es **nube** por el correo. Es **on-demand** porque paga por 100 colaboradores.
+
+#### Ejemplo 2: Nube privada
+Nubes privadas no solo es infra que Google reserva para ti. También es una solución dedicada en una organización donde se conserva este modelo de proveedor y contratante. Si no es así, ya no es nube. Ya que cada quien tiene sus responsabilidades.
+
+#### Ejemplo3: Nube Híbrida
+Proveedor es Microsoft, con un modelo público.
+Pero Tec quiere mantener su nube privada.
+
+Lo hacen para evitar hacer la inversión que hizo microsoft para cosas como el mail.
+
+Esta estrategia es la más usada hoy end´
+
+
+
