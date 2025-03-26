@@ -108,3 +108,16 @@ Pasos:
 3. ISP 3.0: Cosas como correo, juegos
 4. ISP 4.0: Aprovechar modelo cliente servidor para dar mas servicios. Aqui surgen los correos electrónicos web gratis. Que ganaba haciendolo gratis? Publicidad, datos. Aquí también surge google con el navegador. Google monetiza con marketing GoogleAds
 5. Web 2.0: Las posibilidades se multiplican. Tenemos videos, imagenes, compras en línea. Capa de virtualización se hizo necesaria porque todo el tiempo ponian nuevos servers y nuevos software. Ahí, se abre una nueva oportunidad de negocio que es la nube
+
+#### Provider Market
+- 1970-1980: Mainframe. La máquina central. El cerebro de la organización.
+- 1990: Modelo cliente servidor. SAP, Microsoft, oracle, etc.
+- 2000: Yahoo, google. Hadoop es un sw. para big data inventado por yahoo pero no esta basado en investigación de yahoo, sino, sale de un paper GFS, que significa Google File System, Google lo hace privado, pero Yahoo lo hace opensource.
+- 2010: The cloud. Se vende una segmentación de usuarios. Eso hace Facebook.
+
+#### Características Clave de la Nube
+Cosas que te hacen proveedor cloud:
+1. Autoservicio: Tu levantas un proyecto en GCP 
+2. Catálogo: Todos los recursos estén catalogados, empaquetados, que te enseñen las diferentes variantes
+3. Elasticidad: Debe dar elasticidad de forma rápida. Debe de ayudarte a escalar de forma rápida.
+4. Consumo a la Medida: Pagas por el recurso que consumes. Puede ser GB o núcleos. También se cobra por tiempo. Otra forma de que se cobra es por llamada. La desventaja de esto 
