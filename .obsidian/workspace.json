@@ -145,6 +145,21 @@
               "icon": "lucide-file",
               "title": "Reactivos Ceneval"
             }
+          },
+          {
+            "id": "c4315d947fcd49e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "9. Cierre del Proyecto"
+            }
           }
         ],
         "currentTab": 7,
@@ -335,9 +350,10 @@
   "active": "4586bdd2046f9967",
   "lastOpenFiles": [
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Distributed Systems/Clases/Clase 2.md",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Distributed Systems/Clases/Clase 1.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
@@ -366,7 +382,6 @@
     "Technologies/Design Patterns/Structural/Composite.md",
     "Technologies/Design Patterns/Structural/Bridge.md",
     "Technologies/Design Patterns/Structural/Adapter.md",
-    "Technologies/Design Patterns/Creational/Prototype.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
