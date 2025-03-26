@@ -106,4 +106,5 @@ Pasos:
 1. Surgen ISP 1.0: Ejemplo prodigy. Ofrecían conectarte al internet. El servicio era te proveo de conectividad.
 2. ISP 2.0: Internet por access points.
 3. ISP 3.0: Cosas como correo, juegos
-4. ISP 4.0: Aprovechar modelo cliente servidor para dar mas servicios. Aqui surgen los correos electrónicos web.
+4. ISP 4.0: Aprovechar modelo cliente servidor para dar mas servicios. Aqui surgen los correos electrónicos web gratis. Que ganaba haciendolo gratis? Publicidad, datos. Aquí también surge google con el navegador. Google monetiza con marketing GoogleAds
+5. Web 2.0: Las posibilidades se multiplican. Tenemos videos, imagenes, compras en línea. Capa de virtualización se hizo necesaria porque todo el tiempo ponian nuevos servers y nuevos software. Ahí, se abre una nueva oportunidad de negocio que es la nube
