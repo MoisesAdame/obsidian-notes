@@ -4,10 +4,21 @@ tags:
 ---
 Date: 2025-03-24 : 13:53
 ***
-## Estándares 
+## 1 Análisis de Sistemas de Software
 #Q 
 - IEEE 830 :: Software Requirement Specification.
+
+## 2 Diseño de Sistemas de Software
+#Q 
 - IEEE 1471-2000 :: Usa el modelo 4+1 (vistas de krunchen)
+
+## 3 Desarrollo de Sistemas de Software
+#Q 
+
+## 4 Gestión de Proyectos de Software
+#Q 
+- ISO/IEC 9126 :: (A desarrollar)
+
 
 ## Flashcards
 ```aosr-deck-config
