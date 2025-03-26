@@ -47,8 +47,6 @@ Date: 2025-03-25 : 16:46
 
 ### Asistente Virtual
 
-
-
 ### Preguntas
 - Debe haber seguridad en el sistema, porque se esta trabajando con información sensible.
 - Nosotros le damos el presupuesto, no hay como tal un límite
@@ -89,3 +87,5 @@ Date: 2025-03-25 : 16:46
 - Virtualizacion de maquinas que se virtualiza? CCompus y servers con información sensible. Puede ser servers si lo consideramos. 
 - Políticas de seguridad: Nosotros proponer solución de control de acceso a al red. No meterse mucho. Proponer como se manejaría ese sistema de control de acceso.
 - Propuesta de VPN, no implementación.
+
+## Módulo 3 (Emmanuel)
