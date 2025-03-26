@@ -75,5 +75,15 @@ Entidad **física o virtual** que posee ciertas características generales:
 - Posee objetivos
 - Posee recursos propios.
 
+Hacen lo correcto de a cuerdo a sus percepciones.
+
+Es aquel que emprende la mejor acción posible en una situación dada.
+
 #### Sueño de la IA
-Que se pueda diseñar agente **inteligente/racional** que opere o actue en diversos ambientes.
+Que se pueda diseñar agente **inteligente/racional** que opere o actúe en diversos ambientes.
+
+La IA generativa no es la respuesta, es la IA generalista.
+
+#### Sistemas MultiAgentes
+Sistemas complejos
+- Se descomponen en agentes.
