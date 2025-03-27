@@ -141,3 +141,15 @@ Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidi
 - Modelo = Algoritmo + Datos + Parámetros + Hyperparametros + Otras consideraciones.
 - Función albo, puede ser de varios tipos, según los datos. Binaria o incluso múltiple.
 
+## Modulo 3
+### Historia
+- Los compiladores de desarrollar desde la Guerra fria para poder desencriptar mensajes y cosas por el estilo.
+- Los papers relacionados se empiezan a publicar en los 60's.
+
+### Análisis Lexico
+- El token es la expresión mínima que tiene sentido
+- Para la encontrar los tokens se usan autómatas, que son regex
+
+### Análisis Sintáctico
+- Se hace un parse tree que indica como fue producido lo anterior.
+- Solo si el árbol es **unico** es que el progr
