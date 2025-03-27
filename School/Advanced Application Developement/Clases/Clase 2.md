@@ -28,7 +28,23 @@ Es como decidir que datos voy a usar. No siempre puedo usar **todos los datos**.
 ### Métodos de Recolección de Información
 Métodos:
 - Entrevistas
-- Grupos focales. Tu eliges un grupo específico de personas por su características. Por ejemplo los que se usan para el **bliss point**. Ejemplo de los chetos.
+- Grupos focales. Tu eliges un grupo específico de personas por su características. Por ejemplo los que se usan para el **bliss point**. Ejemplo de los cheetos.
+- Obeservaciones. Medidas de algun tipo.
+- Mediciones biofísicas. Muestras de fluidos.
+- Registros históricos. Estados contables, calificaciones, precios de acciones en la bolsa.
+
+### Métodos de Análisis de Datos
+Cualitativos:
+- Por tema. Temas recurrentes (los baños están sucios).
+- Análisis de Discurso: Tendencias en el discurso.
+- Análisis Narrativo: Interpretación de cosas como entreviostas, monólogos, historias escritas, etc. Muy usado en psicología.
+- Análisis Fenomenológico Interpretativo: Como la gente se siente de acuerdo a algo que les pasó. (Kidzania, como te sentiste)
+- Análisis Visuales: Videos fotografías y pinturas. (Hotspots turísticos, como identificar movimiento artístico).
+
+Cuantitativos:
+- Estatística descriptiva.
+- Estadística inferencial.
+- Inteligencia artificial.
 
 
 
