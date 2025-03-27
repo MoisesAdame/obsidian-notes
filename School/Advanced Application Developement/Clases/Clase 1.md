@@ -115,4 +115,16 @@ TPE
 Un programa de computadora aprende a partir de una experiencia E en relación a una clase de tareas T y medida de evaluación P, si su desempeño en alguna de las tareas de clase T, medido por P, mejora con la experiencia E
 
 Ejemplo Ajedrez:
-Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidio ppir ka capacidad de vence
+Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidio ppir ka capacidad de vencer más partidas (P) gracias a la experiencia obtenidad jugando cinsigo mismo o con algunas personas (E)
+
+### Sistemas
+#### Experiencia
+- Hay dos tipos: Directa e Indirecta
+- Indirecta: Las decodificamos a partir de otras fuentes,
+- Directo: Aprende directamente de los ejemplos de entrenamiento.
+
+#### Paradigmas de Aprendizaje
+- Hay 4: Supervisado, no supervisado, semi-supervisado y por refuerzo
+- Supervisado: Es el mas caro pero es el mejor. Usa experiencia directa. Le pone labels a los datos.
+- No supervisado: No requiere de etiquetas, pero es limitado. Los mejores algoritmos, son los de clustering, pero su resultado , no es un resultado final, tiene que ser analizado por un especialista.
+- Semi SUpervidado
