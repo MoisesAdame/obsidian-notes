@@ -127,4 +127,17 @@ Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidi
 - Hay 4: Supervisado, no supervisado, semi-supervisado y por refuerzo
 - Supervisado: Es el mas caro pero es el mejor. Usa experiencia directa. Le pone labels a los datos.
 - No supervisado: No requiere de etiquetas, pero es limitado. Los mejores algoritmos, son los de clustering, pero su resultado , no es un resultado final, tiene que ser analizado por un especialista.
-- Semi SUpervidado
+- Semi Supervidado: Usa técnicas de interpolación. Es bueno para deep learning donde necesito mucha info, pero no puedo clasificarla toda.
+- Refuerzo: Premias o lo castigas dependiendo de su resultado.
+
+#### Supervisado
+- Los datos tienen dos partes $(x, d)$ usamos x para predecir d.
+- El label es la función **albo**.
+
+#### No supervisiado
+- Los datos tienen dos partes $(x, ?)$.
+
+#### Otras especificaciones
+- Modelo = Algoritmo + Datos + Parámetros + Hyperparametros + Otras consideraciones.
+- Función albo, puede ser de varios tipos, según los datos. Binaria o incluso múltiple.
+
