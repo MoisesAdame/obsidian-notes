@@ -31,7 +31,7 @@ Date: 2025-03-24 : 13:53
 - **PSP** :: Personal Software Development Process. Es de uso personal, le da disciplina a ingeniero mejorando la calidad de sus productos.
 - **MoProSoft** :: **Mo**delo de **Pro**cesos para la Industria de **Soft**ware. Como SPICE o CMMI pero para PyMEs.
 - **ISO/IEC 29110** :: Perfiles del Ciclo de Vida para Entidades muy Pequeñas. MoProSoft pero con reconocimiento internacional.
-- **ISO/IEC 33000** :: 
+- **ISO/IEC 33000** :: Actualización de ISO/IEC 15504. Mas flexible y moderno.
 
 
 
