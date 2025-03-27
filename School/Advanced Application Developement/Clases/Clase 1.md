@@ -102,4 +102,17 @@ Sistemas complejos
 - Objetivo: Usar modelo matemático capaz de manejar muchos parámetros al mismo tiempo para mejorar rendimiento de predicción.
 
 #### Generative AI
-- En 2017 
+- En 2017 google publica el paper de Transformers.
+- Los trasnformers se basan en redes neuronales.
+- La IA generativa es parte del DeepLearning
+
+## Definición Formal
+TPE
+- T: Tareas
+- E: Experiencia
+- P: Evaluación
+
+Un programa de computadora aprende a partir de una experiencia E en relación a una clase de tareas T y medida de evaluación P, si su desempeño en alguna de las tareas de clase T, medido por P, mejora con la experiencia E
+
+Ejemplo Ajedrez:
+Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidio ppir ka capacidad de vence
