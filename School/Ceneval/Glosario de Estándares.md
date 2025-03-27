@@ -23,6 +23,7 @@ Date: 2025-03-24 : 13:53
 - ISO 9000 :: Estándar generalista de calidad.
 - ISO 12207 :: Modelos de Ciclo de Vida de Software.
 - ISO/IEC 14598 :: Mediciones y evaluaciones de la calidad de producto de software.
+- ISO/IEC 25000 :: **S**ystem and **S**oftware **Qua**lity **R**equierements and **E**valuation (**SQUARE**). Junta ISO/IEC 9126 e ISO/IEC 14598.
 - 
 
 
