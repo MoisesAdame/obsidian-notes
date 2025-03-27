@@ -164,3 +164,17 @@ Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidi
 ### Generación de Código
 - Se recorre el árbol (cuando este es correcto)
 
+### Diagrama de Compilador
+#### Backend
+- Análisis Semántico: Valida que tenga sentido.
+- Optimización: Varios Ciclos.
+- Generación de Código: Saca los bytes.
+
+#### Frontend
+- ANTL es el fronted, ya que trae lexer y parser juntos.
+
+### Diagrama de ANTLR
+#### Client.py
+ANTLR genera dos archivos lexer.py y parser.py
+
+
