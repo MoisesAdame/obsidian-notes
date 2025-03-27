@@ -177,4 +177,27 @@ Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidi
 #### Client.py
 ANTLR genera dos archivos lexer.py y parser.py
 
+#### Código
+- Todo lo que tiene **mayúscula son tokens**.
+- ``[\r\n]`` o ``[ ]`` significa ignorar.
+- Los enteros es lo que si reconoce, no los skippea.
+- Al final son expresiones regulares.
+- Las **mninusculas** son reglas de una gramática
+
+```ANTLR
+grammar Expr;        
+  
+prog:   (expr)* ;  
+  
+expr:   expr ('*'|'/') expr // Seprara por esos caracteres 
+    | expr ('+'|'-') expr // Separadas por + o -
+    | INT                 // Genera un INT, aqui acaba
+    | '(' expr ')'        // Poniendo parentesis a expresiones
+    ;  
+  
+NEWLINE : [\r\n]+ -> skip;  
+BLANK   : [ ]+ -> skip;  
+INT     : [0-9]+ ;
+```
+
 
