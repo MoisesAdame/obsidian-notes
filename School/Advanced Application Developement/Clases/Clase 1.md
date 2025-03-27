@@ -152,4 +152,15 @@ Un programa que aprende a jugar ajedrez (T) podría mejorar su desempeño medidi
 
 ### Análisis Sintáctico
 - Se hace un parse tree que indica como fue producido lo anterior.
-- Solo si el árbol es **unico** es que el progr
+- Solo si el árbol es **unico** es que el programa esta bien, no hay error de sintaxis.
+
+### Análisis Semántico o Contextual
+- Contextualiza algunas cosas que no están definidas.
+- Por ejemplo las variables. 
+- Recorres el árbol y armas una tabla de símbolos, la cual le da significadop a los símbolos.
+- Es un 60% del compilador.
+- También hace validaciones estáticas. Todas las que no tienen que ver con sintaxis.
+
+### Generación de Código
+- Se recorre el árbol (cuando este es correcto)
+
