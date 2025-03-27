@@ -89,8 +89,17 @@ Sistemas complejos
 - Se descomponen en agentes.
 
 #### Artificial Intelligence
-- Area de la Sciencia de Computación creada en 1956
+- Area de la Ciencia de Computación creada en 1956
 
 #### ML
 - Una subarea de la IA.
-- Su objetivo es dado un cierto problema, resolverlo con un agente inteligente
+- Su objetivo es dado un cierto problema, resolverlo con un agente inteligente y un conjunto de información relacionada a ese problema.
+- Machine learning es un agente que se especializa en solucionar un único problema.
+
+#### Deep Learning
+- Una de las técnicas mas populares de ML.
+- Requiere mucho hardware.
+- Objetivo: Usar modelo matemático capaz de manejar muchos parámetros al mismo tiempo para mejorar rendimiento de predicción.
+
+#### Generative AI
+- En 2017 
