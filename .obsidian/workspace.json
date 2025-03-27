@@ -190,9 +190,39 @@
               "icon": "lucide-file",
               "title": "Glosario de Estándares"
             }
+          },
+          {
+            "id": "4b7df27de04b466b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Advanced Application Developement/Clases/Clase 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 1"
+            }
+          },
+          {
+            "id": "07be624f81a77c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Advanced Application Developement/Clases/Clase 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 2"
+            }
           }
         ],
-        "currentTab": 9,
+        "currentTab": 13,
         "stacked": true
       }
     ],
@@ -378,10 +408,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b90864c28767e017",
+  "active": "07be624f81a77c73",
   "lastOpenFiles": [
-    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Advanced Application Developement/Clases/Clase 1.md",
+    "School/Advanced Application Developement/Clases/Clase 2.md",
     "School/Ceneval/Glosario de Estándares.md",
+    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "Chinese/HSK4/成功之路/第11课.md",
@@ -392,7 +424,6 @@
     "School/TC3005B/TC3005B.5/3. CMMI-DEV.md",
     "School/TC3005B/TC3005B.5/4. ISO-IEC-15504.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
-    "School/Advanced Application Developement/Clases/Clase 1.md",
     "School/Advanced Application Developement/Clases",
     "School/Advanced Application Developement",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
@@ -414,7 +445,6 @@
     "Technologies/Design Patterns/Behavioral/State.md",
     "Technologies/Design Patterns/Behavioral/Template.md",
     "Technologies/Design Patterns/Behavioral/Command.md",
-    "Technologies/Design Patterns/Behavioral/Strategy.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
