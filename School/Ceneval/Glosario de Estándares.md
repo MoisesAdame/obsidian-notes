@@ -29,6 +29,7 @@ Date: 2025-03-24 : 13:53
 - CMMI :: **C**apability **M**aturity **M**odel **I**ntegration (**CMMI**). Busca mejorar procesos de software mediante su evaluación.
 - TSP :: Team Software Development Process. Tiene roles y usa información de PSP para generar mediciones.
 - PSP :: Personal Software Development Process. Es de uso personal, le da disciplina a ingeniero mejorando la calidad de sus productos.
+- MoProSoft :: **Mo**delo de **Pro**cesos para la Industria de **Soft**ware. Como SPICE o CMMI pero para PyMEs.
 
 
 
