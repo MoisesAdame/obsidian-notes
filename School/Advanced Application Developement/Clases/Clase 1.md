@@ -87,3 +87,10 @@ La IA generativa no es la respuesta, es la IA generalista.
 #### Sistemas MultiAgentes
 Sistemas complejos
 - Se descomponen en agentes.
+
+#### Artificial Intelligence
+- Area de la Sciencia de Computación creada en 1956
+
+#### ML
+- Una subarea de la IA.
+- Su objetivo es dado un cierto problema, resolverlo con un agente inteligente
