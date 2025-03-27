@@ -11,6 +11,7 @@ Date: 2025-03-24 : 13:53
 ## 2 Diseño de Sistemas de Software
 #Q 
 - IEEE 1471-2000 :: Usa el modelo 4+1 (vistas de krunchen)
+- IEEE 1016 :: Software design description (SDD). Integra cosas como arquitectura interfaz y flujo de datos.
 
 ## 3 Desarrollo de Sistemas de Software
 #Q 
@@ -26,8 +27,9 @@ Date: 2025-03-24 : 13:53
 - ISO/IEC 25000 :: **S**ystem and **S**oftware **Qua**lity **R**equierements and **E**valuation (**SQUARE**). Junta ISO/IEC 9126 e ISO/IEC 14598.
 - ISO/IEC 15504 :: **S**oftware **P**rocess **I**mprovement and **C**apability d**E**termination (**SPICE**). Busca mejorar los procesos de software mediante su evaluación.
 - CMMI :: **C**apability **M**aturity **M**odel **I**ntegration (**CMMI**). Busca mejorar procesos de software mediante su evaluación.
-- TSP :: Team Software Development Process. 
-- PSP :: 
+- TSP :: Team Software Development Process. Tiene roles y usa información de PSP para generar mediciones.
+- PSP :: Personal Software Development Process. Es de uso personal, le da disciplina a ingeniero mejorando la calidad de sus productos.
+
 
 
 ## Flashcards
