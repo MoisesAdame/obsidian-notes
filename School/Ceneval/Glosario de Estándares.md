@@ -26,7 +26,7 @@ Date: 2025-03-24 : 13:53
 - ISO/IEC 25000 :: **S**ystem and **S**oftware **Qua**lity **R**equierements and **E**valuation (**SQUARE**). Junta ISO/IEC 9126 e ISO/IEC 14598.
 - ISO/IEC 15504 :: **S**oftware **P**rocess **I**mprovement and **C**apability d**E**termination (**SPICE**). Busca mejorar los procesos de software mediante su evaluación.
 - CMMI :: **C**apability **M**aturity **M**odel **I**ntegration (**CMMI**). Busca mejorar procesos de software mediante su evaluación.
-- TSP :: 
+- TSP :: Team Software Development Process. 
 - PSP :: 
 
 
