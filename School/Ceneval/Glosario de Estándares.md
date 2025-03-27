@@ -22,7 +22,8 @@ Date: 2025-03-24 : 13:53
 - IEEE 1028 :: Define cinco tipos de revisiones y auditorías de software, junto con los procedimientos necesarios para su ejecución.
 - ISO 9000 :: Estándar generalista de calidad.
 - ISO 12207 :: Modelos de Ciclo de Vida de Software.
-- ISO/IEC 14598 :: 
+- ISO/IEC 14598 :: Mediciones y evaluaciones de la calidad de producto de software.
+- 
 
 
 ## Flashcards
