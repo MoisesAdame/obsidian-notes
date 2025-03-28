@@ -112,7 +112,10 @@ El conjunto $S$ de todos los posibles eventos de una medición.
 ##### Distribución de Probabilidad
 Conjunto $X$ de los posibles resultados que puedo observar.
 
-
+##### Probabilidad
+$$
+P = \frac{\text{num. de éxitos}}{|S|}
+$$
 
 
 
