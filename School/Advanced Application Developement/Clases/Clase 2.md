@@ -68,6 +68,26 @@ Mientras mas métodos use, mas rica es la investigación, pero a la vez mas dif�
 - Competencia: Soy lo suficientemente competente para hacer el estiu
 
 ## Módulo Leopoldo
+### Probabilidad
+- Siempre está entre: 0 y 1.
+- Hay variables aleatorias de varios tipos: Discretas o continus
+
+### Teoría de la Probabilidad
+#### Conceptos
+- Probabilidad: Idea que nos permite hacer predicciones que nos permiten decir que tan posible es algo que ocurra o no, enmarcadas por un **espacio muestra**.
+- Variables Independientes: Valores que no dependen de otros.
+- Variables Dependientes: Se afectan por otros.
+- Muestreo: Proceso de obtener un conjunto de observaciones o datos de una muestra.
+
+#### Cálculo de Probabilidades
+Probabilidad de dos eventos independientes $p_{1}$ y $p_{2}$
+$$
+P = p_{1} p_{2}
+$$
+#### Formalidad
+Sea $S$ un espacio muestral sobre el cual se encuentra definida un función de probabilidad. Y sea $X$ una función de valor real definida sobre $S$ tal que transforme los resultados 
+
+
 
 
 
