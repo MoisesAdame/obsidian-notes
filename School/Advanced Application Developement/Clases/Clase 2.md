@@ -116,7 +116,22 @@ Conjunto $X$ de los posibles resultados que puedo observar.
 $$
 P = \frac{\text{num. de éxitos}}{|S|}
 $$
+##### Variables Aleatorias Continuas
+Sea $X$ una variable aleatoria, si los valores de $X$ pueden asumir infinidad de valores que corresponden a los puntos en un intervalo de recta. 
+$$
+P(a \leq X \leq b) = \int_{a}^{b}f(x)dx
+$$
+Donde $f(x)$ es la **probability density function**.
 
+Condiciones:
+$$
+f(x) \geq 0
+$$
+
+
+$$
+\int_{2}^{3}e^{-\frac{x}{2}}dx = -\frac{1}{2}
+$$
 
 
 
