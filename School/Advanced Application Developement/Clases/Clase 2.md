@@ -85,7 +85,34 @@ $$
 P = p_{1} p_{2}
 $$
 #### Formalidad
-Sea $S$ un espacio muestral sobre el cual se encuentra definida un función de probabilidad. Y sea $X$ una función de valor real definida sobre $S$ tal que transforme los resultados 
+##### Variables Aleatorias
+Sea $S$ un **espacio muestral** sobre el cual se encuentra definida un **función de probabilidad**. Y sea $X$ una función de valor real definida sobre $S$ tal que transforme los resultados de $S$ en una cantidad numérica. Una variable $X$ es una **variable aleatoria** si el valor que asume, de acuerdo con el resultado de un experimento, es un evento aleatorio.
+
+Ejemplos:
+- $X$ puede ser el número de caras al lanzar monedas.
+
+Hay **dos tipos de variables aleatorias**:
+- Para eventos continuos
+- Para eventos discretos.
+
+##### Variables Aleatorias Discretas
+Sea $X$ una **variable aleatoria**. Si el número de valores de $X$ es finito o infinitamente contable, se dice que $X$ es una variable aleatoria discreta.
+
+**Condiciones**
+Estas condiciones se deben respetar desde el punto de vista del **espacio muestra** o de la **variable aleatoria**.
+$$
+0 \leq p(X) \leq 1
+$$
+$$
+\sum_{i = 1}^{n}(X = x_{i}) = 1
+$$
+##### Espacio muestra
+El conjunto $S$ de todos los posibles eventos de una medición.
+
+##### Distribución de Probabilidad
+Conjunto $X$ de los posibles resultados que puedo observar.
+
+
 
 
 
