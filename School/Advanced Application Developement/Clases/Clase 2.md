@@ -147,6 +147,8 @@ $$
 #### Distribución
 Es la forma o patrón en la que se acomodan los datos o sus probabilidades.
 
+### Ejercicios
+#### Ejercicio 1
 
 
 
