@@ -46,6 +46,20 @@ Cuantitativos:
 - Estadística inferencial.
 - Inteligencia artificial.
 
+### Modelo de Investigación en Capas (Onion Model)
+- Análisis Longitudinal: A lo largo del tiempo. Ejemplo acciones de las farmacéuticas.
+
+Mientras mas métodos use, mas rica es la investigación, pero a la vez mas difícil de establecer.
+
+- Caso de Estudio: Documentas un caso. Por ejemplo doctor que documenta el uso del veneno de alacrán. 
+
+
+- Deductivo, veo mis datos y deduzco lo que esta pasando. Tienes una hipótesis.
+- Inductivo: Tienes unos datos y a ver que me encuentro.
+
+### Consideraciones Éticas de la Investigación
+- Non-maleficence: Que no cause mal.
+
 
 
 
