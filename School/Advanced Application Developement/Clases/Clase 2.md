@@ -109,7 +109,7 @@ $$
 ##### Espacio muestra
 El conjunto $S$ de todos los posibles eventos de una medición.
 
-##### Distribución de Probabilidad
+##### Variable Observable
 Conjunto $X$ de los posibles resultados que puedo observar.
 
 ##### Probabilidad
