@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 12,
         "stacked": true
       }
     ],
@@ -393,9 +393,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09a252d16e3682cb",
+  "active": "07be624f81a77c73",
   "lastOpenFiles": [
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Advanced Application Developement/Clases/Clase 2.md",
     "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Reactivos Ceneval.md",
@@ -405,14 +407,12 @@
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "Chinese/HSK4/成功之路/第11课.md",
     "Chinese/HSK4/HSK4计划.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/TC3005B/TC3005B.5/3. CMMI-DEV.md",
     "School/TC3005B/TC3005B.5/4. ISO-IEC-15504.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Advanced Application Developement/Clases",
     "School/Advanced Application Developement",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/TC3005B/TC3005B.1/9. Cierre del Proyecto.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Distributed Systems/Clases/Clase 2.md",
@@ -429,7 +429,6 @@
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
     "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg",
     "Technologies/Design Patterns/Behavioral/State.md",
-    "Technologies/Design Patterns/Behavioral/Template.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",

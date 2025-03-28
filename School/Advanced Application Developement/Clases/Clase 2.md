@@ -65,8 +65,9 @@ Mientras mas métodos use, mas rica es la investigación, pero a la vez mas dif�
 - Confidencialidad: No divulgar datos.
 - Dignidad: Respetar la dignidad de persona. Estudios no invasivos.
 - Beneficence: Que nuestros resultados sean una aportación a la sociedad.
-- Competencia: Soy lo suficientemente competente para hacer el estudio.
+- Competencia: Soy lo suficientemente competente para hacer el estiu
 
+## Módulo Leopoldo
 
 
 
