@@ -130,8 +130,24 @@ $$
 
 
 $$
-\int_{2}^{3}e^{-\frac{x}{2}}dx = -\frac{1}{2}
+\int_{2}^{3} \frac{1}{2}e^{-\frac{x}{2}}dx = e^{-3/2} - e^{-2/2} = \frac{1}{4}(e^{-1} - e^{-1.5}) = 
 $$
+
+#### Función de Distribución Acumulada
+##### Discreta
+$$
+F(X) = \sum_{x_{i} \leq z} p(x_{i})
+$$
+
+##### Continua
+$$
+F(X) = \int_{-\infty}^{x}f(t)dt
+$$
+### Funciones de Distribución
+#### Distribución
+Es la forma o patrón en la que se acomodan los datos o sus probabilidades.
+
+
 
 
 
