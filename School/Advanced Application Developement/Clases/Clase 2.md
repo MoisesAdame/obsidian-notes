@@ -59,6 +59,13 @@ Mientras mas métodos use, mas rica es la investigación, pero a la vez mas dif�
 
 ### Consideraciones Éticas de la Investigación
 - Non-maleficence: Que no cause mal.
+- Integridad: No usar datos falsos.
+- Autonomía: Que no haya conflicto de interés.
+- Privacidad: Datos personales (cosas que no pueden ser públicas) Usar los datos para lo que dijiste. 
+- Confidencialidad: No divulgar datos.
+- Dignidad: Respetar la dignidad de persona. Estudios no invasivos.
+- Beneficence: Que nuestros resultados sean una aportación a la sociedad.
+- Competencia: Soy lo suficientemente competente para hacer el estudio.
 
 
 
