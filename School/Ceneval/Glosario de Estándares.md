@@ -33,8 +33,6 @@ Date: 2025-03-24 : 13:53
 - **ISO/IEC 29110** :: Perfiles del Ciclo de Vida para Entidades muy Pequeñas. MoProSoft pero con reconocimiento internacional.
 - **ISO/IEC 33000** :: Actualización de ISO/IEC 15504. Mas flexible y moderno.
 
-
-
 ## Flashcards
 ```aosr-deck-config
 {
