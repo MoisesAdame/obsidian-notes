@@ -214,9 +214,9 @@
               "state": {
                 "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
                 "viewState": {
-                  "x": 335.2791937221239,
-                  "y": 517.741494708704,
-                  "zoom": -1.0418618610993822
+                  "x": 124.1628998452083,
+                  "y": 338.54311459265125,
+                  "zoom": -0.6136705108976171
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -224,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 13,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -299,7 +299,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +309,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Niveles de Desarrollo"
+              "title": "Backlinks for 4.2 Calidad de Software"
             }
           },
           {
@@ -318,12 +318,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Niveles de Desarrollo"
+              "title": "Outgoing links from 4.2 Calidad de Software"
             }
           },
           {
@@ -347,13 +347,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Niveles de Desarrollo"
+              "title": "Outline of 4.2 Calidad de Software"
             }
           },
           {
@@ -409,11 +409,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1649ffc42a68ff5a",
+  "active": "52debf4bf2e611be",
   "lastOpenFiles": [
-    "School/Ceneval/Glosario de Estándares.md",
-    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Glosario de Estándares.md",
+    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
@@ -442,11 +443,9 @@
     "School/Distributed Systems/Clases/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 1.md",
     "School/TC3005B/TC3005B.1/8. Gestión de Lanzamiento.md",
-    "School/TC3005B/TC3005B.1/3. Control de Cambios de la Configuración.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software",
     "School/Distributed Systems/Clases",
     "School/Distributed Systems",
-    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.1.png",
