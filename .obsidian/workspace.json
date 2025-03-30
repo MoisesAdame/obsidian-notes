@@ -182,10 +182,25 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg"
+                "file": "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg"
               },
               "icon": "lucide-image",
-              "title": "fig2.1.1"
+              "title": "fig2.1.2"
+            }
+          },
+          {
+            "id": "325008c349635b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technologies/Design Patterns/Structural/Composite.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Composite"
             }
           }
         ],
@@ -377,6 +392,9 @@
   },
   "active": "75171a7641d889d8",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg",
+    "Technologies/Design Patterns/Structural/Composite.md",
+    "Technologies/Design Patterns/Structural/Bridge.md",
     "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
@@ -404,13 +422,10 @@
     "School/Distributed Systems/Clases/Clase 1.md",
     "School/TC3005B/TC3005B.1/8. Gestión de Lanzamiento.md",
     "School/TC3005B/TC3005B.1/3. Control de Cambios de la Configuración.md",
-    "School/TC3005B/TC3005B.1/1. Identificación de la Configuración.md",
-    "School/TC3005B/TC3005B.1/6. Control de Interfaces.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software",
     "School/Distributed Systems/Clases",
     "School/Distributed Systems",
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
-    "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/0. Assets/fig2.2.3.png",
     "School/Ceneval/Guía/0. Assets/fig2.2.2.png",
