@@ -138,7 +138,7 @@
               "type": "markdown",
               "state": {
                 "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -377,15 +377,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13382ec9cd365df4",
+  "active": "4586bdd2046f9967",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
-    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
-    "School/Ceneval/Reactivos Ceneval.md",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
+    "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "School/Ceneval/Reactivos Ceneval.md",
     "Technologies/Design Patterns/Structural/Composite.md",
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
     "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg",
