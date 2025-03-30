@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +277,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos"
+              "title": "Backlinks for 4.2 Calidad de Software"
             }
           },
           {
@@ -286,12 +286,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos"
+              "title": "Outgoing links from 4.2 Calidad de Software"
             }
           },
           {
@@ -315,13 +315,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos"
+              "title": "Outline of 4.2 Calidad de Software"
             }
           },
           {
@@ -377,10 +377,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4586bdd2046f9967",
+  "active": "52debf4bf2e611be",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
