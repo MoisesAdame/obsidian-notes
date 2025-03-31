@@ -224,7 +224,7 @@
             }
           }
         ],
-        "currentTab": 9,
+        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -409,11 +409,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52debf4bf2e611be",
+  "active": "4586bdd2046f9967",
   "lastOpenFiles": [
-    "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+    "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
