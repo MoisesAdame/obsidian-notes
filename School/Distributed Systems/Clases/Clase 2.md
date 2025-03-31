@@ -14,7 +14,7 @@ Date: 2025-03-25 : 16:46
 - Centralizar sistema de información, que esta info esté compartida en todos los hospitales.
 - Todos los hospitales trabajan con dispositivos médicos que dependen de conexión en internet.
 
-### Prtotoclos y Estándares
+### Prtotocolos y Estándares
 - Manejo y transmisión de imagen en tiempo real.
 - Información de 
 
