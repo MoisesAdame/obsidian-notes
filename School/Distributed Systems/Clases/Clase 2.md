@@ -47,7 +47,7 @@ Date: 2025-03-25 : 16:46
 
 ### Asistente Virtual
 
-### Preguntas
+### Respuestas a Preguntas
 - Debe haber seguridad en el sistema, porque se esta trabajando con información sensible.
 - Nosotros le damos el presupuesto, no hay como tal un límite
 - No hay infraestructura preexistente
