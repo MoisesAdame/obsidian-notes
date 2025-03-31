@@ -214,9 +214,9 @@
               "state": {
                 "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
                 "viewState": {
-                  "x": 439.9086985311467,
-                  "y": 276.4742747560074,
-                  "zoom": -1.3420911737775612
+                  "x": 1656.8232048150255,
+                  "y": 384.9710725142309,
+                  "zoom": -1.221219478398145
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -411,15 +411,17 @@
   },
   "active": "52debf4bf2e611be",
   "lastOpenFiles": [
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
-    "School/Ceneval/Reactivos Ceneval.md",
-    "School/Ceneval/Glosario de Estándares.md",
-    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
+    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
+    "School/Ceneval/Glosario de Estándares.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "Technologies/Design Patterns/Structural/Composite.md",
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
     "School/Ceneval/Guía/0. Assets/fig2.1.1.jpg",
@@ -428,8 +430,6 @@
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/Untitled.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Advanced Application Developement/Clases/Clase 2.md",
     "School/Advanced Application Developement/Clases/Clase 1.md",
     "School/Advanced Application Developement/Clases/Untitled.md",
