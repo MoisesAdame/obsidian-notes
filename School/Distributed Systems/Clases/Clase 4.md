@@ -42,8 +42,21 @@ Sale (switch 1) con el tag -> Llega a switch de distribución -> Llega a swicth 
 **Tráfico nativo:** Se pone hub y a el se le conectan computadoras. Si no queremos que se conviertan en tramas vlan truncales, entonces son **tramas nativas**. Al llegar al truncal, no se encapsula.
 
 #### Rangos de VLAN
-Normalmente se numeran de: **1 - 1005**.
+Normalmente se numeran de: **1 - 1005**. 
 
+#### Configuración
+vlan 10
+name Admin
+vlan 20 
+name Accounts
+vlan 30
+name HR
+vlan 40
+name Voice
+vlan 99
+name Management
+vlan 100
+name Native
 
 
 
