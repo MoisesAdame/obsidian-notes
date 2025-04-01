@@ -25,4 +25,5 @@ WAN
 
 Ver tablas de enrutamiento de Routers: `show ip route`
 
-Enrutamient
+Enrutamiento estático entre WANS
+`ip route <ip de segmento interno> <máscara> <gateway>`
