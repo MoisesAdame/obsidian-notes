@@ -40,6 +40,28 @@ interface gigabitEthernet 0/0/1
 ip address 192.168.22.254 255.255.255.0
 no shutdown
 
+
+enable
+configure
+interface gigabitEthernet 0/0/0
+ip address 192.168.31.254 255.255.255.0
+no shutdown
+exit
+
+interface gigabitEthernet 0/0/1
+ip address 192.168.32.254 255.255.255.0
+no shutdown
+
+
+interface gigabitEthernet 0/0/0
+ip address 192.168.41.254 255.255.255.0
+no shutdown
+exit
+
+interface gigabitEthernet 0/0/1
+ip address 192.168.42.254 255.255.255.0
+no shutdown
+
 **configuration WAN router**
 conf t
 interface Serial0/1/0
