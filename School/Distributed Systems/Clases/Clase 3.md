@@ -19,3 +19,6 @@ Lo que hace es que me permite verificar la conexión entre dos dispositivos hast
 Manda un mensaje ICMP: Protocolo de mensajes de control de internet. 
 
 Envia solicitudes de eco (tipo 8 código 0) y espera solicitudes de eco (tipo 0 código cero)
+
+WAN
+- Cable Serial: Hay dos tipos DCE y DTE. 
