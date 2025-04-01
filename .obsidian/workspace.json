@@ -252,9 +252,24 @@
               "icon": "lucide-file",
               "title": "Clase 3"
             }
+          },
+          {
+            "id": "42e531aa832a5038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Distributed Systems/Clases/Clase 4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 4"
+            }
           }
         ],
-        "currentTab": 15,
+        "currentTab": 16,
         "stacked": true
       }
     ],
@@ -439,11 +454,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8521d850b2116c3",
+  "active": "42e531aa832a5038",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Clase 3.md",
+    "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 1.md",
     "School/Distributed Systems/Clases/Clase 2.md",
-    "School/Distributed Systems/Clases/Clase 3.md",
     "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.1 Diseño Arquitectónico de Software.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3 Técnicas y Herramientas de Documentación de Requerimientos.md",
