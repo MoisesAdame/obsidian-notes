@@ -27,3 +27,15 @@ Ver tablas de enrutamiento de Routers: `show ip route`
 
 Enrutamiento estático entre WANS
 `ip route <ip de segmento interno> <máscara> <gateway>`
+
+
+enable
+configure
+interface gigabitEthernet 0/0/0
+ip address 192.168.21.254 255.255.255.0
+no shutdown
+exit
+
+interface gigabitEthernet 0/0/1
+ip address 192.168.22.254 255.255.255.0
+no shutdown
