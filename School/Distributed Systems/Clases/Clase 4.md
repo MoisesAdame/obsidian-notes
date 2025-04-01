@@ -28,7 +28,21 @@ Al comprar un switch, todos los puertos están en **la misma VLAN** esta es la *
 **VLAN de Voz:** Alta prioridad de QoS.
 
 #### Troncales de VLAN
+Cuando llega al gateway del switch un paquete de una VLAN, lo debemos poder distinguir con otro paquete de otra VLAN. Antes, por VLAN se ponían cables. Pero esto se cambió.
 
+En **un mismo cable** metemos tramas de diferentes VLANS y para eso se usa el **protocolo troncal**. Se llama **IEEE 802.1Q**.
+
+#### Protocolo IEEE 802.1Q
+Lo que hace es modificar la trama.
+
+Le mete un **tag** que son **4 octetos de mas**. Pone protocolo. Identificador de VLAN.  Pero esta modificación, solo se ve en los switches donde hay troncales
+
+Sale (switch 1) con el tag -> Llega a switch de distribución -> Llega a swicth de acceso final y ahí se le quita el tag.
+
+**Tráfico nativo:** Se pone hub y a el se le conectan computadoras. Si no queremos que se conviertan en tramas vlan truncales, entonces son **tramas nativas**. Al llegar al truncal, no se encapsula.
+
+#### Rangos de VLAN
+Normalmente se numeran de: **1 - 1005**.
 
 
 
