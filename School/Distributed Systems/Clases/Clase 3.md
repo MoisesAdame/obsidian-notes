@@ -71,12 +71,10 @@ no shutdown
 
 interface Serial0/1/1
 ip address 10.1.2.1 255.255.255.252
-clock rate 64000
 no shutdown
 
 interface Serial0/2/0
 ip address 10.1.3.1 255.255.255.252
-clock rate 64000
 no shutdown
 exit
 
