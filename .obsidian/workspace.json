@@ -222,6 +222,16 @@
               "icon": "lucide-file",
               "title": "Clase 4"
             }
+          },
+          {
+            "id": "66595e1e3087a77b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
         "currentTab": 13,
@@ -411,9 +421,9 @@
   },
   "active": "42e531aa832a5038",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Untitled.md",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Ceneval/Reactivos Ceneval.md",
+    "School/Distributed Systems/Clases/Untitled.md",
     "School/Distributed Systems/Clases/Clase 3.md",
     "School/Distributed Systems/Clases/Clase 1.md",
     "School/Distributed Systems/Clases/Clase 2.md",
