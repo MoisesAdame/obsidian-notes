@@ -22,3 +22,7 @@ Envia solicitudes de eco (tipo 8 código 0) y espera solicitudes de eco (tipo 0 
 
 WAN
 - Cable Serial: Hay dos tipos DCE y DTE. 
+
+Ver tablas de enrutamiento de Routers: `show ip route`
+
+Enrutamient
