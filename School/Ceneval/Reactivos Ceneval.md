@@ -13,7 +13,7 @@ Date: 2025-02-16 : 15:52
 | 2. Diseño de Sistemas de Software     | [[2.1 Diseño Arquitectónico de Software]]                                                                | 10                |
 |                                       | [[2.2 Diseño de Módulos, Componentes y de Datos de Software]]                                            | 16                |
 |                                       | [[2.3 Diseño de Interfaces]]                                                                             | 7                 |
-| 3. Desarrollo de Sistemas de Software | 3.1. Lenguajes de desarrollo de software                                                                 | 10                |
+| 3. Desarrollo de Sistemas de Software | [[3.1 Lenguajes de desarrollo de software]]                                                                                                  | 10                |
 |                                       | 3.2. Paradigmas de programación                                                                          | 10                |
 |                                       | 3.3. Entornos de desarrollo                                                                              | 10                |
 |                                       | 3.4. Gestión de datos                                                                                    | 9                 |
