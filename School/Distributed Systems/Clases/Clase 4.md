@@ -101,5 +101,21 @@ Es más cercano a un IaaS que a un PaaS. Pero nos da cierta libertad.
 ### STaaS
 STaaS: Storage as a Service
 
+Tiene dos complejidades:
+1. Cantidad de almacenamiento en volumen.
+2. Consulta y escritura.
+
+Estas soluciones son **muy baratas**.
+
+### Modelo de Responsabilidad Compartida
+Este modelo sale a relucir cuando empiezan a haber **problemas**.
+
+Hay dos caras de montarnos en un probedoor
+1. Seguridad **DE** la nube: Lo que vemos cuando todo va bien. Lo que nos gusta. Lo que ya existe. Es muy difícil que falle. Tiene muy buena infraestructura y niveles de calidad.
+2. Seguridad **EN** la nube: Perdemos libertades porque delegamos responsabilidad al proveedor. Esto generalmente está oculto. 
+
+
+
+
 
 
