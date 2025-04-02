@@ -30,4 +30,5 @@ Es un proceso que debe ser implementado de forma rígida.
 Muy similar al de un proyecto normal de software.
 
 Partes:
-1. **Project Set Up:** Requisitos basados en datos enfocados a cumplir objetivos de negocio. La parte dos son los modelos, ele
+1. **Project Set Up:** Requisitos basados en datos enfocados a cumplir objetivos de negocio. La parte dos son los modelos, elegir el modelo correcto.
+2. **Data Preparation:** 1) Data collection (Es la base de datos) 2) Data cleaning (filtrado de datos y los limpias con algún algoritmo depende de la tarea) 3) Feature engineering (Hoy es el 90% del esfuerzo. Es empaquetar los datos para que el modelo lo consuma.) 4) Split the data (Divides los datos 20% para testear y 80% de entrenamiento, pero hay técnicas para hacerlo.)
