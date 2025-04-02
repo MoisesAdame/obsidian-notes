@@ -151,6 +151,29 @@ Si hay mala **latencia**, no hay disponibilidad.
 
 **Ancho de Banda** Es la capacidad de mi canal para eviar información. La cadntidad de carriles de una carretera. Se relaciona mucho con el **troughput**.
 
+Actualmente el ancho de banda siempre va a fluctuar. Porque pasa por muchas partes. Access points, cableados, etc.
+
+### VPC
+Significa: Virtual Private Cloud.
+
+Es una red privada virtual.
+
+Nos da una red no expuesta a internet. Todo lo que pasa ahí adentro, esta resguardado.
+
+Para tener acceso a esto, se nos da una ip pública.
+
+### Firewall
+Generalmente vienen como un **servicio implícito** de la VPC.
+
+### Load Balancer
+Dejar entrar tráfico. 
+
+Load Balancer: Se orienta al tráfico entrante. Sirven para distribuir el tráfico de manera eficiente.
+
+Hay dos:
+- Externos: Ip pública.
+- Interno: 
+
 
 
 
