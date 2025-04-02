@@ -174,6 +174,28 @@ Hay dos:
 - Externos: Ip pública.
 - Interno: 
 
+Componentes de red que son **parte fundamental** de la escalabilidad. Hacen que varias máquinas trabajen como una misma.
+
+Pueden ser **directos** o **proxificados**:
+- Proxy: Es una especie de representante para salir a internet. Un load balancer así es para ambos lados. Nos sirve como detector de metales. 
+- Directo: Un buzón
+
+### NAT
+NAT: Varias IP's se traducen a una misma.
+
+Cuando salimos a internet, nuestra IP pública esta nateada, porque no ven nuestra ip privada.
+
+Es una medida de seguridad.
+
+### VPN
+Van a través de canal público, pero se encapsulan en un tunel el cual está cifrado.
+
+Dos tipos de VPN:
+- Destinada a que dispositivos puedan acceder a nube:
+- Site to Site: Servicios o recursos de un sitio se conecten con servicios o recursos de otros. Esto se hace con las **VPN Gateways**. Lo primero que hacen es *enrutar*. Luego Border Gateway Protocol (BGP) ayuda a los enrutadores a armar una tabla de ruteo. Esta es la forma mas barata de conectar sitios físicos com sitios cloud.
+
+### Interconexión dedidaca
+
 
 
 
