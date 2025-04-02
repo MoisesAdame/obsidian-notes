@@ -115,6 +115,24 @@ Hay dos caras de montarnos en un probedoor
 2. Seguridad **EN** la nube: Perdemos libertades porque delegamos responsabilidad al proveedor. Esto generalmente está oculto. 
 
 
+### Geográficamente Replicado
+Regiones: En algún punto específica.
+
+Diferencia entre región y zona: Zona es una parte de una región. La razón de la existencia de esto es redundancia. No hay un data center, hay varios y ellos son totalmente autónomos, lo que me dice que si se cae una zona, es probable que las otras siguen vivas.
+
+Cuando depende tener diferentes regiones: Cuando tengo usuarios en diferentes regiones.
+
+Cada centro de datos esta sujeto a leyes diferentes: Según país o estado.
+
+### Data Center vs. Site
+La principal diferencia es: La calidad.
+
+### Y el cifrado?
+
+- Reposo: Almacenado, escrito.
+- En tránsito: Se envía información a través de red.
+- En uso: 
+
 
 
 
