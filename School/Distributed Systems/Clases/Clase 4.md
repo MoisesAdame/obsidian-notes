@@ -131,7 +131,25 @@ La principal diferencia es: La calidad.
 
 - Reposo: Almacenado, escrito.
 - En tránsito: Se envía información a través de red.
-- En uso: 
+- En uso: RAM. 
+
+Al igual, el cifrado es una **responsabilidad compratida**.
+
+### Site o Data Center
+- Data Center: Requisitos muy estrictos para operar. **ALTA DISPONIBILIDAD**.
+
+### Disponibilidad es Seguridad
+La **disponibilidad** nos da **confianza**.
+
+La **latencia** es el tiempo que se tarda en contestar.
+
+Si hay mala **latencia**, no hay disponibilidad.
+
+**Latencia** es tiempo. Desde que envias hasta que regresa.
+
+**Ancho de banda:** Cantidad de info que pasa por red en un tiempo determinado. Eso en realidad no es **ancho de banda**. Eso es **troughput**. 
+
+**Ancho de Banda** Es la capacidad de mi canal para eviar información. La cadntidad de carriles de una carretera. Se relaciona mucho con el **troughput**.
 
 
 
