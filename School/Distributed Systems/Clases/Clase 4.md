@@ -51,6 +51,9 @@ Seguridad: `switch mode access` obliga a que lo único que se pueda conectar a e
 
 Definir que vlan: Normalmente cada puerto tiene solo un vlan. Es lo más común. Para definir eso: `sss` 
 
+## Módulo Emmanuel
+
+
 
 
 
