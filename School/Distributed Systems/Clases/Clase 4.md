@@ -195,6 +195,11 @@ Dos tipos de VPN:
 - Site to Site: Servicios o recursos de un sitio se conecten con servicios o recursos de otros. Esto se hace con las **VPN Gateways**. Lo primero que hacen es *enrutar*. Luego Border Gateway Protocol (BGP) ayuda a los enrutadores a armar una tabla de ruteo. Esta es la forma mas barata de conectar sitios físicos com sitios cloud.
 
 ### Interconexión dedidaca
+**MUY CARO**
+
+Mayor **troughput** porque no dependes del ancho de banda de una VPN.
+
+### API Gateway
 
 
 
