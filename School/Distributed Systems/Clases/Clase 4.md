@@ -55,15 +55,51 @@ Definir que vlan: Normalmente cada puerto tiene solo un vlan. Es lo más común.
 ### Modalidades de Servicio
 Quién es el responsable? En cada una cambia esa respuesta:
 
-**IaaS:** Nosotros somos responsables de crear cimientos sólidos. Esto, nos da mas libertades. Se cobra por tiempo y recursos.
+**IaaS:** Nosotros somos responsables de crear cimientos sólidos. Esto, nos da mas libertades. Se cobra por tiempo y recursos. Es difícil predecir, pero menos que el SaaS.
 
 **PaaS:** Por ejemplo firebase. No podemos decirle que sistema operativo, que cpu, que ram. De eso se encarga el proveedor. Esa es una ventaja, pero a la vez una desventaja porque perdemos libertad. 
 
-**SaaS:** Un servicio que usamos. Ejemplo: Google Maps, Netflix. Se cobra por licencia, suscripción o llamada.
+**SaaS:** Un servicio que usamos. Ejemplo: Google Maps, Netflix. Se cobra por licencia, suscripción o llamada. No es tan sencillo predecir.
 
+### IaaS
+Hardware como servicios
 
+Generalmente es **pago por uso**. Renta por aprovisionamiento.
 
+Es más fácil vender un CPU solo para ti que un Google Maps solo para ti.
 
+### PaaS
+Generalmente es **pago por uso**.
+
+Limitaciones puestas por el proveedor. 
+
+Administrado por el proveedor.
+
+### SaaS
+Apis, consumo web
+
+Pago por uso
+
+Son como una caja negra.
+
+Completamente administrado por el proveedor.
+
+### FaaS
+FaaS: Function as a Service.
+
+Serverless: No es que no haya servers. Nosotors no tenemos que **configurar** o **mantener esos servidores**.
+
+FaaS: El proveedor nos dice que lo único de lo que nos tenemos que preocupar es el código.
+
+Ejemplo: Lamda es un FaaS.
+
+### DaaS
+DaaS: Database as a Service
+
+Es más cercano a un IaaS que a un PaaS. Pero nos da cierta libertad.
+
+### STaaS
+STaaS: Storage as a Service
 
 
 
