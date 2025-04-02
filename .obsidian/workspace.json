@@ -257,7 +257,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AOSR/1it4j/s/7qjj",
+                "query": "tag:alphabet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -278,7 +278,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -411,15 +412,17 @@
   },
   "active": "1e6d96e05e5cfc4f",
   "lastOpenFiles": [
-    "School/Ceneval/Reactivos Ceneval.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.1 Lenguajes de Desarrollo de Software.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
+    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
+    "School/Ceneval/Reactivos Ceneval.md",
+    "Masters/Automata And Computability/1. Introduction/2. Strings And Sets.md",
+    "Masters/Automata And Computability/2. Finite Automata And Regular Sets/3. Finite Automata And Regular Sets.md",
     "School/Transformación Digital/Notas/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 4.md",
-    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Transformación Digital/Notas/Clase 3.md",
     "School/Distributed Systems/Clases/Untitled.md",
     "School/Distributed Systems/Clases/Clase 3.md",
@@ -440,8 +443,6 @@
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/Untitled.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2 Técnicas y Herramientas para la Obtención, Análisis, Priorización y Validación de Requerimientos.md",
     "School/Advanced Application Developement/Clases/Clase 2.md",
-    "School/Advanced Application Developement/Clases/Clase 1.md",
-    "School/Advanced Application Developement/Clases/Untitled.md",
     "School/Advanced Application Developement/Clases",
     "School/Advanced Application Developement",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software",
