@@ -45,13 +45,21 @@ Sale (switch 1) con el tag -> Llega a switch de distribución -> Llega a swicth 
 Normalmente se numeran de: **1 - 1005**. 
 
 #### Configuración
-La VLAN no es algo centralizado, por lo que en todos los siwtches hay que ponerlo.
+La VLAN no es algo centralizado, por lo que en todos los switches hay que ponerlo.
 
 Seguridad: `switch mode access` obliga a que lo único que se pueda conectar a ese puerto es un dispositivo terminal.
 
 Definir que vlan: Normalmente cada puerto tiene solo un vlan. Es lo más común. Para definir eso: `sss` 
 
 ## Módulo Emmanuel
+### Modalidades de Servicio
+Quién es el responsable? En cada una cambia esa respuesta:
+
+**IaaS:** Nosotros somos responsables de crear cimientos sólidos. Esto, nos da mas libertades. Se cobra por tiempo y recursos.
+
+**PaaS:** Por ejemplo firebase. No podemos decirle que sistema operativo, que cpu, que ram. De eso se encarga el proveedor. Esa es una ventaja, pero a la vez una desventaja porque perdemos libertad. 
+
+**SaaS:** Un servicio que usamos. Ejemplo: Google Maps, Netflix. Se cobra por licencia, suscripción o llamada.
 
 
 
