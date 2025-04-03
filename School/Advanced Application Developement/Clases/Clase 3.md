@@ -41,3 +41,7 @@ Métodos computacionales orientados a entender o generar lenguaje natural.
 
 #### Por qué es difícil?
 Porque el texto es ambiguo, hay muchas formas de decir lo mismo, depende del contexto, no hay reglas duras.
+
+## Módulo Abdul
+### Análisis Léxico
+Es una herramienta para **reconocer los tokes**.
