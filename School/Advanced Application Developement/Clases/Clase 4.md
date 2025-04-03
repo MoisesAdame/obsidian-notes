@@ -15,4 +15,6 @@ Date: 2025-04-03 : 16:11
 
 #### Elementos
 - Título: Buscar que venga "systematic review".
-- 
+- Abstract
+- Describir la razón por la que se hace
+- Describir objetivos: Más particulares que la razón. La razón desmenusada.
