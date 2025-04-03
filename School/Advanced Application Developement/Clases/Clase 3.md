@@ -35,3 +35,9 @@ Partes:
 3. **Modelado:** Se empieza en paso 2. 2) Entrenar modelos.
 4. **Deployment:** 1) Elegir el o los mejores modelos. 3) Mejorar el modelo.
 
+### Natural Language Processing (NLP)
+#### Qué es?
+Métodos computacionales orientados a entender o generar lenguaje natural.
+
+#### Por qué es difícil?
+Porque el texto es ambiguo, hay muchas formas de decir lo mismo, depende del contexto, no hay reglas duras.
