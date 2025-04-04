@@ -49,7 +49,23 @@ $$
 $$
 V(X) = E[(X - E(x))^{2}]
 $$
-
 $$
 V(X) = E(X^{2}) - [E(X)]^{2}
 $$
+
+#### Momentos Alrededor de $\mu$
+Nos sirven para encontrar los parámetros para construir las **funcionesn de distribución de probabilidad**.
+
+Los momentos de una variable $X$ son los valores esperados (promedio) de ciertas funciones de $x$. 
+
+#### Momentos Alrededor de $\mu = 0$
+$$
+E[x^{r}] = \sum_{\forall x}x^{r}p(x)
+$$
+##### Momentos
+Primer momento: $E(X) = \mu$
+Segundo momento (dispersión): $E(X^{2}) = \sigma^{2} + \mu^{2}$
+Tercer momento: $E(X^{3})$
+Cuarto momento: $E(X^{4})$
+
+#### Tirar Dos Dados: Valor Esperado
