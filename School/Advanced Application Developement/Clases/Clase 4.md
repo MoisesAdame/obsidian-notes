@@ -39,4 +39,17 @@ $$
 Para hacerlo hay que:
 1. Determinar el rango.
 2. Determinar el número de intervalos. Puede ser con $\sqrt{ N }$. También puede ser con la regla de sturges.
-3. 
+
+#### Valor Esperado y Varianza
+##### Valor esperado
+$$
+E(X) = \sum_{\forall i}x_{i}p_{i}(x_{i})
+$$
+##### Varianza
+$$
+V(X) = E[(X - E(x))^{2}]
+$$
+
+$$
+V(X) = E(X^{2}) - [E(X)]^{2}
+$$
