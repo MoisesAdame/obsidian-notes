@@ -34,4 +34,9 @@ $$
 \sigma^{2} = \frac{\sum_{i = 1}^{N}(x_{i} - \mu)^{2}}{N}
 $$
 - Rango: $R = max(x) - min(x)$
-- 
+
+#### Histograma de Frecuencias Absolutas
+Para hacerlo hay que:
+1. Determinar el rango.
+2. Determinar el número de intervalos. Puede ser con $\sqrt{ N }$. También puede ser con la regla de sturges.
+3. 
