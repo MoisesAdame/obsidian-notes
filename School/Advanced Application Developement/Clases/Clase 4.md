@@ -69,3 +69,18 @@ Tercer momento: $E(X^{3})$
 Cuarto momento: $E(X^{4})$
 
 #### Tirar Dos Dados: Valor Esperado
+Al calcular el valor esperado obtenemos que $E(X) = 7$.
+
+Vemos que el valor esperado del segundo momento es: $E(x^{2}) = 54.8333$
+
+Por ello, la varianza es: $\sigma^{2} = E(x^{2}) - [\mu]^{2} = 5.8333$
+
+#### Asimetría $\alpha_{3}$
+Nos dice hacia donde va el sesgo o la asimetría.
+$$
+\alpha_{3} = \frac{\mu_{3}}{[var(X)]^{3/2}}, \mu_{3} = \mu'_{3} - 3\mu \mu'_{2} + 2\mu^{3}
+$$
+Donde:
+$$
+\mu'_{3} = E(X^{3}) = \sum_{\forall i}x_{i}^{3}p(x_{i})
+$$
