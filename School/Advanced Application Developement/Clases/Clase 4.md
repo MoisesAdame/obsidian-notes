@@ -18,3 +18,20 @@ Date: 2025-04-03 : 16:11
 - Abstract
 - Describir la razón por la que se hace
 - Describir objetivos: Más particulares que la razón. La razón desmenusada.
+
+## Estadística
+### Histogramas, Función Generadora de Momentos
+#### Medidas de Tendencia Central
+- Mediana: Valor que está en el centro
+- Moda: Valor que más se repite.
+- Media: El Promedio
+- Varianza: Una medida de dispersion. Que tan lejos están los observables del promedio.
+
+$$
+\mu = \frac{\sum_{i = 1}^{N}x_{i}}{N}
+$$
+$$
+\sigma^{2} = \frac{\sum_{i = 1}^{N}(x_{i} - \mu)^{2}}{N}
+$$
+- Rango: $R = max(x) - min(x)$
+- 
