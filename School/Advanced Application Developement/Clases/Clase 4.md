@@ -84,3 +84,9 @@ Donde:
 $$
 \mu'_{3} = E(X^{3}) = \sum_{\forall i}x_{i}^{3}p(x_{i})
 $$
+
+#### Curtosis $\alpha_{4}$
+Es que tan achatada o no está la función
+$$
+\alpha_{4} = \frac{\mu_{4}}{[var(X)]^{2}}, \mu_{4} = \mu'_{4} - 4\mu \mu'_{3}+6\mu^{2}\mu'_{2}-3\mu^{4}
+$$
