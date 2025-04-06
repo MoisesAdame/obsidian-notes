@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"f37e5a1bc4b7503a","x":-180,"y":60,"width":250,"height":60,"type":"text","text":"Especificación de Requerimientos de Software"},
+		{"id":"88613c2f2f55a2de","type":"text","text":"Introducc","x":-33,"y":177,"width":250,"height":60}
+	],
+	"edges":[]
+}
