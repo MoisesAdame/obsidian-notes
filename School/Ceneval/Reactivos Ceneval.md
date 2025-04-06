@@ -17,7 +17,7 @@ Date: 2025-02-16 : 15:52
 |                                       | [[3.2 Paradigmas de la Programación]]                                                                    | 10                |
 |                                       | [[3.3 Entornos de Desarrollo]]                                                                           | 10                |
 |                                       | 3.4. Gestión de datos                                                                                    | 9                 |
-|                                       | 3.5. Plataformas de desarrollo                                                                           | 10<br>            |
+|                                       | [[3.5 Plataformas de Desarrollo]]                                                                        | 10<br>            |
 | 4. Gestión de Proyectos de Software   | [[4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos]]                                           | 8                 |
 |                                       | [[4.2 Calidad de Software]]                                                                              | 10                |
 |                                       | [[4.3 Metodologías de Desarrollo]]                                                                       | 12                |
