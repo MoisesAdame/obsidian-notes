@@ -284,7 +284,7 @@
             }
           }
         ],
-        "currentTab": 15,
+        "currentTab": 10,
         "stacked": true
       }
     ],
@@ -469,8 +469,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a97350b1cdec5f3a",
+  "active": "14eade301b4ab607",
   "lastOpenFiles": [
+    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.3 Entornos de Desarrollo.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.1 Lenguajes de Desarrollo de Software.md",
     "School/Ceneval/Notas/Clase 4.md",
@@ -479,7 +480,6 @@
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.3 Metodologías de Desarrollo.md",
-    "School/Ceneval/Reactivos Ceneval.md",
     "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",

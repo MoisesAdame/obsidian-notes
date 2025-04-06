@@ -15,7 +15,7 @@ Date: 2025-02-16 : 15:52
 |                                       | [[2.3 Diseño de Interfaces]]                                                                             | 7                 |
 | 3. Desarrollo de Sistemas de Software | [[3.1 Lenguajes de Desarrollo de Software]]                                                              | 10                |
 |                                       | [[3.2 Paradigmas de la Programación]]                                                                    | 10                |
-|                                       | 3.3. Entornos de desarrollo                                                                              | 10                |
+|                                       | [[3.3 Entornos de Desarrollo]]                                                                           | 10                |
 |                                       | 3.4. Gestión de datos                                                                                    | 9                 |
 |                                       | 3.5. Plataformas de desarrollo                                                                           | 10<br>            |
 | 4. Gestión de Proyectos de Software   | [[4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos]]                                           | 8                 |
