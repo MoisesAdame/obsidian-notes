@@ -30,8 +30,8 @@
               "state": {
                 "file": "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
                 "viewState": {
-                  "x": 877.7303524671566,
-                  "y": 816.3134519621088,
+                  "x": 162.50326022581004,
+                  "y": 781.1989435574951,
                   "zoom": -0.9907651980100127
                 }
               },
@@ -299,6 +299,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -483,8 +484,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95364a99a4301a3b",
+  "active": "09a252d16e3682cb",
   "lastOpenFiles": [
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1 Tipos de Requerimientos.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.5 Plataformas de Desarrollo.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.3 Entornos de Desarrollo.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.2 Paradigmas de la Programación.md",
