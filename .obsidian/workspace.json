@@ -317,7 +317,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:alphabet",
+                "query": "tag:#Q",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
