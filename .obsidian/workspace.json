@@ -246,8 +246,8 @@
               "state": {
                 "file": "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
                 "viewState": {
-                  "x": 426.40139550471525,
-                  "y": -5.188642739696508,
+                  "x": 1929.6582939348607,
+                  "y": -7.48369143958986,
                   "zoom": -1.303222145965555
                 }
               },
@@ -301,7 +301,7 @@
             }
           }
         ],
-        "currentTab": 14,
+        "currentTab": 16,
         "stacked": true
       }
     ],
@@ -486,10 +486,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52debf4bf2e611be",
+  "active": "b90864c28767e017",
   "lastOpenFiles": [
-    "School/Ceneval/Glosario de Estándares.md",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
+    "School/Ceneval/Glosario de Estándares.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.1 Lenguajes de Desarrollo de Software.md",
