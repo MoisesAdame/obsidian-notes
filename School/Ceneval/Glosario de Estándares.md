@@ -20,6 +20,7 @@ Date: 2025-03-24 : 13:53
 #Q  #AOSR/42bp8
 - **ISO/IEC 9126** :: Identifica y nos ayuda a cumplir con los **6 atributos** de la calidad de software. #AOSR/42bp8/s/2d86
 - **IEEE 730** :: Requisitos mínimos para SQA y guía para SQAP. #AOSR/42bp8/s/3nn5
+- **ISO/IEC 29119:** Diseño de casos de prueba. Tabla
 - **IEEE 1028** :: Define cinco tipos de revisiones y auditorías de software, junto con los procedimientos necesarios para su ejecución. #AOSR/42bp8/s/4cuc
 - **ISO 9000** :: Estándar generalista de calidad. #AOSR/42bp8/s/2eli
 - **ISO 12207** :: Modelos de Ciclo de Vida de Software. #AOSR/42bp8/s/377o
