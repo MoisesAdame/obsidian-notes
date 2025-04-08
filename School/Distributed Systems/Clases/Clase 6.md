@@ -45,3 +45,14 @@ Para G0/0.10 tenemos 172.17.10.1/25 Hay que definir el tipo de protocolo usado p
 `encapsulation dot1Q 10`
 
 Hacemos lo mismo para 30
+
+#### Packet Tracer - Configure Layer 3 Switching and Inter-VLAN Routing
+Vamos al swicth. Para decirle que no actue como paca 2 lo ponemos
+`no switchport`
+
+Luego, le ponemos IP como a un router.
+`ip address 209.165.200.225 255.255.255.252`
+
+
+
+
