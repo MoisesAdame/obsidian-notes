@@ -47,11 +47,6 @@ $$
 P(B_{3}) = P(A_{3} \cap B_{2}) = P(A_{3} | B_{2}) \cdot P(B_{2})
 $$
 
-
-
-
-
-
 ## 3.6 Exercises
 Here: [[3 Exercises]]
 
