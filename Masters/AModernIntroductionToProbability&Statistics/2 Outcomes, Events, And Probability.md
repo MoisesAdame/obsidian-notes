@@ -47,6 +47,7 @@ $$
 P(A) + P(A^{C}) = P(\Omega) = 1 \implies P(A) = 1 - P(A^{C})
 $$
 
+
 ## 2.4 Products of Sample Spaces
 Sometimes experiments are performed more than once, when that is the case we have to perform a **cartesian product** between the sample spaces, that is:
 $$
