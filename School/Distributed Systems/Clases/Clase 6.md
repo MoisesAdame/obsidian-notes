@@ -43,3 +43,5 @@ int gigabitEthernet 0/0.10
 
 Para G0/0.10 tenemos 172.17.10.1/25 Hay que definir el tipo de protocolo usado para el multiplexeo en la vlan.
 `encapsulation dot1Q 10`
+
+Hacemos lo mismo para 30
