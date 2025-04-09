@@ -52,7 +52,3 @@ Vamos al swicth. Para decirle que no actue como paca 2 lo ponemos
 
 Luego, le ponemos IP como a un router.
 `ip address 209.165.200.225 255.255.255.252`
-
-
-
-
