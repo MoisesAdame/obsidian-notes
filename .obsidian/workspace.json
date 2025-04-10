@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Advanced Application Developement/Clases/Clase 4.md",
+                "file": "School/Advanced Application Developement/Clases/Clase 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 4"
+              "title": "Clase 5"
+            }
+          },
+          {
+            "id": "cb852a4edd4d6e5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Advanced Application Developement/Clases/Clase 6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 6"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -206,14 +222,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7137021be0f18b4e",
+  "active": "cb852a4edd4d6e5a",
   "lastOpenFiles": [
+    "School/Advanced Application Developement/Clases/Clase 5.md",
+    "School/Advanced Application Developement/Clases/Clase 6.md",
+    "School/Advanced Application Developement/Clases/Clase 4.md",
     "School/Advanced Application Developement/Clases/Clase 3.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.1 Lenguajes de Desarrollo de Software.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/HSK4计划.md",
-    "School/Advanced Application Developement/Clases/Clase 4.md",
-    "School/Advanced Application Developement/Clases/Clase 5.md",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Untitled.md",
@@ -237,7 +254,6 @@
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.2 Diseño de Módulos, Componentes y de Datos de Software.md",
     "School/Ceneval/Guía/2. Diseño de Sistemas de Software/2.3 Diseño de Interfaces.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.2 Paradigmas de la Programación.md",
-    "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.3 Entornos de Desarrollo.md",
     "School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.13.png",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software",
     "School/Ceneval/Guía/0. Assets/fig2.1.2.jpg",
