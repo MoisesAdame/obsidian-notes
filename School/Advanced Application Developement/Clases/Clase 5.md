@@ -21,5 +21,28 @@ Features son representación numérica de los datos.
 #### Técnicas Usadas en Análisis de Sentimientos
 
 ## Abdul
-### 
+### Parsing
+#### Gramáticas Independientes de Contexto
+Gramática 1 (recursividad izquierda):
+1. $A \to Aa$
+2. $A \to b$
+
+Gramática 2 (recursividad derecha):
+1. $A \to aA$
+2. $A \to b$
+
+#### Gramáticas Dependientes de Contexto
+Pasan cosas como:
+$$
+aA \to a
+$$
+
+Tienen aplicaciones más en lenguajes naturales.
+
+#### Qué es Parsing?
+Encontrar el árbol. Necesitamos encontar cual es la ruta de foma inteligente.
+
+Primero se desarrollo el algoritmo LR.
+
+Deviraviaciones
 
