@@ -42,7 +42,37 @@ Tienen aplicaciones más en lenguajes naturales.
 #### Qué es Parsing?
 Encontrar el árbol. Necesitamos encontar cual es la ruta de foma inteligente.
 
-Primero se desarrollo el algoritmo LR.
+Primero se desarrollo el algoritmo LR. Bottom-Up
 
-Deviraviaciones
+Derivaciones:
+1. Antes de derivar una $b$: $A \to .b$
+2. Después de derivar una $b$: $A \to b.$
+
+#### Ejemplo
+Esta gramática es ya no ambigua (solo tiene un árbol de derivación).
+1. $E \to E+T$
+2. $E \to T$
+3. $T \to T*F$
+4. $T \to F$
+5. $F \to (E)$
+6. $F \to id$
+
+Tenemos: $id + id * id * (id + id)$
+
+Reducción (contrario de derivación):
+- $F + id * id * (id + id)$
+- $F + F * id * (id + id)$
+- $T + F * id * (id + id)$
+- $E + F * id * (id + id)$
+- $E + T * id * (id + id)$
+- $E * id * (id + id)$
+- $E * F * (id + id)$
+- $E * T * (id + id)$
+
+Este no es un algoritmo es la *idea*.
+
+
+
+
+
 
