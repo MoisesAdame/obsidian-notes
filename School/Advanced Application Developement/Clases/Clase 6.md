@@ -25,7 +25,36 @@ Solo tiene dos ouptuts: Exito o fracaso.
 
 Cuando analizamos $n$ inetntos de Bernoulli, se llama **proceso de Bernoull**.
 
-Entonces:
+Representación:
 $$
-p()
+p(x_{i}) =
+
+     \begin{cases}
+       p &\text{si}& x_{i} = 1 \\
+       q &\text{si}& x_{i} = 1 \\
+     \end{cases}
 $$
+Media:
+$$
+E(X_{i}) = 0 \cdot q + 1 \cdot p = p
+$$
+Varianza:
+$$
+Var(X_{i}) = (0^{2} \cdot q) + (1^{2} \cdot p) - p^{2} = p(1-p) = pq
+$$
+#### Generalización de Procesos de Bernoulli: Distribución Binomial
+$$
+p(X = k) =
+
+     \begin{cases}
+       {n \choose k} p^{k}q^{n-k} & \text{si}& k = 0, 1, 2, 3,\dots \\
+       0 & \text{en otro lado} \\
+     \end{cases}
+$$
+
+Como se obtiene $S$ es éxito y $F$ es falla:
+$$
+P(SSSSS\dots SS FFFFF \dots FF) = p^{k}q^{n-k}
+$$
+
+Pero como hay que checarlo para cada combinación hay que agregar el **choose**.
