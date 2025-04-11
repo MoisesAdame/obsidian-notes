@@ -43,6 +43,7 @@ $$
 Var(X_{i}) = (0^{2} \cdot q) + (1^{2} \cdot p) - p^{2} = p(1-p) = pq
 $$
 #### Generalización de Procesos de Bernoulli: Distribución Binomial
+En esta función $k$ son los éxitos
 $$
 p(X = k) =
 
@@ -58,3 +59,25 @@ P(SSSSS\dots SS FFFFF \dots FF) = p^{k}q^{n-k}
 $$
 
 Pero como hay que checarlo para cada combinación hay que agregar el **choose**.
+
+Media:
+$$
+E(X) = p + p + \cdots + p = np
+$$
+Varianza:
+$$
+Var(X) = pq + pq + \cdots + pq
+$$
+
+#### Poisson
+Se usa cuando eventos que suscenden en un tiempo, área o volumen. 
+
+Representación:
+$$
+p(X = k) =
+\begin{cases} \\
+    \frac{\mu e^{\mu}}{x!} & x = 0, 1, 2, 3,\dots \\ \\
+    0 & \text{en otro lado} \\
+\end{cases}
+$$
+
