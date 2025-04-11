@@ -76,8 +76,12 @@ Representación:
 $$
 p(X = k) =
 \begin{cases} \\
-    \frac{\mu e^{\mu}}{x!} & x = 0, 1, 2, 3,\dots \\ \\
+    \frac{\mu^{k} e^{\mu}}{k!} & x = 0, 1, 2, 3,\dots \\ \\
     0 & \text{en otro lado} \\
 \end{cases}
 $$
+
+Es importante **notar** que $\mu$ representa el número promedio de resultados por unidad de tiempo o región.
+
+
 
