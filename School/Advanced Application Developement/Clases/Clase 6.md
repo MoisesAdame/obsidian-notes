@@ -70,7 +70,7 @@ Var(X) = pq + pq + \cdots + pq
 $$
 
 #### Poisson
-Se usa cuando eventos que suscenden en un tiempo, área o volumen. 
+Se usa cuando eventos que sucenden en un tiempo, área o volumen. 
 
 Representación:
 $$
