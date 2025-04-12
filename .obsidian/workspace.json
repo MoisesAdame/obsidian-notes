@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -388,8 +388,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e0c02d96754c633",
+  "active": "e22ac3ae266dd619",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Clase 2.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
@@ -415,7 +416,6 @@
     "School/Distributed Systems/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Untitled.md",
     "Masters/AModernIntroductionToProbability&Statistics/2 Outcomes, Events, And Probability.md",
-    "Masters/AModernIntroductionToProbability&Statistics/3 Conditional Probability And Independence.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
