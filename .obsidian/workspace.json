@@ -188,7 +188,6 @@
             }
           }
         ],
-        "currentTab": 11,
         "stacked": true
       }
     ],
@@ -373,8 +372,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64f67e40cda37cad",
+  "active": "478802a4332c66f9",
   "lastOpenFiles": [
+    "Chinese/HSK4/HSK4安全的词汇.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "Templates/中文文件.md",
@@ -400,7 +400,6 @@
     "School/Advanced Application Developement/Clases/Clase 3.md",
     "School/Ceneval/Guía/3. Desarrollo de Sistemas de Software/3.1 Lenguajes de Desarrollo de Software.md",
     "Chinese/HSK4/HSK4计划.md",
-    "School/Distributed Systems/Clases/Clase 4.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
