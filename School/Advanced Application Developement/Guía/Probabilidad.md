@@ -21,7 +21,10 @@ Date: 2025-04-21 : 09:53
 - Condiciones para una distribución discreta de probabilidad :: a) $0 \leq p(X) \leq 1$ b) $\sum_{i = 1}^{n} p(X = x_{i}) = 1$ #AOSR/6eako/s/qnum
 
 #### Variables Aleatorias Continuas
-- Definición de **variable alea** :: Sea $X$ una variable aleatoria. Si los valores de $X$ pueden asumir una infinidad de valores que corresponden a los *puntos en un intervalo de la recta*.
+#Q 
+- Definición de **variable aleatoria** :: Sea $X$ una variable aleatoria. Si los valores de $X$ pueden asumir una infinidad de valores que corresponden a los *puntos en un intervalo de la recta*.
+- Condiciones para una distribución aleatoria de probabilidad :: a) $f(x) \geq 0, \forall x \in \mathbb{R}$. b) $\int_{\mathbb{R}}f(x)dx = 1$. c) $f(x) = 0, \text{si } x \not\in \mathbb{R}$
+- 
 
 ## Flashcards
 ```aosr-deck-config
