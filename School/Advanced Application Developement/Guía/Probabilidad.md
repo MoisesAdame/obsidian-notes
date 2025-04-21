@@ -10,6 +10,7 @@ Date: 2025-04-21 : 09:53
 - **Variables independientes** son los valores que :: No dependen de otro. #AOSR/7f48v/s/5qci
 - **Variables dependientes** son valores que son... por... :: Afectados, otros valores. #AOSR/7f48v/s/69da
 - **Muestreo** proceso de obtener un conjunto de... de una... :: Observaciones, población. #AOSR/7f48v/s/5mkq
+- **Espacio muestra** es el conjunto... de todos los posibles... de una... :: $S$, eventos, mendición.
 
 ### Variables Aleatorias
 #Q  #AOSR/2hoou
@@ -27,6 +28,17 @@ Date: 2025-04-21 : 09:53
 
 ### Funciones Importantes
 #### Probability Density Function
+#Q
+- **Definición (conjuntos)** para una pdf de $X$ :: $f_{X}: \mathbb{R} \to [0, \infty)$
+- Las **2 propiedades** que debe cumplir son :: Normalización y no negatividad.
+
+#### Cumulative Density Function
+#Q 
+- **Definición (conjuntos)** para una cdf de $X$ :: $F_{X}(x) : \mathbb{R} \to [0, 1]$
+- **Definición (continua)** para una cdf de $X$ :: $F_{X}(x) = \int_{-\infty}^{x}f_{X}(x)dx$
+- **Definición (discreta)** para una cdf de $X$ :: $F_{X}(x) = \sum_{x_{i} \leq x} p(x_{i})$
+- Sus **3 propiedades** son :: a) Es *creciente* por lo que si $a < b$ entonces $F(a) \leq F(b)$ b) $\lim_{ x \to \infty } F(x) = 1$ c) $\lim_{ x \to -\infty } F(x) = 0$
+
 
 
 ## Flashcards
