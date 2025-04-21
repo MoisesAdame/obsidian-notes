@@ -24,7 +24,10 @@ Date: 2025-04-21 : 09:53
 #Q 
 - Definición de **variable aleatoria** :: Sea $X$ una variable aleatoria. Si los valores de $X$ pueden asumir una infinidad de valores que corresponden a los *puntos en un intervalo de la recta*.
 - Condiciones para una distribución aleatoria de probabilidad :: a) $f(x) \geq 0, \forall x \in \mathbb{R}$. b) $\int_{\mathbb{R}}f(x)dx = 1$. c) $f(x) = 0, \text{si } x \not\in \mathbb{R}$
-- 
+
+### Funciones Importantes
+#### Probability Density Function
+
 
 ## Flashcards
 ```aosr-deck-config
