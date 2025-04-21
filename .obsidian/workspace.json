@@ -216,9 +216,19 @@
               "icon": "lucide-file",
               "title": "第6课：我是跟旅游团一起来的"
             }
+          },
+          {
+            "id": "24302de41470198f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 13,
         "stacked": true
       }
     ],
@@ -403,10 +413,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1fdff8c1f0d9bf95",
+  "active": "6b131d49a69a9e79",
   "lastOpenFiles": [
-    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
+    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/HSK4安全的词汇.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第1课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
