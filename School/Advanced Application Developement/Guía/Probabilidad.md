@@ -10,7 +10,7 @@ Date: 2025-04-21 : 09:53
 - **Variables independientes** son los valores que :: No dependen de otro. #AOSR/7f48v/s/5qci
 - **Variables dependientes** son valores que son... por... :: Afectados, otros valores. #AOSR/7f48v/s/69da
 - **Muestreo** proceso de obtener un conjunto de... de una... :: Observaciones, población. #AOSR/7f48v/s/5mkq
-- **Espacio muestra** es el conjunto... de todos los posibles... de una... :: $S$, eventos, mendición.
+- **Espacio muestra** es el conjunto... de todos los posibles... de una... :: $S$, eventos, medición.
 
 ### Variables Aleatorias
 #Q  #AOSR/2hoou
@@ -39,7 +39,16 @@ Date: 2025-04-21 : 09:53
 - **Definición (discreta)** para una cdf de $X$ :: $F_{X}(x) = \sum_{x_{i} \leq x} p(x_{i})$
 - Sus **3 propiedades** son :: a) Es *creciente* por lo que si $a < b$ entonces $F(a) \leq F(b)$ b) $\lim_{ x \to \infty } F(x) = 1$ c) $\lim_{ x \to -\infty } F(x) = 0$
 
-
+## Histogramas, Función Generadora de Momentos y Factores de Forma
+### Definiciones
+#Q 
+- **Distribución** es la... o... en que se acomodan los.. o sus... :: Forma, patrón, datos, probabilidades.
+- **Media** es el :: Promedio.
+- **Moda** es el valor :: Más repetido.
+- **Mediana** es el valor :: Que está en el centro.
+- **Varianza** es que tanto los valores :: Varían de la media.
+- **Desviación estándar** es la... usa las mismas unidades que los datos... por lo que es mas... :: Raíz cuadrada de la varianza, originales, fácil de interpretar.
+- 
 
 ## Flashcards
 ```aosr-deck-config
