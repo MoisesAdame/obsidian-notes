@@ -63,7 +63,9 @@ Date: 2025-04-21 : 09:53
 #Q 
 - Fórmula (Discreta) :: $E(X^{n}) = \sum_{\forall i} x_{i}^{n} P(X = x_{i})$
 - Fórmula (Continua) :: $E(X^{n}) = \int_{-\infty}^{\infty}x^{n}f(x)dx$
-- Varianza :: $V(X) = E\left[ x \right]$
+- Varianza :: $V(X) = E\left[ (X - \mu)^{2} \right]$
+
+
 
 
 ## Flashcards
