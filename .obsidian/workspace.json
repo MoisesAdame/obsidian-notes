@@ -81,6 +81,21 @@
               "icon": "lucide-file",
               "title": "Probabilidad"
             }
+          },
+          {
+            "id": "43daa8436bd6e815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Distributed Systems/Clases/Clase 8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 8"
+            }
           }
         ],
         "currentTab": 4,
@@ -270,12 +285,13 @@
   },
   "active": "61177df5a769bd07",
   "lastOpenFiles": [
-    "School/Advanced Application Developement/Clases/Clase 6.md",
+    "School/Distributed Systems/Clases/Clase 3.md",
+    "School/Distributed Systems/Clases/Clase 8.md",
     "School/Advanced Application Developement/Guía/Probabilidad.md",
+    "School/Advanced Application Developement/Clases/Clase 6.md",
     "School/Advanced Application Developement/Clases/Clase 4.md",
     "School/Advanced Application Developement/Clases/Clase 5.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
-    "School/Distributed Systems/Clases/Clase 3.md",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 7.md",
@@ -296,7 +312,6 @@
     "School/Advanced Application Developement/Clases/Clase 3.md",
     "School/Advanced Application Developement/Clases/Clase 1.md",
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
-    "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
