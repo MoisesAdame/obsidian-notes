@@ -28,7 +28,34 @@ Hay varios tipos de paquetes OSPF:
 - Hello: Sirve para dar saludo entre routers.
 - DBD: Paquete que describe las bases de datos (que son locales al principio).
 - LSR: Router pregunta estado de enlace.
-- 
+- LSU: Sirve para actualizar información
+
+#### Tablas
+Orden:
+1. Primero se hace **tabla de vecinos**. Router determina sus vecions a un salto.
+2. Luego se hace **tabla de topología**. Muestra info de todos los routers en la red. Esta es la base de SPF.
+3. Finalmente se hace **tabla de enrutamiento**. Ahí se especifica el resultado de SPF. Con base en la información global, esta tabla va a ir variando, por ejemplo, si un enlace se hace más caro, entonces, usamos la tabla de topología para *recalcular* la tabla de enrutamiento.
+
+#### Open Lint State
+1. Se establecen andyacencias
+2. Se intercambian anuncios de estado de enlace
+3. Se crea base de datos
+4. ETC
+
+#### Características
+OSPF logra ser **escalable** mediante las *areas*. Un *área* es un conjunto de routers interconectados.
+
+Crear áreas nos permite contener el tamaño o la cantidad de información que se comunica entre los routers, haciendo que logremos una **convergencia** más rápida.
+
+La única condición para que funcione, es que el enrutamiento sea jerárquico, es decir, como un árbol, donde haya un área 0 que sea una especie de root.
+
+Los routers que conectan un área con otra son los llamados **enrutadores fronterizos**.
+
+OSPF es un **protocolo de enrutamiento interno** no es como BGP.
+
+
+
+
 
 
 
