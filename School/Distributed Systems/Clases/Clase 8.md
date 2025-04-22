@@ -53,6 +53,14 @@ Los routers que conectan un área con otra son los llamados **enrutadores fronte
 
 OSPF es un **protocolo de enrutamiento interno** no es como BGP.
 
+#### OSPF v.X
+OSPF v3 De forma nativa soporta IPv6.
+
+### Comandos
+Prender OSPF: `router ospf <process id>`
+
+Cada router necesita un id, el cual sirve para ponerle nombre a los vértices: `router-id <no es un ip, es un identificador>`. Si no lo especificamos, busca la dirección IPv4 más alta (la mayor)
+
 
 
 
