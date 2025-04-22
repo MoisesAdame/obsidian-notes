@@ -63,7 +63,13 @@ Date: 2025-04-21 : 09:53
 #Q 
 - Fórmula (Discreta) :: $E(X^{n}) = \sum_{\forall i} x_{i}^{n} P(X = x_{i})$
 - Fórmula (Continua) :: $E(X^{n}) = \int_{-\infty}^{\infty}x^{n}f(x)dx$
-- Varianza :: $V(X) = E\left[ (X - \mu)^{2} \right]$
+- Varianza :: $V(X) = E\left[ (X - \mu)^{2} \right] = E\left[ X^{2} \right] - E\left[ X \right]^{2}$ 
+
+### Momentos Alrededor de $\mu$
+#Q 
+- Los momentos de una **variable aleatoria $X$** son los :: Valores esperados para ciertas funciones de $x$.
+- Sirven para... y... a la.... :: Entender, caracterizar, distribución de probabilidad de $X$.
+- **Primer Momento** fórmula..., nombre... :: $E\left[ X \right] = \mu$
 
 
 
