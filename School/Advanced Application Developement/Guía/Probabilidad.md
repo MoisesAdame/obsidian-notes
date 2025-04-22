@@ -48,7 +48,11 @@ Date: 2025-04-21 : 09:53
 - **Mediana** es el valor :: Que está en el centro.
 - **Varianza** es que tanto los valores :: Varían de la media.
 - **Desviación estándar** es la... usa las mismas unidades que los datos... por lo que es mas... :: Raíz cuadrada de la varianza, originales, fácil de interpretar.
-- 
+
+### Fórmulas Importantes
+#Q 
+- Varianza (poblacional) :: $sig$
+
 
 ## Flashcards
 ```aosr-deck-config
