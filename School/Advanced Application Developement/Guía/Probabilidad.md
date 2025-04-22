@@ -74,6 +74,11 @@ Date: 2025-04-21 : 09:53
 - **Tercer Momento** fórmula..., relacionado con... :: $E\left[ X^{3} \right]$, asimetría.
 - **Cuarto Momento** fórmula..., relacionado con... :: $E\left[ X^{4} \right]$, kurtosis.
 
+### Los Dos Tipos de Momentos
+#Q 
+- Los **2 tipos** son :: Momento alrededor de cero ($\mu'_{r}$) y momento central ($\mu_{r}$).
+- Fórmula de 
+
 
 
 ## Flashcards
