@@ -51,7 +51,15 @@ Date: 2025-04-21 : 09:53
 
 ### Fórmulas Importantes
 #Q 
-- Varianza (poblacional) :: $sig$
+- Varianza (poblacional) :: $\sigma^{2} = \frac{1}{N} \sum_{i = 1}^{N}(x_{i} - \mu)^{2}$
+- Desviación estándar (poblacional) :: $\sigma = \sqrt{ \sigma^{2} }$
+- Media (poblacional) :: $\mu = \frac{1}{N} \sum_{i = 1}^{N}x_{i}$
+- Varianza (muestral) :: $s^{2} = \frac{1}{n - 1} \sum_{i = 1}^{n}(x_{i} - \bar{x})^{2}$
+- Desviación estándar (muestral) :: $s = \sqrt{ s^{2} }$
+- Media (muestral) :: $\bar{x} = \frac{1}{n} \sum_{i = 1}^{n}x_{i}$
+- Rango :: $max\{ x \} - min \{ x \}$
+
+
 
 
 ## Flashcards
