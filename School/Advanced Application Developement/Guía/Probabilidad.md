@@ -77,7 +77,8 @@ Date: 2025-04-21 : 09:53
 ### Los Dos Tipos de Momentos
 #Q 
 - Los **2 tipos** son :: Momento alrededor de cero ($\mu'_{r}$) y momento central ($\mu_{r}$).
-- Fórmula de 
+- Fórmula de **momento alrededor de cero** :: $\mu'_{r} = E\left[ X^{r} \right]$
+- Fórmula de **momento central** :: $\mu_{r} = E\left[ (X - \mu)^{r} \right] = \sum {r \choose i} \mu^{i}\mu'_{r-i}$
 
 
 
