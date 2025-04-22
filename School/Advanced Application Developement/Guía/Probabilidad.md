@@ -123,13 +123,28 @@ p(X = k) =
        0 & \text{en otro lado} \\
      \end{cases}
 $$
+#/Q 
+
+#Q
 - Media :: $E(X) = np$
 - Varianza :: $Var(X) = npq$
 
+#### Distribución de Poisson
+#Q 
+- Se usa con eventos que suceden en un determinado :: Tiempo, área o volumen.
 
-
-
-
+#Q 
+- Fórmula
+?
+$$
+p(X = k) =
+\begin{cases} \\
+    \frac{\mu^{k} e^{-\mu}}{k!} & x = 0, 1, 2, 3,\dots \\ \\
+    0 & \text{en otro lado} \\
+\end{cases}
+$$
+#/Q
+- Media y varianza :: $Var(X) = E(X) = \mu$
 
 ## Flashcards
 ```aosr-deck-config
