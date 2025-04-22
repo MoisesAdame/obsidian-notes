@@ -79,6 +79,15 @@ Date: 2025-04-21 : 09:53
 - Los **2 tipos** son :: Momento alrededor de cero ($\mu'_{r}$) y momento central ($\mu_{r}$).
 - Fórmula de **momento alrededor de cero** :: $\mu'_{r} = E\left[ X^{r} \right]$
 - Fórmula de **momento central** :: $\mu_{r} = E\left[ (X - \mu)^{r} \right] = \sum {r \choose i} \mu^{i}\mu'_{r-i}$
+- Los **momentos centrales 3ro y 4to** se llaman :: Factores de forma.
+- Fórmula del coeficiente de **asimetría** :: $\alpha_{3} = \frac{\mu_{3}}{Var(X)^{3/2}}$
+- Rangos de $\alpha_{3}$ :: Inclinada a la *izquierda* si $\alpha_{3} > 0$. *Simétrica* si $\alpha_{3} = 0$. Inclinada a la *derecha* si $\alpha_{3} < 0$
+- Fórmula del coeficiente de **kurtósis** :: $\alpha_{4} = \frac{\mu_{4}}{Var(X)^{2}}$
+- Rangos de $\alpha_{4}$ :: Si $\alpha_{4} < 3$ es *platicúrtica*. Si $\alpha_{4} > 3$ es *leptocúrtica*. Si $\alpha_{4} \approx 3$ es *mesocúrtica*.
+
+## Distribuciones de Probabilidad
+### Distribuciones de Probabilidad Discretas
+
 
 
 
