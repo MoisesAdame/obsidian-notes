@@ -59,7 +59,13 @@ OSPF v3 De forma nativa soporta IPv6.
 ### Comandos
 Prender OSPF: `router ospf <process id>`
 
-Cada router necesita un id, el cual sirve para ponerle nombre a los vértices: `router-id <no es un ip, es un identificador>`. Si no lo especificamos, busca la dirección IPv4 más alta (la mayor)
+Cada router necesita un id, el cual sirve para ponerle nombre a los vértices: `router-id <no es un ip, es un identificador>`. Si no lo especificamos, busca la dirección IPv4 más alta (la mayor) en los loopbacks, si no hay, se va a las físicas.
+
+Qué es un **loopback**? Es una interface lógica, fantasma. No existe físicamente, pero si responde, es como 127.0.0.1
+
+Se usan cuando queremos simular cosas como la conexión a un ISP.
+
+
 
 
 
