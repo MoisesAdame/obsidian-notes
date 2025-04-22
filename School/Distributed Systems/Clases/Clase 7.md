@@ -23,4 +23,6 @@ Generalmente hay mecanismos de autenticación fuerte entre los routers que parti
 
 También se define como **enrutamiento basado en políticas**. Por ejemplo, tenemos dos sistemas autónomos. Cada uno puede establecer políticas donde definan por donde si quieren que pase y por donde no.
 
+Sistema autónomo es un dominio.
+
 
