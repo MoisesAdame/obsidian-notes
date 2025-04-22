@@ -65,7 +65,7 @@ Qué es un **loopback**? Es una interface lógica, fantasma. No existe físicame
 
 Se usan cuando queremos simular cosas como la conexión a un ISP.
 
-
+Luego para la red: `network <dirección de red> <wildcard-mask (inverso de la máscara)> area <número del area>`
 
 
 
