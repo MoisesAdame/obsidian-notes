@@ -70,7 +70,9 @@ Date: 2025-04-21 : 09:53
 - Los momentos de una **variable aleatoria $X$** son los :: Valores esperados para ciertas funciones de $x$.
 - Sirven para... y... a la.... :: Entender, caracterizar, distribución de probabilidad de $X$.
 - **Primer Momento** fórmula..., nombre... :: $E\left[ X \right] = \mu$
-
+- **Segundo Momento** fórmula..., nombre... :: $E\left[ X^{2} \right] = \sigma^{2} + \mu^{2}$
+- **Tercer Momento** fórmula..., relacionado con... :: $E\left[ X^{3} \right]$, asimetría.
+- **Cuarto Momento** fórmula..., relacionado con... :: $E\left[ X^{4} \right]$, kurtosis.
 
 
 
