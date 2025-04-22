@@ -91,20 +91,31 @@ Date: 2025-04-21 : 09:53
 #Q  #AOSR/3uha5
 - Un **experimento de Bernoulli** solo tiene :: 2 outputs (éxito y fracaso) #AOSR/3uha5/s/73ul
 - Cuando llevamos a cabo **varias veces** un experimento de Bernoulli se llama :: Proceso Bernoulli. #AOSR/3uha5/s/1igh
-- Distribución de Bernoulli para un intento :: $$ #AOSR/3uha5/s/6vn1
+
+#Q #AOSR/4urua
+- Distribución de Bernoulli para un intento 
+? #AOSR/4urua/m/305l
+$$ 
 p(x_{i}) =
      \begin{cases}
        p &\text{si}& x_{i} = 1 \\
        q &\text{si}& x_{i} = 1 \\
      \end{cases}
 $$
-- Media :: $E(X) = p$. #AOSR/3uha5/s/4rqu
-- Varianza :: $\sigma^{2} = pq$ #AOSR/3uha5/s/3hr3
+#/Q
+
+#Q #AOSR/pdgdg
+- Media :: $E(X) = p$.  #AOSR/pdgdg/s/2fv7
+- Varianza :: $\sigma^{2} = pq$. #AOSR/pdgdg/s/3ftp
 
 #### Distribución Binomial
 #Q  #AOSR/7eq6v
 - Sirve para cuando quieres calcular la probabilidad de veces de obtener... en... pero sin tomar en cuenta las... :: Éxitos ($k$), un número de intentos ($n$), repeticiones. #AOSR/7eq6v/s/473q
-- Fórmula :: $$ #AOSR/7eq6v/s/2v36
+
+#Q
+- Fórmula
+?
+$$
 p(X = k) =
 
      \begin{cases}
