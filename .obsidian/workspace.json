@@ -8,111 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "478802a4332c66f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第1课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第1课"
-            }
-          },
-          {
-            "id": "47a138a9c72ca1bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第2课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第2课"
-            }
-          },
-          {
-            "id": "e22ac3ae266dd619",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第3课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第3课"
-            }
-          },
-          {
-            "id": "7d0954c3961001f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第4课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第4课"
-            }
-          },
-          {
-            "id": "7240f72020efaa8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第5课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第5课"
-            }
-          },
-          {
-            "id": "4d79a83b50325717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第6课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第6课"
-            }
-          },
-          {
-            "id": "a5bf49991cc23105",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（上）/第7课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第7课"
-            }
-          },
-          {
             "id": "42a0996c5f94f790",
             "type": "leaf",
             "state": {
@@ -173,36 +68,6 @@
             }
           },
           {
-            "id": "64f67e40cda37cad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chinese/HSK4/HSK4安全的词汇.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "HSK4安全的词汇"
-            }
-          },
-          {
-            "id": "a2ee0d731257379a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Clases/Clase 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 3"
-            }
-          },
-          {
             "id": "4d726038c95f5e51",
             "type": "leaf",
             "state": {
@@ -218,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -276,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -402,19 +268,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2ee0d731257379a",
+  "active": "4d726038c95f5e51",
   "lastOpenFiles": [
+    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第7课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第6课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第5课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第4课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第3课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第2课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第1课.md",
+    "Chinese/HSK4/HSK4安全的词汇.md",
+    "School/Distributed Systems/Clases/Clase 7.md",
+    "School/Distributed Systems/Clases/Clase 3.md",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 6.md",
-    "School/Distributed Systems/Clases/Clase 7.md",
     "School/Distributed Systems/Clases/Clase 2.md",
-    "School/Distributed Systems/Clases/Clase 3.md",
     "School/Advanced Application Developement/Clases/Clase 4.md",
     "School/Advanced Application Developement/Guía/Probabilidad.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第1课.md",
     "School/Advanced Application Developement/Clases/Clase 2.md",
-    "Chinese/HSK4/HSK4安全的词汇.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第3课.md",
     "School/Advanced Application Developement/Clases/Clase 6.md",
     "School/Advanced Application Developement/Guía",
     "School/Advanced Application Developement/Clases/Clase 3.md",
@@ -422,15 +297,6 @@
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
     "Chinese/HSK4/汉语教程/第8课：我的眼镜摔坏了.md",
-    "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
-    "Templates/中文文件.md",
-    "School/Advanced Application Developement/Clases/Clase 5.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第7课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第6课.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
