@@ -67,6 +67,13 @@ Se usan cuando queremos simular cosas como la conexión a un ISP.
 
 Luego para la red: `network <dirección de red> <wildcard-mask (inverso de la máscara)> area <número del area>`
 
+#### Interfaces Pasivas
+Si no hay otro router en la red, se pone la red como pasiva para evitar mandar mensajes sin necesidad.
+
+Para ponerla nos metemos a ospf y ponemos: `passive-interface <tipo-interfaz> <numero de la interfaz>`
+
+
+
 
 
 
