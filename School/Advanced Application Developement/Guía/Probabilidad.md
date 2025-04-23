@@ -69,8 +69,8 @@ Date: 2025-04-21 : 09:53
 #Q  #AOSR/3bu2d
 - Los momentos de una **variable aleatoria $X$** son los :: Valores esperados para ciertas funciones de $x$. #AOSR/3bu2d/s/22l2
 - Sirven para... y... a la.... :: Entender, caracterizar, distribución de probabilidad de $X$. #AOSR/3bu2d/s/6r3i
-- **Primer Momento** fórmula..., nombre... :: $E\left[ X \right] = \mu$ #AOSR/3bu2d/s/4aio
-- **Segundo Momento** fórmula..., nombre... :: $E\left[ X^{2} \right] = \sigma^{2} + \mu^{2}$ #AOSR/3bu2d/s/1fk0
+- **Primer Momento** fórmula..., nombre... :: $E\left[ X \right] = \mu$, posición #AOSR/3bu2d/s/4aio
+- **Segundo Momento** fórmula..., nombre... :: $E\left[ X^{2} \right] = \sigma^{2} + \mu^{2}$, dispersión #AOSR/3bu2d/s/1fk0
 - **Tercer Momento** fórmula..., relacionado con... :: $E\left[ X^{3} \right]$, asimetría. #AOSR/3bu2d/s/5pa0
 - **Cuarto Momento** fórmula..., relacionado con... :: $E\left[ X^{4} \right]$, kurtosis. #AOSR/3bu2d/s/5qis
 
@@ -78,7 +78,7 @@ Date: 2025-04-21 : 09:53
 #Q  #AOSR/594ot
 - Los **2 tipos** son :: Momento alrededor de cero ($\mu'_{r}$) y momento central ($\mu_{r}$). #AOSR/594ot/s/6uk5
 - Fórmula de **momento alrededor de cero** :: $\mu'_{r} = E\left[ X^{r} \right]$ #AOSR/594ot/s/61k2
-- Fórmula de **momento central** :: $\mu_{r} = E\left[ (X - \mu)^{r} \right] = \sum {r \choose i} \mu^{i}\mu'_{r-i}$ #AOSR/594ot/s/6cu1
+- Fórmula de **momento central** :: $\mu_{r} = E\left[ (X - \mu)^{r} \right] = \sum {r \choose i} (-1)^{i} \mu^{i}\mu'_{r-i}$ #AOSR/594ot/s/6cu1
 - Los **momentos centrales 3ro y 4to** se llaman :: Factores de forma. #AOSR/594ot/s/1tke
 - Fórmula del coeficiente de **asimetría** :: $\alpha_{3} = \frac{\mu_{3}}{Var(X)^{3/2}}$ #AOSR/594ot/s/747p
 - Rangos de $\alpha_{3}$ :: Inclinada a la *izquierda* si $\alpha_{3} > 0$. *Simétrica* si $\alpha_{3} = 0$. Inclinada a la *derecha* si $\alpha_{3} < 0$ #AOSR/594ot/s/z253
@@ -99,7 +99,7 @@ $$
 p(x_{i}) =
      \begin{cases}
        p &\text{si}& x_{i} = 1 \\
-       q &\text{si}& x_{i} = 1 \\
+       q &\text{si}& x_{i} = 0 \\
      \end{cases}
 $$
 #/Q
