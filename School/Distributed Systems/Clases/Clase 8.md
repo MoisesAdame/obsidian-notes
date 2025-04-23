@@ -170,6 +170,12 @@ De forma periódica preguntar a los nodos si tienen o no esos chunks.
 
 Si no te contestan, es que entro en **paro**, para ello debo saber que cachos perdí, entonces el nodo maestro le dice a los nodos que tienen los cachos faltantes que lo copien en un nuevo nodo auxiliar.
 
+##### Failover Replica
+Un activo pasivo de nuestro nodo maestro. Lo hace a través de logs que se replican en un failover.
+
+#### Ciclo de Vida Datos
+
+
 
 
 
