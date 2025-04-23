@@ -174,6 +174,12 @@ Si no te contestan, es que entro en **paro**, para ello debo saber que cachos pe
 Un activo pasivo de nuestro nodo maestro. Lo hace a través de logs que se replican en un failover.
 
 #### Ciclo de Vida Datos
+##### Fases
+En cada fase hay que hacerse ciertas preguntas clave:
+1. **Creación de Datos:** Origen? 
+2. **Almacenamiento:** Dónde se almacenan? Que tipo de DB usaré? 
+3. **Uso:** Quién lo va a consumir? Cada cuánto? Se puede modificar?
+4. 
 
 
 
