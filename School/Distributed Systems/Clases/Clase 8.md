@@ -90,8 +90,31 @@ Como se hacía o hace en un data center local.
 
 **RAID** es: Redundant Array of Independent Disks.
 
-**RAID 0:** Toda mi info esta en una sola máquina, apilo discos. Puedo tener disco 0, disco 1. Cada uno con sus particiones. Puedo escribir cosas de disco 1 en disco 2, y de tal forma disminuyo mi probabilidad de perder todo. El problema es que auque mientras mas discos agreguemos, 
+**RAID 0 (Stripping):** Toda mi info esta en una sola máquina, apilo discos. Puedo tener disco 0, disco 1. Cada uno con sus particiones. Puedo escribir cosas de disco 1 en disco 2, y de tal forma disminuyo mi probabilidad de perder todo. El problema es que aunque mientras mas discos agreguemos, solo disminuimos la cantidad de datos perdidos, pero **seguimos perdiendo todo**. Otra ventaja es que el **performance de escritura** aumenta, ya que puedes paralelizar tus escrituras.
 
+**RAID 1 (Mirroring):** Toda la información se copia en otro disco. La desventaja es que **pierdo el buen performance de escritura** y de hecho, ahora tengo que escribir el doble.
+
+**RAID 5 (Stripping + Distributing Parity):** Hago tanto mirrorirng y stripting, mis mirrors están en algunos (no todos de los discos). No es el más rápido, pero es mas rápido que RAID 1. No tiene la redundancia de RAID 1, pero bajas bastante la posibilidad de perder toda tu info.
+
+Para lograrlo, necesitamos un orquestador (software) y generalmente, todo esto se monta en el **file system**.
+
+Kernel de la máquina es el código básico de la máquina. El **file system** vive en el kernel del OS.
+
+El file system sabe transformar un path a pasar los datos a una ubicación dada en el disco duro.
+
+#### Redundancia DB
+
+##### Redundancia Activa o Activo Activo 
+Las dos bases de datos están trabajando. Pero la instancia primaria es la que acepta cosas como *CRUD*, es la instancia con la que operamos principalmente. La instancia auxiliar solo puede hacer *read* para evitar conflictos.
+
+Para que funcione la instancia primaria debe constantemente **auctualizar** la instancia auxiliar.
+
+Esta estrategia es muy útil cuando hacemos mucho **read**.
+
+##### Redundancia Pasiva o Activo Pasivo
+Tengo una o varias instancias activas y una o varias pasivas. Las activas pueden hacer *CRUD*, y las pasivas están *apagadas* pero sigo haciendo el update constante.
+
+Con este esquema, no solo me quedo co
 
 
 
