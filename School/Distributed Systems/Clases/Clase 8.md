@@ -72,6 +72,11 @@ Si no hay otro router en la red, se pone la red como pasiva para evitar mandar m
 
 Para ponerla nos metemos a ospf y ponemos: `passive-interface <tipo-interfaz> <numero de la interfaz>`
 
+### Formas de Configurar OPSF
+La primera es con: `network <dirección de red> <wild card> area <X>`
+
+Otra con máscara de 4 0's: `network <dirección de host> 0.0.0.0  area <X>`
+
 
 
 
