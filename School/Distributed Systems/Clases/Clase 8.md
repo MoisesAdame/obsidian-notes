@@ -140,7 +140,35 @@ File system divide archivo en chunks.
 
 Cada chuck se almacena en una máquina independiente (me da redundancia), por que si una se muere solo pierdo C. No A, B y C. Pero para evitar pérdidas, cada chunk se copia en otra máquina.
 
-Si una máquina se muere 
+Si una máquina se muere y ve que hay pocas, se hacen mas copias.
+
+Esto genera un problema, las máquinas no se hablan entre si, solo le reportan todas a un **servidor maestro**, el cual no almacena nada.
+
+##### Lectura
+El servidor maestro tiene un árbol donde registra todos los archivos que se almacenan en el file system.
+
+El nodo maestro le da la **receta** al cliente para reconstruir su archivo así como donde esta ubicado cada chunk. 
+
+La ventaja es que puede pedir de forma paralela los chunks.
+
+Hay dos tipos de mensajes. De **control** "dame la receta". De **datos** "recuperar los chunks".
+
+EL PROBLEMA ES EL **NODO MAESTRO**.
+
+##### Escritura
+1. Cliente le dice a nodo maestro "Quiero escribir".
+2. Nodo maestro pregunta y recibe el tamaño del archivo.
+3. El nodo maestro le da la "receta" de como se van a llamar y donde guardar cada *chunk*.
+4. Primero solicitas escritura en la replica **más cercana** (para evitar latencia).
+5. Luego la mas cercana se encarga de mandarle las copias a todos
+6. Luego preguntas si todos tienen la copia.
+7. Una vez que sabes que todos la tienen **primero tienen que escribir la info en la réplica principal**
+8. Hasta que todas las replicas confirmen, la **replia principal** debe decirme que ya todos lo escribieron. Pero esa confirmación va al cliente. No al nodo maestro.
+
+##### Heart Beat
+De forma periódica preguntar a los nodos si tienen o no esos chunks.
+
+Si no te contestan, es que entro en **paro**, para ello debo saber que cachos perdí, entonces el nodo maestro le dice a los nodos que tienen los cachos faltantes que lo copien en un nuevo nodo auxiliar.
 
 
 
