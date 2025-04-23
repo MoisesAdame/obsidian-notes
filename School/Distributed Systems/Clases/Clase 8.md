@@ -206,7 +206,18 @@ Se hace un **documento** para saber los pasos, responsables, acciones para mitig
 
 Puntos:
 - **Último respaldo disponible:** Cómo se hará? Cada cuánto se hará? Se hace de acuerdo a tu naturaleza de operación.
-- **Análisis y valoración del daño:** Ver que cosa fa
+- **Análisis y valoración del daño:** Ver que cosa fallo. Para ello, hay que conocer los *puntos críticos*.
+- **Evaluar el Desastre:** Dónde esta la causa? Dónde nos está pegando?
+- **Declarar el Desarstre** Cuminicar a todos los equipos involucrados lo que pasó para que todos sepan qiue hacer.
+- **Tiempo Objetivo de Recuperación (RTO):** Desde que se declara hasta que te repones.
+- **Máximo Tiempo del Corte de Servicios (RTO)**: Desde el evento hasta que te repones.
+
+
+
+
+
+
+
 
 
 
