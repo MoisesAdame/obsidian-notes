@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 5,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -283,10 +283,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43daa8436bd6e815",
+  "active": "61177df5a769bd07",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Clase 7.md",
     "School/Distributed Systems/Clases/Clase 8.md",
+    "School/Distributed Systems/Clases/Clase 7.md",
     "School/Transformación Digital/Notas/Clase 7.md",
     "School/Advanced Application Developement/Guía/Probabilidad.md",
     "School/Distributed Systems/Clases/Clase 3.md",
