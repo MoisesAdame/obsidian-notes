@@ -114,7 +114,33 @@ Esta estrategia es muy útil cuando hacemos mucho **read**.
 ##### Redundancia Pasiva o Activo Pasivo
 Tengo una o varias instancias activas y una o varias pasivas. Las activas pueden hacer *CRUD*, y las pasivas están *apagadas* pero sigo haciendo el update constante.
 
-Con este esquema, no solo me quedo co
+Con este esquema, no solo me quedo con *read*, si no que la pasiva, toma las funciones de la activa.
+
+#### GFS/HDFS
+##### Distributed File Systems
+GFS es Google File System. Como puedo almacenar un archivo en varias máquinas. Su versión open source es HDFS creado por yahoo en Hadoop.
+
+En lugar de tener discos y apilarlos en racks, tengo **nodos/máquinas**. Un archivo se distribuye en todos ellos. Funcionan como un cluster.
+
+La ventaja es que ya no había necesidad de **escalabilidad vertical**, ya solo era necesario traer más máquinas.
+
+##### Operaciones
+GFS/HDFS nos dan dos operaciones **lectura** y **escritura**. Los archivos se dividen en lotes de un tamaño fijo.
+
+Supongamos que tenemos un archivo dividido en tres lotes/chunks A, B y C.
+
+Para **read** primero leemos chuck A, luego B y luego C.
+
+Para **write** lo *único* que puedo hacer es crear chunk D. No puedo "mochar" chunks. Para hacer un cambio en medio o al principio, tengo que porrar y reescribir todo.
+
+Cada chunk vive en *una o muchas máquinas*. El motivo por el que se hizo así es que ahora tenemos mucho CPU y podemos procesar de forma paralela.
+
+##### Distribución de Chunks
+File system divide archivo en chunks.
+
+Cada chuck se almacena en una máquina independiente (me da redundancia), por que si una se muere solo pierdo C. No A, B y C. Pero para evitar pérdidas, cada chunk se copia en otra máquina.
+
+Si una máquina se muere 
 
 
 
