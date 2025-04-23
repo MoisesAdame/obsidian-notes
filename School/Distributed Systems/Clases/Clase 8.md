@@ -179,7 +179,34 @@ En cada fase hay que hacerse ciertas preguntas clave:
 1. **Creación de Datos:** Origen? 
 2. **Almacenamiento:** Dónde se almacenan? Que tipo de DB usaré? 
 3. **Uso:** Quién lo va a consumir? Cada cuánto? Se puede modificar?
-4. 
+4. **Compartir:** Quién mas usará los datos? En que medio los compartiré?
+5. **Archivo:** Que pasará en el futuro? Hasta cuándo almacenar?
+6. **Destrucción:** Cuándo borrar?
+
+##### Optimizando el Costo
+Tenemos dos variables costo por **consumo** o por **almacenamiento**
+
+Hay dos ideas:
+- Almacenamiento caliente (frecuente): Consumirlo es muy barato, almacenarlo es caro.
+- Almacenamiento frío (infrecuente): Consumir es caro, pero almacenar es barato.
+
+Por ejemplo para una tomografía que se hizo hace poco, es mejor almacenarlo en caliente, pero un estudio muy viejo, es mejor almacenarlo en frío.
+
+Podemos poner reglas basados en el uso de los datos.
+
+##### Creando Reglas
+Si no lo usa en 30 días pásalo a uno mas frio y así sucesivamente.
+
+##### Disaster Recovery Plan
+Dentro del DRP se tiene una carrera contra reloj.
+
+Decimos que vamos hacer y en cuánto tiempo lo vamos a arreglar.
+
+Se hace un **documento** para saber los pasos, responsables, acciones para mitigar.
+
+Puntos:
+- **Último respaldo disponible:** Cómo se hará? Cada cuánto se hará? Se hace de acuerdo a tu naturaleza de operación.
+- **Análisis y valoración del daño:** Ver que cosa fa
 
 
 
