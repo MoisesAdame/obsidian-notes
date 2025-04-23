@@ -42,7 +42,7 @@ Date: 2025-04-21 : 09:53
 ## Histogramas, Función Generadora de Momentos y Factores de Forma
 ### Definiciones
 #Q  #AOSR/1bq25
-- **Distribución** es la... o... en que se acomodan los.. o sus... :: Forma, patrón, datos, probabilidades. #AOSR/1bq25/s/7khr
+- **Distribución** es la... o... en que se acomodan los... o sus... :: Forma, patrón, datos, probabilidades. #AOSR/1bq25/s/7khr
 - **Media** es el :: Promedio. #AOSR/1bq25/s/1kl0
 - **Moda** es el valor :: Más repetido. #AOSR/1bq25/s/12vb
 - **Mediana** es el valor :: Que está en el centro. #AOSR/1bq25/s/z713
