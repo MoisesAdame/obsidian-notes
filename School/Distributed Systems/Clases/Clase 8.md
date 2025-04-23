@@ -79,8 +79,18 @@ Otra con máscara de 4 0's: `network <dirección de host> 0.0.0.0  area <X>`
 
 ### Enlaces Punto a Punto
 
-## Módulo Cloud
 
+## Módulo Cloud
+### Administración del Almacenamiento
+#### Introducción
+A la hora de definir una base de datos, solo tener una y muchas máquinas virtuales puede ser un problema por que genera **cuellos de botella**. En el caso de agregar una nueva base de datos, estamos generando una **inconsistencia** ya que los datos de una base de datos no son los mismos de la otra base de datos.
+
+#### Redundancia Local
+Como se hacía o hace en un data center local.
+
+**RAID** es: Redundant Array of Independent Disks.
+
+**RAID 0:** Toda mi info esta en una sola máquina, apilo discos. Puedo tener disco 0, disco 1. Cada uno con sus particiones. Puedo escribir cosas de disco 1 en disco 2, y de tal forma disminuyo mi probabilidad de perder todo. El problema es que auque mientras mas discos agreguemos, 
 
 
 
