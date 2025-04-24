@@ -36,3 +36,25 @@ Informa al lector del contenido del artículo de forma resumida.
 - Cita Textual: "lo que el autor dijo"\[1]
 - Cita Parafraseada: Mis propias palabras.\[1]
 - Resultados Obtenidos Durante el Trabajo de Investigación: No se necesita referencia.
+
+### Lectura Crítica de un Artículo de Investigación
+#### Relevancia y Originalidad
+La pregunta que responde es interesante o relevante
+
+#### Claridad y Calidad
+- Es fácil de leer.
+- Las conclusiones tienen el soporte adecuado.
+
+#### Presentación de Datos
+- Las tablas y figuras son relevantes. No poner por poner tablas o gráficas, solo poner las que voy a mencionar.
+
+#### Fallas en el Artículo
+- Las conclusiones contradicen a la evidencia.
+- La metodología no va a corde con la investigación.
+
+#### Investigación Replicable
+Puedo volver a hacer el experimento.
+
+#### Investigación robusta
+Debe contener información suficiente para establecer conclusiones confiables.
+
