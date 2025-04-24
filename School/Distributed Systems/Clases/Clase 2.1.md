@@ -1,3 +1,4 @@
+La información que te pasaré a continuación es un documento de notas realizadas durante una entrevista con el dueño de un hospital, el cual, se encuentra en el proceso de abrir nuevas torres médicas y consultorios, para las cuales, necesita una infraestructura de red. Actúa como un analista experto en seguridad informática y utiliza la información de las notas y con ella, realiza un listado de los controles presentes en el estándar ISO/IEC 27002 que le apliquen a la solución y describe brevemente el motivo por el cual dado cada control fue seleccionado.
 ## Módulo Reto
 ### Generalidades
 - Este proyecto aborda la arquitectura de red en un hospital, destacando la implementación de redes LAN/WAN y servicios distribuidos.
