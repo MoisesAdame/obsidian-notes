@@ -112,9 +112,9 @@ $$
 #Q  #AOSR/7eq6v
 - Sirve para cuando quieres calcular la probabilidad de veces de obtener... en... pero sin tomar en cuenta las... :: Éxitos ($k$), un número de intentos ($n$), repeticiones. #AOSR/7eq6v/s/473q
 
-#Q
+#Q #AOSR/nvlbg
 - Fórmula
-?
+? #AOSR/nvlbg/m/3eth
 $$
 p(X = k) =
 
@@ -125,17 +125,17 @@ p(X = k) =
 $$
 #/Q 
 
-#Q
-- Media :: $E(X) = np$
-- Varianza :: $Var(X) = npq$
+#Q #AOSR/6aq19
+- Media :: $E(X) = np$ #AOSR/6aq19/s/1jr6
+- Varianza :: $Var(X) = npq$ #AOSR/6aq19/s/6m6c
 
 #### Distribución de Poisson
-#Q 
-- Se usa con eventos que suceden en un determinado :: Tiempo, área o volumen.
+#Q  #AOSR/5efk4
+- Se usa con eventos que suceden en un determinado :: Tiempo, área o volumen. #AOSR/5efk4/s/5gon
 
-#Q 
+#Q  #AOSR/7fb6v
 - Fórmula
-?
+? #AOSR/7fb6v/m/508u
 $$
 p(X = k) =
 \begin{cases} \\
