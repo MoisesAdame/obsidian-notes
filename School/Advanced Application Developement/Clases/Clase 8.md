@@ -81,5 +81,24 @@ f(x) =
 $$
 Media
 $$
-E(X) = \int_{-\infty}^{\infty}
+E(X) = \int_{-\infty}^{\infty}xf(x)dx = \int_{a}^{b} \frac{x}{b-a}dx = \frac{a+b}{2}
 $$
+
+Varianza
+$$
+Var(X) = E(X^{2}) - E(X)^{2} = \int_{-\infty}^{\infty}x^{2}f(x)dx - E(X) = \int_{a}^{b}x^{2}f(x)dx - E(X) = \frac{(b - a)^{2}}{12}
+$$
+
+Cuando usar? 
+
+#### Distibución Exponencial Negativa
+Función de densidad:
+$$ 
+f(x) =
+     \begin{cases}
+       \lambda e^{-\lambda x} & \text{si}& a \leq x \leq b \\
+       0 &\text{otro caso} \\
+     \end{cases}
+$$
+
+Función acumulada:
