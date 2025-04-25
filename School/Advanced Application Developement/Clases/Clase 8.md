@@ -109,3 +109,5 @@ F(x) =
        0 & \text{si} & x < 0 \\
      \end{cases}
 $$
+
+#### Distribución Gamma
