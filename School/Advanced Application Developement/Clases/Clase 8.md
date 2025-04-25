@@ -72,7 +72,7 @@ $$
 
 Función acumulada:
 $$ 
-f(x) =
+F(x) =
      \begin{cases}
        0 &\text{si}& x < a \\
        \frac{x-a}{b-1} & \text{si} & a \leq x < b \\
@@ -96,9 +96,16 @@ Función de densidad:
 $$ 
 f(x) =
      \begin{cases}
-       \lambda e^{-\lambda x} & \text{si}& a \leq x \leq b \\
+       \lambda e^{-\lambda x} & x \geq 0 \\
        0 &\text{otro caso} \\
      \end{cases}
 $$
 
 Función acumulada:
+$$ 
+F(x) =
+     \begin{cases}
+       1 - e^{\lambda x} & \text{si} & x \geq 0\\
+       0 & \text{si} & x < 0 \\
+     \end{cases}
+$$
