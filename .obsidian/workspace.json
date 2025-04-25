@@ -98,13 +98,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Advanced Application Developement/Clases/Clase 7.md",
+                "file": "School/Advanced Application Developement/Guía/Probabilidad.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 7"
+              "title": "Probabilidad"
             }
           },
           {
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -191,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -318,8 +317,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99bec2424e0a94dd",
+  "active": "5842641ff485f608",
   "lastOpenFiles": [
+    "School/Advanced Application Developement/Guía/Probabilidad.md",
+    "School/Advanced Application Developement/Clases/Clase 7.md",
+    "School/Advanced Application Developement/Clases/Clase 8.md",
+    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
     "Slides Variables.md",
     "export/Slides Variables/Archive.zip",
     "export/Slides Variables/plugin/chalkboard/img/whiteboard.png",
@@ -346,12 +352,8 @@
     "export/Slides Variables/plugin/customcontrols/README.md",
     "export/Slides Variables/plugin/menu/README.md",
     "export/Slides Variables/plugin/menu/CONTRIBUTING.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
-    "School/Advanced Application Developement/Clases/Clase 8.md",
-    "School/Advanced Application Developement/Clases/Clase 7.md",
     "School/Distributed Systems/Clases/Clase 2.1.md",
     "School/Distributed Systems/Clases/Clase 2.md",
-    "School/Advanced Application Developement/Guía/Probabilidad.md",
     "School/Advanced Application Developement/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Clase 7.md",
@@ -359,11 +361,8 @@
     "School/Distributed Systems/Clases/Clase 3.md",
     "School/Advanced Application Developement/Clases/Clase 4.md",
     "School/Advanced Application Developement/Clases/Clase 5.md",
-    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 6.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第7课.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",

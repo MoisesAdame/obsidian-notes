@@ -58,3 +58,28 @@ Puedo volver a hacer el experimento.
 #### Investigación robusta
 Debe contener información suficiente para establecer conclusiones confiables.
 
+## Módulo: Estadística
+### Distribuciones Continuas
+#### Distribución Uniforme
+Función de densidad:
+$$ 
+f(x) =
+     \begin{cases}
+       \frac{1}{b - a} &\text{si}& a \leq x \leq b \\
+       0 &\text{otro caso} \\
+     \end{cases}
+$$
+
+Función acumulada:
+$$ 
+f(x) =
+     \begin{cases}
+       0 &\text{si}& x < a \\
+       \frac{x-a}{b-1} & \text{si} & a \leq x < b \\
+       1 &\text{si}& x \geq b\\
+     \end{cases}
+$$
+Media
+$$
+E(X) = \int_{-\infty}^{\infty}
+$$
