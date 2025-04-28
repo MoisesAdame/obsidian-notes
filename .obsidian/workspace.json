@@ -143,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "no switchport",
+                "query": "vlan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -297,6 +297,8 @@
   },
   "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Clase 4.md",
+    "School/Distributed Systems/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 3.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
@@ -341,8 +343,6 @@
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Clase 7.md",
     "School/Transformación Digital/Notas/Clase 7.md",
-    "School/Advanced Application Developement/Clases/Clase 4.md",
-    "School/Advanced Application Developement/Clases/Clase 5.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
