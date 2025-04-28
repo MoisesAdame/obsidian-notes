@@ -93,9 +93,24 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.8.10"
             }
+          },
+          {
+            "id": "373fc9bd7e9d0aa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Distributed Systems/Clases/Clase 6.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 6"
+            }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 6,
         "stacked": true
       }
     ],
@@ -128,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Q",
+                "query": "no switchport",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,12 +164,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -280,8 +295,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99bec2424e0a94dd",
+  "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 3.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
@@ -321,7 +337,6 @@
     "export/Slides Variables/plugin/menu/README.md",
     "export/Slides Variables/plugin/menu/CONTRIBUTING.md",
     "School/Distributed Systems/Clases/Clase 2.1.md",
-    "School/Distributed Systems/Clases/Clase 2.md",
     "School/Advanced Application Developement/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Clase 7.md",
