@@ -136,9 +136,21 @@
               "icon": "lucide-file",
               "title": "第8课：我的眼镜摔坏了"
             }
+          },
+          {
+            "id": "8c55d16dc35a4001",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -323,7 +335,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57ce0366e34e1866",
+  "active": "8c55d16dc35a4001",
   "lastOpenFiles": [
     "Chinese/HSK4/汉语教程/第7课：我的护照你找到了没有.md",
     "Chinese/HSK4/汉语教程/第6课：我是跟旅游团一起来的.md",
