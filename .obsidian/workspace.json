@@ -108,9 +108,24 @@
               "icon": "lucide-file",
               "title": "Clase 6"
             }
+          },
+          {
+            "id": "8a9354ae2b1c031c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Distributed Systems/Clases/Clase 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Clase 2"
+            }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -295,10 +310,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "373fc9bd7e9d0aa6",
+  "active": "8a9354ae2b1c031c",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Clase 4.md",
+    "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.58.56 a.m..png",
     "School/Distributed Systems/Clases/Clase 6.md",
+    "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 3.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
@@ -342,7 +358,6 @@
     "School/Advanced Application Developement/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Clase 7.md",
-    "School/Transformación Digital/Notas/Clase 7.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
