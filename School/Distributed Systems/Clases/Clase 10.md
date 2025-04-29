@@ -33,7 +33,14 @@ También se define el valor de **prioridad**, que es el orden en que los routers
 
 Router es **preenty** cuando se une a un grupo de routers se vuelve a considerar.
 
+#### Comandos
+Prender protocolo: `standby version 2`
 
+Definir número de grupo y dirección virtual del gateway: `standby <group-number> ip <virtual-gateway-address>`
+
+Cambiar prioridad de default: `standby <group-number> priority <priority>`
+
+Definir como preempt a ese router: `standby <group-number> preempt`
 
 
 
