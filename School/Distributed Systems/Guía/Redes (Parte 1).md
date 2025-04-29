@@ -159,6 +159,8 @@ Date: 2025-04-29 : 09:36
 
 ### Chapter 10.2
 #### Private IP Address Range
+#Q 
+- Establecidos por... en el documento... :: Internet Engineering Task Force (IETF), [RFC 1918]()
 
 
 
