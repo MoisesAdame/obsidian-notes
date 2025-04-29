@@ -42,5 +42,6 @@ Cambiar prioridad de default: `standby <group-number> priority <priority>`
 
 Definir como preempt a ese router: `standby <group-number> preempt`
 
-
+#### Propagar como ir a internet
+Se logra co
 
