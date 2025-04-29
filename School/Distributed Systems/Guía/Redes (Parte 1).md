@@ -160,7 +160,13 @@ Date: 2025-04-29 : 09:36
 ### Chapter 10.2
 #### Private IP Address Range
 #Q 
-- Establecidos por... en el documento... :: Internet Engineering Task Force (IETF), [RFC 1918]()
+- Establecidos por... en el documento... :: Internet Engineering Task Force (IETF), [RFC 1918](https://datatracker.ietf.org/doc/html/rfc1918).
+- Los **3 rangos** de grande a chico son :: 10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16
+
+#### Public IP Address Range
+#Q 
+- Se dividen en :: 5 clases (de A - E)
+- Clase A :: 
 
 
 
