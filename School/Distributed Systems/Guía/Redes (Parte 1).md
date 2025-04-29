@@ -106,7 +106,28 @@ Date: 2025-04-29 : 09:36
 - **Internet** determina la mejor :: Ruta en la red.
 - **Transport** Permite la comunicación de varios :: Dispositivos.
 - **Application** al usuario le representa :: Los datos.
-- 
+
+### Chapter 3.6
+#### Protocol Data Units
+#Q 
+- **Application** :: Data.
+- **Transport** :: Segment.
+- **Network Layer** :: Packet.
+- **Data Link** :: Frame.
+- **Physical** :: Bits
+
+### Chapter 3.7
+#### Addresses
+#Q 
+- Los address de **Layer 2** solo sirven si dispositivos en :: Misma red.
+- Los address de **Layer 3** sirven en :: Misma o diferente red.
+
+#### Layer 3 Logical Addresses
+#Q 
+- Las **2 partes** de una IP son :: Network y host.
+
+## Chapter 4
+### Chapter 4.1
 
 ## Flashcards
 ```aosr-deck-config
