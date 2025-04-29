@@ -3,8 +3,10 @@ tags:
 ---
 Date: 2025-04-29 : 09:36
 ***
-## Subtitle
-Value
+## Chapter 2
+### Chapter 2.4
+#Q
+- Definir hostname :: `hostname <name>`
 
 ## Flashcards
 ```aosr-deck-config
