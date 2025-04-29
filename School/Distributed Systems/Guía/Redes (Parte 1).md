@@ -166,7 +166,9 @@ Date: 2025-04-29 : 09:36
 #### Public IP Address Range
 #Q 
 - Se dividen en :: 5 clases (de A - E)
-- Clase A :: 
+- **Clase A** primeros bits... rango... :: 0, 0.0.0.0/1
+- **Clase B** primeros bits..., rango... :: 10, 128.0.0.0/2
+- **Clase C** primeros bits..., rango... :: 110, 192.0.0.0/3
 
 
 
