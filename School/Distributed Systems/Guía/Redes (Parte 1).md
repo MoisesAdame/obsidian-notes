@@ -151,8 +151,14 @@ Date: 2025-04-29 : 09:36
 - Tiene interferencia? (copper-fib) :: No / Si
 - Costo (copper-fib) :: Más bajo / Más alto.
 
-## Chapter 6: DataLink Layer
-### Chapter 6.1
+## Chapter 10
+### Chapter 10.1
+#### Basic Router Configuration
+#Q 
+- Para poder usar telnet o ssh debemos de entrar a una... con el comando... y luego ponemos :: vty, `line vty <number> <number>`, `transport input <ssh/telnet>`.
+
+### Chapter 10.2
+#### Private IP Address Range
 
 
 
