@@ -13,4 +13,5 @@ Cosas principales
 
 - investigar como usar BGP ya sea eBGP y iBGP
 - los doctores se deben conectar mediante un VPN remote access.
-- 
+- Redundancia en los routers core
+- Redundancia en switches (recomendo redundancia en stack)
