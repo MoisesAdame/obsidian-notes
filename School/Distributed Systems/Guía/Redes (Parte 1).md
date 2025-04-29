@@ -141,6 +141,19 @@ Date: 2025-04-29 : 09:36
 - UTP significa :: Unshielded twisted pair.
 - **Straight-trough** se usa para :: Dispositivos diferentes
 - **Crossover** se usa para :: Dispositivos iguales.
+- Ahora los cables *crossover* son... ya que existe... :: Legacy, Auto-MDIX.
+
+### Chapter 4.5
+#### Fiber vs. Copper
+#Q 
+- Bandwidth (copper-fib) :: 10 Mbps - 10 Gbps / 10 Mbps - 100 Gbps.
+- Distance (copper-fib) :: 100 m / 100,000 m
+- Tiene interferencia? (copper-fib) :: No / Si
+- Costo (copper-fib) :: Más bajo / Más alto.
+
+## Chapter 6: DataLink Layer
+### Chapter 6.1
+
 
 
 
