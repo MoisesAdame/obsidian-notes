@@ -82,14 +82,31 @@ Date: 2025-04-29 : 09:36
 - Y todo fluye mediante la... donde tenemos protocolos como... :: Nework layer, Ethernet o WAN.
 
 ### Chapter 3.5
+#### Layered Models
+#Q 
+- Los **dos mas importantes** son :: OSI y TCP/IP 
+
 #### Modelo OSI
 #Q 
 - Significado de OSI :: Open System Interconnection
 - **Mnemotecnia** para las layes OSI :: **Please Don't Throw Sausage Pizza Away**.
 - Las **layers** de OSI son :: 1) Physical 2) Data Link 3) Network 4) Transport 5) Session 6) Presentation 7) Application
+- **Layer 1** describe la forma... en que se transmiten... :: Mecánica, bits.
+- **Layer 2** protocolos para transmitir :: DataFrames
+- **Layer 3** intercambia DataFrame en :: La network 
+- **Layer 4** define como los datos se deben de :: Dividir, unir y transferir.
+- **Layer 5** le da servicios a... para... :: L6, intercambio de datos.
+- **Layer 6** se encarga de a los formatos de datos... haciendo cosas como... o... :: Traducirlos, *encriptar/des-encriptar*, *comprimir/descomprimir*
+- **Layer 7** nos da una interfaz entre la... y las... :: Red, aplicaciones.
+
+#### Modelo TCP/IP
+#Q 
+- Las **4 layers** de OSI son :: 1) Network Access 2) Internet 3) Transport 4) Application.
+- **Network** es todo lo relacionado con :: Hardware.,
+- **Internet** determina la mejor :: Ruta en la red.
+- **Transport** Permite la comunicación de varios :: Dispositivos.
+- **Application** al usuario le representa :: Los datos.
 - 
-
-
 
 ## Flashcards
 ```aosr-deck-config
