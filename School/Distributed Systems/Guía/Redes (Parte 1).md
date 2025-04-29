@@ -127,7 +127,22 @@ Date: 2025-04-29 : 09:36
 - Las **2 partes** de una IP son :: Network y host.
 
 ## Chapter 4
-### Chapter 4.1
+### Chapter 4.2
+#### Bandwidth Terminology
+#Q 
+- Los **3 principales** términos son :: Latency, throughput y goodput.
+- **Latency** es el tiempo con... para que datos... :: Delays, vayan de 1 punto a otro.
+- **Throughput** es la cantidad de... que se... :: Bits, transfieren en un *tiempo determinado*.
+- **Goodput** es la cantidad de de datos... que se... :: Usables, transfieren en un *tiempo determinado*.
+
+### Chapter 4.4
+#### Straight-trough & Crossover UTP
+#Q 
+- UTP significa :: Unshielded twisted pair.
+- **Straight-trough** se usa para :: Dispositivos diferentes
+- **Crossover** se usa para :: Dispositivos iguales.
+
+
 
 ## Flashcards
 ```aosr-deck-config
