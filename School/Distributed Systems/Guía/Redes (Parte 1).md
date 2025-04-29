@@ -59,12 +59,35 @@ Date: 2025-04-29 : 09:36
 
 ### Chapter 3.2
 #### Overview
+#Q 
 - Los **4 principales** tipos de protocolos son :: Comunicación en red, seguridad en red, ruteo y descubrimiento de servicios.
 - Ejemplos protocolos de **comunicación en red** :: IP, TCP, HTTP.
 - Ejemplos de protocolos de **seguridad** :: SSH, SSL y TLS.
 - Ejemplos de protocolos de **ruteo** :: OSPF y BGP.
 - Ejemplos de protocolos de **descubrimiento de servicios** :: DHCP y DNS.
 
+### Chapter 3.3
+#### Network Protocol Suites
+#Q 
+- Son un conjunto de... que están diseñados para... :: Protocols, trabajar en conjunto.
+- Las **capas de abajo** se encargan de :: Mover el mensaje en la red.
+- Las **capas de arriba** se encargan de el :: Contenido del mensaje.
+- El **network protocol suite** más común es :: TCP/IP.
+
+#### TCP/IP Protocol
+#Q
+- En **application** tenemos :: Hyper Text Transfer Protocol (HTTP).
+- En **transport** tenemos :: Transmission Control Protocol (TCP).
+- En **internet** tenemos :: Internet protocol (IP).
+- Y todo fluye mediante la... donde tenemos protocolos como... :: Nework layer, Ethernet o WAN.
+
+### Chapter 3.5
+#### Modelo OSI
+#Q 
+- Significado de OSI :: Open System Interconnection
+- **Mnemotecnia** para las layes OSI :: **Please Don't Throw Sausage Pizza Away**.
+- Las **layers** de OSI son :: 1) Physical 2) Data Link 3) Network 4) Transport 5) Session 6) Presentation 7) Application
+- 
 
 
 
