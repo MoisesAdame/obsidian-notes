@@ -43,5 +43,13 @@ Cambiar prioridad de default: `standby <group-number> priority <priority>`
 Definir como preempt a ese router: `standby <group-number> preempt`
 
 #### Propagar como ir a internet
-Se logra co
+Se logra con algo como:
+
+router ospf 10
+log-adjacency-changes
+network 10.1.1.0 0.0.0.3 area 0
+default-information originate
+
+Y en la routing table se ve:
+O\*E2 0.0.0.0/0 \[110/1] via 10.1.1.2, 4294967274:4294967239:4294967281, GigabitEthernet0/0
 
