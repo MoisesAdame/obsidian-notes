@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -328,6 +329,7 @@
   "lastOpenFiles": [
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Clase 9.md",
+    "School/Distributed Systems/Clases/Clase.md",
     "School/Distributed Systems/Clases/Clase 6.md",
     "School/Distributed Systems/Clases/Clase 2.md",
     "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.58.56 a.m..png",
@@ -371,7 +373,6 @@
     "export/Slides Variables/plugin/menu/CONTRIBUTING.md",
     "School/Distributed Systems/Clases/Clase 2.1.md",
     "School/Advanced Application Developement/Clases/Clase 6.md",
-    "School/Distributed Systems/Clases/Clase 7.md",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
