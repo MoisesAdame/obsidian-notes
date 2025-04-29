@@ -32,6 +32,20 @@ Date: 2025-04-29 : 09:36
 - Las comunicaciones en red dependen de **3 cosas** :: User device interfaces, Networking interfaces y cables.
 - Los switches no necesitan una... y si la usan es para que te puedas... :: IP, conectar remoto.
 
+### Chapter 2.7
+#### IP Configuration
+#Q 
+- La IP se puede poner de forma :: Automática o manual.
+- Para poner IP de forma **automática** se usa :: Dynamic Host Configuration Protocol (DHCP).
+- DHCP funciona a partir de un... que asigna... :: Server, IP's.
+- Para IPv4 y IPv6 DHCP :: No es igual.
+
+#### Switched Virtual Interface
+- Es una **interfaz virtual** que le da... a una VLAN :: Ruteo de capa 3.
+- Se crea al ponerle a las VLAN's :: IP's.
+- Primero entramos a la vlan... y luego ponemos IP... finalmente la activamos poniendo... :: `interface vlan <1-4098>`, `ip address <ip> <mask>`, `no shutdown`
+
+
 
 
 ## Flashcards
