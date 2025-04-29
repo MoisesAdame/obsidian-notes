@@ -45,6 +45,26 @@ Date: 2025-04-29 : 09:36
 - Se crea al ponerle a las VLAN's :: IP's.
 - Primero entramos a la vlan... y luego ponemos IP... finalmente la activamos poniendo... :: `interface vlan <1-4098>`, `ip address <ip> <mask>`, `no shutdown`
 
+### Chapter 2.8
+#Q 
+- Para checar configuración de IP's :: `show ip interface brief`
+
+## Chapter 3
+### Chapter 3.1
+#### Message Delivery Options
+#Q 
+- Los **3 tipos** son :: Unicast, multicast y broadcast.
+- Diferencia entre **multicast** y **broadcast** :: **Broadcast** se manda a todos, y **multicast** se manda solo a los miembros de multicast group.
+
+
+### Chapter 3.2
+#### Overview
+- Los **4 principales** tipos de protocolos son :: Comunicación en red, seguridad en red, ruteo y descubrimiento de servicios.
+- Ejemplos protocolos de **comunicación en red** :: IP, TCP, HTTP.
+- Ejemplos de protocolos de **seguridad** :: SSH, SSL y TLS.
+- Ejemplos de protocolos de **ruteo** :: OSPF y BGP.
+- Ejemplos de protocolos de **descubrimiento de servicios** :: DHCP y DNS.
+
 
 
 
