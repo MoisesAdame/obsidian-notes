@@ -8,8 +8,17 @@ Date: 2025-04-30 : 12:49
 #### Redes Conmutadas Sin Bordes
 #Q 
 - Su diseño se basa en los :: Niveles de acceso.
-- Los niveles de ac
+- Los niveles de acceso son :: Core, distribution y access.
+- La **access layer** es donde se conectan :: Los usuarios.
+- En **distribution layer** se implementa el... y también se ven cosas como... y... :: Ruteo, QoS, Seguridad.
+- En **core layer** es la red :: Troncal.
+- Una **routed LAN** permite meter cosas como :: QoS, seguridad.
 
+### Redes Escalables
+#### Definición
+#Q 
+- La escalabilidad es es la capacidad de una red de... sin perder... y... :: Crecer, disponibilidad, confiabilidad.
+- 
 
 ## Flashcards
 ```aosr-deck-config
