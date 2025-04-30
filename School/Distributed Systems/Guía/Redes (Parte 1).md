@@ -172,10 +172,6 @@ Date: 2025-04-29 : 09:36
 - **Clase D** primeros bits..., rango... :: 1110, 224.0.0.0 - 239.255.255.255
 - **Clase E** primeros bits..., rango... :: 11110, 240.0.0.0 - 255.255.255.255
 - **Clase D y E** son... y... :: Multicast, experimental.
-- 
-
-
-
 
 ## Flashcards
 ```aosr-deck-config
