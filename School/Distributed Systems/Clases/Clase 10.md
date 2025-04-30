@@ -59,4 +59,26 @@ HSRP se comunica por la red local.
 
 ## Módulo: Cloud
 ### Virtualización
+#### VM's
+Todo proveedor cloud tiene máquina virtual.
 
+Es una emulación de una máquina física con un sistema operativo.
+
+La diferencia con una computadora normal es que tiene **hypervisor** el cual emula lo que hace el hardware.
+
+El **hypervisor** es una emulación en software de ese control primario de recursos físicos.
+
+La VM descononoce (es **agnóstico**) del hecho de que corre sobre un hypervisor.
+
+Tipos de Hypervisores:
+- Bare Metal: Todo recae en el hypervisor. No tienen OS. Son las que usan los proveedores.
+- Tipo 2: Las que usamos cuando en local instalamos una VM.
+
+#### Ventajas
+Nos permite migrar, instalar, etc sin **downtime**.
+
+Permite escalar
+
+Permite migrar tráfico.
+
+#### 
