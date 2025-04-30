@@ -109,4 +109,12 @@ En nuestro caso, la imagen es la clase.
 
 Flujo: Dockerfile -> Image -> Container.
 
+#### Docker Images Layers
+Bootfs: Es la imagen base, a partir de ella podemos construir.
+
+Cada capa crea un estado
+
+#### Dockerfile
+
+
 
