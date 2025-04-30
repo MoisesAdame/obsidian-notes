@@ -81,4 +81,32 @@ Permite escalar
 
 Permite migrar tráfico.
 
-#### 
+#### Contenedores
+Ambientes aislados donde las aplicaciones corren, contiene todo
+
+Tiene beneficios de la VM
+
+Ya no es necesario el hypervisor.
+
+Ya no es necesario que cada máquina tenga un OS.
+
+#### Sigue Siendo Linux
+El primer software de contenedores fue **linux containers**. El problema es que era muy bajo nivel.
+
+Docker igual que linux containers, aprovecha el kernel de linux.
+
+#### Componentes de Docker
+cgrup lo que hace es **gestionar** los recursos físicos de la máquina anfitriona. Es parecido a lo que hace el hipervisor, pero para contenedores.
+
+namespaces se encarga de evitar que los contenedores, vean info de los otros contenedores. Es decir, nos da aislamiento.
+
+Las ventajas de esto es que solo necesitamos un sistema operativo.
+
+#### Docker Images
+En OOP tenemos el código (código fuente) el ejecutable (clase) y el objeto
+
+En nuestro caso, la imagen es la clase.
+
+Flujo: Dockerfile -> Image -> Container.
+
+
