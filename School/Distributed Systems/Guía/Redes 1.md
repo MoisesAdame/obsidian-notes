@@ -181,7 +181,7 @@ Date: 2025-04-29 : 09:36
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "School/Distributed Systems/Guía/Redes (Parte 1).md",
+				"value": "School/Distributed Systems/Guía/Redes 1.md",
 				"path": "$.path"
 			}]
 		},

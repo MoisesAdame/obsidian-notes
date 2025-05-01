@@ -46,6 +46,14 @@ Date: 2025-04-30 : 12:49
 - La **densidad del swicth** es la cantidad de :: Puertos que tiene.
 
 #### Switches Multicapa
+#Q 
+- Se implementan generalmente en las capas :: Core y distribución.
+- Su ventaja es que a los **paquetes IP** los reenvían a una velocidad parecida a los :: Paquetes de capa 2.
+
+### Hardware de Router
+#### Requerimientos del Router
+#Q 
+- Los routers usan el... para routear los paquetes a su destino :: Prefijo de red.
 
 
 ## Flashcards
@@ -56,7 +64,7 @@ Date: 2025-04-30 : 12:49
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "School/Distributed Systems/Guía/Redes (Parte 2).md",
+				"value": "School/Distributed Systems/Guía/Redes 2.md",
 				"path": "$.path"
 			}]
 		},
