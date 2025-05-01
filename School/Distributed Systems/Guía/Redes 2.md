@@ -55,6 +55,19 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Los routers usan el... para routear los paquetes a su destino :: Prefijo de red.
 
+## Redes VLAN
+### Descripción General
+#### Definiciones
+#Q 
+- Son conexiones de tipo... entre dispositivos... :: Lógicas, similares.
+- Tener VLAN nos proporciona... en un mismo... :: Segmentación, switch.
+- Cada VLAN tiene su propio rango de :: IP's
+- Beneficios de VLAN :: Seguridad, menores costos, mayor rendimiento.
+
+#### Tipos de VLAN
+- La **VLAN 1** es la 
+
+
 
 ## Flashcards
 ```aosr-deck-config
