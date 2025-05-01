@@ -8,9 +8,32 @@ Date: 2025-05-01 : 17:31
 #Q 
 - Ingresar a la VLAN :: `vlan <val-id>`
 - Asignar nombre a VLAN :: `name <vlan-name>`
-- 
+
+### Asignar VLAN a Interfaces Específicas
+#Q 
+- Ingresar a la interfaz deseada :: `interface <interface-id>`
+- Establecer el puerto en *modo de acceso* :: `switchport mode access`.
+- Asignar el puerto a una VLAN :: `switchport access vlan <vlan-id>`
+
+### Ver información de VLAN
+#Q 
+- Show VLAN or VLAN's info :: `show VLAN [brief | id <vlam-id>]` 
 
 ## Troncales de VLAN
+### Configurar Interfaz como Troncal
+#Q 
+- Ingresar a la interfaz :: `interface <interface-id>`
+- Definir interfaz como troncal :: `switchport mode trunk`
+- Definir VLAN nativa de interfaz :: `swicthport trunk native vlan <vlan-id>`
+- Definir VLAN's admitidas por esa troncal :: `switch trunk allowed vlan <vlan-id>, <vlan-id>, <vlan-id>`
+
+### Restablecer Enlace Troncal al Estado Predeterminado
+#Q 
+- Ingresar a la interfaz :: `interface <interface-id>`
+- Desactivar VLAN's admitidas por esa troncal :: `switch trunk allowed vlan`.
+- Desactivar VLAN nativa de interfaz :: `no swicthport trunk native vlan`.
+
+
 
 
 ## Flashcards
