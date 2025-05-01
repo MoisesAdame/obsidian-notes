@@ -65,7 +65,17 @@ Date: 2025-04-30 : 12:49
 - Beneficios de VLAN :: Seguridad, menores costos, mayor rendimiento.
 
 #### Tipos de VLAN
-- La **VLAN 1** es la 
+- La **VLAN 1** es la vlan, no se puede... ni... :: Nativa predeterminada, eliminar, cambiar.
+- La **VLAN de datos** esta dedicada al tráfico generado por :: Usuario.
+- La **VLAN nativa** se usa para enlaces de tipo :: Troncal.
+- La **VLAN administración** se usa para tráfico de tipo ::  SSH/Telnet VTY.
+
+### VLAN en un Entorno de Multiple Routing
+#### Troncales de VLAN
+#Q 
+- Es un mismo link físico por el cual viajan varias :: VLANs
+- **802.1Q** es un estándar que le pone a los frames the ethernet un... que identifican a que... :: Tag, VLAN pertenece.
+- Los dispositivos
 
 
 
