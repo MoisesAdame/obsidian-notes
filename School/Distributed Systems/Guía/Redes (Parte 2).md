@@ -18,7 +18,12 @@ Date: 2025-04-30 : 12:49
 #### Definición
 #Q 
 - La escalabilidad es es la capacidad de una red de... sin perder... y... :: Crecer, disponibilidad, confiabilidad.
-- 
+- Las redes redundantes en red Ethernet causan... para evitarlos se usa el protocolo... :: Bucles, Spanning Tree Protocol (STP.)
+
+#### Reducen el Tamaño del Dominio de Errores
+#Q 
+- Error domain es el :: Área de una red afectada.
+- Los enrutadores o switches multicapa generalmente se implementan en... a esta configuración se le llama... y lo bueno es que si uno falla no... :: Pares 
 
 ## Flashcards
 ```aosr-deck-config
