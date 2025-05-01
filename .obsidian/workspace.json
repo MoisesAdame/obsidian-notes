@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -176,7 +176,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vlan",
+                "query": "tag:#Q",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +197,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -327,10 +328,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc01569cece59121",
+  "active": "90d6c857a8fbfef6",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
+    "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Advanced Application Developement/Clases/Clase 8.md",
     "School/Distributed Systems/Guía/Protocolos",
