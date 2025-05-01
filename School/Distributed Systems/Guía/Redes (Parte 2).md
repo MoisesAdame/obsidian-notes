@@ -23,7 +23,30 @@ Date: 2025-04-30 : 12:49
 #### Reducen el Tamaño del Dominio de Errores
 #Q 
 - Error domain es el :: Área de una red afectada.
-- Los enrutadores o switches multicapa generalmente se implementan en... a esta configuración se le llama... y lo bueno es que si uno falla no... :: Pares 
+- Los enrutadores o switches multicapa generalmente se implementan en... a esta configuración se le llama... y lo bueno es que si uno falla no... :: Pares, Block switch, se cae la red.
+
+#### Aumentan Ancho de Banda
+#Q 
+- El **EtherChannel** sirve para aumentar el... combina varios enlaces... en uno... :: Ancho de banda, físicos, lógico.
+
+#### Expandir la Capa de Acceso
+#Q 
+- Una opción barata y flexible para expandir la capa de acceso es usar redes :: Wireless LAN (WLAN).
+
+#### Sintonizan Protocolos de Enrutamiento
+#Q 
+- Para enrutar grandes redes podemos usar protocolos como :: Open Shortest Path First (OSPF).
+- OSPF es un protocolo... y usa... para admitir redes de tipo... :: Link state, áreas, jerárquicas.
+- Para sinconizarse los routers OPSF usan una :: Link state data base.
+
+### Hardware de Switch
+#### Conceptos Importantes
+#Q 
+- Los **swicthes modulares** son los que aceptan :: Más tarjetas de línea.
+- La **densidad del swicth** es la cantidad de :: Puertos que tiene.
+
+#### Switches Multicapa
+
 
 ## Flashcards
 ```aosr-deck-config
