@@ -75,7 +75,20 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Es un mismo link físico por el cual viajan varias :: VLANs
 - **802.1Q** es un estándar que le pone a los frames the ethernet un... que identifican a que... :: Tag, VLAN pertenece.
-- Los dispositivos
+- Los dispositivos en diferentes VLAN's no se pueden comunicar a menos que haya un :: Dispositivo de capa 3.
+
+#### Identificación de VLAN con una Etiqueta
+#Q 
+- Tamaño del encabezado **802.1Q** mide :: 4 bytes.
+- Los **4 campos** del encabezado 802.1Q son :: Tipo, prioridad de usuario, CFI y VLAN ID (VID).
+
+#### VLAN Nativas y Etiquetado 802.1Q
+#Q 
+- Ambos extremos de un enlace troncal se deben configurar con la misma :: VLAN nativa.
+
+### Configuración de VLAN
+#Q 
+- 
 
 
 
