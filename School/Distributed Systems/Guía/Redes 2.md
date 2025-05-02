@@ -123,6 +123,18 @@ Date: 2025-04-30 : 12:49
 - Es un protocolo de ruteo de tipo... fue desarrollado como alternativa a los protocolos de tipo... como... :: Link state, vector distance, RIP.
 - A comparación de RIP su convergencia es... y es mejor para... :: Más rápida, escalabilidad.
 - Se dice que OSPF es un protocolo... ya que en sus mensajes de actualización incluye la... :: Sin clase, máscara de red.
+- Para ser escalable usa el concepto de :: Áreas.
+- En OSPF un **link** puede ser una... o también un... :: Interfaz de router, segmento de red que conecta dos routers.
+- La **información** de los links de OSPF se conoce como... e incluye cosas como el..., la... y el... :: Link state, prefijo de red, longitud del prefijo, costo.
+- Todos los protocolos de ruteo usan... los cuales sirven para formar... que son... por el protocolo :: Mensajes, estructuras de datos, usadas.
+
+### Componentes de OSPF
+#Q 
+- Los **3 componentes** de OPSF son :: Base de datos de adyacencia, link state data base (LSDB) y base de datos de reenvío.
+- La **Adjacency Data Base** es nos muestra los routers... y para cada router es... :: Vecinos, única.
+- Comando para ver la **adjacency database** :: `show ip ospf neighbor`
+- La **Link State Data Base** nos muestra la info de... representa la... las LSDB para todos los routers son... :: Todos los routers de red, topología de red, iguales.
+- Comando para ver la ****
 
 ## Flashcards
 ```aosr-deck-config
