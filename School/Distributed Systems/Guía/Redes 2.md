@@ -134,7 +134,9 @@ Date: 2025-04-30 : 12:49
 - La **Adjacency Data Base** es nos muestra los routers... y para cada router es... :: Vecinos, única.
 - Comando para ver la **adjacency database** :: `show ip ospf neighbor`
 - La **Link State Data Base** nos muestra la info de... representa la... las LSDB para todos los routers son... :: Todos los routers de red, topología de red, iguales.
-- Comando para ver la ****
+- Comando para ver la **Link State Data Base** :: `show ip ospf database`
+- La **Base de Datos de Reenvío** se puede entender como una... para cada router es... y nos dice a los paquetes cosas como... :: Tabla de ruteo, diferente, como y a donde enviar paquetes.
+- Comando para ver la **Base de Datos de Reenvío** :: `show ip route`.
 
 ## Flashcards
 ```aosr-deck-config
