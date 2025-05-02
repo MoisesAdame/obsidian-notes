@@ -98,7 +98,8 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Para cada VLAN diferente se usaba :: Una interfaz en el router.
 - Sirve pero el problema es que no es :: Escalable.
-- Diagrama :: []
+- Diagrama :: ![[redes2-fig1.png | 300]]
+
 
 
 ## Flashcards
