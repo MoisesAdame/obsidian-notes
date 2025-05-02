@@ -17,7 +17,10 @@ Date: 2025-05-01 : 16:51
 - Definimos esa interfaz como **troncal** porque por el deben de pasar varias vlans :: `switchport mode trunk`
 - Definimos las vlans que pueden pasar por ese troncal :: `switchport trunk allowed vlan <vlan-id>,<vlan-id>,<vlan-id>`
 
-
+## Detectar Si Funciona o No
+#Q 
+- Se usa el comando :: `show etherchannel summary`.
+- Si *no está activo* veremos... si *está activo* veremos... :: `Po1(SD)`, `Po1(SU)`
 
 ## Flashcards
 ```aosr-deck-config
