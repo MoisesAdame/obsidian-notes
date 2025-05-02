@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -402,10 +402,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e5b86a353e48c4a",
+  "active": "fc01569cece59121",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Untitled.md",
+    "School/Distributed Systems/Guía/Redes 2.md",
     "Work",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
