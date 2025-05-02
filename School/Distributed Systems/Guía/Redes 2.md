@@ -117,10 +117,6 @@ Date: 2025-04-30 : 12:49
 - La **única desventaja** es que switches de capa 3 son :: Más caros.
 - Diagrama :: ![[redes2-fig2.png | 300]]
 
-### Router On A Stick
-#### Configuración
-
-
 
 
 
