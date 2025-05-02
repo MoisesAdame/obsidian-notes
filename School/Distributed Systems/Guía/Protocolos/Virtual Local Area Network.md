@@ -25,7 +25,7 @@ Date: 2025-05-01 : 17:31
 - Ingresar a la interfaz :: `interface <interface-id>`
 - Definir interfaz como troncal :: `switchport mode trunk`
 - Definir VLAN nativa de interfaz :: `swicthport trunk native vlan <vlan-id>`
-- Definir VLAN's admitidas por esa troncal :: `switch trunk allowed vlan <vlan-id>, <vlan-id>, <vlan-id>`
+- Definir VLAN's admitidas por esa troncal :: `switch trunk allowed vlan <vlan-id>,<vlan-id>,<vlan-id>`
 
 ### Restablecer Enlace Troncal al Estado Predeterminado
 #Q 
@@ -38,7 +38,7 @@ Date: 2025-05-01 : 17:31
 #Q 
 - Si la interfaz vecina está configurado en modo trunk, desirable, o dynamic auto se pone :: `switchport mode dynamic desirable`
 - Si la interfaz vecina está configurado en modo trunk o desirable se pone :: `switchport mode dynamic auto`
-- Para desabilitar DTP primero ponemos... y luego... :: `switchport mode trunk`, `switchport mode nonegotiate`.
+- Para desabilitar DTP primero ponemos... y luego... :: `switchport mode trunk`, `switchport nonegotiate`.
 
 ## Flashcards
 ```aosr-deck-config
