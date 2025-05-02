@@ -173,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 10,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -359,13 +359,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c245da1efb8609ab",
+  "active": "8dabc0520bca8f11",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
-    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
+    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
     "School/Advanced Application Developement/Clases/Clase 8.md",
     "School/Distributed Systems/Guía/Protocolos",
