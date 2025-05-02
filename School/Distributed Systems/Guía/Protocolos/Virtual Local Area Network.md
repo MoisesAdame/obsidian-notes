@@ -34,6 +34,12 @@ Date: 2025-05-01 : 17:31
 - Desactivar VLAN nativa de interfaz :: `no swicthport trunk native vlan`.
 - Restablezca el enlace troncal a un modo de acceso :: `switchport mode access`.
 
+### Dynamic Trunking Protocol
+#Q 
+- Si la interfaz vecina está configurado en modo trunk, desirable, o dynamic auto se pone :: `switchport mode dynamic desirable`
+- Si la interfaz vecina está configurado en modo trunk o desirable se pone :: `switchport mode dynamic auto`
+- Para desabilitar DTP primero ponemos... y luego... :: `switchport mode trunk`, `switchport mode nonegotiate`.
+
 ## Flashcards
 ```aosr-deck-config
 {
