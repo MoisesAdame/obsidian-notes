@@ -54,11 +54,21 @@ Paso 4, habilitar enrutamiento ip
 ip routing
 
 #Q 
-Configurar puerto como ruteable
+Configurar puerto como routeable
 ?
 interface \<interface-type> \<interface-id>
 no switchport
 ip address \<ip> \<mask>
+
+#Q 
+Configurar troncales (en caso necesario)
+?
+interface \<interface-type> \<interface-id>
+switchport mode trunk
+switchport mode trunk native vlan \<vlan-id>
+switchport trunk encapsulation dot1q
+(No es necesario especificar allowed vlans).
+
 
 ## Flashcards
 ```aosr-deck-config
