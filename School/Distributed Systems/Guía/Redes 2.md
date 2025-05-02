@@ -88,7 +88,17 @@ Date: 2025-04-30 : 12:49
 
 ## Inter VLAN Routing
 ### Funcionamiento
+#Q 
+- No hay comunicación entre VLAN's a menos que haya :: Dispositivo capa 3.
+- Inter-VLAN routing se encarga de mandar información de :: Una VLAN a otra VLAN.
+- Las **3 formas** de lograr esto son :: Legacy, router-on-a-stick y usando SVI's en switch capa 3.
+- Para organizaciones pequeñas y medianas se recomienda..., para medianas y grandes se recomienda :: Router-on-a-stick, SVI's en switch capa 3.
 
+### Legacy Inter VLAN
+#Q 
+- Para cada VLAN diferente se usaba :: Una interfaz en el router.
+- Sirve pero el problema es que no es :: Escalable.
+- Diagrama :: []
 
 
 ## Flashcards

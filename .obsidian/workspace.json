@@ -206,7 +206,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Q",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,13 +227,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -359,8 +357,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ab5fadefe9c64c3",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Assets/redes2-fig1.png",
+    "School/Distributed Systems/Guía/Assets",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
@@ -389,7 +389,6 @@
     "School/Advanced Application Developement/Guía/Probabilidad.md",
     "School/Advanced Application Developement/Clases/Clase 7.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
     "export/Slides Variables/Archive.zip",
     "export/Slides Variables/plugin/chalkboard/img/whiteboard.png",
     "export/Slides Variables/plugin/chalkboard/img/sponge.png",
@@ -406,7 +405,6 @@
     "export/Slides Variables/plugin/chalkboard/img",
     "export/Slides Variables/plugin/chalkboard/_style.css",
     "export/Slides Variables/plugin/chalkboard",
-    "export/Slides Variables/plugin/chart/plugin.js",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
