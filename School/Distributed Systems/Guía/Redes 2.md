@@ -86,10 +86,8 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Ambos extremos de un enlace troncal se deben configurar con la misma :: VLAN nativa.
 
-### Configuración de VLAN
-#Q 
-- 
-
+## Inter VLAN Routing
+### d
 
 
 ## Flashcards

@@ -32,9 +32,7 @@ Date: 2025-05-01 : 17:31
 - Ingresar a la interfaz :: `interface <interface-id>`
 - Desactivar VLAN's admitidas por esa troncal :: `switch trunk allowed vlan`.
 - Desactivar VLAN nativa de interfaz :: `no swicthport trunk native vlan`.
-
-
-
+- Restablezca el enlace troncal a un modo de acceso :: `switchport mode access`.
 
 ## Flashcards
 ```aosr-deck-config
