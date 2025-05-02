@@ -53,6 +53,13 @@ Paso 4, habilitar enrutamiento ip
 ?
 ip routing
 
+#Q 
+Configurar puerto como ruteable
+?
+interface \<interface-type> \<interface-id>
+no switchport
+ip address \<ip> \<mask>
+
 ## Flashcards
 ```aosr-deck-config
 {
