@@ -117,7 +117,12 @@ Date: 2025-04-30 : 12:49
 - La **única desventaja** es que switches de capa 3 son :: Más caros.
 - Diagrama :: ![[redes2-fig2.png | 300]]
 
-
+## Open Shortest Path First
+### Características y Funciones
+#Q 
+- Es un protocolo de ruteo de tipo... fue desarrollado como alternativa a los protocolos de tipo... como... :: Link state, vector distance, RIP.
+- A comparación de RIP su convergencia es... y es mejor para... :: Más rápida, escalabilidad.
+- Se dice que OSPF es un protocolo... ya que en sus mensajes de actualización incluye la... :: Sin clase, máscara de red.
 
 ## Flashcards
 ```aosr-deck-config

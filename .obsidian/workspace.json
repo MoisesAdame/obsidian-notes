@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 7,
         "stacked": true
       }
     ],
@@ -387,14 +387,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3715fb7b9fd816c4",
+  "active": "8ab5fadefe9c64c3",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
-    "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Assets/inter-valn-routing-fig1.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig2.png",
