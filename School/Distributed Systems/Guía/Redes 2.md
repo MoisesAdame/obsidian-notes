@@ -104,7 +104,24 @@ Date: 2025-04-30 : 12:49
 #Q 
 - En vez de como el legacy todas las VLAN's viajan en :: Una misma interfaz.
 - La interfaz del switch se configura como... y la en la interfaz del router se configuran... :: Troncal, subinterfaces
-- Cuando el tráfico etiquetado de VLAN entra en la interfaz del router, e
+- Cuando el tráfico etiquetado de VLAN entra en la interfaz del router, esta se reenvía a... después se decide a que interfaz mandarla, si la interfaz de salida está configurada como una subinterfaz 802.1q,  las tramas se etiquetan con la... :: La subinterfaz indicada, nueva VLAN.
+
+### Inter VLAN routing en Switch Capa 3
+#Q 
+- Este ese el método :: Más moderno y escalable.
+- Utiliza las :: Switched Virtual Interface (SVI)
+- Por cada VLAN se crea una :: SVI.
+- Una SVI hace las mismas funciones que haría una :: Interfaz del enrutador.
+- Es más rápido que router-on-a-stick porque todo switching y routing se hacen mediante el :: Hardware.
+- No se limita a un enlace porque se pueden usar :: EtherChannels.
+- La **única desventaja** es que switches de capa 3 son :: Más caros.
+- Diagrama :: ![[redes2-fig2.png | 300]]
+
+### Router On A Stick
+#### Configuración
+
+
+
 
 
 ## Flashcards
