@@ -100,6 +100,11 @@ Date: 2025-04-30 : 12:49
 - Sirve pero el problema es que no es :: Escalable.
 - Diagrama :: ![[redes2-fig1.png | 300]]
 
+### Router-On-A-Stick Inter VLAN Routing
+#Q 
+- En vez de como el legacy todas las VLAN's viajan en :: Una misma interfaz.
+- La interfaz del switch se configura como... y la en la interfaz del router se configuran... :: Troncal, subinterfaces
+- Cuando el tráfico etiquetado de VLAN entra en la interfaz del router, e
 
 
 ## Flashcards
