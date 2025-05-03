@@ -196,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -322,8 +323,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a300fe91512115a2",
+  "active": "8ab5fadefe9c64c3",
   "lastOpenFiles": [
+    "Work/住宿选项/option10.png",
+    "Work/住宿选项/option9.png",
+    "Work/住宿选项/option8.png",
     "Work/住宿选项/option7.png",
     "Work/住宿选项/opt.md",
     "Work/住宿选项/中国来访者墨西哥商务期间住宿选项.md",
@@ -346,8 +350,6 @@
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Assets/inter-valn-routing-fig1.png",
-    "School/Distributed Systems/Guía/Assets/redes2-fig2.png",
-    "School/Distributed Systems/Guía/Assets/redes2-fig1.png",
     "School/Distributed Systems/Guía/Assets",
     "School/Advanced Application Developement/Clases/Clase 8.md",
     "School/Distributed Systems/Guía/Protocolos",
@@ -360,7 +362,6 @@
     "School/Distributed Systems/Guía",
     "School/Distributed Systems/Clases/Clase.md",
     "School/Distributed Systems/Clases/Clase 6.md",
-    "School/Quantum/Books/The Phylogenetic Handbook/Screenshot 2024-09-12 at 11.58.56 a.m..png",
     "School/Distributed Systems/Clases/Clase 4.md",
     "School/Distributed Systems/Clases/Clase 3.md",
     "Chinese/HSK4/汉语教程/第5课：我听过钢琴协奏曲 《黄河》.md",
