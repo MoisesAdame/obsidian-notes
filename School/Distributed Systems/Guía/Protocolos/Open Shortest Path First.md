@@ -45,7 +45,8 @@ Date: 2025-05-03 : 18:43
 ### Simular Red LAN Usando Loopbacks
 #Q 
 - Por **defecto** las interfaces loopback se anuncian como :: Rutas de host /32.
-- Podemos simular una red LAN con una loopback definiendola como poin-to-point :: Entramos a la loopback `interface loopback <loopback-id>`, luego la definimos como pint to point `ip ospf network point-to-poin`
+- Podemos simular una red LAN con una loopback definiendola como poin-to-point :: Entramos a la loopback `interface loopback <loopback-id>`, luego la definimos como pint to point `ip ospf network point-to-point`
+- 
 
 
 
