@@ -19,8 +19,12 @@ Date: 2025-05-03 : 18:43
 
 ### Configuración Explícita de Router ID
 #Q 
+- Se habilita OPSF :: `router ospf <process-id>`.
+- Se define router ID :: `router-id <router-id>`.
+- Para checar usamos :: `show ip protocols`.
 
-
+## Point2Point OSPF Networks
+### 
 
 
 
