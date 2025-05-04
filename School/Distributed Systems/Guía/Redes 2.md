@@ -137,6 +137,18 @@ Date: 2025-04-30 : 12:49
 - Comando para ver la **Link State Data Base** :: `show ip ospf database`
 - La **Base de Datos de Reenvío** se puede entender como una... para cada router es... y nos dice a los paquetes cosas como... :: Tabla de ruteo, diferente, como y a donde enviar paquetes.
 - Comando para ver la **Base de Datos de Reenvío** :: `show ip route`.
+- Para armar la link state database el protocolo usa el algoritmo... cada router se pone como la... del árbol y así calcula las... y con ello define la... :: Shortest path first de Dijsktra, raíz, mejores rutas, tabla de routeo.
+
+### Operación de Link State
+#Q 
+- Este proceso se encarga de que los routers lleguen a :: Su estado de convergencia.
+
+### Área única y Multiárea OSPF
+#Q 
+- Un **área OSPF** es un conjunto de... los cuales compart
+
+
+
 
 ## Flashcards
 ```aosr-deck-config
