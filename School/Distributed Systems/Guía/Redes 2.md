@@ -305,9 +305,19 @@ Date: 2025-04-30 : 12:49
 ### VPN Technology
 #Q 
 - Una VPN es una conexión... entre dos redes... a través de una red... :: Encriptada, privadas, pública.
-- Hay **2 tipos** de VPN's :: Site-to-stie VPN's y remote acsess.
+- Hay **2 tipos** de VPN's :: Site-to-stie VPN's y remote access.
 - Las **site-to-site vpn's** se configuran en... los clientes ni... :: Los routers, se dan cuenta que existen.
-- 
+- En las **remote access VPN's** el usuario es consciente que :: Inicia una conexión.
+
+### ISP Connectivity Options
+#Q 
+- Las **4 formas** son :: Single-homed, dual-homed, multihomed y dual-multihomed.
+- La forma más barata y que no nos da redundancia es :: Single-homed.
+- La que ofrece **redundancia y balance de cargas** pero si ISP muere, se pierde la conexión es :: Dual-homed.
+- En la que nos conectamos a varios ISP's es :: Multihomed.
+- La topología **más resiliente** y la **más cara** es :: Dual-multihomed.
+
+
 
 
 
