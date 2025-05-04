@@ -281,6 +281,21 @@ Date: 2025-04-30 : 12:49
 #### Digital Subscriber Line
 #Q 
 - Su medio de transporte son las :: Líneas de teléfono.
+- Hay **2 tipos** de DSL :: Asimétrico y simétrico.
+- La **bandwidth** del asimétrico es mayor en... que en... :: Descarga, carga.
+- El **protocolo** usado para conexiones DSL es... y es de capa... :: PPP, 2.
+- PPP sirve para al subscriptor.... y también le puede asignar una... :: Autenticarlo, IPv4 pública.
+
+#### Cable Technology
+#Q 
+- El medio de transporte de datos es :: Cable coaxial.
+- Para **agregarle ancho de banda** a un sistema de cables se usa el estándar :: Data Over Cable Service Interface Specification (DOCSIS).
+
+#### Optical Fiber
+#Q 
+- Cuando se instala fibra óptica a un lugar se dice :: Fiber to the x (FTTx).
+- FTTx nos da el mayor :: Ancho de banda.
+- Tenemos **FTTH** que es..., **FTTB** que es... y **FTTN** que es... :: Fiber to the Home, Fiber to the Building, Fiber to the Node/Neighborhood.
 
 
 
