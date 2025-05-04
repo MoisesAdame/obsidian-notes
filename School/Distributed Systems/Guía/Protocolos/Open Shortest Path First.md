@@ -31,6 +31,8 @@ Date: 2025-05-03 : 18:43
 - Con wildcard 0 para ip x.x.x.x :: `network x.x.x.x 0.0.0.0 area <area-id>`
 - Directo en la interfaz, primero nos metemos a la interfaz deseada..., luego prendemos OSPF... :: `interface <interface-type> <interface-id>`, `ip ospf <process-id> area <area-id>`.
 
+### Configuración de Interfaces Pasivas
+
 
 
 ## Flashcards
