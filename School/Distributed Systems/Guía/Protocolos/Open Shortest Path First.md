@@ -35,7 +35,17 @@ Date: 2025-05-03 : 18:43
 - Por defecto los mensajes OPSF se mandan a todas las interfaces que tienen... por lo cual hay que desactivar aquellas que no con el fin de que haya... y... :: OSPF activado, seguridad, eficiencia.
 - Comando para definir interfaz como **pasiva** primero entramos a configuración OSPF... luego definimos interfaz como pasiva... :: `router ospf <process-id>`, `passive-interface <interface-type> <interface-id>`.
 - Para checarlas usamos el comando :: `show ip protocols`.
-- 
+
+### Point2Point DR y BDR
+#Q 
+- Para ver los DR y BDR de una interfaz usamos :: `show ip ospf <interface-type> <interface-id>`
+- En una red point2point es **innecesario** elegir DR y DBR por lo que para desactivarlo primero vamos a la interfaz... y luego... :: `interface <interface-type> <interface-id>`, `ip ospf network point-to-point`.
+- Cuando la red es **broadcast** es que no es... y por lo tanto intenta elegir... :: Point-to-point, DR y BDR. 
+
+### Simular Red LAN Usando Loopbacks
+#Q 
+- Por **defecto** las interfaces loopback se anuncian como :: Rutas de host /32.
+- Podemos simular una red LAN con una loopback definiendola como poin-to-point :: Entramos a la loopback `interface loopback <loopback-id>`, luego la definimos como pint to point `ip ospf network point-to-poin`
 
 
 
