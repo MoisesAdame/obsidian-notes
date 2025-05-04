@@ -246,7 +246,26 @@ Date: 2025-04-30 : 12:49
 
 #### Packet-Switch Options
 #Q 
+- Divide los datos en... que se routean en una... :: Paquetes, red.
+- Las dos opciones **legacy** son :: Frame relay, asynchronous transfer mode (ATM)
 
+### Modern WAN Connectivity
+#### Modern WAN Connectivity Options
+#Q 
+- **Dedicated Broadband** usa fibra... para conectar ubicaciones... :: Obscura, remotas.
+- **Packet Switched** usa... y también usa... para poder conectarse a proveedor sin importar las tecnologías de... :: Metro Ethernet, MLPS, acceso.
+- **Internet Based Broadband** usan el... como infraestructura WAN :: Internet.
+
+#### Ethernet WAN
+#Q 
+- Ethernet WAN se basa en cableado con :: Fibra óptica.
+- Actualmente es mas común que cosas como :: Serial point-to-point, Frame Relay and ATM WAN.
+- Sus ventajas es que es más :: Barato y fácil de administrar.
+
+#### MPLS
+#Q 
+- Significa :: Multi Protocol Label Switching.
+- Logra interconectar clientes sin importar su :: Método d
 
 
 
