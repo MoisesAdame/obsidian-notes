@@ -226,6 +226,29 @@ Date: 2025-04-30 : 12:49
 - Comunicación serial es cuando se usa solo un... mientras que la **paralela** es cuando se usan... Cable, varios.
 - La comunicación paralela necesita... pero es sensitiva a... :: Sincronización, distancia.
 
+#### Fiber Optic Standards
+#Q 
+- Estándar global para fibra óptica :: Synchronous **Digital Hierarchy (SDH).**
+- Estándar norteamericano para fibra óptica :: **Synchronous Optical Networking (SONET)**
+- **Dense Wavelength Division Multiplexing (DWDM)** permite aumentar capacidades de... y... enviando múltiples streams de datos en diferentes..., proceso que se conoce como... :: SDH, SONET, wavelengths, multiplexing.
+
+### Traditional WAN Connectivity
+#### Options
+#Q 
+- Las WAN's aparecen en... y en ese momento las organizaciones buscaban interconectarse :: 1980.
+- Se logró usando líneas... o usando servicios... :: Dedicadas, switcheados.
+
+#### Common WAN Terminology
+#Q 
+- Las **leased lines** del service provider eran lineas :: Point-To-Point.
+- Son **leased** porque la organización :: Pagaba mensualmente por usarlos.
+- Si bien son las más... también son las más... :: Sencillas de instalar, costosas.
+
+#### Packet-Switch Options
+#Q 
+
+
+
 
 
 
