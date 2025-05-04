@@ -145,7 +145,20 @@ Date: 2025-04-30 : 12:49
 
 ### Área única y Multiárea OSPF
 #Q 
-- Un **área OSPF** es un conjunto de... los cuales compart
+- Un **área OSPF** es un conjunto de... los cuales comparten la misma... en sus... :: Routers, información de *link state*, link state databases.
+- **OPSF de área única** es cuando todos los... están en un mismo... la mejor práctica es usar el... :: Routers, área, área 0.
+- **OSPF multi-área** son varias áreas con... todas las áreas deben conectarse al área... los routers que se encargan de ello se llaman... :: Jerarquía, troncal (área 0), Area Border Routers (ABR).
+
+### OSPF Multi-Área
+#Q 
+- Esta arquitectura ofrece varios :: Beneficios.
+- Las **tablas de ruteo** son más :: Pequeñas.
+- Las **actualizaciones de link state** son :: Menos.
+- El cálculo de SPF es :: Más rápido.
+
+### OSPFv3
+#Q 
+- Es **casi igual** que OSPFv2 pero :: Utiliza IPv6.
 
 
 
