@@ -218,7 +218,13 @@ Date: 2025-04-30 : 12:49
 - **Demarcation Point** lugar físico que separa al... del equipo del... :: CPE, proveedor de servicio.
 - **Central Office (CO)** es la oficina local del... que conecta al... con la... :: Proveedor de servicio, CPE, red.
 - **Local Loop (last mile)** es el... que conecta... con... :: Cable, CPE, CO.
-- **Toll Network** 
+- **Toll Network** es toda la red del :: Proveedor de servicio.
+- Diagrama :: ![[redes2-fig8.png | 300]]
+
+#### Serial Communication
+#Q 
+- Comunicación serial es cuando se usa solo un... mientras que la **paralela** es cuando se usan... Cable, varios.
+- La comunicación paralela necesita... pero es sensitiva a... :: Sincronización, distancia.
 
 
 
