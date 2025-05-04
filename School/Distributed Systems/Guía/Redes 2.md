@@ -204,9 +204,21 @@ Date: 2025-04-30 : 12:49
 - **Dual Carrier** es cuando te conectas a :: Dos proveedores.
 - Dual carrier aumenta... y los SLA's se deben de negociar de forma... :: Redundancia, separada.
 
-#### Evolving Networks
+### WAN Operation
+#### WAN's In The OSI Model
 #Q 
+- WAN no es solo un estándar, tiene varios en la layer :: 1 y 2.
 
+#### Common WAN Terminology
+#Q 
+- **Data Terminal Equipment (DTE)** es el dispositivo que conecta :: Las LAN's con WAN's.
+- **Data Communications Equipment (DCE)** dispositivo que se comunica con :: Proveedor.
+- **Customer Premises Equipment (CPE)** son :: DTE y DCE.
+- **Point Of Presence (POP)** es el punto donde se conecta el subscriptor al :: Proveedor de servicio.
+- **Demarcation Point** lugar físico que separa al... del equipo del... :: CPE, proveedor de servicio.
+- **Central Office (CO)** es la oficina local del... que conecta al... con la... :: Proveedor de servicio, CPE, red.
+- **Local Loop (last mile)** es el... que conecta... con... :: Cable, CPE, CO.
+- **Toll Network** 
 
 
 
