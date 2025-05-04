@@ -24,7 +24,12 @@ Date: 2025-05-03 : 18:43
 - Para checar usamos :: `show ip protocols`.
 
 ## Point2Point OSPF Networks
-### 
+### Configuración OSPF con Comando `network`
+#Q 
+- Existen **3 formas** para configurar las redes OPSF que son :: Con wildcard, con wildcard 0 y directo en la interfaz.
+- Comando para configurar cin wildcard :: `network <network-address> <wildccard-mask> area <area-id>`.
+- Con wildcard 0 para ip x.x.x.x :: `network x.x.x.x 0.0.0.0 area <area-id>`
+- Directo en la interfaz, primero nos metemos a la interfaz deseada..., luego prendemos OSPF... :: `interface <interface-type> <interface-id>`, `ip ospf <process-id> area <area-id>`.
 
 
 
