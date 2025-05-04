@@ -60,6 +60,17 @@ Date: 2025-05-03 : 18:43
 - - Ver configuración OSPF de varias interfaces :: `show ip ospf interface brief`
 
 
+## Ejercicio
+### Configure OSPF on the R1
+enable
+conf t
+router ospf 10
+router-id 1.1.1.1
+network 172.16.3.0 0.0.0.3 area 0
+network 192.168.10.4 0.0.0.3 area 0
+
+
+
 
 ## Flashcards
 ```aosr-deck-config
