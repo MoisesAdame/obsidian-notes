@@ -46,6 +46,9 @@ Date: 2025-05-03 : 18:43
 #Q 
 - Por **defecto** las interfaces loopback se anuncian como :: Rutas de host /32.
 - Podemos simular una red LAN con una loopback definiendola como poin-to-point :: Entramos a la loopback `interface loopback <loopback-id>`, luego la definimos como pint to point `ip ospf network point-to-point`
+
+### Propagación de Ruta Estática Predeterminada
+#Q 
 - 
 
 
