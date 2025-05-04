@@ -160,6 +160,11 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Es **casi igual** que OSPFv2 pero :: Utiliza IPv6.
 
+## Wide Area Networks
+### Purpose
+#Q 
+
+
 
 
 
