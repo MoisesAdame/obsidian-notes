@@ -265,7 +265,22 @@ Date: 2025-04-30 : 12:49
 #### MPLS
 #Q 
 - Significa :: Multi Protocol Label Switching.
-- Logra interconectar clientes sin importar su :: Método d
+- Logra interconectar clientes sin importar su :: Método de acceso.
+- Ejemplos de diferentes **métodos de acceso** :: Ethernet, frame relay, etc.
+- No importa el tipo de protocolo ya sea... o... MPLS los... :: IPv4, IPv6, encapsula.
+
+### Internet-Based Connectivity
+#### Internet-Based Connectivity Options
+#Q 
+- Es una alternativa a usar opciones de WAN :: Dedicadas.
+- Hay **2 tipos** de opciones :: Wired y Wireless.
+- **Wired Options** usan cableado permanente como... y tienen ventajas como ancho de banda... y reducción de... :: Fibra óptica, consistente, latencia.
+- **Wireless Options** son menos... porque para transmitir datos usan... pero son fácilmente... :: Caras, ondas de radio,  afectadas.
+
+### Wired Technologies
+#### Digital Subscriber Line
+#Q 
+- Su medio de transporte son las :: Líneas de teléfono.
 
 
 
