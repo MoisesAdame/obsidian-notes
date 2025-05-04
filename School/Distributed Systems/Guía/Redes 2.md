@@ -297,6 +297,18 @@ Date: 2025-04-30 : 12:49
 - FTTx nos da el mayor :: Ancho de banda.
 - Tenemos **FTTH** que es..., **FTTB** que es... y **FTTN** que es... :: Fiber to the Home, Fiber to the Building, Fiber to the Node/Neighborhood.
 
+### Wireless Technologies
+#Q 
+- Las **4 principales** son :: Municipal Wi-Fi, cellular, satellite internet y WiMAX.
+- WiMAX significa... es muy parecido a... :: Worldwide Interoperability for Microwave Access, cellular.
+
+### VPN Technology
+#Q 
+- Una VPN es una conexión... entre dos redes... a través de una red... :: Encriptada, privadas, pública.
+- Hay **2 tipos** de VPN's :: Site-to-stie VPN's y remote acsess.
+- Las **site-to-site vpn's** se configuran en... los clientes ni... :: Los routers, se dan cuenta que existen.
+- 
+
 
 
 
