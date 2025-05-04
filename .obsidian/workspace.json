@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 7,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -323,14 +323,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ab5fadefe9c64c3",
+  "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Clase 2.md",
+    "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
+    "Work/住宿选项/中国来访者墨西哥商务期间住宿选项.md",
     "Work/住宿选项/option10.png",
     "Work/住宿选项/option9.png",
     "Work/住宿选项/option8.png",
     "Work/住宿选项/option7.png",
     "Work/住宿选项/opt.md",
-    "Work/住宿选项/中国来访者墨西哥商务期间住宿选项.md",
     "Work/住宿选项/option6.png",
     "Work/住宿选项/option5.png",
     "Work/住宿选项/option4.png",
@@ -349,14 +351,12 @@
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
-    "School/Distributed Systems/Guía/Assets/inter-valn-routing-fig1.png",
     "School/Distributed Systems/Guía/Assets",
     "School/Advanced Application Developement/Clases/Clase 8.md",
     "School/Distributed Systems/Guía/Protocolos",
     "School/Advanced Application Developement/Clases/Clase 9.md",
     "School/Distributed Systems/Clases/Clase 10.md",
     "School/Distributed Systems/Clases/Clase 9.md",
-    "School/Distributed Systems/Clases/Clase 2.md",
     "School/Distributed Systems/Clases/Clase 8.md",
     "School/Distributed Systems/Clases/Untitled.md",
     "School/Distributed Systems/Guía",
