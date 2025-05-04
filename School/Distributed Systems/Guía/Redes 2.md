@@ -162,8 +162,21 @@ Date: 2025-04-30 : 12:49
 
 ## Wide Area Networks
 ### Purpose
+#### LAN's y WAN's
 #Q 
+- Las WAN's conectan zonas geográficas :: Lejanas.
+- Las WAN's tienen ancho de banda... en distancias... :: Altas, largas.
 
+#### Private WAN's
+#Q 
+- Private WAN's are dedicated to :: One customer.
+- **Public WAN's** is provided by an :: ISP.
+
+#### WAN Topologies
+##### Point To Point
+#Q 
+- Diagrama :: ![[redes2-fig3.png | 300]]
+- 
 
 
 
