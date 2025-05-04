@@ -49,7 +49,14 @@ Date: 2025-05-03 : 18:43
 
 ### Propagación de Ruta Estática Predeterminada
 #Q 
-- 
+- Una **gateway of last resort** es una ruta a la que mandamos todo aquello que :: No sabemos que mandar.
+- Para definirla primero ponemos la ruta estática :: `ip route 0.0.0.0 0.0.0.0 [next-hop-address | exit-intf]`
+- Y luego con el comando... hacemos que esta ruta se... a los demás routers ::  `default-information originate`, propague.
+
+## Comandos de Verificación
+- Para ver routers vecinos usamos el comando..., si no tienen la palabra... es que hay problemas :: `show ip ospf neighbor`, FULL.
+- Ver información general de OSPF con comando :: `show ip protocols`
+- Ver configuración OSPF de una interfaz :: `show ip ospf interface <>`
 
 
 
