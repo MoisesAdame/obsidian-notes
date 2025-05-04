@@ -64,13 +64,80 @@ Date: 2025-05-03 : 18:43
 ### Configure OSPF on the R1
 enable
 conf t
+
+interface serial0/0/0
+ip address 172.16.3.1 255.255.255.252
+no shutdown
+exit
+
+interface serial0/0/1
+ip address 192.168.10.5 255.255.255.252
+no shutdown
+exit
+
+interface gig0/0
+ip address 172.16.1.1 255.255.255.0
+no shutdown
+exit
+
 router ospf 10
 router-id 1.1.1.1
 network 172.16.3.0 0.0.0.3 area 0
 network 192.168.10.4 0.0.0.3 area 0
+network 172.16.0 0.0.0.255 area 0
+passive-interface gig0/0
 
+### Configure OSPF on the R2
+enable
+conf t
 
+interface serial0/0/0
+ip address 172.16.3.2 255.255.255.252
+no shutdown
+exit
 
+interface serial0/0/1
+ip address 192.168.10.9 255.255.255.252
+no shutdown
+exit
+
+interface gig0/0
+ip address 172.16.2.1 255.255.255.0
+no shutdown
+exit
+
+router ospf 10
+router-id 2.2.2.2
+network 172.16.3.0 0.0.0.3 area 0
+network 192.168.10.8 0.0.0.3 area 0
+network 172.16.2.0 0.0.0.255 area 0
+passive-interface gig0/0
+
+### Configure OSPF on the R3
+enable
+conf t
+
+interface serial0/0/0
+ip address 192.168.10.6 255.255.255.252
+no shutdown
+exit
+
+interface serial0/0/1
+ip address 192.168.10.10 255.255.255.252
+no shutdown
+exit
+
+interface gig0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+router ospf 10
+router-id 3.3.3.3
+network 192.168.10.8 0.0.0.3 area 0
+network 192.168.10.4 0.0.0.3 area 0
+network 172.16.2.0 0.0.0.255 area 0
+passive-interface gig0/0
 
 ## Flashcards
 ```aosr-deck-config
