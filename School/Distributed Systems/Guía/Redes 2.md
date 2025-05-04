@@ -176,7 +176,37 @@ Date: 2025-04-30 : 12:49
 ##### Point To Point
 #Q 
 - Diagrama :: ![[redes2-fig3.png | 300]]
-- 
+- Desventaja es que si se necesitan muchas puede ser :: Caro.
+
+##### Hub-And-Spoke
+#Q 
+- Diagram :: ![[redes2-fig4.png | 300]]
+- La única interfaz del hub es... por los demás routers :: Compartida.
+
+##### Dual-Homed
+#Q 
+- Diagram :: ![[redes2-fig5.png | 300]]
+- Tiene la **ventaja** de que ofrece mayor :: Redundancia, balanceo de cargas, y procesamiento.
+- La **desventaja** es que es más :: Difícil y caro de implementar.
+
+##### Fully Meshed
+#Q 
+- DIagrama :: ![[redes2-fig6.png | 300]]
+- Es la topología más tolerante a :: Fallas.
+
+##### Partially Meshed
+#Q 
+- Diagram :: ![[redes2-fig7.png | 300]]
+
+#### Carrier Connections
+#Q 
+- **Single carrier** es cuando te conectas a :: Solo un proveedor.
+- **Dual Carrier** es cuando te conectas a :: Dos proveedores.
+- Dual carrier aumenta... y los SLA's se deben de negociar de forma... :: Redundancia, separada.
+
+#### Evolving Networks
+#Q 
+
 
 
 
