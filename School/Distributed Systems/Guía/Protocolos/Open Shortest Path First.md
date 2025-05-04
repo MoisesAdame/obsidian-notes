@@ -32,6 +32,10 @@ Date: 2025-05-03 : 18:43
 - Directo en la interfaz, primero nos metemos a la interfaz deseada..., luego prendemos OSPF... :: `interface <interface-type> <interface-id>`, `ip ospf <process-id> area <area-id>`.
 
 ### Configuración de Interfaces Pasivas
+- Por defecto los mensajes OPSF se mandan a todas las interfaces que tienen... por lo cual hay que desactivar aquellas que no con el fin de que haya... y... :: OSPF activado, seguridad, eficiencia.
+- Comando para definir interfaz como **pasiva** primero entramos a configuración OSPF... luego definimos interfaz como pasiva... :: `router ospf <process-id>`, `passive-interface <interface-type> <interface-id>`.
+- Para checarlas usamos el comando :: `show ip protocols`.
+- 
 
 
 
