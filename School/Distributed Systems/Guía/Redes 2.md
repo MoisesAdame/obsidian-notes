@@ -366,7 +366,12 @@ Date: 2025-04-30 : 12:49
 
 #### Usar y no Usar BGP
 #Q 
-- Se **debe usar** cuando nuestro AS se conecta a..., 
+- Se **debe usar** cuando nuestro AS se conecta a..., también si nuestro AS funge como..., o también si se quieren manipular las políticas para... :: Varios otros AS, transit AS, entrar o salir del AS.
+- **No se debe usar** si solo tenemos una conexión a... o a otro..., tampoco usar si los edge routers tienen... :: Internet, AS, poca memoria y/o procesamiento.
+
+#### Sincronización BGP
+#Q 
+- 
 
 
 
