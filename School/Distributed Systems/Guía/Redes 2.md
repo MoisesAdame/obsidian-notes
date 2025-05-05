@@ -336,7 +336,16 @@ Date: 2025-04-30 : 12:49
 #Q 
 - El internet es una colección de... los cuales están entre si..., lo cual se logra mediante... :: AS, interconectados, BGP.
 - BGP is a... protocol :: Path vector.
-- **BGP** es el único protocolo que usa... porque por ejemplo **BGP** operan sobre... mientras que RIP usa... :: 
+- **BGP** es el único protocolo que usa... porque por ejemplo **OPSF** opera sobre... mientras que **RIP** usa... :: TCP, IP, UDP.
+
+#### Peers = Neighbors
+#Q
+- Se llaman **BGP Peers** a aquellos routers que han establecido una conexión... donde intercambian información de routeo... :: TCP, BGP.
+- Cada router que corra **BGP** se llama :: BGP Speaker.
+
+#### BGP vs IGP's
+#Q 
+
 
 
 
