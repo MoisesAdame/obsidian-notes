@@ -27,7 +27,7 @@ Date: 2025-05-03 : 18:43
 ### Configuración OSPF con Comando `network`
 #Q 
 - Existen **3 formas** para configurar las redes OPSF que son :: Con wildcard, con wildcard 0 y directo en la interfaz.
-- Comando para configurar cin wildcard :: `network <network-address> <wildccard-mask> area <area-id>`.
+- Comando para configurar con wildcard :: `network <network-address> <wildccard-mask> area <area-id>`.
 - Con wildcard 0 para ip x.x.x.x :: `network x.x.x.x 0.0.0.0 area <area-id>`
 - Directo en la interfaz, primero nos metemos a la interfaz deseada..., luego prendemos OSPF... :: `interface <interface-type> <interface-id>`, `ip ospf <process-id> area <area-id>`.
 
@@ -67,7 +67,7 @@ Date: 2025-05-03 : 18:43
 			"all": [{
 				"fact": "card",
 				"operator": "regexMatch",
-				"value": "<% tp.file.path(true) %>",
+				"value": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
 				"path": "$.path"
 			}]
 		},
