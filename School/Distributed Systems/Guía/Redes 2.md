@@ -319,7 +319,14 @@ Date: 2025-04-30 : 12:49
 
 ## Border Gateway Protocol
 ### BGP Terminology, Concepts and Operation
+#### IGP vs EGP
+#Q 
+- IGB significa... trabaja dentro de un mismo... algunos ejemplos son... :: Interior Gateway Protocol, Autonomous System (AS), RIP, OSPF, EIGRP
+- EGP significa... trabaja en.... por ejemplo... :: External Gateway Protocol, diferentes AS, BGP.
 
+#### Autonomous System
+#Q 
+- Un **Autonomous System** es un conjunto de... que comparten 
 
 
 
