@@ -371,7 +371,8 @@ Date: 2025-04-30 : 12:49
 
 #### Sincronización BGP
 #Q 
-- 
+- La **regla de sincronización de BGP** nos dice que un router no puede usar o promocionar a un vecino... una ruta aprendida por iBGP a menos que esa ruta sea... o aprendida por... :: Externo, local, un IGP.
+- Si la **sincronización está activa** iBGP se espera a que... propague las rutas dentro del AS y luego la promociona a... :: El IGP, vecinos expternos.
 
 
 
