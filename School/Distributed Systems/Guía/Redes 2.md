@@ -326,7 +326,17 @@ Date: 2025-04-30 : 12:49
 
 #### Autonomous System
 #Q 
-- Un **Autonomous System** es un conjunto de... que comparten 
+- Un **Autonomous System** es un conjunto de... que comparten políticas de routeo... :: Routers, similares.
+- Generalmente una AS pertenece a una :: Organización
+- Cuando un AS se conecta al exterior usando un EGP se le debe asignar un... que son administrados por... :: AS number, Internet Assigned Numbers Authority (IANA).
+- Cada región administra sus AS numbers a través de de los :: Regional Internet Registries (RIRs).
+- Los AS numbers tienen... bits por lo que van del... al... :: 16, 1, 65,535.
+
+#### BGP Basics
+#Q 
+- El internet es una colección de... los cuales están entre si..., lo cual se logra mediante... :: AS, interconectados, BGP.
+- BGP is a... protocol :: Path vector.
+- **BGP** es el único protocolo que usa... porque por ejemplo **BGP** operan sobre... mientras que RIP usa... :: 
 
 
 
