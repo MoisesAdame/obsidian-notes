@@ -354,10 +354,21 @@ Date: 2025-04-30 : 12:49
 - Cuando BGP corre en routers de un mismo AS es :: iBGP.
 - Cuando BGP corre en routers de diferentes AS es :: eBGP.
 
-#### IBGP
+#### iBGP
 #Q 
 - Un **Transit AS** es un AS que lleva tráfico de un... a... :: A, otro AS.
 - Si bien en un **Transit AS** se pueden redistribuir eBGP en OSPF (en sus routers internos), lo recomendable es que en los routers internos se implemente... ya que es mucha información para OSPF procesar. :: iBGP
+- iBGP también lo pueden usar... ya que todos sus routers deben tener conocimiento de rutas... :: Nontransit AS, externas.
+
+#### BGP Path Vector Characteristics
+#Q 
+- La información de un **path vector** es una lista de los... que se da... para llegar a la red... :: AS numbers, hop-by-hop, destino.
+
+#### Usar y no Usar BGP
+#Q 
+- Se **debe usar** cuando nuestro AS se conecta a..., 
+
+
 
 
 
