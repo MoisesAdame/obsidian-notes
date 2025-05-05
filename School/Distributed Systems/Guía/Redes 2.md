@@ -347,7 +347,17 @@ Date: 2025-04-30 : 12:49
 #Q 
 - A comparación de los IGP's, BGP no toma decisiones basándose en :: La ruta mas corta.
 - BGP se basa en... para definir su routeo :: Políticas.
-- 
+
+#### Using BGP in an Enterprise Network
+#Q 
+- Los **2 tipos** de BGP son :: Internal BGP y External BGP.
+- Cuando BGP corre en routers de un mismo AS es :: iBGP.
+- Cuando BGP corre en routers de diferentes AS es :: eBGP.
+
+#### IBGP
+#Q 
+- Un **Transit AS** es un AS que lleva tráfico de un... a... :: A, otro AS.
+- Si bien en un **Transit AS** se pueden redistribuir eBGP en OSPF (en sus routers internos), lo recomendable es que en los routers internos se implemente... ya que es mucha información para OSPF procesar. :: iBGP
 
 
 
