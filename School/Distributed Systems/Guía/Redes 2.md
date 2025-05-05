@@ -345,7 +345,9 @@ Date: 2025-04-30 : 12:49
 
 #### BGP vs IGP's
 #Q 
-
+- A comparación de los IGP's, BGP no toma decisiones basándose en :: La ruta mas corta.
+- BGP se basa en... para definir su routeo :: Políticas.
+- 
 
 
 
