@@ -317,6 +317,8 @@ Date: 2025-04-30 : 12:49
 - En la que nos conectamos a varios ISP's es :: Multihomed.
 - La topología **más resiliente** y la **más cara** es :: Dual-multihomed.
 
+## Border Gateway Protocol
+### BGP Terminology, Concepts and Operation
 
 
 

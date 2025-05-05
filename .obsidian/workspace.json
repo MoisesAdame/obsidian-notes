@@ -193,17 +193,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Clases/Clase 9.md",
+                "file": "School/Distributed Systems/Clases/Clase 7.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 9"
+              "title": "Clase 7"
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -387,10 +387,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8669d02b4cc013c3",
+  "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Clase 10.md",
+    "School/Distributed Systems/Clases/Clase 7.md",
+    "School/Distributed Systems/Clases/Clase 8.md",
+    "School/Distributed Systems/Clases/Clase 9.md",
     "School/Distributed Systems/Guía/Redes 2.md",
+    "School/Distributed Systems/Clases/Clase 10.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig8.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig7.png",
@@ -408,7 +411,6 @@
     "School/Distributed Systems/Guía/Redes 1.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "School/Distributed Systems/Guía/enlace_imagen1.md",
-    "School/Distributed Systems/Clases/Clase 8.md",
     "Work/住宿选项/中国来访者墨西哥商务期间住宿选项.md",
     "School/Distributed Systems/Clases/Clase 2.md",
     "Work/住宿选项/option10.png",
@@ -422,7 +424,6 @@
     "School/Advanced Application Developement/Clases/Clase 8.md",
     "School/Distributed Systems/Guía/Protocolos",
     "School/Advanced Application Developement/Clases/Clase 9.md",
-    "School/Distributed Systems/Clases/Clase 9.md",
     "School/Distributed Systems/Clases/Untitled.md",
     "School/Distributed Systems/Guía",
     "School/Distributed Systems/Clases/Clase.md",
