@@ -40,6 +40,7 @@ exit
 
 router ospf 10
 router-id 2.2.2.2
+network 10.0.0.0 0.255.255.255 area 0
 exit
 
 router bgp 65101
@@ -67,6 +68,7 @@ exit
 
 router ospf 10
 router-id 3.3.3.3
+network 10.0.0.0 0.255.255.255 area 0
 exit
 
 router bgp 65101
