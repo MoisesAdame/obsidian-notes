@@ -54,9 +54,7 @@ Si se te olvida, ve [este video](https://www.youtube.com/watch?v=KTrGzMcanZg).
 ### Sincronización de BGP
 #Q 
 - La sincronización por defecto está... por lo que hay que... para que el router BGP no promocione rutas hasta que las aprenda por... :: Deshabilitada, habilitarla, IGP.
-- Para habilitar la sincronización 
-
-
+- Para habilitar la sincronización se usa el comando :: `synchronization`.
 
 ## Flashcards
 ```aosr-deck-config
