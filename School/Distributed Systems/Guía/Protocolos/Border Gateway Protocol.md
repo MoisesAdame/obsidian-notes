@@ -57,7 +57,7 @@ Si se te olvida, ve [este video](https://www.youtube.com/watch?v=KTrGzMcanZg).
 - Para habilitar la sincronización se usa el comando :: `synchronization`.
 
 ## Cisco Packet Tracer eBGP Configuration
-
+- Muchas veces las redes no se promocionan. Usar next-hop-self en eBGP y ademas redistribute-connected.
 
 ## Flashcards
 ```aosr-deck-config

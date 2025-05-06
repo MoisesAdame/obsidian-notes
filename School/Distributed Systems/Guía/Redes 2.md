@@ -376,6 +376,7 @@ Date: 2025-04-30 : 12:49
 - La **regla de sincronización BGP** evita que haya... y errores de... :: Loops, routeo.
 - Por defecto en las nuevas actualizaciones del IOS de Cisco la **sincronización BGP** está :: Desactivada.
 
+## Access Control List
 
 
 
