@@ -47,7 +47,9 @@ Date: 2025-05-05 : 12:56
 
 ### Advertising eBGP Routes to iBGP Peers
 #Q 
-Si se te olvida, ve []
+Si se te olvida, ve [este vide](https://www.youtube.com/watch?v=KTrGzMcanZg).
+- Supongamos que que tenemos AS1 y AS2 conectados por eBGP. En AS2 tenemos la red `30.30.30.0/24` que es promocionada por el router frontera de AS2 el cual tiene IP `198.51.100.3` al router frontera de AS1. Por defecto la red `30.30.30.0/24` se patrocina mediante... en los routers de AS1 con la **next-hop**  `198.51.100.3`. Para el router frontera no hay... pero para los demás está conexión es...:: iBGP, problema, unreachable.
+- 
 
 
 
