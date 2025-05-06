@@ -27,7 +27,17 @@ Date: 2025-05-05 : 12:56
 #### Configuración de Loopback para Recibir Todos los Paquetes BGP
 #Q 
 - Se establece a la loopback como vecino :: `neighbor <loopback-ip> remote-as <as-number>`.
-- Loop
+- Se establece loopback como objetivo de paquetes IP :: `neighbor <loopback-ip> update-source loopback <interface-id>`
+
+### eBGP Dual-Homed Problem/Solution
+#Q 
+- Problem diagram :: ![[redes2-fig10.png]]
+- El problema es que si estamos en R1 solo ponemos como neighbor a `192.168.1.18` y este se cae... mientras que si ponemos como neighbor a `192.168.1.18` y a `192.168.1.34` en número de los paquetes BGP se... :: No sirve de nada la redundancia, duplican.
+- La solución es configurar una :: Loopback.
+- Es importante recordar que como estamos en **eBGP** y se asume que las conexiones son... 
+
+#### Solución
+
 
 
 
