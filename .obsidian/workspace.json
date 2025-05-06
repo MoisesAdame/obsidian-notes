@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 11,
+        "currentTab": 12,
         "stacked": true
       }
     ],
@@ -402,14 +402,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "340665be12b67408",
+  "active": "bf2942c7a92c8670",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
-    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Clases/Clase 7.md",
