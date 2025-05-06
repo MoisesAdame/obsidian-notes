@@ -34,9 +34,20 @@ Date: 2025-05-05 : 12:56
 - Problem diagram :: ![[redes2-fig10.png]]
 - El problema es que si estamos en R1 solo ponemos como neighbor a `192.168.1.18` y este se cae... mientras que si ponemos como neighbor a `192.168.1.18` y a `192.168.1.34` en número de los paquetes BGP se... :: No sirve de nada la redundancia, duplican.
 - La solución es configurar una :: Loopback.
-- Es importante recordar que como estamos en **eBGP** y se asume que las conexiones son... 
+- Es importante recordar que como estamos en **eBGP** y se asume que las conexiones son..., entonces también hay que configurar... :: Directas, ebgp-multihop.
+- En **iBGP** no es necesario una una configuración *multihop* ya que iBGP asume que las conexiones no son... y por ello se apoya de los... :: Directas, IGP.
 
-#### Solución
+#### Solución para Diagrama (en R1)
+#Q 
+- Entramos a configuración de BGP :: `router bgp 65102`.
+- Configuramos a loopback como vecino :: `neighbor 172.16.1.1 remote-as 65101`
+- Configuramos loopback para que reciba todas las updates :: `neighbor 172.16.1.1 update-source loopback 0`
+- Configuramos para que tenga un **Time To Live (TTL) de 2** :: `neigbor 172.16.1.1 ebgp-multihop 2`
+- Configuramos **rutas estáticas** para llegar a la loopback desde R1 :: `ip route 172.16.1.1 255.255.255.255 192.168.1.18` y `ip route 172.16.1.1 255.255.255.255 192.168.1.34`.
+
+### Advertising eBGP Routes to iBGP Peers
+#Q 
+
 
 
 
