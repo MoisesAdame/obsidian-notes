@@ -47,7 +47,7 @@ Date: 2025-05-05 : 12:56
 
 ### Advertising eBGP Routes to iBGP Peers
 #Q 
-
+Si se te olvida, ve []
 
 
 
