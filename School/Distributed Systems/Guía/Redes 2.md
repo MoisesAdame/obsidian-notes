@@ -386,8 +386,24 @@ Date: 2025-04-30 : 12:49
 
 #### Redundancia del Router
 #Q 
-- Para implementar esta redundancia varios routese configuran como un mismo :: Router virtual 
+- Para implementar esta redundancia varios routers se configuran como un mismo :: Router virtual.
+- El router virtual **comparte** cosas como... y... :: MAC, IPv4.
+- Estos protocolos tienen la capacidad de definir quien es el router... y cuándo el router de... debe asumir esta función :: Activo, reserva.
+- La **redundancia de primer salto** es la capacidad que tienen una red de recuperarse ante la falla de un dispositivo que funciona como :: Default Gateway.
 
+#### Pasos para la Conmutación por Error de Router
+#Q 
+- El **router activo** constantemente manda mensajes de saludo a el :: Router de reserva.
+- Cuando el **router de reserva** deja de recibir saludos, asume que el... y por lo tanto se... :: Router activo murió, convierte en el nuevo *router activo*.
+
+### Hot Standby Router Protocol (HSRP)
+#### Descripción General
+#Q 
+- HSRP es lo mismo que... pero de propiedad de... :: FHRP, Cisco.
+
+#### Prioridad en HSRP
+#Q 
+- Por defecto el router con... será el que tiene 
 
 
 
