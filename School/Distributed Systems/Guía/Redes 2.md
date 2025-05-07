@@ -440,7 +440,8 @@ Date: 2025-04-30 : 12:49
 
 #### Site-To-Site IPsec VPN's
 #Q 
-- Diagrama :: ![[redes2]]
+- Diagrama :: ![[redes2-fig11.png | 450]]
+- La información es **encapsulada** por uno de los... y se manda a través del... al sitio destino :: VPN Gateway's, VPN Tunnel.
 
 
 
