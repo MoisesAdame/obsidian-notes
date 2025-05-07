@@ -403,7 +403,10 @@ Date: 2025-04-30 : 12:49
 
 #### Prioridad en HSRP
 #Q 
-- Por defecto el router con... será el que tiene 
+- Por defecto el router con... será el que se **elige como activo** :: La IP más alta.
+- De forma manual se puede definir la :: Prioridad HSRP.
+- Por defecto la **prioridad HSRP** es de :: 100.
+- Por defecto, si un router se vuelve activo, este lo seguirá siendo aunque haya :: Otro router con **mayor prioridad**.
 
 
 
