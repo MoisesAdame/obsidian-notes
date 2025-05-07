@@ -291,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -421,6 +422,7 @@
   "lastOpenFiles": [
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN (IPSEC).md",
+    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
@@ -446,7 +448,6 @@
     "School/Distributed Systems/Guía/Assets/redes2-fig6.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig4.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig3.png",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "School/Distributed Systems/Guía/enlace_imagen1.md",
     "Work/住宿选项/中国来访者墨西哥商务期间住宿选项.md",
