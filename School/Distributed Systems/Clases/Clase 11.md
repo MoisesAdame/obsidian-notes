@@ -46,3 +46,32 @@ Nodo: Es el anfitrión que le da hospedaje a los contenedores.
 Los kubelets son los que siguen las ordenes del panel de control
 
 En el cluster se levanta un master con un apiserver.
+
+#### Master Panel
+Tiene cosas como:
+- API Server
+- etcd: 
+- Scheduler
+- Controller
+- Addons
+
+#### Pods
+Es el componente principal al hablar de despliegue.
+
+Es un grupo de **contenedores** y **volúmenes**.
+
+K8s no entiende el concepto de contenedores, sino, pods.
+
+El pod puede comunicarse, tiene volúmnes internos, etc. El contenedor no.
+
+En un cluster de k8s puedo tener 1 o mas pods identicos corriendo.
+
+Son como las instancias de los contenedores.
+
+#### Servicios
+Un servicio tiene varios pods, pero todos responden a un url por ejemplo. 
+
+Por ello, los servicios deben tener un balanceador de cargas.
+
+El servicio NO es replicable, ni escalable
+
