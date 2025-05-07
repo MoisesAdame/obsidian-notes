@@ -379,7 +379,14 @@ Date: 2025-04-30 : 12:49
 ## Access Control List
 
 ## First Hop Redundancy Protocol
+### Protocolos de Redundancia de Primer Salto
+#### Limitaciones de Default Gateway
+#Q 
+- Si falla la interfaz configurada como **default gateway** :: Se pierde conectividad.
 
+#### Redundancia del Router
+#Q 
+- Para implementar esta redundancia varios routese configuran como un mismo :: Router virtual 
 
 
 
