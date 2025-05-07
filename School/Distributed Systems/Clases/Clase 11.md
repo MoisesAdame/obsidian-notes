@@ -75,3 +75,9 @@ Por ello, los servicios deben tener un balanceador de cargas.
 
 El servicio NO es replicable, ni escalable
 
+#### Deployment
+Se le da un manifiesto
+
+Son las reglas de mi despliegue para mis servicios.
+
+Deployment > Servicios > Pods > Contenedores.q
