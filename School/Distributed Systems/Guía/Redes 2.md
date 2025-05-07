@@ -408,6 +408,18 @@ Date: 2025-04-30 : 12:49
 - Por defecto la **prioridad HSRP** es de :: 100.
 - Por defecto, si un router se vuelve activo, este lo seguirá siendo aunque haya :: Otro router con **mayor prioridad**.
 
+## VPN and IPSEC Concepts
+### VPN Technology
+#### Virtual Private Networks
+#Q 
+- Se dice que es **virtual** porque transporta información de redes... a través de redes... :: Privadas, públicas.
+- Se dice que es **privada** porque los datos son :: Encriptados.
+- Tiene varios **beneficios** como que :: Reduce costos, da seguridad, escalabilidad
+
+#### Site-To-Site & Remote Access VPN's
+- Las **site-to-site** terminan en las..., los hosts internos no saben que... :: VPN Gateways, se está usando una VPN.
+- Las **remote access** se crean de forma dinámica para establecer conexión segura entre... y... :: Cliente, equipo terminal de VPN.
+- 
 
 
 

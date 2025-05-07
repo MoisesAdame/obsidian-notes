@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 13,
+        "currentTab": 5,
         "stacked": true
       }
     ],
@@ -403,10 +403,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91680f48cba74056",
+  "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
