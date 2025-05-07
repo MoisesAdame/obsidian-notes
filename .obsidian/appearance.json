@@ -1,11 +1,12 @@
 {
   "accentColor": "#ea80ff",
   "baseFontSize": 18,
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Border",
   "translucency": true,
   "interfaceFontFamily": "",
   "showRibbon": true,
   "enabledCssSnippets": [
     "autofading-ui"
-  ]
+  ],
+  "theme": "obsidian"
 }

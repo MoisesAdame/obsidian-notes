@@ -8,5 +8,6 @@
   "obsidian-git",
   "templater-obsidian",
   "obsidian-linter",
-  "obsidian-wakatime"
+  "obsidian-wakatime",
+  "obsidian-style-settings"
 ]
