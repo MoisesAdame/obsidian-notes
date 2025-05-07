@@ -276,8 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -405,11 +404,12 @@
   },
   "active": "373fc9bd7e9d0aa6",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Redes 1.md",
+    "School/Distributed Systems/Guía/Redes 2.md",
+    "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
+    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
-    "School/Distributed Systems/Guía/Redes 2.md",
-    "School/Distributed Systems/Guía/Redes 1.md",
-    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig5.png",
     "School/Distributed Systems/Clases/Clase 7.md",
@@ -430,7 +430,6 @@
     "School/Distributed Systems/Guía/Assets/redes2-fig6.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig4.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig3.png",
-    "School/Distributed Systems/Guía/Assets/Screenshot 2025-05-04 at 11.48.58 a.m..png",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第8课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "School/Distributed Systems/Guía/enlace_imagen1.md",
@@ -445,7 +444,6 @@
     "School/Distributed Systems/Guía/Protocolos",
     "School/Advanced Application Developement/Clases/Clase 9.md",
     "School/Distributed Systems/Guía",
-    "School/Distributed Systems/Clases/Clase.md",
     "export/Slides Variables/Archive.zip",
     "export/Slides Variables/plugin/chalkboard/style.css",
     "export/Slides Variables/plugin/chalkboard/plugin.js",

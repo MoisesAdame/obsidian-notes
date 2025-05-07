@@ -417,9 +417,42 @@ Date: 2025-04-30 : 12:49
 - Tiene varios **beneficios** como que :: Reduce costos, da seguridad, escalabilidad
 
 #### Site-To-Site & Remote Access VPN's
+#Q
 - Las **site-to-site** terminan en las..., los hosts internos no saben que... :: VPN Gateways, se está usando una VPN.
 - Las **remote access** se crean de forma dinámica para establecer conexión segura entre... y... :: Cliente, equipo terminal de VPN.
-- 
+
+#### Enterprise & Service Provider VPN's
+#Q 
+- Las **enterprise VPN's** son creadas y administradas por... y usan... :: La empresa, IPsec y SSL.
+- Las **service provider VPN's** son creadas y administradas por el... para crear canales seguros utiliza.... ya sea de capa... o capa... :: Proveedor de red, Multiprotocol Label Switching (MPLS), 2, 3.
+
+### Types of VPN's
+#### Remote Access VPN's
+#Q 
+- Permiten que **usuarios remotos** se conecten de forma segura a :: Red de empresa.
+- Hay de **2 tipos** :: Client-based y clientless VPN's.
+- La **clientless VPN** es la que se puede acceder desde un... mientras que la **client-based VPN** necesitas... :: Navegador, descargar un software.
+
+#### SSL VPN's
+#Q 
+- Este tipo de vpn usa infraestructura de llave... y... para la **autenticación** :: Pública, ceritificados.
+- En general tiene menos ventajas que... pero su gran punto a favor es que con que tengas un... puedes conectarte a la VPN :: IPsec, navegador web.
+
+#### Site-To-Site IPsec VPN's
+#Q 
+- Diagrama :: ![[redes2]]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
