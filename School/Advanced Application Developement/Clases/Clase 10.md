@@ -12,3 +12,16 @@ Tiene 3 tareas principales:
 
 Son tareas comunes, pero **no son obligatorias**.
 
+### Representación de Datos
+Transformar los datos a una forma numérica.
+
+Hay varias maneras:
+- Vectores de características.
+	- Term Frequency
+	- TF-DF
+- Embeddings:
+	- Word2Vec
+	- Doc2Vec
+	- Sent2Vec
+- 
+
