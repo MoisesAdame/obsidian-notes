@@ -17,3 +17,9 @@ Extras
 1 Email
 1 HTTP
 
+## Cloud
+### Kubernetes (k8s)
+#### Introducción
+k8s es un software opensource.
+
+Fue diseñado para vivir en un cluster. No para correr en una sola máquina, su core es el uso de contenedores.
