@@ -30,3 +30,5 @@ Las mejores métricas son:
 - AUC-ROC
 - PR-CURVE
 
+## Módulo Abdul
+Para generar Lexer y esas cosas, dar click derecho en el .g

@@ -188,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 10,
+        "currentTab": 11,
         "stacked": true
       }
     ],
@@ -373,10 +373,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2916281e987962b7",
+  "active": "65ee3c56b95c13a1",
   "lastOpenFiles": [
-    "School/Advanced Application Developement/Clases/Clase 10.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
+    "School/Advanced Application Developement/Clases/Clase 10.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "Technologies/Design Patterns/Behavioral/Untitled 1.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
