@@ -23,5 +23,10 @@ Hay varias maneras:
 	- Word2Vec
 	- Doc2Vec
 	- Sent2Vec
-- 
+
+### Elección de Moleo
+Las mejores métricas son:
+- F1
+- AUC-ROC
+- PR-CURVE
 
