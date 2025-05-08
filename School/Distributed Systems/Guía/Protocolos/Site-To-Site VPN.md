@@ -10,7 +10,18 @@ Date: 2025-05-07 : 13:02
 - Se habilita el **paquete de seguridad**... después de habilitarlo hay que... ::  `license boot module c1900 technology-package securityk9`, rebootear el router (recuerda guardar configuración).
 - Implementar **ACL's**  necesarias :: `access-list <acl-number> permit ip <source-network> <source-wildcard> <destinatioin-network> <destination-wildcard>` #AOSR/hdibo/s/e7rq
 
-### Configuración de Políticas 
+### Configuración de IKE Fase 1 ISAKMP
+#Q 
+- Esto se hace con el fin de establecer el... en su fase... :: Internet Key Exchange (IKE), 1.
+- Primero creamos ISAKMP con una prioridad de 10 (podemos poner otra prioridad) :: `crypto isakmp policy 10`
+- Luego definimos que el tipo de encripción será **AES with 256-bit key (fuerte)** :: `encryption aes 256`.
+- Luego definimos que se usará una llave **previamente compartida** para la autenticación :: `authentication pre-share`
+- Luego definimos **Diffie-Hellman grupo 5** (que es un método para el intercambio seguro de las llaves). Hay varios grupos pero 5 es de mediana seguridad :: `group 5`
+- Luego establecemos que la llave previamente compartida será **vpnpa55** y definimos la dirección con la que se conecta el otro router al ISP :: `crypto isakmp key vpnpa55 address <peer's-ip>`.
+
+### Configuración de IKE Fase 2 ISAKMP
+#Q 
+
 
 
 
