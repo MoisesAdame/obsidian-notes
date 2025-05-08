@@ -163,13 +163,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN (IPSEC).md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Site-To-Site VPN (IPSEC)"
+              "title": "Site-To-Site VPN"
             }
           },
           {
@@ -376,7 +376,7 @@
   "active": "2916281e987962b7",
   "lastOpenFiles": [
     "School/Advanced Application Developement/Clases/Clase 10.md",
-    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN (IPSEC).md",
+    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "Technologies/Design Patterns/Behavioral/Untitled 1.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
