@@ -21,7 +21,17 @@ Date: 2025-05-07 : 13:02
 
 ### Configuración de IKE Fase 2 ISAKMP
 #Q 
+- Le decimos a router que defina IPsec fase 2 usando **AES para encriptar** y **SHA-HMAC para autenticar** :: `crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac`.
+- Crear mapa criptográfico :: `crypto map VPN-MAP 10 ipsec-isakmp`.
+- Añadir descripción :: `description VPN connection to R3`
+- Definimos el peer, osea a donde mandar el tráfico encriptado :: `set peer <peer's-ip>`
+- Adjuntarle al mapa criptográfico el transform set previamente definido (**VPN-SET**) :: `set transform-set VPN-SET`.
+- Aplicar mapa criptográfico solo a la access list que definimos :: `match address <acl-number>`.
 
+### Configuración de Mapa Criptográfico en la Interfaz que va a ISP.
+#Q 
+- Vamos a la interfaz que a va ISP :: `interface <interface-type> <interface-id>`
+- Configuramos mapa criptográfico :: `crypto map VPN-MAP`.
 
 
 
