@@ -8,7 +8,7 @@ Date: 2025-05-07 : 13:02
 
 #Q  #AOSR/hdibo
 - Se habilita el **paquete de seguridad**... después de habilitarlo hay que... ::  `license boot module c1900 technology-package securityk9`, rebootear el router (recuerda guardar configuración).
-- Implementar **ACL's**  necesarias :: `access-list <acl-number> permit ip <source-network> <source-wildcard> <destinatioin-network> <destination-wildcard>` #AOSR/hdibo/s/e7rq
+- Implementar **ACL's**  necesarias (recuerda que source es las redes del router en el que te ecnuentras) :: `access-list <acl-number> permit ip <source-network> <source-wildcard> <destinatioin-network> <destination-wildcard>` #AOSR/hdibo/s/e7rq
 
 ### Configuración de IKE Fase 1 ISAKMP
 #Q 
@@ -36,8 +36,6 @@ Date: 2025-05-07 : 13:02
 ## Verificación
 - Antes de mandar paquetes correr el comando... y ver que los paquetes encapsulados y desencapsulados es igual a... :: `show crypto ipsec sa`, 0.
 - Hacer ping y vovler a checar el número de paquetes :: encapsulados y desencapsulados.
-
-
 
 ## Flashcards
 ```aosr-deck-config
