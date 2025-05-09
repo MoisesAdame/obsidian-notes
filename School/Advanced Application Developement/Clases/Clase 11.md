@@ -16,3 +16,10 @@ No se **rechaza** si $H_{0}$ si $X_{0}^{2} < X_{A, a}^{2}$.
 Con $v$ grados de libertad: $v = (k - 1) - (\text{número de parametros})$
 
 Sea $X_{0}^{2}$:
+
+### Prueba Kolmogorov-Smiornov
+Esta prueba compara la cdf continua $F(X)$ de la distribución uniforme con la cdf empírica $S_{n}(x)$ de la muestra con $N$ observaciones. Por definición:
+$$
+F(x) = x, 0 \leq x \leq 1
+$$
+
