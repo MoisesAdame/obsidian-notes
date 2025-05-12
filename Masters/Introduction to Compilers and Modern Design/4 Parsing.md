@@ -45,10 +45,18 @@ $$
 #Q 
 - An ambiguos grammar is one where for a given sentence we have :: **More than one** derivation.
 
-## 4.3 LL Grammars
+## 4.3 LL(1) Grammars
 #Q 
+- In order to **ensure** a grammar is LL(1) we first have to remove... then, we remove the... and finally we remove... :: Ambiguity, left recursion, common left prefixes.
 
+### 4.3.1 Eliminating Left Recursion
+#Q 
+- Left recursion is a rule such that :: $A \to A\alpha$.
+- For example the rule $E \to E + T$ is... but changing the rule to $E \to T + E$ although resolves the recursion it changes the... :: Left recursive, grammar.
 
+### 4.3.2 Eliminating Common Left Prefixes
+#Q 
+- 
 
 
 
