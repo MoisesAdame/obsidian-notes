@@ -56,6 +56,12 @@ $$
 
 ### 4.3.2 Eliminating Common Left Prefixes
 #Q 
+- It is used on rules that a common... hand-side :: Left.
+- For example a rule that is expressed as $A \to \alpha \beta_{1} | \alpha \beta_{2} | \cdots$ and replace it as :: $A \to \alpha A'$ and $A' \to \beta_{1} | \beta_{2} | \cdots$-
+
+### 4.3.3 First and Follow Sets
+#Q 
+- In order to have an LL(1) we must have two sets called :: First and follow.
 - 
 
 
