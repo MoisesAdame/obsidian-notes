@@ -48,6 +48,7 @@ $$
 ## 4.3 LL(1) Grammars
 #Q 
 - In order to **ensure** a grammar is LL(1) we first have to remove... then, we remove the... and finally we remove... :: Ambiguity, left recursion, common left prefixes.
+- These types of grammars are :: **Top down grammars** (because we start from the initial symbol)
 
 ### 4.3.1 Eliminating Left Recursion
 #Q 
@@ -71,7 +72,22 @@ $$
 - The **LL(1) parse table** is used to determine which... for a combination of... and the next... :: Rule to apply, non-terminal, token.
 - To construct the **parse table** we initially use all the symbols in the... and if we encounter an $\epsilon$ we add the... :: FIRST set, symbols in the FOLLOW set.
 - For the current example, the **parse table** would end up as :: ![[fig4-2.png | 300]]
-- 
+- Example algorithm for **int * int** :: ![[fig4-3.png | 300]]
+
+## LR Grammars
+#Q 
+- They are used for more :: More general purpose programming languages.
+- They use... techniques :: Bottom-up.
+- LR(1) is a superset of :: LL(1)
+
+### 4.4.1 Shift-Reduce Parsing
+#Q 
+- LR(1) grammars must be parsed using the :: Shift-reduce technique.
+- A **shift** action consumes and puts the... into the... :: Token, stack.
+- A **reduce** action applies the... replacing the... into... :: Rules of the grammar, sentential form, non-terminals.
+- Example :: 
+
+
 
 
 ## Flashcards
