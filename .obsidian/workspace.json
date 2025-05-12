@@ -261,8 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -388,8 +387,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3447dc61bace4fe",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
+    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-2.png",
     "School/Distributed Systems/Guía/Redes 1.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "Masters/Introduction to Compilers and Modern Design/Assets",

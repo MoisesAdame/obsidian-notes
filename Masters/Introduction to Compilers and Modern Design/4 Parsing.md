@@ -65,8 +65,13 @@ $$
 - The set $FIRST(X)$ is the set of... that could appear at the **beginning** of any... of $X$ :: Terminals, derivation.
 - The set $FOLLOW(X)$ is the set of... that could occur after any... :: Terminals, derivation.
 - Example for a given grammar :: ![[fig4-1.png | 400]]
-- 
 
+### 4.3.5 Table Driven Parsing
+#Q 
+- The **LL(1) parse table** is used to determine which... for a combination of... and the next... :: Rule to apply, non-terminal, token.
+- To construct the **parse table** we initially use all the symbols in the... and if we encounter an $\epsilon$ we add the... :: FIRST set, symbols in the FOLLOW set.
+- For the current example, the **parse table** would end up as :: ![[fig4-2.png | 300]]
+- 
 
 
 ## Flashcards
