@@ -85,7 +85,17 @@ $$
 - LR(1) grammars must be parsed using the :: Shift-reduce technique.
 - A **shift** action consumes and puts the... into the... :: Token, stack.
 - A **reduce** action applies the... replacing the... into... :: Rules of the grammar, sentential form, non-terminals.
-- Example :: 
+- Example :: ![[fig4-4.png | 300]]
+
+### 4.4.2 The LR(0) Automaton
+#Q 
+- The **LR(0) Automaton** represents all the possible... that are under consideration by a... :: Rules, shift-reduce parser.
+- In the automaton **each box** represents a :: State in the machine.
+- The boxes are connected by **transitions** that can apply to both :: Terminals and non-terminals.
+- In the rules we add a **dot (.)** that represents the :: Parser's position.
+- In the example $E \to E. + T$ we know that $E$ is in the... and $+ T$ is the possible next sequence of :: Stack, tokens.
+- Example of automaton :: ![[fig4-5.png | 300]]
+
 
 
 
