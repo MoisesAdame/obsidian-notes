@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 10,
+        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -388,15 +388,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2916281e987962b7",
+  "active": "bf2942c7a92c8670",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Advanced Application Developement/Clases/Clase 10.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
     "School/Distributed Systems/Guía/Redes 1.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-3.png",
-    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-2.png",
     "Masters/Introduction to Compilers and Modern Design/Assets",
