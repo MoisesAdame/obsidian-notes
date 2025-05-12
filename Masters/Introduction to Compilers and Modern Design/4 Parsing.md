@@ -64,6 +64,7 @@ $$
 - In order to have an LL(1) we must have two sets called :: First and follow.
 - The set $FIRST(X)$ is the set of... that could appear at the **beginning** of any... of $X$ :: Terminals, derivation.
 - The set $FOLLOW(X)$ is the set of... that could occur after any... :: Terminals, derivation.
+- Example for a given grammar :: ![[fig4-1.png | 400]]
 - 
 
 
