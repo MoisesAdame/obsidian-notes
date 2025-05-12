@@ -36,7 +36,18 @@ $$
 ### 4.2.1 Deriving Sentences
 #Q 
 - A **language** is the set of... that can be described by a given grammar :: Sentences.
-- To prove that a **sentence** belongs to a language we must be able to use the... of the grammar in order to acheive it. This process is called.
+- To prove that a **sentence** belongs to a language we must be able to use the... of the grammar in order to achieve it. This process is called... :: Rules, derivation.
+- There are **2 types** of derivations... and... :: Top-down derivation, bottom-up derivation.
+- In the **top-down derivation** we start from the :: Start symbol.
+- In the **bottom-up derivation** we start from the :: Original sentence.
+
+### 4.2.2 Ambiguous Grammar
+#Q 
+- An ambiguos grammar is one where for a given sentence we have :: **More than one** derivation.
+
+## 4.3 LL Grammars
+#Q 
+
 
 
 
