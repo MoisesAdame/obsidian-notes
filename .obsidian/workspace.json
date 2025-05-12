@@ -261,7 +261,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -389,11 +390,11 @@
   },
   "active": "b3447dc61bace4fe",
   "lastOpenFiles": [
-    "School/Advanced Application Developement/Clases/Clase 11.md",
+    "School/Advanced Application Developement/Clases/Clase 10.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
+    "School/Advanced Application Developement/Clases/Clase 11.md",
     "Masters/Introduction to Compilers and Modern Design",
     "School/Distributed Systems/Guía/Redes 1.md",
-    "School/Advanced Application Developement/Clases/Clase 10.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Redes 2.md",
