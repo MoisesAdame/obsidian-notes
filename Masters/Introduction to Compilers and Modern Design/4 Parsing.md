@@ -62,7 +62,7 @@ $$
 ### 4.3.3 First and Follow Sets
 #Q 
 - In order to have an LL(1) we must have two sets called :: First and follow.
-- 
+- El set $FIRST(\alpha)$ is the set of terminals that 
 
 
 
