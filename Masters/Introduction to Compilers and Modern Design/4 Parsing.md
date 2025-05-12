@@ -96,10 +96,6 @@ $$
 - In the example $E \to E. + T$ we know that $E$ is in the... and $+ T$ is the possible next sequence of :: Stack, tokens.
 - Example of automaton :: ![[fig4-5.png | 300]]
 
-
-
-
-
 ## Flashcards
 ```aosr-deck-config
 {
