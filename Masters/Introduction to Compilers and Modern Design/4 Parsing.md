@@ -12,7 +12,33 @@ Date: 2025-05-11 : 19:19
 ## 4.2 Context Free Grammars
 #Q 
 - Formal definition of a CFG :: $G = (V, \Sigma, R, S)$.
-- 
+- The $V$ represents the..., they are the... that can occur in the..., they are usually represented as... :: Non-terminals, structures, language, upper-case letters.
+- The $\Sigma$ represents the set of... which are the... that can appear in the language :: Terminals, symbols.
+- The $R$ represents the... of the grammar and using set notation is represented as... :: Rules, $V \times (V \cup \Sigma)^{*}$.
+- The $S$ is the :: Start variable.
+
+#Q
+Example grammar of sum of integers
+?
+$$
+P \to E
+$$
+$$
+E \to E + E
+$$
+$$
+E \to identifier
+$$
+$$
+E \to integer
+$$
+
+### 4.2.1 Deriving Sentences
+#Q 
+- A **language** is the set of... that can be described by a given grammar :: Sentences.
+- To prove that a **sentence** belongs to a language we must be able to use the... of the grammar in order to acheive it. This process is called.
+
+
 
 
 ## Flashcards
