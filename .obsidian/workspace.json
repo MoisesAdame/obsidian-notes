@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 10,
         "stacked": true
       }
     ],
@@ -388,7 +388,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3447dc61bace4fe",
+  "active": "2916281e987962b7",
   "lastOpenFiles": [
     "School/Advanced Application Developement/Clases/Clase 10.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
