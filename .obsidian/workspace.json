@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 4,
+        "currentTab": 13,
         "stacked": true
       }
     ],
@@ -402,14 +402,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e0f704c8495b6a2",
+  "active": "a9aab28b7897ba60",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "Reto Conf.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
