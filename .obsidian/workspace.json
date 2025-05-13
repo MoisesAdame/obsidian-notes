@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Inter VLAN Routing, Router On A Stick"
+              "title": "Inter VLAN Routing, Switch Layer 3"
             }
           },
           {
@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Inter VLAN Routing, Switch Layer 3"
+              "title": "Hot Standby Router Protocol"
             }
           },
           {
@@ -201,6 +201,21 @@
               "icon": "lucide-file",
               "title": "4 Parsing"
             }
+          },
+          {
+            "id": "a9aab28b7897ba60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reto Conf.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Reto Conf"
+            }
           }
         ],
         "currentTab": 4,
@@ -261,8 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 381.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -390,11 +404,13 @@
   },
   "active": "5e0f704c8495b6a2",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
-    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "Reto Conf.md",
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Advanced Application Developement/Clases/Clase 10.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
@@ -402,7 +418,6 @@
     "School/Distributed Systems/Guía/Redes 1.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-3.png",
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-2.png",
     "Masters/Introduction to Compilers and Modern Design/Assets",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-1.png",
