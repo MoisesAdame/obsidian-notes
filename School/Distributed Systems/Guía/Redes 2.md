@@ -454,9 +454,11 @@ Date: 2025-04-30 : 12:49
 #Q 
 - Nos permite el uso interno de... y las traduce a... :: IPv4's privadas, direcciones públicas.
 
-#### How NAT Works?
+#### NAT Terminology
 #Q 
-
+- La dirección del dispositivo que se traduce es :: **Inside address**.
+- La dirección de destino es :: **Outside Address**.
+- 
 
 
 
