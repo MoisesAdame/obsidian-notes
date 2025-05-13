@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 12,
+        "currentTab": 13,
         "stacked": true
       }
     ],
@@ -402,11 +402,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "340665be12b67408",
+  "active": "a9aab28b7897ba60",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "Reto Conf.md",
-    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 10.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
