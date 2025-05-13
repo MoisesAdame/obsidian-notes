@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Hot Standby Router Protocol"
+              "title": "Inter VLAN Routing, Router On A Stick"
             }
           },
           {
@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 6,
+        "currentTab": 13,
         "stacked": true
       }
     ],
@@ -402,13 +402,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cb8c82d2afcd366e",
+  "active": "a9aab28b7897ba60",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "Reto Conf.md",
-    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
