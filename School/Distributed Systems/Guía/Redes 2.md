@@ -458,7 +458,17 @@ Date: 2025-04-30 : 12:49
 #Q 
 - La dirección del dispositivo que se traduce es :: **Inside address**.
 - La dirección de destino es :: **Outside Address**.
-- 
+- Cualquier dirección interna es :: **Local Address**.
+- Cualquier dirección externa es :: **Global Address**.
+- El address de la fuente visto desde adentro se llama :: **Inside Local Address**.
+- El address de la fuente visto desde afuera se llama :: **Inside Global Address**.
+- El address de destino visto desde fuera :: **Outside Global Address**
+- El address de destino visto desde adentro :: **Outside Local Address**.
+
+### Types of NAT
+#### Estática
+#Q 
+
 
 
 
