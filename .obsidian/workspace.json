@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 13,
+        "currentTab": 9,
         "stacked": true
       }
     ],
@@ -402,10 +402,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9aab28b7897ba60",
+  "active": "91680f48cba74056",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "Reto Conf.md",
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
