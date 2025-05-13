@@ -15,7 +15,7 @@ vlan 99
 name Admins
 exit
 
-**En Routers**
+**En Routers (Configuración de HSRP y VLANS)** 
 El default gateway virtual es: 17.16.6.206
 
 *Router-A*
@@ -104,3 +104,5 @@ standby version 2
 standby 10 ip 172.16.6.190
 no shutdown
 exit
+
+**En Routers (Configuración de OSPF)**
