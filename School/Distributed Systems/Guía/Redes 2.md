@@ -445,7 +445,17 @@ Date: 2025-04-30 : 12:49
 
 ## Network Address Translation (NAT)
 ### NAT Characteristics
-### IPv4 Adress Space
+#### IPv4 Address Space
+#Q 
+- Para permitir que un dispositivo en una red local pueda acceder a recursos fuera de esa red, su dirección de red privada debe ser traducida a una :: Dirección de red pública.
+- Esa traducción de dirección de redes es de lo que se encarga :: NAT.
+
+#### What is NAT?
+#Q 
+- Nos permite el uso interno de... y las traduce a... :: IPv4's privadas, direcciones públicas.
+
+#### How NAT Works?
+#Q 
 
 
 
