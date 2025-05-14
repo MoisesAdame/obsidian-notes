@@ -233,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 14,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -417,10 +417,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9aab28b7897ba60",
+  "active": "124f02ca44abfb45",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "Reto Conf.md",
+    "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Clases/Clase 11.md",

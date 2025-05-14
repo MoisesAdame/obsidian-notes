@@ -204,6 +204,14 @@ standby 10 preempt
 no shutdown
 exit
 
+interface GigabitEthernet0/2.10
+encapsulation dot1Q 10
+ip address 172.16.1.252 255.255.254.0
+standby version 2
+standby 20 ip 172.16.1.254
+standby 20 priority 110
+standby 20 preempt
+
 *Router-B*
 enable
 conf t
@@ -228,18 +236,11 @@ standby 10 ip 172.16.3.254
 no shutdown
 exit
 
-
 interface GigabitEthernet0/2.10
 encapsulation dot1Q 10
-no ip address
-
+ip address 172.16.1.251 255.255.254.0
 standby version 2
-
-standby 10 ip 172.16.1.254
-
-standby 10 priority 105
-
-standby 10 preempt
+standby 20 ip 172.16.1.254
 
 
 **En Routers (Configuración de OSPF)**
