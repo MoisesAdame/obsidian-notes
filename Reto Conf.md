@@ -329,7 +329,7 @@ enable
 conf t
 
 interface ser0/3/0
-ip address 10.0.0.6 255.255.255.252
+ip address 10.0.0.5 255.255.255.252
 no shutdown
 exit
 
@@ -371,7 +371,7 @@ exit
 
 router bgp 210
 neighbor 10.0.0.9 remote-as 110
-neighbor 10.0.0.6 remote-as 110
+neighbor 10.0.0.5 remote-as 110
 neighbor 10.0.0.13 remote-as 110
 
 *Router clínica*

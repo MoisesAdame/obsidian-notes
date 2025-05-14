@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Inter VLAN Routing, Router On A Stick"
+              "title": "Open Shortest Path First"
             }
           },
           {
@@ -223,17 +223,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reto Conf.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Reto Conf"
+              "title": "Inter VLAN Routing, Router On A Stick"
             }
           }
         ],
-        "currentTab": 14,
+        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -254,7 +254,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -266,7 +266,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "0.0.0.0 0.0.0.0",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -287,12 +287,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -418,20 +418,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9aab28b7897ba60",
+  "active": "bf2942c7a92c8670",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
-    "Reto Conf.md",
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Clases/Clase 3.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
+    "Reto Conf.md",
+    "Untitled 1",
+    "Untitled.md",
+    "Untitled",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Clases/Clase 11.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "School/Distributed Systems/Guía/Redes 2.md",
     "School/Advanced Application Developement/Clases/Clase 10.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
@@ -453,8 +457,6 @@
     "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig5.png",
     "School/Distributed Systems/Clases/Clase 7.md",
-    "School/Distributed Systems/Clases/Clase 10.md",
-    "School/Distributed Systems/Clases/Clase 9.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig9.png",
@@ -464,8 +466,6 @@
     "School/Distributed Systems/Guía/Protocolos",
     "School/Distributed Systems/Guía",
     "export/Slides Variables/Archive.zip",
-    "export/Slides Variables/plugin/chalkboard/style.css",
-    "export/Slides Variables/plugin/chalkboard/plugin.js",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
