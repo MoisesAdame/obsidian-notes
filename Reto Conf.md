@@ -228,5 +228,10 @@ standby 10 ip 172.16.3.254
 no shutdown
 exit
 
+interface GigabitEthernet0/2.10
+ encapsulation dot1Q 10
+ standby version 2
+ standby 10 ip 172.16.1.254
+
 
 **En Routers (Configuración de OSPF)**
