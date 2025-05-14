@@ -326,3 +326,43 @@ network 172.16.2.0 0.0.1.255 area 0
 network 172.16.4.0 0.0.1.255 area 0
 network 172.16.6.0 0.0.0.127 area 0
 network 172.16.6.128 0.0.0.63 area 0
+
+**En Routers (Configuración de BGP)**
+*Router A*
+enable
+conf t
+
+interface ser0/3/0
+ip address 10.0.0.6 255.255.255.252
+no shutdown
+exit
+
+router bgp 110
+neighbor 10.0.0.6 remote-as 210
+neighbor 10.0.0.2 remote-as 110
+
+*Router B*
+enable
+conf t
+
+interface ser0/3/0
+ip address 10.0.0.9 255.255.255.252
+no shutdown
+exit
+
+router bgp 110
+neighbor 10.0.0.10 remote-as 210
+neighbor 10.0.0.2 remote-as 110
+
+*ISP-CDMX*
+enable
+conf t
+
+interface ser0/1/0
+ip address 10.0.0.6 255.255.255.252
+no shutdown
+exit
+
+interface ser0/1/1
+ip address 10.0.0.10 255.255.255.252
+no shutdown
