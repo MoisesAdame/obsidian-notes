@@ -15,6 +15,86 @@ vlan 99
 name Admins
 exit
 
+**En Switches**
+*Piso 4*
+enable
+conf t
+
+interface fa0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/2
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/4
+switchport mode access
+switchport access vlan 10
+no shutdown
+exit
+
+*Piso 3*
+interface fa0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/2
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/5
+switchport mode access
+switchport access vlan 10
+no shutdown
+exit
+
+*Piso 2*
+interface fa0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/2
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/5
+switchport mode access
+switchport access vlan 10
+no shutdown
+exit
+
+*Piso 1*
+interface fa0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/2
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,99
+no shutdown
+exit
+
+interface fa0/4
+switchport mode access
+switchport access vlan 10
+no shutdown
+exit
+
 **En Routers (Configuración de HSRP y VLANS)** 
 El default gateway virtual es: 17.16.6.206
 
