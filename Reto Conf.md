@@ -173,10 +173,8 @@ exit
 
 
 **En Routers (Configuración de HSRP y VLANS)** 
-El default gateway virtual es: 17.16.6.206
-
-
 *Router-A*
+
 enable
 conf t
 
@@ -292,5 +290,22 @@ standby 99 preempt
 no shutdown
 exit
 
-
 **En Routers (Configuración de OSPF)**
+*Router-A*
+enable
+conf t
+
+interface gig0/0
+ip address 10.0.0.1 255.255.255.252
+no shutdown
+
+
+
+router ospf 10
+router-id 1.1.1.1
+network 10.0.0.1 0.0.0.3 area 0
+network 172.16.1.253 0.0.1.255 area 0
+network 172.16.3.253 0.0.1.255 area 0
+network 172.16.5.253 0.0.1.255 area 0
+network 172.16.6.125 0.0.0.127 area 0
+network 172.16.6.189 0.0.0.63 area 0
