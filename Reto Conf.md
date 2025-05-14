@@ -186,23 +186,11 @@ exit
 
 interface gig0/1.10
 encapsulation dot1Q 10
-ip address 172.16.1.254 255.255.254.0
-standby version 2
-standby 10 ip 172.16.1.254
-standby 10 priority 110
-no shutdown
-exit
-
-interface gig0/2
-no shutdown
-exit
-
-interface gig0/2.10
-encapsulation dot1Q 10
 ip address 172.16.1.253 255.255.254.0
 standby version 2
 standby 10 ip 172.16.1.254
 standby 10 priority 110
+standby 10 preempt
 no shutdown
 exit
 
@@ -216,23 +204,12 @@ exit
 
 interface gig0/1.10
 encapsulation dot1Q 10
-ip address 172.16.1.252 255.255.254.0
-standby version 2
-standby 10 ip 172.16.1.254
-no shutdown
-exit
-
-interface gig0/2
-no shutdown
-exit
-
-interface gig0/2.10
-encapsulation dot1Q 10
 ip address 172.16.1.251 255.255.254.0
 standby version 2
 standby 10 ip 172.16.1.254
 no shutdown
 exit
+
 
 
 *Router-A*
