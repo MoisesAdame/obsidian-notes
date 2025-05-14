@@ -204,6 +204,36 @@ standby 20 preempt
 no shutdown
 exit
 
+interface gig0/1.30
+encapsulation dot1Q 30
+ip address 172.16.5.253 255.255.254.0
+standby version 2
+standby 30 ip 172.16.5.254
+standby 30 priority 110
+standby 30 preempt
+no shutdown
+exit
+
+interface gig0/1.40
+encapsulation dot1Q 40
+ip address 172.16.6.125 255.255.255.128
+standby version 2
+standby 40 ip 172.16.6.126
+standby 40 priority 110
+standby 40 preempt
+no shutdown
+exit
+
+interface gig0/1.99
+encapsulation dot1Q 99
+ip address 172.16.6.189 255.255.255.192
+standby version 2
+standby 99 ip 172.16.6.190
+standby 99 priority 110
+standby 99 preempt
+no shutdown
+exit
+
 *Router-B*
 enable
 conf t
@@ -229,6 +259,36 @@ standby version 2
 standby 20 ip 172.16.3.254
 standby 20 priority 105
 standby 20 preempt
+no shutdown
+exit
+
+interface gig0/1.30
+encapsulation dot1Q 30
+ip address 172.16.5.252 255.255.254.0
+standby version 2
+standby 30 ip 172.16.5.254
+standby 30 priority 105
+standby 30 preempt
+no shutdown
+exit
+
+interface gig0/1.40
+encapsulation dot1Q 40
+ip address 172.16.6.124 255.255.255.128
+standby version 2
+standby 40 ip 172.16.6.126
+standby 40 priority 105
+standby 40 preempt
+no shutdown
+exit
+
+interface gig0/1.99
+encapsulation dot1Q 99
+ip address 172.16.6.188 255.255.255.192
+standby version 2
+standby 99 ip 172.16.6.190
+standby 99 priority 105
+standby 99 preempt
 no shutdown
 exit
 

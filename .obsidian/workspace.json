@@ -233,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 13,
+        "currentTab": 14,
         "stacked": true
       }
     ],
@@ -417,11 +417,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "340665be12b67408",
+  "active": "a9aab28b7897ba60",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "Reto Conf.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
-    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Clases/Clase 11.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
