@@ -233,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 14,
+        "currentTab": 8,
         "stacked": true
       }
     ],
@@ -291,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -417,18 +418,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9aab28b7897ba60",
+  "active": "bf2942c7a92c8670",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "Reto Conf.md",
+    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Clases/Clase 11.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "School/Distributed Systems/Guía/Redes 2.md",
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 10.md",
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",

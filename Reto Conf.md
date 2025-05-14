@@ -298,14 +298,31 @@ conf t
 interface gig0/0
 ip address 10.0.0.1 255.255.255.252
 no shutdown
-
-
+exit
 
 router ospf 10
 router-id 1.1.1.1
-network 10.0.0.1 0.0.0.3 area 0
-network 172.16.1.253 0.0.1.255 area 0
-network 172.16.3.253 0.0.1.255 area 0
-network 172.16.5.253 0.0.1.255 area 0
-network 172.16.6.125 0.0.0.127 area 0
-network 172.16.6.189 0.0.0.63 area 0
+network 10.0.0.0 0.0.0.3 area 0
+network 172.16.0.0 0.0.1.255 area 0
+network 172.16.2.0 0.0.1.255 area 0
+network 172.16.4.0 0.0.1.255 area 0
+network 172.16.6.0 0.0.0.127 area 0
+network 172.16.6.128 0.0.0.63 area 0
+
+*Router-B*
+enable
+conf t
+
+interface gig0/0
+ip address 10.0.0.2 255.255.255.252
+no shutdown
+exit
+
+router ospf 10
+router-id 1.1.1.2
+network 10.0.0.0 0.0.0.3 area 0
+network 172.16.0.0 0.0.1.255 area 0
+network 172.16.2.0 0.0.1.255 area 0
+network 172.16.4.0 0.0.1.255 area 0
+network 172.16.6.0 0.0.0.127 area 0
+network 172.16.6.128 0.0.0.63 area 0
