@@ -169,12 +169,8 @@ switchport trunk allowed vlan 10,20,30,40,99
 no shutdown
 exit
 
-
-
-
 **En Routers (Configuración de HSRP y VLANS)** 
 *Router-A*
-
 enable
 conf t
 
@@ -242,7 +238,7 @@ exit
 
 interface gig0/1.10
 encapsulation dot1Q 10
-ip address 172.16.1.253 255.255.254.0
+ip address 172.16.1.252 255.255.254.0
 standby version 2
 standby 10 ip 172.16.1.254
 standby 10 priority 105
@@ -252,7 +248,7 @@ exit
 
 interface gig0/1.20
 encapsulation dot1Q 20
-ip address 172.16.3.253 255.255.254.0
+ip address 172.16.3.252 255.255.254.0
 standby version 2
 standby 20 ip 172.16.3.254
 standby 20 priority 105
@@ -366,3 +362,82 @@ exit
 interface ser0/1/1
 ip address 10.0.0.10 255.255.255.252
 no shutdown
+exit
+
+interface ser0/3/0
+ip address 10.0.0.14 255.255.255.252
+no shutdown
+exit
+
+router bgp 210
+neighbor 10.0.0.9 remote-as 110
+neighbor 10.0.0.6 remote-as 110
+neighbor 10.0.0.13 remote-as 110
+
+*Router clínica*
+enable
+conf t
+
+interface ser0/1/0
+ip address 10.0.0.13 255.255.255.252
+no shutdown
+exit
+
+router bgp 110
+neighbor 10.0.0.14 remote-as 210
+exit
+
+interface gig0/0/1
+no shutdown
+exit
+
+
+interface gig0/0/1.10
+encapsulation dot1Q 10
+ip address 172.16.1.251 255.255.254.0
+standby version 2
+standby 10 ip 172.16.1.254
+standby 10 priority 105
+standby 10 preempt
+no shutdown
+exit
+
+interface gig0/0/1.20
+encapsulation dot1Q 20
+ip address 172.16.3.251 255.255.254.0
+standby version 2
+standby 20 ip 172.16.3.254
+standby 20 priority 110
+standby 20 preempt
+no shutdown
+exit
+
+interface gig0/0/1.30
+encapsulation dot1Q 30
+ip address 172.16.5.251 255.255.254.0
+standby version 2
+standby 30 ip 172.16.5.254
+standby 30 priority 110
+standby 30 preempt
+no shutdown
+exit
+
+interface gig0/0/1.40
+encapsulation dot1Q 40
+ip address 172.16.6.123 255.255.255.128
+standby version 2
+standby 40 ip 172.16.6.126
+standby 40 priority 110
+standby 40 preempt
+no shutdown
+exit
+
+interface gig0/0/1.99
+encapsulation dot1Q 99
+ip address 172.16.6.187 255.255.255.192
+standby version 2
+standby 99 ip 172.16.6.190
+standby 99 priority 110
+standby 99 preempt
+no shutdown
+exit
