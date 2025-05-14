@@ -98,6 +98,50 @@ exit
 **En Routers (Configuración de HSRP y VLANS)** 
 El default gateway virtual es: 17.16.6.206
 
+
+*Router-A*
+enable
+conf t
+
+interface fa0/2/1.10
+encapsulation dot1Q 10
+ip address 172.16.1.254 255.255.254.0
+standby version 2
+standby 10 ip 172.16.1.254
+standby 10 priority 110
+no shutdown
+exit
+
+interface fa0/2/0.10
+encapsulation dot1Q 10
+ip address 172.16.1.254 255.255.254.0
+standby version 2
+standby 10 ip 172.16.1.254
+standby 10 priority 110
+no shutdown
+exit
+
+*Router-B*
+enable
+conf t
+
+interface fa0/2/1.10
+encapsulation dot1Q 10
+ip address 172.16.1.253 255.255.254.0
+standby version 2
+standby 10 ip 172.16.1.254
+no shutdown
+exit
+
+interface fa0/2/0.10
+encapsulation dot1Q 10
+ip address 172.16.1.253 255.255.254.0
+standby version 2
+standby 10 ip 172.16.1.254
+no shutdown
+exit
+
+
 *Router-A*
 interface gigabitEthernet 0/2.10
 encapsulation dot1Q 10
