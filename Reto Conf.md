@@ -348,7 +348,7 @@ exit
 
 router bgp 110
 neighbor 10.0.0.10 remote-as 210
-neighbor 10.0.0.2 remote-as 110
+neighbor 10.0.0.1 remote-as 110
 
 *ISP-CDMX*
 enable
