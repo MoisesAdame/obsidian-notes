@@ -223,17 +223,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+                "file": "Reto Conf.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Inter VLAN Routing, Router On A Stick"
+              "title": "Reto Conf"
             }
           }
         ],
-        "currentTab": 8,
+        "currentTab": 14,
         "stacked": true
       }
     ],
@@ -287,8 +287,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -418,17 +417,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf2942c7a92c8670",
+  "active": "a9aab28b7897ba60",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Clases/Clase 3.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "Reto Conf.md",
     "Untitled 1",
     "Untitled.md",
     "Untitled",
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
     "School/Distributed Systems/Clases/Clase 12.md",
