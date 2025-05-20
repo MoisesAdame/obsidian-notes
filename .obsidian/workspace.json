@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Open Shortest Path First"
+              "title": "Dynamic Host Configuration Protocol"
             }
           }
         ],
@@ -239,15 +239,15 @@
   },
   "active": "475e0f0ecdeeee38",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
-    "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
+    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
+    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
+    "School/Distributed Systems/Clases/Clase 12.md",
+    "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Redes 1.md",
-    "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 12.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 11.md",

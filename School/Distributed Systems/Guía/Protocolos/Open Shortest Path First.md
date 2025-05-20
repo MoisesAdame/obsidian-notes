@@ -57,7 +57,7 @@ Date: 2025-05-03 : 18:43
 - Para ver routers vecinos usamos el comando..., si no tienen la palabra... es que hay problemas :: `show ip ospf neighbor`, FULL.
 - Ver información general de OSPF con comando :: `show ip protocols`
 - Ver configuración OSPF de una interfaz :: `show ip ospf interface <interface-type> <interface-id>`
-- - Ver configuración OSPF de varias interfaces :: `show ip ospf interface brief`
+- Ver configuración OSPF de varias interfaces :: `show ip ospf interface brief`
 
 ## Flashcards
 ```aosr-deck-config

@@ -41,5 +41,26 @@ Date: 2025-05-20 : 13:56
 `network-address is for the networks that connect opsf routers and the internal networks`
 
 #### Configuración de Gateway of Last Resort
+Definir ruta:
+`ip route 0.0.0.0 0.0.0.0 [next-hop-address | exit-intf]`
+Propagar ruta:
+`default-information originate`
+
+## HSRP
+### En Routers
+#### Router con Prioridad
+El group number por buena practica se cambia por cada VLAN.
+Esta configuración se hace en cada subinterfaz
+`standby version 2`
+`standby <group-number> ip <gateway-ip>`
+`standby <group-number> priority <mayor a 100>`
+`standby <group-number> preempt` para forzar.
+
+## Server DHCP
+### Utilizando Server Designado
+Configurar IP de server dhcp y en servicios hacer la configuración de DHCP
+En
+
+### Utilizando Router
 
 
