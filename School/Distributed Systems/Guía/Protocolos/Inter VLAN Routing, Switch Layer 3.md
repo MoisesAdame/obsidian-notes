@@ -70,6 +70,33 @@ switchport trunk encapsulation dot1q
 (No es necesario especificar allowed vlans).
 
 
+
+vlan 70
+name VLAN-70
+exit
+vlan 80
+name VLAN-80
+exit
+vlan 90
+name VLAN-90
+exit
+
+
+interface fa0/5
+switchport mode access
+switchport access vlan 70
+exit
+
+interface fa0/2
+switchport mode access
+switchport access vlan 80
+exit
+
+interface fa0/4
+switchport mode access
+switchport access vlan 90
+exit
+
 ## Flashcards
 ```aosr-deck-config
 {
