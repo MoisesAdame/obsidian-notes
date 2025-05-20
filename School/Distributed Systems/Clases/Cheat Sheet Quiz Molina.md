@@ -46,6 +46,10 @@ Definir ruta:
 Propagar ruta:
 `default-information originate`
 
+#### Comandos de Verificación
+`show ip ospf neighbor`, que digan FULL.
+`show ip route`, que tengan O
+
 ## HSRP
 ### En Routers
 #### Router con Prioridad
@@ -56,11 +60,21 @@ Esta configuración se hace en cada subinterfaz
 `standby <group-number> priority <mayor a 100>`
 `standby <group-number> preempt` para forzar.
 
+#### Router sin Prioridad
+`standby version 2`
+`standby <group-number> ip <gateway-ip>`
+
+#### Comandos de Verificación
+`show standby brief`
+
 ## Server DHCP
 ### Utilizando Server Designado
 Configurar IP de server dhcp y en servicios hacer la configuración de DHCP
-En
+En la interfaz o subinterfaz apropiada definir:
+`ip helper-address <dhcp-server-ip>`
 
 ### Utilizando Router
-
-
+`ip dhcp pool <pool-name>`
+`network <network-address> <network-mask>`
+`default-router <ip-gateway>`
+`ip dhcp excluded-address <ip-inferior> <ip-superior>`
