@@ -146,11 +146,15 @@ standby 10 ip 192.168.10.254
 no shut
 exit
 
+conf t
 interface gig0/0/0.20
+shut
+
 ip address 192.168.20.252 255.255.255.0
 encapsulation dot1Q 20
 standby version 2
-standby 20 ip 192.168.10.254
+standby 20 ip 192.168.20.254
 no shut
 exit
 
+show running
