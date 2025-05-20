@@ -115,7 +115,6 @@ standby 20 preempt
 exit
 
 ### R2
-conf t
 interface ser0/1/0
 ip address 10.0.0.2 255.255.255.252
 no shutdown
@@ -154,4 +153,37 @@ standby 20 ip 192.168.20.254
 no shut
 exit
 
-show running
+### R3
+interface ser0/1/0
+ip address 10.0.0.6 255.255.255.252
+no shutdown
+exit
+
+interface ser0/1/1
+ip address 10.0.0.10 255.255.255.252
+no shutdown
+exit
+
+router ospf 10
+router-id 3.3.3.3
+network 10.0.0.8 0.0.0.3 area 0
+network 10.0.0.4 0.0.0.3 area 0
+network 192.168.30.0 0.0.0.255 area 0
+network 192.168.40.0 0.0.0.255 area 0
+exit
+
+interface gig0/0/0
+no shut
+exit
+
+interface gig0/0/0.10
+encapsulation dot1Q 10
+ip address 192.168.30.255 255.255.255.0
+no shut
+exit
+
+interface gig0/0/0.20
+encapsulation dot1Q 20
+ip address 192.168.40.254 255.255.255.0
+no shut
+exit
