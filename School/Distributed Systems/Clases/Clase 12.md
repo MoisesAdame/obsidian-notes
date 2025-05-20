@@ -178,7 +178,7 @@ exit
 
 interface gig0/0/0.10
 encapsulation dot1Q 10
-ip address 192.168.30.255 255.255.255.0
+ip address 192.168.30.254 255.255.255.0
 no shut
 exit
 
