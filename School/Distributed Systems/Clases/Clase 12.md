@@ -187,3 +187,27 @@ encapsulation dot1Q 20
 ip address 192.168.40.254 255.255.255.0
 no shut
 exit
+
+### S3
+enable
+conf t
+
+vlan 10
+name Teachers
+exit
+
+vlan 20
+name Students
+exit
+
+interface gig0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+no shut
+exit
+
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+no shut
+exit
