@@ -27,4 +27,19 @@ Date: 2025-05-20 : 13:56
 `exit`
 `interface <interface-type> <interface-id>.<subinterface-id>`
 `encapsulation dot1Q <vlan-id>`
-`ip address <>`
+`ip address <gateway-ip>`
+`IF HSRP IS CONFIGURED IT IS DONE HERE`
+
+## OSPF
+### En Routers
+#### Configuración Inicial
+`router ospf <process-id>`
+`router-id <router-id (parece ip)>`
+`network <network-address> <network-wildcard> area <area-numer>`
+`passive-interface <interface-type> <interface-id>``
+
+`network-address is for the networks that connect opsf routers and the internal networks`
+
+#### Configuración de Gateway of Last Resort
+
+
