@@ -18,7 +18,7 @@ Nos vamos a la interfaz donde está conectado el switch que tiene el server y po
 - Definimos y entramos a la pool :: `ip dhcp pool <pool-name>`
 - Definimos la red de esa pool :: `network <network-address> <network-mask>`
 - Se define el default gateway :: `default-router <ip-gateway>`
-- Para definir cuales ips excluir nos salimos a conf y ponemos :: `ip dhcp excluded-address 192.168.1.1 192.168.1.10`
+- Para definir cuales ips excluir nos salimos a conf y ponemos :: `ip dhcp excluded-address <ip-inferior> <ip-superior>`
 
 ## Flashcards
 ```aosr-deck-config

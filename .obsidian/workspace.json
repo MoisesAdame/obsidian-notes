@@ -4,26 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6464847ec4d6db85",
+        "id": "318d0297f726708c",
         "type": "tabs",
         "children": [
           {
-            "id": "ca8461404c164eef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Redes 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Redes 1"
-            }
-          },
-          {
-            "id": "373fc9bd7e9d0aa6",
+            "id": "cafd74d2f13d10a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,217 +23,37 @@
             }
           },
           {
-            "id": "33924c5cae244ccf",
+            "id": "475e0f0ecdeeee38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Clases/Clase 12.md",
+                "file": "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Clase 12"
+              "title": "Cheat Sheet Quiz Molina"
             }
           },
           {
-            "id": "124f02ca44abfb45",
+            "id": "86d458716f69d39b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Ether Channel"
-            }
-          },
-          {
-            "id": "1a35bb5d50cc210c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Inter VLAN Routing, Switch Layer 3"
-            }
-          },
-          {
-            "id": "5e0f704c8495b6a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Open Shortest Path First"
-            }
-          },
-          {
-            "id": "a090611193528d81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Spanning Tree Protocol"
-            }
-          },
-          {
-            "id": "cb8c82d2afcd366e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtual Local Area Network"
-            }
-          },
-          {
-            "id": "bf2942c7a92c8670",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Border Gateway Protocol"
-            }
-          },
-          {
-            "id": "91680f48cba74056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hot Standby Router Protocol"
-            }
-          },
-          {
-            "id": "2916281e987962b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Site-To-Site VPN"
-            }
-          },
-          {
-            "id": "01824a758db57464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Open Shortest Path First"
-            }
-          },
-          {
-            "id": "b3447dc61bace4fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "4 Parsing"
-            }
-          },
-          {
-            "id": "340665be12b67408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Open Shortest Path First"
-            }
-          },
-          {
-            "id": "308be35a58f5bc13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Dynamic Host Configuration Protocol"
-            }
-          },
-          {
-            "id": "fd74f098257c269e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Distributed Systems/Clases/Clase 12.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Clase 12"
+              "title": "Inter VLAN Routing, Router On A Stick"
             }
           }
         ],
-        "currentTab": 14,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -432,20 +237,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "308be35a58f5bc13",
+  "active": "475e0f0ecdeeee38",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Clase 12.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
+    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
     "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
+    "School/Distributed Systems/Clases/Clase 12.md",
+    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
+    "School/Distributed Systems/Guía/Redes 1.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 12.md",
-    "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Advanced Application Developement/Clases/Clase 11.md",
     "Reto Conf.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Clases/Clase 3.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "Untitled 1",
     "Untitled.md",
     "Untitled",
@@ -457,7 +264,6 @@
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
-    "School/Distributed Systems/Guía/Redes 1.md",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-3.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-2.png",
@@ -468,7 +274,6 @@
     "School/Advanced Application Developement/Clases/Clase 9.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第11课.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第10课.md",
-    "Chinese/HSK4/标准教程4/标准教程4（上）/第9课.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig5.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
