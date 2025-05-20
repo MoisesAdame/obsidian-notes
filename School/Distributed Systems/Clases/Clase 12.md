@@ -73,11 +73,25 @@ no shut
 exit
 
 ### R1
-interface gig0/0/0
-no shut
+interface ser0/1/1
+ip address 10.0.0.1 255.255.255.252
+no shutdown
 exit
 
-interface ser0/1/1
+interface ser0/1/0
+ip address 10.0.0.5 255.255.255.252
+no shutdown
+exit
+
+router ospf 10
+router-id 1.1.1.1
+network 10.0.0.4 0.0.0.3 area 0
+network 10.0.0.1 0.0.0.3 area 0
+network 192.168.10.0 0.0.0.255 area 0
+network 192.168.20.0 0.0.0.255 area 0
+exit
+
+interface gig0/0/0
 no shut
 exit
 
@@ -98,6 +112,45 @@ standby version 2
 standby 20 ip 192.168.10.254
 standby 20 priority 110
 standby 20 preempt
+no shut
+exit
+
+### R2
+interface ser0/1/0
+ip address 10.0.0.2 255.255.255.252
+no shutdown
+exit
+
+interface ser0/1/1
+ip address 10.0.0.9 255.255.255.252
+no shutdown
+exit
+
+router ospf 10
+router-id 2.2.2.2
+network 10.0.0.8 0.0.0.3 area 0
+network 10.0.0.0 0.0.0.3 area 0
+network 192.168.10.0 0.0.0.255 area 0
+network 192.168.20.0 0.0.0.255 area 0
+exit
+
+interface gig0/0/0
+no shut
+exit
+
+interface gig0/0/0.10
+ip address 192.168.10.252 255.255.255.0
+encapsulation dot1Q 10
+standby version 2
+standby 10 ip 192.168.10.254
+no shut
+exit
+
+interface gig0/0/0.20
+ip address 192.168.20.252 255.255.255.0
+encapsulation dot1Q 20
+standby version 2
+standby 20 ip 192.168.10.254
 no shut
 exit
 
