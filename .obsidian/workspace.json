@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -252,8 +252,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a956570f6a210755",
+  "active": "475e0f0ecdeeee38",
   "lastOpenFiles": [
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
     "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
     "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
@@ -261,7 +262,6 @@
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Redes 1.md",
     "School/Advanced Application Developement/Clases/Clase 12.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
