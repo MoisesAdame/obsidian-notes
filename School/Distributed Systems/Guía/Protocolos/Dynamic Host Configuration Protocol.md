@@ -13,6 +13,10 @@ En la parte de **services** seleccionar :: DHCP
 #Q 
 Nos vamos a la interfaz donde está conectado el switch que tiene el server y ponemos :: `ip helper-address <server-ip>`
 
+### Configuración de Router como DHCP Server
+#Q 
+
+
 ## Flashcards
 ```aosr-deck-config
 {
