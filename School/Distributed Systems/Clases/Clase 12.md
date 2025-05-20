@@ -154,12 +154,12 @@ no shut
 exit
 
 ### R3
-interface ser0/1/0
+interface ser0/1/1
 ip address 10.0.0.6 255.255.255.252
 no shutdown
 exit
 
-interface ser0/1/1
+interface ser0/1/0
 ip address 10.0.0.10 255.255.255.252
 no shutdown
 exit
