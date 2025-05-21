@@ -104,6 +104,8 @@ ip address 10.21.52.132 255.255.255.224
 no shut
 exit
 
+
+
 **ETA**
 enable
 conf t
@@ -154,7 +156,7 @@ banner motd  ¡Advertencia! Solo personal autorizado.
 
 enable secret INTEGRA2023
 
-line vty 0-15
+line vty 0 15
 password REMOTO2020
 exit
 
@@ -169,6 +171,17 @@ interface gig0/0/1
 no shut
 exit
 
+interface gig0/0/1.100
+encapsulation dot1Q 100
+ip address 10.21.32.1 255.255.248.0
+no shut
+exit
+
+interface gig0/0/1.200
+encapsulation dot1Q 200
+ip address 10.21.16.1 255.255.240.0
+no shut
+exit
 
 ## Flashcards
 ```aosr-deck-config
