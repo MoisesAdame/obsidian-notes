@@ -197,8 +197,34 @@ network 10.21.16.0 0.0.15.255 area 0
 **TAU**
 router ospf 8
 network 10.21.52.176 0.0.0.7 area 0
-network 10.21.32.0 0.0.7.255 area 0
-network 10.21.16.0 0.0.15.255 area 0
+network 10.21.48.0 0.0.3.255 area 0
+network 10.21.44.0 0.0.3.255 area 0
+network 10.21.40.0 0.0.3.255 area 0
+
+vlan 70
+name VLAN-70
+exit
+
+vlan 80
+name VLAN-80
+exit
+
+vlan 90
+name VLAN-90
+exit
+
+interface vlan 70
+ip address 10.21.48.1 255.255.252.0
+exit
+
+interface vlan 80
+ip address 10.21.44.1 255.255.252.0
+exit
+
+interface vlan 90
+ip address 10.21.40.1 255.255.252.0
+exit
+
 
 ## Flashcards
 ```aosr-deck-config
