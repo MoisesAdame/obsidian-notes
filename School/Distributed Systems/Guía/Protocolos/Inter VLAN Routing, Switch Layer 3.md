@@ -71,29 +71,13 @@ switchport trunk encapsulation dot1q
 
 
 
-vlan 100
-name VLAN-100
-exit
-vlan 200
-name VLAN-200
-exit
+**GAMMA**
+enable
+conf t
 
+hostname GAMMA
 
-interface fa0/5
-switchport mode access
-switchport access vlan 70
-exit
-
-interface fa0/2
-switchport mode access
-switchport access vlan 80
-exit
-
-interface fa0/4
-switchport mode access
-switchport access vlan 90
-exit
-
+no ip 
 ## Flashcards
 ```aosr-deck-config
 {

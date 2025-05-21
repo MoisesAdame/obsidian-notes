@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -252,11 +252,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "475e0f0ecdeeee38",
+  "active": "a956570f6a210755",
   "lastOpenFiles": [
+    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
     "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Clases/Clase 12.md",
