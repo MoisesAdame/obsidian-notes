@@ -205,12 +205,12 @@ vlan 70
 name VLAN-70
 exit
 
-vlan 80
-name VLAN-80
+vlan 100
+name VLAN-100
 exit
 
-vlan 90
-name VLAN-90
+vlan 200
+name VLAN-200
 exit
 
 interface vlan 70
