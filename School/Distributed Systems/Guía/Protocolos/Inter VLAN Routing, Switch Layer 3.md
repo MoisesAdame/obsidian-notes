@@ -77,7 +77,33 @@ conf t
 
 hostname GAMMA
 
-no ip 
+no ip domain-lookup
+
+line console 0
+logging synchronus 
+password AREA 145
+exit
+
+banner motd  ¡Advertencia! Solo personal autorizado.
+
+enable secret INTEGRA2023
+
+line vty 0-15
+password REMOTO2020
+exit
+
+service encypted password
+
+interface gig0/0/1
+ip address 10.21.0.1 255.255.240.0
+no shut
+exit
+
+interface gig0/0/0
+ip address 10.21.52.132 255.255.255.224
+no shut
+exit
+
 ## Flashcards
 ```aosr-deck-config
 {

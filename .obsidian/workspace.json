@@ -101,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "0.0.0.0 0.0.0.0",
+                "query": "tag:#¡Advertenciatag:#¡Advertencia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,11 +122,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -254,9 +256,9 @@
   },
   "active": "a956570f6a210755",
   "lastOpenFiles": [
-    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
-    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
+    "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
     "School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Clases/Clase 12.md",
