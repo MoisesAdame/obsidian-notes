@@ -133,9 +133,43 @@ no shut
 exit
 
 interface gig0/0/1
-ip address 
+ip address 10.21.52.190 255.255.255.252
 no shut
 exit
+
+**SIGMA**
+enable
+conf t
+
+hostname ETA
+
+no ip domain-lookup
+
+line console 0
+logging synchronous 
+password AREA145
+exit
+
+banner motd  ¡Advertencia! Solo personal autorizado.
+
+enable secret INTEGRA2023
+
+line vty 0-15
+password REMOTO2020
+exit
+
+service encypted password
+
+interface gig0/0/0
+ip address 10.21.52.178 255.255.255.248
+no shut
+exit
+
+interface gig0/0/1
+no shut
+exit
+
+
 ## Flashcards
 ```aosr-deck-config
 {
