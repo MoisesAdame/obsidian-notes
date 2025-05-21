@@ -143,7 +143,7 @@ exit
 
 router ospf 8
 network 10.21.52.184 0.0.0.3 area 0
-network 10.21.52.184 0.0.0.3 area 0
+network 10.21.52.188 0.0.0.3 area 0
 
 **SIGMA**
 enable
