@@ -104,7 +104,9 @@ ip address 10.21.52.132 255.255.255.224
 no shut
 exit
 
-
+router ospf 8
+network 10.21.0.0 0.0.15.255 area 0
+network 10.21.52.128 0.0.0.31 area 0
 
 **ETA**
 enable
@@ -139,11 +141,15 @@ ip address 10.21.52.190 255.255.255.252
 no shut
 exit
 
+router ospf 8
+network 10.21.52.184 0.0.0.3 area 0
+network 10.21.52.184 0.0.0.3 area 0
+
 **SIGMA**
 enable
 conf t
 
-hostname ETA
+hostname SIGMA
 
 no ip domain-lookup
 
@@ -182,6 +188,17 @@ encapsulation dot1Q 200
 ip address 10.21.16.1 255.255.240.0
 no shut
 exit
+
+router ospf 8
+network 10.21.52.176 0.0.0.7 area 0
+network 10.21.32.0 0.0.7.255 area 0
+network 10.21.16.0 0.0.15.255 area 0
+
+**TAU**
+router ospf 8
+network 10.21.52.176 0.0.0.7 area 0
+network 10.21.32.0 0.0.7.255 area 0
+network 10.21.16.0 0.0.15.255 area 0
 
 ## Flashcards
 ```aosr-deck-config
