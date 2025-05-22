@@ -30,8 +30,21 @@ Date: 2025-05-22 : 12:01
 - The **gray hat hacker** does things... but not for... :: Unethical things, personal gain.
 - The **black hat hacker** they do... for... :: Unethical things, personal gain.
 
+#### 3.2.2 Evolution of Hackers
+#Q 
+- When and how did **hacking started** :: In the 1960's with phone phreaking.
+- **Script Kiddie** is an inexperiences hacker that uses :: Existing tools.
+- **Vulnerability Broker** they are usually... that discover... for a... :: Gray hat hackers, exploits, prize.
+- **Hacktivists** they are... hackers that protest by doing things like... :: Gray hat, leaking info.
+- **Cyber criminal** is any employed or self-employed :: Black hat hacker.
+- **State-Sponsored** are... or... hackers that target..., ... and... :: White, black, governments, terrorists, corporations.
 ### 3.3 Threat Actors Tools
-Value
+#### 3.3.1 Threat Actor Tools
+#Q 
+- 
+
+
+
 
 ### 3.4 Malware
 Value
