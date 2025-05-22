@@ -43,7 +43,17 @@ Date: 2025-05-22 : 12:01
 #Q 
 - One of the many Threat Actor Tools is :: Pen Testing Tools.
 - We have many pen-testing tools such as :: Password crackers, packet sniffers.
-- 
+
+#### 3.3.2 Introduction to Attack Tools
+#Q 
+- Over the years **attack tools** have augmented their... but **technical knowledge** has... :: Complexity, decreased.
+
+#### 3.3.3 Evolution of Security Tools
+#Q 
+- Penetration testing tools help to... if a system is... :: Validate, secure
+- **Password crackers** help to :: Crack and recover passwords.
+- **Wireless Hacking Tools** are used to hack into a :: Wireless Network.
+- **Packet Crafting Tools** are used to forge... and use them to test... :: Packets, firewalls.
 
 
 
