@@ -13,10 +13,22 @@ Date: 2025-05-22 : 12:01
 
 #### 3.1.2 Vectors of Network Attacks
 #Q 
+- **Attack Vector** is the path by which a... can gain... to a server, network, etc. :: Threat actor, access.
+- **Attack Vectors** can come from... or... :: Inside, outside of the organization.
+- Internal threats can cause **more damage** than :: External ones.
 
+#### 3.1.3 Data Loss
+#Q 
+- **Data Loss** is when an organization's data is :: Lost, stolen or leaked.
+- Data loss can **cause** damage of the..., loss of... actions regarding... :: Reputation, competitive advantage or customers, law.
+- Some **data loss vectors** are :: Unencrypted devices, Email/Social Networking, Cloud Storage Devices, Removable Media (USB), Hard Copy (Destroy no longer needed info), Improper Access Control (passwords)
 
 ### 3.2 Threat Actors
-Value
+#### 3.2.1 The Hacker
+#Q 
+- The **white hat hacker** uses their skills for :: Legal, ethical purposes.
+- The **gray hat hacker** does things... but not for... :: Unethical things, personal gain.
+- The **black hat hacker** they do... for... :: Unethical things, personal gain.
 
 ### 3.3 Threat Actors Tools
 Value
