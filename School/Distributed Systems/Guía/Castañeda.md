@@ -54,6 +54,13 @@ Date: 2025-05-22 : 12:01
 - **Password crackers** help to :: Crack and recover passwords.
 - **Wireless Hacking Tools** are used to hack into a :: Wireless Network.
 - **Packet Crafting Tools** are used to forge... and use them to test... :: Packets, firewalls.
+- **Vulnerability Exploitation Tools** help... if a remote host is vulnerable to a security attack :: Identify.
+
+#### 3.3.4 Attack Types
+#Q 
+- **Eavesdropping Attack** is when the threat actor... to the network traffic, it is also called... :: Listens, sniffing.
+- **Denial of Service Attacks** can... networks until a shutdown occurs :: Flood.
+- 
 
 
 
