@@ -41,6 +41,8 @@ Date: 2025-05-22 : 12:01
 ### 3.3 Threat Actors Tools
 #### 3.3.1 Threat Actor Tools
 #Q 
+- One of the many Threat Actor Tools is :: Pen Testing Tools.
+- We have many pen-testing tools such as :: Password crackers, packet sniffers.
 - 
 
 
