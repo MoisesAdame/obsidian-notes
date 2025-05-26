@@ -60,13 +60,13 @@ Date: 2025-05-22 : 12:01
 #Q 
 - **Eavesdropping Attack** is when the threat actor... to the network traffic, it is also called... :: Listens, sniffing.
 - **Denial of Service Attacks** can... networks until a shutdown occurs :: Flood.
-- 
-
-
-
 
 ### 3.4 Malware
-Value
+#Q 
+- Viirus necesita accion humana
+- Trojano es programa que parece bueno, pero trae algo malo.
+- Ransomware :: Encriopta tu info
+- Rootkit :: Gana privilengios de administrador
 
 ### 3.5 Common Network Attacks
 Value
