@@ -141,9 +141,16 @@ Date: 2025-05-22 : 12:01
 #Q
 - Su función es traducir de direcciones :: Privadas a públicas.
 - Los **4 términos** de NAT son :: Inside Local, Inside Global, Outside Local y Outside Global.
+- Diferencia entre **Inside y Outside** :: Inside es address que es traducido por NAT y outside es destino.
+- Diferencia entre **Local y Global** :: Local es dentro de red y Gloabl fuera de la red.
 
 ### 6.2 Types of NAT
 #Q
+- NAT estático es configurado :: 1 a 1 por administrador.
+- NAT dinámico usa una :: Pool de direcciones públicas.
+- PAT significa... y funciona... :: Port Address Translation, para varios IPv4 privados da solo un IPv4 pero para cada sesión usa diferentes puertos TCP
+- Si en algun punto en PAT los puertos coinciden, el segundo usa :: El puerto + 1.
+
 
 ### 6.3 NAT Advantages and Disadvantages
 #Q
