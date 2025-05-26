@@ -151,15 +151,18 @@ Date: 2025-05-22 : 12:01
 - PAT significa... y funciona... :: Port Address Translation, para varios IPv4 privados da solo un IPv4 pero para cada sesión usa diferentes puertos TCP
 - Si en algun punto en PAT los puertos coinciden, el segundo usa :: El puerto + 1.
 
-
 ### 6.3 NAT Advantages and Disadvantages
 #Q
-
+- Una desventaja es que toma tiempo :: Por lo que cosas como UDP se hacen mas lentas.
 ### 6.4 Static NAT
 #Q
+- Set inside local to inside global :: `ip nat inside source static 192.168.10.254 209.165.201.5`
+- Set interface as inside or outside :: `ip nat inside`
+- Algunos comandos de verificación son :: `show ip nat translations` o `show ip nat statistics`.
 
 ### 6.5 Dynamic NAT
 #Q
+- 
 
 ### 6.6 PAT
 #Q
