@@ -119,15 +119,21 @@ Date: 2025-05-22 : 12:01
 ### 4.2 Wildcard Masks in ACL's
 #Q
 - La wildcard mask es usada por el ACE para ver que bits :: Analizar.
-- Cuando el valor es 1 en la wildcard mask :: Se ignora.
+- Cuando el valor es 1 en la wildcard mask :: Se ignora
+- En cisco hay dos keywords que son :: `host` y `any`
+- Configura una access list para el host `192.168.10.10` :: `access-list 10 permit host 192.168.10.10`
+- Configura una access list que haga lo mismo que la siguiente `access-list 11 permit 0.0.0.0 255.255.255.255` :: `access-list 11 permit any`.
 
 ### 4.3 Guidelines for ACL Creation
 #Q
-Here
+- Cada interfaz de router solo puede tener :: **4 ACL's**, 2 de IPv4 y 2 de IPv6 (entrada y salida).
 
 ### Types of IPv4 ACL's
 #Q
-Here
+- Los dos tipos de ACLs son :: Standard y Extended (estas filtran layer 4 también).
+- Hay dos formas de definir una ACL :: **Por número** (1-99 son estándar y 100-199 son extendidas) o **por nombre**.
+- Para definir access list con nombre :: `ip access-list [standard | extended] <acl-name>`
+- Generalmente las **ACL's standard** se ponen lo más cerca de :: 
 
 ## Flashcards
 ```aosr-deck-config
