@@ -105,7 +105,26 @@ Date: 2025-05-22 : 12:01
 
 ### 3.10 Cryptography
 #Q 
-- 
+- Symmetric Encryption usa para encriptar y decriptar :: La misma llave.
+- Assymmetric Encryption usa para encriptar y decriptar :: Diferentes llaves.
+
+## Module 4: ACL Concepts
+### 4.1 Purpose of ACL's
+#Q
+Here
+
+### 4.2 Wildcard Masks in ACL's
+#Q
+Here
+
+### 4.3 Guidelines for ACL Creation
+#Q
+Here
+
+### Types of IPv4 ACL's
+#Q
+Here
+
 ## Flashcards
 ```aosr-deck-config
 {
