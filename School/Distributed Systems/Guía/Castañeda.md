@@ -128,7 +128,7 @@ Date: 2025-05-22 : 12:01
 #Q
 - Cada interfaz de router solo puede tener :: **4 ACL's**, 2 de IPv4 y 2 de IPv6 (entrada y salida).
 
-### Types of IPv4 ACL's
+### 4.4 Types of IPv4 ACL's
 #Q
 - Los dos tipos de ACLs son :: Standard y Extended (estas filtran layer 4 también).
 - Hay dos formas de definir una ACL :: **Por número** (1-99 son estándar y 100-199 son extendidas) o **por nombre**.
@@ -137,7 +137,30 @@ Date: 2025-05-22 : 12:01
 - Las **ACL's extended** se ponen lo más cerca de :: Fuente.
 
 ## Module 6: NAT for IPv4
+### 6.1 NAT Characteristics
+#Q
+- Su función es traducir de direcciones :: Privadas a públicas.
+- Los **4 términos** de NAT son :: Inside Local, Inside Global, Outside Local y Outside Global.
 
+### 6.2 Types of NAT
+#Q
+
+### 6.3 NAT Advantages and Disadvantages
+#Q
+
+### 6.4 Static NAT
+#Q
+
+### 6.5 Dynamic NAT
+#Q
+
+### 6.6 PAT
+#Q
+- 
+
+### 6.7 NAT64
+#Q
+- 
 ## Flashcards
 ```aosr-deck-config
 {
