@@ -90,14 +90,22 @@ Date: 2025-05-22 : 12:01
 
 ### 3.8 IP Services
 #Q 
-
+- El ARP sirve para :: Saber el MAC de un dispositivo con una MAC dada.
+- ARP Cache Poisoning sirve para hacer :: Ataques de Man In The Middle.
+- DNS Attacks :: Hay **DNS Open Resolver** que es usar un DNS público, **DNS Domain Shadowing Attacks** Crea subdominios maliciosos
+- DHCP Attacks :: Es cuando un servidor DHCP falso se pone y da información falsa (como un gateway falso)
 
 ### 3.9 Network Security Best Practices
-Value
+#Q 
+- Recordar el Triangulo **CIA** :: Confidencialidad, Integridad y Availability
+- Firewalls hacen que las políticas de control de acceso :: Se cumpla.
+- AAA Server tiene una base de datos que dice quien :: Puede administar la red.
+- ESA siginifica... y sirve para... :: Email Security Appliance, filtrar email.
+- IPS monitorea la red buscando :: Malware.
 
 ### 3.10 Cryptography
-Value
-
+#Q 
+- 
 ## Flashcards
 ```aosr-deck-config
 {
