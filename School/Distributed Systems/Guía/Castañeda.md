@@ -156,17 +156,21 @@ Date: 2025-05-22 : 12:01
 - Una desventaja es que toma tiempo :: Por lo que cosas como UDP se hacen mas lentas.
 ### 6.4 Static NAT
 #Q
-- Set inside local to inside global :: `ip nat inside source static 192.168.10.254 209.165.201.5`
-- Set interface as inside or outside :: `ip nat inside`
-- Algunos comandos de verificación son :: `show ip nat translations` o `show ip nat statistics`.
+- Set inside local to inside global :: `ip nat inside source static <inside-local-ip> <inside-gloabl-ip>`
+- Set interface as inside or outside :: `ip nat [inside | outside]`
+- Algunos comandos de verificación son :: `show ip nat translations` o `show ip nat statistics`
 
 ### 6.5 Dynamic NAT
 #Q
-- 
+- Se crea pool de IP's públicas :: `ip nat pool <pool-name> <lower-ip> <higher-ip> netmask <mask>`
+- Se crea ACL de permiso para redes locales :: `access-list <acl-number> <network-ip> <wirldcard>`
+- Se une ACL y NAT pool :: `ip nat inside source list <acl-number> pool <pool-name>`
+- Set interface as inside or outside :: `ip nat [inside | outside]`
 
 ### 6.6 PAT
 #Q
-- 
+- Se define la interfaz overload :: `ip nat inside source list <acl-number> interface serial 0/1/1 overload`
+- Se crea access list :: `access-list <acl-number> <network-ip> <wirldcard>`
 
 ### 6.7 NAT64
 #Q
