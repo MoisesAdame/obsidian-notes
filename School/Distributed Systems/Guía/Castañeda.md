@@ -174,6 +174,8 @@ Date: 2025-05-22 : 12:01
 
 ### 6.7 NAT64
 #Q
+- NTA64 es el protocolo de NAT para :: IPv6.
+- Mas que nada sirve para habilitar comunicación entre :: IPv4 e IPv6.
 - 
 ## Flashcards
 ```aosr-deck-config
