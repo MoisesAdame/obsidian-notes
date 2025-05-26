@@ -133,7 +133,8 @@ Date: 2025-05-22 : 12:01
 - Los dos tipos de ACLs son :: Standard y Extended (estas filtran layer 4 también).
 - Hay dos formas de definir una ACL :: **Por número** (1-99 son estándar y 100-199 son extendidas) o **por nombre**.
 - Para definir access list con nombre :: `ip access-list [standard | extended] <acl-name>`
-- Generalmente las **ACL's standard** se ponen lo más cerca de :: 
+- Las **ACL's standard** se ponen lo más cerca de :: Destino
+- Las **ACL's extended** se ponen lo más cerca de :: Fuente.
 
 ## Flashcards
 ```aosr-deck-config
