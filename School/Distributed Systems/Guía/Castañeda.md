@@ -111,11 +111,15 @@ Date: 2025-05-22 : 12:01
 ## Module 4: ACL Concepts
 ### 4.1 Purpose of ACL's
 #Q
-Here
+- Su función es filtrar :: Paquetes según su **header**.
+- Hay dos tipos de ACL's :: Standard (filtra layer 3) y extendida (filtra layer 3 y 4).
+- Las ACL's se pueden aplicar para el :: Tráfico que entra y el que sale.
+- Para configurar las ACL's se necesitan :: Access Control Entries (ACE's)
 
 ### 4.2 Wildcard Masks in ACL's
 #Q
-Here
+- La wildcard mask es usada por el ACE para ver que bits :: Analizar.
+- Cuando el valor es 1 en la wildcard mask :: Se ignora.
 
 ### 4.3 Guidelines for ACL Creation
 #Q
