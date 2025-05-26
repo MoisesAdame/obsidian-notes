@@ -78,13 +78,19 @@ Date: 2025-05-22 : 12:01
 ### 3.6 IP Vulnerabilities & Threats
 #Q 
 - Los ataques ICMP :: Pueden servir de reconocimiento
-- Amp
+- Amplification and Reflection Attacks :: Are used to create DoS Attacks.
+- Address Spoofing  Attacks :: Falsificar IP de los paquetes
 
 ### 3.7 TCP and UDP Vulnerabilities
-Value
+#Q 
+- TCP SYN Flood Attack :: El atacante abre varias sesiones TCP pero nunca responde en el handsahke por lo que a usuarios verdaderos el servidor les niega servicio.
+- TCP Reset Attack :: Terminar de forma abrupta la sesión TCP.
+- TCP Session Hijacking :: Le robas la sesión TCP a alguien.
+- UDP Flood Attack :: Crea mucho tráfico y provoca lo mismo que un DoS.
 
 ### 3.8 IP Services
-Value
+#Q 
+
 
 ### 3.9 Network Security Best Practices
 Value
