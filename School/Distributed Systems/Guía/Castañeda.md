@@ -176,7 +176,45 @@ Date: 2025-05-22 : 12:01
 #Q
 - NTA64 es el protocolo de NAT para :: IPv6.
 - Mas que nada sirve para habilitar comunicación entre :: IPv4 e IPv6.
-- 
+
+## VPN and IPSEC Concepts
+### VPN Technology
+#### Virtual Private Networks
+#Q 
+- Se dice que es **virtual** porque transporta información de redes... a través de redes... :: Privadas, públicas.
+- Se dice que es **privada** porque los datos son :: Encriptados.
+- Tiene varios **beneficios** como que :: Reduce costos, da seguridad, escalabilidad
+
+#### Site-To-Site & Remote Access VPN's
+#Q
+- Las **site-to-site** terminan en las..., los hosts internos no saben que... :: VPN Gateways, se está usando una VPN.
+- Las **remote access** se crean de forma dinámica para establecer conexión segura entre... y... :: Cliente, equipo terminal de VPN.
+
+#### Enterprise & Service Provider VPN's
+#Q 
+- Las **enterprise VPN's** son creadas y administradas por... y usan... :: La empresa, IPsec y SSL.
+- Las **service provider VPN's** son creadas y administradas por el... para crear canales seguros utiliza.... ya sea de capa... o capa... :: Proveedor de red, Multiprotocol Label Switching (MPLS), 2, 3.
+
+### Types of VPN's
+#### Remote Access VPN's
+#Q 
+- Permiten que **usuarios remotos** se conecten de forma segura a :: Red de empresa.
+- Hay de **2 tipos** :: Client-based y clientless VPN's.
+- La **clientless VPN** es la que se puede acceder desde un... mientras que la **client-based VPN** necesitas... :: Navegador, descargar un software.
+
+#### SSL VPN's
+#Q 
+- Este tipo de vpn usa infraestructura de llave... y... para la **autenticación** :: Pública, ceritificados.
+- En general tiene menos ventajas que... pero su gran punto a favor es que con que tengas un... puedes conectarte a la VPN :: IPsec, navegador web.
+
+#### Site-To-Site IPsec VPN's
+#Q 
+- Diagrama :: ![[redes2-fig11.png | 450]]
+- La información es **encapsulada** por uno de los... y se manda a través del... al sitio destino :: VPN Gateway's, VPN Tunnel.
+
+### Configuración
+Visitar [[Site-To-Site VPN]]
+
 ## Flashcards
 ```aosr-deck-config
 {
