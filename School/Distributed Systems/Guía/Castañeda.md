@@ -69,10 +69,16 @@ Date: 2025-05-22 : 12:01
 - Rootkit :: Gana privilengios de administrador
 
 ### 3.5 Common Network Attacks
-Value
+#Q 
+- Ataques de reconocimiento :: Son para obtener info de donde hay vulnerabilidades.
+- Ataques de acceso :: Buscan ganar **acceso** a las cuentas. (Hay de password y de spoofing que es falsificar los paquetes)
+- Ataques de Ingeniería Social :: Manipular individuos para divulgar info.
+- Denial of Service Attack :: Interrumpe la red de dos formas (mucho tráfico o paquetes con un formato malicioso).
 
 ### 3.6 IP Vulnerabilities & Threats
-Value
+#Q 
+- Los ataques ICMP :: Pueden servir de reconocimiento
+- Amp
 
 ### 3.7 TCP and UDP Vulnerabilities
 Value
