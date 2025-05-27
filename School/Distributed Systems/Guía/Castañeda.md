@@ -223,7 +223,13 @@ Date: 2025-05-22 : 12:01
 - Es un **standard** que se encarga de... desde la layer... hasta la... :: Autenticar, 4, 7.
 - Tiene **4 funciones** que son :: Confidencialidad (encripta), Integridad (Usa hash), Authentication (Usa IKE) y Diffie-Hellman (intercambio de llaves).
 - El Protocolo de Encapsulación puede ser 2 :: Authentication Header (AH) o Encapsulation Security Protocol (ESP)
-- La confidencialidad se logra mediante la... de los datos y solo es posible si nuestra encapsulación es :: Encriptación, ESP.
+- La **confidencialidad** se logra mediante la... de los datos y solo es posible si nuestra encapsulación es :: Encriptación, ESP.
+- La **integridad** busca que los datos que recibimos son los mismos que los... :: Enviados
+- En la **autenticación** tenemos dos opciones :: PSK (preshared key) o RSA (que usa certificados digitales)
+- **Diffie-Hellman** nos da un método para compartir llaves a través de un medio :: Público
+- Los grupos diffie hellman que hay son 9 y se dividen en 3 :: 1, 2, y 5; 14, 25 y 16; 9, 20, 21
+
+![[Screenshot 2025-05-26 at 6.25.07 p.m..png]]
 
 ### Configuración
 Visitar [[Site-To-Site VPN]]
