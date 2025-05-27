@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Castañeda.md",
+                "file": "School/Distributed Systems/Reto/Casos de Uso.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Castañeda"
+              "title": "Casos de Uso"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Redes 2.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Redes 2"
+              "title": "Open Shortest Path First"
             }
           }
         ],
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "95b68c78992406e7",
@@ -224,10 +223,12 @@
   },
   "active": "9439399624e7777a",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
-    "School/Distributed Systems/Guía/Redes 2.md",
-    "School/Distributed Systems/Guía/Castañeda.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Redes 2.md",
+    "School/Distributed Systems/Reto/Casos de Uso.md",
+    "School/Distributed Systems/Guía/Castañeda.md",
+    "School/Distributed Systems/Reto",
+    "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
     "School/Advanced Application Developement/Guía/Probabilidad.md",
     "School/Distributed Systems/Clases/Clase 12.md",
     "School/Distributed Systems/Clases/Cheat Sheet Quiz Molina.md",
@@ -263,13 +264,11 @@
     "School/Distributed Systems/Guía/Assets/redes2-fig5.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
-    "School/Distributed Systems/Guía/Assets/redes2-fig9.png",
     "Work/住宿选项",
     "Work",
     "School/Distributed Systems/Guía/Assets",
     "School/Distributed Systems/Guía/Protocolos",
     "School/Distributed Systems/Guía",
-    "export/Slides Variables/Archive.zip",
     "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
