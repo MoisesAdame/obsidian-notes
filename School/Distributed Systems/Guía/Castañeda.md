@@ -212,6 +212,19 @@ Date: 2025-05-22 : 12:01
 - Diagrama :: ![[redes2-fig11.png | 450]]
 - La información es **encapsulada** por uno de los... y se manda a través del... al sitio destino :: VPN Gateway's, VPN Tunnel.
 
+#### Additional Info
+#Q 
+- GRE significa... y es un protocolo de tunelado el cual por defecto no esta... :: Generic Routing Encapsulation, encriptado
+- Las **Dynamic Multipoint VPN's (DMVPNS)** sirven para hacer mas fácil la configuración del VPN con un :: Sitio Central.
+- El **IPsec Virtual Tunnel Interface (IPsec VTI)** la configuración se aplica a interfaz... y no es necesario configurar... :: Virtual, GRE.
+
+### IPsec
+#Q 
+- Es un **standard** que se encarga de... desde la layer... hasta la... :: Autenticar, 4, 7.
+- Tiene **4 funciones** que son :: Confidencialidad (encripta), Integridad (Usa hash), Authentication (Usa IKE) y Diffie-Hellman (intercambio de llaves).
+- El Protocolo de Encapsulación puede ser 2 :: Authentication Header (AH) o Encapsulation Security Protocol (ESP)
+- La confidencialidad se logra mediante la... de los datos y solo es posible si nuestra encapsulación es :: Encriptación, ESP.
+
 ### Configuración
 Visitar [[Site-To-Site VPN]]
 
