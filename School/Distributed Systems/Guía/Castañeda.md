@@ -131,7 +131,7 @@ Date: 2025-05-22 : 12:01
 
 ### 4.4 Types of IPv4 ACL's
 #Q
-- Los dos tipos de ACLs son :: Standard y Extended (estas filtran layer 4 también).
+- Los dos tipos de ACLs son :: Standard y Extended (estas últimas  filtran layer 4 también).
 - Hay dos formas de definir una ACL :: **Por número** (1-99 son estándar y 100-199 son extendidas) o **por nombre**.
 - Para definir access list con nombre :: `ip access-list [standard | extended] <acl-name>`
 - Las **ACL's standard** se ponen lo más cerca de :: Destino
@@ -155,6 +155,7 @@ Date: 2025-05-22 : 12:01
 ### 6.3 NAT Advantages and Disadvantages
 #Q
 - Una desventaja es que toma tiempo :: Por lo que cosas como UDP se hacen mas lentas.
+
 ### 6.4 Static NAT
 #Q
 - Set inside local to inside global :: `ip nat inside source static <inside-local-ip> <inside-gloabl-ip>`
