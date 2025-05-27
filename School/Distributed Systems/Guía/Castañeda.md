@@ -7,7 +7,7 @@ Date: 2025-05-22 : 12:01
 ### 3.1 Current State of Cybersecurity
 #### 3.1.1 Current State of Affairs
 #Q 
-- **Asset** is anything from the organization that has :: Values-
+- **Asset** is anything from the organization that has :: Values
 - **Vulnerability** is a point in a system that is :: Weak.
 - **Exploit** is taking advantage of a :: Vulnerability.
 
@@ -38,10 +38,11 @@ Date: 2025-05-22 : 12:01
 - **Hacktivists** they are... hackers that protest by doing things like... :: Gray hat, leaking info.
 - **Cyber criminal** is any employed or self-employed :: Black hat hacker.
 - **State-Sponsored** are... or... hackers that target..., ... and... :: White, black, governments, terrorists, corporations.
+
 ### 3.3 Threat Actors Tools
 #### 3.3.1 Threat Actor Tools
 #Q 
-- One of the many Threat Actor Tools is :: Pen Testing Tools.
+- One of the many Threat Actor Tools are :: Pen Testing Tools.
 - We have many pen-testing tools such as :: Password crackers, packet sniffers.
 
 #### 3.3.2 Introduction to Attack Tools
