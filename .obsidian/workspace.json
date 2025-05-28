@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Reto/Casos de Uso.md",
+                "file": "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Casos de Uso"
+              "title": "Spanning Tree Protocol"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+                "file": "School/Distributed Systems/Guía/Castañeda.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Open Shortest Path First"
+              "title": "Castañeda"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Distributed Systems/Reto/Casos de Uso.md",
+                "file": "School/Distributed Systems/Guía/Castañeda.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Casos de Uso"
+              "title": "Castañeda"
             }
           }
         ],
@@ -239,9 +239,10 @@
   },
   "active": "4947850b4045149a",
   "lastOpenFiles": [
+    "School/Distributed Systems/Reto/Casos de Uso.md",
+    "School/Casos de Uso.md",
     "School/Distributed Systems/Guía/Castañeda.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-    "School/Distributed Systems/Reto/Casos de Uso.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
     "School/Distributed Systems/Guía/Redes 2.md",
@@ -275,7 +276,6 @@
     "Masters/Introduction to Compilers and Modern Design/Assets",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-1.png",
     "Masters/Introduction to Compilers and Modern Design",
-    "Technologies/Design Patterns/Behavioral/Untitled 1.md",
     "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig5.png",
     "School/Distributed Systems/Guía/Assets/redes2-fig10.png",
