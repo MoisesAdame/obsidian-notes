@@ -130,16 +130,19 @@ interface serial0/1/1
 ip address 10.0.0.4 255.255.255.252
 no shut
 
+router ospf 10
+router-id 1.1.1.1
+network 172.16.0.0 255.255.254.0 area 0
+network 172.16.2.0 255.255.254.0 area 0
+network 172.16.4.0 255.255.254.0 area 0
+network 172.16.6.0 255.255.255.128 area 0
+network 172.16.6.128 255.255.255.192 area 0
+
 router bgp 10
 synchronization
-network 10.0.0.0 mask 255.255.255.252
-network 172.16.0.0 mask 255.255.254.0
-network 172.16.2.0 mask 255.255.254.0
-network 172.16.4.0 mask 255.255.254.0
-network 172.16.6.0 mask 255.255.255.128
-network 172.16.6.128 mask 255.255.255.192
 redistribute connected
 neighbor 10.0.0.2 remote-as 20
+neighbor 10.0.0.6 remote-as 30
 
 ## MTY
 ### S-MTY
@@ -275,13 +278,15 @@ no shut
 
 router bgp 20
 synchronization
-network 10.0.0.0 mask 255.255.255.252
-network 172.17.0.0 mask 255.255.254.0
-network 172.17.2.0 mask 255.255.254.0
-network 172.17.4.0 mask 255.255.254.0
-network 172.17.6.0 mask 255.255.255.128
-network 172.17.6.128 mask 255.255.255.192
 redistribute connected
 neighbor 10.0.0.1 remote-as 10
+neighbor 10.0.0.10 remote-as 30
 
+router ospf 10
+router-id 2.2.2.2
+network 172.17.0.0 255.255.254.0 area 0
+network 172.17.2.0 255.255.254.0 area 0
+network 172.17.4.0 255.255.254.0 area 0
+network 172.17.6.0 255.255.255.128 area 0
+network 172.17.6.128 255.255.255.192 area 0
 
