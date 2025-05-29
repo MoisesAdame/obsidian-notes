@@ -140,7 +140,6 @@ network 172.16.6.0 mask 255.255.255.128
 network 172.16.6.128 mask 255.255.255.192
 redistribute connected
 neighbor 10.0.0.2 remote-as 20
-neighbor 10.0.0.6 remote-as 30
 
 ## MTY
 ### S-MTY
@@ -284,6 +283,5 @@ network 172.17.6.0 mask 255.255.255.128
 network 172.17.6.128 mask 255.255.255.192
 redistribute connected
 neighbor 10.0.0.1 remote-as 10
-neighbor 10.0.0.10 remote-as 30
 
 
