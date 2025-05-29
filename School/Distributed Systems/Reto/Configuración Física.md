@@ -95,31 +95,31 @@ exit
 interface gig0/0/0.10
 encapsulation dot1Q 10
 ip address 172.16.1.254 255.255.254.0
-ip access-group 10 out
+! ip access-group 10 out
 no shut
 
 interface gig0/0/0.20
 encapsulation dot1Q 20
 ip address 172.16.3.254 255.255.254.0
-ip access-group 20 out
+! ip access-group 20 out
 no shut
 
 interface gig0/0/0.30
 encapsulation dot1Q 30
 ip address 172.16.5.254 255.255.254.0
-ip access-group 30 out
+! ip access-group 30 out
 no shut
 
 interface gig0/0/0.40
 encapsulation dot1Q 40
 ip address 172.16.6.126 255.255.255.128
-ip access-group 40 out
+! ip access-group 40 out
 no shut
 
 interface gig0/0/0.99
 encapsulation dot1Q 99
 ip address 172.16.6.190 255.255.255.192
-ip access-group 50 out
+! ip access-group 50 out
 no shut
 
 interface serial0/1/0
@@ -133,6 +133,11 @@ no shut
 router bgp 10
 neighbor 10.0.0.2 remote-as 20
 neighbor 10.0.0.6 remote-as 30
+network 172.16.0.0 mask 255.255.254.0
+network 172.16.2.0 mask 255.255.254.0
+network 172.16.4.0 mask 255.255.254.0
+network 172.16.6.0 mask 255.255.255.128
+network 172.16.6.128 mask 255.255.255.192
 redistribute connected
 
 ## MTY
@@ -232,31 +237,31 @@ exit
 interface gig0/0/0.10
 encapsulation dot1Q 10
 ip address 172.17.1.254 255.255.254.0
-ip access-group 10 out
+! ip access-group 10 out
 no shut
 
 interface gig0/0/0.20
 encapsulation dot1Q 20
 ip address 172.17.3.254 255.255.254.0
-ip access-group 20 out
+! ip access-group 20 out
 no shut
 
 interface gig0/0/0.30
 encapsulation dot1Q 30
 ip address 172.17.5.254 255.255.254.0
-ip access-group 30 out
+! ip access-group 30 out
 no shut
 
 interface gig0/0/0.40
 encapsulation dot1Q 40
 ip address 172.17.6.126 255.255.255.128
-ip access-group 40 out
+! ip access-group 40 out
 no shut
 
 interface gig0/0/0.99
 encapsulation dot1Q 99
 ip address 172.17.6.190 255.255.255.192
-ip access-group 50 out
+! ip access-group 50 out
 no shut
 
 interface serial0/1/1
@@ -270,6 +275,11 @@ no shut
 router bgp 20
 neighbor 10.0.0.1 remote-as 10
 neighbor 10.0.0.10 remote-as 30
-
+network 172.17.0.0 mask 255.255.254.0
+network 172.17.2.0 mask 255.255.254.0
+network 172.17.4.0 mask 255.255.254.0
+network 172.17.6.0 mask 255.255.255.128
+network 172.17.6.128 mask 255.255.255.192
+redistribute connected
 
 
