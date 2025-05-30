@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -253,10 +253,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a4de49238c38f892",
+  "active": "a393622b7d8ed187",
   "lastOpenFiles": [
-    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
+    "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Reto/Casos de Uso.md",
     "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
