@@ -130,6 +130,10 @@ interface serial0/1/1
 ip address 10.0.0.4 255.255.255.252
 no shut
 
+interface gig0/0/1
+ip address 10.0.0.13 255.255.255.252
+no shut
+
 router ospf 10
 router-id 1.1.1.1
 network 172.16.0.0 255.255.254.0 area 0
@@ -143,6 +147,7 @@ synchronization
 redistribute connected
 neighbor 10.0.0.2 remote-as 20
 neighbor 10.0.0.6 remote-as 30
+neighbor 10.0.0.14 remote-as 100
 exit
 
 ip dhcp excluded-address 172.16.1.250 172.16.1.254
@@ -313,11 +318,16 @@ interface serial0/1/1
 ip address 10.0.0.9 255.255.255.252
 no shut
 
+interface gig0/0/1
+ip address 10.0.0.17 255.255.255.252
+no shut
+
 router bgp 20
 synchronization
 redistribute connected
 neighbor 10.0.0.1 remote-as 10
 neighbor 10.0.0.10 remote-as 30
+neighbor 10.0.0.14 remote-as 100
 
 router ospf 10
 router-id 2.2.2.2
@@ -360,7 +370,7 @@ exit
 
 ip dhcp pool VLAN99
 network 172.17.6.128 255.255.255.192
-default-router 172.16.6.190
+default-router 172.17.6.190
 dns-server 192.168.0.1
 exit
 
@@ -496,6 +506,10 @@ interface serial0/1/1
 ip address 10.0.0.10 255.255.255.252
 no shut
 
+interface gig0/0/1
+ip address 10.0.0.121 255.255.255.252
+no shut
+
 router ospf 10
 router-id 3.3.3.3
 network 172.18.0.0 255.255.254.0 area 0
@@ -542,7 +556,7 @@ dns-server 192.168.0.1
 exit
 
 ip dhcp pool VLAN99
-network 172.17.6.128 255.255.255.192
-default-router 172.16.6.190
+network 172.18.6.128 255.255.255.192
+default-router 172.18.6.190
 dns-server 192.168.0.1
 exit
