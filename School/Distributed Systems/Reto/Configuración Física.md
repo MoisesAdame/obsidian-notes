@@ -327,7 +327,8 @@ synchronization
 redistribute connected
 neighbor 10.0.0.1 remote-as 10
 neighbor 10.0.0.10 remote-as 30
-neighbor 10.0.0.14 remote-as 100
+neighbor 10.0.0.18 remote-as 100
+exit
 
 router ospf 10
 router-id 2.2.2.2
@@ -507,7 +508,7 @@ ip address 10.0.0.10 255.255.255.252
 no shut
 
 interface gig0/0/1
-ip address 10.0.0.121 255.255.255.252
+ip address 10.0.0.21 255.255.255.252
 no shut
 
 router ospf 10
@@ -523,6 +524,7 @@ synchronization
 redistribute connected
 neighbor 10.0.0.4 remote-as 10
 neighbor 10.0.0.9 remote-as 20
+neighbor 10.0.0.22 remote-as 100
 exit
 
 ip dhcp excluded-address 172.18.1.250 172.16.1.254
@@ -560,3 +562,46 @@ network 172.18.6.128 255.255.255.192
 default-router 172.18.6.190
 dns-server 192.168.0.1
 exit
+
+## ISP
+### R-ISP
+enable
+conf t
+
+hostname R-ISP
+
+interface gig0/0/0
+ip address 10.0.0.14 255.255.255.252
+no shut
+exit
+
+interface gig0/0/1
+ip address 10.0.0.18 255.255.255.252
+no shut
+exit
+
+interface gig0/0/1
+ip address 10.0.0.22 255.255.255.252
+no shut
+exit
+
+interface gig0/1/1
+ip address 192.168.0.254 255.255.255.0
+no shut
+exit
+
+router ospf 10
+router-id 4.4.4.4
+network 192.168.0.0 255.255.255.0
+exit
+
+router bgp 100
+synchronization
+redistribute connected
+neighbor 10.0.0.13 remote-as 10
+neighbor 10.0.0.17 remote-as 20
+neighbor 10.0.0.21 remote-as 30
+exit
+
+
+
