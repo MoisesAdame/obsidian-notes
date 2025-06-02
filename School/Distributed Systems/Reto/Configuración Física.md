@@ -143,6 +143,43 @@ synchronization
 redistribute connected
 neighbor 10.0.0.2 remote-as 20
 neighbor 10.0.0.6 remote-as 30
+exit
+
+ip dhcp excluded-address 172.16.1.250 172.16.1.254
+ip dhcp excluded-address 172.16.3.250 172.16.3.254
+ip dhcp excluded-address 172.16.5.250 172.16.5.254
+ip dhcp excluded-address 172.16.6.123 172.16.6.126
+ip dhcp excluded-address 172.16.6.185 172.16.6.190
+
+ip dhcp pool VLAN10
+network 172.16.0.0 255.255.254.0
+default-router 172.16.1.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN20
+network 172.16.2.0 255.255.254.0
+default-router 172.16.3.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN30
+network 172.16.4.0 255.255.254.0
+default-router 172.16.5.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN40
+network 172.16.6.0 255.255.255.128
+default-router 172.16.6.126
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN99
+network 172.16.6.128 255.255.255.192
+default-router 172.16.6.190
+dns-server 192.168.0.1
+exit
 
 ## MTY
 ### S-MTY
@@ -289,6 +326,43 @@ network 172.17.2.0 255.255.254.0 area 0
 network 172.17.4.0 255.255.254.0 area 0
 network 172.17.6.0 255.255.255.128 area 0
 network 172.17.6.128 255.255.255.192 area 0
+exit
+
+ip dhcp excluded-address 172.17.1.250 172.16.1.254
+ip dhcp excluded-address 172.17.3.250 172.16.3.254
+ip dhcp excluded-address 172.17.5.250 172.16.5.254
+ip dhcp excluded-address 172.17.6.123 172.16.6.126
+ip dhcp excluded-address 172.17.6.185 172.16.6.190
+
+ip dhcp pool VLAN10
+network 172.17.0.0 255.255.254.0
+default-router 172.17.1.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN20
+network 172.17.2.0 255.255.254.0
+default-router 172.17.3.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN30
+network 172.17.4.0 255.255.254.0
+default-router 172.17.5.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN40
+network 172.17.6.0 255.255.255.128
+default-router 172.17.6.126
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN99
+network 172.17.6.128 255.255.255.192
+default-router 172.16.6.190
+dns-server 192.168.0.1
+exit
 
 ## GDL
 ### S-GDL
@@ -435,3 +509,40 @@ synchronization
 redistribute connected
 neighbor 10.0.0.4 remote-as 10
 neighbor 10.0.0.9 remote-as 20
+exit
+
+ip dhcp excluded-address 172.18.1.250 172.16.1.254
+ip dhcp excluded-address 172.18.3.250 172.16.3.254
+ip dhcp excluded-address 172.18.5.250 172.16.5.254
+ip dhcp excluded-address 172.18.6.123 172.16.6.126
+ip dhcp excluded-address 172.18.6.185 172.16.6.190
+
+ip dhcp pool VLAN10
+network 172.18.0.0 255.255.254.0
+default-router 172.18.1.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN20
+network 172.18.2.0 255.255.254.0
+default-router 172.18.3.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN30
+network 172.18.4.0 255.255.254.0
+default-router 172.18.5.254
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN40
+network 172.18.6.0 255.255.255.128
+default-router 172.18.6.126
+dns-server 192.168.0.1
+exit
+
+ip dhcp pool VLAN99
+network 172.17.6.128 255.255.255.192
+default-router 172.16.6.190
+dns-server 192.168.0.1
+exit
