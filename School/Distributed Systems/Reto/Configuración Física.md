@@ -88,6 +88,9 @@ access-list 50 permit 172.17.7.128 0.0.0.63
 access-list 50 permit 172.18.7.128 0.0.0.63
 access-list 50 deny any
 
+access-list 60 permit 172.16.0.0 0.0.255.255
+access-list 60 deny any
+
 interface gig0/0/0
 no shut
 exit
@@ -186,7 +189,7 @@ default-router 172.16.6.190
 dns-server 192.168.0.1
 exit
 
-
+ip nat inside source list 60 interface gigabitEthernet 0/0/1 overload
 
 ## MTY
 ### S-MTY
