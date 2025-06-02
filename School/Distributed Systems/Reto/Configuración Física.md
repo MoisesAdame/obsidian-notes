@@ -592,7 +592,7 @@ exit
 
 router ospf 10
 router-id 4.4.4.4
-network 192.168.0.0 255.255.255.0
+network 192.168.0.0 255.255.255.0 area 0
 exit
 
 router bgp 100
