@@ -91,6 +91,8 @@ access-list 50 deny any
 access-list 60 permit 172.16.0.0 0.0.255.255
 access-list 60 deny any
 
+ip nat inside source list 60 interface gigabitEthernet 0/0/1 overload
+
 interface gig0/0/0
 no shut
 exit
@@ -99,43 +101,57 @@ interface gig0/0/0.10
 encapsulation dot1Q 10
 ip address 172.16.1.254 255.255.254.0
 ! ip access-group 10 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.20
 encapsulation dot1Q 20
 ip address 172.16.3.254 255.255.254.0
 ! ip access-group 20 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.30
 encapsulation dot1Q 30
 ip address 172.16.5.254 255.255.254.0
 ! ip access-group 30 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.40
 encapsulation dot1Q 40
 ip address 172.16.6.126 255.255.255.128
 ! ip access-group 40 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.99
 encapsulation dot1Q 99
 ip address 172.16.6.190 255.255.255.192
 ! ip access-group 50 out
+ip nat inside
 no shut
+exit
 
 interface serial0/1/0
 ip address 10.0.0.1 255.255.255.252
 no shut
+exit
 
 interface serial0/1/1
 ip address 10.0.0.4 255.255.255.252
 no shut
+exit
 
 interface gig0/0/1
 ip address 10.0.0.13 255.255.255.252
+ip nat outside
 no shut
+exit
 
 router ospf 10
 router-id 1.1.1.1
@@ -188,8 +204,6 @@ network 172.16.6.128 255.255.255.192
 default-router 172.16.6.190
 dns-server 192.168.0.1
 exit
-
-ip nat inside source list 60 interface gigabitEthernet 0/0/1 overload
 
 ## MTY
 ### S-MTY
@@ -281,6 +295,11 @@ access-list 50 permit 172.17.7.128 0.0.0.63
 access-list 50 permit 172.18.7.128 0.0.0.63
 access-list 50 deny any
 
+access-list 60 permit 172.17.0.0 0.0.255.255
+access-list 60 deny any
+
+ip nat inside source list 60 interface gigabitEthernet 0/0/1 overload
+
 interface gig0/0/0
 no shut
 exit
@@ -289,43 +308,57 @@ interface gig0/0/0.10
 encapsulation dot1Q 10
 ip address 172.17.1.254 255.255.254.0
 ! ip access-group 10 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.20
 encapsulation dot1Q 20
 ip address 172.17.3.254 255.255.254.0
 ! ip access-group 20 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.30
 encapsulation dot1Q 30
 ip address 172.17.5.254 255.255.254.0
 ! ip access-group 30 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.40
 encapsulation dot1Q 40
 ip address 172.17.6.126 255.255.255.128
 ! ip access-group 40 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.99
 encapsulation dot1Q 99
 ip address 172.17.6.190 255.255.255.192
 ! ip access-group 50 out
+ip nat inside
 no shut
+exit
 
 interface serial0/1/0
 ip address 10.0.0.2 255.255.255.252
 no shut
+exit
 
 interface serial0/1/1
 ip address 10.0.0.9 255.255.255.252
 no shut
+exit
 
 interface gig0/0/1
 ip address 10.0.0.17 255.255.255.252
+ip nat outside
 no shut
+exit
 
 router bgp 20
 synchronization
@@ -470,6 +503,11 @@ access-list 50 permit 172.17.7.128 0.0.0.63
 access-list 50 permit 172.18.7.128 0.0.0.63
 access-list 50 deny any
 
+access-list 60 permit 172.18.0.0 0.0.255.255
+access-list 60 deny any
+
+ip nat inside source list 60 interface gigabitEthernet 0/0/1 overload
+
 interface gig0/0/0
 no shut
 exit
@@ -478,43 +516,57 @@ interface gig0/0/0.10
 encapsulation dot1Q 10
 ip address 172.18.1.254 255.255.254.0
 ! ip access-group 10 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.20
 encapsulation dot1Q 20
 ip address 172.18.3.254 255.255.254.0
 ! ip access-group 20 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.30
 encapsulation dot1Q 30
 ip address 172.18.5.254 255.255.254.0
 ! ip access-group 30 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.40
 encapsulation dot1Q 40
 ip address 172.18.6.126 255.255.255.128
 ! ip access-group 40 out
+ip nat inside
 no shut
+exit
 
 interface gig0/0/0.99
 encapsulation dot1Q 99
 ip address 172.18.6.190 255.255.255.192
 ! ip access-group 50 out
+ip nat inside
 no shut
+exit
 
 interface serial0/1/0
 ip address 10.0.0.6 255.255.255.252
 no shut
+exit
 
 interface serial0/1/1
 ip address 10.0.0.10 255.255.255.252
 no shut
+exit
 
 interface gig0/0/1
 ip address 10.0.0.21 255.255.255.252
+ip nat outside
 no shut
+exit
 
 router ospf 10
 router-id 3.3.3.3

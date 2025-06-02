@@ -83,7 +83,6 @@
             }
           }
         ],
-        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -268,10 +267,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5f478abfdae4d2af",
+  "active": "9439399624e7777a",
   "lastOpenFiles": [
-    "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Distributed Systems/Guía/Castañeda.md",
+    "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "School/Distributed Systems/Reto/Casos de Uso.md",
     "School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
