@@ -186,6 +186,8 @@ default-router 172.16.6.190
 dns-server 192.168.0.1
 exit
 
+
+
 ## MTY
 ### S-MTY
 enable
@@ -570,22 +572,22 @@ conf t
 
 hostname R-ISP
 
-interface gig0/0/0
+interface gig6/0
 ip address 10.0.0.14 255.255.255.252
 no shut
 exit
 
-interface gig0/0/1
+interface gig7/0
 ip address 10.0.0.18 255.255.255.252
 no shut
 exit
 
-interface gig0/0/1
+interface gig8/0
 ip address 10.0.0.22 255.255.255.252
 no shut
 exit
 
-interface gig0/1/1
+interface gig9/0
 ip address 192.168.0.254 255.255.255.0
 no shut
 exit
