@@ -56,9 +56,11 @@ knn_model = KNeighborsClassifier(
 
 ## mlp.ipynb
 ### Celda 3
+- `Dense(128)`: First hidden layer with 128 neurons, ReLU activation.
+
 ```python
 def create_keras_mlp_model(meta):
-# Definir la arquitectura secuencial del MLP
+	# Definir la arquitectura secuencial del MLP
 	model = tf.keras.Sequential([
 	
 	tf.keras.layers.InputLayer(input_shape=(n_features_in_,)), 
