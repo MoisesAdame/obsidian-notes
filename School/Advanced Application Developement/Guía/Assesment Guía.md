@@ -55,5 +55,29 @@ knn_model = KNeighborsClassifier(
 ```
 
 ## mlp.ipynb
-###
+### Celda 3
+```python
+def create_keras_mlp_model(meta):
+# Definir la arquitectura secuencial del MLP
+	model = tf.keras.Sequential([
+	
+	tf.keras.layers.InputLayer(input_shape=(n_features_in_,)), 
+	
+	tf.keras.layers.Dense(128, activation='relu',  
+	kernel_initializer='he_normal'),
+	
+	tf.keras.layers.Dropout(0.4),
+	tf.keras.layers.Dense(64, activation='relu', 
+	kernel_initializer='he_normal'),
+	tf.keras.layers.Dropout(0.4),
+	tf.keras.layers.Dense(n_classes_, activation='softmax')
+	])      
+	
+	model.compile(optimizer=tf.keras.optimizers.Adam(
+	learning_rate=MLP_LEARNING_RATE),
+	loss='sparse_categorical_crossentropy',
+	metrics=['accuracy'])
+	
+	return model
+```
 
