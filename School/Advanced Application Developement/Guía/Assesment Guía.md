@@ -16,3 +16,13 @@ actual_vocab_size = min(VOCAB_SIZE_MAX, len(tokenizer.word_index) + 1)
 sequences_train = tokenizer.texts_to_sequences(texts_train)
 sequences_test = tokenizer.texts_to_sequences(texts_test)
 ```
+
+### Celda 9
+Se eligen características **numéricas** y **categóricas**
+```python
+numerical_features_list = X_tabular_train.select_dtypes(include=np.number).columns.tolist()
+
+categorical_features_list = [MAIN_CATEGORICAL_FEATURE_COLUMN] if MAIN_CATEGORICAL_FEATURE_COLUMN in X_tabular_train.columns else []
+```
+
+### Celda 10
