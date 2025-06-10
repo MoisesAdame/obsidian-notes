@@ -6,7 +6,6 @@ Date: 2025-02-26 : 14:55
 ## 汉语水平考试四级学习计划
 ```mermaid
 gantt
-    title 汉语水平考试四级学习计划
     dateFormat YYYY-MM-DD
     
     section 继续学习
