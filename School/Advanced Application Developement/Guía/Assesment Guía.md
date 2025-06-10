@@ -83,3 +83,23 @@ def create_keras_mlp_model(meta):
 	return model
 ```
 
+### Celda 10
+- El Clasificador sirve para fittear los datos al modelo.
+```python
+mlp_keras_classifier = KerasClassifier(
+	
+	model=create_keras_mlp_model,
+	epochs=MLP_EPOCHS,
+	batch_size=MLP_BATCH_SIZE,
+	verbose=1,
+	meta__n_classes_=num_unique_classes,
+	callbacks=[tf.keras.callbacks.EarlyStopping(
+		monitor='val_loss', patience=5, 
+		restore_best_weights=True, verbose=1)]
+	)
+
+print("KerasClassifier creado.")
+```
+
+## xgb_model.ipynb
+### 
