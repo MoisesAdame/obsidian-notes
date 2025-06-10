@@ -43,7 +43,8 @@ output_classification_layer = Dense(num_classes, activation='softmax', ...)(fina
 ## knn.ipynb
 ### Celda 7
 - Se usan **7 neighbors** porque es impar.
-- Se usa **minkoski distance** porque se adapta a diferentes tipos de datos
+- Se usa **minkoski distance** porque se adapta a diferentes tipos de datos.
+
 ```python
 knn_model = KNeighborsClassifier(
 	n_neighbors=KNN_N_NEIGHBORS #7,
@@ -52,3 +53,4 @@ knn_model = KNeighborsClassifier(
 	n_jobs=-1
 )
 ```
+
