@@ -26,3 +26,19 @@ categorical_features_list = [MAIN_CATEGORICAL_FEATURE_COLUMN] if MAIN_CATEGORICA
 ```
 
 ### Celda 10
+Capas densas finales:
+- Son **128 neuronas** porque no son ni muchas ni pocas.
+- Función de activación **relu** porque es eficiente computacionalmente.
+- En **dropout 0.5** se desactiva el 50% de las neuronas para no depender tanto de ellas.
+- **Softmax** se usa el output porque transforma output en distribución de probabilidades.
+
+```python
+final_dense_1 = Dense(128, activation='relu', ...)(concatenated_features)
+
+final_dropout_1 = Dropout(0.5, ...)(final_dense_1)
+
+output_classification_layer = Dense(num_classes, activation='softmax', ...)(final_dropout_1)
+```
+
+## knn.ipynb
+### Celda 
