@@ -159,8 +159,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -169,8 +169,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -179,8 +179,8 @@
             "state": {
               "type": "timer-view",
               "state": {},
-              "icon": "timer",
-              "title": "Timer"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -198,12 +198,7 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": true,
-      "aosr:Aosr": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "publish:Publish changes...": true
     }
   },
   "active": "a300fe91512115a2",
