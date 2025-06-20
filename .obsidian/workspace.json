@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chinese/HSK4/标准教程4/标准教程4（下）/第13课.md",
+                "file": "Chinese/HSK4/成功之路/第13课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -249,6 +249,7 @@
   },
   "active": "52abc180326f0efc",
   "lastOpenFiles": [
+    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第13课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第12课.md",
     "Chinese/HSK4/HSK4计划.md",
@@ -277,7 +278,6 @@
     "School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
     "School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
     "School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
-    "School/Distributed Systems/Guía/Redes 1.md",
     "Untitled 1",
     "Untitled",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
