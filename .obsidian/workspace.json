@@ -11,10 +11,15 @@
             "id": "eeb52fba6be841ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Chinese/HSK4/标准教程4/标准教程4（下）/第16课.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "第16课"
             }
           }
         ],
