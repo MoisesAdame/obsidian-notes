@@ -39,5 +39,30 @@ $$
 $$
 ### Respuesta 3
 $$
-9^{\log_{9}(5^{3x - 1})} = 9^{16}
+\log_{9}(5^{3x - 1}) = 16
 $$
+$$
+(3x - 1) \cdot \log_{9}(5) = 16
+$$
+$$
+3x - 1 = \frac{16}{\log_{9}(5)}
+$$
+$$
+3x = \frac{16}{\log_{9}(5)} + 1
+$$
+$$
+x = \frac{1}{3} \cdot \left( \frac{16}{\log_{9}(5)} + 1 \right)
+$$
+$$
+x = \frac{16}{3 \cdot\log_{9}(5)} + \frac{1}{3}
+$$
+Obtenemos el valor de $\log_{9}(5)$ mediante el cambio de bases:
+$$
+\log_{9}(5) = \frac{\log(5)}{\log(9)} \approx 0.7324867604
+$$
+
+Obtenemos el valor de $x$:
+$$
+x = \frac{16}{3 \cdot 0.7324867604} + \frac{1}{3} \approx 7.614466075
+$$
+
