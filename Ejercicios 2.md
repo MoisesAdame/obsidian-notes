@@ -6,3 +6,9 @@ $$
 $$
 \log_{3}\left( \frac{\sqrt[5]{ (z + 1)^2 } \cdot \sqrt{ w^3 }}{y^4 \cdot (x - 2)^2} \right)
 $$
+Problemas:
+- P1
+- P3
+- P4
+- P6
+- Ultima
