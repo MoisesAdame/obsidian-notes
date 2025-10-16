@@ -24,7 +24,14 @@ Selecciona los **dominios** de los logaritmos presentes en la ecuación (son dos
 $$
 -\log_{3}(x -7) = 2 - \log_{3}(x + 1)
 $$
-R: $(7, \infty)$, $(-1, \infty)$
+R: $(7, \infty)$, $(-1, \infty)$ y $x = 8$
+
+### Ejercicio 5
+Selecciona el **dominio** del logaritmos presente en la ecuación (solo es uno), así como la o las **soluciones** de la siguiente ecuación (si es que existen):
+$$
+2 \cdot \log_{2}(-3x) = 8
+$$
+
 
 
 
