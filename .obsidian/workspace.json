@@ -36,9 +36,20 @@
               "icon": "lucide-file",
               "title": "Ejercicios 2"
             }
+          },
+          {
+            "id": "2db73b1a0022b3e8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -225,7 +236,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "48265b0a281a50a4",
+  "active": "7f529ba04229507b",
   "lastOpenFiles": [
     "Ejercicios.md",
     "Ejercicios 2.md",

@@ -1,15 +1,16 @@
 ### Ejercicio 1
-Reescribir la siguiente expresión, en un solo logaritmo:
+Determinar el valor de $x$, dada la siguiente ecuación:
 $$
-5 \ln(z) - 2\ln(z - 2) + \frac{1}{5}\ln(z + 3) + 4 \ln(z + 1)
+\log (2) + \log(x - 1) = \log(x + 2)
 $$
-
+R: $x = 4$
 
 ### Ejercicio 2
-Reescribir la siguiente expresión en la suma y resta de múltiples logaritmos:
+Resolver para $x$, dada la siguiente ecuación:
 $$
-\log_{3}\left(\frac{y^3 \cdot \sqrt[3]{(x - 1)^2 }}{(x + 2)^4 \cdot  z^{-2}}\right)
+2^{x^2 -20x +92} = 16^{7 - x}
 $$
+R: $x = 8$
 
 ### Ejercicio 3 
 Calcular el valor de $x$ para la siguiente expresión:
