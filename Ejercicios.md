@@ -13,9 +13,16 @@ $$
 R: $x = 8$
 
 ### Ejercicio 3 
-Calcular el valor de $x$ para la siguiente expresión:
+Determinar el valor de $x$, dada la siguiente ecuación:
 $$
-\log_{9}(5^{3x - 1}) = 16
+\log(6x + 48) = \log(x)
+$$
+R: $\text{sin solución}$
+
+### Ejercicio 4
+Selecciona el o los **dominios** de los logaritmos presentes en la ecuación, así como la o las soluciones de la siguiente ecuación (si es que existen):
+$$
+\log_{5}(x - 2) = 2 -\log_{5}(x + 5)
 $$
 
 
