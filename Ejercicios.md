@@ -20,10 +20,11 @@ $$
 R: $\text{sin solución}$
 
 ### Ejercicio 4
-Selecciona el o los **dominios** de los logaritmos presentes en la ecuación, así como la o las soluciones de la siguiente ecuación (si es que existen):
+Selecciona los **dominios** de los logaritmos presentes en la ecuación (son dos), así como la o las soluciones de la siguiente ecuación (si es que existen):
 $$
-\log_{5}(x - 2) = 2 -\log_{5}(x + 5)
+-\log_{3}(x -7) = 2 - \log_{3}(x + 1)
 $$
+R: $(7, \infty)$, $(-1, \infty)$
 
 
 
