@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "｜",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,7 +223,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "90d6c857a8fbfef6",
+  "active": "a300fe91512115a2",
   "lastOpenFiles": [
     "Chinese/HSK5/标准教程5/标准教程5（上）/第1课.md",
     "Chinese/HSK5/标准教程5/标准教程5（上）/第2课.md",
