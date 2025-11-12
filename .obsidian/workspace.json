@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "第2课"
             }
+          },
+          {
+            "id": "cb45f4f0b1234ce8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -223,7 +235,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c9962d624cfaf3b7",
+  "active": "cb45f4f0b1234ce8",
   "lastOpenFiles": [
     "Chinese/HSK5/标准教程5/标准教程5（上）/第1课.md",
     "Chinese/HSK5/标准教程5/标准教程5（上）/第2课.md",
