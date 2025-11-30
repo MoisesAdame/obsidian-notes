@@ -24,4 +24,6 @@ $$
 Where:
 1. $(\mathcal{V}, +)$ is an *abelian group*.
 2. Distributivity
-	1. $\forall \lambda \in \mathbb{R} \mathbf{x}, \mathbf{y} \in \mathcal{V}: \lambda(x)$
+	1. $\forall \lambda \in \mathbb{R} \mathbf{x}, \mathbf{y} \in \mathcal{V}: \lambda(\mathbf{x} + \mathbf{y}) = \lambda \mathbf{x} + \lambda \mathbf{y}$
+	2. $\forall \alpha, \beta \in \mathbb{R} \mathbf{x}\in \mathcal{V}: (\alpha + \beta)\mathbf{x} = \alpha \mathbf{x} + \beta \mathbf{y}$
+3. 
