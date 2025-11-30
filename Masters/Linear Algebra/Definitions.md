@@ -11,3 +11,5 @@ Considering a set $\mathcal{G}$ and an operation $\otimes : \mathcal{G} \times \
 4. **Inverse Element:** $\forall x \in \mathcal{G} \exists y \in \mathcal{G}: x \otimes y = e$
 
 ## Definition of an Abelian Group
+Given a group $G$, then if it is commutative $\forall x, y \in \mathcal{G}: x \otimes y = y \otimes x$, then it is an *abelian group*.
+
