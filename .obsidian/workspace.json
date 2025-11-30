@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e84d369304e267d4",
+        "id": "852c28edddab038c",
         "type": "tabs",
         "children": [
           {
-            "id": "3311da0272e4f685",
+            "id": "7d04c49eb40aeaad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Masters/Linear Algebra/Definitions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Definitions"
             }
           }
         ],
@@ -202,8 +207,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3311da0272e4f685",
+  "active": "7d04c49eb40aeaad",
   "lastOpenFiles": [
+    "Masters/Linear Algebra/Definitions.md",
+    "Untitled",
+    "Masters/Linear Algebra",
     "Chinese/HSK5/标准教程5/标准教程5（上）/第1课.md",
     "Chinese/HSK5/标准教程5/标准教程5（上）/第2课.md",
     "Chinese/HSK4/标准教程4/标准教程4（上）/第1课.md",
@@ -239,9 +247,6 @@
     "Chinese/HSK4/成功之路/第13课.md",
     "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "Chinese/HSK4/标准教程4/语法点复习/6月12日的复习.md",
-    "Chinese/HSK4/标准教程4/语法点复习",
-    "School/Advanced Application Developement/Guía/Assesment Guía.md",
-    "School/Distributed Systems/Reto",
     "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
