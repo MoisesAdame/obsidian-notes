@@ -13,3 +13,15 @@ Considering a set $\mathcal{G}$ and an operation $\otimes : \mathcal{G} \times \
 ## Definition of an Abelian Group
 Given a group $G$, then if it is commutative $\forall x, y \in \mathcal{G}: x \otimes y = y \otimes x$, then it is an *abelian group*.
 
+## Definition of a (Real-Valued) Vector Space
+A real-valued vector space $V = (\mathcal{V, +,\cdot})$ is a set $\mathcal{V}$ with two operations:
+$$
++: \mathcal{V} \times \mathcal{V} \rightarrow \mathcal{V}
+$$
+$$
+\cdot: \mathbb{R} \times \mathcal{V} \rightarrow \mathcal{V}
+$$
+Where:
+1. $(\mathcal{V}, +)$ is an *abelian group*.
+2. Distributivity
+	1. $\forall \lambda \in \mathbb{R} \mathbf{x}, \mathbf{y} \in \mathcal{V}: \lambda(x)$
