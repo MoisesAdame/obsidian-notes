@@ -51,7 +51,7 @@ Given a vector space $V$ and set of vectors $\mathcal{A} = \{ \mathbf{x_{1}}, \c
 ## Definition of Basis
 A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no smaller set $\tilde{A} \subseteq A \subseteq \mathcal{V}$. As well, every linearly independent generating set of $V$ is minimal and is called a **basis of $V$**.
 
-##  Definition of a Linear Mapping
+## Definition of a Linear Mapping
 For vector spaces $V$ and $W$ a mapping $\Phi: V \to W$ is called a linear mapping or linear transformation if:
 $$
 \forall \mathbf{x}, \mathbf{y} \in V \forall \alpha, \beta \in \mathbb{R}: \Phi(\alpha \mathbf{x} + \beta \mathbf{y}) = \alpha \Phi(\mathbf{x}) + \beta \Phi(\mathbf{y})
