@@ -54,5 +54,5 @@ A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no s
 ##  Definition of a Linear Mapping
 For vector spaces $V$ and $W$ a mapping $\Phi: V \to W$ is called a linear mapping or linear transformation if:
 $$
-\forall \mathbf{x}, \mathbf{y} \in V \forall al
+\forall \mathbf{x}, \mathbf{y} \in V \forall \alpha, \beta \in \mathbb{R}: \Phi(\alpha \mathbf{x} + \beta \mathbf{y}) = \alpha \Phi(\mathbf{x}) + \beta \Phi(\mathbf{y})
 $$
