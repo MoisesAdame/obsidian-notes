@@ -27,4 +27,17 @@ Where:
 	1. $\forall \lambda \in \mathbb{R} \mathbf{x}, \mathbf{y} \in \mathcal{V}: \lambda(\mathbf{x} + \mathbf{y}) = \lambda \mathbf{x} + \lambda \mathbf{y}$
 	2. $\forall \alpha, \beta \in \mathbb{R} \mathbf{x}\in \mathcal{V}: (\alpha + \beta)\mathbf{x} = \alpha \mathbf{x} + \beta \mathbf{y}$
 3. Associativity: $\forall \alpha, \beta \in \mathbb{R} \mathbf{x} \in \mathcal{V}: \alpha(\beta \mathbf{x}) = (\alpha \beta)\mathbf{x}$
-4. Neutral element: $$
+4. Neutral element: $\forall \mathbf{x} \in \mathcal{V}: 1 \mathbf{x} = x$
+
+## Definition of a Vector Subspace
+Let $V = (\mathcal{V}, +, \cdot)$ be a vector space and $\mathcal{U} \subseteq \mathcal{V}$, where $\mathcal{U} \neq \emptyset$. Then $U = (\mathcal{U}, +, \cdot)$ is called a *vector subspace of V*.
+
+## Definition of Linear Combination
+Given the vector space $V$ and a finite number of vectors $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}}$. Then, every $\mathbf{v}$ of the form:
+$$
+\mathbf{v} = \sum_{i = 1}^{n} \lambda_{i} \cdot \mathbf{x_{i}}
+$$
+With $\lambda_{i}, \cdots, \lambda_{n} \in \mathbb{R}$ is a linear combination of the vectors $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}}$.
+
+## Linear Dependence
+Considering a vector space $V$ with $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}} \in V$. 
