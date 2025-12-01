@@ -11,7 +11,7 @@ Considering a set $\mathcal{G}$ and an operation $\otimes : \mathcal{G} \times \
 4. **Inverse Element:** $\forall x \in \mathcal{G} \exists y \in \mathcal{G}: x \otimes y = e$
 
 ## Definition of an Abelian Group
-Given a group $G$, then if it is commutative $\forall x, y \in \mathcal{G}: x \otimes y = y \otimes x$, then it is an *abelian group*.
+Given a group $G$, if it is commutative $\forall x, y \in \mathcal{G}: x \otimes y = y \otimes x$, then it is an *abelian group*.
 
 ## Definition of a (Real-Valued) Vector Space
 A real-valued vector space $V = (\mathcal{V, +,\cdot})$ is a set $\mathcal{V}$ with two operations:
@@ -51,3 +51,8 @@ Given a vector space $V$ and set of vectors $\mathcal{A} = \{ \mathbf{x_{1}}, \c
 ## Definition of Basis
 A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no smaller set $\tilde{A} \subseteq A \subseteq \mathcal{V}$. As well, every linearly independent generating set of $V$ is minimal and is called a **basis of $V$**.
 
+##  Definition of a Linear Mapping
+For vector spaces $V$ and $W$ a mapping $\Phi: V \to W$ is called a linear mapping or linear transformation if:
+$$
+\forall \mathbf{x}, \mathbf{y} \in V \forall al
+$$
