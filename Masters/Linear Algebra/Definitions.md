@@ -40,4 +40,14 @@ $$
 With $\lambda_{i}, \cdots, \lambda_{n} \in \mathbb{R}$ is a linear combination of the vectors $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}}$.
 
 ## Linear Dependence
-Considering a vector space $V$ with $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}} \in V$. 
+Considering a vector space $V$ with $\mathbf{x_{1}}, \cdots, \mathbf{x_{n}} \in V$. Those vectors are considered *linearly dependent* if there exists a non-trivial way ($\lambda_{i} = \cdots = \lambda_{n} = 0$) that their *linear combination* yields $\mathbf{0}$, that is to say:
+$$
+\mathbf{0} = \sum_{i = 1}^{n} \lambda_{i} \cdot \mathbf{x_{i}}
+$$
+
+## Definition of Span
+Given a vector space $V$ and set of vectors $\mathcal{A} = \{ \mathbf{x_{1}}, \cdots, \mathbf{x_{n}} \} \in V$. Then, if every $\mathbf{v} \in V$ can be expressed as a linear combination of $\mathcal{A}$, we say that $V = span[A]$.
+
+## Definition of Basis
+A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no smaller set $\tilde{A} \subseteq A \subseteq \mathcal{V}$. As well, every linearly independent generating set of $V$ is minimal and is called a **basis of $V$**.
+
