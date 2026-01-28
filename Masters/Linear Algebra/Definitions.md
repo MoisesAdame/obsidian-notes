@@ -87,7 +87,7 @@ $$
 $$
 C' = \begin{pmatrix}c_{1}', c_{2}', \cdots, c_{m}'\end{pmatrix}
 $$
-
+### Brief Example
 The following is an example. We have two basis, both belong to $\mathbb{R}^2$, we are going to call the first one $E$ (for extended) and the second one $N$ (for normal), defined as follows:
 $$
 E = \left(
@@ -126,8 +126,18 @@ $$
 =
 \begin{pmatrix}
 8 \\
-
+4
 \end{pmatrix}
 $$
+
+As we can see, the linear transformation $A_{E}$ takes the vector from $E \to N$.
+### End of Example
+
+Resuming our proof, we can see that using the columns of $B'$ we have a linear transformation that we'll call $S : B' \to B$. We know that $A_{\phi}: B \to C$ and, knowing that another linear transformation that we'll call $T$, which uses the columns of $C'$ goes from: $T: C' \to C$ if we obtain its inverse, we'll get: $T^{-1}: C \to C'$, which, put together looks like: $B' \to B \to C \to C'$. (Remember that the operations go form right to left, because this is matrix multiplication), thus:
+$$
+A_{\phi}' = T^{-1}A_{\phi}S
+$$
+
+###
 
 
