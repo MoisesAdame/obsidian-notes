@@ -49,10 +49,17 @@ $$
 Given a vector space $V$ and set of vectors $\mathcal{A} = \{ \mathbf{x_{1}}, \cdots, \mathbf{x_{n}} \} \in V$. Then, if every $\mathbf{v} \in V$ can be expressed as a linear combination of $\mathcal{A}$, we say that $V = span[A]$.
 
 ## Definition of Basis
-A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no smaller set $\tilde{A} \subseteq A \subseteq \mathcal{V}$. As well, every linearly independent generating set of $V$ is minimal and is called a **basis of $V$**.
+A *generating set* $\mathcal{A}$ of $V$ is called *minimal* if there exists no smaller set $\tilde{A} \subseteq A \subseteq \mathcal{V}$. As well, every linearly independent generating set of $V$ is minimal and is called a **basis of $V$**. It is *minimal* if the set is linearly independent
 
 ## Definition of a Linear Mapping
 For vector spaces $V$ and $W$ a mapping $\Phi: V \to W$ is called a linear mapping or linear transformation if:
 $$
 \forall \mathbf{x}, \mathbf{y} \in V \forall \alpha, \beta \in \mathbb{R}: \Phi(\alpha \mathbf{x} + \beta \mathbf{y}) = \alpha \Phi(\mathbf{x}) + \beta \Phi(\mathbf{y})
 $$
+
+## Rank & Dimension
+They both describe very similar concepts. The **rank** is the number of linearly independent columns in a matrix. The **dimension** is the number of different directions you can go, for example $A = span\left[()\right]$
+
+```latex
+\begin{smallmatrix}(#1)\end{smallmatrix}%
+```
