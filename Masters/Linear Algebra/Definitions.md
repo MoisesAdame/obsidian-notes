@@ -58,8 +58,21 @@ $$
 $$
 
 ## Rank & Dimension
-They both describe very similar concepts. The **rank** is the number of linearly independent columns in a matrix. The **dimension** is the number of different directions you can go, for example $A = span\left[()\right]$
+They both describe very similar concepts. The **rank** is the number of linearly independent columns in a matrix. The **dimension** is the number of different directions you can go, for example $A = span\left[\begin{pmatrix} 1 & 0 \end{pmatrix}^T, \begin{pmatrix} 0 & 1 \end{pmatrix}^T \right]$. The dimension is 2.
+$$
+A = 
+\begin{pmatrix}
+1 & 0 & 1 \\
+0 & 1 & 1 \\
+0 & 0 & 0 \\
+\end{pmatrix}
+$$
 
-```latex
-\begin{smallmatrix}(#1)\end{smallmatrix}%
-```
+Here, the $rank(A) = 2$.
+
+## Change of Basis
+Suppose you have a linear transformation $\phi: V \to W$. The basis of the vector space $V$ is the ordered pair $B = \begin{pmatrix}b_{1}, b_{2}, \cdots, b_{n}\end{pmatrix}$ and the basis of the vector space $W$ is $C = \begin{pmatrix}c_{1}, c_{2}, \cdots, c_{m}\end{pmatrix}$. Our task is to finde a linear transformation $\phi'$ such that it is defined as follows: $\phi' : V' \to W'$, where, $V'$ is the vector space with the following basis: $B' = \begin{pmatrix}b_{1}', b_{2}', \cdots, b_{n}'\end{pmatrix}$ and $W'$ is the vector space with the following basis: $C' = \begin{pmatrix}c_{1}', c_{2}', \cdots, c_{m}'\end{pmatrix}$.
+
+$$
+Y b =
+$$
