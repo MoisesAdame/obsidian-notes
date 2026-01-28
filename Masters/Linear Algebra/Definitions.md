@@ -138,6 +138,8 @@ $$
 A_{\phi}' = T^{-1}A_{\phi}S
 $$
 
-###
+## Relation Between Invertibility and Determinant
+
+
 
 
