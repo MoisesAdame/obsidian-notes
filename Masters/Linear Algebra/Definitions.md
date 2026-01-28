@@ -71,3 +71,63 @@ $$
 Here, the $rank(A) = 2$.
 
 ## Change of Basis
+Suppose we have a linear transformation $A_{\phi}: V \to W$ (this means that goes form the vector space $V$ to $W$). BUT!!! this linear transformation only works from and to using the following bases (They span over $V$ and $W$ respectively):
+$$
+B = \begin{pmatrix}b_{1}, b_{2}, \cdots, b_{n}\end{pmatrix}
+$$
+$$
+C = \begin{pmatrix}c_{1}, c_{2}, \cdots, c_{m}\end{pmatrix}
+$$
+
+We will define the following ordered bases, they too, span the vector spaces $V$ and $W$ respectively:
+
+$$
+B' = \begin{pmatrix}b_{1}', b_{2}', \cdots, b_{n}'\end{pmatrix}
+$$
+$$
+C' = \begin{pmatrix}c_{1}', c_{2}', \cdots, c_{m}'\end{pmatrix}
+$$
+
+The following is an example. We have two basis, both belong to $\mathbb{R}^2$, we are going to call the first one $E$ (for extended) and the second one $N$ (for normal), defined as follows:
+$$
+E = \left(
+\begin{pmatrix}
+2 \\
+0 \\
+\end{pmatrix}, 
+\begin{pmatrix}
+0 \\
+2 \\
+\end{pmatrix}
+\right)
+$$
+$$
+N = \left(
+\begin{pmatrix}
+1 \\
+0 \\
+\end{pmatrix}, 
+\begin{pmatrix}
+0 \\
+1 \\
+\end{pmatrix}
+\right)
+$$
+If we use the vectors of $E$ as the column for a linear transformation $A_{E}$ and we multiply a vector, what do we get?
+$$
+\begin{pmatrix}
+2 & 0 \\
+0 & 2 \\
+\end{pmatrix}
+\begin{pmatrix}
+4 \\
+2
+\end{pmatrix}
+=
+\begin{pmatrix}
+8 \\
+
+\end{pmatrix}
+$$
+
+
