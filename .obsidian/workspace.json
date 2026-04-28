@@ -58,13 +58,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Masters/NeetCode/Stacks/Daily Temperatures (Medium).md",
+                "file": "Masters/NeetCode/Arrays & Hashing/Two Sum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Daily Temperatures (Medium)"
+              "title": "Two Sum"
+            }
+          },
+          {
+            "id": "ddaa4ea5208af897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Masters/NeetCode/Arrays & Hashing/Group Anagrams (Medium).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Group Anagrams (Medium)"
             }
           },
           {
@@ -83,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 4,
         "stacked": true
       }
     ],
@@ -268,12 +283,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2078d2c6cda5f7b7",
+  "active": "ddaa4ea5208af897",
   "lastOpenFiles": [
-    "Masters/NeetCode/Stacks/Evaluate Reverse Reverse Polish Notation (Medium).md",
-    "Masters/NeetCode/Stacks/Daily Temperatures (Medium).md",
-    "Masters/NeetCode/Stacks/Valid Parentheses (Easy).md",
     "Masters/NeetCode/Arrays & Hashing/Two Sum.md",
+    "Masters/NeetCode/Arrays & Hashing/Group Anagrams (Medium).md",
+    "Masters/NeetCode/Stacks/Daily Temperatures (Medium).md",
+    "Masters/NeetCode/Stacks/Evaluate Reverse Reverse Polish Notation (Medium).md",
+    "Masters/NeetCode/Stacks/Valid Parentheses (Easy).md",
     "Masters/NeetCode/Arrays & Hashing/Container With Most Water.md",
     "Masters/NeetCode/Arrays & Hashing/Top K Frequent Elements (Medium).md",
     "Chinese/HSK5/标准教程5/标准教程5（上）/第1课.md",
@@ -307,7 +323,6 @@
     "Ejercicios 2.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第16课.md",
     "Chinese/HSK4/标准教程4/标准教程4（下）/第17课.md",
-    "Chinese/HSK4/汉语教程/第11课：前边开过来一辆空车.md",
     "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
     "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
