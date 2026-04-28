@@ -10,4 +10,3 @@ You are given an integer array `heights` where `heights[i]` represents the h
 You may choose any two bars to form a container. Return the _maximum_ amount of water a container can store.
 
 ## Solution Thought Process
-
