@@ -14,5 +14,30 @@ Return an array `result` where `result[i]` is the number of days after the 
 Step 1: Initialize array `result` with zeros.
 Step 2: Initialize the `stack`.
 Step 3: Iterate over `temperatures` using the `enumerate()` to know index and value.
-Step 4: Check the top of `stack` and if current t is smaller than top append it. If not, pop until current is smaller than top, append it and check the difference of indices, that difference is put on the popped temperature index in `result`
+Step 4: Check the top of `stack` and if current t is smaller than top append it. If not, pop until current is smaller than top, append it and check the difference of indices, that difference is put on the popped temperature index in `result`. (Do this in a while so that the stack is always decreasing)
+
+## Code O
+```python
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]):
+        # Iitializing result and stack
+        result = [0] * len(temperatures)
+        stack = []
+        
+        # Iterating over temperatures 
+        # (using the enumerate function)
+        for i, temp in enumerate(temperatures):
+
+            # Pop all the values that 
+            # are samller than the current temp
+            while stack and stack[-1][1] < temp:
+                pop_i, pop_temp = stack.pop()
+
+                result[pop_i] = i - pop_i            
+
+            stack.append((i, temp))
+
+        return result
+
+```
 
