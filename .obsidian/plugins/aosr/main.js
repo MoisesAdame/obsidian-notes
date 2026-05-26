@@ -53,6 +53,10 @@ var __privateSet = (obj, member, value, setter) => {
   setter ? setter.call(obj, value) : member.set(obj, value);
   return value;
 };
+var __privateMethod = (obj, member, method) => {
+  __accessCheck(obj, member, "access private method");
+  return method;
+};
 
 // node_modules/hash-it/dist/cjs/index.cjs
 var require_cjs = __commonJS({
@@ -1260,11 +1264,11 @@ var require_eventemitter2 = __commonJS({
         }
         return value;
       }
-      function makeTypeReducer(types) {
-        var message = "value must be type of " + types.join("|");
-        var len = types.length;
-        var firstType = types[0];
-        var secondType = types[1];
+      function makeTypeReducer(types2) {
+        var message = "value must be type of " + types2.join("|");
+        var len = types2.length;
+        var firstType = types2[0];
+        var secondType = types2[1];
         if (len === 1) {
           return function(v, reject) {
             if (typeof v === firstType) {
@@ -1285,7 +1289,7 @@ var require_eventemitter2 = __commonJS({
           var kind = typeof v;
           var i2 = len;
           while (i2-- > 0) {
-            if (kind === types[i2])
+            if (kind === types2[i2])
               return v;
           }
           reject(message);
@@ -1569,21 +1573,21 @@ var require_eventemitter2 = __commonJS({
       function collectTreeEvents(tree, events, root, asArray) {
         var branches = ownKeys5(tree);
         var i2 = branches.length;
-        var branch, branchName, path;
+        var branch, branchName, path2;
         var hasListeners = tree["_listeners"];
         var isArrayPath;
         while (i2-- > 0) {
           branchName = branches[i2];
           branch = tree[branchName];
           if (branchName === "_listeners") {
-            path = root;
+            path2 = root;
           } else {
-            path = root ? root.concat(branchName) : [branchName];
+            path2 = root ? root.concat(branchName) : [branchName];
           }
           isArrayPath = asArray || typeof branchName === "symbol";
-          hasListeners && events.push(isArrayPath ? path : path.join(this.delimiter));
+          hasListeners && events.push(isArrayPath ? path2 : path2.join(this.delimiter));
           if (typeof branch === "object") {
-            collectTreeEvents.call(this, branch, events, path, isArrayPath);
+            collectTreeEvents.call(this, branch, events, path2, isArrayPath);
           }
         }
         return events;
@@ -2239,8 +2243,8 @@ var require_eventemitter2 = __commonJS({
         });
         return makeCancelablePromise(options.Promise, function(resolve, reject, onCancel) {
           function listener() {
-            var filter = options.filter;
-            if (filter && !filter.apply(self2, arguments)) {
+            var filter2 = options.filter;
+            if (filter2 && !filter2.apply(self2, arguments)) {
               return;
             }
             self2.off(event, listener);
@@ -3166,8 +3170,8 @@ var init_index_browser_esm = __esm({
       var resultType = this.currResultType;
       switch (resultType) {
         case "all": {
-          var path = Array.isArray(ea.path) ? ea.path : JSONPath.toPathArray(ea.path);
-          ea.pointer = JSONPath.toPointer(path);
+          var path2 = Array.isArray(ea.path) ? ea.path : JSONPath.toPathArray(ea.path);
+          ea.pointer = JSONPath.toPointer(path2);
           ea.path = typeof ea.path === "string" ? ea.path : JSONPath.toPathString(ea.path);
           return ea;
         }
@@ -3190,12 +3194,12 @@ var init_index_browser_esm = __esm({
         callback(preferredOutput, type, fullRetObj);
       }
     };
-    JSONPath.prototype._trace = function(expr, val, path, parent, parentPropName, callback, hasArrExpr, literalPriority) {
+    JSONPath.prototype._trace = function(expr, val, path2, parent, parentPropName, callback, hasArrExpr, literalPriority) {
       var _this3 = this;
       var retObj;
       if (!expr.length) {
         retObj = {
-          path,
+          path: path2,
           value: val,
           parent,
           parentProperty: parentPropName,
@@ -3216,28 +3220,28 @@ var init_index_browser_esm = __esm({
         }
       }
       if ((typeof loc !== "string" || literalPriority) && val && hasOwnProp.call(val, loc)) {
-        addRet(this._trace(x, val[loc], push(path, loc), val, loc, callback, hasArrExpr));
+        addRet(this._trace(x, val[loc], push(path2, loc), val, loc, callback, hasArrExpr));
       } else if (loc === "*") {
         this._walk(val, function(m) {
-          addRet(_this3._trace(x, val[m], push(path, m), val, m, callback, true, true));
+          addRet(_this3._trace(x, val[m], push(path2, m), val, m, callback, true, true));
         });
       } else if (loc === "..") {
-        addRet(this._trace(x, val, path, parent, parentPropName, callback, hasArrExpr));
+        addRet(this._trace(x, val, path2, parent, parentPropName, callback, hasArrExpr));
         this._walk(val, function(m) {
           if (_typeof2(val[m]) === "object") {
-            addRet(_this3._trace(expr.slice(), val[m], push(path, m), val, m, callback, true));
+            addRet(_this3._trace(expr.slice(), val[m], push(path2, m), val, m, callback, true));
           }
         });
       } else if (loc === "^") {
         this._hasParentSelector = true;
         return {
-          path: path.slice(0, -1),
+          path: path2.slice(0, -1),
           expr: x,
           isParentSelector: true
         };
       } else if (loc === "~") {
         retObj = {
-          path: push(path, loc),
+          path: push(path2, loc),
           value: parentPropName,
           parent,
           parentProperty: null
@@ -3245,24 +3249,24 @@ var init_index_browser_esm = __esm({
         this._handleCallback(retObj, callback, "property");
         return retObj;
       } else if (loc === "$") {
-        addRet(this._trace(x, val, path, null, null, callback, hasArrExpr));
+        addRet(this._trace(x, val, path2, null, null, callback, hasArrExpr));
       } else if (/^(\x2D?[0-9]*):(\x2D?[0-9]*):?([0-9]*)$/.test(loc)) {
-        addRet(this._slice(loc, x, val, path, parent, parentPropName, callback));
+        addRet(this._slice(loc, x, val, path2, parent, parentPropName, callback));
       } else if (loc.indexOf("?(") === 0) {
         if (this.currPreventEval) {
           throw new Error("Eval [?(expr)] prevented in JSONPath expression.");
         }
         var safeLoc = loc.replace(/^\?\(((?:[\0-\t\x0B\f\x0E-\u2027\u202A-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])*?)\)$/, "$1");
         this._walk(val, function(m) {
-          if (_this3._eval(safeLoc, val[m], m, path, parent, parentPropName)) {
-            addRet(_this3._trace(x, val[m], push(path, m), val, m, callback, true));
+          if (_this3._eval(safeLoc, val[m], m, path2, parent, parentPropName)) {
+            addRet(_this3._trace(x, val[m], push(path2, m), val, m, callback, true));
           }
         });
       } else if (loc[0] === "(") {
         if (this.currPreventEval) {
           throw new Error("Eval [(expr)] prevented in JSONPath expression.");
         }
-        addRet(this._trace(unshift(this._eval(loc, val, path[path.length - 1], path.slice(0, -1), parent, parentPropName), x), val, path, parent, parentPropName, callback, hasArrExpr));
+        addRet(this._trace(unshift(this._eval(loc, val, path2[path2.length - 1], path2.slice(0, -1), parent, parentPropName), x), val, path2, parent, parentPropName, callback, hasArrExpr));
       } else if (loc[0] === "@") {
         var addType = false;
         var valueType = loc.slice(1, -2);
@@ -3306,7 +3310,7 @@ var init_index_browser_esm = __esm({
             }
             break;
           case "other":
-            addType = this.currOtherTypeCallback(val, path, parent, parentPropName);
+            addType = this.currOtherTypeCallback(val, path2, parent, parentPropName);
             break;
           case "null":
             if (val === null) {
@@ -3318,7 +3322,7 @@ var init_index_browser_esm = __esm({
         }
         if (addType) {
           retObj = {
-            path,
+            path: path2,
             value: val,
             parent,
             parentProperty: parentPropName
@@ -3328,14 +3332,14 @@ var init_index_browser_esm = __esm({
         }
       } else if (loc[0] === "`" && val && hasOwnProp.call(val, loc.slice(1))) {
         var locProp = loc.slice(1);
-        addRet(this._trace(x, val[locProp], push(path, locProp), val, locProp, callback, hasArrExpr, true));
+        addRet(this._trace(x, val[locProp], push(path2, locProp), val, locProp, callback, hasArrExpr, true));
       } else if (loc.includes(",")) {
         var parts = loc.split(",");
         var _iterator = _createForOfIteratorHelper(parts), _step;
         try {
           for (_iterator.s(); !(_step = _iterator.n()).done; ) {
             var part = _step.value;
-            addRet(this._trace(unshift(part, x), val, path, parent, parentPropName, callback, true));
+            addRet(this._trace(unshift(part, x), val, path2, parent, parentPropName, callback, true));
           }
         } catch (err) {
           _iterator.e(err);
@@ -3343,7 +3347,7 @@ var init_index_browser_esm = __esm({
           _iterator.f();
         }
       } else if (!literalPriority && val && hasOwnProp.call(val, loc)) {
-        addRet(this._trace(x, val[loc], push(path, loc), val, loc, callback, hasArrExpr, true));
+        addRet(this._trace(x, val[loc], push(path2, loc), val, loc, callback, hasArrExpr, true));
       }
       if (this._hasParentSelector) {
         for (var t3 = 0; t3 < ret.length; t3++) {
@@ -3377,7 +3381,7 @@ var init_index_browser_esm = __esm({
         });
       }
     };
-    JSONPath.prototype._slice = function(loc, expr, val, path, parent, parentPropName, callback) {
+    JSONPath.prototype._slice = function(loc, expr, val, path2, parent, parentPropName, callback) {
       if (!Array.isArray(val)) {
         return void 0;
       }
@@ -3387,14 +3391,14 @@ var init_index_browser_esm = __esm({
       end2 = end2 < 0 ? Math.max(0, end2 + len) : Math.min(len, end2);
       var ret = [];
       for (var i2 = start2; i2 < end2; i2 += step) {
-        var tmp = this._trace(unshift(i2, expr), val, path, parent, parentPropName, callback, true);
+        var tmp = this._trace(unshift(i2, expr), val, path2, parent, parentPropName, callback, true);
         tmp.forEach(function(t3) {
           ret.push(t3);
         });
       }
       return ret;
     };
-    JSONPath.prototype._eval = function(code, _v, _vname, path, parent, parentPropName) {
+    JSONPath.prototype._eval = function(code, _v, _vname, path2, parent, parentPropName) {
       this.currSandbox._$_parentProperty = parentPropName;
       this.currSandbox._$_parent = parent;
       this.currSandbox._$_property = _vname;
@@ -3402,7 +3406,7 @@ var init_index_browser_esm = __esm({
       this.currSandbox._$_v = _v;
       var containsPath = code.includes("@path");
       if (containsPath) {
-        this.currSandbox._$_path = JSONPath.toPathString(path.concat([_vname]));
+        this.currSandbox._$_path = JSONPath.toPathString(path2.concat([_vname]));
       }
       var scriptCacheKey = "script:" + code;
       if (!JSONPath.cache[scriptCacheKey]) {
@@ -3453,8 +3457,8 @@ var init_index_browser_esm = __esm({
         return ";" + ups.split("").join(";") + ";";
       }).replace(/;;;|;;/g, ";..;").replace(/;$|'?\]|'$/g, "");
       var exprList = normalized.split(";").map(function(exp) {
-        var match = exp.match(/#([0-9]+)/);
-        return !match || !match[1] ? exp : subx[match[1]];
+        var match2 = exp.match(/#([0-9]+)/);
+        return !match2 || !match2[1] ? exp : subx[match2[1]];
       });
       cache[expr] = exprList;
       return cache[expr].concat();
@@ -3557,8 +3561,8 @@ var require_almanac = __commonJS({
         throw new TypeError("Cannot call a class as a function");
       }
     }
-    function defaultPathResolver(value, path) {
-      return (0, _jsonpathPlus.JSONPath)({ path, json: value, wrap: false });
+    function defaultPathResolver(value, path2) {
+      return (0, _jsonpathPlus.JSONPath)({ path: path2, json: value, wrap: false });
     }
     var Almanac = function() {
       function Almanac2() {
@@ -3647,7 +3651,7 @@ var require_almanac = __commonJS({
         value: function factValue(factId) {
           var _this = this;
           var params = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-          var path = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : "";
+          var path2 = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : "";
           var factValuePromise = void 0;
           var fact = this._getFact(factId);
           if (fact === void 0) {
@@ -3670,15 +3674,15 @@ var require_almanac = __commonJS({
               factValuePromise = this._setFactValue(fact, params, fact.calculate(params, this));
             }
           }
-          if (path) {
-            (0, _debug2.default)("condition::evaluate extracting object property " + path);
+          if (path2) {
+            (0, _debug2.default)("condition::evaluate extracting object property " + path2);
             return factValuePromise.then(function(factValue2) {
               if ((0, _lodash2.default)(factValue2)) {
-                var pathValue = _this.pathResolver(factValue2, path);
-                (0, _debug2.default)("condition::evaluate extracting object property " + path + ", received: " + JSON.stringify(pathValue));
+                var pathValue = _this.pathResolver(factValue2, path2);
+                (0, _debug2.default)("condition::evaluate extracting object property " + path2 + ", received: " + JSON.stringify(pathValue));
                 return pathValue;
               } else {
-                (0, _debug2.default)("condition::evaluate could not compute object path(" + path + ") of non-object: " + factValue2 + " <" + (typeof factValue2 === "undefined" ? "undefined" : _typeof3(factValue2)) + ">; continuing with " + factValue2);
+                (0, _debug2.default)("condition::evaluate could not compute object path(" + path2 + ") of non-object: " + factValue2 + " <" + (typeof factValue2 === "undefined" ? "undefined" : _typeof3(factValue2)) + ">; continuing with " + factValue2);
                 return factValue2;
               }
             });
@@ -4670,14 +4674,14 @@ var require_react_development = __commonJS({
         }
         var SEPARATOR = ".";
         var SUBSEPARATOR = ":";
-        function escape2(key) {
+        function escape3(key) {
           var escapeRegex = /[=:]/g;
           var escaperLookup = {
             "=": "=0",
             ":": "=2"
           };
-          var escapedString = key.replace(escapeRegex, function(match) {
-            return escaperLookup[match];
+          var escapedString = key.replace(escapeRegex, function(match2) {
+            return escaperLookup[match2];
           });
           return "$" + escapedString;
         }
@@ -4691,7 +4695,7 @@ var require_react_development = __commonJS({
             {
               checkKeyStringCoercion(element.key);
             }
-            return escape2("" + element.key);
+            return escape3("" + element.key);
           }
           return index.toString(36);
         }
@@ -5243,8 +5247,8 @@ var require_react_development = __commonJS({
               try {
                 throw Error();
               } catch (x) {
-                var match = x.stack.trim().match(/\n( *(at )?)/);
-                prefix = match && match[1] || "";
+                var match2 = x.stack.trim().match(/\n( *(at )?)/);
+                prefix = match2 && match2[1] || "";
               }
             }
             return "\n" + prefix + name;
@@ -7108,8 +7112,8 @@ var require_react_dom_development = __commonJS({
               try {
                 throw Error();
               } catch (x) {
-                var match = x.stack.trim().match(/\n( *(at )?)/);
-                prefix = match && match[1] || "";
+                var match2 = x.stack.trim().match(/\n( *(at )?)/);
+                prefix = match2 && match2[1] || "";
               }
             }
             return "\n" + prefix + name;
@@ -9674,9 +9678,9 @@ var require_react_dom_development = __commonJS({
           }
           var child = node.child;
           while (child !== null) {
-            var match = findCurrentHostFiberImpl(child);
-            if (match !== null) {
-              return match;
+            var match2 = findCurrentHostFiberImpl(child);
+            if (match2 !== null) {
+              return match2;
             }
             child = child.sibling;
           }
@@ -9693,9 +9697,9 @@ var require_react_dom_development = __commonJS({
           var child = node.child;
           while (child !== null) {
             if (child.tag !== HostPortal) {
-              var match = findCurrentHostFiberWithNoPortalsImpl(child);
-              if (match !== null) {
-                return match;
+              var match2 = findCurrentHostFiberWithNoPortalsImpl(child);
+              if (match2 !== null) {
+                return match2;
               }
             }
             child = child.sibling;
@@ -10042,14 +10046,14 @@ var require_react_dom_development = __commonJS({
         var StrictLegacyMode = 8;
         var StrictEffectsMode = 16;
         var clz32 = Math.clz32 ? Math.clz32 : clz32Fallback;
-        var log2 = Math.log;
+        var log3 = Math.log;
         var LN2 = Math.LN2;
         function clz32Fallback(x) {
           var asUint = x >>> 0;
           if (asUint === 0) {
             return 32;
           }
-          return 31 - (log2(asUint) / LN2 | 0) | 0;
+          return 31 - (log3(asUint) / LN2 | 0) | 0;
         }
         var TotalLanes = 31;
         var NoLanes = 0;
@@ -12075,15 +12079,15 @@ var require_react_dom_development = __commonJS({
             if (selection.rangeCount === 1 && selection.anchorNode === startMarker.node && selection.anchorOffset === startMarker.offset && selection.focusNode === endMarker.node && selection.focusOffset === endMarker.offset) {
               return;
             }
-            var range = doc.createRange();
-            range.setStart(startMarker.node, startMarker.offset);
+            var range2 = doc.createRange();
+            range2.setStart(startMarker.node, startMarker.offset);
             selection.removeAllRanges();
             if (start2 > end2) {
-              selection.addRange(range);
+              selection.addRange(range2);
               selection.extend(endMarker.node, endMarker.offset);
             } else {
-              range.setEnd(endMarker.node, endMarker.offset);
-              selection.addRange(range);
+              range2.setEnd(endMarker.node, endMarker.offset);
+              selection.addRange(range2);
             }
           }
         }
@@ -22638,9 +22642,9 @@ var require_react_dom_development = __commonJS({
             }
             case HostRoot:
             case HostPortal: {
-              var _parent = parentFiber.stateNode.containerInfo;
+              var _parent2 = parentFiber.stateNode.containerInfo;
               var _before = getHostSibling(finishedWork);
-              insertOrAppendPlacementNodeIntoContainer(finishedWork, _before, _parent);
+              insertOrAppendPlacementNodeIntoContainer(finishedWork, _before, _parent2);
               break;
             }
             default:
@@ -25270,9 +25274,9 @@ var require_react_dom_development = __commonJS({
               fiber._debugNeedsRemount = true;
             }
             if (needsRemount || needsRender) {
-              var _root = enqueueConcurrentRenderForLane(fiber, SyncLane);
-              if (_root !== null) {
-                scheduleUpdateOnFiber(_root, fiber, SyncLane, NoTimestamp);
+              var _root2 = enqueueConcurrentRenderForLane(fiber, SyncLane);
+              if (_root2 !== null) {
+                scheduleUpdateOnFiber(_root2, fiber, SyncLane, NoTimestamp);
               }
             }
             if (child !== null && !needsRemount) {
@@ -25286,14 +25290,14 @@ var require_react_dom_development = __commonJS({
         var findHostInstancesForRefresh = function(root2, families) {
           {
             var hostInstances = /* @__PURE__ */ new Set();
-            var types = new Set(families.map(function(family) {
+            var types2 = new Set(families.map(function(family) {
               return family.current;
             }));
-            findHostInstancesForMatchingFibersRecursively(root2.current, types, hostInstances);
+            findHostInstancesForMatchingFibersRecursively(root2.current, types2, hostInstances);
             return hostInstances;
           }
         };
-        function findHostInstancesForMatchingFibersRecursively(fiber, types, hostInstances) {
+        function findHostInstancesForMatchingFibersRecursively(fiber, types2, hostInstances) {
           {
             var child = fiber.child, sibling = fiber.sibling, tag = fiber.tag, type = fiber.type;
             var candidateType = null;
@@ -25309,7 +25313,7 @@ var require_react_dom_development = __commonJS({
             }
             var didMatch = false;
             if (candidateType !== null) {
-              if (types.has(candidateType)) {
+              if (types2.has(candidateType)) {
                 didMatch = true;
               }
             }
@@ -25317,11 +25321,11 @@ var require_react_dom_development = __commonJS({
               findHostInstancesForFiberShallowly(fiber, hostInstances);
             } else {
               if (child !== null) {
-                findHostInstancesForMatchingFibersRecursively(child, types, hostInstances);
+                findHostInstancesForMatchingFibersRecursively(child, types2, hostInstances);
               }
             }
             if (sibling !== null) {
-              findHostInstancesForMatchingFibersRecursively(sibling, types, hostInstances);
+              findHostInstancesForMatchingFibersRecursively(sibling, types2, hostInstances);
             }
           }
         }
@@ -26089,10 +26093,10 @@ var require_react_dom_development = __commonJS({
         var setErrorHandler = null;
         var setSuspenseHandler = null;
         {
-          var copyWithDeleteImpl = function(obj, path, index2) {
-            var key = path[index2];
+          var copyWithDeleteImpl = function(obj, path2, index2) {
+            var key = path2[index2];
             var updated = isArray(obj) ? obj.slice() : assign({}, obj);
-            if (index2 + 1 === path.length) {
+            if (index2 + 1 === path2.length) {
               if (isArray(updated)) {
                 updated.splice(key, 1);
               } else {
@@ -26100,11 +26104,11 @@ var require_react_dom_development = __commonJS({
               }
               return updated;
             }
-            updated[key] = copyWithDeleteImpl(obj[key], path, index2 + 1);
+            updated[key] = copyWithDeleteImpl(obj[key], path2, index2 + 1);
             return updated;
           };
-          var copyWithDelete = function(obj, path) {
-            return copyWithDeleteImpl(obj, path, 0);
+          var copyWithDelete = function(obj, path2) {
+            return copyWithDeleteImpl(obj, path2, 0);
           };
           var copyWithRenameImpl = function(obj, oldPath, newPath, index2) {
             var oldKey = oldPath[index2];
@@ -26136,17 +26140,17 @@ var require_react_dom_development = __commonJS({
             }
             return copyWithRenameImpl(obj, oldPath, newPath, 0);
           };
-          var copyWithSetImpl = function(obj, path, index2, value) {
-            if (index2 >= path.length) {
+          var copyWithSetImpl = function(obj, path2, index2, value) {
+            if (index2 >= path2.length) {
               return value;
             }
-            var key = path[index2];
+            var key = path2[index2];
             var updated = isArray(obj) ? obj.slice() : assign({}, obj);
-            updated[key] = copyWithSetImpl(obj[key], path, index2 + 1, value);
+            updated[key] = copyWithSetImpl(obj[key], path2, index2 + 1, value);
             return updated;
           };
-          var copyWithSet = function(obj, path, value) {
-            return copyWithSetImpl(obj, path, 0, value);
+          var copyWithSet = function(obj, path2, value) {
+            return copyWithSetImpl(obj, path2, 0, value);
           };
           var findHook = function(fiber, id) {
             var currentHook2 = fiber.memoizedState;
@@ -26156,10 +26160,10 @@ var require_react_dom_development = __commonJS({
             }
             return currentHook2;
           };
-          overrideHookState = function(fiber, id, path, value) {
+          overrideHookState = function(fiber, id, path2, value) {
             var hook = findHook(fiber, id);
             if (hook !== null) {
-              var newState = copyWithSet(hook.memoizedState, path, value);
+              var newState = copyWithSet(hook.memoizedState, path2, value);
               hook.memoizedState = newState;
               hook.baseState = newState;
               fiber.memoizedProps = assign({}, fiber.memoizedProps);
@@ -26169,10 +26173,10 @@ var require_react_dom_development = __commonJS({
               }
             }
           };
-          overrideHookStateDeletePath = function(fiber, id, path) {
+          overrideHookStateDeletePath = function(fiber, id, path2) {
             var hook = findHook(fiber, id);
             if (hook !== null) {
-              var newState = copyWithDelete(hook.memoizedState, path);
+              var newState = copyWithDelete(hook.memoizedState, path2);
               hook.memoizedState = newState;
               hook.baseState = newState;
               fiber.memoizedProps = assign({}, fiber.memoizedProps);
@@ -26195,8 +26199,8 @@ var require_react_dom_development = __commonJS({
               }
             }
           };
-          overrideProps = function(fiber, path, value) {
-            fiber.pendingProps = copyWithSet(fiber.memoizedProps, path, value);
+          overrideProps = function(fiber, path2, value) {
+            fiber.pendingProps = copyWithSet(fiber.memoizedProps, path2, value);
             if (fiber.alternate) {
               fiber.alternate.pendingProps = fiber.pendingProps;
             }
@@ -26205,8 +26209,8 @@ var require_react_dom_development = __commonJS({
               scheduleUpdateOnFiber(root2, fiber, SyncLane, NoTimestamp);
             }
           };
-          overridePropsDeletePath = function(fiber, path) {
-            fiber.pendingProps = copyWithDelete(fiber.memoizedProps, path);
+          overridePropsDeletePath = function(fiber, path2) {
+            fiber.pendingProps = copyWithDelete(fiber.memoizedProps, path2);
             if (fiber.alternate) {
               fiber.alternate.pendingProps = fiber.pendingProps;
             }
@@ -26496,19 +26500,19 @@ var require_react_dom_development = __commonJS({
             if (typeof callback === "function") {
               var _originalCallback = callback;
               callback = function() {
-                var instance2 = getPublicRootInstance(_root);
+                var instance2 = getPublicRootInstance(_root2);
                 _originalCallback.call(instance2);
               };
             }
-            var _root = createContainer2(container, LegacyRoot, null, false, false, "", noopOnRecoverableError);
-            container._reactRootContainer = _root;
-            markContainerAsRoot(_root.current, container);
+            var _root2 = createContainer2(container, LegacyRoot, null, false, false, "", noopOnRecoverableError);
+            container._reactRootContainer = _root2;
+            markContainerAsRoot(_root2.current, container);
             var _rootContainerElement = container.nodeType === COMMENT_NODE ? container.parentNode : container;
             listenToAllSupportedEvents(_rootContainerElement);
             flushSync2(function() {
-              updateContainer(initialChildren, _root, parentComponent, callback);
+              updateContainer(initialChildren, _root2, parentComponent, callback);
             });
-            return _root;
+            return _root2;
           }
         }
         function warnOnInvalidCallback$1(callback, callerName) {
@@ -28101,8 +28105,8 @@ var require_getDisplayName = __commonJS({
     var _reactIs = require_react_is2();
     var fnNameMatchRegex = /^\s*function(?:\s|\s*\/\*.*\*\/\s*)+([^(\s/]*)\s*/;
     function getFunctionName(fn2) {
-      const match = `${fn2}`.match(fnNameMatchRegex);
-      const name = match && match[1];
+      const match2 = `${fn2}`.match(fnNameMatchRegex);
+      const name = match2 && match2[1];
       return name || "";
     }
     function getFunctionComponentName(Component5, fallback = "") {
@@ -31318,8 +31322,8 @@ var require_react_jsx_runtime_development = __commonJS({
               try {
                 throw Error();
               } catch (x) {
-                var match = x.stack.trim().match(/\n( *(at )?)/);
-                prefix = match && match[1] || "";
+                var match2 = x.stack.trim().match(/\n( *(at )?)/);
+                prefix = match2 && match2[1] || "";
               }
             }
             return "\n" + prefix + name;
@@ -33639,7 +33643,7 @@ var require_emotion_serialize_cjs = __commonJS({
         case "animation":
         case "animationName": {
           if (typeof value === "string") {
-            return value.replace(animationRegex, function(match, p1, p2) {
+            return value.replace(animationRegex, function(match2, p1, p2) {
               cursor = {
                 name: p1,
                 styles: p2,
@@ -33783,9 +33787,9 @@ var require_emotion_serialize_cjs = __commonJS({
       }
       labelPattern.lastIndex = 0;
       var identifierName = "";
-      var match;
-      while ((match = labelPattern.exec(styles7)) !== null) {
-        identifierName += "-" + match[1];
+      var match2;
+      while ((match2 = labelPattern.exec(styles7)) !== null) {
+        identifierName += "-" + match2[1];
       }
       var name = hashString__default["default"](styles7) + identifierName;
       return {
@@ -35061,17 +35065,17 @@ var require_style = __commonJS({
     var _capitalize = _interopRequireDefault(require_capitalize2());
     var _responsivePropType = _interopRequireDefault(require_responsivePropType());
     var _breakpoints = require_breakpoints();
-    function getPath3(obj, path, checkVars = true) {
-      if (!path || typeof path !== "string") {
+    function getPath3(obj, path2, checkVars = true) {
+      if (!path2 || typeof path2 !== "string") {
         return null;
       }
       if (obj && obj.vars && checkVars) {
-        const val = `vars.${path}`.split(".").reduce((acc, item) => acc && acc[item] ? acc[item] : null, obj);
+        const val = `vars.${path2}`.split(".").reduce((acc, item) => acc && acc[item] ? acc[item] : null, obj);
         if (val != null) {
           return val;
         }
       }
-      return path.split(".").reduce((acc, item) => {
+      return path2.split(".").reduce((acc, item) => {
         if (acc && acc[item] != null) {
           return acc[item];
         }
@@ -38041,13 +38045,13 @@ var require_createSvgIcon = __commonJS({
         }
       return n2.default = e2, t3 && t3.set(e2, n2), n2;
     }
-    function createSvgIcon3(path, displayName) {
+    function createSvgIcon3(path2, displayName) {
       function Component5(props, ref) {
         return /* @__PURE__ */ (0, _jsxRuntime.jsx)(_SvgIcon.default, (0, _extends2.default)({
           "data-testid": `${displayName}Icon`,
           ref
         }, props, {
-          children: path
+          children: path2
         }));
       }
       if (true) {
@@ -39102,9 +39106,9 @@ var require_lodash2 = __commonJS({
       var freeProcess = moduleExports && freeGlobal.process;
       var nodeUtil = function() {
         try {
-          var types = freeModule && freeModule.require && freeModule.require("util").types;
-          if (types) {
-            return types;
+          var types2 = freeModule && freeModule.require && freeModule.require("util").types;
+          if (types2) {
+            return types2;
           }
           return freeProcess && freeProcess.binding && freeProcess.binding("util");
         } catch (e2) {
@@ -40054,11 +40058,11 @@ var require_lodash2 = __commonJS({
             return isFunction(object[key]);
           });
         }
-        function baseGet(object, path) {
-          path = castPath(path, object);
-          var index = 0, length = path.length;
+        function baseGet(object, path2) {
+          path2 = castPath(path2, object);
+          var index = 0, length = path2.length;
           while (object != null && index < length) {
-            object = object[toKey(path[index++])];
+            object = object[toKey(path2[index++])];
           }
           return index && index == length ? object : undefined2;
         }
@@ -40122,10 +40126,10 @@ var require_lodash2 = __commonJS({
           });
           return accumulator;
         }
-        function baseInvoke(object, path, args) {
-          path = castPath(path, object);
-          object = parent(object, path);
-          var func = object == null ? object : object[toKey(last(path))];
+        function baseInvoke(object, path2, args) {
+          path2 = castPath(path2, object);
+          object = parent(object, path2);
+          var func = object == null ? object : object[toKey(last(path2))];
           return func == null ? undefined2 : apply(func, object, args);
         }
         function baseIsArguments(value) {
@@ -40281,13 +40285,13 @@ var require_lodash2 = __commonJS({
             return object === source || baseIsMatch(object, source, matchData);
           };
         }
-        function baseMatchesProperty(path, srcValue) {
-          if (isKey(path) && isStrictComparable(srcValue)) {
-            return matchesStrictComparable(toKey(path), srcValue);
+        function baseMatchesProperty(path2, srcValue) {
+          if (isKey(path2) && isStrictComparable(srcValue)) {
+            return matchesStrictComparable(toKey(path2), srcValue);
           }
           return function(object) {
-            var objValue = get2(object, path);
-            return objValue === undefined2 && objValue === srcValue ? hasIn(object, path) : baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG);
+            var objValue = get2(object, path2);
+            return objValue === undefined2 && objValue === srcValue ? hasIn(object, path2) : baseIsEqual(srcValue, objValue, COMPARE_PARTIAL_FLAG | COMPARE_UNORDERED_FLAG);
           };
         }
         function baseMerge(object, source, srcIndex, customizer, stack) {
@@ -40384,23 +40388,23 @@ var require_lodash2 = __commonJS({
           });
         }
         function basePick(object, paths) {
-          return basePickBy(object, paths, function(value, path) {
-            return hasIn(object, path);
+          return basePickBy(object, paths, function(value, path2) {
+            return hasIn(object, path2);
           });
         }
         function basePickBy(object, paths, predicate) {
           var index = -1, length = paths.length, result2 = {};
           while (++index < length) {
-            var path = paths[index], value = baseGet(object, path);
-            if (predicate(value, path)) {
-              baseSet(result2, castPath(path, object), value);
+            var path2 = paths[index], value = baseGet(object, path2);
+            if (predicate(value, path2)) {
+              baseSet(result2, castPath(path2, object), value);
             }
           }
           return result2;
         }
-        function basePropertyDeep(path) {
+        function basePropertyDeep(path2) {
           return function(object) {
-            return baseGet(object, path);
+            return baseGet(object, path2);
           };
         }
         function basePullAll(array, values4, iteratee2, comparator) {
@@ -40474,14 +40478,14 @@ var require_lodash2 = __commonJS({
           var array = values3(collection);
           return shuffleSelf(array, baseClamp(n2, 0, array.length));
         }
-        function baseSet(object, path, value, customizer) {
+        function baseSet(object, path2, value, customizer) {
           if (!isObject(object)) {
             return object;
           }
-          path = castPath(path, object);
-          var index = -1, length = path.length, lastIndex = length - 1, nested = object;
+          path2 = castPath(path2, object);
+          var index = -1, length = path2.length, lastIndex = length - 1, nested = object;
           while (nested != null && ++index < length) {
-            var key = toKey(path[index]), newValue = value;
+            var key = toKey(path2[index]), newValue = value;
             if (key === "__proto__" || key === "constructor" || key === "prototype") {
               return object;
             }
@@ -40489,7 +40493,7 @@ var require_lodash2 = __commonJS({
               var objValue = nested[key];
               newValue = customizer ? customizer(objValue, key, nested) : undefined2;
               if (newValue === undefined2) {
-                newValue = isObject(objValue) ? objValue : isIndex(path[index + 1]) ? [] : {};
+                newValue = isObject(objValue) ? objValue : isIndex(path2[index + 1]) ? [] : {};
               }
             }
             assignValue(nested, key, newValue);
@@ -40655,13 +40659,13 @@ var require_lodash2 = __commonJS({
             }
           return result2;
         }
-        function baseUnset(object, path) {
-          path = castPath(path, object);
-          object = parent(object, path);
-          return object == null || delete object[toKey(last(path))];
+        function baseUnset(object, path2) {
+          path2 = castPath(path2, object);
+          object = parent(object, path2);
+          return object == null || delete object[toKey(last(path2))];
         }
-        function baseUpdate(object, path, updater, customizer) {
-          return baseSet(object, path, updater(baseGet(object, path)), customizer);
+        function baseUpdate(object, path2, updater, customizer) {
+          return baseSet(object, path2, updater(baseGet(object, path2)), customizer);
         }
         function baseWhile(array, predicate, isDrop, fromRight) {
           var length = array.length, index = fromRight ? length : -1;
@@ -41519,14 +41523,14 @@ var require_lodash2 = __commonJS({
           return { "start": start2, "end": end2 };
         }
         function getWrapDetails(source) {
-          var match = source.match(reWrapDetails);
-          return match ? match[1].split(reSplitDetails) : [];
+          var match2 = source.match(reWrapDetails);
+          return match2 ? match2[1].split(reSplitDetails) : [];
         }
-        function hasPath(object, path, hasFunc) {
-          path = castPath(path, object);
-          var index = -1, length = path.length, result2 = false;
+        function hasPath(object, path2, hasFunc) {
+          path2 = castPath(path2, object);
+          var index = -1, length = path2.length, result2 = false;
           while (++index < length) {
-            var key = toKey(path[index]);
+            var key = toKey(path2[index]);
             if (!(result2 = object != null && hasFunc(object, key))) {
               break;
             }
@@ -41728,8 +41732,8 @@ var require_lodash2 = __commonJS({
             return apply(func, this, otherArgs);
           };
         }
-        function parent(object, path) {
-          return path.length < 2 ? object : baseGet(object, baseSlice(path, 0, -1));
+        function parent(object, path2) {
+          return path2.length < 2 ? object : baseGet(object, baseSlice(path2, 0, -1));
         }
         function reorder(array, indexes) {
           var arrLength = array.length, length = nativeMin(indexes.length, arrLength), oldArray = copyArray(array);
@@ -41788,8 +41792,8 @@ var require_lodash2 = __commonJS({
           if (string2.charCodeAt(0) === 46) {
             result2.push("");
           }
-          string2.replace(rePropName, function(match, number, quote, subString) {
-            result2.push(quote ? subString.replace(reEscapeChar, "$1") : number || match);
+          string2.replace(rePropName, function(match2, number, quote, subString) {
+            result2.push(quote ? subString.replace(reEscapeChar, "$1") : number || match2);
           });
           return result2;
         });
@@ -42324,7 +42328,7 @@ var require_lodash2 = __commonJS({
           }
           return func(collection, getIteratee(predicate, 3));
         }
-        function filter(collection, predicate) {
+        function filter2(collection, predicate) {
           var func = isArray(collection) ? arrayFilter : baseFilter;
           return func(collection, getIteratee(predicate, 3));
         }
@@ -42364,10 +42368,10 @@ var require_lodash2 = __commonJS({
           }
           return isString(collection) ? fromIndex <= length && collection.indexOf(value, fromIndex) > -1 : !!length && baseIndexOf(collection, value, fromIndex) > -1;
         }
-        var invokeMap = baseRest(function(collection, path, args) {
-          var index = -1, isFunc = typeof path == "function", result2 = isArrayLike(collection) ? Array2(collection.length) : [];
+        var invokeMap = baseRest(function(collection, path2, args) {
+          var index = -1, isFunc = typeof path2 == "function", result2 = isArrayLike(collection) ? Array2(collection.length) : [];
           baseEach(collection, function(value) {
-            result2[++index] = isFunc ? apply(path, value, args) : baseInvoke(value, path, args);
+            result2[++index] = isFunc ? apply(path2, value, args) : baseInvoke(value, path2, args);
           });
           return result2;
         });
@@ -42740,7 +42744,7 @@ var require_lodash2 = __commonJS({
           return value === other || value !== value && other !== other;
         }
         var gt = createRelationalOperation(baseGt);
-        var gte = createRelationalOperation(function(value, other) {
+        var gte2 = createRelationalOperation(function(value, other) {
           return value >= other;
         });
         var isArguments = baseIsArguments(function() {
@@ -42882,7 +42886,7 @@ var require_lodash2 = __commonJS({
           return isObjectLike(value) && baseGetTag(value) == weakSetTag;
         }
         var lt = createRelationalOperation(baseLt);
-        var lte = createRelationalOperation(function(value, other) {
+        var lte2 = createRelationalOperation(function(value, other) {
           return value <= other;
         });
         function toArray(value) {
@@ -42968,7 +42972,7 @@ var require_lodash2 = __commonJS({
           var result2 = baseCreate(prototype);
           return properties2 == null ? result2 : baseAssign(result2, properties2);
         }
-        var defaults = baseRest(function(object, sources) {
+        var defaults2 = baseRest(function(object, sources) {
           object = Object2(object);
           var index = -1;
           var length = sources.length;
@@ -43019,15 +43023,15 @@ var require_lodash2 = __commonJS({
         function functionsIn(object) {
           return object == null ? [] : baseFunctions(object, keysIn(object));
         }
-        function get2(object, path, defaultValue) {
-          var result2 = object == null ? undefined2 : baseGet(object, path);
+        function get2(object, path2, defaultValue) {
+          var result2 = object == null ? undefined2 : baseGet(object, path2);
           return result2 === undefined2 ? defaultValue : result2;
         }
-        function has(object, path) {
-          return object != null && hasPath(object, path, baseHas);
+        function has(object, path2) {
+          return object != null && hasPath(object, path2, baseHas);
         }
-        function hasIn(object, path) {
-          return object != null && hasPath(object, path, baseHasIn);
+        function hasIn(object, path2) {
+          return object != null && hasPath(object, path2, baseHasIn);
         }
         var invert = createInverter(function(result2, value, key) {
           if (value != null && typeof value.toString != "function") {
@@ -43080,10 +43084,10 @@ var require_lodash2 = __commonJS({
             return result2;
           }
           var isDeep = false;
-          paths = arrayMap(paths, function(path) {
-            path = castPath(path, object);
-            isDeep || (isDeep = path.length > 1);
-            return path;
+          paths = arrayMap(paths, function(path2) {
+            path2 = castPath(path2, object);
+            isDeep || (isDeep = path2.length > 1);
+            return path2;
           });
           copyObject(object, getAllKeysIn(object), result2);
           if (isDeep) {
@@ -43109,19 +43113,19 @@ var require_lodash2 = __commonJS({
             return [prop];
           });
           predicate = getIteratee(predicate);
-          return basePickBy(object, props, function(value, path) {
-            return predicate(value, path[0]);
+          return basePickBy(object, props, function(value, path2) {
+            return predicate(value, path2[0]);
           });
         }
-        function result(object, path, defaultValue) {
-          path = castPath(path, object);
-          var index = -1, length = path.length;
+        function result(object, path2, defaultValue) {
+          path2 = castPath(path2, object);
+          var index = -1, length = path2.length;
           if (!length) {
             length = 1;
             object = undefined2;
           }
           while (++index < length) {
-            var value = object == null ? undefined2 : object[toKey(path[index])];
+            var value = object == null ? undefined2 : object[toKey(path2[index])];
             if (value === undefined2) {
               index = length;
               value = defaultValue;
@@ -43130,12 +43134,12 @@ var require_lodash2 = __commonJS({
           }
           return object;
         }
-        function set2(object, path, value) {
-          return object == null ? object : baseSet(object, path, value);
+        function set2(object, path2, value) {
+          return object == null ? object : baseSet(object, path2, value);
         }
-        function setWith(object, path, value, customizer) {
+        function setWith(object, path2, value, customizer) {
           customizer = typeof customizer == "function" ? customizer : undefined2;
-          return object == null ? object : baseSet(object, path, value, customizer);
+          return object == null ? object : baseSet(object, path2, value, customizer);
         }
         var toPairs = createToPairs(keys);
         var toPairsIn = createToPairs(keysIn);
@@ -43157,15 +43161,15 @@ var require_lodash2 = __commonJS({
           });
           return accumulator;
         }
-        function unset(object, path) {
-          return object == null ? true : baseUnset(object, path);
+        function unset(object, path2) {
+          return object == null ? true : baseUnset(object, path2);
         }
-        function update(object, path, updater) {
-          return object == null ? object : baseUpdate(object, path, castFunction(updater));
+        function update(object, path2, updater) {
+          return object == null ? object : baseUpdate(object, path2, castFunction(updater));
         }
-        function updateWith(object, path, updater, customizer) {
+        function updateWith(object, path2, updater, customizer) {
           customizer = typeof customizer == "function" ? customizer : undefined2;
-          return object == null ? object : baseUpdate(object, path, castFunction(updater), customizer);
+          return object == null ? object : baseUpdate(object, path2, castFunction(updater), customizer);
         }
         function values3(object) {
           return object == null ? [] : baseValues(object, keys(object));
@@ -43255,11 +43259,11 @@ var require_lodash2 = __commonJS({
           position -= target.length;
           return position >= 0 && string2.slice(position, end2) == target;
         }
-        function escape2(string2) {
+        function escape3(string2) {
           string2 = toString(string2);
           return string2 && reHasUnescapedHtml.test(string2) ? string2.replace(reUnescapedHtml, escapeHtmlChar) : string2;
         }
-        function escapeRegExp(string2) {
+        function escapeRegExp2(string2) {
           string2 = toString(string2);
           return string2 && reHasRegExpChar.test(string2) ? string2.replace(reRegExpChar, "\\$&") : string2;
         }
@@ -43352,7 +43356,7 @@ var require_lodash2 = __commonJS({
           var isEscaping, isEvaluating, index = 0, interpolate = options.interpolate || reNoMatch, source = "__p += '";
           var reDelimiters = RegExp2((options.escape || reNoMatch).source + "|" + interpolate.source + "|" + (interpolate === reInterpolate ? reEsTemplate : reNoMatch).source + "|" + (options.evaluate || reNoMatch).source + "|$", "g");
           var sourceURL = "//# sourceURL=" + (hasOwnProperty.call(options, "sourceURL") ? (options.sourceURL + "").replace(/\s/g, " ") : "lodash.templateSources[" + ++templateCounter + "]") + "\n";
-          string2.replace(reDelimiters, function(match, escapeValue, interpolateValue, esTemplateValue, evaluateValue, offset2) {
+          string2.replace(reDelimiters, function(match2, escapeValue, interpolateValue, esTemplateValue, evaluateValue, offset2) {
             interpolateValue || (interpolateValue = esTemplateValue);
             source += string2.slice(index, offset2).replace(reUnescapedString, escapeStringChar);
             if (escapeValue) {
@@ -43366,8 +43370,8 @@ var require_lodash2 = __commonJS({
             if (interpolateValue) {
               source += "' +\n((__t = (" + interpolateValue + ")) == null ? '' : __t) +\n'";
             }
-            index = offset2 + match.length;
-            return match;
+            index = offset2 + match2.length;
+            return match2;
           });
           source += "';\n";
           var variable = hasOwnProperty.call(options, "variable") && options.variable;
@@ -43455,13 +43459,13 @@ var require_lodash2 = __commonJS({
           }
           if (isRegExp(separator)) {
             if (string2.slice(end2).search(separator)) {
-              var match, substring = result2;
+              var match2, substring = result2;
               if (!separator.global) {
                 separator = RegExp2(separator.source, toString(reFlags.exec(separator)) + "g");
               }
               separator.lastIndex = 0;
-              while (match = separator.exec(substring)) {
-                var newEnd = match.index;
+              while (match2 = separator.exec(substring)) {
+                var newEnd = match2.index;
               }
               result2 = result2.slice(0, newEnd === undefined2 ? end2 : newEnd);
             }
@@ -43473,7 +43477,7 @@ var require_lodash2 = __commonJS({
           }
           return result2 + omission;
         }
-        function unescape3(string2) {
+        function unescape4(string2) {
           string2 = toString(string2);
           return string2 && reHasEscapedHtml.test(string2) ? string2.replace(reEscapedHtml, unescapeHtmlChar) : string2;
         }
@@ -43543,17 +43547,17 @@ var require_lodash2 = __commonJS({
         function matches(source) {
           return baseMatches(baseClone(source, CLONE_DEEP_FLAG));
         }
-        function matchesProperty(path, srcValue) {
-          return baseMatchesProperty(path, baseClone(srcValue, CLONE_DEEP_FLAG));
+        function matchesProperty(path2, srcValue) {
+          return baseMatchesProperty(path2, baseClone(srcValue, CLONE_DEEP_FLAG));
         }
-        var method = baseRest(function(path, args) {
+        var method = baseRest(function(path2, args) {
           return function(object) {
-            return baseInvoke(object, path, args);
+            return baseInvoke(object, path2, args);
           };
         });
         var methodOf = baseRest(function(object, args) {
-          return function(path) {
-            return baseInvoke(object, path, args);
+          return function(path2) {
+            return baseInvoke(object, path2, args);
           };
         });
         function mixin(object, source, options) {
@@ -43600,15 +43604,15 @@ var require_lodash2 = __commonJS({
         var over = createOver(arrayMap);
         var overEvery = createOver(arrayEvery);
         var overSome = createOver(arraySome);
-        function property(path) {
-          return isKey(path) ? baseProperty(toKey(path)) : basePropertyDeep(path);
+        function property(path2) {
+          return isKey(path2) ? baseProperty(toKey(path2)) : basePropertyDeep(path2);
         }
         function propertyOf(object) {
-          return function(path) {
-            return object == null ? undefined2 : baseGet(object, path);
+          return function(path2) {
+            return object == null ? undefined2 : baseGet(object, path2);
           };
         }
-        var range = createRange();
+        var range2 = createRange();
         var rangeRight = createRange(true);
         function stubArray() {
           return [];
@@ -43712,7 +43716,7 @@ var require_lodash2 = __commonJS({
         lodash.curry = curry;
         lodash.curryRight = curryRight;
         lodash.debounce = debounce5;
-        lodash.defaults = defaults;
+        lodash.defaults = defaults2;
         lodash.defaultsDeep = defaultsDeep;
         lodash.defer = defer2;
         lodash.delay = delay;
@@ -43724,7 +43728,7 @@ var require_lodash2 = __commonJS({
         lodash.dropRightWhile = dropRightWhile;
         lodash.dropWhile = dropWhile;
         lodash.fill = fill;
-        lodash.filter = filter;
+        lodash.filter = filter2;
         lodash.flatMap = flatMap;
         lodash.flatMapDeep = flatMapDeep;
         lodash.flatMapDepth = flatMapDepth;
@@ -43782,7 +43786,7 @@ var require_lodash2 = __commonJS({
         lodash.pullAllBy = pullAllBy;
         lodash.pullAllWith = pullAllWith;
         lodash.pullAt = pullAt;
-        lodash.range = range;
+        lodash.range = range2;
         lodash.rangeRight = rangeRight;
         lodash.rearg = rearg;
         lodash.reject = reject;
@@ -43858,8 +43862,8 @@ var require_lodash2 = __commonJS({
         lodash.divide = divide;
         lodash.endsWith = endsWith;
         lodash.eq = eq;
-        lodash.escape = escape2;
-        lodash.escapeRegExp = escapeRegExp;
+        lodash.escape = escape3;
+        lodash.escapeRegExp = escapeRegExp2;
         lodash.every = every;
         lodash.find = find;
         lodash.findIndex = findIndex2;
@@ -43876,7 +43880,7 @@ var require_lodash2 = __commonJS({
         lodash.forOwnRight = forOwnRight;
         lodash.get = get2;
         lodash.gt = gt;
-        lodash.gte = gte;
+        lodash.gte = gte2;
         lodash.has = has;
         lodash.hasIn = hasIn;
         lodash.head = head;
@@ -43929,7 +43933,7 @@ var require_lodash2 = __commonJS({
         lodash.lowerCase = lowerCase;
         lodash.lowerFirst = lowerFirst;
         lodash.lt = lt;
-        lodash.lte = lte;
+        lodash.lte = lte2;
         lodash.max = max2;
         lodash.maxBy = maxBy;
         lodash.mean = mean;
@@ -43987,7 +43991,7 @@ var require_lodash2 = __commonJS({
         lodash.trimEnd = trimEnd;
         lodash.trimStart = trimStart;
         lodash.truncate = truncate;
-        lodash.unescape = unescape3;
+        lodash.unescape = unescape4;
         lodash.uniqueId = uniqueId;
         lodash.upperCase = upperCase;
         lodash.upperFirst = upperFirst;
@@ -44058,12 +44062,12 @@ var require_lodash2 = __commonJS({
         LazyWrapper.prototype.findLast = function(predicate) {
           return this.reverse().find(predicate);
         };
-        LazyWrapper.prototype.invokeMap = baseRest(function(path, args) {
-          if (typeof path == "function") {
+        LazyWrapper.prototype.invokeMap = baseRest(function(path2, args) {
+          if (typeof path2 == "function") {
             return new LazyWrapper(this);
           }
           return this.map(function(value) {
-            return baseInvoke(value, path, args);
+            return baseInvoke(value, path2, args);
           });
         });
         LazyWrapper.prototype.reject = function(predicate) {
@@ -44182,8 +44186,10 @@ var require_lodash2 = __commonJS({
 // main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => AOSRPlugin,
+  default: () => AOSRPlugin2,
   getAppInstance: () => getAppInstance,
+  log: () => log2,
+  logTrueExpr: () => logTrueExpr2,
   setAppInstance: () => setAppInstance
 });
 module.exports = __toCommonJS(main_exports);
@@ -44395,7 +44401,7 @@ var Logger = function() {
     }
   }, {
     key: "log",
-    value: function log2() {
+    value: function log3() {
       for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
         args[_key] = arguments[_key];
       }
@@ -44524,14 +44530,14 @@ function copy(a2, s2, t3) {
       t3[m] = s2[m];
   });
 }
-function getLastOfPath(object, path, Empty) {
+function getLastOfPath(object, path2, Empty) {
   function cleanKey(key2) {
     return key2 && key2.indexOf("###") > -1 ? key2.replace(/###/g, ".") : key2;
   }
   function canNotTraverseDeeper() {
     return !object || typeof object === "string";
   }
-  var stack = typeof path !== "string" ? [].concat(path) : path.split(".");
+  var stack = typeof path2 !== "string" ? [].concat(path2) : path2.split(".");
   while (stack.length > 1) {
     if (canNotTraverseDeeper())
       return {};
@@ -44551,20 +44557,20 @@ function getLastOfPath(object, path, Empty) {
     k: cleanKey(stack.shift())
   };
 }
-function setPath(object, path, newValue) {
-  var _getLastOfPath = getLastOfPath(object, path, Object), obj = _getLastOfPath.obj, k = _getLastOfPath.k;
+function setPath(object, path2, newValue) {
+  var _getLastOfPath = getLastOfPath(object, path2, Object), obj = _getLastOfPath.obj, k = _getLastOfPath.k;
   obj[k] = newValue;
 }
-function pushPath(object, path, newValue, concat) {
-  var _getLastOfPath2 = getLastOfPath(object, path, Object), obj = _getLastOfPath2.obj, k = _getLastOfPath2.k;
+function pushPath(object, path2, newValue, concat) {
+  var _getLastOfPath2 = getLastOfPath(object, path2, Object), obj = _getLastOfPath2.obj, k = _getLastOfPath2.k;
   obj[k] = obj[k] || [];
   if (concat)
     obj[k] = obj[k].concat(newValue);
   if (!concat)
     obj[k].push(newValue);
 }
-function getPath(object, path) {
-  var _getLastOfPath3 = getLastOfPath(object, path), obj = _getLastOfPath3.obj, k = _getLastOfPath3.k;
+function getPath(object, path2) {
+  var _getLastOfPath3 = getLastOfPath(object, path2), obj = _getLastOfPath3.obj, k = _getLastOfPath3.k;
   if (!obj)
     return void 0;
   return obj[k];
@@ -44634,13 +44640,13 @@ function looksLikeObjectPath(key, nsSeparator, keySeparator) {
   }
   return matched;
 }
-function deepFind(obj, path) {
+function deepFind(obj, path2) {
   var keySeparator = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : ".";
   if (!obj)
     return void 0;
-  if (obj[path])
-    return obj[path];
-  var paths = path.split(keySeparator);
+  if (obj[path2])
+    return obj[path2];
+  var paths = path2.split(keySeparator);
   var current = obj;
   for (var i2 = 0; i2 < paths.length; ++i2) {
     if (!current)
@@ -44661,7 +44667,7 @@ function deepFind(obj, path) {
         return void 0;
       if (mix === null)
         return null;
-      if (path.endsWith(p)) {
+      if (path2.endsWith(p)) {
         if (typeof mix === "string")
           return mix;
         if (p && typeof mix[p] === "string")
@@ -44770,15 +44776,15 @@ var ResourceStore = function(_EventEmitter) {
       var options = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
       var keySeparator = options.keySeparator !== void 0 ? options.keySeparator : this.options.keySeparator;
       var ignoreJSONStructure = options.ignoreJSONStructure !== void 0 ? options.ignoreJSONStructure : this.options.ignoreJSONStructure;
-      var path = [lng, ns];
+      var path2 = [lng, ns];
       if (key && typeof key !== "string")
-        path = path.concat(key);
+        path2 = path2.concat(key);
       if (key && typeof key === "string")
-        path = path.concat(keySeparator ? key.split(keySeparator) : key);
+        path2 = path2.concat(keySeparator ? key.split(keySeparator) : key);
       if (lng.indexOf(".") > -1) {
-        path = lng.split(".");
+        path2 = lng.split(".");
       }
-      var result = getPath(this.data, path);
+      var result = getPath(this.data, path2);
       if (result || !ignoreJSONStructure || typeof key !== "string")
         return result;
       return deepFind(this.data && this.data[lng] && this.data[lng][ns], key, keySeparator);
@@ -44790,16 +44796,16 @@ var ResourceStore = function(_EventEmitter) {
         silent: false
       };
       var keySeparator = options.keySeparator !== void 0 ? options.keySeparator : this.options.keySeparator;
-      var path = [lng, ns];
+      var path2 = [lng, ns];
       if (key)
-        path = path.concat(keySeparator ? key.split(keySeparator) : key);
+        path2 = path2.concat(keySeparator ? key.split(keySeparator) : key);
       if (lng.indexOf(".") > -1) {
-        path = lng.split(".");
+        path2 = lng.split(".");
         value = ns;
-        ns = path[1];
+        ns = path2[1];
       }
       this.addNamespaces(ns);
-      setPath(this.data, path, value);
+      setPath(this.data, path2, value);
       if (!options.silent)
         this.emit("added", lng, ns, key, value);
     }
@@ -44824,21 +44830,21 @@ var ResourceStore = function(_EventEmitter) {
       var options = arguments.length > 5 && arguments[5] !== void 0 ? arguments[5] : {
         silent: false
       };
-      var path = [lng, ns];
+      var path2 = [lng, ns];
       if (lng.indexOf(".") > -1) {
-        path = lng.split(".");
+        path2 = lng.split(".");
         deep = resources;
         resources = ns;
-        ns = path[1];
+        ns = path2[1];
       }
       this.addNamespaces(ns);
-      var pack = getPath(this.data, path) || {};
+      var pack = getPath(this.data, path2) || {};
       if (deep) {
         deepExtend(pack, resources, overwrite);
       } else {
         pack = _objectSpread$5(_objectSpread$5({}, pack), resources);
       }
-      setPath(this.data, path, pack);
+      setPath(this.data, path2, pack);
       if (!options.silent)
         this.emit("added", lng, ns, resources);
     }
@@ -45835,13 +45841,13 @@ function _objectSpread$3(target) {
 function deepFindWithDefaults(data, defaultData, key) {
   var keySeparator = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : ".";
   var ignoreJSONStructure = arguments.length > 4 && arguments[4] !== void 0 ? arguments[4] : true;
-  var path = getPathWithDefaults(data, defaultData, key);
-  if (!path && ignoreJSONStructure && typeof key === "string") {
-    path = deepFind(data, key, keySeparator);
-    if (path === void 0)
-      path = deepFind(defaultData, key, keySeparator);
+  var path2 = getPathWithDefaults(data, defaultData, key);
+  if (!path2 && ignoreJSONStructure && typeof key === "string") {
+    path2 = deepFind(data, key, keySeparator);
+    if (path2 === void 0)
+      path2 = deepFind(defaultData, key, keySeparator);
   }
-  return path;
+  return path2;
 }
 var Interpolator = function() {
   function Interpolator2() {
@@ -45898,7 +45904,7 @@ var Interpolator = function() {
     key: "interpolate",
     value: function interpolate(str, data, lng, options) {
       var _this = this;
-      var match;
+      var match2;
       var value;
       var replaces;
       var defaultData = this.options && this.options.interpolation && this.options.interpolation.defaultVariables || {};
@@ -45907,10 +45913,10 @@ var Interpolator = function() {
       }
       var handleFormat = function handleFormat2(key) {
         if (key.indexOf(_this.formatSeparator) < 0) {
-          var path = deepFindWithDefaults(data, defaultData, key, _this.options.keySeparator, _this.options.ignoreJSONStructure);
-          return _this.alwaysFormat ? _this.format(path, void 0, lng, _objectSpread$3(_objectSpread$3(_objectSpread$3({}, options), data), {}, {
+          var path2 = deepFindWithDefaults(data, defaultData, key, _this.options.keySeparator, _this.options.ignoreJSONStructure);
+          return _this.alwaysFormat ? _this.format(path2, void 0, lng, _objectSpread$3(_objectSpread$3(_objectSpread$3({}, options), data), {}, {
             interpolationkey: key
-          })) : path;
+          })) : path2;
         }
         var p = key.split(_this.formatSeparator);
         var k = p.shift().trim();
@@ -45935,17 +45941,17 @@ var Interpolator = function() {
       }];
       todos.forEach(function(todo) {
         replaces = 0;
-        while (match = todo.regex.exec(str)) {
-          var matchedVar = match[1].trim();
+        while (match2 = todo.regex.exec(str)) {
+          var matchedVar = match2[1].trim();
           value = handleFormat(matchedVar);
           if (value === void 0) {
             if (typeof missingInterpolationHandler === "function") {
-              var temp = missingInterpolationHandler(str, match, options);
+              var temp = missingInterpolationHandler(str, match2, options);
               value = typeof temp === "string" ? temp : "";
             } else if (options && Object.prototype.hasOwnProperty.call(options, matchedVar)) {
               value = "";
             } else if (skipOnVariables) {
-              value = match[0];
+              value = match2[0];
               continue;
             } else {
               _this.logger.warn("missed to pass in variable ".concat(matchedVar, " for interpolating ").concat(str));
@@ -45955,10 +45961,10 @@ var Interpolator = function() {
             value = makeString(value);
           }
           var safeValue = todo.safeValue(value);
-          str = str.replace(match[0], safeValue);
+          str = str.replace(match2[0], safeValue);
           if (skipOnVariables) {
             todo.regex.lastIndex += value.length;
-            todo.regex.lastIndex -= match[0].length;
+            todo.regex.lastIndex -= match2[0].length;
           } else {
             todo.regex.lastIndex = 0;
           }
@@ -45975,14 +45981,14 @@ var Interpolator = function() {
     value: function nest(str, fc) {
       var _this2 = this;
       var options = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
-      var match;
+      var match2;
       var value;
       var clonedOptions;
       function handleHasOptions(key, inheritedOptions) {
-        var sep = this.nestingOptionsSeparator;
-        if (key.indexOf(sep) < 0)
+        var sep2 = this.nestingOptionsSeparator;
+        if (key.indexOf(sep2) < 0)
           return key;
-        var c2 = key.split(new RegExp("".concat(sep, "[ ]*{")));
+        var c2 = key.split(new RegExp("".concat(sep2, "[ ]*{")));
         var optionsString = "{".concat(c2[1]);
         key = c2[0];
         optionsString = this.interpolate(optionsString, clonedOptions);
@@ -45997,43 +46003,43 @@ var Interpolator = function() {
             clonedOptions = _objectSpread$3(_objectSpread$3({}, inheritedOptions), clonedOptions);
         } catch (e2) {
           this.logger.warn("failed parsing options string in nesting for key ".concat(key), e2);
-          return "".concat(key).concat(sep).concat(optionsString);
+          return "".concat(key).concat(sep2).concat(optionsString);
         }
         delete clonedOptions.defaultValue;
         return key;
       }
-      while (match = this.nestingRegexp.exec(str)) {
+      while (match2 = this.nestingRegexp.exec(str)) {
         var formatters = [];
         clonedOptions = _objectSpread$3({}, options);
         clonedOptions = clonedOptions.replace && typeof clonedOptions.replace !== "string" ? clonedOptions.replace : clonedOptions;
         clonedOptions.applyPostProcessor = false;
         delete clonedOptions.defaultValue;
         var doReduce = false;
-        if (match[0].indexOf(this.formatSeparator) !== -1 && !/{.*}/.test(match[1])) {
-          var r3 = match[1].split(this.formatSeparator).map(function(elem) {
+        if (match2[0].indexOf(this.formatSeparator) !== -1 && !/{.*}/.test(match2[1])) {
+          var r3 = match2[1].split(this.formatSeparator).map(function(elem) {
             return elem.trim();
           });
-          match[1] = r3.shift();
+          match2[1] = r3.shift();
           formatters = r3;
           doReduce = true;
         }
-        value = fc(handleHasOptions.call(this, match[1].trim(), clonedOptions), clonedOptions);
-        if (value && match[0] === str && typeof value !== "string")
+        value = fc(handleHasOptions.call(this, match2[1].trim(), clonedOptions), clonedOptions);
+        if (value && match2[0] === str && typeof value !== "string")
           return value;
         if (typeof value !== "string")
           value = makeString(value);
         if (!value) {
-          this.logger.warn("missed to resolve ".concat(match[1], " for nesting ").concat(str));
+          this.logger.warn("missed to resolve ".concat(match2[1], " for nesting ").concat(str));
           value = "";
         }
         if (doReduce) {
           value = formatters.reduce(function(v, f) {
             return _this2.format(v, f, options.lng, _objectSpread$3(_objectSpread$3({}, options), {}, {
-              interpolationkey: match[1].trim()
+              interpolationkey: match2[1].trim()
             }));
           }, value.trim());
         }
-        str = str.replace(match[0], value);
+        str = str.replace(match2[0], value);
         this.regexp.lastIndex = 0;
       }
       return str;
@@ -47232,11 +47238,19 @@ var AOSR_DEFAULT_SETTINGS = {
   HardBonus: 1,
   WordTTSURL: "",
   WaitingTimeoutBase: 7,
-  HideContext: false
+  HideContext: false,
+  OneLineDelimeter: "::",
+  OneLineReversedDelimeter: ":::",
+  MultiLineDelimeter: "?",
+  AosrDbPath: ".obsidian/aosr.db",
+  ExcludeWorkingPathesPattern: "**/*.excalidraw\\n**/*.png",
+  ShowHardCardsArrangement: false,
+  UseNewLineAsSplitter: false
 };
 var GlobalSettings;
 function setGlobalSettings(s2) {
   let settings = Object.assign({}, AOSR_DEFAULT_SETTINGS, s2);
+  log2(() => ["GlobalSettings", settings]);
   GlobalSettings = settings;
 }
 var AOSRSettingTab = class extends import_obsidian.PluginSettingTab {
@@ -47275,6 +47289,50 @@ var AOSRSettingTab = class extends import_obsidian.PluginSettingTab {
     new import_obsidian.Setting(containerEl).setName(instance.t("SettingTextMigrateData") || "").setDesc(instance.t("SettingTextMigrateDataDesc") || "").addButton((button) => button.setButtonText(instance.t("SettingTextMigrateData") || "").onClick(async () => {
       await this.plugin.migrateData();
     }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsOneLineDelimeter") || "").setDesc(instance.t("SettingsOneLineDelimeterDesc") || "").addText((text) => text.setPlaceholder("::").setValue(GlobalSettings.OneLineDelimeter).onChange(async (value) => {
+      if (value.length > 0 && !/^\s*$/.test(value)) {
+        GlobalSettings.OneLineDelimeter = value;
+        await this.plugin.saveSettings();
+      } else {
+        new import_obsidian.Notice(instance.t("SettingsOneLineDelimeterError") || "Cannot be empty or whitespace only.");
+      }
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsOneLineReversedDelimeter") || "").setDesc(instance.t("SettingsOneLineReversedDelimeterDesc") || "").addText((text) => text.setPlaceholder("::").setValue(GlobalSettings.OneLineReversedDelimeter).onChange(async (value) => {
+      if (value.length > 0 && !/^\s*$/.test(value)) {
+        GlobalSettings.OneLineReversedDelimeter = value;
+        await this.plugin.saveSettings();
+      } else {
+        new import_obsidian.Notice(instance.t("SettingsOneLineReversedDelimeterError") || "Cannot be empty or whitespace only.");
+      }
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsMultiLineDelimeter") || "").setDesc(instance.t("SettingsMultiLineDelimeterDesc") || "").addText((text) => text.setPlaceholder("?").setValue(GlobalSettings.MultiLineDelimeter).onChange(async (value) => {
+      if (value.length > 0 && !/^\s*$/.test(value)) {
+        GlobalSettings.MultiLineDelimeter = value;
+        await this.plugin.saveSettings();
+      } else {
+        new import_obsidian.Notice(instance.t("SettingsMultiLineDelimeterError") || "Cannot be empty or whitespace only.");
+      }
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsDbPath") || "").setDesc(instance.t("SettingsDbPathDesc") || "").addText((text) => text.setPlaceholder(".obsidian/aosr.db").setValue(GlobalSettings.AosrDbPath).onChange(async (value) => {
+      if (value.length > 0 && !/^\s*$/.test(value)) {
+        GlobalSettings.AosrDbPath = value;
+        await this.plugin.saveSettings();
+      } else {
+        new import_obsidian.Notice(instance.t("SettingsDbPathError") || "Cannot be empty or whitespace only.");
+      }
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsExcludeDirectories") || "").setDesc(instance.t("SettingsExcludeDirectoriesDesc") || "").addTextArea((text) => text.setPlaceholder("**/*.excalidraw\n**/*.png").setValue(GlobalSettings.ExcludeWorkingPathesPattern).onChange(async (value) => {
+      GlobalSettings.ExcludeWorkingPathesPattern = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsShowHardCardsArrangement") || "").setDesc(instance.t("SettingsShowHardCardsArrangementDesc") || "").addToggle((toggle) => toggle.setValue(GlobalSettings.ShowHardCardsArrangement).onChange(async (value) => {
+      GlobalSettings.ShowHardCardsArrangement = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian.Setting(containerEl).setName(instance.t("SettingsNewLineAsSplitter") || "").setDesc(instance.t("SettingsNewLineAsSplitterDesc") || "").addToggle((toggle) => toggle.setValue(GlobalSettings.UseNewLineAsSplitter).onChange(async (value) => {
+      GlobalSettings.UseNewLineAsSplitter = value;
+      await this.plugin.saveSettings();
+    }));
   }
 };
 
@@ -47301,7 +47359,7 @@ function NewSchedule(id) {
 function sigmod(x) {
   return (GlobalSettings.DefaultEase - 100) * 2 / (1 + Math.exp(-0.0125 * (x - 250))) + 100;
 }
-var defaultSchedule = class {
+var _defaultSchedule = class {
   copy(v) {
     this.Opts = v.Opts;
     this.Last = v.Last;
@@ -47460,6 +47518,7 @@ var defaultSchedule = class {
     } else {
       throw new Error("unknow operation");
     }
+    log2(() => `gap ${this.Gap.asDays().toFixed(2)} duration ${duration2.asDays().toFixed(2)}`);
     let nextTime = this.NextTime.add(duration2);
     if (nextTime.unix() < window.moment().unix()) {
       nextTime = window.moment().add(3, "hours");
@@ -47477,6 +47536,7 @@ var defaultSchedule = class {
     return false;
   }
   get Ease() {
+    log2(() => `opts is '${this.OptArr}' for ${this.id}`);
     let hardBonus = 0;
     for (let opt of this.OptArr.slice(-20)) {
       if (opt == 3 /* FORGET */) {
@@ -47504,12 +47564,14 @@ var defaultSchedule = class {
     if (easeCount >= 2) {
       easeBouns += 25;
     }
-    let ease = 250 - hardBonus + easeBouns;
+    let ease = GlobalSettings.DefaultEase - hardBonus + easeBouns;
     ease = sigmod(ease);
-    ease = Math.max(101, ease);
+    ease = Math.max(_defaultSchedule.MIN_EASE_VALUE, ease);
     return ease;
   }
 };
+var defaultSchedule = _defaultSchedule;
+defaultSchedule.MIN_EASE_VALUE = 101;
 var CardSchedule = class {
   copy(cardSchedule) {
     const map1 = new Map(Object.entries(cardSchedule.schedules));
@@ -47683,17 +47745,17 @@ function visit(node, visitor) {
 visit.BREAK = BREAK;
 visit.SKIP = SKIP;
 visit.REMOVE = REMOVE;
-function visit_(key, node, visitor, path) {
-  const ctrl = callVisitor(key, node, visitor, path);
+function visit_(key, node, visitor, path2) {
+  const ctrl = callVisitor(key, node, visitor, path2);
   if (isNode(ctrl) || isPair(ctrl)) {
-    replaceNode(key, path, ctrl);
-    return visit_(key, ctrl, visitor, path);
+    replaceNode(key, path2, ctrl);
+    return visit_(key, ctrl, visitor, path2);
   }
   if (typeof ctrl !== "symbol") {
     if (isCollection(node)) {
-      path = Object.freeze(path.concat(node));
+      path2 = Object.freeze(path2.concat(node));
       for (let i2 = 0; i2 < node.items.length; ++i2) {
-        const ci = visit_(i2, node.items[i2], visitor, path);
+        const ci = visit_(i2, node.items[i2], visitor, path2);
         if (typeof ci === "number")
           i2 = ci - 1;
         else if (ci === BREAK)
@@ -47704,13 +47766,13 @@ function visit_(key, node, visitor, path) {
         }
       }
     } else if (isPair(node)) {
-      path = Object.freeze(path.concat(node));
-      const ck = visit_("key", node.key, visitor, path);
+      path2 = Object.freeze(path2.concat(node));
+      const ck = visit_("key", node.key, visitor, path2);
       if (ck === BREAK)
         return BREAK;
       else if (ck === REMOVE)
         node.key = null;
-      const cv = visit_("value", node.value, visitor, path);
+      const cv = visit_("value", node.value, visitor, path2);
       if (cv === BREAK)
         return BREAK;
       else if (cv === REMOVE)
@@ -47731,17 +47793,17 @@ async function visitAsync(node, visitor) {
 visitAsync.BREAK = BREAK;
 visitAsync.SKIP = SKIP;
 visitAsync.REMOVE = REMOVE;
-async function visitAsync_(key, node, visitor, path) {
-  const ctrl = await callVisitor(key, node, visitor, path);
+async function visitAsync_(key, node, visitor, path2) {
+  const ctrl = await callVisitor(key, node, visitor, path2);
   if (isNode(ctrl) || isPair(ctrl)) {
-    replaceNode(key, path, ctrl);
-    return visitAsync_(key, ctrl, visitor, path);
+    replaceNode(key, path2, ctrl);
+    return visitAsync_(key, ctrl, visitor, path2);
   }
   if (typeof ctrl !== "symbol") {
     if (isCollection(node)) {
-      path = Object.freeze(path.concat(node));
+      path2 = Object.freeze(path2.concat(node));
       for (let i2 = 0; i2 < node.items.length; ++i2) {
-        const ci = await visitAsync_(i2, node.items[i2], visitor, path);
+        const ci = await visitAsync_(i2, node.items[i2], visitor, path2);
         if (typeof ci === "number")
           i2 = ci - 1;
         else if (ci === BREAK)
@@ -47752,13 +47814,13 @@ async function visitAsync_(key, node, visitor, path) {
         }
       }
     } else if (isPair(node)) {
-      path = Object.freeze(path.concat(node));
-      const ck = await visitAsync_("key", node.key, visitor, path);
+      path2 = Object.freeze(path2.concat(node));
+      const ck = await visitAsync_("key", node.key, visitor, path2);
       if (ck === BREAK)
         return BREAK;
       else if (ck === REMOVE)
         node.key = null;
-      const cv = await visitAsync_("value", node.value, visitor, path);
+      const cv = await visitAsync_("value", node.value, visitor, path2);
       if (cv === BREAK)
         return BREAK;
       else if (cv === REMOVE)
@@ -47785,24 +47847,24 @@ function initVisitor(visitor) {
   }
   return visitor;
 }
-function callVisitor(key, node, visitor, path) {
+function callVisitor(key, node, visitor, path2) {
   var _a, _b, _c, _d, _e;
   if (typeof visitor === "function")
-    return visitor(key, node, path);
+    return visitor(key, node, path2);
   if (isMap(node))
-    return (_a = visitor.Map) == null ? void 0 : _a.call(visitor, key, node, path);
+    return (_a = visitor.Map) == null ? void 0 : _a.call(visitor, key, node, path2);
   if (isSeq(node))
-    return (_b = visitor.Seq) == null ? void 0 : _b.call(visitor, key, node, path);
+    return (_b = visitor.Seq) == null ? void 0 : _b.call(visitor, key, node, path2);
   if (isPair(node))
-    return (_c = visitor.Pair) == null ? void 0 : _c.call(visitor, key, node, path);
+    return (_c = visitor.Pair) == null ? void 0 : _c.call(visitor, key, node, path2);
   if (isScalar(node))
-    return (_d = visitor.Scalar) == null ? void 0 : _d.call(visitor, key, node, path);
+    return (_d = visitor.Scalar) == null ? void 0 : _d.call(visitor, key, node, path2);
   if (isAlias(node))
-    return (_e = visitor.Alias) == null ? void 0 : _e.call(visitor, key, node, path);
+    return (_e = visitor.Alias) == null ? void 0 : _e.call(visitor, key, node, path2);
   return void 0;
 }
-function replaceNode(key, path, node) {
-  const parent = path[path.length - 1];
+function replaceNode(key, path2, node) {
+  const parent = path2[path2.length - 1];
   if (isCollection(parent)) {
     parent.items[key] = node;
   } else if (isPair(parent)) {
@@ -48227,8 +48289,8 @@ var defaultTagPrefix = "tag:yaml.org,2002:";
 function findTagObject(value, tagName, tags) {
   var _a;
   if (tagName) {
-    const match = tags.filter((t3) => t3.tag === tagName);
-    const tagObj = (_a = match.find((t3) => !t3.format)) != null ? _a : match[0];
+    const match2 = tags.filter((t3) => t3.tag === tagName);
+    const tagObj = (_a = match2.find((t3) => !t3.format)) != null ? _a : match2[0];
     if (!tagObj)
       throw new Error(`Tag ${tagName} not found`);
     return tagObj;
@@ -48295,10 +48357,10 @@ function createNode(value, tagName, ctx) {
 }
 
 // node_modules/yaml/browser/dist/nodes/Collection.js
-function collectionFromPath(schema4, path, value) {
+function collectionFromPath(schema4, path2, value) {
   let v = value;
-  for (let i2 = path.length - 1; i2 >= 0; --i2) {
-    const k = path[i2];
+  for (let i2 = path2.length - 1; i2 >= 0; --i2) {
+    const k = path2[i2];
     if (typeof k === "number" && Number.isInteger(k) && k >= 0) {
       const a2 = [];
       a2[k] = v;
@@ -48317,7 +48379,7 @@ function collectionFromPath(schema4, path, value) {
     sourceObjects: /* @__PURE__ */ new Map()
   });
 }
-var isEmptyPath = (path) => path == null || typeof path === "object" && !!path[Symbol.iterator]().next().done;
+var isEmptyPath = (path2) => path2 == null || typeof path2 === "object" && !!path2[Symbol.iterator]().next().done;
 var Collection = class extends NodeBase {
   constructor(type, schema4) {
     super(type);
@@ -48337,11 +48399,11 @@ var Collection = class extends NodeBase {
       copy2.range = this.range.slice();
     return copy2;
   }
-  addIn(path, value) {
-    if (isEmptyPath(path))
+  addIn(path2, value) {
+    if (isEmptyPath(path2))
       this.add(value);
     else {
-      const [key, ...rest] = path;
+      const [key, ...rest] = path2;
       const node = this.get(key, true);
       if (isCollection(node))
         node.addIn(rest, value);
@@ -48351,8 +48413,8 @@ var Collection = class extends NodeBase {
         throw new Error(`Expected YAML collection at ${key}. Remaining path: ${rest}`);
     }
   }
-  deleteIn(path) {
-    const [key, ...rest] = path;
+  deleteIn(path2) {
+    const [key, ...rest] = path2;
     if (rest.length === 0)
       return this.delete(key);
     const node = this.get(key, true);
@@ -48361,8 +48423,8 @@ var Collection = class extends NodeBase {
     else
       throw new Error(`Expected YAML collection at ${key}. Remaining path: ${rest}`);
   }
-  getIn(path, keepScalar) {
-    const [key, ...rest] = path;
+  getIn(path2, keepScalar) {
+    const [key, ...rest] = path2;
     const node = this.get(key, true);
     if (rest.length === 0)
       return !keepScalar && isScalar(node) ? node.value : node;
@@ -48377,15 +48439,15 @@ var Collection = class extends NodeBase {
       return n2 == null || allowScalar && isScalar(n2) && n2.value == null && !n2.commentBefore && !n2.comment && !n2.tag;
     });
   }
-  hasIn(path) {
-    const [key, ...rest] = path;
+  hasIn(path2) {
+    const [key, ...rest] = path2;
     if (rest.length === 0)
       return this.has(key);
     const node = this.get(key, true);
     return isCollection(node) ? node.hasIn(rest) : false;
   }
-  setIn(path, value) {
-    const [key, ...rest] = path;
+  setIn(path2, value) {
+    const [key, ...rest] = path2;
     if (rest.length === 0) {
       this.set(key, value);
     } else {
@@ -48850,19 +48912,19 @@ function createStringifyContext(doc, options) {
 function getTagObject(tags, item) {
   var _a, _b, _c, _d;
   if (item.tag) {
-    const match = tags.filter((t3) => t3.tag === item.tag);
-    if (match.length > 0)
-      return (_a = match.find((t3) => t3.format === item.format)) != null ? _a : match[0];
+    const match2 = tags.filter((t3) => t3.tag === item.tag);
+    if (match2.length > 0)
+      return (_a = match2.find((t3) => t3.format === item.format)) != null ? _a : match2[0];
   }
   let tagObj = void 0;
   let obj;
   if (isScalar(item)) {
     obj = item.value;
-    const match = tags.filter((t3) => {
+    const match2 = tags.filter((t3) => {
       var _a2;
       return (_a2 = t3.identify) == null ? void 0 : _a2.call(t3, obj);
     });
-    tagObj = (_b = match.find((t3) => t3.format === item.format)) != null ? _b : match.find((t3) => !t3.format);
+    tagObj = (_b = match2.find((t3) => t3.format === item.format)) != null ? _b : match2.find((t3) => !t3.format);
   } else {
     obj = item;
     tagObj = tags.find((t3) => t3.nodeClass && obj instanceof t3.nodeClass);
@@ -50176,13 +50238,13 @@ var timestamp = {
   tag: "tag:yaml.org,2002:timestamp",
   test: RegExp("^([0-9]{4})-([0-9]{1,2})-([0-9]{1,2})(?:(?:t|T|[ \\t]+)([0-9]{1,2}):([0-9]{1,2}):([0-9]{1,2}(\\.[0-9]+)?)(?:[ \\t]*(Z|[-+][012]?[0-9](?::[0-9]{2})?))?)?$"),
   resolve(str) {
-    const match = str.match(timestamp.test);
-    if (!match)
+    const match2 = str.match(timestamp.test);
+    if (!match2)
       throw new Error("!!timestamp expects a date, starting with yyyy-mm-dd");
-    const [, year, month, day, hour, minute, second] = match.map(Number);
-    const millisec = match[7] ? Number((match[7] + "00").substr(1, 3)) : 0;
+    const [, year, month, day, hour, minute, second] = match2.map(Number);
+    const millisec = match2[7] ? Number((match2[7] + "00").substr(1, 3)) : 0;
     let date = Date.UTC(year, month - 1, day, hour || 0, minute || 0, second || 0, millisec);
-    const tz = match[8];
+    const tz = match2[8];
     if (tz && tz !== "Z") {
       let d = parseSexagesimal(tz, false);
       if (Math.abs(d) < 30)
@@ -50429,9 +50491,9 @@ var Document = class {
     if (assertCollection(this.contents))
       this.contents.add(value);
   }
-  addIn(path, value) {
+  addIn(path2, value) {
     if (assertCollection(this.contents))
-      this.contents.addIn(path, value);
+      this.contents.addIn(path2, value);
   }
   createAlias(node, name) {
     if (!node.anchor) {
@@ -50480,30 +50542,30 @@ var Document = class {
   delete(key) {
     return assertCollection(this.contents) ? this.contents.delete(key) : false;
   }
-  deleteIn(path) {
-    if (isEmptyPath(path)) {
+  deleteIn(path2) {
+    if (isEmptyPath(path2)) {
       if (this.contents == null)
         return false;
       this.contents = null;
       return true;
     }
-    return assertCollection(this.contents) ? this.contents.deleteIn(path) : false;
+    return assertCollection(this.contents) ? this.contents.deleteIn(path2) : false;
   }
   get(key, keepScalar) {
     return isCollection(this.contents) ? this.contents.get(key, keepScalar) : void 0;
   }
-  getIn(path, keepScalar) {
-    if (isEmptyPath(path))
+  getIn(path2, keepScalar) {
+    if (isEmptyPath(path2))
       return !keepScalar && isScalar(this.contents) ? this.contents.value : this.contents;
-    return isCollection(this.contents) ? this.contents.getIn(path, keepScalar) : void 0;
+    return isCollection(this.contents) ? this.contents.getIn(path2, keepScalar) : void 0;
   }
   has(key) {
     return isCollection(this.contents) ? this.contents.has(key) : false;
   }
-  hasIn(path) {
-    if (isEmptyPath(path))
+  hasIn(path2) {
+    if (isEmptyPath(path2))
       return this.contents !== void 0;
-    return isCollection(this.contents) ? this.contents.hasIn(path) : false;
+    return isCollection(this.contents) ? this.contents.hasIn(path2) : false;
   }
   set(key, value) {
     if (this.contents == null) {
@@ -50512,13 +50574,13 @@ var Document = class {
       this.contents.set(key, value);
     }
   }
-  setIn(path, value) {
-    if (isEmptyPath(path)) {
+  setIn(path2, value) {
+    if (isEmptyPath(path2)) {
       this.contents = value;
     } else if (this.contents == null) {
-      this.contents = collectionFromPath(this.schema, Array.from(path), value);
+      this.contents = collectionFromPath(this.schema, Array.from(path2), value);
     } else if (assertCollection(this.contents)) {
-      this.contents.setIn(path, value);
+      this.contents.setIn(path2, value);
     }
   }
   setSchema(version, options = {}) {
@@ -50844,10 +50906,10 @@ function resolveBlockMap({ composeNode: composeNode2, composeEmptyNode: composeE
   let offset2 = bm.offset;
   let commentEnd = null;
   for (const collItem of bm.items) {
-    const { start: start2, key, sep, value } = collItem;
+    const { start: start2, key, sep: sep2, value } = collItem;
     const keyProps = resolveProps(start2, {
       indicator: "explicit-key-ind",
-      next: key != null ? key : sep == null ? void 0 : sep[0],
+      next: key != null ? key : sep2 == null ? void 0 : sep2[0],
       offset: offset2,
       onError,
       parentIndent: bm.indent,
@@ -50861,7 +50923,7 @@ function resolveBlockMap({ composeNode: composeNode2, composeEmptyNode: composeE
         else if ("indent" in key && key.indent !== bm.indent)
           onError(offset2, "BAD_INDENT", startColMsg);
       }
-      if (!keyProps.anchor && !keyProps.tag && !sep) {
+      if (!keyProps.anchor && !keyProps.tag && !sep2) {
         commentEnd = keyProps.end;
         if (keyProps.comment) {
           if (map2.comment)
@@ -50883,7 +50945,7 @@ function resolveBlockMap({ composeNode: composeNode2, composeEmptyNode: composeE
       flowIndentCheck(bm.indent, key, onError);
     if (mapIncludes(ctx, map2.items, keyNode))
       onError(keyStart, "DUPLICATE_KEY", "Map keys must be unique");
-    const valueProps = resolveProps(sep != null ? sep : [], {
+    const valueProps = resolveProps(sep2 != null ? sep2 : [], {
       indicator: "map-value-ind",
       next: value,
       offset: keyNode.range[2],
@@ -50899,7 +50961,7 @@ function resolveBlockMap({ composeNode: composeNode2, composeEmptyNode: composeE
         if (ctx.options.strict && keyProps.start < valueProps.found.offset - 1024)
           onError(keyNode.range, "KEY_OVER_1024_CHARS", "The : indicator must be at most 1024 chars after the start of an implicit block mapping key");
       }
-      const valueNode = value ? composeNode2(ctx, value, valueProps, onError) : composeEmptyNode2(ctx, offset2, sep, null, valueProps, onError);
+      const valueNode = value ? composeNode2(ctx, value, valueProps, onError) : composeEmptyNode2(ctx, offset2, sep2, null, valueProps, onError);
       if (ctx.schema.compat)
         flowIndentCheck(bm.indent, value, onError);
       offset2 = valueNode.range[2];
@@ -50974,7 +51036,7 @@ function resolveEnd(end2, offset2, reqSpace, onError) {
   let comment = "";
   if (end2) {
     let hasSpace = false;
-    let sep = "";
+    let sep2 = "";
     for (const token of end2) {
       const { source, type } = token;
       switch (type) {
@@ -50988,13 +51050,13 @@ function resolveEnd(end2, offset2, reqSpace, onError) {
           if (!comment)
             comment = cb;
           else
-            comment += sep + cb;
-          sep = "";
+            comment += sep2 + cb;
+          sep2 = "";
           break;
         }
         case "newline":
           if (comment)
-            sep += source;
+            sep2 += source;
           hasSpace = true;
           break;
         default:
@@ -51022,18 +51084,18 @@ function resolveFlowCollection({ composeNode: composeNode2, composeEmptyNode: co
   let offset2 = fc.offset + fc.start.source.length;
   for (let i2 = 0; i2 < fc.items.length; ++i2) {
     const collItem = fc.items[i2];
-    const { start: start2, key, sep, value } = collItem;
+    const { start: start2, key, sep: sep2, value } = collItem;
     const props = resolveProps(start2, {
       flow: fcName,
       indicator: "explicit-key-ind",
-      next: key != null ? key : sep == null ? void 0 : sep[0],
+      next: key != null ? key : sep2 == null ? void 0 : sep2[0],
       offset: offset2,
       onError,
       parentIndent: fc.indent,
       startOnNewline: false
     });
     if (!props.found) {
-      if (!props.anchor && !props.tag && !sep && !value) {
+      if (!props.anchor && !props.tag && !sep2 && !value) {
         if (i2 === 0 && props.comma)
           onError(props.comma, "UNEXPECTED_TOKEN", `Unexpected , in ${fcName}`);
         else if (i2 < fc.items.length - 1)
@@ -51083,8 +51145,8 @@ function resolveFlowCollection({ composeNode: composeNode2, composeEmptyNode: co
         }
       }
     }
-    if (!isMap2 && !sep && !props.found) {
-      const valueNode = value ? composeNode2(ctx, value, props, onError) : composeEmptyNode2(ctx, props.end, sep, null, props, onError);
+    if (!isMap2 && !sep2 && !props.found) {
+      const valueNode = value ? composeNode2(ctx, value, props, onError) : composeEmptyNode2(ctx, props.end, sep2, null, props, onError);
       coll.items.push(valueNode);
       offset2 = valueNode.range[2];
       if (isBlock(value))
@@ -51094,7 +51156,7 @@ function resolveFlowCollection({ composeNode: composeNode2, composeEmptyNode: co
       const keyNode = key ? composeNode2(ctx, key, props, onError) : composeEmptyNode2(ctx, keyStart, start2, null, props, onError);
       if (isBlock(key))
         onError(keyNode.range, "BLOCK_IN_FLOW", blockMsg);
-      const valueProps = resolveProps(sep != null ? sep : [], {
+      const valueProps = resolveProps(sep2 != null ? sep2 : [], {
         flow: fcName,
         indicator: "map-value-ind",
         next: value,
@@ -51105,8 +51167,8 @@ function resolveFlowCollection({ composeNode: composeNode2, composeEmptyNode: co
       });
       if (valueProps.found) {
         if (!isMap2 && !props.found && ctx.options.strict) {
-          if (sep)
-            for (const st of sep) {
+          if (sep2)
+            for (const st of sep2) {
               if (st === valueProps.found)
                 break;
               if (st.type === "newline") {
@@ -51123,7 +51185,7 @@ function resolveFlowCollection({ composeNode: composeNode2, composeEmptyNode: co
         else
           onError(valueProps.start, "MISSING_CHAR", `Missing , or : between ${fcName} items`);
       }
-      const valueNode = value ? composeNode2(ctx, value, valueProps, onError) : valueProps.found ? composeEmptyNode2(ctx, valueProps.end, sep, null, valueProps, onError) : null;
+      const valueNode = value ? composeNode2(ctx, value, valueProps, onError) : valueProps.found ? composeEmptyNode2(ctx, valueProps.end, sep2, null, valueProps, onError) : null;
       if (valueNode) {
         if (isBlock(value))
           onError(valueNode.range, "BLOCK_IN_FLOW", blockMsg);
@@ -51273,7 +51335,7 @@ function resolveBlockScalar(ctx, scalar, onError) {
       chompStart = i2 + 1;
   }
   let value = "";
-  let sep = "";
+  let sep2 = "";
   let prevMoreIndented = false;
   for (let i2 = 0; i2 < contentStart; ++i2)
     value += lines[i2][0].slice(trimIndent) + "\n";
@@ -51290,24 +51352,24 @@ function resolveBlockScalar(ctx, scalar, onError) {
       indent = "";
     }
     if (type === Scalar.BLOCK_LITERAL) {
-      value += sep + indent.slice(trimIndent) + content;
-      sep = "\n";
+      value += sep2 + indent.slice(trimIndent) + content;
+      sep2 = "\n";
     } else if (indent.length > trimIndent || content[0] === "	") {
-      if (sep === " ")
-        sep = "\n";
-      else if (!prevMoreIndented && sep === "\n")
-        sep = "\n\n";
-      value += sep + indent.slice(trimIndent) + content;
-      sep = "\n";
+      if (sep2 === " ")
+        sep2 = "\n";
+      else if (!prevMoreIndented && sep2 === "\n")
+        sep2 = "\n\n";
+      value += sep2 + indent.slice(trimIndent) + content;
+      sep2 = "\n";
       prevMoreIndented = true;
     } else if (content === "") {
-      if (sep === "\n")
+      if (sep2 === "\n")
         value += "\n";
       else
-        sep = "\n";
+        sep2 = "\n";
     } else {
-      value += sep + content;
-      sep = " ";
+      value += sep2 + content;
+      sep2 = " ";
       prevMoreIndented = false;
     }
   }
@@ -51474,29 +51536,29 @@ function foldLines(source) {
     first = /(.*?)[ \t]*\r?\n/sy;
     line = /[ \t]*(.*?)[ \t]*\r?\n/sy;
   }
-  let match = first.exec(source);
-  if (!match)
+  let match2 = first.exec(source);
+  if (!match2)
     return source;
-  let res = match[1];
-  let sep = " ";
+  let res = match2[1];
+  let sep2 = " ";
   let pos = first.lastIndex;
   line.lastIndex = pos;
-  while (match = line.exec(source)) {
-    if (match[1] === "") {
-      if (sep === "\n")
-        res += sep;
+  while (match2 = line.exec(source)) {
+    if (match2[1] === "") {
+      if (sep2 === "\n")
+        res += sep2;
       else
-        sep = "\n";
+        sep2 = "\n";
     } else {
-      res += sep + match[1];
-      sep = " ";
+      res += sep2 + match2[1];
+      sep2 = " ";
     }
     pos = line.lastIndex;
   }
   const last = /[ \t]*(.*)/sy;
   last.lastIndex = pos;
-  match = last.exec(source);
-  return res + sep + ((_a = match == null ? void 0 : match[1]) != null ? _a : "");
+  match2 = last.exec(source);
+  return res + sep2 + ((_a = match2 == null ? void 0 : match2[1]) != null ? _a : "");
 }
 function doubleQuotedValue(source, onError) {
   let res = "";
@@ -51594,7 +51656,7 @@ function parseCharCode(source, offset2, length, onError) {
 
 // node_modules/yaml/browser/dist/compose/compose-scalar.js
 function composeScalar(ctx, token, tagToken, onError) {
-  const { value, type, comment, range } = token.type === "block-scalar" ? resolveBlockScalar(ctx, token, onError) : resolveFlowScalar(token, ctx.options.strict, onError);
+  const { value, type, comment, range: range2 } = token.type === "block-scalar" ? resolveBlockScalar(ctx, token, onError) : resolveFlowScalar(token, ctx.options.strict, onError);
   const tagName = tagToken ? ctx.directives.tagName(tagToken.source, (msg) => onError(tagToken, "TAG_RESOLVE_FAILED", msg)) : null;
   const tag = tagToken && tagName ? findScalarTagByName(ctx.schema, value, tagName, tagToken, onError) : token.type === "scalar" ? findScalarTagByTest(ctx, value, token, onError) : ctx.schema[SCALAR];
   let scalar;
@@ -51606,7 +51668,7 @@ function composeScalar(ctx, token, tagToken, onError) {
     onError(tagToken != null ? tagToken : token, "TAG_RESOLVE_FAILED", msg);
     scalar = new Scalar(value);
   }
-  scalar.range = range;
+  scalar.range = range2;
   scalar.source = value;
   if (type)
     scalar.type = type;
@@ -52210,14 +52272,14 @@ function stringifyToken(token) {
     }
   }
 }
-function stringifyItem({ start: start2, key, sep, value }) {
+function stringifyItem({ start: start2, key, sep: sep2, value }) {
   let res = "";
   for (const st of start2)
     res += st.source;
   if (key)
     res += stringifyToken(key);
-  if (sep)
-    for (const st of sep)
+  if (sep2)
+    for (const st of sep2)
       res += st.source;
   if (value)
     res += stringifyToken(value);
@@ -52236,9 +52298,9 @@ function visit2(cst, visitor) {
 visit2.BREAK = BREAK2;
 visit2.SKIP = SKIP2;
 visit2.REMOVE = REMOVE2;
-visit2.itemAtPath = (cst, path) => {
+visit2.itemAtPath = (cst, path2) => {
   let item = cst;
-  for (const [field, index] of path) {
+  for (const [field, index] of path2) {
     const tok = item == null ? void 0 : item[field];
     if (tok && "items" in tok) {
       item = tok.items[index];
@@ -52247,23 +52309,23 @@ visit2.itemAtPath = (cst, path) => {
   }
   return item;
 };
-visit2.parentCollection = (cst, path) => {
-  const parent = visit2.itemAtPath(cst, path.slice(0, -1));
-  const field = path[path.length - 1][0];
+visit2.parentCollection = (cst, path2) => {
+  const parent = visit2.itemAtPath(cst, path2.slice(0, -1));
+  const field = path2[path2.length - 1][0];
   const coll = parent == null ? void 0 : parent[field];
   if (coll && "items" in coll)
     return coll;
   throw new Error("Parent collection not found");
 };
-function _visit(path, item, visitor) {
-  let ctrl = visitor(item, path);
+function _visit(path2, item, visitor) {
+  let ctrl = visitor(item, path2);
   if (typeof ctrl === "symbol")
     return ctrl;
   for (const field of ["key", "value"]) {
     const token = item[field];
     if (token && "items" in token) {
       for (let i2 = 0; i2 < token.items.length; ++i2) {
-        const ci = _visit(Object.freeze(path.concat([[field, i2]])), token.items[i2], visitor);
+        const ci = _visit(Object.freeze(path2.concat([[field, i2]])), token.items[i2], visitor);
         if (typeof ci === "number")
           i2 = ci - 1;
         else if (ci === BREAK2)
@@ -52274,10 +52336,10 @@ function _visit(path, item, visitor) {
         }
       }
       if (typeof ctrl === "function" && field === "key")
-        ctrl = ctrl(item, path);
+        ctrl = ctrl(item, path2);
     }
   }
-  return typeof ctrl === "function" ? ctrl(item, path) : ctrl;
+  return typeof ctrl === "function" ? ctrl(item, path2) : ctrl;
 }
 
 // node_modules/yaml/browser/dist/parse/cst.js
@@ -53295,18 +53357,18 @@ var Parser = class {
     if (this.type === "map-value-ind") {
       const prev = getPrevProps(this.peek(2));
       const start2 = getFirstKeyStartProps(prev);
-      let sep;
+      let sep2;
       if (scalar.end) {
-        sep = scalar.end;
-        sep.push(this.sourceToken);
+        sep2 = scalar.end;
+        sep2.push(this.sourceToken);
         delete scalar.end;
       } else
-        sep = [this.sourceToken];
+        sep2 = [this.sourceToken];
       const map2 = {
         type: "block-map",
         offset: scalar.offset,
         indent: scalar.indent,
-        items: [{ start: start2, key: scalar, sep }]
+        items: [{ start: start2, key: scalar, sep: sep2 }]
       };
       this.onKeyLine = true;
       this.stack[this.stack.length - 1] = map2;
@@ -53459,14 +53521,14 @@ var Parser = class {
             } else if (isFlowToken(it.key) && !includesToken(it.sep, "newline")) {
               const start3 = getFirstKeyStartProps(it.start);
               const key = it.key;
-              const sep = it.sep;
-              sep.push(this.sourceToken);
+              const sep2 = it.sep;
+              sep2.push(this.sourceToken);
               delete it.key, delete it.sep;
               this.stack.push({
                 type: "block-map",
                 offset: this.offset,
                 indent: this.indent,
-                items: [{ start: start3, key, sep }]
+                items: [{ start: start3, key, sep: sep2 }]
               });
             } else if (start2.length > 0) {
               it.sep = it.sep.concat(start2, this.sourceToken);
@@ -53651,13 +53713,13 @@ var Parser = class {
         const prev = getPrevProps(parent);
         const start2 = getFirstKeyStartProps(prev);
         fixFlowSeqItems(fc);
-        const sep = fc.end.splice(1, fc.end.length);
-        sep.push(this.sourceToken);
+        const sep2 = fc.end.splice(1, fc.end.length);
+        sep2.push(this.sourceToken);
         const map2 = {
           type: "block-map",
           offset: fc.offset,
           indent: fc.indent,
-          items: [{ start: start2, key: fc, sep }]
+          items: [{ start: start2, key: fc, sep: sep2 }]
         };
         this.onKeyLine = true;
         this.stack[this.stack.length - 1] = map2;
@@ -53949,6 +54011,7 @@ var import_language = require("@codemirror/language");
 var EmojiWidget = class extends import_view.WidgetType {
   toDOM(view) {
     const span = document.createElement("span");
+    span.classList.add("aosr-emoji-widget");
     span.innerText = "\u{1F3F7}";
     return span;
   }
@@ -53997,8 +54060,8 @@ var pluginSpec = {
 };
 var emojiTagPlugin = import_view.ViewPlugin.fromClass(emojiplugin, pluginSpec);
 function inSelection(selection, from, to) {
-  return selection.ranges.some((range) => {
-    return !(to < range.from || from > range.to);
+  return selection.ranges.some((range2) => {
+    return !(to < range2.from || from > range2.to);
   });
 }
 var TagInfo = class {
@@ -54162,8 +54225,7 @@ var Low = class {
 
 // db.ts
 var import_obsidian2 = require("obsidian");
-var DBNAME = "aosr.db";
-var DBPATH = ".obsidian/";
+var pathSep = "/";
 var ObsidianAdapter = class {
   constructor(basePath, fileName) {
     this.basePath = basePath;
@@ -54172,6 +54234,7 @@ var ObsidianAdapter = class {
   async read() {
     try {
       const filePath = this.basePath + this.fileName;
+      log2(() => `Reading from file: ${filePath}`);
       if (await getAppInstance().vault.adapter.exists(filePath)) {
         const data = await getAppInstance().vault.adapter.read(filePath);
         return JSON.parse(data);
@@ -54183,19 +54246,32 @@ var ObsidianAdapter = class {
   }
   async write(data) {
     const filePath = this.basePath + this.fileName;
-    const content = JSON.stringify(data);
+    const content = JSON.stringify(data, null, 1);
+    if (!await getAppInstance().vault.adapter.exists(this.basePath)) {
+      const noTrailingSeparatorPath = this.basePath.endsWith(pathSep) ? this.basePath.substring(0, this.basePath.length - 1) : this.basePath;
+      await getAppInstance().vault.adapter.mkdir(noTrailingSeparatorPath);
+    }
     await getAppInstance().vault.adapter.write(filePath, content);
   }
 };
 var DatabaseHelper = class {
   static getInstance() {
     if (!DatabaseHelper.instance) {
-      DatabaseHelper.instance = new DatabaseHelper(DBNAME);
+      try {
+        DatabaseHelper.instance = new DatabaseHelper(GlobalSettings.AosrDbPath);
+      } catch (error2) {
+        console.log(error2);
+        DatabaseHelper.instance = new DatabaseHelper(AOSR_DEFAULT_SETTINGS.AosrDbPath);
+        new import_obsidian2.Notice(`[Aosr] Database initialization error by path: ${GlobalSettings.AosrDbPath} using deafult one.`);
+      }
     }
     return DatabaseHelper.instance;
   }
   constructor(dbPath) {
-    const adapter = new ObsidianAdapter(DBPATH, dbPath);
+    const slashIndex = dbPath.lastIndexOf("/");
+    const dir2 = slashIndex !== -1 ? dbPath.slice(0, slashIndex) : "";
+    const filename = slashIndex !== -1 ? dbPath.slice(slashIndex + 1) : dbPath;
+    const adapter = new ObsidianAdapter(dir2.length > 0 ? dir2 + "/" : "", filename);
     this.db = new Low(adapter, {});
     this.init();
   }
@@ -54279,7 +54355,7 @@ var _defaultCard = class {
     this.cardText = cardText || "";
     this.bodyList = [];
     this.content = content;
-    this.bodyList = content.split(_defaultCard.bodySplitReg);
+    this.bodyList = content.split(GlobalSettings.UseNewLineAsSplitter ? _defaultCard.bodySplitRegWithSpaces : _defaultCard.bodySplitReg);
     this.note = note;
     this.schedules = new CardSchedule();
     this.originalID = cardID || "";
@@ -54370,6 +54446,1453 @@ var _defaultCard = class {
 };
 var defaultCard = _defaultCard;
 defaultCard.bodySplitReg = /\n\*{3,}\n/;
+defaultCard.bodySplitRegWithSpaces = /\n(?:\*{3,}\s*|\s*)\n/;
+
+// node_modules/@isaacs/balanced-match/dist/esm/index.js
+var balanced = (a2, b, str) => {
+  const ma = a2 instanceof RegExp ? maybeMatch(a2, str) : a2;
+  const mb = b instanceof RegExp ? maybeMatch(b, str) : b;
+  const r3 = ma !== null && mb != null && range(ma, mb, str);
+  return r3 && {
+    start: r3[0],
+    end: r3[1],
+    pre: str.slice(0, r3[0]),
+    body: str.slice(r3[0] + ma.length, r3[1]),
+    post: str.slice(r3[1] + mb.length)
+  };
+};
+var maybeMatch = (reg, str) => {
+  const m = str.match(reg);
+  return m ? m[0] : null;
+};
+var range = (a2, b, str) => {
+  let begs, beg, left2, right2 = void 0, result;
+  let ai = str.indexOf(a2);
+  let bi = str.indexOf(b, ai + 1);
+  let i2 = ai;
+  if (ai >= 0 && bi > 0) {
+    if (a2 === b) {
+      return [ai, bi];
+    }
+    begs = [];
+    left2 = str.length;
+    while (i2 >= 0 && !result) {
+      if (i2 === ai) {
+        begs.push(i2);
+        ai = str.indexOf(a2, i2 + 1);
+      } else if (begs.length === 1) {
+        const r3 = begs.pop();
+        if (r3 !== void 0)
+          result = [r3, bi];
+      } else {
+        beg = begs.pop();
+        if (beg !== void 0 && beg < left2) {
+          left2 = beg;
+          right2 = bi;
+        }
+        bi = str.indexOf(b, i2 + 1);
+      }
+      i2 = ai < bi && ai >= 0 ? ai : bi;
+    }
+    if (begs.length && right2 !== void 0) {
+      result = [left2, right2];
+    }
+  }
+  return result;
+};
+
+// node_modules/@isaacs/brace-expansion/dist/esm/index.js
+var escSlash = "\0SLASH" + Math.random() + "\0";
+var escOpen = "\0OPEN" + Math.random() + "\0";
+var escClose = "\0CLOSE" + Math.random() + "\0";
+var escComma = "\0COMMA" + Math.random() + "\0";
+var escPeriod = "\0PERIOD" + Math.random() + "\0";
+var escSlashPattern = new RegExp(escSlash, "g");
+var escOpenPattern = new RegExp(escOpen, "g");
+var escClosePattern = new RegExp(escClose, "g");
+var escCommaPattern = new RegExp(escComma, "g");
+var escPeriodPattern = new RegExp(escPeriod, "g");
+var slashPattern = /\\\\/g;
+var openPattern = /\\{/g;
+var closePattern = /\\}/g;
+var commaPattern = /\\,/g;
+var periodPattern = /\\./g;
+function numeric(str) {
+  return !isNaN(str) ? parseInt(str, 10) : str.charCodeAt(0);
+}
+function escapeBraces(str) {
+  return str.replace(slashPattern, escSlash).replace(openPattern, escOpen).replace(closePattern, escClose).replace(commaPattern, escComma).replace(periodPattern, escPeriod);
+}
+function unescapeBraces(str) {
+  return str.replace(escSlashPattern, "\\").replace(escOpenPattern, "{").replace(escClosePattern, "}").replace(escCommaPattern, ",").replace(escPeriodPattern, ".");
+}
+function parseCommaParts(str) {
+  if (!str) {
+    return [""];
+  }
+  const parts = [];
+  const m = balanced("{", "}", str);
+  if (!m) {
+    return str.split(",");
+  }
+  const { pre, body: body2, post } = m;
+  const p = pre.split(",");
+  p[p.length - 1] += "{" + body2 + "}";
+  const postParts = parseCommaParts(post);
+  if (post.length) {
+    ;
+    p[p.length - 1] += postParts.shift();
+    p.push.apply(p, postParts);
+  }
+  parts.push.apply(parts, p);
+  return parts;
+}
+function expand(str) {
+  if (!str) {
+    return [];
+  }
+  if (str.slice(0, 2) === "{}") {
+    str = "\\{\\}" + str.slice(2);
+  }
+  return expand_(escapeBraces(str), true).map(unescapeBraces);
+}
+function embrace(str) {
+  return "{" + str + "}";
+}
+function isPadded(el) {
+  return /^-?0\d/.test(el);
+}
+function lte(i2, y) {
+  return i2 <= y;
+}
+function gte(i2, y) {
+  return i2 >= y;
+}
+function expand_(str, isTop) {
+  const expansions = [];
+  const m = balanced("{", "}", str);
+  if (!m)
+    return [str];
+  const pre = m.pre;
+  const post = m.post.length ? expand_(m.post, false) : [""];
+  if (/\$$/.test(m.pre)) {
+    for (let k = 0; k < post.length; k++) {
+      const expansion = pre + "{" + m.body + "}" + post[k];
+      expansions.push(expansion);
+    }
+  } else {
+    const isNumericSequence = /^-?\d+\.\.-?\d+(?:\.\.-?\d+)?$/.test(m.body);
+    const isAlphaSequence = /^[a-zA-Z]\.\.[a-zA-Z](?:\.\.-?\d+)?$/.test(m.body);
+    const isSequence = isNumericSequence || isAlphaSequence;
+    const isOptions = m.body.indexOf(",") >= 0;
+    if (!isSequence && !isOptions) {
+      if (m.post.match(/,(?!,).*\}/)) {
+        str = m.pre + "{" + m.body + escClose + m.post;
+        return expand_(str);
+      }
+      return [str];
+    }
+    let n2;
+    if (isSequence) {
+      n2 = m.body.split(/\.\./);
+    } else {
+      n2 = parseCommaParts(m.body);
+      if (n2.length === 1 && n2[0] !== void 0) {
+        n2 = expand_(n2[0], false).map(embrace);
+        if (n2.length === 1) {
+          return post.map((p) => m.pre + n2[0] + p);
+        }
+      }
+    }
+    let N;
+    if (isSequence && n2[0] !== void 0 && n2[1] !== void 0) {
+      const x = numeric(n2[0]);
+      const y = numeric(n2[1]);
+      const width2 = Math.max(n2[0].length, n2[1].length);
+      let incr = n2.length === 3 && n2[2] !== void 0 ? Math.abs(numeric(n2[2])) : 1;
+      let test = lte;
+      const reverse = y < x;
+      if (reverse) {
+        incr *= -1;
+        test = gte;
+      }
+      const pad = n2.some(isPadded);
+      N = [];
+      for (let i2 = x; test(i2, y); i2 += incr) {
+        let c2;
+        if (isAlphaSequence) {
+          c2 = String.fromCharCode(i2);
+          if (c2 === "\\") {
+            c2 = "";
+          }
+        } else {
+          c2 = String(i2);
+          if (pad) {
+            const need = width2 - c2.length;
+            if (need > 0) {
+              const z = new Array(need + 1).join("0");
+              if (i2 < 0) {
+                c2 = "-" + z + c2.slice(1);
+              } else {
+                c2 = z + c2;
+              }
+            }
+          }
+        }
+        N.push(c2);
+      }
+    } else {
+      N = [];
+      for (let j = 0; j < n2.length; j++) {
+        N.push.apply(N, expand_(n2[j], false));
+      }
+    }
+    for (let j = 0; j < N.length; j++) {
+      for (let k = 0; k < post.length; k++) {
+        const expansion = pre + N[j] + post[k];
+        if (!isTop || isSequence || expansion) {
+          expansions.push(expansion);
+        }
+      }
+    }
+  }
+  return expansions;
+}
+
+// node_modules/minimatch/dist/esm/assert-valid-pattern.js
+var MAX_PATTERN_LENGTH = 1024 * 64;
+var assertValidPattern = (pattern) => {
+  if (typeof pattern !== "string") {
+    throw new TypeError("invalid pattern");
+  }
+  if (pattern.length > MAX_PATTERN_LENGTH) {
+    throw new TypeError("pattern is too long");
+  }
+};
+
+// node_modules/minimatch/dist/esm/brace-expressions.js
+var posixClasses = {
+  "[:alnum:]": ["\\p{L}\\p{Nl}\\p{Nd}", true],
+  "[:alpha:]": ["\\p{L}\\p{Nl}", true],
+  "[:ascii:]": ["\\x00-\\x7f", false],
+  "[:blank:]": ["\\p{Zs}\\t", true],
+  "[:cntrl:]": ["\\p{Cc}", true],
+  "[:digit:]": ["\\p{Nd}", true],
+  "[:graph:]": ["\\p{Z}\\p{C}", true, true],
+  "[:lower:]": ["\\p{Ll}", true],
+  "[:print:]": ["\\p{C}", true],
+  "[:punct:]": ["\\p{P}", true],
+  "[:space:]": ["\\p{Z}\\t\\r\\n\\v\\f", true],
+  "[:upper:]": ["\\p{Lu}", true],
+  "[:word:]": ["\\p{L}\\p{Nl}\\p{Nd}\\p{Pc}", true],
+  "[:xdigit:]": ["A-Fa-f0-9", false]
+};
+var braceEscape = (s2) => s2.replace(/[[\]\\-]/g, "\\$&");
+var regexpEscape = (s2) => s2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+var rangesToString = (ranges) => ranges.join("");
+var parseClass = (glob, position) => {
+  const pos = position;
+  if (glob.charAt(pos) !== "[") {
+    throw new Error("not in a brace expression");
+  }
+  const ranges = [];
+  const negs = [];
+  let i2 = pos + 1;
+  let sawStart = false;
+  let uflag = false;
+  let escaping = false;
+  let negate = false;
+  let endPos = pos;
+  let rangeStart = "";
+  WHILE:
+    while (i2 < glob.length) {
+      const c2 = glob.charAt(i2);
+      if ((c2 === "!" || c2 === "^") && i2 === pos + 1) {
+        negate = true;
+        i2++;
+        continue;
+      }
+      if (c2 === "]" && sawStart && !escaping) {
+        endPos = i2 + 1;
+        break;
+      }
+      sawStart = true;
+      if (c2 === "\\") {
+        if (!escaping) {
+          escaping = true;
+          i2++;
+          continue;
+        }
+      }
+      if (c2 === "[" && !escaping) {
+        for (const [cls, [unip, u, neg]] of Object.entries(posixClasses)) {
+          if (glob.startsWith(cls, i2)) {
+            if (rangeStart) {
+              return ["$.", false, glob.length - pos, true];
+            }
+            i2 += cls.length;
+            if (neg)
+              negs.push(unip);
+            else
+              ranges.push(unip);
+            uflag = uflag || u;
+            continue WHILE;
+          }
+        }
+      }
+      escaping = false;
+      if (rangeStart) {
+        if (c2 > rangeStart) {
+          ranges.push(braceEscape(rangeStart) + "-" + braceEscape(c2));
+        } else if (c2 === rangeStart) {
+          ranges.push(braceEscape(c2));
+        }
+        rangeStart = "";
+        i2++;
+        continue;
+      }
+      if (glob.startsWith("-]", i2 + 1)) {
+        ranges.push(braceEscape(c2 + "-"));
+        i2 += 2;
+        continue;
+      }
+      if (glob.startsWith("-", i2 + 1)) {
+        rangeStart = c2;
+        i2 += 2;
+        continue;
+      }
+      ranges.push(braceEscape(c2));
+      i2++;
+    }
+  if (endPos < i2) {
+    return ["", false, 0, false];
+  }
+  if (!ranges.length && !negs.length) {
+    return ["$.", false, glob.length - pos, true];
+  }
+  if (negs.length === 0 && ranges.length === 1 && /^\\?.$/.test(ranges[0]) && !negate) {
+    const r3 = ranges[0].length === 2 ? ranges[0].slice(-1) : ranges[0];
+    return [regexpEscape(r3), false, endPos - pos, false];
+  }
+  const sranges = "[" + (negate ? "^" : "") + rangesToString(ranges) + "]";
+  const snegs = "[" + (negate ? "" : "^") + rangesToString(negs) + "]";
+  const comb = ranges.length && negs.length ? "(" + sranges + "|" + snegs + ")" : ranges.length ? sranges : snegs;
+  return [comb, uflag, endPos - pos, true];
+};
+
+// node_modules/minimatch/dist/esm/unescape.js
+var unescape = (s2, { windowsPathsNoEscape = false } = {}) => {
+  return windowsPathsNoEscape ? s2.replace(/\[([^\/\\])\]/g, "$1") : s2.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
+};
+
+// node_modules/minimatch/dist/esm/ast.js
+var types = /* @__PURE__ */ new Set(["!", "?", "+", "*", "@"]);
+var isExtglobType = (c2) => types.has(c2);
+var startNoTraversal = "(?!(?:^|/)\\.\\.?(?:$|/))";
+var startNoDot = "(?!\\.)";
+var addPatternStart = /* @__PURE__ */ new Set(["[", "."]);
+var justDots = /* @__PURE__ */ new Set(["..", "."]);
+var reSpecials = new Set("().*{}+?[]^$\\!");
+var regExpEscape = (s2) => s2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+var qmark = "[^/]";
+var star = qmark + "*?";
+var starNoEmpty = qmark + "+?";
+var _root, _hasMagic, _uflag, _parts, _parent, _parentIndex, _negs, _filledNegs, _options, _toString, _emptyExt, _fillNegs, fillNegs_fn, _parseAST, parseAST_fn, _partsToRegExp, partsToRegExp_fn, _parseGlob, parseGlob_fn;
+var _AST = class {
+  constructor(type, parent, options = {}) {
+    __privateAdd(this, _fillNegs);
+    __privateAdd(this, _partsToRegExp);
+    __publicField(this, "type");
+    __privateAdd(this, _root, void 0);
+    __privateAdd(this, _hasMagic, void 0);
+    __privateAdd(this, _uflag, false);
+    __privateAdd(this, _parts, []);
+    __privateAdd(this, _parent, void 0);
+    __privateAdd(this, _parentIndex, void 0);
+    __privateAdd(this, _negs, void 0);
+    __privateAdd(this, _filledNegs, false);
+    __privateAdd(this, _options, void 0);
+    __privateAdd(this, _toString, void 0);
+    __privateAdd(this, _emptyExt, false);
+    this.type = type;
+    if (type)
+      __privateSet(this, _hasMagic, true);
+    __privateSet(this, _parent, parent);
+    __privateSet(this, _root, __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _root) : this);
+    __privateSet(this, _options, __privateGet(this, _root) === this ? options : __privateGet(__privateGet(this, _root), _options));
+    __privateSet(this, _negs, __privateGet(this, _root) === this ? [] : __privateGet(__privateGet(this, _root), _negs));
+    if (type === "!" && !__privateGet(__privateGet(this, _root), _filledNegs))
+      __privateGet(this, _negs).push(this);
+    __privateSet(this, _parentIndex, __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _parts).length : 0);
+  }
+  get hasMagic() {
+    if (__privateGet(this, _hasMagic) !== void 0)
+      return __privateGet(this, _hasMagic);
+    for (const p of __privateGet(this, _parts)) {
+      if (typeof p === "string")
+        continue;
+      if (p.type || p.hasMagic)
+        return __privateSet(this, _hasMagic, true);
+    }
+    return __privateGet(this, _hasMagic);
+  }
+  toString() {
+    if (__privateGet(this, _toString) !== void 0)
+      return __privateGet(this, _toString);
+    if (!this.type) {
+      return __privateSet(this, _toString, __privateGet(this, _parts).map((p) => String(p)).join(""));
+    } else {
+      return __privateSet(this, _toString, this.type + "(" + __privateGet(this, _parts).map((p) => String(p)).join("|") + ")");
+    }
+  }
+  push(...parts) {
+    for (const p of parts) {
+      if (p === "")
+        continue;
+      if (typeof p !== "string" && !(p instanceof _AST && __privateGet(p, _parent) === this)) {
+        throw new Error("invalid part: " + p);
+      }
+      __privateGet(this, _parts).push(p);
+    }
+  }
+  toJSON() {
+    var _a;
+    const ret = this.type === null ? __privateGet(this, _parts).slice().map((p) => typeof p === "string" ? p : p.toJSON()) : [this.type, ...__privateGet(this, _parts).map((p) => p.toJSON())];
+    if (this.isStart() && !this.type)
+      ret.unshift([]);
+    if (this.isEnd() && (this === __privateGet(this, _root) || __privateGet(__privateGet(this, _root), _filledNegs) && ((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!")) {
+      ret.push({});
+    }
+    return ret;
+  }
+  isStart() {
+    var _a;
+    if (__privateGet(this, _root) === this)
+      return true;
+    if (!((_a = __privateGet(this, _parent)) == null ? void 0 : _a.isStart()))
+      return false;
+    if (__privateGet(this, _parentIndex) === 0)
+      return true;
+    const p = __privateGet(this, _parent);
+    for (let i2 = 0; i2 < __privateGet(this, _parentIndex); i2++) {
+      const pp = __privateGet(p, _parts)[i2];
+      if (!(pp instanceof _AST && pp.type === "!")) {
+        return false;
+      }
+    }
+    return true;
+  }
+  isEnd() {
+    var _a, _b, _c;
+    if (__privateGet(this, _root) === this)
+      return true;
+    if (((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!")
+      return true;
+    if (!((_b = __privateGet(this, _parent)) == null ? void 0 : _b.isEnd()))
+      return false;
+    if (!this.type)
+      return (_c = __privateGet(this, _parent)) == null ? void 0 : _c.isEnd();
+    const pl = __privateGet(this, _parent) ? __privateGet(__privateGet(this, _parent), _parts).length : 0;
+    return __privateGet(this, _parentIndex) === pl - 1;
+  }
+  copyIn(part) {
+    if (typeof part === "string")
+      this.push(part);
+    else
+      this.push(part.clone(this));
+  }
+  clone(parent) {
+    const c2 = new _AST(this.type, parent);
+    for (const p of __privateGet(this, _parts)) {
+      c2.copyIn(p);
+    }
+    return c2;
+  }
+  static fromGlob(pattern, options = {}) {
+    var _a;
+    const ast = new _AST(null, void 0, options);
+    __privateMethod(_a = _AST, _parseAST, parseAST_fn).call(_a, pattern, ast, 0, options);
+    return ast;
+  }
+  toMMPattern() {
+    if (this !== __privateGet(this, _root))
+      return __privateGet(this, _root).toMMPattern();
+    const glob = this.toString();
+    const [re, body2, hasMagic, uflag] = this.toRegExpSource();
+    const anyMagic = hasMagic || __privateGet(this, _hasMagic) || __privateGet(this, _options).nocase && !__privateGet(this, _options).nocaseMagicOnly && glob.toUpperCase() !== glob.toLowerCase();
+    if (!anyMagic) {
+      return body2;
+    }
+    const flags = (__privateGet(this, _options).nocase ? "i" : "") + (uflag ? "u" : "");
+    return Object.assign(new RegExp(`^${re}$`, flags), {
+      _src: re,
+      _glob: glob
+    });
+  }
+  get options() {
+    return __privateGet(this, _options);
+  }
+  toRegExpSource(allowDot) {
+    var _a;
+    const dot = allowDot != null ? allowDot : !!__privateGet(this, _options).dot;
+    if (__privateGet(this, _root) === this)
+      __privateMethod(this, _fillNegs, fillNegs_fn).call(this);
+    if (!this.type) {
+      const noEmpty = this.isStart() && this.isEnd();
+      const src = __privateGet(this, _parts).map((p) => {
+        var _a2;
+        const [re, _27, hasMagic, uflag] = typeof p === "string" ? __privateMethod(_a2 = _AST, _parseGlob, parseGlob_fn).call(_a2, p, __privateGet(this, _hasMagic), noEmpty) : p.toRegExpSource(allowDot);
+        __privateSet(this, _hasMagic, __privateGet(this, _hasMagic) || hasMagic);
+        __privateSet(this, _uflag, __privateGet(this, _uflag) || uflag);
+        return re;
+      }).join("");
+      let start3 = "";
+      if (this.isStart()) {
+        if (typeof __privateGet(this, _parts)[0] === "string") {
+          const dotTravAllowed = __privateGet(this, _parts).length === 1 && justDots.has(__privateGet(this, _parts)[0]);
+          if (!dotTravAllowed) {
+            const aps = addPatternStart;
+            const needNoTrav = dot && aps.has(src.charAt(0)) || src.startsWith("\\.") && aps.has(src.charAt(2)) || src.startsWith("\\.\\.") && aps.has(src.charAt(4));
+            const needNoDot = !dot && !allowDot && aps.has(src.charAt(0));
+            start3 = needNoTrav ? startNoTraversal : needNoDot ? startNoDot : "";
+          }
+        }
+      }
+      let end2 = "";
+      if (this.isEnd() && __privateGet(__privateGet(this, _root), _filledNegs) && ((_a = __privateGet(this, _parent)) == null ? void 0 : _a.type) === "!") {
+        end2 = "(?:$|\\/)";
+      }
+      const final2 = start3 + src + end2;
+      return [
+        final2,
+        unescape(src),
+        __privateSet(this, _hasMagic, !!__privateGet(this, _hasMagic)),
+        __privateGet(this, _uflag)
+      ];
+    }
+    const repeated = this.type === "*" || this.type === "+";
+    const start2 = this.type === "!" ? "(?:(?!(?:" : "(?:";
+    let body2 = __privateMethod(this, _partsToRegExp, partsToRegExp_fn).call(this, dot);
+    if (this.isStart() && this.isEnd() && !body2 && this.type !== "!") {
+      const s2 = this.toString();
+      __privateSet(this, _parts, [s2]);
+      this.type = null;
+      __privateSet(this, _hasMagic, void 0);
+      return [s2, unescape(this.toString()), false, false];
+    }
+    let bodyDotAllowed = !repeated || allowDot || dot || !startNoDot ? "" : __privateMethod(this, _partsToRegExp, partsToRegExp_fn).call(this, true);
+    if (bodyDotAllowed === body2) {
+      bodyDotAllowed = "";
+    }
+    if (bodyDotAllowed) {
+      body2 = `(?:${body2})(?:${bodyDotAllowed})*?`;
+    }
+    let final = "";
+    if (this.type === "!" && __privateGet(this, _emptyExt)) {
+      final = (this.isStart() && !dot ? startNoDot : "") + starNoEmpty;
+    } else {
+      const close = this.type === "!" ? "))" + (this.isStart() && !dot && !allowDot ? startNoDot : "") + star + ")" : this.type === "@" ? ")" : this.type === "?" ? ")?" : this.type === "+" && bodyDotAllowed ? ")" : this.type === "*" && bodyDotAllowed ? `)?` : `)${this.type}`;
+      final = start2 + body2 + close;
+    }
+    return [
+      final,
+      unescape(body2),
+      __privateSet(this, _hasMagic, !!__privateGet(this, _hasMagic)),
+      __privateGet(this, _uflag)
+    ];
+  }
+};
+var AST = _AST;
+_root = new WeakMap();
+_hasMagic = new WeakMap();
+_uflag = new WeakMap();
+_parts = new WeakMap();
+_parent = new WeakMap();
+_parentIndex = new WeakMap();
+_negs = new WeakMap();
+_filledNegs = new WeakMap();
+_options = new WeakMap();
+_toString = new WeakMap();
+_emptyExt = new WeakMap();
+_fillNegs = new WeakSet();
+fillNegs_fn = function() {
+  if (this !== __privateGet(this, _root))
+    throw new Error("should only call on root");
+  if (__privateGet(this, _filledNegs))
+    return this;
+  this.toString();
+  __privateSet(this, _filledNegs, true);
+  let n2;
+  while (n2 = __privateGet(this, _negs).pop()) {
+    if (n2.type !== "!")
+      continue;
+    let p = n2;
+    let pp = __privateGet(p, _parent);
+    while (pp) {
+      for (let i2 = __privateGet(p, _parentIndex) + 1; !pp.type && i2 < __privateGet(pp, _parts).length; i2++) {
+        for (const part of __privateGet(n2, _parts)) {
+          if (typeof part === "string") {
+            throw new Error("string part in extglob AST??");
+          }
+          part.copyIn(__privateGet(pp, _parts)[i2]);
+        }
+      }
+      p = pp;
+      pp = __privateGet(p, _parent);
+    }
+  }
+  return this;
+};
+_parseAST = new WeakSet();
+parseAST_fn = function(str, ast, pos, opt) {
+  var _a, _b;
+  let escaping = false;
+  let inBrace = false;
+  let braceStart = -1;
+  let braceNeg = false;
+  if (ast.type === null) {
+    let i3 = pos;
+    let acc2 = "";
+    while (i3 < str.length) {
+      const c2 = str.charAt(i3++);
+      if (escaping || c2 === "\\") {
+        escaping = !escaping;
+        acc2 += c2;
+        continue;
+      }
+      if (inBrace) {
+        if (i3 === braceStart + 1) {
+          if (c2 === "^" || c2 === "!") {
+            braceNeg = true;
+          }
+        } else if (c2 === "]" && !(i3 === braceStart + 2 && braceNeg)) {
+          inBrace = false;
+        }
+        acc2 += c2;
+        continue;
+      } else if (c2 === "[") {
+        inBrace = true;
+        braceStart = i3;
+        braceNeg = false;
+        acc2 += c2;
+        continue;
+      }
+      if (!opt.noext && isExtglobType(c2) && str.charAt(i3) === "(") {
+        ast.push(acc2);
+        acc2 = "";
+        const ext2 = new _AST(c2, ast);
+        i3 = __privateMethod(_a = _AST, _parseAST, parseAST_fn).call(_a, str, ext2, i3, opt);
+        ast.push(ext2);
+        continue;
+      }
+      acc2 += c2;
+    }
+    ast.push(acc2);
+    return i3;
+  }
+  let i2 = pos + 1;
+  let part = new _AST(null, ast);
+  const parts = [];
+  let acc = "";
+  while (i2 < str.length) {
+    const c2 = str.charAt(i2++);
+    if (escaping || c2 === "\\") {
+      escaping = !escaping;
+      acc += c2;
+      continue;
+    }
+    if (inBrace) {
+      if (i2 === braceStart + 1) {
+        if (c2 === "^" || c2 === "!") {
+          braceNeg = true;
+        }
+      } else if (c2 === "]" && !(i2 === braceStart + 2 && braceNeg)) {
+        inBrace = false;
+      }
+      acc += c2;
+      continue;
+    } else if (c2 === "[") {
+      inBrace = true;
+      braceStart = i2;
+      braceNeg = false;
+      acc += c2;
+      continue;
+    }
+    if (isExtglobType(c2) && str.charAt(i2) === "(") {
+      part.push(acc);
+      acc = "";
+      const ext2 = new _AST(c2, part);
+      part.push(ext2);
+      i2 = __privateMethod(_b = _AST, _parseAST, parseAST_fn).call(_b, str, ext2, i2, opt);
+      continue;
+    }
+    if (c2 === "|") {
+      part.push(acc);
+      acc = "";
+      parts.push(part);
+      part = new _AST(null, ast);
+      continue;
+    }
+    if (c2 === ")") {
+      if (acc === "" && __privateGet(ast, _parts).length === 0) {
+        __privateSet(ast, _emptyExt, true);
+      }
+      part.push(acc);
+      acc = "";
+      ast.push(...parts, part);
+      return i2;
+    }
+    acc += c2;
+  }
+  ast.type = null;
+  __privateSet(ast, _hasMagic, void 0);
+  __privateSet(ast, _parts, [str.substring(pos - 1)]);
+  return i2;
+};
+_partsToRegExp = new WeakSet();
+partsToRegExp_fn = function(dot) {
+  return __privateGet(this, _parts).map((p) => {
+    if (typeof p === "string") {
+      throw new Error("string type in extglob ast??");
+    }
+    const [re, _27, _hasMagic2, uflag] = p.toRegExpSource(dot);
+    __privateSet(this, _uflag, __privateGet(this, _uflag) || uflag);
+    return re;
+  }).filter((p) => !(this.isStart() && this.isEnd()) || !!p).join("|");
+};
+_parseGlob = new WeakSet();
+parseGlob_fn = function(glob, hasMagic, noEmpty = false) {
+  let escaping = false;
+  let re = "";
+  let uflag = false;
+  for (let i2 = 0; i2 < glob.length; i2++) {
+    const c2 = glob.charAt(i2);
+    if (escaping) {
+      escaping = false;
+      re += (reSpecials.has(c2) ? "\\" : "") + c2;
+      continue;
+    }
+    if (c2 === "\\") {
+      if (i2 === glob.length - 1) {
+        re += "\\\\";
+      } else {
+        escaping = true;
+      }
+      continue;
+    }
+    if (c2 === "[") {
+      const [src, needUflag, consumed, magic] = parseClass(glob, i2);
+      if (consumed) {
+        re += src;
+        uflag = uflag || needUflag;
+        i2 += consumed - 1;
+        hasMagic = hasMagic || magic;
+        continue;
+      }
+    }
+    if (c2 === "*") {
+      if (noEmpty && glob === "*")
+        re += starNoEmpty;
+      else
+        re += star;
+      hasMagic = true;
+      continue;
+    }
+    if (c2 === "?") {
+      re += qmark;
+      hasMagic = true;
+      continue;
+    }
+    re += regExpEscape(c2);
+  }
+  return [re, unescape(glob), !!hasMagic, uflag];
+};
+__privateAdd(AST, _parseAST);
+__privateAdd(AST, _parseGlob);
+
+// node_modules/minimatch/dist/esm/escape.js
+var escape2 = (s2, { windowsPathsNoEscape = false } = {}) => {
+  return windowsPathsNoEscape ? s2.replace(/[?*()[\]]/g, "[$&]") : s2.replace(/[?*()[\]\\]/g, "\\$&");
+};
+
+// node_modules/minimatch/dist/esm/index.js
+var minimatch = (p, pattern, options = {}) => {
+  assertValidPattern(pattern);
+  if (!options.nocomment && pattern.charAt(0) === "#") {
+    return false;
+  }
+  return new Minimatch(pattern, options).match(p);
+};
+var starDotExtRE = /^\*+([^+@!?\*\[\(]*)$/;
+var starDotExtTest = (ext2) => (f) => !f.startsWith(".") && f.endsWith(ext2);
+var starDotExtTestDot = (ext2) => (f) => f.endsWith(ext2);
+var starDotExtTestNocase = (ext2) => {
+  ext2 = ext2.toLowerCase();
+  return (f) => !f.startsWith(".") && f.toLowerCase().endsWith(ext2);
+};
+var starDotExtTestNocaseDot = (ext2) => {
+  ext2 = ext2.toLowerCase();
+  return (f) => f.toLowerCase().endsWith(ext2);
+};
+var starDotStarRE = /^\*+\.\*+$/;
+var starDotStarTest = (f) => !f.startsWith(".") && f.includes(".");
+var starDotStarTestDot = (f) => f !== "." && f !== ".." && f.includes(".");
+var dotStarRE = /^\.\*+$/;
+var dotStarTest = (f) => f !== "." && f !== ".." && f.startsWith(".");
+var starRE = /^\*+$/;
+var starTest = (f) => f.length !== 0 && !f.startsWith(".");
+var starTestDot = (f) => f.length !== 0 && f !== "." && f !== "..";
+var qmarksRE = /^\?+([^+@!?\*\[\(]*)?$/;
+var qmarksTestNocase = ([$0, ext2 = ""]) => {
+  const noext = qmarksTestNoExt([$0]);
+  if (!ext2)
+    return noext;
+  ext2 = ext2.toLowerCase();
+  return (f) => noext(f) && f.toLowerCase().endsWith(ext2);
+};
+var qmarksTestNocaseDot = ([$0, ext2 = ""]) => {
+  const noext = qmarksTestNoExtDot([$0]);
+  if (!ext2)
+    return noext;
+  ext2 = ext2.toLowerCase();
+  return (f) => noext(f) && f.toLowerCase().endsWith(ext2);
+};
+var qmarksTestDot = ([$0, ext2 = ""]) => {
+  const noext = qmarksTestNoExtDot([$0]);
+  return !ext2 ? noext : (f) => noext(f) && f.endsWith(ext2);
+};
+var qmarksTest = ([$0, ext2 = ""]) => {
+  const noext = qmarksTestNoExt([$0]);
+  return !ext2 ? noext : (f) => noext(f) && f.endsWith(ext2);
+};
+var qmarksTestNoExt = ([$0]) => {
+  const len = $0.length;
+  return (f) => f.length === len && !f.startsWith(".");
+};
+var qmarksTestNoExtDot = ([$0]) => {
+  const len = $0.length;
+  return (f) => f.length === len && f !== "." && f !== "..";
+};
+var defaultPlatform = typeof process === "object" && process ? typeof process.env === "object" && process.env && process.env.__MINIMATCH_TESTING_PLATFORM__ || process.platform : "posix";
+var path = {
+  win32: { sep: "\\" },
+  posix: { sep: "/" }
+};
+var sep = defaultPlatform === "win32" ? path.win32.sep : path.posix.sep;
+minimatch.sep = sep;
+var GLOBSTAR = Symbol("globstar **");
+minimatch.GLOBSTAR = GLOBSTAR;
+var qmark2 = "[^/]";
+var star2 = qmark2 + "*?";
+var twoStarDot = "(?:(?!(?:\\/|^)(?:\\.{1,2})($|\\/)).)*?";
+var twoStarNoDot = "(?:(?!(?:\\/|^)\\.).)*?";
+var filter = (pattern, options = {}) => (p) => minimatch(p, pattern, options);
+minimatch.filter = filter;
+var ext = (a2, b = {}) => Object.assign({}, a2, b);
+var defaults = (def) => {
+  if (!def || typeof def !== "object" || !Object.keys(def).length) {
+    return minimatch;
+  }
+  const orig = minimatch;
+  const m = (p, pattern, options = {}) => orig(p, pattern, ext(def, options));
+  return Object.assign(m, {
+    Minimatch: class Minimatch extends orig.Minimatch {
+      constructor(pattern, options = {}) {
+        super(pattern, ext(def, options));
+      }
+      static defaults(options) {
+        return orig.defaults(ext(def, options)).Minimatch;
+      }
+    },
+    AST: class AST extends orig.AST {
+      constructor(type, parent, options = {}) {
+        super(type, parent, ext(def, options));
+      }
+      static fromGlob(pattern, options = {}) {
+        return orig.AST.fromGlob(pattern, ext(def, options));
+      }
+    },
+    unescape: (s2, options = {}) => orig.unescape(s2, ext(def, options)),
+    escape: (s2, options = {}) => orig.escape(s2, ext(def, options)),
+    filter: (pattern, options = {}) => orig.filter(pattern, ext(def, options)),
+    defaults: (options) => orig.defaults(ext(def, options)),
+    makeRe: (pattern, options = {}) => orig.makeRe(pattern, ext(def, options)),
+    braceExpand: (pattern, options = {}) => orig.braceExpand(pattern, ext(def, options)),
+    match: (list, pattern, options = {}) => orig.match(list, pattern, ext(def, options)),
+    sep: orig.sep,
+    GLOBSTAR
+  });
+};
+minimatch.defaults = defaults;
+var braceExpand = (pattern, options = {}) => {
+  assertValidPattern(pattern);
+  if (options.nobrace || !/\{(?:(?!\{).)*\}/.test(pattern)) {
+    return [pattern];
+  }
+  return expand(pattern);
+};
+minimatch.braceExpand = braceExpand;
+var makeRe = (pattern, options = {}) => new Minimatch(pattern, options).makeRe();
+minimatch.makeRe = makeRe;
+var match = (list, pattern, options = {}) => {
+  const mm = new Minimatch(pattern, options);
+  list = list.filter((f) => mm.match(f));
+  if (mm.options.nonull && !list.length) {
+    list.push(pattern);
+  }
+  return list;
+};
+minimatch.match = match;
+var globMagic = /[?*]|[+@!]\(.*?\)|\[|\]/;
+var regExpEscape2 = (s2) => s2.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+var Minimatch = class {
+  constructor(pattern, options = {}) {
+    __publicField(this, "options");
+    __publicField(this, "set");
+    __publicField(this, "pattern");
+    __publicField(this, "windowsPathsNoEscape");
+    __publicField(this, "nonegate");
+    __publicField(this, "negate");
+    __publicField(this, "comment");
+    __publicField(this, "empty");
+    __publicField(this, "preserveMultipleSlashes");
+    __publicField(this, "partial");
+    __publicField(this, "globSet");
+    __publicField(this, "globParts");
+    __publicField(this, "nocase");
+    __publicField(this, "isWindows");
+    __publicField(this, "platform");
+    __publicField(this, "windowsNoMagicRoot");
+    __publicField(this, "regexp");
+    assertValidPattern(pattern);
+    options = options || {};
+    this.options = options;
+    this.pattern = pattern;
+    this.platform = options.platform || defaultPlatform;
+    this.isWindows = this.platform === "win32";
+    this.windowsPathsNoEscape = !!options.windowsPathsNoEscape || options.allowWindowsEscape === false;
+    if (this.windowsPathsNoEscape) {
+      this.pattern = this.pattern.replace(/\\/g, "/");
+    }
+    this.preserveMultipleSlashes = !!options.preserveMultipleSlashes;
+    this.regexp = null;
+    this.negate = false;
+    this.nonegate = !!options.nonegate;
+    this.comment = false;
+    this.empty = false;
+    this.partial = !!options.partial;
+    this.nocase = !!this.options.nocase;
+    this.windowsNoMagicRoot = options.windowsNoMagicRoot !== void 0 ? options.windowsNoMagicRoot : !!(this.isWindows && this.nocase);
+    this.globSet = [];
+    this.globParts = [];
+    this.set = [];
+    this.make();
+  }
+  hasMagic() {
+    if (this.options.magicalBraces && this.set.length > 1) {
+      return true;
+    }
+    for (const pattern of this.set) {
+      for (const part of pattern) {
+        if (typeof part !== "string")
+          return true;
+      }
+    }
+    return false;
+  }
+  debug(..._27) {
+  }
+  make() {
+    const pattern = this.pattern;
+    const options = this.options;
+    if (!options.nocomment && pattern.charAt(0) === "#") {
+      this.comment = true;
+      return;
+    }
+    if (!pattern) {
+      this.empty = true;
+      return;
+    }
+    this.parseNegate();
+    this.globSet = [...new Set(this.braceExpand())];
+    if (options.debug) {
+      this.debug = (...args) => console.error(...args);
+    }
+    this.debug(this.pattern, this.globSet);
+    const rawGlobParts = this.globSet.map((s2) => this.slashSplit(s2));
+    this.globParts = this.preprocess(rawGlobParts);
+    this.debug(this.pattern, this.globParts);
+    let set2 = this.globParts.map((s2, _27, __) => {
+      if (this.isWindows && this.windowsNoMagicRoot) {
+        const isUNC = s2[0] === "" && s2[1] === "" && (s2[2] === "?" || !globMagic.test(s2[2])) && !globMagic.test(s2[3]);
+        const isDrive = /^[a-z]:/i.test(s2[0]);
+        if (isUNC) {
+          return [...s2.slice(0, 4), ...s2.slice(4).map((ss) => this.parse(ss))];
+        } else if (isDrive) {
+          return [s2[0], ...s2.slice(1).map((ss) => this.parse(ss))];
+        }
+      }
+      return s2.map((ss) => this.parse(ss));
+    });
+    this.debug(this.pattern, set2);
+    this.set = set2.filter((s2) => s2.indexOf(false) === -1);
+    if (this.isWindows) {
+      for (let i2 = 0; i2 < this.set.length; i2++) {
+        const p = this.set[i2];
+        if (p[0] === "" && p[1] === "" && this.globParts[i2][2] === "?" && typeof p[3] === "string" && /^[a-z]:$/i.test(p[3])) {
+          p[2] = "?";
+        }
+      }
+    }
+    this.debug(this.pattern, this.set);
+  }
+  preprocess(globParts) {
+    if (this.options.noglobstar) {
+      for (let i2 = 0; i2 < globParts.length; i2++) {
+        for (let j = 0; j < globParts[i2].length; j++) {
+          if (globParts[i2][j] === "**") {
+            globParts[i2][j] = "*";
+          }
+        }
+      }
+    }
+    const { optimizationLevel = 1 } = this.options;
+    if (optimizationLevel >= 2) {
+      globParts = this.firstPhasePreProcess(globParts);
+      globParts = this.secondPhasePreProcess(globParts);
+    } else if (optimizationLevel >= 1) {
+      globParts = this.levelOneOptimize(globParts);
+    } else {
+      globParts = this.adjascentGlobstarOptimize(globParts);
+    }
+    return globParts;
+  }
+  adjascentGlobstarOptimize(globParts) {
+    return globParts.map((parts) => {
+      let gs = -1;
+      while ((gs = parts.indexOf("**", gs + 1)) !== -1) {
+        let i2 = gs;
+        while (parts[i2 + 1] === "**") {
+          i2++;
+        }
+        if (i2 !== gs) {
+          parts.splice(gs, i2 - gs);
+        }
+      }
+      return parts;
+    });
+  }
+  levelOneOptimize(globParts) {
+    return globParts.map((parts) => {
+      parts = parts.reduce((set2, part) => {
+        const prev = set2[set2.length - 1];
+        if (part === "**" && prev === "**") {
+          return set2;
+        }
+        if (part === "..") {
+          if (prev && prev !== ".." && prev !== "." && prev !== "**") {
+            set2.pop();
+            return set2;
+          }
+        }
+        set2.push(part);
+        return set2;
+      }, []);
+      return parts.length === 0 ? [""] : parts;
+    });
+  }
+  levelTwoFileOptimize(parts) {
+    if (!Array.isArray(parts)) {
+      parts = this.slashSplit(parts);
+    }
+    let didSomething = false;
+    do {
+      didSomething = false;
+      if (!this.preserveMultipleSlashes) {
+        for (let i2 = 1; i2 < parts.length - 1; i2++) {
+          const p = parts[i2];
+          if (i2 === 1 && p === "" && parts[0] === "")
+            continue;
+          if (p === "." || p === "") {
+            didSomething = true;
+            parts.splice(i2, 1);
+            i2--;
+          }
+        }
+        if (parts[0] === "." && parts.length === 2 && (parts[1] === "." || parts[1] === "")) {
+          didSomething = true;
+          parts.pop();
+        }
+      }
+      let dd = 0;
+      while ((dd = parts.indexOf("..", dd + 1)) !== -1) {
+        const p = parts[dd - 1];
+        if (p && p !== "." && p !== ".." && p !== "**") {
+          didSomething = true;
+          parts.splice(dd - 1, 2);
+          dd -= 2;
+        }
+      }
+    } while (didSomething);
+    return parts.length === 0 ? [""] : parts;
+  }
+  firstPhasePreProcess(globParts) {
+    let didSomething = false;
+    do {
+      didSomething = false;
+      for (let parts of globParts) {
+        let gs = -1;
+        while ((gs = parts.indexOf("**", gs + 1)) !== -1) {
+          let gss = gs;
+          while (parts[gss + 1] === "**") {
+            gss++;
+          }
+          if (gss > gs) {
+            parts.splice(gs + 1, gss - gs);
+          }
+          let next = parts[gs + 1];
+          const p = parts[gs + 2];
+          const p2 = parts[gs + 3];
+          if (next !== "..")
+            continue;
+          if (!p || p === "." || p === ".." || !p2 || p2 === "." || p2 === "..") {
+            continue;
+          }
+          didSomething = true;
+          parts.splice(gs, 1);
+          const other = parts.slice(0);
+          other[gs] = "**";
+          globParts.push(other);
+          gs--;
+        }
+        if (!this.preserveMultipleSlashes) {
+          for (let i2 = 1; i2 < parts.length - 1; i2++) {
+            const p = parts[i2];
+            if (i2 === 1 && p === "" && parts[0] === "")
+              continue;
+            if (p === "." || p === "") {
+              didSomething = true;
+              parts.splice(i2, 1);
+              i2--;
+            }
+          }
+          if (parts[0] === "." && parts.length === 2 && (parts[1] === "." || parts[1] === "")) {
+            didSomething = true;
+            parts.pop();
+          }
+        }
+        let dd = 0;
+        while ((dd = parts.indexOf("..", dd + 1)) !== -1) {
+          const p = parts[dd - 1];
+          if (p && p !== "." && p !== ".." && p !== "**") {
+            didSomething = true;
+            const needDot = dd === 1 && parts[dd + 1] === "**";
+            const splin = needDot ? ["."] : [];
+            parts.splice(dd - 1, 2, ...splin);
+            if (parts.length === 0)
+              parts.push("");
+            dd -= 2;
+          }
+        }
+      }
+    } while (didSomething);
+    return globParts;
+  }
+  secondPhasePreProcess(globParts) {
+    for (let i2 = 0; i2 < globParts.length - 1; i2++) {
+      for (let j = i2 + 1; j < globParts.length; j++) {
+        const matched = this.partsMatch(globParts[i2], globParts[j], !this.preserveMultipleSlashes);
+        if (matched) {
+          globParts[i2] = [];
+          globParts[j] = matched;
+          break;
+        }
+      }
+    }
+    return globParts.filter((gs) => gs.length);
+  }
+  partsMatch(a2, b, emptyGSMatch = false) {
+    let ai = 0;
+    let bi = 0;
+    let result = [];
+    let which = "";
+    while (ai < a2.length && bi < b.length) {
+      if (a2[ai] === b[bi]) {
+        result.push(which === "b" ? b[bi] : a2[ai]);
+        ai++;
+        bi++;
+      } else if (emptyGSMatch && a2[ai] === "**" && b[bi] === a2[ai + 1]) {
+        result.push(a2[ai]);
+        ai++;
+      } else if (emptyGSMatch && b[bi] === "**" && a2[ai] === b[bi + 1]) {
+        result.push(b[bi]);
+        bi++;
+      } else if (a2[ai] === "*" && b[bi] && (this.options.dot || !b[bi].startsWith(".")) && b[bi] !== "**") {
+        if (which === "b")
+          return false;
+        which = "a";
+        result.push(a2[ai]);
+        ai++;
+        bi++;
+      } else if (b[bi] === "*" && a2[ai] && (this.options.dot || !a2[ai].startsWith(".")) && a2[ai] !== "**") {
+        if (which === "a")
+          return false;
+        which = "b";
+        result.push(b[bi]);
+        ai++;
+        bi++;
+      } else {
+        return false;
+      }
+    }
+    return a2.length === b.length && result;
+  }
+  parseNegate() {
+    if (this.nonegate)
+      return;
+    const pattern = this.pattern;
+    let negate = false;
+    let negateOffset = 0;
+    for (let i2 = 0; i2 < pattern.length && pattern.charAt(i2) === "!"; i2++) {
+      negate = !negate;
+      negateOffset++;
+    }
+    if (negateOffset)
+      this.pattern = pattern.slice(negateOffset);
+    this.negate = negate;
+  }
+  matchOne(file, pattern, partial = false) {
+    const options = this.options;
+    if (this.isWindows) {
+      const fileDrive = typeof file[0] === "string" && /^[a-z]:$/i.test(file[0]);
+      const fileUNC = !fileDrive && file[0] === "" && file[1] === "" && file[2] === "?" && /^[a-z]:$/i.test(file[3]);
+      const patternDrive = typeof pattern[0] === "string" && /^[a-z]:$/i.test(pattern[0]);
+      const patternUNC = !patternDrive && pattern[0] === "" && pattern[1] === "" && pattern[2] === "?" && typeof pattern[3] === "string" && /^[a-z]:$/i.test(pattern[3]);
+      const fdi = fileUNC ? 3 : fileDrive ? 0 : void 0;
+      const pdi = patternUNC ? 3 : patternDrive ? 0 : void 0;
+      if (typeof fdi === "number" && typeof pdi === "number") {
+        const [fd, pd] = [file[fdi], pattern[pdi]];
+        if (fd.toLowerCase() === pd.toLowerCase()) {
+          pattern[pdi] = fd;
+          if (pdi > fdi) {
+            pattern = pattern.slice(pdi);
+          } else if (fdi > pdi) {
+            file = file.slice(fdi);
+          }
+        }
+      }
+    }
+    const { optimizationLevel = 1 } = this.options;
+    if (optimizationLevel >= 2) {
+      file = this.levelTwoFileOptimize(file);
+    }
+    this.debug("matchOne", this, { file, pattern });
+    this.debug("matchOne", file.length, pattern.length);
+    for (var fi = 0, pi = 0, fl = file.length, pl = pattern.length; fi < fl && pi < pl; fi++, pi++) {
+      this.debug("matchOne loop");
+      var p = pattern[pi];
+      var f = file[fi];
+      this.debug(pattern, p, f);
+      if (p === false) {
+        return false;
+      }
+      if (p === GLOBSTAR) {
+        this.debug("GLOBSTAR", [pattern, p, f]);
+        var fr = fi;
+        var pr = pi + 1;
+        if (pr === pl) {
+          this.debug("** at the end");
+          for (; fi < fl; fi++) {
+            if (file[fi] === "." || file[fi] === ".." || !options.dot && file[fi].charAt(0) === ".")
+              return false;
+          }
+          return true;
+        }
+        while (fr < fl) {
+          var swallowee = file[fr];
+          this.debug("\nglobstar while", file, fr, pattern, pr, swallowee);
+          if (this.matchOne(file.slice(fr), pattern.slice(pr), partial)) {
+            this.debug("globstar found match!", fr, fl, swallowee);
+            return true;
+          } else {
+            if (swallowee === "." || swallowee === ".." || !options.dot && swallowee.charAt(0) === ".") {
+              this.debug("dot detected!", file, fr, pattern, pr);
+              break;
+            }
+            this.debug("globstar swallow a segment, and continue");
+            fr++;
+          }
+        }
+        if (partial) {
+          this.debug("\n>>> no match, partial?", file, fr, pattern, pr);
+          if (fr === fl) {
+            return true;
+          }
+        }
+        return false;
+      }
+      let hit;
+      if (typeof p === "string") {
+        hit = f === p;
+        this.debug("string match", p, f, hit);
+      } else {
+        hit = p.test(f);
+        this.debug("pattern match", p, f, hit);
+      }
+      if (!hit)
+        return false;
+    }
+    if (fi === fl && pi === pl) {
+      return true;
+    } else if (fi === fl) {
+      return partial;
+    } else if (pi === pl) {
+      return fi === fl - 1 && file[fi] === "";
+    } else {
+      throw new Error("wtf?");
+    }
+  }
+  braceExpand() {
+    return braceExpand(this.pattern, this.options);
+  }
+  parse(pattern) {
+    assertValidPattern(pattern);
+    const options = this.options;
+    if (pattern === "**")
+      return GLOBSTAR;
+    if (pattern === "")
+      return "";
+    let m;
+    let fastTest = null;
+    if (m = pattern.match(starRE)) {
+      fastTest = options.dot ? starTestDot : starTest;
+    } else if (m = pattern.match(starDotExtRE)) {
+      fastTest = (options.nocase ? options.dot ? starDotExtTestNocaseDot : starDotExtTestNocase : options.dot ? starDotExtTestDot : starDotExtTest)(m[1]);
+    } else if (m = pattern.match(qmarksRE)) {
+      fastTest = (options.nocase ? options.dot ? qmarksTestNocaseDot : qmarksTestNocase : options.dot ? qmarksTestDot : qmarksTest)(m);
+    } else if (m = pattern.match(starDotStarRE)) {
+      fastTest = options.dot ? starDotStarTestDot : starDotStarTest;
+    } else if (m = pattern.match(dotStarRE)) {
+      fastTest = dotStarTest;
+    }
+    const re = AST.fromGlob(pattern, this.options).toMMPattern();
+    if (fastTest && typeof re === "object") {
+      Reflect.defineProperty(re, "test", { value: fastTest });
+    }
+    return re;
+  }
+  makeRe() {
+    if (this.regexp || this.regexp === false)
+      return this.regexp;
+    const set2 = this.set;
+    if (!set2.length) {
+      this.regexp = false;
+      return this.regexp;
+    }
+    const options = this.options;
+    const twoStar = options.noglobstar ? star2 : options.dot ? twoStarDot : twoStarNoDot;
+    const flags = new Set(options.nocase ? ["i"] : []);
+    let re = set2.map((pattern) => {
+      const pp = pattern.map((p) => {
+        if (p instanceof RegExp) {
+          for (const f of p.flags.split(""))
+            flags.add(f);
+        }
+        return typeof p === "string" ? regExpEscape2(p) : p === GLOBSTAR ? GLOBSTAR : p._src;
+      });
+      pp.forEach((p, i2) => {
+        const next = pp[i2 + 1];
+        const prev = pp[i2 - 1];
+        if (p !== GLOBSTAR || prev === GLOBSTAR) {
+          return;
+        }
+        if (prev === void 0) {
+          if (next !== void 0 && next !== GLOBSTAR) {
+            pp[i2 + 1] = "(?:\\/|" + twoStar + "\\/)?" + next;
+          } else {
+            pp[i2] = twoStar;
+          }
+        } else if (next === void 0) {
+          pp[i2 - 1] = prev + "(?:\\/|" + twoStar + ")?";
+        } else if (next !== GLOBSTAR) {
+          pp[i2 - 1] = prev + "(?:\\/|\\/" + twoStar + "\\/)" + next;
+          pp[i2 + 1] = GLOBSTAR;
+        }
+      });
+      return pp.filter((p) => p !== GLOBSTAR).join("/");
+    }).join("|");
+    const [open, close] = set2.length > 1 ? ["(?:", ")"] : ["", ""];
+    re = "^" + open + re + close + "$";
+    if (this.negate)
+      re = "^(?!" + re + ").+$";
+    try {
+      this.regexp = new RegExp(re, [...flags].join(""));
+    } catch (ex) {
+      this.regexp = false;
+    }
+    return this.regexp;
+  }
+  slashSplit(p) {
+    if (this.preserveMultipleSlashes) {
+      return p.split("/");
+    } else if (this.isWindows && /^\/\/[^\/]+/.test(p)) {
+      return ["", ...p.split(/\/+/)];
+    } else {
+      return p.split(/\/+/);
+    }
+  }
+  match(f, partial = this.partial) {
+    this.debug("match", f, this.pattern);
+    if (this.comment) {
+      return false;
+    }
+    if (this.empty) {
+      return f === "";
+    }
+    if (f === "/" && partial) {
+      return true;
+    }
+    const options = this.options;
+    if (this.isWindows) {
+      f = f.split("\\").join("/");
+    }
+    const ff = this.slashSplit(f);
+    this.debug(this.pattern, "split", ff);
+    const set2 = this.set;
+    this.debug(this.pattern, "set", set2);
+    let filename = ff[ff.length - 1];
+    if (!filename) {
+      for (let i2 = ff.length - 2; !filename && i2 >= 0; i2--) {
+        filename = ff[i2];
+      }
+    }
+    for (let i2 = 0; i2 < set2.length; i2++) {
+      const pattern = set2[i2];
+      let file = ff;
+      if (options.matchBase && pattern.length === 1) {
+        file = [filename];
+      }
+      const hit = this.matchOne(file, pattern, partial);
+      if (hit) {
+        if (options.flipNegate) {
+          return true;
+        }
+        return !this.negate;
+      }
+    }
+    if (options.flipNegate) {
+      return false;
+    }
+    return this.negate;
+  }
+  static defaults(def) {
+    return minimatch.defaults(def).Minimatch;
+  }
+};
+minimatch.AST = AST;
+minimatch.Minimatch = Minimatch;
+minimatch.escape = escape2;
+minimatch.unescape = unescape;
 
 // cardSearch.ts
 var SearchResult = class {
@@ -54386,13 +55909,13 @@ var defaultCardSearch = class {
     this.qReg = /(^#Q\b.*|^#\/Q\b.*)/gm;
   }
   findAllQ(text) {
-    let match;
+    let match2;
     const matches = [];
-    while ((match = this.qReg.exec(text)) !== null) {
+    while ((match2 = this.qReg.exec(text)) !== null) {
       matches.push({
-        text: match[0],
-        start: match.index,
-        end: match.index + match[0].length
+        text: match2[0],
+        start: match2.index,
+        end: match2.index + match2[0].length
       });
     }
     return matches;
@@ -54400,6 +55923,7 @@ var defaultCardSearch = class {
   matchText(text) {
     const qTags = this.findAllQ(text);
     const matches = [];
+    const qBlockSepRe = /\n\s*\n/g;
     for (let i2 = 0; i2 < qTags.length; i2++) {
       if (qTags[i2].text.startsWith("#Q")) {
         if (matches.length > 0) {
@@ -54411,7 +55935,9 @@ var defaultCardSearch = class {
         if (i2 + 1 < qTags.length && qTags[i2 + 1].text.startsWith("#/Q")) {
           end2 = qTags[i2 + 1].start - 1;
         } else {
-          const nextBlankLine = text.indexOf("\n\n", qTags[i2].end);
+          qBlockSepRe.lastIndex = qTags[i2].end;
+          let matched = qBlockSepRe.exec(text);
+          const nextBlankLine = matched ? matched.index : -1;
           end2 = nextBlankLine !== -1 ? nextBlankLine : text.length;
         }
         const all = text.slice(qTags[i2].start, end2);
@@ -54426,7 +55952,7 @@ var defaultCardSearch = class {
   }
   async search(file, text) {
     let result = new SearchResult();
-    result.SearchName = "#" + this.tagName;
+    result.SearchName = this.openingTagName();
     if (file) {
       if (!text) {
         result.AllCard = await this.getCardFromFile(file);
@@ -54438,13 +55964,43 @@ var defaultCardSearch = class {
     }
     return result;
   }
+  openingTagName() {
+    return "#" + this.tagName;
+  }
+  isExcludedFile(file) {
+    for (const pattern of GlobalSettings.ExcludeWorkingPathesPattern.split("\n")) {
+      if (!pattern || pattern.trim() === "") {
+        continue;
+      }
+      if (file.path.startsWith(pattern) || minimatch(file.path, pattern)) {
+        log2(() => `Ignored file: ${file.path} due to pattern: ${pattern}`);
+        return true;
+      }
+    }
+    return false;
+  }
   async getCardFromVaultFile() {
     let cards = [];
     const notes = getAppInstance().vault.getMarkdownFiles();
     for (const note of notes) {
-      cards.push(...await this.getCardFromFile(note));
+      if (!this.isExcludedFile(note) && this.containsTag(note, this.openingTagName())) {
+        cards.push(...await this.getCardFromFile(note));
+      }
     }
     return cards;
+  }
+  containsTag(note, tag) {
+    var _a, _b;
+    const file = getAppInstance().vault.getAbstractFileByPath(note.path);
+    if (!file)
+      return false;
+    const metadata = getAppInstance().metadataCache.getFileCache(note);
+    const tags = (_b = (_a = metadata == null ? void 0 : metadata.tags) == null ? void 0 : _a.map((t3) => t3.tag)) != null ? _b : [];
+    const contains2 = tags.includes(tag);
+    if (!contains2) {
+      log2(() => `Ignored file: ${note.path} not contains tag ${tag}`);
+    }
+    return contains2;
   }
   async getCardFromFile(note) {
     let cards = [];
@@ -54454,7 +56010,7 @@ var defaultCardSearch = class {
         cards = this.getCardFromText(fileText, note);
       }
     } catch (error2) {
-      console.log(`[Aosr] Failed to read file: ${note.path}, error: ${error2}`);
+      log2(() => `Failed to read file: ${note.path}, error: ${error2}`);
       new import_obsidian3.Notice(`[Aosr] Failed to read file: ${note.path}, error: ${error2}`);
     }
     return cards;
@@ -54477,6 +56033,7 @@ var defaultCardSearch = class {
       let card = NewCard(cardText, content, annotation, blockID, index, note, cache);
       cards.push(card);
     }
+    log2(() => `Found ${cards.length} cards in file: ${note.path}`);
     return cards;
   }
 };
@@ -55349,7 +56906,7 @@ function detectOverflow(state, options) {
   if (options === void 0) {
     options = {};
   }
-  var _options = options, _options$placement = _options.placement, placement = _options$placement === void 0 ? state.placement : _options$placement, _options$strategy = _options.strategy, strategy = _options$strategy === void 0 ? state.strategy : _options$strategy, _options$boundary = _options.boundary, boundary = _options$boundary === void 0 ? clippingParents : _options$boundary, _options$rootBoundary = _options.rootBoundary, rootBoundary = _options$rootBoundary === void 0 ? viewport : _options$rootBoundary, _options$elementConte = _options.elementContext, elementContext = _options$elementConte === void 0 ? popper : _options$elementConte, _options$altBoundary = _options.altBoundary, altBoundary = _options$altBoundary === void 0 ? false : _options$altBoundary, _options$padding = _options.padding, padding2 = _options$padding === void 0 ? 0 : _options$padding;
+  var _options2 = options, _options$placement = _options2.placement, placement = _options$placement === void 0 ? state.placement : _options$placement, _options$strategy = _options2.strategy, strategy = _options$strategy === void 0 ? state.strategy : _options$strategy, _options$boundary = _options2.boundary, boundary = _options$boundary === void 0 ? clippingParents : _options$boundary, _options$rootBoundary = _options2.rootBoundary, rootBoundary = _options$rootBoundary === void 0 ? viewport : _options$rootBoundary, _options$elementConte = _options2.elementContext, elementContext = _options$elementConte === void 0 ? popper : _options$elementConte, _options$altBoundary = _options2.altBoundary, altBoundary = _options$altBoundary === void 0 ? false : _options$altBoundary, _options$padding = _options2.padding, padding2 = _options$padding === void 0 ? 0 : _options$padding;
   var paddingObject = mergePaddingObject(typeof padding2 !== "number" ? padding2 : expandToHashMap(padding2, basePlacements));
   var altContext = elementContext === popper ? reference : popper;
   var popperRect = state.rects.popper;
@@ -55387,7 +56944,7 @@ function computeAutoPlacement(state, options) {
   if (options === void 0) {
     options = {};
   }
-  var _options = options, placement = _options.placement, boundary = _options.boundary, rootBoundary = _options.rootBoundary, padding2 = _options.padding, flipVariations = _options.flipVariations, _options$allowedAutoP = _options.allowedAutoPlacements, allowedAutoPlacements = _options$allowedAutoP === void 0 ? placements : _options$allowedAutoP;
+  var _options2 = options, placement = _options2.placement, boundary = _options2.boundary, rootBoundary = _options2.rootBoundary, padding2 = _options2.padding, flipVariations = _options2.flipVariations, _options$allowedAutoP = _options2.allowedAutoPlacements, allowedAutoPlacements = _options$allowedAutoP === void 0 ? placements : _options$allowedAutoP;
   var variation = getVariation(placement);
   var placements2 = variation ? flipVariations ? variationPlacements : variationPlacements.filter(function(placement2) {
     return getVariation(placement2) === variation;
@@ -55932,11 +57489,11 @@ function popperGenerator(generatorOptions) {
             index = -1;
             continue;
           }
-          var _state$orderedModifie = state.orderedModifiers[index], fn2 = _state$orderedModifie.fn, _state$orderedModifie2 = _state$orderedModifie.options, _options = _state$orderedModifie2 === void 0 ? {} : _state$orderedModifie2, name = _state$orderedModifie.name;
+          var _state$orderedModifie = state.orderedModifiers[index], fn2 = _state$orderedModifie.fn, _state$orderedModifie2 = _state$orderedModifie.options, _options2 = _state$orderedModifie2 === void 0 ? {} : _state$orderedModifie2, name = _state$orderedModifie.name;
           if (typeof fn2 === "function") {
             state = fn2({
               state,
-              options: _options,
+              options: _options2,
               name,
               instance: instance2
             }) || state;
@@ -56211,17 +57768,17 @@ function resolveBreakpointValues({
 
 // node_modules/@mui/system/esm/style.js
 var import_capitalize = __toESM(require_capitalize2());
-function getPath2(obj, path, checkVars = true) {
-  if (!path || typeof path !== "string") {
+function getPath2(obj, path2, checkVars = true) {
+  if (!path2 || typeof path2 !== "string") {
     return null;
   }
   if (obj && obj.vars && checkVars) {
-    const val = `vars.${path}`.split(".").reduce((acc, item) => acc && acc[item] ? acc[item] : null, obj);
+    const val = `vars.${path2}`.split(".").reduce((acc, item) => acc && acc[item] ? acc[item] : null, obj);
     if (val != null) {
       return val;
     }
   }
-  return path.split(".").reduce((acc, item) => {
+  return path2.split(".").reduce((acc, item) => {
     if (acc && acc[item] != null) {
       return acc[item];
     }
@@ -57489,7 +59046,7 @@ var React4 = __toESM(require_react());
 var import_useEnhancedEffect = __toESM(require_useEnhancedEffect2());
 "use client";
 function useMediaQueryOld(query, defaultMatches, matchMedia, ssrMatchMedia, noSsr) {
-  const [match, setMatch] = React4.useState(() => {
+  const [match2, setMatch] = React4.useState(() => {
     if (noSsr && matchMedia) {
       return matchMedia(query).matches;
     }
@@ -57516,7 +59073,7 @@ function useMediaQueryOld(query, defaultMatches, matchMedia, ssrMatchMedia, noSs
       queryList.removeListener(updateMatch);
     };
   }, [query, matchMedia]);
-  return match;
+  return match2;
 }
 var maybeReactUseSyncExternalStore = React4["useSyncExternalStore"];
 function useMediaQueryNew(query, defaultMatches, matchMedia, ssrMatchMedia, noSsr) {
@@ -57546,8 +59103,8 @@ function useMediaQueryNew(query, defaultMatches, matchMedia, ssrMatchMedia, noSs
       };
     }];
   }, [getDefaultSnapshot, matchMedia, query]);
-  const match = maybeReactUseSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
-  return match;
+  const match2 = maybeReactUseSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  return match2;
 }
 function useMediaQuery(queryInput, options = {}) {
   const theme = useThemeWithoutDefault_default();
@@ -57570,14 +59127,14 @@ function useMediaQuery(queryInput, options = {}) {
   let query = typeof queryInput === "function" ? queryInput(theme) : queryInput;
   query = query.replace(/^@media( ?)/m, "");
   const useMediaQueryImplementation = maybeReactUseSyncExternalStore !== void 0 ? useMediaQueryNew : useMediaQueryOld;
-  const match = useMediaQueryImplementation(query, defaultMatches, matchMedia, ssrMatchMedia, noSsr);
+  const match2 = useMediaQueryImplementation(query, defaultMatches, matchMedia, ssrMatchMedia, noSsr);
   if (true) {
     React4.useDebugValue({
       query,
-      match
+      match: match2
     });
   }
-  return match;
+  return match2;
 }
 
 // node_modules/@mui/system/esm/colorManipulator.js
@@ -64749,13 +66306,13 @@ var React40 = __toESM(require_react());
 var import_SvgIcon = __toESM(require_SvgIcon2());
 var import_jsx_runtime34 = __toESM(require_jsx_runtime());
 "use client";
-function createSvgIcon(path, displayName) {
+function createSvgIcon(path2, displayName) {
   function Component5(props, ref) {
     return /* @__PURE__ */ (0, import_jsx_runtime34.jsx)(import_SvgIcon.default, _extends({
       "data-testid": `${displayName}Icon`,
       ref
     }, props, {
-      children: path
+      children: path2
     }));
   }
   if (true) {
@@ -80459,14 +82016,14 @@ function usePagination(props = {}) {
       handleChange(event, value);
     }
   };
-  const range = (start2, end2) => {
+  const range2 = (start2, end2) => {
     const length = end2 - start2 + 1;
     return Array.from({
       length
     }, (_27, i2) => start2 + i2);
   };
-  const startPages = range(1, Math.min(boundaryCount, count));
-  const endPages = range(Math.max(count - boundaryCount + 1, boundaryCount + 1), count);
+  const startPages = range2(1, Math.min(boundaryCount, count));
+  const endPages = range2(Math.max(count - boundaryCount + 1, boundaryCount + 1), count);
   const siblingsStart = Math.max(Math.min(page - siblingCount, count - boundaryCount - siblingCount * 2 - 1), boundaryCount + 2);
   const siblingsEnd = Math.min(Math.max(page + siblingCount, boundaryCount + siblingCount * 2 + 2), endPages.length > 0 ? endPages[0] - 2 : count - 1);
   const itemList = [
@@ -80474,7 +82031,7 @@ function usePagination(props = {}) {
     ...hidePrevButton ? [] : ["previous"],
     ...startPages,
     ...siblingsStart > boundaryCount + 2 ? ["start-ellipsis"] : boundaryCount + 1 < count - boundaryCount ? [boundaryCount + 1] : [],
-    ...range(siblingsStart, siblingsEnd),
+    ...range2(siblingsStart, siblingsEnd),
     ...siblingsEnd < count - boundaryCount - 1 ? ["end-ellipsis"] : count - boundaryCount > boundaryCount ? [count - boundaryCount] : [],
     ...endPages,
     ...hideNextButton ? [] : ["next"],
@@ -83017,8 +84574,8 @@ function useSlider(parameters) {
     });
     onChange(clonedEvent, value, thumbIndex);
   });
-  const range = Array.isArray(valueDerived);
-  let values3 = range ? valueDerived.slice().sort(asc) : [valueDerived];
+  const range2 = Array.isArray(valueDerived);
+  let values3 = range2 ? valueDerived.slice().sort(asc) : [valueDerived];
   values3 = values3.map((value) => value == null ? min2 : (0, import_utils26.clamp)(value, min2, max2));
   const marks = marksProp === true && step !== null ? [...Array(Math.floor((max2 - min2) / step) + 1)].map((_27, index) => ({
     value: min2 + step * index
@@ -83069,7 +84626,7 @@ function useSlider(parameters) {
       }
     }
     newValue = (0, import_utils26.clamp)(newValue, min2, max2);
-    if (range) {
+    if (range2) {
       if (disableSwap) {
         newValue = (0, import_utils26.clamp)(newValue, values3[index - 1] || -Infinity, values3[index + 1] || Infinity);
       }
@@ -83169,7 +84726,7 @@ function useSlider(parameters) {
     }
     newValue = (0, import_utils26.clamp)(newValue, min2, max2);
     let activeIndex = 0;
-    if (range) {
+    if (range2) {
       if (!move) {
         activeIndex = findClosest(values3, newValue);
       } else {
@@ -83346,7 +84903,7 @@ function useSlider(parameters) {
     });
     doc.addEventListener("mouseup", handleTouchEnd);
   };
-  const trackOffset = valueToPercent(range ? values3[0] : min2, min2, max2);
+  const trackOffset = valueToPercent(range2 ? values3[0] : min2, min2, max2);
   const trackLeap = valueToPercent(values3[values3.length - 1], min2, max2) - trackOffset;
   const getRootProps = (externalProps = {}) => {
     const externalHandlers = (0, import_extractEventHandlers2.default)(externalProps);
@@ -83423,7 +84980,7 @@ function useSlider(parameters) {
     getThumbProps,
     marks,
     open,
-    range,
+    range: range2,
     rootRef: handleRef,
     trackLeap,
     trackOffset,
@@ -84089,7 +85646,7 @@ var Slider = /* @__PURE__ */ React164.forwardRef(function Slider2(inputProps, re
     active,
     axis,
     focusedThumbIndex,
-    range,
+    range: range2,
     dragging,
     marks,
     values: values3,
@@ -84184,7 +85741,7 @@ var Slider = /* @__PURE__ */ React164.forwardRef(function Slider2(inputProps, re
       if (track === false) {
         markActive = values3.indexOf(mark.value) !== -1;
       } else {
-        markActive = track === "normal" && (range ? mark.value >= values3[0] && mark.value <= values3[values3.length - 1] : mark.value <= values3[0]) || track === "inverted" && (range ? mark.value <= values3[0] || mark.value >= values3[values3.length - 1] : mark.value >= values3[0]);
+        markActive = track === "normal" && (range2 ? mark.value >= values3[0] && mark.value <= values3[values3.length - 1] : mark.value <= values3[0]) || track === "inverted" && (range2 ? mark.value <= values3[0] || mark.value >= values3[values3.length - 1] : mark.value >= values3[0]);
       }
       return /* @__PURE__ */ (0, import_jsx_runtime177.jsxs)(React164.Fragment, {
         children: [/* @__PURE__ */ (0, import_jsx_runtime176.jsx)(MarkSlot, _extends({
@@ -84237,16 +85794,16 @@ var Slider = /* @__PURE__ */ React164.forwardRef(function Slider2(inputProps, re
 });
 true ? Slider.propTypes = {
   "aria-label": (0, import_chainPropTypes13.default)(import_prop_types125.default.string, (props) => {
-    const range = Array.isArray(props.value || props.defaultValue);
-    if (range && props["aria-label"] != null) {
+    const range2 = Array.isArray(props.value || props.defaultValue);
+    if (range2 && props["aria-label"] != null) {
       return new Error("MUI: You need to use the `getAriaLabel` prop instead of `aria-label` when using a range slider.");
     }
     return null;
   }),
   "aria-labelledby": import_prop_types125.default.string,
   "aria-valuetext": (0, import_chainPropTypes13.default)(import_prop_types125.default.string, (props) => {
-    const range = Array.isArray(props.value || props.defaultValue);
-    if (range && props["aria-valuetext"] != null) {
+    const range2 = Array.isArray(props.value || props.defaultValue);
+    if (range2 && props["aria-valuetext"] != null) {
       return new Error("MUI: You need to use the `getAriaValueText` prop instead of `aria-valuetext` when using a range slider.");
     }
     return null;
@@ -91240,6 +92797,11 @@ var ArrangementItem = class {
 };
 var Stats = class {
 };
+function hardPatterns(p) {
+  return p.filter((p2) => {
+    return p2.schedule.Ease - defaultSchedule.MIN_EASE_VALUE < 0.33 * (GlobalSettings.DefaultEase - defaultSchedule.MIN_EASE_VALUE);
+  });
+}
 var PatternIter = class {
   constructor(pattern, index, total) {
     this.pattern = pattern;
@@ -91268,6 +92830,7 @@ var Arrangement = class extends ArrangementBase {
     this.allPattern = [];
     this.newPattern = [];
     this.needReviewPattern = [];
+    this.hardPatterns = [];
   }
   async init(rule) {
     let search = NewCardSearch();
@@ -91310,6 +92873,7 @@ var Arrangement = class extends ArrangementBase {
     stats.LearnCount = learnCount;
     stats.NewCount = newCount;
     stats.ReviewCount = reviewCount;
+    stats.HardCount = hardPatterns(this.allPattern).length;
     return stats;
   }
   ArrangementList() {
@@ -91322,6 +92886,9 @@ var Arrangement = class extends ArrangementBase {
     }
     if (this.needLearn.length > 0) {
       retlist.push(new ArrangementItem("learn" /* LEARNTAG */, this.needLearn.length, instance.t("StartTextLearn")));
+    }
+    if (this.hardPatterns.length > 0 && GlobalSettings.ShowHardCardsArrangement) {
+      retlist.push(new ArrangementItem("hard" /* HARDTAG */, this.hardPatterns.length, instance.t("StartTextHard")));
     }
     if (this.allPattern.length > 0) {
       retlist.push(new ArrangementItem("all" /* ALLTAG */, this.allPattern.length, instance.t("StartTextALL")));
@@ -91343,6 +92910,7 @@ var Arrangement = class extends ArrangementBase {
         this.needLearn.push(p);
       }
     }
+    this.hardPatterns = hardPatterns(this.allPattern);
     this.newPattern.sort(() => {
       return 0.5 - Math.random();
     });
@@ -91379,6 +92947,8 @@ var Arrangement = class extends ArrangementBase {
       patterns = this.newPattern;
     } else if (name == "learn" /* LEARNTAG */) {
       patterns = this.needLearn;
+    } else if (name == "hard" /* HARDTAG */) {
+      patterns = this.hardPatterns;
     } else if (name == "all" /* ALLTAG */) {
       patterns = this.allPattern;
     }
@@ -91411,8 +92981,8 @@ async function renderMarkdown(markdown, el, sourcePath, component) {
   }
 }
 var noBreakSpace = /\u00A0/g;
-function getNormalizedPath(path) {
-  const stripped = path.replace(noBreakSpace, " ").normalize("NFC");
+function getNormalizedPath(path2) {
+  const stripped = path2.replace(noBreakSpace, " ").normalize("NFC");
   const splitOnAlias = stripped.split(/\|(.*)/);
   const splitOnHash = splitOnAlias[0].split(/#(.*)/);
   return {
@@ -91702,7 +93272,7 @@ var htmlEntities = {
 var unescapeHtmlEntity = function unescapeHtmlEntity2(m) {
   return htmlEntities[m];
 };
-var unescape = function unescape2(text) {
+var unescape2 = function unescape3(text) {
   return text.replace(matchHtmlEntity, unescapeHtmlEntity);
 };
 
@@ -91745,7 +93315,7 @@ var defaultOptions = {
   transWrapTextNodes: "",
   transKeepBasicHtmlNodesFor: ["br", "strong", "i", "p"],
   useSuspense: true,
-  unescape
+  unescape: unescape2
 };
 function setDefaults() {
   var options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
@@ -91985,7 +93555,7 @@ function renderNodes(children, targetString, i18n, i18nOptions, combinedTOpts, s
   return getChildren(result[0]);
 }
 function Trans(_ref) {
-  var children = _ref.children, count = _ref.count, parent = _ref.parent, i18nKey = _ref.i18nKey, context = _ref.context, _ref$tOptions = _ref.tOptions, tOptions = _ref$tOptions === void 0 ? {} : _ref$tOptions, values3 = _ref.values, defaults = _ref.defaults, components = _ref.components, ns = _ref.ns, i18nFromProps = _ref.i18n, tFromProps = _ref.t, shouldUnescape = _ref.shouldUnescape, additionalProps = _objectWithoutProperties(_ref, _excluded224);
+  var children = _ref.children, count = _ref.count, parent = _ref.parent, i18nKey = _ref.i18nKey, context = _ref.context, _ref$tOptions = _ref.tOptions, tOptions = _ref$tOptions === void 0 ? {} : _ref$tOptions, values3 = _ref.values, defaults2 = _ref.defaults, components = _ref.components, ns = _ref.ns, i18nFromProps = _ref.i18n, tFromProps = _ref.t, shouldUnescape = _ref.shouldUnescape, additionalProps = _objectWithoutProperties(_ref, _excluded224);
   var i18n = i18nFromProps || getI18n();
   if (!i18n) {
     warnOnce("You will need to pass in an i18next instance by using i18nextReactModule");
@@ -91999,7 +93569,7 @@ function Trans(_ref) {
   var reactI18nextOptions = _objectSpread3(_objectSpread3({}, getDefaults()), i18n.options && i18n.options.react);
   var namespaces = ns || t3.ns || i18n.options && i18n.options.defaultNS;
   namespaces = typeof namespaces === "string" ? [namespaces] : namespaces || ["translation"];
-  var defaultValue = defaults || nodesToString(children, reactI18nextOptions) || reactI18nextOptions.transEmptyNodeValue || i18nKey;
+  var defaultValue = defaults2 || nodesToString(children, reactI18nextOptions) || reactI18nextOptions.transEmptyNodeValue || i18nKey;
   var hashTransKey = reactI18nextOptions.hashTransKey;
   var key = i18nKey || (hashTransKey ? hashTransKey(defaultValue) : defaultValue);
   var interpolationOverride = values3 ? tOptions.interpolation : {
@@ -92090,7 +93660,7 @@ function _objectSpread4(target) {
   return target;
 }
 function Trans2(_ref) {
-  var children = _ref.children, count = _ref.count, parent = _ref.parent, i18nKey = _ref.i18nKey, context = _ref.context, _ref$tOptions = _ref.tOptions, tOptions = _ref$tOptions === void 0 ? {} : _ref$tOptions, values3 = _ref.values, defaults = _ref.defaults, components = _ref.components, ns = _ref.ns, i18nFromProps = _ref.i18n, tFromProps = _ref.t, shouldUnescape = _ref.shouldUnescape, additionalProps = _objectWithoutProperties(_ref, _excluded161);
+  var children = _ref.children, count = _ref.count, parent = _ref.parent, i18nKey = _ref.i18nKey, context = _ref.context, _ref$tOptions = _ref.tOptions, tOptions = _ref$tOptions === void 0 ? {} : _ref$tOptions, values3 = _ref.values, defaults2 = _ref.defaults, components = _ref.components, ns = _ref.ns, i18nFromProps = _ref.i18n, tFromProps = _ref.t, shouldUnescape = _ref.shouldUnescape, additionalProps = _objectWithoutProperties(_ref, _excluded161);
   var _ref2 = (0, import_react9.useContext)(I18nContext) || {}, i18nFromContext = _ref2.i18n, defaultNSFromContext = _ref2.defaultNS;
   var i18n = i18nFromProps || i18nFromContext || getI18n();
   var t3 = tFromProps || i18n && i18n.t.bind(i18n);
@@ -92102,7 +93672,7 @@ function Trans2(_ref) {
     context,
     tOptions,
     values: values3,
-    defaults,
+    defaults: defaults2,
     components,
     ns: ns || t3 && t3.ns || defaultNSFromContext || i18n && i18n.options && i18n.options.defaultNS,
     i18n,
@@ -92287,20 +93857,29 @@ var Reviewing = class extends React215.Component {
         this.props.goStage(ReviewStage.Loading);
         return;
       }
-      let heading = findFileOutline(result.value.pattern.card.note, result.value.pattern.card.indexBuff);
+      let patternIter = result.value;
+      let nextPattern = patternIter.pattern;
+      let heading = findFileOutline(nextPattern.card.note, nextPattern.card.indexBuff);
       if (heading == "") {
         this.timer = setTimeout(this.checkHeading, 500);
       }
-      await result.value.pattern.InitAosrID();
+      await nextPattern.InitAosrID();
+      log2(() => {
+        var _a;
+        return `Displaying id: ${nextPattern.TagID} 
+		at file: ${nextPattern.card.note.path} 
+		at index: ${patternIter.index} 
+		pattern: ${(_a = nextPattern == null ? void 0 : nextPattern.text) != null ? _a : "empty"}`;
+      });
       this.setState({
-        nowPattern: result.value.pattern,
-        index: result.value.index,
-        total: result.value.total,
+        nowPattern: nextPattern,
+        index: patternIter.index,
+        total: patternIter.total,
         heading,
-        fileName: replaceSlashWithArrow(removeMdExtension(result.value.pattern.card.note.path)),
+        fileName: replaceSlashWithArrow(removeMdExtension(nextPattern.card.note.path)),
         showAns: false
       });
-      result.value.pattern.Pronounce();
+      nextPattern.Pronounce();
     };
     this.PatternComponent = () => {
       if (this.state.nowPattern) {
@@ -92436,7 +94015,7 @@ var Reviewing = class extends React215.Component {
       sx: { minHeight: 135, marginTop: 2, marginBottom: 2 }
     }, /* @__PURE__ */ React215.createElement(this.PatternComponent, null)), /* @__PURE__ */ React215.createElement(Box_default, {
       sx: { marginTop: 2, marginBottom: 2 }
-    }, !this.state.showAns && /* @__PURE__ */ React215.createElement(Stack_default, {
+    }, !this.state.showAns && ["new" /* NEWTAG */, "all" /* ALLTAG */, "review" /* REVIEWTAG */, "learn" /* LEARNTAG */].includes(this.props.arrangeName) && /* @__PURE__ */ React215.createElement(Stack_default, {
       spacing: 2,
       direction: { xs: "column", sm: "row" }
     }, /* @__PURE__ */ React215.createElement(DelayButton, {
@@ -92459,7 +94038,7 @@ var Reviewing = class extends React215.Component {
       onClick: () => this.markAs(1 /* KNOWN */)
     }, /* @__PURE__ */ React215.createElement(Trans2, {
       i18nKey: "ButtonTextKnown"
-    }))), this.state.showAns && this.props.arrangeName != "learn" && /* @__PURE__ */ React215.createElement(Stack_default, {
+    }))), this.state.showAns && ["new" /* NEWTAG */, "all" /* ALLTAG */, "review" /* REVIEWTAG */].includes(this.props.arrangeName) && /* @__PURE__ */ React215.createElement(Stack_default, {
       spacing: 2,
       direction: { xs: "column", sm: "row" }
     }, this.state.mark == 2 /* FORGET */ && /* @__PURE__ */ React215.createElement(DelayButton, {
@@ -92496,7 +94075,7 @@ var Reviewing = class extends React215.Component {
       onClick: () => this.submit(new ReviewOpt(2 /* EASY */))
     }, /* @__PURE__ */ React215.createElement(Trans2, {
       i18nKey: "ButtonTextEasy"
-    }), " ", this.getOptDate(2 /* EASY */))), this.state.showAns && this.props.arrangeName === "learn" && /* @__PURE__ */ React215.createElement(Stack_default, {
+    }), " ", this.getOptDate(2 /* EASY */))), this.state.showAns && this.props.arrangeName === "learn" /* LEARNTAG */ && /* @__PURE__ */ React215.createElement(Stack_default, {
       spacing: 2,
       direction: { xs: "column", sm: "row" }
     }, this.state.mark === 2 /* FORGET */ && /* @__PURE__ */ React215.createElement(DelayButton, {
@@ -92618,6 +94197,10 @@ var MaindeskComponent = class extends React215.Component {
       primary: /* @__PURE__ */ React215.createElement(React215.Fragment, null, /* @__PURE__ */ React215.createElement(Trans2, {
         i18nKey: "StartTextLearn"
       }), " : ", stats.LearnCount)
+    }, " ")), /* @__PURE__ */ React215.createElement(ListItem_default, null, /* @__PURE__ */ React215.createElement(ListItemText_default, {
+      primary: /* @__PURE__ */ React215.createElement(React215.Fragment, null, /* @__PURE__ */ React215.createElement(Trans2, {
+        i18nKey: "StartTextHard"
+      }), " : ", stats.HardCount)
     }, " "))))));
   }
 };
@@ -92726,6 +94309,7 @@ var ReviewView = class extends import_obsidian5.ItemView {
 // deck.tsx
 function convertToFact(p) {
   var _a;
+  log2(() => `Converting pattern to fact: ${p.TagID}`);
   let tags = (0, import_obsidian6.parseFrontMatterTags)((_a = p.card.fileCache) == null ? void 0 : _a.frontmatter) || [];
   let outline2 = findOutline(p.card.fileCache, p.card.indexBuff);
   return {
@@ -92980,6 +94564,25 @@ function initLanguage() {
   addTranslation("MigrateTextMigrateWarning", MigrateTextMigrateWarning);
   addTranslation("MigrateTextMigrateEnd", MigrateTextMigrateEnd);
   addTranslation("OpenAosr", OpenAosr);
+  addTranslation("StartTextHard", StartTextHard);
+  addTranslation("SettingsDbPath", SettingsDbPath);
+  addTranslation("SettingsDbPathDesc", SettingsDbPathDesc);
+  addTranslation("SettingsDbPathError", SettingsDbPathError);
+  addTranslation("SettingsExcludeDirectories", SettingsExcludeDirectories);
+  addTranslation("SettingsExcludeDirectoriesDesc", SettingsExcludeDirectoriesDesc);
+  addTranslation("SettingsMultiLineDelimeter", SettingsMultiLineDelimeter);
+  addTranslation("SettingsMultiLineDelimeterDesc", SettingsMultiLineDelimeterDesc);
+  addTranslation("SettingsMultiLineDelimeterError", SettingsMultiLineDelimeterError);
+  addTranslation("SettingsOneLineDelimeter", SettingsOneLineDelimeter);
+  addTranslation("SettingsOneLineDelimeterDesc", SettingsOneLineDelimeterDesc);
+  addTranslation("SettingsOneLineDelimeterError", SettingsOneLineDelimeterError);
+  addTranslation("SettingsOneLineReversedDelimeter", SettingsOneLineReversedDelimeter);
+  addTranslation("SettingsOneLineReversedDelimeterDesc", SettingsOneLineReversedDelimeterDesc);
+  addTranslation("SettingsOneLineReversedDelimeterError", SettingsOneLineReversedDelimeterError);
+  addTranslation("SettingsShowHardCardsArrangement", SettingsShowHardCardsArrangement);
+  addTranslation("SettingsShowHardCardsArrangementDesc", SettingsShowHardCardsArrangementDesc);
+  addTranslation("SettingsNewLineAsSplitter", SettingsNewLineAsSplitter);
+  addTranslation("SettingsNewLineAsSplitterDesc", SettingsNewLineAsSplitterDesc);
   const lang = window.localStorage.getItem("language") || "en";
   instance.changeLanguage(lang).catch((err) => {
     console.error("Failed to change language:", err);
@@ -94137,6 +95740,538 @@ var OpenAosr = {
   "pt-BR": "Abrir Aosr",
   "am": "\u12A0\u12CD\u1235\u122D \u12AD\u1348\u1275"
 };
+var SettingsDbPath = {
+  "zh": "\u6570\u636E\u5E93\u8DEF\u5F84",
+  "en": "Path to Database",
+  "ja": "\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9\u3078\u306E\u30D1\u30B9",
+  "zh-TW": "\u8CC7\u6599\u5EAB\u8DEF\u5F91",
+  "ko": "\uB370\uC774\uD130\uBCA0\uC774\uC2A4 \uACBD\uB85C",
+  "ar": "\u0645\u0633\u0627\u0631 \u0642\u0627\u0639\u062F\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A",
+  "pt": "Caminho para o banco de dados",
+  "de": "Pfad zur Datenbank",
+  "ru": "\u041F\u0443\u0442\u044C \u043A \u0431\u0430\u0437\u0435 \u0434\u0430\u043D\u043D\u044B\u0445",
+  "fr": "Chemin vers la base de donn\xE9es",
+  "es": "Ruta a la base de datos",
+  "it": "Percorso al database",
+  "id": "Jalur ke database",
+  "ro": "Calea c\u0103tre baza de date",
+  "cs": "Cesta k datab\xE1zi",
+  "no": "Sti til database",
+  "pl": "\u015Acie\u017Cka do bazy danych",
+  "uk": "\u0428\u043B\u044F\u0445 \u0434\u043E \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445",
+  "sq": "Rruga p\xEBr te baza e t\xEB dh\xEBnave",
+  "th": "\u0E40\u0E2A\u0E49\u0E19\u0E17\u0E32\u0E07\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E10\u0E32\u0E19\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25",
+  "fa": "\u0645\u0633\u06CC\u0631 \u0628\u0647 \u067E\u0627\u06CC\u06AF\u0627\u0647 \u062F\u0627\u062F\u0647",
+  "tr": "Veritaban\u0131 Yolu",
+  "nl": "Pad naar database",
+  "ms": "Laluan ke pangkalan data",
+  "pt-BR": "Caminho para o banco de dados",
+  "am": "\u12C8\u12F0 \u12F3\u1273\u1264\u12DD \u1218\u1295\u1308\u12F5"
+};
+var SettingsDbPathDesc = {
+  "zh": "\u6570\u636E\u5E93\u6587\u4EF6\u7684\u8DEF\u5F84\u3002\u9ED8\u8BA4\u662F '.obsidian/aosr.db'\u3002",
+  "en": "Path to the database file. Default is '.obsidian/aosr.db'.",
+  "ja": "\u30C7\u30FC\u30BF\u30D9\u30FC\u30B9\u30D5\u30A1\u30A4\u30EB\u3078\u306E\u30D1\u30B9\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u306F '.obsidian/aosr.db'\u3002",
+  "zh-TW": "\u8CC7\u6599\u5EAB\u6A94\u6848\u7684\u8DEF\u5F91\u3002\u9810\u8A2D\u662F '.obsidian/aosr.db'\u3002",
+  "ko": "\uB370\uC774\uD130\uBCA0\uC774\uC2A4 \uD30C\uC77C \uACBD\uB85C\uC785\uB2C8\uB2E4. \uAE30\uBCF8\uAC12\uC740 '.obsidian/aosr.db'\uC785\uB2C8\uB2E4.",
+  "ar": "\u0645\u0633\u0627\u0631 \u0645\u0644\u0641 \u0642\u0627\u0639\u062F\u0629 \u0627\u0644\u0628\u064A\u0627\u0646\u0627\u062A. \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A \u0647\u0648 '.obsidian/aosr.db'.",
+  "pt": "Caminho para o arquivo de banco de dados. O padr\xE3o \xE9 '.obsidian/aosr.db'.",
+  "de": "Pfad zur Datenbankdatei. Standard ist '.obsidian/aosr.db'.",
+  "ru": "\u041F\u0443\u0442\u044C \u043A \u0444\u0430\u0439\u043B\u0443 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445. \u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '.obsidian/aosr.db'.",
+  "fr": "Chemin vers le fichier de base de donn\xE9es. Par d\xE9faut, '.obsidian/aosr.db'.",
+  "es": "Ruta al archivo de base de datos. El valor predeterminado es '.obsidian/aosr.db'.",
+  "it": "Percorso al file del database. Il valore predefinito \xE8 '.obsidian/aosr.db'.",
+  "id": "Jalur ke file database. Default adalah '.obsidian/aosr.db'.",
+  "ro": "Calea c\u0103tre fi\u0219ierul bazei de date. Implicit este '.obsidian/aosr.db'.",
+  "cs": "Cesta k souboru datab\xE1ze. V\xFDchoz\xED je '.obsidian/aosr.db'.",
+  "no": "Sti til databasefilen. Standard er '.obsidian/aosr.db'.",
+  "pl": "\u015Acie\u017Cka do pliku bazy danych. Domy\u015Blnie jest to '.obsidian/aosr.db'.",
+  "uk": "\u0428\u043B\u044F\u0445 \u0434\u043E \u0444\u0430\u0439\u043B\u0443 \u0431\u0430\u0437\u0438 \u0434\u0430\u043D\u0438\u0445. \u0417\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C '.obsidian/aosr.db'.",
+  "sq": "Rruga p\xEBr te skedari i baz\xEBs s\xEB t\xEB dh\xEBnave. Parazgjedhja \xEBsht\xEB '.obsidian/aosr.db'.",
+  "th": "\u0E40\u0E2A\u0E49\u0E19\u0E17\u0E32\u0E07\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E44\u0E1F\u0E25\u0E4C\u0E10\u0E32\u0E19\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25 \u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E04\u0E37\u0E2D '.obsidian/aosr.db'.",
+  "fa": "\u0645\u0633\u06CC\u0631 \u0628\u0647 \u0641\u0627\u06CC\u0644 \u067E\u0627\u06CC\u06AF\u0627\u0647 \u062F\u0627\u062F\u0647. \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '.obsidian/aosr.db'.",
+  "tr": "Veritaban\u0131 dosyas\u0131n\u0131n yolu. Varsay\u0131lan '.obsidian/aosr.db'.",
+  "nl": "Pad naar het databasebestand. Standaard is '.obsidian/aosr.db'.",
+  "ms": "Laluan ke fail pangkalan data. Lalai adalah '.obsidian/aosr.db'.",
+  "pt-BR": "Caminho para o arquivo de banco de dados. O padr\xE3o \xE9 '.obsidian/aosr.db'.",
+  "am": "\u12C8\u12F0 \u12F3\u1273\u1264\u12DD \u134B\u12ED\u120D \u1218\u1295\u1308\u12F5\u1362 \u1290\u1263\u122A\u12CD '.obsidian/aosr.db' \u1290\u12CD\u1362"
+};
+var SettingsDbPathError = {
+  "zh": "\u4E0D\u80FD\u4E3A\u7A7A\u6216\u4EC5\u5305\u542B\u7A7A\u683C\u3002\u5E94\u7528\u9ED8\u8BA4\u503C '.obsidian/aosr.db'",
+  "en": "Cannot be empty or whitespace only. Applying default value '.obsidian/aosr.db'",
+  "ja": "\u7A7A\u767D\u306E\u307F\u307E\u305F\u306F\u7A7A\u306B\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u5024 '.obsidian/aosr.db' \u3092\u9069\u7528\u3057\u307E\u3059",
+  "zh-TW": "\u4E0D\u80FD\u70BA\u7A7A\u6216\u50C5\u5305\u542B\u7A7A\u683C\u3002\u61C9\u7528\u9810\u8A2D\u503C '.obsidian/aosr.db'",
+  "ko": "\uBE44\uC5B4 \uC788\uAC70\uB098 \uACF5\uBC31\uB9CC \uD3EC\uD568\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uAE30\uBCF8\uAC12 '.obsidian/aosr.db'\uAC00 \uC801\uC6A9\uB429\uB2C8\uB2E4",
+  "ar": "\u0644\u0627 \u064A\u0645\u0643\u0646 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0641\u0627\u0631\u063A\u0629 \u0623\u0648 \u062A\u062D\u062A\u0648\u064A \u0641\u0642\u0637 \u0639\u0644\u0649 \u0645\u0633\u0627\u0641\u0627\u062A \u0628\u064A\u0636\u0627\u0621. \u062A\u0637\u0628\u064A\u0642 \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 '.obsidian/aosr.db'",
+  "pt": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco. Aplicando o valor padr\xE3o '.obsidian/aosr.db'",
+  "de": "Kann nicht leer oder nur aus Leerzeichen bestehen. Standardwert '.obsidian/aosr.db' wird angewendet",
+  "ru": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043F\u0443\u0441\u0442\u044B\u043C \u0438\u043B\u0438 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u043E\u0431\u0435\u043B\u044B. \u041F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '.obsidian/aosr.db'",
+  "fr": "Ne peut pas \xEAtre vide ou contenir uniquement des espaces. Application de la valeur par d\xE9faut '.obsidian/aosr.db'",
+  "es": "No puede estar vac\xEDo o contener solo espacios en blanco. Aplicando el valor predeterminado '.obsidian/aosr.db'",
+  "it": "Non pu\xF2 essere vuoto o contenere solo spazi bianchi. Applicando il valore predefinito '.obsidian/aosr.db'",
+  "id": "Tidak boleh kosong atau hanya berisi spasi. Menerapkan nilai default '.obsidian/aosr.db'",
+  "ro": "Nu poate fi gol sau s\u0103 con\u021Bin\u0103 doar spa\u021Bii. Aplic\xE2nd valoarea implicit\u0103 '.obsidian/aosr.db'",
+  "cs": "Nem\u016F\u017Ee b\xFDt pr\xE1zdn\xFD nebo obsahovat pouze mezery. Aplikov\xE1n\xED v\xFDchoz\xED hodnoty '.obsidian/aosr.db'",
+  "no": "Kan ikke v\xE6re tom eller bare inneholde mellomrom. Bruker standardverdien '.obsidian/aosr.db'",
+  "pl": "Nie mo\u017Ce by\u0107 pusty ani zawiera\u0107 tylko spacji. Zastosowanie domy\u015Blnej warto\u015Bci '.obsidian/aosr.db'",
+  "uk": "\u041D\u0435 \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u043C \u0430\u0431\u043E \u043C\u0456\u0441\u0442\u0438\u0442\u0438 \u043B\u0438\u0448\u0435 \u043F\u0440\u043E\u0431\u0456\u043B\u0438. \u0417\u0430\u0441\u0442\u043E\u0441\u0443\u0432\u0430\u043D\u043D\u044F \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C '.obsidian/aosr.db'",
+  "sq": "Nuk mund t\xEB jet\xEB bosh ose t\xEB p\xEBrmbaj\xEB vet\xEBm hap\xEBsira. Po aplikoni vler\xEBn e parazgjedhur '.obsidian/aosr.db'",
+  "th": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E35\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E0A\u0E48\u0E2D\u0E07\u0E27\u0E48\u0E32\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19 \u0E01\u0E33\u0E25\u0E31\u0E07\u0E43\u0E0A\u0E49\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19 '.obsidian/aosr.db'",
+  "fa": "\u0646\u0645\u06CC \u062A\u0648\u0627\u0646\u062F \u062E\u0627\u0644\u06CC \u0628\u0627\u0634\u062F \u06CC\u0627 \u0641\u0642\u0637 \u0634\u0627\u0645\u0644 \u0641\u0627\u0635\u0644\u0647 \u0628\u0627\u0634\u062F. \u0627\u0639\u0645\u0627\u0644 \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '.obsidian/aosr.db'",
+  "tr": "Bo\u015F olamaz veya sadece bo\u015Fluk i\xE7erebilir. Varsay\u0131lan de\u011Fer '.obsidian/aosr.db' uygulan\u0131yor",
+  "nl": "Kan niet leeg zijn of alleen spaties bevatten. Toepassen van de standaardwaarde '.obsidian/aosr.db'",
+  "ms": "Tidak boleh kosong atau hanya mengandungi ruang kosong. Mengaplikasikan nilai lalai '.obsidian/aosr.db'",
+  "pt-BR": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco. Aplicando o valor padr\xE3o '.obsidian/aosr.db'",
+  "am": "\u12A0\u12ED\u1240\u12ED\u121D \u12C8\u12ED\u121D \u1260\u1240\u1235\u1273 \u1265\u127B \u1218\u12EB\u12DD \u12A0\u12ED\u127B\u120D\u121D\u1362 \u12A5\u1263\u12AE\u1275\u1295 \u12C8\u12F0 \u12A0\u1235\u1240\u12F5\u121E \u12ED\u1218\u1208\u1231 '.obsidian/aosr.db'"
+};
+var SettingsExcludeDirectories = {
+  "zh": "\u6392\u9664\u6A21\u5F0F",
+  "en": "Exclude Patterns",
+  "ja": "\u9664\u5916\u30D1\u30BF\u30FC\u30F3",
+  "zh-TW": "\u6392\u9664\u6A21\u5F0F",
+  "ko": "\uC81C\uC678 \uD328\uD134",
+  "ar": "\u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0627\u0633\u062A\u0628\u0639\u0627\u062F",
+  "pt": "Padr\xF5es de exclus\xE3o",
+  "de": "Ausschlussmuster",
+  "ru": "\u0428\u0430\u0431\u043B\u043E\u043D\u044B \u0438\u0441\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u044F",
+  "fr": "Mod\xE8les d'exclusion",
+  "es": "Patrones de exclusi\xF3n",
+  "it": "Modelli di esclusione",
+  "id": "Pola Pengecualian",
+  "ro": "Modele de excludere",
+  "cs": "Vylu\u010Dovac\xED vzory",
+  "no": "Ekskluder m\xF8nstre",
+  "pl": "Wzory wykluczenia",
+  "uk": "\u0428\u0430\u0431\u043B\u043E\u043D\u0438 \u0432\u0438\u043A\u043B\u044E\u0447\u0435\u043D\u043D\u044F",
+  "sq": "Modelet p\xEBrjashtimore",
+  "th": "\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E01\u0E32\u0E23\u0E22\u0E01\u0E40\u0E27\u0E49\u0E19",
+  "fa": "\u0627\u0644\u06AF\u0648\u0647\u0627\u06CC \u0627\u0633\u062A\u062B\u0646\u0627",
+  "tr": "Hari\xE7 Tutma Kal\u0131plar\u0131",
+  "nl": "Uitsluitingspatronen",
+  "ms": "Corak Pengecualian",
+  "pt-BR": "Padr\xF5es de exclus\xE3o",
+  "am": "\u12E8\u121B\u12ED\u1273\u12C8\u1241 \u12A0\u12ED\u1290\u1276\u127D"
+};
+var SettingsExcludeDirectoriesDesc = {
+  "zh": "\u4ECE\u626B\u63CF\u4E2D\u6392\u9664\u76EE\u5F55\u6216\u6587\u4EF6\u6A21\u5F0F\u3002\u5EFA\u8BAE\u6DFB\u52A0\u5143\u6570\u636E\u6587\u4EF6\u6216\u8D44\u4EA7\u76EE\u5F55\u3002",
+  "en": "Exclude directories or file patters from scanning. Recommended to add metadata files or assets directories.",
+  "ja": "\u30B9\u30AD\u30E3\u30F3\u304B\u3089\u9664\u5916\u3059\u308B\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\u307E\u305F\u306F\u30D5\u30A1\u30A4\u30EB\u30D1\u30BF\u30FC\u30F3\u3002\u30E1\u30BF\u30C7\u30FC\u30BF\u30D5\u30A1\u30A4\u30EB\u3084\u30A2\u30BB\u30C3\u30C8\u30C7\u30A3\u30EC\u30AF\u30C8\u30EA\u3092\u8FFD\u52A0\u3059\u308B\u3053\u3068\u3092\u304A\u52E7\u3081\u3057\u307E\u3059\u3002",
+  "zh-TW": "\u5F9E\u6383\u63CF\u4E2D\u6392\u9664\u76EE\u9304\u6216\u6A94\u6848\u6A21\u5F0F\u3002\u5EFA\u8B70\u6DFB\u52A0\u5143\u6578\u64DA\u6A94\u6848\u6216\u8CC7\u7522\u76EE\u9304\u3002",
+  "ko": "\uC2A4\uCE94\uC5D0\uC11C \uC81C\uC678\uD560 \uB514\uB809\uD1A0\uB9AC \uB610\uB294 \uD30C\uC77C \uD328\uD134. \uBA54\uD0C0\uB370\uC774\uD130 \uD30C\uC77C\uC774\uB098 \uC790\uC0B0 \uB514\uB809\uD1A0\uB9AC\uB97C \uCD94\uAC00\uD558\uB294 \uAC83\uC774 \uC88B\uC2B5\uB2C8\uB2E4.",
+  "ar": "\u0627\u0633\u062A\u0628\u0639\u0627\u062F \u0627\u0644\u062F\u0644\u0627\u0626\u0644 \u0623\u0648 \u0623\u0646\u0645\u0627\u0637 \u0627\u0644\u0645\u0644\u0641\u0627\u062A \u0645\u0646 \u0627\u0644\u0641\u062D\u0635. \u064A\u0648\u0635\u0649 \u0628\u0625\u0636\u0627\u0641\u0629 \u0645\u0644\u0641\u0627\u062A \u0627\u0644\u062A\u0639\u0631\u064A\u0641 \u0623\u0648 \u062F\u0644\u0627\u0626\u0644 \u0627\u0644\u0623\u0635\u0648\u0644.",
+  "pt": "Excluir diret\xF3rios ou padr\xF5es de arquivos da varredura. Recomenda-se adicionar arquivos de metadados ou diret\xF3rios de ativos.",
+  "de": "Verzeichnisse oder Dateimuster vom Scannen ausschlie\xDFen. Es wird empfohlen, Metadatendateien oder Asset-Verzeichnisse hinzuzuf\xFCgen.",
+  "ru": "\u0418\u0441\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0438\u0438 \u0438\u043B\u0438 \u0448\u0430\u0431\u043B\u043E\u043D\u044B \u0444\u0430\u0439\u043B\u043E\u0432 \u0438\u0437 \u0441\u043A\u0430\u043D\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F. \u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F \u0434\u043E\u0431\u0430\u0432\u043B\u044F\u0442\u044C \u0444\u0430\u0439\u043B\u044B \u043C\u0435\u0442\u0430\u0434\u0430\u043D\u043D\u044B\u0445 \u0438\u043B\u0438 \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0438\u0438 \u0440\u0435\u0441\u0443\u0440\u0441\u043E\u0432.",
+  "fr": "Exclure les r\xE9pertoires ou les mod\xE8les de fichiers de l'analyse. Il est recommand\xE9 d'ajouter des fichiers de m\xE9tadonn\xE9es ou des r\xE9pertoires d'actifs.",
+  "es": "Excluir directorios o patrones de archivos del escaneo. Se recomienda agregar archivos de metadatos o directorios de activos.",
+  "it": "Escludere directory o modelli di file dalla scansione. Si consiglia di aggiungere file di metadati o directory di risorse.",
+  "id": "Kecualikan direktori atau pola file dari pemindaian. Disarankan untuk menambahkan file metadata atau direktori aset.",
+  "ro": "Excluderea directoarelor sau a \u0219abloanelor de fi\u0219iere din scanare. Se recomand\u0103 ad\u0103ugarea fi\u0219ierelor de metadate sau a directoarelor de resurse.",
+  "cs": "Vylou\u010Dit adres\xE1\u0159e nebo vzory soubor\u016F ze skenov\xE1n\xED. Doporu\u010Duje se p\u0159idat soubory metadat nebo adres\xE1\u0159e s prost\u0159edky.",
+  "no": "Ekskluder mapper eller film\xF8nstre fra skanning. Det anbefales \xE5 legge til metadatafiler eller eiendomsmapper.",
+  "pl": "Wyklucz katalogi lub wzory plik\xF3w ze skanowania. Zaleca si\u0119 dodanie plik\xF3w metadanych lub katalog\xF3w zasob\xF3w.",
+  "uk": "\u0412\u0438\u043A\u043B\u044E\u0447\u0438\u0442\u0438 \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0438 \u0430\u0431\u043E \u0448\u0430\u0431\u043B\u043E\u043D\u0438 \u0444\u0430\u0439\u043B\u0456\u0432 \u0437\u0456 \u0441\u043A\u0430\u043D\u0443\u0432\u0430\u043D\u043D\u044F. \u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043E\u0434\u0430\u0442\u0438 \u0444\u0430\u0439\u043B\u0438 \u043C\u0435\u0442\u0430\u0434\u0430\u043D\u0438\u0445 \u0430\u0431\u043E \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0438 \u0440\u0435\u0441\u0443\u0440\u0441\u0456\u0432.",
+  "sq": "P\xEBrjashtoni drejtorit\xEB ose modelet e skedar\xEBve nga skanimi. Rekomandohet t\xEB shtoni skedar\xEB t\xEB metadatat ose drejtorit\xEB e aseteve.",
+  "th": "\u0E22\u0E01\u0E40\u0E27\u0E49\u0E19\u0E44\u0E14\u0E40\u0E23\u0E47\u0E01\u0E17\u0E2D\u0E23\u0E35\u0E2B\u0E23\u0E37\u0E2D\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E44\u0E1F\u0E25\u0E4C\u0E08\u0E32\u0E01\u0E01\u0E32\u0E23\u0E2A\u0E41\u0E01\u0E19 \u0E41\u0E19\u0E30\u0E19\u0E33\u0E43\u0E2B\u0E49\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E44\u0E1F\u0E25\u0E4C\u0E40\u0E21\u0E15\u0E32\u0E14\u0E32\u0E17\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E14\u0E40\u0E23\u0E47\u0E01\u0E17\u0E2D\u0E23\u0E35\u0E2A\u0E34\u0E19\u0E17\u0E23\u0E31\u0E1E\u0E22\u0E4C",
+  "fa": "\u062F\u0627\u06CC\u0631\u06A9\u062A\u0648\u0631\u06CC \u06CC\u0627 \u0627\u0644\u06AF\u0648\u0647\u0627\u06CC \u0641\u0627\u06CC\u0644 \u0631\u0627 \u0627\u0632 \u0627\u0633\u06A9\u0646 \u0627\u0633\u062A\u062B\u0646\u0627 \u06A9\u0646\u06CC\u062F. \u0627\u0641\u0632\u0648\u062F\u0646 \u0641\u0627\u06CC\u0644\u200C\u0647\u0627\u06CC \u0645\u062A\u0627\u062F\u06CC\u062A\u0627 \u06CC\u0627 \u062F\u0627\u06CC\u0631\u06A9\u062A\u0648\u0631\u06CC\u200C\u0647\u0627\u06CC \u062F\u0627\u0631\u0627\u06CC\u06CC \u062A\u0648\u0635\u06CC\u0647 \u0645\u06CC\u200C\u0634\u0648\u062F.",
+  "tr": "Tarama i\u015Fleminden dizinleri veya dosya kal\u0131plar\u0131n\u0131 hari\xE7 tutun. Metadata dosyalar\u0131 veya varl\u0131k dizinleri eklemeniz \xF6nerilir.",
+  "nl": "Sluit mappen of bestands patronen uit van scannen. Het wordt aanbevolen om metadata-bestanden of asset-mappen toe te voegen.",
+  "ms": "Kecualikan direktori atau pola file dari pemindaian. Disarankan untuk menambahkan file metadata atau direktori aset.",
+  "pt-BR": "Excluir diret\xF3rios ou padr\xF5es de arquivos da varredura. Recomenda-se adicionar arquivos de metadados ou diret\xF3rios de ativos.",
+  "am": "\u12A8\u121D\u122D\u1218\u122B \u12CD\u1235\u1325 \u12E8\u121B\u12ED\u1308\u1261 \u12F3\u12ED\u122C\u12AD\u1276\u122A\u12EB\u12CE\u127D \u12C8\u12ED\u121D \u134B\u12ED\u120D \u12A0\u12ED\u1290\u1276\u127D\u1362 \u12E8\u121C\u1273\u12F3\u1273 \u134B\u12ED\u120E\u127D \u12C8\u12ED\u121D \u12E8\u12A0\u1235\u1270\u12F3\u12F0\u122D \u12F3\u12ED\u122C\u12AD\u1276\u122A\u12CE\u127D \u121B\u12A8\u120D \u12ED\u1218\u12A8\u122B\u120D\u1362"
+};
+var SettingsMultiLineDelimeter = {
+  "zh": "\u591A\u884C\u5206\u9694\u7B26",
+  "en": "Multi-line Delimiter",
+  "ja": "\u8907\u6570\u884C\u533A\u5207\u308A\u6587\u5B57",
+  "zh-TW": "\u591A\u884C\u5206\u9694\u7B26",
+  "ko": "\uB2E4\uC911 \uD589 \uAD6C\uBD84 \uAE30\uD638",
+  "ar": "\u0641\u0627\u0635\u0644 \u0645\u062A\u0639\u062F\u062F \u0627\u0644\u0623\u0633\u0637\u0631",
+  "pt": "Delimitador de v\xE1rias linhas",
+  "de": "Mehrzeiliger Trenner",
+  "ru": "\u0420\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C \u043C\u043D\u043E\u0433\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0439",
+  "fr": "D\xE9limiteur multi-lignes",
+  "es": "Delimitador de varias l\xEDneas",
+  "it": "Delimitatore multilinea",
+  "id": "Pemisah Beberapa Baris",
+  "ro": "Delimitator pe mai multe linii",
+  "cs": "Odd\u011Blova\u010D pro v\xEDce \u0159\xE1dk\u016F",
+  "no": "Flervalsavgrenser",
+  "pl": "Separator wieloliniowy",
+  "uk": "\u0420\u043E\u0437\u0434\u0456\u043B\u044C\u043D\u0438\u043A \u0434\u043B\u044F \u043A\u0456\u043B\u044C\u043A\u043E\u0445 \u0440\u044F\u0434\u043A\u0456\u0432",
+  "sq": "Shk\xEBput\xEBsi p\xEBr disa rreshta",
+  "th": "\u0E15\u0E31\u0E27\u0E04\u0E31\u0E48\u0E19\u0E2B\u0E25\u0E32\u0E22\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14",
+  "fa": "\u062C\u062F\u0648\u0644 \u0686\u0646\u062F \u062E\u0637\u06CC",
+  "tr": "\xC7oklu Sat\u0131r Ay\u0131r\u0131c\u0131",
+  "nl": "Multi-line Delimiter",
+  "ms": "Pemisah Pelbagai Baris",
+  "pt-BR": "Delimitador de v\xE1rias linhas",
+  "am": "\u12E8\u1260\u122D\u12AB\u1273 \u1218\u1235\u1218\u122D \u12ED\u12D8\u12CD \u12ED\u1208\u12EB\u12E9"
+};
+var SettingsMultiLineDelimeterDesc = {
+  "zh": "\u7528\u4E8E\u5206\u9694\u5361\u7247\u4E2D\u7684\u591A\u884C\u6A21\u5F0F\u3002\u9ED8\u8BA4\u662F '?'",
+  "en": "Used to separate multi-line patterns in a card. Default is '?'",
+  "ja": "\u30AB\u30FC\u30C9\u5185\u306E\u8907\u6570\u884C\u30D1\u30BF\u30FC\u30F3\u3092\u533A\u5207\u308B\u305F\u3081\u306B\u4F7F\u7528\u3055\u308C\u307E\u3059\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u306F '?'",
+  "zh-TW": "\u7528\u65BC\u5206\u9694\u5361\u7247\u4E2D\u7684\u591A\u884C\u6A21\u5F0F\u3002\u9810\u8A2D\u662F '?'",
+  "ko": "\uCE74\uB4DC\uC758 \uC5EC\uB7EC \uC904 \uD328\uD134\uC744 \uAD6C\uBD84\uD558\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4. \uAE30\uBCF8\uAC12\uC740 '?'",
+  "ar": "\u064A\u0633\u062A\u062E\u062F\u0645 \u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0645\u062A\u0639\u062F\u062F\u0629 \u0627\u0644\u0623\u0633\u0637\u0631 \u0641\u064A \u0628\u0637\u0627\u0642\u0629. \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 \u0647\u064A '?'",
+  "pt": "Usado para separar padr\xF5es de v\xE1rias linhas em um cart\xE3o. O padr\xE3o \xE9 '?'",
+  "de": "Zum Trennen mehrzeiliger Muster in einer Karte verwendet. Standard ist '?'",
+  "ru": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u043C\u043D\u043E\u0433\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0432 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0435. \u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '?'",
+  "fr": "Utilis\xE9 pour s\xE9parer les mod\xE8les multi-lignes dans une carte. Par d\xE9faut, c'est '?'",
+  "es": "Utilizado para separar patrones de varias l\xEDneas en una tarjeta. El valor predeterminado es '?'",
+  "it": "Utilizzato per separare modelli multilinea in una scheda. Il valore predefinito \xE8 '?'",
+  "id": "Digunakan untuk memisahkan pola beberapa baris dalam kartu. Default adalah '?'",
+  "ro": "Utilizat pentru a separa modelele pe mai multe linii dintr-un card. Valoarea implicit\u0103 este '?'",
+  "cs": "Pou\u017E\xEDv\xE1 se k odd\u011Blen\xED v\xEDcerozm\u011Brn\xFDch vzor\u016F na kart\u011B. V\xFDchoz\xED hodnota je '?'",
+  "no": "Brukes til \xE5 skille flere linjem\xF8nstre i et kort. Standard er '?'",
+  "pl": "U\u017Cywany do oddzielania wieloliniowych wzorc\xF3w w karcie. Domy\u015Blnie jest to '?'",
+  "uk": "\u0412\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043B\u044F \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0431\u0430\u0433\u0430\u0442\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u0438\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u0456\u0432 \u0443 \u043A\u0430\u0440\u0442\u0446\u0456. \u0417\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C - '?'",
+  "sq": "P\xEBrdoret p\xEBr t\xEB ndar\xEB modelet me shum\xEB rreshta n\xEB nj\xEB kart\xEB. Vlera e parazgjedhur \xEBsht\xEB '?'",
+  "th": "\u0E43\u0E0A\u0E49\u0E41\u0E22\u0E01\u0E41\u0E1E\u0E17\u0E40\u0E17\u0E34\u0E23\u0E4C\u0E19\u0E2B\u0E25\u0E32\u0E22\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E43\u0E19\u0E01\u0E32\u0E23\u0E4C\u0E14 \u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E04\u0E37\u0E2D '?'",
+  "fa": "\u0628\u0631\u0627\u06CC \u062C\u062F\u0627 \u06A9\u0631\u062F\u0646 \u0627\u0644\u06AF\u0648\u0647\u0627\u06CC \u0686\u0646\u062F \u062E\u0637\u06CC \u062F\u0631 \u06CC\u06A9 \u06A9\u0627\u0631\u062A \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC \u0634\u0648\u062F. \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '?'",
+  "tr": "Bir karttaki \xE7ok sat\u0131rl\u0131 kal\u0131plar\u0131 ay\u0131rmak i\xE7in kullan\u0131l\u0131r. Varsay\u0131lan de\u011Fer '?'",
+  "nl": "Gebruikt om meerdere regels patronen in een kaart te scheiden. Standaard is '?'",
+  "ms": "Digunakan untuk memisahkan corak pelbagai baris dalam kad. Lalai adalah '?'",
+  "pt-BR": "Usado para separar padr\xF5es de v\xE1rias linhas em um cart\xE3o. O padr\xE3o \xE9 '?'",
+  "am": "\u1260\u12A0\u1295\u12F0\u129B\u12CD \u12ED\u12D8\u1275 \u12CD\u1235\u1325 \u1260\u1260\u122D\u12AB\u1273 \u1218\u1235\u1218\u122D \u12ED\u12D8\u12CD \u12ED\u1208\u12EB\u12E9\u1362 \u1290\u1263\u122A\u12CD '?' \u1290\u12CD"
+};
+var SettingsMultiLineDelimeterError = {
+  "zh": "\u4E0D\u80FD\u4E3A\u7A7A\u6216\u4EC5\u5305\u542B\u7A7A\u683C\u3002\n\u5E94\u7528\u9ED8\u8BA4\u503C '?'",
+  "en": "Cannot be empty or whitespace only.\nApplying default value '?'",
+  "ja": "\u7A7A\u767D\u306E\u307F\u307E\u305F\u306F\u7A7A\u306B\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\u3002\n\u30C7\u30D5\u30A9\u30EB\u30C8\u5024 '?' \u3092\u9069\u7528\u3057\u307E\u3059",
+  "zh-TW": "\u4E0D\u80FD\u70BA\u7A7A\u6216\u50C5\u5305\u542B\u7A7A\u683C\u3002\n\u61C9\u7528\u9810\u8A2D\u503C '?'",
+  "ko": "\uBE44\uC5B4 \uC788\uAC70\uB098 \uACF5\uBC31\uB9CC \uD3EC\uD568\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.\n\uAE30\uBCF8\uAC12 '?'\uAC00 \uC801\uC6A9\uB429\uB2C8\uB2E4",
+  "ar": "\u0644\u0627 \u064A\u0645\u0643\u0646 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0641\u0627\u0631\u063A\u0629 \u0623\u0648 \u062A\u062D\u062A\u0648\u064A \u0641\u0642\u0637 \u0639\u0644\u0649 \u0645\u0633\u0627\u0641\u0627\u062A \u0628\u064A\u0636\u0627\u0621.\n\u062A\u0637\u0628\u064A\u0642 \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 '?'",
+  "pt": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco.\nAplicando o valor padr\xE3o '?'",
+  "de": "Kann nicht leer oder nur aus Leerzeichen bestehen.\nStandardwert '?' wird angewendet",
+  "ru": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043F\u0443\u0441\u0442\u044B\u043C \u0438\u043B\u0438 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u043E\u0431\u0435\u043B\u044B.\n\u041F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '?'",
+  "fr": "Ne peut pas \xEAtre vide ou contenir uniquement des espaces.\nApplication de la valeur par d\xE9faut '?'",
+  "es": "No puede estar vac\xEDo o contener solo espacios en blanco.\nAplicando el valor predeterminado '?'",
+  "it": "Non pu\xF2 essere vuoto o contenere solo spazi bianchi.\nApplicando il valore predefinito '?'",
+  "id": "Tidak boleh kosong atau hanya berisi spasi.\nMenerapkan nilai default '?'",
+  "ro": "Nu poate fi gol sau s\u0103 con\u021Bin\u0103 doar spa\u021Bii.\nAplic\xE2nd valoarea implicit\u0103 '?'",
+  "cs": "Nem\u016F\u017Ee b\xFDt pr\xE1zdn\xFD nebo obsahovat pouze mezery.\nAplikov\xE1n\xED v\xFDchoz\xED hodnoty '?'",
+  "no": "Kan ikke v\xE6re tom eller bare inneholde mellomrom.\nBruker standardverdien '?'",
+  "pl": "Nie mo\u017Ce by\u0107 pusty ani zawiera\u0107 tylko spacji.\nZastosowanie domy\u015Blnej warto\u015Bci '?'",
+  "uk": "\u041D\u0435 \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u043C \u0430\u0431\u043E \u043C\u0456\u0441\u0442\u0438\u0442\u0438 \u043B\u0438\u0448\u0435 \u043F\u0440\u043E\u0431\u0456\u043B\u0438.\n\u0417\u0430\u0441\u0442\u043E\u0441\u0443\u0432\u0430\u043D\u043D\u044F \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C '?'",
+  "sq": "Nuk mund t\xEB jet\xEB bosh ose t\xEB p\xEBrmbaj\xEB vet\xEBm hap\xEBsira.\nPo aplikoni vler\xEBn e parazgjedhur '?'",
+  "th": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E35\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E0A\u0E48\u0E2D\u0E07\u0E27\u0E48\u0E32\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19\n\u0E01\u0E33\u0E25\u0E31\u0E07\u0E43\u0E0A\u0E49\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19 '?'",
+  "fa": "\u0646\u0645\u06CC \u062A\u0648\u0627\u0646\u062F \u062E\u0627\u0644\u06CC \u0628\u0627\u0634\u062F \u06CC\u0627 \u0641\u0642\u0637 \u0634\u0627\u0645\u0644 \u0641\u0627\u0635\u0644\u0647 \u0628\u0627\u0634\u062F.\n\u0627\u0639\u0645\u0627\u0644 \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '?'",
+  "tr": "Bo\u015F olamaz veya sadece bo\u015Fluk i\xE7erebilir.\nVarsay\u0131lan de\u011Fer '?' uygulan\u0131yor",
+  "nl": "Kan niet leeg zijn of alleen spaties bevatten.\nToepassen van de standaardwaarde '?'",
+  "ms": "Tidak boleh kosong atau hanya mengandungi ruang kosong.\nMengaplikasikan nilai lalai '?'",
+  "pt-BR": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco.\nAplicando o valor padr\xE3o '?'",
+  "am": "\u12A0\u12ED\u1240\u12ED\u121D \u12C8\u12ED\u121D \u1260\u1240\u1235\u1273 \u1265\u127B \u1218\u12EB\u12DD \u12A0\u12ED\u127B\u120D\u121D\u1362\n\u12A5\u1263\u12AE\u1275\u1295 \u12C8\u12F0 \u12A0\u1235\u1240\u12F5\u121E \u12ED\u1218\u1208\u1231 '?'"
+};
+var SettingsOneLineDelimeter = {
+  "zh": "\u5355\u884C\u5206\u9694\u7B26",
+  "en": "One-line Delimiter",
+  "ja": "\u5358\u4E00\u884C\u533A\u5207\u308A\u6587\u5B57",
+  "zh-TW": "\u55AE\u884C\u5206\u9694\u7B26",
+  "ko": "\uD55C \uC904 \uAD6C\uBD84 \uAE30\uD638",
+  "ar": "\u0641\u0627\u0635\u0644 \u0633\u0637\u0631 \u0648\u0627\u062D\u062F",
+  "pt": "Delimitador de uma linha",
+  "de": "Einzeiliger Trenner",
+  "ru": "\u0420\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0439",
+  "fr": "D\xE9limiteur une ligne",
+  "es": "Delimitador de una l\xEDnea",
+  "it": "Delimitatore una sola linea",
+  "id": "Pemisah Satu Baris",
+  "ro": "Delimitator pe o singur\u0103 linie",
+  "cs": "Odd\u011Blova\u010D pro jednu \u0159\xE1dku",
+  "no": "Enkel linjeavgrenser",
+  "pl": "Separator jednoliniowy",
+  "uk": "\u0420\u043E\u0437\u0434\u0456\u043B\u044C\u043D\u0438\u043A \u0434\u043B\u044F \u043E\u0434\u043D\u043E\u0433\u043E \u0440\u044F\u0434\u043A\u0430",
+  "sq": "Shk\xEBput\xEBsi p\xEBr nj\xEB rresht",
+  "th": "\u0E15\u0E31\u0E27\u0E04\u0E31\u0E48\u0E19\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E40\u0E14\u0E35\u0E22\u0E27",
+  "fa": "\u062C\u062F\u0648\u0644 \u06CC\u06A9 \u062E\u0637\u06CC",
+  "tr": "Tek Sat\u0131r Ay\u0131r\u0131c\u0131",
+  "nl": "One-line Delimiter",
+  "ms": "Pemisah Satu Baris",
+  "pt-BR": "Delimitador de uma linha",
+  "am": "\u12E8\u12A0\u1295\u12F0\u129B \u1218\u1235\u1218\u122D \u12ED\u12D8\u12CD \u12ED\u1208\u12EB\u12E9"
+};
+var SettingsOneLineDelimeterDesc = {
+  "zh": "\u7528\u4E8E\u5206\u9694\u5361\u7247\u4E2D\u7684\u5355\u884C\u6A21\u5F0F\u3002\u9ED8\u8BA4\u662F '::'.",
+  "en": "Used to separate one-line patterns in a card. Default is '::'.",
+  "ja": "\u30AB\u30FC\u30C9\u5185\u306E\u5358\u4E00\u884C\u30D1\u30BF\u30FC\u30F3\u3092\u533A\u5207\u308B\u305F\u3081\u306B\u4F7F\u7528\u3055\u308C\u307E\u3059\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u306F '::'",
+  "zh-TW": "\u7528\u65BC\u5206\u9694\u5361\u7247\u4E2D\u7684\u55AE\u884C\u6A21\u5F0F\u3002\u9810\u8A2D\u662F '::'",
+  "ko": "\uCE74\uB4DC\uC758 \uD55C \uC904 \uD328\uD134\uC744 \uAD6C\uBD84\uD558\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4. \uAE30\uBCF8\uAC12\uC740 '::'",
+  "ar": "\u064A\u0633\u062A\u062E\u062F\u0645 \u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0623\u062D\u0627\u062F\u064A\u0629 \u0627\u0644\u0633\u0637\u0631 \u0641\u064A \u0628\u0637\u0627\u0642\u0629. \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 \u0647\u064A '::'",
+  "pt": "Usado para separar padr\xF5es de uma linha em um cart\xE3o. O padr\xE3o \xE9 '::'",
+  "de": "Zum Trennen einzeiliger Muster in einer Karte verwendet. Standard ist '::'",
+  "ru": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0432 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0435. \u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '::'",
+  "fr": "Utilis\xE9 pour s\xE9parer les mod\xE8les une ligne dans une carte. Par d\xE9faut, c'est '::'",
+  "es": "Utilizado para separar patrones de una sola l\xEDnea en una tarjeta. El valor predeterminado es '::'",
+  "it": "Utilizzato per separare modelli di una sola linea in una scheda. Il valore predefinito \xE8 '::'",
+  "id": "Digunakan untuk memisahkan pola satu baris dalam kartu. Default adalah '::'",
+  "ro": "Utilizat pentru a separa modelele pe o singur\u0103 linie dintr-un card. Valoarea implicit\u0103 este '::'",
+  "cs": "Pou\u017E\xEDv\xE1 se k odd\u011Blen\xED jednorozm\u011Brn\xFDch vzor\u016F na kart\u011B. V\xFDchoz\xED hodnota je '::'",
+  "no": "Brukes til \xE5 skille enlinjem\xF8nstre i et kort. Standard er '::'",
+  "pl": "U\u017Cywany do oddzielania jednoliniowych wzorc\xF3w w karcie. Domy\u015Blnie jest to '::'",
+  "uk": "\u0412\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043B\u044F \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u043E\u0434\u043D\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u0438\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u0456\u0432 \u0443 \u043A\u0430\u0440\u0442\u0446\u0456. \u0417\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C - '::'",
+  "sq": "P\xEBrdoret p\xEBr t\xEB ndar\xEB modelet me nj\xEB rresht n\xEB nj\xEB kart\xEB. Vlera e parazgjedhur \xEBsht\xEB '::'",
+  "th": "\u0E43\u0E0A\u0E49\u0E41\u0E22\u0E01\u0E41\u0E1E\u0E17\u0E40\u0E17\u0E34\u0E23\u0E4C\u0E19\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E40\u0E14\u0E35\u0E22\u0E27\u0E43\u0E19\u0E01\u0E32\u0E23\u0E4C\u0E14 \u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E04\u0E37\u0E2D '::'",
+  "fa": "\u0628\u0631\u0627\u06CC \u062C\u062F\u0627 \u06A9\u0631\u062F\u0646 \u0627\u0644\u06AF\u0648\u0647\u0627\u06CC \u06CC\u06A9 \u062E\u0637\u06CC \u062F\u0631 \u06CC\u06A9 \u06A9\u0627\u0631\u062A \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC \u0634\u0648\u062F. \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '::'",
+  "tr": "Bir karttaki tek sat\u0131rl\u0131k kal\u0131plar\u0131 ay\u0131rmak i\xE7in kullan\u0131l\u0131r. Varsay\u0131lan de\u011Fer '::'",
+  "nl": "Gebruikt om eenregelige patronen in een kaart te scheiden. Standaard is '::'",
+  "ms": "Digunakan untuk memisahkan corak satu baris dalam kad. Lalai adalah '::'",
+  "pt-BR": "Usado para separar padr\xF5es de uma linha em um cart\xE3o. O padr\xE3o \xE9 '::'",
+  "am": "\u1260\u12A0\u1295\u12F0\u129B\u12CD \u12ED\u12D8\u1275 \u12CD\u1235\u1325 \u1260\u12A0\u1295\u12F0\u129B \u1218\u1235\u1218\u122D \u12ED\u12D8\u12CD \u12ED\u1208\u12EB\u12E9\u1362 \u1290\u1263\u122A\u12CD '::' \u1290\u12CD"
+};
+var SettingsOneLineDelimeterError = {
+  "zh": "\u4E0D\u80FD\u4E3A\u7A7A\u6216\u4EC5\u5305\u542B\u7A7A\u683C\u3002\u5E94\u7528\u9ED8\u8BA4\u503C '::'",
+  "en": "Cannot be empty or whitespace only. Applying default value '::'",
+  "ja": "\u7A7A\u767D\u306E\u307F\u307E\u305F\u306F\u7A7A\u306B\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u5024 '::' \u3092\u9069\u7528\u3057\u307E\u3059",
+  "zh-TW": "\u4E0D\u80FD\u70BA\u7A7A\u6216\u50C5\u5305\u542B\u7A7A\u683C\u3002\u61C9\u7528\u9810\u8A2D\u503C '::'",
+  "ko": "\uBE44\uC5B4 \uC788\uAC70\uB098 \uACF5\uBC31\uB9CC \uD3EC\uD568\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uAE30\uBCF8\uAC12 '::'\uAC00 \uC801\uC6A9\uB429\uB2C8\uB2E4",
+  "ar": "\u0644\u0627 \u064A\u0645\u0643\u0646 \u0623\u0646 \u062A\u0643\u0648\u0646 \u0641\u0627\u0631\u063A\u0629 \u0623\u0648 \u062A\u062D\u062A\u0648\u064A \u0641\u0642\u0637 \u0639\u0644\u0649 \u0645\u0633\u0627\u0641\u0627\u062A \u0628\u064A\u0636\u0627\u0621. \u062A\u0637\u0628\u064A\u0642 \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 '::'",
+  "pt": "N\xE3o pode estar vazio \u0623\u0648 conter apenas espa\xE7os em branco. Aplicando o valor padr\xE3o '::'",
+  "de": "Kann nicht leer oder nur aus Leerzeichen bestehen. Standardwert '::' wird angewendet",
+  "ru": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043F\u0443\u0441\u0442\u044B\u043C \u0438\u043B\u0438 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u043E\u0431\u0435\u043B\u044B. \u041F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E '::'",
+  "fr": "Ne peut pas \xEAtre vide ou contenir uniquement des espaces. Application de la valeur par d\xE9faut '::'",
+  "es": "No puede estar vac\xEDo o contener solo espacios en blanco. Aplicando el valor predeterminado '::'",
+  "it": "Non pu\xF2 essere vuoto o contenere solo spazi bianchi. Applicando il valore predefinito '::'",
+  "id": "Tidak boleh kosong atau hanya berisi spasi. Menerapkan nilai default '::'",
+  "ro": "Nu poate fi gol sau s\u0103 con\u021Bin\u0103 doar spa\u021Bii. Aplic\xE2nd valoarea implicit\u0103 '::'",
+  "cs": "Nem\u016F\u017Ee b\xFDt pr\xE1zdn\xFD nebo obsahovat pouze mezery. Aplikov\xE1n\xED v\xFDchoz\xED hodnoty '::'",
+  "no": "Kan ikke v\xE6re tom eller bare inneholde mellomrom. Bruker standardverdien '::'",
+  "pl": "Nie mo\u017Ce by\u0107 pusty ani zawiera\u0107 tylko spacji. Zastosowanie domy\u015Blnej warto\u015Bci '::'",
+  "uk": "\u041D\u0435 \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u043C \u0430\u0431\u043E \u043C\u0456\u0441\u0442\u0438\u0442\u0438 \u043B\u0438\u0448\u0435 \u043F\u0440\u043E\u0431\u0456\u043B\u0438. \u0417\u0430\u0441\u0442\u043E\u0441\u0443\u0432\u0430\u043D\u043D\u044F \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C '::'",
+  "sq": "Nuk mund t\xEB jet\xEB bosh ose t\xEB p\xEBrmbaj\xEB vet\xEBm hap\xEBsira. Po aplikoni vler\xEBn e parazgjedhur '::'",
+  "th": "\u0E44\u0E21\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E27\u0E49\u0E19\u0E27\u0E48\u0E32\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E35\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E0A\u0E48\u0E2D\u0E07\u0E27\u0E48\u0E32\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19 \u0E01\u0E33\u0E25\u0E31\u0E07\u0E43\u0E0A\u0E49\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19 '::'",
+  "fa": "\u0646\u0645\u06CC \u062A\u0648\u0627\u0646\u062F \u062E\u0627\u0644\u06CC \u0628\u0627\u0634\u062F \u06CC\u0627 \u0641\u0642\u0637 \u0634\u0627\u0645\u0644 \u0641\u0627\u0635\u0644\u0647 \u0628\u0627\u0634\u062F. \u0627\u0639\u0645\u0627\u0644 \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 '::'",
+  "tr": "Bo\u015F olamaz veya sadece bo\u015Fluk i\xE7erebilir. Varsay\u0131lan de\u011Fer '::' uygulan\u0131yor",
+  "nl": "Kan niet leeg zijn of alleen spaties bevatten. Toepassen van de standaardwaarde '::'",
+  "ms": "Tidak boleh kosong atau hanya mengandungi ruang kosong. Mengaplikasikan nilai lalai '::'",
+  "pt-BR": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco. Aplicando o valor padr\xE3o '::'",
+  "am": "\u12A0\u12ED\u1240\u12ED\u121D \u12C8\u12ED\u121D \u1260\u1240\u1235\u1273 \u1265\u127B \u1218\u12EB\u12DD \u12A0\u12ED\u127B\u120D\u121D\u1362 \u12A5\u1263\u12AE\u1275\u1295 \u12C8\u12F0 \u12A0\u1235\u1240\u12F5\u121E \u12ED\u1218\u1208\u1231 '::'"
+};
+var SettingsOneLineReversedDelimeter = {
+  "zh": "\u53CD\u5411\u5355\u884C\u5206\u9694\u7B26",
+  "en": "One-line Reversed Delimiter",
+  "ja": "\u9006\u5358\u4E00\u884C\u533A\u5207\u308A\u6587\u5B57",
+  "zh-TW": "\u53CD\u5411\u55AE\u884C\u5206\u9694\u7B26",
+  "ko": "\uC5ED\uBC29\uD5A5 \uD55C \uC904 \uAD6C\uBD84 \uAE30\uD638",
+  "ar": "\u0641\u0627\u0635\u0644 \u0633\u0637\u0631 \u0648\u0627\u062D\u062F \u0645\u0642\u0644\u0648\u0628",
+  "pt": "Delimitador de uma linha invertido",
+  "de": "Einzeiliger umgekehrter Trenner",
+  "ru": "\u0420\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0439 \u043E\u0431\u0440\u0430\u0442\u043D\u044B\u0439",
+  "fr": "D\xE9limiteur une ligne invers\xE9",
+  "es": "Delimitador de una l\xEDnea invertida",
+  "it": "Delimitatore una sola linea invertito",
+  "id": "Pemisah Satu Baris Terbalik",
+  "ro": "Delimitator pe o singur\u0103 linie inversat",
+  "cs": "Odd\u011Blova\u010D pro jednu \u0159\xE1dku obr\xE1cen\u011B",
+  "no": "Enkel linjeavgrenser reversert",
+  "pl": "Separator jednoliniowy odwr\xF3cony",
+  "uk": "\u0420\u043E\u0437\u0434\u0456\u043B\u044C\u043D\u0438\u043A \u0434\u043B\u044F \u043E\u0434\u043D\u043E\u0433\u043E \u0440\u044F\u0434\u043A\u0430 \u0432 \u0437\u0432\u043E\u0440\u043E\u0442\u043D\u043E\u043C\u0443 \u043F\u043E\u0440\u044F\u0434\u043A\u0443",
+  "sq": "Shk\xEBput\xEBsi p\xEBr nj\xEB rresht t\xEB kund\xEBrt",
+  "th": "\u0E15\u0E31\u0E27\u0E04\u0E31\u0E48\u0E19\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E40\u0E14\u0E35\u0E22\u0E27\u0E41\u0E1A\u0E1A\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A",
+  "fa": "\u062C\u062F\u0648\u0644 \u06CC\u06A9 \u062E\u0637\u06CC \u0645\u0639\u06A9\u0648\u0633",
+  "tr": "Ters Sat\u0131r Ay\u0131r\u0131c\u0131",
+  "nl": "One-line Reversed Delimiter",
+  "ms": "Pemisah Satu Baris Terbalik",
+  "pt-BR": "Delimitador de uma linha invertido",
+  "am": "\u12E8\u1270\u1230\u1260\u1230\u1260 \u12ED\u12D8\u1275 \u12ED\u1208\u12EB\u12E9 \u12C8\u1245\u1273\u12CA \u12A5\u1295\u12F0 ':::'"
+};
+var SettingsOneLineReversedDelimeterDesc = {
+  "zh": "\u7528\u4E8E\u5206\u9694\u53CD\u5411\u5355\u884C\u6A21\u5F0F\u7684\u5361\u7247\u3002\u9ED8\u8BA4\u662F ':::'",
+  "en": "Used to separate one-line patterns in a card when 2-sided card. Default is ':::'.",
+  "ja": "2\u9762\u30AB\u30FC\u30C9\u306E\u5834\u5408\u3001\u30AB\u30FC\u30C9\u5185\u306E\u9006\u5358\u4E00\u884C\u30D1\u30BF\u30FC\u30F3\u3092\u533A\u5207\u308B\u305F\u3081\u306B\u4F7F\u7528\u3055\u308C\u307E\u3059\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u306F ':::'",
+  "zh-TW": "\u7528\u65BC\u5206\u9694\u53CD\u5411\u55AE\u884C\u6A21\u5F0F\u7684\u5361\u7247\u3002\u9810\u8A2D\u662F ':::'",
+  "ko": "\uC591\uBA74 \uCE74\uB4DC\uC758 \uACBD\uC6B0 \uCE74\uB4DC\uC758 \uC5ED\uBC29\uD5A5 \uD55C \uC904 \uD328\uD134\uC744 \uAD6C\uBD84\uD558\uB294 \uB370 \uC0AC\uC6A9\uB429\uB2C8\uB2E4. \uAE30\uBCF8\uAC12\uC740 ':::'",
+  "ar": "\u064A\u0633\u062A\u062E\u062F\u0645 \u0644\u0641\u0635\u0644 \u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0623\u062D\u0627\u062F\u064A\u0629 \u0627\u0644\u0633\u0637\u0631 \u0627\u0644\u0645\u0642\u0644\u0648\u0628\u0629 \u0641\u064A \u0628\u0637\u0627\u0642\u0629 \u0630\u0627\u062A \u0648\u062C\u0647\u064A\u0646. \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 \u0647\u064A ':::'",
+  "pt": "Usado para separar padr\xF5es de uma linha invertidos em um cart\xE3o quando o cart\xE3o tem dois lados. O padr\xE3o \xE9 ':::'",
+  "de": "Zum Trennen umgekehrter einzeiliger Muster in einer Karte verwendet, wenn die Karte zweiseitig ist. Standard ist ':::'",
+  "ru": "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0434\u043B\u044F \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u043E\u0431\u0440\u0430\u0442\u043D\u044B\u0445 \u043E\u0434\u043D\u043E\u0441\u0442\u0440\u043E\u0447\u043D\u044B\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0432 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0435, \u043A\u043E\u0433\u0434\u0430 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0430 \u0434\u0432\u0443\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u044F\u044F. \u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E ':::'",
+  "fr": "Utilis\xE9 pour s\xE9parer les mod\xE8les une ligne invers\xE9s dans une carte lorsque la carte a deux c\xF4t\xE9s. Par d\xE9faut, c'est ':::'",
+  "es": "Utilizado para separar patrones de una sola l\xEDnea invertida en una tarjeta cuando la tarjeta tiene dos lados. El valor predeterminado es ':::'",
+  "it": "Utilizzato per separare modelli di una sola linea invertiti in una scheda quando la scheda ha due lati. Il valore predefinito \xE8 ':::'",
+  "id": "Digunakan untuk memisahkan pola satu baris terbalik dalam kartu ketika kartu tersebut dua sisi. Default adalah ':::'",
+  "ro": "Utilizat pentru a separa modelele pe o singur\u0103 linie inversate \xEEntr-un card atunci c\xE2nd cardul are dou\u0103 fe\u021Be. Valoarea implicit\u0103 este ':::'",
+  "cs": "Pou\u017E\xEDv\xE1 se k odd\u011Blen\xED jednorozm\u011Brn\xFDch vzor\u016F obr\xE1cen\xFDch na kart\u011B, kdy\u017E je karta oboustrann\xE1. V\xFDchoz\xED hodnota je ':::'",
+  "no": "Brukes til \xE5 skille enlinjem\xF8nstre i revers i et kort n\xE5r kortet har to sider. Standard er ':::'",
+  "pl": "U\u017Cywany do oddzielania jednoliniowych wzorc\xF3w odwr\xF3conych w karcie, gdy karta jest dwustronna. Domy\u015Blnie jest to ':::'",
+  "uk": "\u0412\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0454\u0442\u044C\u0441\u044F \u0434\u043B\u044F \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u043E\u0434\u043D\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u0438\u0445 \u0448\u0430\u0431\u043B\u043E\u043D\u0456\u0432 \u0443 \u0437\u0432\u043E\u0440\u043E\u0442\u043D\u043E\u043C\u0443 \u043F\u043E\u0440\u044F\u0434\u043A\u0443 \u0432 \u043A\u0430\u0440\u0442\u0446\u0456, \u043A\u043E\u043B\u0438 \u043A\u0430\u0440\u0442\u043A\u0430 \u0434\u0432\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u044F. \u0417\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C - ':::'",
+  "sq": "P\xEBrdoret p\xEBr t\xEB ndar\xEB modelet me nj\xEB rresht t\xEB kund\xEBrt n\xEB nj\xEB kart\xEB kur karta ka dy an\xEB. Vlera e parazgjedhur \xEBsht\xEB ':::'",
+  "th": "\u0E43\u0E0A\u0E49\u0E41\u0E22\u0E01\u0E41\u0E1E\u0E17\u0E40\u0E17\u0E34\u0E23\u0E4C\u0E19\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E40\u0E14\u0E35\u0E22\u0E27\u0E41\u0E1A\u0E1A\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A\u0E43\u0E19\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E21\u0E35\u0E2A\u0E2D\u0E07\u0E14\u0E49\u0E32\u0E19 \u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19\u0E04\u0E37\u0E2D ':::'",
+  "fa": "\u0628\u0631\u0627\u06CC \u062C\u062F\u0627 \u06A9\u0631\u062F\u0646 \u0627\u0644\u06AF\u0648\u0647\u0627\u06CC \u06CC\u06A9 \u062E\u0637\u06CC \u0645\u0639\u06A9\u0648\u0633 \u062F\u0631 \u06CC\u06A9 \u06A9\u0627\u0631\u062A \u0632\u0645\u0627\u0646\u06CC \u06A9\u0647 \u06A9\u0627\u0631\u062A \u062F\u0648 \u0637\u0631\u0641\u0647 \u0627\u0633\u062A \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC \u0634\u0648\u062F. \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634 \u0641\u0631\u0636 ':::'",
+  "tr": "Bir karttaki ters sat\u0131rl\u0131k kal\u0131plar\u0131 ay\u0131rmak i\xE7in kullan\u0131l\u0131r, kart\u0131n iki y\xFCz\xFC oldu\u011Funda. Varsay\u0131lan de\u011Fer ':::'",
+  "nl": "Gebruikt om eenregelige patronen in omgekeerde volgorde in een kaart te scheiden wanneer de kaart twee zijden heeft. Standaard is ':::'",
+  "ms": "Digunakan untuk memisahkan corak satu baris terbalik dalam kad apabila kad tersebut mempunyai dua sisi. Lalai adalah ':::'",
+  "pt-BR": "Usado para separar padr\xF5es de uma linha invertidos em um cart\xE3o quando o cart\xE3o tem dois lados. O padr\xE3o \xE9 ':::'",
+  "am": "\u1260\u12A0\u1295\u12F0\u129B\u12CD \u12ED\u12D8\u1275 \u12CD\u1235\u1325 \u1260\u1270\u1218\u1208\u1230 \u12ED\u12D8\u1275 \u12ED\u1208\u12EB\u12E9 \u12C8\u1245\u1273\u12CA \u12A5\u1295\u12F0 ':::'"
+};
+var SettingsShowHardCardsArrangement = {
+  "zh": "\u663E\u793A\u56F0\u96BE\u5361\u7247",
+  "en": "Show Hard Cards",
+  "ja": "\u96E3\u3057\u3044\u30AB\u30FC\u30C9\u3092\u8868\u793A",
+  "zh-TW": "\u986F\u793A\u56F0\u96E3\u5361\u7247",
+  "ko": "\uC5B4\uB824\uC6B4 \uCE74\uB4DC \uBCF4\uAE30",
+  "ar": "\u0639\u0631\u0636 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0635\u0639\u0628\u0629",
+  "pt": "Mostrar Cart\xF5es Dif\xEDceis",
+  "de": "Schwierige Karten anzeigen",
+  "ru": "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u043A\u0430\u0440\u0442\u044B",
+  "fr": "Afficher les cartes difficiles",
+  "es": "Mostrar tarjetas dif\xEDciles",
+  "it": "Mostra carte difficili",
+  "id": "Tampilkan Kartu Sulit",
+  "ro": "Afi\u0219are carduri dificile",
+  "cs": "Zobrazit t\u011B\u017Ek\xE9 karty",
+  "no": "Vis harde kort",
+  "pl": "Poka\u017C trudne karty",
+  "uk": "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u0438 \u0441\u043A\u043B\u0430\u0434\u043D\u0456 \u043A\u0430\u0440\u0442\u043A\u0438",
+  "sq": "Trego Kartat e V\xEBshtira",
+  "th": "\u0E41\u0E2A\u0E14\u0E07\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E17\u0E35\u0E48\u0E22\u0E32\u0E01",
+  "fa": "\u0646\u0645\u0627\u06CC\u0634 \u06A9\u0627\u0631\u062A \u0647\u0627\u06CC \u0633\u062E\u062A",
+  "tr": "Zor Kartlar\u0131 G\xF6ster",
+  "nl": "Toon Moeilijke Kaarten",
+  "ms": "Tunjukkan Kad Sukar",
+  "pt-BR": "Mostrar Cart\xF5es Dif\xEDceis",
+  "am": "\u12E8\u1270\u1230\u1260\u1230\u1260 \u12ED\u12D8\u1275 \u12ED\u1208\u12EB\u12E9"
+};
+var StartTextHard = {
+  "en": "Explore Hard Cards",
+  "zh": "\u63A2\u7D22\u56F0\u96BE\u5361\u7247",
+  "zh-TW": "\u63A2\u7D22\u56F0\u96E3\u5361\u7247",
+  "ja": "\u96E3\u3057\u3044\u30AB\u30FC\u30C9\u3092\u63A2\u7D22",
+  "ko": "\uC5B4\uB824\uC6B4 \uCE74\uB4DC\uB97C \uD0D0\uC0C9",
+  "ar": "\u0627\u0633\u062A\u0643\u0634\u0627\u0641 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0635\u0639\u0628\u0629",
+  "pt": "Explorar Cartas Dif\xEDceis",
+  "pt-BR": "Explorar Cartas Dif\xEDceis",
+  "de": "Schwierige Karten erkunden",
+  "ru": "\u0418\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C \u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u043A\u0430\u0440\u0442\u043E\u0447\u043A\u0438",
+  "fr": "Explorer les cartes difficiles",
+  "es": "Explorar cartas dif\xEDciles",
+  "it": "Esplora le carte difficili",
+  "id": "Jelajahi Kartu Sulit",
+  "ro": "Exploreaz\u0103 c\u0103r\u021Bile dificile",
+  "cs": "Prozkoumat t\u011B\u017Ek\xE9 karty",
+  "no": "Utforsk vanskelige kort",
+  "pl": "Eksploruj trudne karty",
+  "uk": "\u0414\u043E\u0441\u043B\u0456\u0434\u0438\u0442\u0438 \u0441\u043A\u043B\u0430\u0434\u043D\u0456 \u043A\u0430\u0440\u0442\u043A\u0438",
+  "sq": "Eksploro kartat e v\xEBshtira",
+  "th": "\u0E2A\u0E33\u0E23\u0E27\u0E08\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E22\u0E32\u0E01",
+  "fa": "\u06A9\u0627\u0648\u0634 \u06A9\u0627\u0631\u062A\u200C\u0647\u0627\u06CC \u0633\u062E\u062A",
+  "tr": "Zor kartlar\u0131 ke\u015Ffet",
+  "nl": "Verken moeilijke kaarten",
+  "ms": "Terokai Kad Sukar",
+  "am": "\u12A8\u1263\u12F5 \u12AB\u122D\u12F6\u127D\u1295 \u12EB\u1235\u1231"
+};
+var SettingsShowHardCardsArrangementDesc = {
+  "zh": "\u5982\u679C\u542F\u7528\uFF0C\u56F0\u96BE\u5361\u7247\u5C06\u663E\u793A\u5728\u5361\u7EC4\u4E2D\u3002\u8003\u8651\u62C6\u5206\u6216\u91CD\u65B0\u63AA\u8F9E\u5361\u7247\u5185\u5BB9\u4EE5\u63D0\u9AD8\u8BC6\u522B\u548C\u7F16\u7801\uFF0C\u56E0\u4E3A\u56DE\u5FC6\u6210\u529F\u7387\u4F1A\u4E0B\u964D\u3002",
+  "en": "If enabled, hard cards will be shown in the decks. Consider splitting or rewording the card content to improve recognition and encoding because the success rate of recalling falls down.",
+  "ja": "\u6709\u52B9\u306B\u3059\u308B\u3068\u3001\u96E3\u3057\u3044\u30AB\u30FC\u30C9\u304C\u30C7\u30C3\u30AD\u306B\u8868\u793A\u3055\u308C\u307E\u3059\u3002\u8A8D\u8B58\u3068\u30A8\u30F3\u30B3\u30FC\u30C9\u3092\u6539\u5584\u3059\u308B\u305F\u3081\u306B\u30AB\u30FC\u30C9\u306E\u5185\u5BB9\u3092\u5206\u5272\u307E\u305F\u306F\u8A00\u3044\u63DB\u3048\u308B\u3053\u3068\u3092\u691C\u8A0E\u3057\u3066\u304F\u3060\u3055\u3044\u3002",
+  "zh-TW": "\u5982\u679C\u555F\u7528\uFF0C\u56F0\u96E3\u5361\u7247\u5C07\u986F\u793A\u5728\u5361\u7D44\u4E2D\u3002\u8003\u616E\u62C6\u5206\u6216\u91CD\u65B0\u63AA\u8FAD\u5361\u7247\u5167\u5BB9\u4EE5\u63D0\u9AD8\u8B58\u5225\u548C\u7DE8\u78BC\uFF0C\u56E0\u70BA\u56DE\u61B6\u6210\u529F\u7387\u6703\u4E0B\u964D\u3002",
+  "ko": "\uD65C\uC131\uD654\uD558\uBA74 \uC5B4\uB824\uC6B4 \uCE74\uB4DC\uAC00 \uB371\uC5D0 \uD45C\uC2DC\uB429\uB2C8\uB2E4. \uC778\uC2DD \uBC0F \uC778\uCF54\uB529\uC744 \uAC1C\uC120\uD558\uAE30 \uC704\uD574 \uCE74\uB4DC \uB0B4\uC6A9\uC744 \uBD84\uD560\uD558\uAC70\uB098 \uC7AC\uAD6C\uC131\uD558\uB294 \uAC83\uC744 \uACE0\uB824\uD558\uC2ED\uC2DC\uC624.",
+  "ar": "\u0625\u0630\u0627 \u062A\u0645 \u0627\u0644\u062A\u0645\u0643\u064A\u0646\u060C \u0633\u062A\u0638\u0647\u0631 \u0627\u0644\u0628\u0637\u0627\u0642\u0627\u062A \u0627\u0644\u0635\u0639\u0628\u0629 \u0641\u064A \u0627\u0644\u0637\u0648\u0627\u0628\u0642. \u0636\u0639 \u0641\u064A \u0627\u0639\u062A\u0628\u0627\u0631\u0643 \u062A\u0642\u0633\u064A\u0645 \u0623\u0648 \u0625\u0639\u0627\u062F\u0629 \u0635\u064A\u0627\u063A\u0629 \u0645\u062D\u062A\u0648\u0649 \u0627\u0644\u0628\u0637\u0627\u0642\u0629 \u0644\u062A\u062D\u0633\u064A\u0646 \u0627\u0644\u062A\u0639\u0631\u0641 \u0648\u0627\u0644\u062A\u0634\u0641\u064A\u0631 \u0644\u0623\u0646 \u0645\u0639\u062F\u0644 \u0646\u062C\u0627\u062D \u0627\u0644\u062A\u0630\u0643\u0631 \u064A\u0646\u062E\u0641\u0636.",
+  "pt": "Se ativado, cartas dif\xEDceis ser\xE3o mostradas nos baralhos. Considere dividir ou reformular o conte\xFAdo da carta para melhorar o reconhecimento e a codifica\xE7\xE3o, pois a taxa de sucesso de recorda\xE7\xE3o diminui.",
+  "de": "Wenn aktiviert, werden schwierige Karten in den Decks angezeigt. Erw\xE4gen Sie, den Karteninhalt aufzuteilen oder umzuformulieren, um die Erkennung und Kodierung zu verbessern, da die Erfolgsrate des Erinnerns sinkt.",
+  "ru": "\u0415\u0441\u043B\u0438 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u043E, \u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u043A\u0430\u0440\u0442\u044B \u0431\u0443\u0434\u0443\u0442 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0442\u044C\u0441\u044F \u0432 \u043A\u043E\u043B\u043E\u0434\u0430\u0445. \u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u0444\u043E\u0440\u043C\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0438 \u0441\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u044F \u043A\u0430\u0440\u0442\u044B \u0434\u043B\u044F \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u044F \u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0432\u0430\u043D\u0438\u044F \u0438 \u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F, \u0442\u0430\u043A \u043A\u0430\u043A \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C \u0443\u0441\u043F\u0435\u0448\u043D\u043E\u0433\u043E \u0432\u043E\u0441\u043F\u043E\u043C\u0438\u043D\u0430\u043D\u0438\u044F \u0441\u043D\u0438\u0436\u0430\u0435\u0442\u0441\u044F.",
+  "fr": "Si activ\xE9, les cartes difficiles seront affich\xE9es dans les decks. Envisagez de diviser ou de reformuler le contenu de la carte pour am\xE9liorer la reconnaissance et le codage, car le taux de r\xE9ussite de rappel diminue.",
+  "es": "Si est\xE1 habilitado, las cartas dif\xEDciles se mostrar\xE1n en los mazos. Considere dividir o reformular el contenido de la carta para mejorar el reconocimiento y la codificaci\xF3n, ya que la tasa de \xE9xito de recordar disminuye.",
+  "it": "Se abilitato, le carte difficili saranno mostrate nei mazzi. Considera di dividere o riformulare il contenuto della carta per migliorare il riconoscimento e la codifica, poich\xE9 il tasso di successo del richiamo diminuisce.",
+  "id": "Jika diaktifkan, kartu sulit akan ditampilkan di dek. Pertimbangkan untuk membagi atau mengubah kata-kata konten kartu untuk meningkatkan pengenalan dan pengkodean karena tingkat keberhasilan mengingat menurun.",
+  "ro": "Dac\u0103 este activat, cardurile dificile vor fi afi\u0219ate \xEEn pachete. Lua\u021Bi \xEEn considerare \xEEmp\u0103r\u021Birea sau reformularea con\u021Binutului cardului pentru a \xEEmbun\u0103t\u0103\u021Bi recunoa\u0219terea \u0219i codificarea, deoarece rata de succes a amintirii scade.",
+  "cs": "Pokud je povoleno, t\u011B\u017Ek\xE9 karty budou zobrazeny v bal\xED\u010Dc\xEDch. Zva\u017Ete rozd\u011Blen\xED nebo p\u0159eformulov\xE1n\xED obsahu karty, aby se zlep\u0161ilo rozpozn\xE1v\xE1n\xED a k\xF3dov\xE1n\xED, proto\u017Ee \xFAsp\u011B\u0161nost vybaven\xED kles\xE1.",
+  "no": "Hvis aktivert, vil harde kort vises i kortstokkene. Vurder \xE5 dele opp eller omformulere kortinnholdet for \xE5 forbedre gjenkjenning og koding, fordi suksessraten for \xE5 huske faller.",
+  "pl": "Je\u015Bli w\u0142\u0105czone, trudne karty b\u0119d\u0105 wy\u015Bwietlane w taliach. Rozwa\u017C podzielenie lub przeformu\u0142owanie tre\u015Bci karty, aby poprawi\u0107 rozpoznawanie i kodowanie, poniewa\u017C wska\u017Anik sukcesu przypominania spada.",
+  "uk": "\u042F\u043A\u0449\u043E \u0443\u0432\u0456\u043C\u043A\u043D\u0435\u043D\u043E, \u0441\u043A\u043B\u0430\u0434\u043D\u0456 \u043A\u0430\u0440\u0442\u043A\u0438 \u0431\u0443\u0434\u0443\u0442\u044C \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u0456 \u0432 \u043A\u043E\u043B\u043E\u0434\u0430\u0445. \u0420\u043E\u0437\u0433\u043B\u044F\u043D\u044C\u0442\u0435 \u043C\u043E\u0436\u043B\u0438\u0432\u0456\u0441\u0442\u044C \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0430\u0431\u043E \u043F\u0435\u0440\u0435\u0444\u043E\u0440\u043C\u0443\u043B\u044E\u0432\u0430\u043D\u043D\u044F \u0437\u043C\u0456\u0441\u0442\u0443 \u043A\u0430\u0440\u0442\u043A\u0438 \u0434\u043B\u044F \u043F\u043E\u043A\u0440\u0430\u0449\u0435\u043D\u043D\u044F \u0440\u043E\u0437\u043F\u0456\u0437\u043D\u0430\u0432\u0430\u043D\u043D\u044F \u0442\u0430 \u043A\u043E\u0434\u0443\u0432\u0430\u043D\u043D\u044F, \u043E\u0441\u043A\u0456\u043B\u044C\u043A\u0438 \u0443\u0441\u043F\u0456\u0448\u043D\u0456\u0441\u0442\u044C \u0437\u0433\u0430\u0434\u0443\u0432\u0430\u043D\u043D\u044F \u0437\u043D\u0438\u0436\u0443\u0454\u0442\u044C\u0441\u044F.",
+  "sq": "N\xEBse aktivizohet, kartat e v\xEBshtira do t\xEB shfaqen n\xEB kuvertat. Merrni parasysh ndarjen ose riformulimin e p\xEBrmbajtjes s\xEB kart\xEBs p\xEBr t\xEB p\xEBrmir\xEBsuar njohjen dhe kodimin, sepse shkalla e suksesit t\xEB kujtimit bie.",
+  "th": "\u0E2B\u0E32\u0E01\u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19 \u0E01\u0E32\u0E23\u0E4C\u0E14\u0E17\u0E35\u0E48\u0E22\u0E32\u0E01\u0E08\u0E30\u0E1B\u0E23\u0E32\u0E01\u0E0F\u0E43\u0E19\u0E2A\u0E33\u0E23\u0E31\u0E1A \u0E1E\u0E34\u0E08\u0E32\u0E23\u0E13\u0E32\u0E41\u0E1A\u0E48\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E1B\u0E23\u0E31\u0E1A\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E2B\u0E32\u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E4C\u0E14\u0E43\u0E2B\u0E21\u0E48\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E23\u0E31\u0E1A\u0E1B\u0E23\u0E38\u0E07\u0E01\u0E32\u0E23\u0E08\u0E14\u0E08\u0E33\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E40\u0E02\u0E49\u0E32\u0E23\u0E2B\u0E31\u0E2A \u0E40\u0E19\u0E37\u0E48\u0E2D\u0E07\u0E08\u0E32\u0E01\u0E2D\u0E31\u0E15\u0E23\u0E32\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08\u0E43\u0E19\u0E01\u0E32\u0E23\u0E40\u0E23\u0E35\u0E22\u0E01\u0E04\u0E37\u0E19\u0E25\u0E14\u0E25\u0E07",
+  "fa": "\u0627\u06AF\u0631 \u0641\u0639\u0627\u0644 \u0634\u0648\u062F\u060C \u06A9\u0627\u0631\u062A\u200C\u0647\u0627\u06CC \u0633\u062E\u062A \u062F\u0631 \u062F\u0633\u062A\u0647\u200C\u0647\u0627 \u0646\u0645\u0627\u06CC\u0634 \u062F\u0627\u062F\u0647 \u0645\u06CC\u200C\u0634\u0648\u0646\u062F. \u062F\u0631 \u0646\u0638\u0631 \u062F\u0627\u0634\u062A\u0647 \u0628\u0627\u0634\u06CC\u062F \u06A9\u0647 \u0645\u062D\u062A\u0648\u0627\u06CC \u06A9\u0627\u0631\u062A \u0631\u0627 \u062A\u0642\u0633\u06CC\u0645 \u06CC\u0627 \u0628\u0627\u0632\u0646\u0648\u06CC\u0633\u06CC \u06A9\u0646\u06CC\u062F \u062A\u0627 \u0634\u0646\u0627\u0633\u0627\u06CC\u06CC \u0648 \u0631\u0645\u0632\u06AF\u0630\u0627\u0631\u06CC \u0628\u0647\u0628\u0648\u062F \u06CC\u0627\u0628\u062F\u060C \u0632\u06CC\u0631\u0627 \u0646\u0631\u062E \u0645\u0648\u0641\u0642\u06CC\u062A \u06CC\u0627\u062F\u0622\u0648\u0631\u06CC \u06A9\u0627\u0647\u0634 \u0645\u06CC\u200C\u06CC\u0627\u0628\u062F.",
+  "tr": "Etkinle\u015Ftirilirse, zor kartlar destelerde g\xF6sterilir. Tan\u0131ma ve kodlamay\u0131 geli\u015Ftirmek i\xE7in kart i\xE7eri\u011Fini b\xF6lmeyi veya yeniden ifade etmeyi d\xFC\u015F\xFCn\xFCn \xE7\xFCnk\xFC hat\u0131rlama ba\u015Far\u0131 oran\u0131 d\xFC\u015Fer.",
+  "nl": "Als ingeschakeld, worden moeilijke kaarten weergegeven in de decks. Overweeg om de inhoud van de kaart te splitsen of opnieuw te formuleren om herkenning en codering te verbeteren, omdat het succespercentage van herinneren daalt.",
+  "ms": "Jika diaktifkan, kad yang sukar akan ditunjukkan dalam dek. Pertimbangkan untuk membahagikan atau menyusun semula kandungan kad untuk meningkatkan pengiktirafan dan pengekodan kerana kadar kejayaan mengingat menurun.",
+  "pt-BR": "Se ativado, cartas dif\xEDceis ser\xE3o mostradas nos baralhos. Considere dividir ou reformular o conte\xFAdo da carta para melhorar o reconhecimento e a codifica\xE7\xE3o, pois a taxa de sucesso de recorda\xE7\xE3o diminui.",
+  "am": "\u12A5\u1295\u12F0\u1206\u1290 \u12A8\u1263\u12F5 \u12AB\u122D\u12F6\u127D \u1260\u12F3\u123D \u12CD\u1235\u1325 \u12ED\u1273\u12EB\u1209\u1362 \u121B\u1235\u1273\u12C8\u123B\u1295 \u1208\u121B\u123B\u123B\u120D \u12A5\u1293 \u1208\u121B\u1235\u1270\u12AB\u12A8\u120D \u12E8\u12AB\u122D\u12F5 \u12ED\u12D8\u1275\u1295 \u1218\u12AD\u1348\u120D \u12C8\u12ED\u121D \u1218\u1240\u12E8\u122D \u12ED\u1296\u122D\u1265\u12CE\u1273\u120D\u1362"
+};
+var SettingsOneLineReversedDelimeterError = {
+  "en": "Cannot be empty or whitespace only. Applying default value ':::'",
+  "zh": "\u4E0D\u80FD\u4E3A\u7A7A\u6216\u4EC5\u5305\u542B\u7A7A\u683C\u3002\u5C06\u4F7F\u7528\u9ED8\u8BA4\u503C ':::'",
+  "ja": "\u7A7A\u307E\u305F\u306F\u7A7A\u767D\u306E\u307F\u306B\u306F\u3067\u304D\u307E\u305B\u3093\u3002\u30C7\u30D5\u30A9\u30EB\u30C8\u5024 ':::' \u3092\u9069\u7528\u3057\u307E\u3059\u3002",
+  "zh-TW": "\u4E0D\u80FD\u70BA\u7A7A\u6216\u50C5\u5305\u542B\u7A7A\u683C\u3002\u5C07\u5957\u7528\u9810\u8A2D\u503C ':::'",
+  "ko": "\uBE44\uC5B4 \uC788\uAC70\uB098 \uACF5\uBC31\uB9CC\uC73C\uB85C\uB294 \uC548 \uB429\uB2C8\uB2E4. \uAE30\uBCF8\uAC12 ':::'\uC774(\uAC00) \uC801\uC6A9\uB429\uB2C8\uB2E4.",
+  "ar": "\u0644\u0627 \u064A\u0645\u0643\u0646 \u0623\u0646 \u064A\u0643\u0648\u0646 \u0641\u0627\u0631\u063A\u064B\u0627 \u0623\u0648 \u064A\u062D\u062A\u0648\u064A \u0639\u0644\u0649 \u0645\u0633\u0627\u0641\u0627\u062A \u0641\u0642\u0637. \u0633\u064A\u062A\u0645 \u062A\u0637\u0628\u064A\u0642 \u0627\u0644\u0642\u064A\u0645\u0629 \u0627\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A\u0629 ':::'",
+  "pt": "N\xE3o pode estar vazio ou conter apenas espa\xE7os em branco. Aplicando o valor padr\xE3o ':::'",
+  "de": "Darf nicht leer oder nur aus Leerzeichen bestehen. Standardwert ':::' wird verwendet.",
+  "ru": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u043F\u0443\u0441\u0442\u044B\u043C \u0438\u043B\u0438 \u0441\u043E\u0441\u0442\u043E\u044F\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u0438\u0437 \u043F\u0440\u043E\u0431\u0435\u043B\u043E\u0432. \u041F\u0440\u0438\u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E ':::'",
+  "fr": "Ne peut pas \xEAtre vide ou uniquement compos\xE9 d'espaces. Valeur par d\xE9faut ':::' appliqu\xE9e.",
+  "es": "No puede estar vac\xEDo ni contener solo espacios en blanco. Se aplica el valor predeterminado ':::'",
+  "it": "Non pu\xF2 essere vuoto o composto solo da spazi. Applicato il valore predefinito ':::'",
+  "id": "Tidak boleh kosong atau hanya berisi spasi. Menerapkan nilai default ':::'",
+  "ro": "Nu poate fi gol sau con\u021Bine doar spa\u021Bii. Se aplic\u0103 valoarea implicit\u0103 ':::'",
+  "cs": "Nem\u016F\u017Ee b\xFDt pr\xE1zdn\xFD nebo obsahovat pouze mezery. Pou\u017Eita v\xFDchoz\xED hodnota ':::'",
+  "no": "Kan ikke v\xE6re tom eller kun inneholde mellomrom. Bruker standardverdien ':::'",
+  "pl": "Nie mo\u017Ce by\u0107 pusty ani zawiera\u0107 tylko spacje. Zastosowano warto\u015B\u0107 domy\u015Bln\u0105 ':::'",
+  "uk": "\u041D\u0435 \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u043C \u0430\u0431\u043E \u043C\u0456\u0441\u0442\u0438\u0442\u0438 \u043B\u0438\u0448\u0435 \u043F\u0440\u043E\u0431\u0456\u043B\u0438. \u0417\u0430\u0441\u0442\u043E\u0441\u043E\u0432\u0430\u043D\u043E \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C ':::'",
+  "sq": "Nuk mund t\xEB jet\xEB bosh ose vet\xEBm hap\xEBsira. Do t\xEB p\xEBrdoret vlera parazgjedhur ':::'",
+  "th": "\u0E15\u0E49\u0E2D\u0E07\u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E2B\u0E23\u0E37\u0E2D\u0E21\u0E35\u0E41\u0E15\u0E48\u0E0A\u0E48\u0E2D\u0E07\u0E27\u0E48\u0E32\u0E07\u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19 \u0E08\u0E30\u0E43\u0E0A\u0E49\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19 ':::'",
+  "fa": "\u0646\u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u062F \u062E\u0627\u0644\u06CC \u06CC\u0627 \u0641\u0642\u0637 \u0634\u0627\u0645\u0644 \u0641\u0627\u0635\u0644\u0647 \u0628\u0627\u0634\u062F. \u0645\u0642\u062F\u0627\u0631 \u067E\u06CC\u0634\u200C\u0641\u0631\u0636 ':::' \u0627\u0639\u0645\u0627\u0644 \u0645\u06CC\u200C\u0634\u0648\u062F.",
+  "tr": "Bo\u015F veya yaln\u0131zca bo\u015Fluk olamaz. Varsay\u0131lan de\u011Fer ':::' uygulan\u0131yor.",
+  "nl": "Mag niet leeg zijn of alleen spaties bevatten. Standaardwaarde ':::' wordt toegepast.",
+  "ms": "Tidak boleh kosong atau hanya ruang kosong. Nilai lalai ':::' akan digunakan.",
+  "pt-BR": "N\xE3o pode estar vazio ou conter apenas espa\xE7os. Aplicando valor padr\xE3o ':::'",
+  "am": "\u1263\u12F6 \u12C8\u12ED\u121D \u1265\u127B\u12CD\u1295 \u1290\u132D \u1266\u1273 \u1218\u1206\u1295 \u12A0\u12ED\u127D\u120D\u121D\u1362 \u1290\u1263\u122A \u12CB\u130B ':::' \u12ED\u1270\u1308\u1260\u122B\u120D\u1362"
+};
+var SettingsNewLineAsSplitter = {
+  "en": "Allow empty line as a splitter",
+  "zh": "\u5141\u8BB8\u4F7F\u7528\u7A7A\u884C\u4F5C\u4E3A\u5206\u9694\u7B26",
+  "ja": "\u7A7A\u884C\u3092\u533A\u5207\u308A\u6587\u5B57\u3068\u3057\u3066\u8A31\u53EF",
+  "zh-TW": "\u5141\u8A31\u4F7F\u7528\u7A7A\u884C\u4F5C\u70BA\u5206\u9694\u7B26",
+  "ko": "\uBE48 \uC904\uC744 \uAD6C\uBD84\uC790\uB85C \uD5C8\uC6A9",
+  "ar": "\u0627\u0644\u0633\u0645\u0627\u062D \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u0633\u0637\u0631 \u0627\u0644\u0641\u0627\u0631\u063A \u0643\u0641\u0627\u0635\u0644",
+  "pt": "Permitir linha vazia como separador",
+  "de": "Leere Zeile als Trenner erlauben",
+  "ru": "\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044C \u043F\u0443\u0441\u0442\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443 \u043A\u0430\u043A \u0440\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u0435\u043B\u044C",
+  "fr": "Autoriser la ligne vide comme s\xE9parateur",
+  "es": "Permitir l\xEDnea vac\xEDa como separador",
+  "it": "Consentire riga vuota come separatore",
+  "id": "Izinkan baris kosong sebagai pemisah",
+  "ro": "Permite linie goal\u0103 ca separator",
+  "cs": "Povolit pr\xE1zdn\xFD \u0159\xE1dek jako odd\u011Blova\u010D",
+  "no": "Tillat tom linje som skilletegn",
+  "pl": "Zezw\xF3l na pust\u0105 lini\u0119 jako separator",
+  "uk": "\u0414\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u0438 \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u0439 \u0440\u044F\u0434\u043E\u043A \u044F\u043A \u0440\u043E\u0437\u0434\u0456\u043B\u044C\u043D\u0438\u043A",
+  "sq": "Lejo rresht t\xEB zbraz\xEBt si ndar\xEBs",
+  "th": "\u0E2D\u0E19\u0E38\u0E0D\u0E32\u0E15\u0E43\u0E2B\u0E49\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E31\u0E27\u0E41\u0E1A\u0E48\u0E07",
+  "fa": "\u0627\u062C\u0627\u0632\u0647 \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0627\u0632 \u062E\u0637 \u062E\u0627\u0644\u06CC \u0628\u0647 \u0639\u0646\u0648\u0627\u0646 \u062C\u062F\u0627\u06A9\u0646\u0646\u062F\u0647",
+  "tr": "Bo\u015F sat\u0131r\u0131 ay\u0131r\u0131c\u0131 olarak kullan",
+  "nl": "Lege regel als scheidingsteken toestaan",
+  "ms": "Benarkan baris kosong sebagai pemisah",
+  "pt-BR": "Permitir linha vazia como separador",
+  "am": "\u1263\u12F6 \u1218\u1235\u1218\u122D\u1295 \u12A5\u1295\u12F0 \u1218\u1208\u12EB \u134D\u1240\u12F5"
+};
+var SettingsNewLineAsSplitterDesc = {
+  "en": "By default to splitting patterns is done by '***'. Toggle it on to allow just empty line ' '",
+  "zh": "\u9ED8\u8BA4\u60C5\u51B5\u4E0B\uFF0C\u4F7F\u7528 '***' \u5206\u5272\u6A21\u5F0F\u3002\u542F\u7528\u6B64\u9009\u9879\u5C06\u5141\u8BB8\u4F7F\u7528\u7A7A\u884C ' ' \u5206\u5272",
+  "ja": "\u30C7\u30D5\u30A9\u30EB\u30C8\u3067\u306F '***' \u3067\u30D1\u30BF\u30FC\u30F3\u3092\u5206\u5272\u3057\u307E\u3059\u3002\u6709\u52B9\u306B\u3059\u308B\u3068\u7A7A\u884C ' ' \u3067\u306E\u5206\u5272\u304C\u53EF\u80FD\u306B\u306A\u308A\u307E\u3059",
+  "zh-TW": "\u9810\u8A2D\u4F7F\u7528 '***' \u5206\u5272\u6A21\u5F0F\u3002\u958B\u555F\u6B64\u9078\u9805\u5C07\u5141\u8A31\u4F7F\u7528\u7A7A\u884C ' ' \u5206\u5272",
+  "ko": "\uAE30\uBCF8\uC801\uC73C\uB85C '***'\uB85C \uD328\uD134\uC744 \uBD84\uD560\uD569\uB2C8\uB2E4. \uD65C\uC131\uD654\uD558\uBA74 \uBE48 \uC904 ' '\uB9CC\uC73C\uB85C\uB3C4 \uBD84\uD560\uC774 \uAC00\uB2A5\uD569\uB2C8\uB2E4",
+  "ar": "\u064A\u062A\u0645 \u062A\u0642\u0633\u064A\u0645 \u0627\u0644\u0623\u0646\u0645\u0627\u0637 \u0627\u0641\u062A\u0631\u0627\u0636\u064A\u064B\u0627 \u0628\u0627\u0633\u062A\u062E\u062F\u0627\u0645 '***'. \u0642\u0645 \u0628\u062A\u0641\u0639\u064A\u0644\u0647 \u0644\u0644\u0633\u0645\u0627\u062D \u0628\u0645\u062C\u0631\u062F \u0633\u0637\u0631 \u0641\u0627\u0631\u063A ' '",
+  "pt": "Por padr\xE3o, os padr\xF5es s\xE3o divididos por '***'. Ative para permitir apenas linha vazia ' '",
+  "de": "Standardm\xE4\xDFig erfolgt die Mustertrennung durch '***'. Aktivieren Sie diese Option, um eine leere Zeile ' ' zu erlauben",
+  "ru": "\u041F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E \u0440\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432 \u0432\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E '***'. \u0412\u043A\u043B\u044E\u0447\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044C \u043F\u0440\u043E\u0441\u0442\u043E \u043F\u0443\u0441\u0442\u0443\u044E \u0441\u0442\u0440\u043E\u043A\u0443 ' '",
+  "fr": "Par d\xE9faut, les motifs sont s\xE9par\xE9s par '***'. Activez pour permettre une simple ligne vide ' '",
+  "es": "Por defecto, los patrones se dividen mediante '***'. Act\xEDvelo para permitir solo l\xEDnea vac\xEDa ' '",
+  "it": "Per impostazione predefinita, i pattern vengono divisi da '***'. Attiva per consentire solo riga vuota ' '",
+  "id": "Secara default pemisahan pola dilakukan dengan '***'. Aktifkan untuk mengizinkan hanya baris kosong ' '",
+  "ro": "Implicit, \u0219abloanele sunt separate prin '***'. Activa\u021Bi pentru a permite doar linie goal\u0103 ' '",
+  "cs": "Ve v\xFDchoz\xEDm nastaven\xED se vzory odd\u011Bluj\xED pomoc\xED '***'. Zapn\u011Bte pro povolen\xED pouze pr\xE1zdn\xE9ho \u0159\xE1dku ' '",
+  "no": "Som standard deles m\xF8nstre med '***'. Sl\xE5 p\xE5 for \xE5 tillate bare tom linje ' '",
+  "pl": "Domy\u015Blnie wzorce s\u0105 rozdzielane przez '***'. W\u0142\u0105cz, aby zezwoli\u0107 na sam\u0105 pust\u0105 lini\u0119 ' '",
+  "uk": "\u0417\u0430 \u0437\u0430\u043C\u043E\u0432\u0447\u0443\u0432\u0430\u043D\u043D\u044F\u043C \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0448\u0430\u0431\u043B\u043E\u043D\u0456\u0432 \u0432\u0438\u043A\u043E\u043D\u0443\u0454\u0442\u044C\u0441\u044F \u0437\u0430 \u0434\u043E\u043F\u043E\u043C\u043E\u0433\u043E\u044E '***'. \u0423\u0432\u0456\u043C\u043A\u043D\u0456\u0442\u044C, \u0449\u043E\u0431 \u0434\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u0438 \u043F\u0440\u043E\u0441\u0442\u043E \u043F\u043E\u0440\u043E\u0436\u043D\u0456\u0439 \u0440\u044F\u0434\u043E\u043A ' '",
+  "sq": "Si parazgjedhje, ndarja e modeleve b\xEBhet me '***'. Aktivizojeni p\xEBr t\xEB lejuar vet\xEBm rresht t\xEB zbraz\xEBt ' '",
+  "th": "\u0E42\u0E14\u0E22\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19 \u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E08\u0E30\u0E16\u0E39\u0E01\u0E41\u0E1A\u0E48\u0E07\u0E14\u0E49\u0E27\u0E22 '***' \u0E40\u0E1B\u0E34\u0E14\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E43\u0E0A\u0E49\u0E1A\u0E23\u0E23\u0E17\u0E31\u0E14\u0E27\u0E48\u0E32\u0E07 ' ' \u0E44\u0E14\u0E49",
+  "fa": "\u0628\u0647 \u0637\u0648\u0631 \u067E\u06CC\u0634\u200C\u0641\u0631\u0636\u060C \u0627\u0644\u06AF\u0648\u0647\u0627 \u0628\u0627 '***' \u062C\u062F\u0627 \u0645\u06CC\u200C\u0634\u0648\u0646\u062F. \u0628\u0631\u0627\u06CC \u0627\u062C\u0627\u0632\u0647 \u062F\u0627\u062F\u0646 \u0628\u0647 \u062E\u0637 \u062E\u0627\u0644\u06CC ' ' \u0641\u0639\u0627\u0644 \u06A9\u0646\u06CC\u062F",
+  "tr": "Varsay\u0131lan olarak desenler '***' ile ayr\u0131l\u0131r. Sadece bo\u015F sat\u0131r ' ' kullanmak i\xE7in etkinle\u015Ftirin",
+  "nl": "Standaard worden patronen gescheiden door '***'. Schakel in om alleen lege regel ' ' toe te staan",
+  "ms": "Secara lalai, corak dipisahkan dengan '***'. Hidupkan untuk membenarkan hanya baris kosong ' '",
+  "pt-BR": "Por padr\xE3o, os padr\xF5es s\xE3o divididos por '***'. Ative para permitir apenas linha vazia ' '",
+  "am": "\u1260\u1290\u1263\u122A\u1290\u1275\u1363 \u1235\u122D\u12D3\u1270-\u1325\u1208\u1276\u127D \u1260 '***' \u12ED\u12A8\u134B\u1348\u120B\u1209\u1362 \u1263\u12F6 \u1218\u1235\u1218\u122D ' ' \u1265\u127B \u12A5\u1295\u12F2\u1348\u1240\u12F5 \u12EB\u1265\u1229\u1275"
+};
 
 // main.ts
 var import_lodash = __toESM(require_lodash2());
@@ -94282,6 +96417,10 @@ var Pattern = class {
     await this.card.commitFile({ ID: true });
   }
 };
+var cardParserRegFlags = "gm";
+function escapeRegExp(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 function prettyText(text) {
   let tags = TagParser.parse(text);
   for (let tag of tags.Tags) {
@@ -94434,7 +96573,8 @@ var ClozeParser = class {
     var _a, _b;
     let reg = /==(\S[\s\S]*?)==((?: #[\w\/]+\b)*)/gm;
     let results = [];
-    for (let body2 of card.bodyList) {
+    for (let bi in card.bodyList) {
+      let body2 = card.bodyList[bi];
       let bodytag = TagParser.parse(body2);
       let multicloze = bodytag.findTag("multicloze");
       if (multicloze) {
@@ -94445,8 +96585,7 @@ var ClozeParser = class {
           let result = new multiclozePattern(card, body2, originalID, originalID || newID);
           results.push(result);
         } else {
-          console.log(`missing multicloze tag. ${body2} ${bodytag}`);
-          console.log(bodytag);
+          log2(() => `Ignored file: ${card.note.path} does not contain cloze pattern`);
         }
       } else {
         for (let i2 = 0; i2 < 1e4; i2++) {
@@ -94454,7 +96593,7 @@ var ClozeParser = class {
           if (regArr == null) {
             break;
           }
-          let newID = `#${CardIDTag}/${card.ID}/c/${cyrb53(i2.toString() + regArr[0], 4)}`;
+          let newID = `#${CardIDTag}/${card.ID}/c/${cyrb53(bi + i2 + regArr[0], 4)}`;
           let tagInfo = TagParser.parse(regArr[2] || "");
           let originalID = ((_b = tagInfo.findTag(CardIDTag, card.ID, "c")) == null ? void 0 : _b.Original) || "";
           let result = new clozePattern(card, body2, regArr.index, regArr[0], regArr[1], originalID, originalID || newID);
@@ -94534,7 +96673,7 @@ var multiLinePattern = class extends linePattern {
     }
     this.card.updateFile({
       updateFunc: (content) => {
-        let newContent = `${this.front}? ${this.TagID}
+        let newContent = `${this.front}${GlobalSettings.MultiLineDelimeter} ${this.TagID}
 ${this.back}`;
         return content.replace(this.keyText, () => {
           return newContent;
@@ -94582,29 +96721,42 @@ var LinePatternComponent = class extends import_react17.default.Component {
 var SingleLineParser = class {
   Parse(card) {
     var _a, _b, _c;
-    let reg = /^(.+?)(::+)(.+?)$/gm;
+    const processingTimesLimit = 1e4;
+    const dSepEscaped = escapeRegExp(GlobalSettings.OneLineDelimeter);
+    const rSepEscaped = escapeRegExp(GlobalSettings.OneLineReversedDelimeter);
+    let regDirect = new RegExp(`^(.+?)(${dSepEscaped})(.+?)$`, cardParserRegFlags);
+    let regReversed = new RegExp(`^(.+?)(${rSepEscaped})(.+?)$`, cardParserRegFlags);
     let results = [];
     for (let body2 of card.bodyList) {
-      for (let i2 = 0; i2 < 1e4; i2++) {
-        let regArr = reg.exec(body2);
+      let i2;
+      for (i2 = 0; i2 < processingTimesLimit; i2++) {
+        let regArr = regDirect.exec(body2);
         if (regArr == null) {
           break;
         }
-        if (regArr[2].length == 2) {
-          let newID = `#${CardIDTag}/${card.ID}/s/${cyrb53(regArr[0], 4)}`;
-          let tagInfo = TagParser.parse(regArr[0]);
+        let [fullText, frontText, sepText, backText] = regArr;
+        if (sepText.length === GlobalSettings.OneLineDelimeter.length) {
+          let newID = `#${CardIDTag}/${card.ID}/s/${cyrb53(fullText, 4)}`;
+          let tagInfo = TagParser.parse(fullText);
           let originalID = ((_a = tagInfo.findTag(CardIDTag, card.ID, "s")) == null ? void 0 : _a.Original) || "";
-          let result = new singleLinePattern(card, regArr[0], regArr[1], regArr[3], originalID, originalID || newID, false);
+          let result = new singleLinePattern(card, fullText, frontText, backText, originalID, originalID || newID, false);
           results.push(result);
         }
-        if (regArr[2].length == 3) {
-          let newIDForward = `#${CardIDTag}/${card.ID}/sf/${cyrb53(regArr[0], 4)}`;
-          let newIDReverse = `#${CardIDTag}/${card.ID}/sr/${cyrb53(regArr[0], 4)}`;
-          let tagInfo = TagParser.parse(regArr[0]);
+      }
+      for (i2 = 0; i2 < processingTimesLimit; i2++) {
+        let regArr = regReversed.exec(body2);
+        if (regArr == null) {
+          break;
+        }
+        let [fullText, frontText, sepText, backText] = regArr;
+        if (sepText.length === GlobalSettings.OneLineReversedDelimeter.length) {
+          let newIDForward = `#${CardIDTag}/${card.ID}/sf/${cyrb53(fullText, 4)}`;
+          let newIDReverse = `#${CardIDTag}/${card.ID}/sr/${cyrb53(fullText, 4)}`;
+          let tagInfo = TagParser.parse(fullText);
           let originalIDForward = ((_b = tagInfo.findTag(CardIDTag, card.ID, "sf")) == null ? void 0 : _b.Original) || "";
           let originalIDReverse = ((_c = tagInfo.findTag(CardIDTag, card.ID, "sr")) == null ? void 0 : _c.Original) || "";
-          let result1 = new singleLinePattern(card, regArr[0], regArr[1], regArr[3], originalIDForward, originalIDForward || newIDForward, false);
-          let result2 = new singleLinePattern(card, regArr[0], regArr[1], regArr[3], originalIDReverse, originalIDReverse || newIDReverse, true);
+          let result1 = new singleLinePattern(card, fullText, frontText, backText, originalIDForward, originalIDForward || newIDForward, false);
+          let result2 = new singleLinePattern(card, fullText, frontText, backText, originalIDReverse, originalIDReverse || newIDReverse, true);
           results.push(result1, result2);
         }
       }
@@ -94615,15 +96767,20 @@ var SingleLineParser = class {
 var MultiLineParser = class {
   Parse(card) {
     var _a;
-    let reg = /^((?:(?!\? ?).+\n)+)\?( #.+)?\n((?:.+\n?)+)$/gm;
+    let sepEscaped = escapeRegExp(GlobalSettings.MultiLineDelimeter);
+    let reg = new RegExp(`^((?:(?!(?:${sepEscaped}) ?).+\\n)+)(?:${sepEscaped}) *( #.+)?\\n((?:.+\\n?)+)$`, cardParserRegFlags);
     let results = [];
     for (let body2 of card.bodyList) {
       let regArr = reg.exec(body2);
       while (regArr !== null) {
-        let newID = `#${CardIDTag}/${card.ID}/m/${cyrb53(regArr[0], 4)}`;
-        let tagInfo = TagParser.parse(regArr[2] || "");
+        let fullText = regArr[0];
+        let frontText = regArr[1];
+        let sepText = regArr[2];
+        let backText = regArr[3];
+        let newID = `#${CardIDTag}/${card.ID}/m/${cyrb53(fullText, 4)}`;
+        let tagInfo = TagParser.parse(sepText || "");
         let originalID = ((_a = tagInfo.findTag(CardIDTag, card.ID, "m")) == null ? void 0 : _a.Original) || "";
-        let result = new multiLinePattern(card, regArr[0], regArr[1], regArr[3], originalID, originalID || newID, false);
+        let result = new multiLinePattern(card, fullText, frontText, backText, originalID, originalID || newID, false);
         results.push(result);
         regArr = reg.exec(body2);
       }
@@ -94634,11 +96791,27 @@ var MultiLineParser = class {
 
 // main.ts
 var appInstance;
+var DEBUG_ENABLED = false;
 function setAppInstance(app) {
   appInstance = app;
 }
 function getAppInstance() {
   return appInstance;
+}
+function log2(logSupplier) {
+  if (DEBUG_ENABLED) {
+    const logParts = logSupplier();
+    if (Array.isArray(logParts)) {
+      console.info("[Aosr]", ...logParts);
+      return;
+    } else {
+      console.info("[Aosr]", logParts);
+    }
+  }
+}
+function logTrueExpr2(logSupplier) {
+  log2(logSupplier);
+  return true;
 }
 var AosrWriterHelper = class {
   constructor() {
@@ -94693,13 +96866,13 @@ var AosrWriterHelper = class {
 };
 function extractPrefix(str) {
   const regex = /(#\w+\/\w+)/;
-  const match = str.match(regex);
-  if (match && match.length > 0) {
-    return match[0];
+  const match2 = str.match(regex);
+  if (match2 && match2.length > 0) {
+    return match2[0];
   }
   return "";
 }
-var AOSRPlugin = class extends import_obsidian8.Plugin {
+var AOSRPlugin2 = class extends import_obsidian8.Plugin {
   async openView() {
     let find = false;
     this.app.workspace.iterateAllLeaves((leaf2) => {
@@ -94723,9 +96896,9 @@ var AOSRPlugin = class extends import_obsidian8.Plugin {
   }
   async onload() {
     setAppInstance(this.app);
-    let h = DatabaseHelper.getInstance();
     this.registerEditorExtension(emojiTagPlugin);
     await this.loadSettings();
+    let h = DatabaseHelper.getInstance();
     initLanguage();
     this.registerView(VIEW_TYPE_REVIEW, (leaf) => new ReviewView(leaf));
     (0, import_obsidian8.addIcon)("flashcards", `
@@ -94759,6 +96932,9 @@ var AOSRPlugin = class extends import_obsidian8.Plugin {
       el.createSpan({ "text": `Aosr data for card ${cardID}. Please do not edit.`, "cls": "cm-comment" });
     });
     this.registerMarkdownCodeBlockProcessor("aosr-deck-config", handlerDeckCode);
+    if (DEBUG_ENABLED) {
+      new import_obsidian8.Notice("AosrPluginLoaded with debug flag");
+    }
   }
   registerAosrParser() {
     const parserCol = ParserCollection.getInstance();
@@ -94896,3 +97072,5 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+/* nosourcemap */
