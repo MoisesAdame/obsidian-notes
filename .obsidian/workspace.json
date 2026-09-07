@@ -38,7 +38,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -213,10 +212,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7a81ffe9e3ed1599",
+  "active": "b7c8825e41091f3d",
   "lastOpenFiles": [
-    "NJU/高级算法/第一课.md",
     "NJU/高级算法/第一节课（综合）.md",
+    "NJU/高级算法/第一课.md",
     "Chinese/数理逻辑/第0章：集合基础.md",
     "NJU/高级算法",
     "NJU",
