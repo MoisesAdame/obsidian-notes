@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "expected value",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +213,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b7c8825e41091f3d",
+  "active": "90d6c857a8fbfef6",
   "lastOpenFiles": [
     "NJU/高级算法/第一节课（综合）.md",
     "NJU/高级算法/第一课.md",
