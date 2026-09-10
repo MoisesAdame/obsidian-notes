@@ -21,14 +21,23 @@ Date: 2026-09-07 : 16:51
 ### Collision Count
 #Q 
 - We have the random variable collision pairs as follows $X_{ij} = \{1 \text{ if } h(x_{i}) = h(x_{j}); 0 \text{ if otherwise}\}$ in that case because our hash functions are 2-universal, then the probability of them colliding is :: $Pr[h(x_{i}) = h(x_{j})] \leq \frac{1}{m}$
-- What is the expected value given that we have N different balls :: $\mathbb{E}(C) =  {N \choose 2} \frac{1}{m}$ esto es por que hay  ${N \choose 2}$ diferentes pares (no ordenados) en total 
+- What is the expected value given that we have N different balls :: $\mathbb{E}(C) =  {N \choose 2} \frac{1}{m}$ esto es por que hay  ${N \choose 2}$ diferentes pares (no ordenados) en total y cada uno tiene una probabilidad de colisión de $\frac{1}{m}$.
+- What if $N = m$ (same number of balls and bins), then :: $\mathbb{E}(C) =  {N \choose 2} \frac{1}{m} = \frac{N!}{2! (N-2)!} \frac{1}{m}= \frac{N(N-1)}{2m} < \frac{N}{2}$
 
 ## Hash Families With Short Descriptions
 #Q 
 - A **hash family** has 2 elements :: 1) The set of hash functions 2) A rule for when to use which hash function.
 
-### 
+### Two Distinct Randomness Requirements
+#Q 
+- A distribution of functions is **universal** if for all $x \neq y$ their probability of collision is :: $Pr[h(x) = h(y)] \leq \frac{1}{m}$ (m is the number of keys)
+- A distribution of functions is **strong universal** if for all $x \neq y$ and any $a, b \in [m]$ their probability of obtaining the keys $a, b$ is :: $Pr[h(x) = a \text{ and } h(y) = b] \leq \frac{1}{m^2}$
+- Strong universal hash functions can also be called :: pairwise independent and uniform.
+- We can say that **strong universal** hash functions have higher requirements than **universal** hash functions because we can say that :: $a = b$
 
+### k-Universal And Strongly k-Universal Hash Functions
+#Q 
+- A family of functions is **k-universal** if :: $Pr[]$
 ## Flashcards
 ```aosr-deck-config
 {
