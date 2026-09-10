@@ -20,8 +20,8 @@ Date: 2026-09-07 : 16:51
 
 ### Collision Count
 #Q 
-- We have the random variable collision pairs as follows $X_{ij} = \{1 \text{ if } h(x_{i}) = h(x_{j}); 0 \text{ if otherwise}\}$ in that case because our hash functions are 
-- 
+- We have the random variable collision pairs as follows $X_{ij} = \{1 \text{ if } h(x_{i}) = h(x_{j}); 0 \text{ if otherwise}\}$ in that case because our hash functions are 2-universal, then the probability of them colliding is :: $Pr[h(x_{i}) = h(x_{j})] \leq \frac{1}{m}$
+- What is the expected value given that we have N different balls :: $\mathbb{E}(C) =  {N \choose 2} \frac{1}{m}$ esto es por que hay  ${N \choose 2}$ diferentes pares (no ordenados) en total 
 
 ## Hash Families With Short Descriptions
 #Q 
