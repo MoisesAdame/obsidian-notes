@@ -37,7 +37,15 @@ Date: 2026-09-07 : 16:51
 
 ### k-Universal And Strongly k-Universal Hash Functions
 #Q 
-- A family of functions is **k-universal** if :: $Pr[]$
+- A family of functions is **k-universal** if :: $Pr[h(x_{i}) = \cdots =h(x_{n})] \leq \frac{1}{m^{n - 1}}$
+- A family of functions is **strongly k-universal** if :: $Pr[\bigwedge_{i = 1}^k \left(h(x_{i}) = a_{i}\right)] \leq \frac{1}{m^{k}}$
+
+### Affine Hashing Over A Field
+#Q 
+
+
+
+
 ## Flashcards
 ```aosr-deck-config
 {
