@@ -20,7 +20,8 @@ Date: 2026-09-07 : 16:51
 
 ### Collision Count
 #Q 
-
+- We have the random variable collision pairs as follows $X_{ij} = \{1 \text{ if } h(x_{i}) = h(x_{j}); 0 \text{ if otherwise}\}$ in that case because our hash functions are 
+- 
 
 ## Hash Families With Short Descriptions
 #Q 
