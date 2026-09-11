@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/信息论及其/第一课.md",
+                "file": "NJU/高级算法/3 Hashing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第一课"
+              "title": "3 Hashing"
             }
           }
         ],
@@ -247,8 +247,8 @@
   },
   "active": "6b2eebe638060d06",
   "lastOpenFiles": [
-    "NJU/中国概况/第一课.md",
     "NJU/信息论及其/第一课.md",
+    "NJU/中国概况/第一课.md",
     "Untitled",
     "NJU/中国概况",
     "NJU/时间系列/第一节课.md",

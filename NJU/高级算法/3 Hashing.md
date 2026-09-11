@@ -42,7 +42,9 @@ Date: 2026-09-07 : 16:51
 
 ### Affine Hashing Over A Field
 #Q 
+- We can create a hash function $h_{a,b}(x) = ax + b$ where $a, b \in \mathbb{F}_{q}$ (finite field with q elements), in that case we would have how many seeds? :: $p^2$
 
+Proof
 
 
 
