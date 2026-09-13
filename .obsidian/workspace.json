@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "poisson",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,7 +231,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c27985e77b0b9668",
+  "active": "90d6c857a8fbfef6",
   "lastOpenFiles": [
     "NJU/高级优化/Class 1.md",
     "NJU/随机过程/第一课.md",
