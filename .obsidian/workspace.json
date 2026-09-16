@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/第一组会.md",
+                "file": "NJU/时间系列/第1课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第一组会"
+              "title": "第1课"
             }
           },
           {
@@ -53,7 +53,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -109,8 +108,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,12 +201,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "49662eb0b09b1e8a",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -231,8 +239,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "90d6c857a8fbfef6",
+  "active": "8bf4d98fa11e311b",
   "lastOpenFiles": [
+    "NJU/时间系列/Untitled.md",
+    "NJU/时间系列/第1课.md",
+    "NJU/刘老师/第一组会.md",
     "NJU/高级优化/Class 1.md",
     "NJU/随机过程/第一课.md",
     "NJU/高级优化",
@@ -245,7 +256,6 @@
     "NJU/中国概况",
     "NJU/时间系列/第一节课.md",
     "NJU/时间系列",
-    "NJU/刘老师/第一组会.md",
     "NJU/高级算法/第二课.md",
     "NJU/刘老师",
     "NJU/高级算法/第一课.md",
@@ -268,8 +278,6 @@
     "Masters/Index.md",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Quantum/Books/Quantum Computing for Computer Scientists/3. The Leap from Classical to Quantum.md",
-    "Masters/Systems Programming/2. Machine Structure, Machine Language & Assembly Language/2.1 General Machine Structure.md",
-    "Technologies/SQL/Database Generalities/1. Query Processing & Relational Algebra.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
     "Untitled.canvas",
     "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
