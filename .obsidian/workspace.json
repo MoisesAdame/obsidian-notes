@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/时间系列/第一节课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第1课"
+              "title": "第一节课"
             }
           },
           {
@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/随机过程/第一课.md",
+                "file": "NJU/时间系列/第1课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第一课"
+              "title": "第1课"
             }
           },
           {
@@ -53,6 +53,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -239,13 +240,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8bf4d98fa11e311b",
+  "active": "c27985e77b0b9668",
   "lastOpenFiles": [
-    "NJU/时间系列/Untitled.md",
+    "NJU/随机过程/第一课.md",
+    "NJU/时间系列/第一节课.md",
     "NJU/时间系列/第1课.md",
+    "NJU/时间系列/Untitled.md",
     "NJU/刘老师/第一组会.md",
     "NJU/高级优化/Class 1.md",
-    "NJU/随机过程/第一课.md",
     "NJU/高级优化",
     "NJU/高级算法/3 Hashing.md",
     "NJU/随机过程",
@@ -254,7 +256,6 @@
     "NJU/信息论及其/第一课.md",
     "NJU/中国概况/第一课.md",
     "NJU/中国概况",
-    "NJU/时间系列/第一节课.md",
     "NJU/时间系列",
     "NJU/高级算法/第二课.md",
     "NJU/刘老师",
