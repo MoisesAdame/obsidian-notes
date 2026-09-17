@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/中国概况/第1课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "第1课"
             }
+          },
+          {
+            "id": "193a46bc5a54df2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/中国概况/第2课.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "第2课"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -212,14 +228,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "791773d3da4a1636",
+  "active": "193a46bc5a54df2d",
   "lastOpenFiles": [
+    "NJU/中国概况/第1课.md",
+    "NJU/中国概况/第2课.md",
+    "NJU/时间系列/第1课.md",
     "NJU/时间系列/第一节课.md",
     "NJU/时间系列/Pasted image 20260917105315.png",
     "NJU/时间系列/第二节课（听）.md",
     "NJU/高级优化/Class 1.md",
     "NJU/时间系列/Pasted image 20260917103609.png",
-    "NJU/时间系列/第1课.md",
     "NJU/随机过程/第一课.md",
     "NJU/刘老师/第一组会.md",
     "NJU/高级优化",
@@ -228,7 +246,6 @@
     "NJU/高级算法/IMG_8585.jpeg",
     "NJU/高级算法/3 Hashing Pictures",
     "NJU/信息论及其/第一课.md",
-    "NJU/中国概况/第一课.md",
     "NJU/中国概况",
     "NJU/时间系列",
     "NJU/高级算法/第二课.md",
