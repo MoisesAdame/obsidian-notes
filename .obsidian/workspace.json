@@ -28,17 +28,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/中国概况/第2课.md",
+                "file": "NJU/随机过程/第1课（听）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第2课"
+              "title": "第1课（听）"
+            }
+          },
+          {
+            "id": "40bd2dfb704581c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/随机过程/第2课（听）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "第2课（听）"
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -228,17 +243,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "193a46bc5a54df2d",
+  "active": "40bd2dfb704581c3",
   "lastOpenFiles": [
-    "NJU/中国概况/第1课.md",
+    "NJU/随机过程/第1课（听）.md",
+    "NJU/随机过程/第2课（听）.md",
     "NJU/中国概况/第2课.md",
+    "NJU/中国概况/第1课.md",
     "NJU/时间系列/第1课.md",
     "NJU/时间系列/第一节课.md",
     "NJU/时间系列/Pasted image 20260917105315.png",
     "NJU/时间系列/第二节课（听）.md",
     "NJU/高级优化/Class 1.md",
     "NJU/时间系列/Pasted image 20260917103609.png",
-    "NJU/随机过程/第一课.md",
     "NJU/刘老师/第一组会.md",
     "NJU/高级优化",
     "NJU/高级算法/3 Hashing.md",
@@ -268,7 +284,6 @@
     "Masters/NeetCode/Stacks/Valid Parentheses (Easy).md",
     "Masters/NeetCode/Arrays & Hashing/Container With Most Water.md",
     "Masters/Index.md",
-    "School/Quantum/Books/Quantum Computing for Computer Scientists/4. Basic Quantum Theory.md",
     "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
     "Untitled.canvas",
     "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
