@@ -1,80 +1,43 @@
 {
   "main": {
-    "id": "4ec51aa4dc569293",
+    "id": "4d078b80fc2573b8",
     "type": "split",
     "children": [
       {
-        "id": "a7ab9f36bb2f35dc",
+        "id": "cb2a6395a054dcd5",
         "type": "tabs",
         "children": [
           {
-            "id": "791773d3da4a1636",
+            "id": "6065a912adaa1065",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/中国概况/第1课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第1课"
-            }
-          },
-          {
-            "id": "193a46bc5a54df2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/随机过程/第1课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第1课（听）"
-            }
-          },
-          {
-            "id": "40bd2dfb704581c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/随机过程/第2课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第2课（听）"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2,
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "777a927b180c207b",
+    "id": "a554f2b5e6d0de98",
     "type": "split",
     "children": [
       {
-        "id": "0417438bc48999ad",
+        "id": "6d3caedae92f5442",
         "type": "tabs",
         "children": [
           {
-            "id": "a300fe91512115a2",
+            "id": "d97341b5977ffe98",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true,
+                "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -83,13 +46,13 @@
             }
           },
           {
-            "id": "90d6c857a8fbfef6",
+            "id": "8a454250355aa51a",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "poisson",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -100,7 +63,7 @@
             }
           },
           {
-            "id": "6636e77fbbb269dc",
+            "id": "dd8ed0c48452057e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -116,23 +79,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 300
   },
   "right": {
-    "id": "95b68c78992406e7",
+    "id": "eef440023776e91d",
     "type": "split",
     "children": [
       {
-        "id": "0149387f6f736cfa",
+        "id": "006807e12a2d564f",
         "type": "tabs",
         "children": [
           {
-            "id": "5c964af48f407dc0",
+            "id": "145e97834241ec0a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,25 +104,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 4.2 Calidad de Software"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "f64abcbbe4fca0c2",
+            "id": "0b89ebc510934177",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 4.2 Calidad de Software"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "0e629ec231723a16",
+            "id": "8ef2bfa51ce88495",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -175,52 +136,20 @@
             }
           },
           {
-            "id": "c863d81795f4a3b5",
+            "id": "f71ad766714c0fce",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.2 Calidad de Software.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4.2 Calidad de Software"
-            }
-          },
-          {
-            "id": "dd3e86a6715cc299",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "c5675a19faf5aab1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "49662eb0b09b1e8a",
-            "type": "leaf",
-            "state": {
-              "type": "timer-view",
-              "state": {},
-              "icon": "timer",
-              "title": "Timer"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -229,13 +158,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": true,
+      "publish:Publish changes...": false,
+      "bases:Create new base": false,
       "aosr:Aosr": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "pomodoro-timer:Toggle timer panel": false,
@@ -243,60 +172,6 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "40bd2dfb704581c3",
-  "lastOpenFiles": [
-    "NJU/随机过程/第1课（听）.md",
-    "NJU/随机过程/第2课（听）.md",
-    "NJU/中国概况/第2课.md",
-    "NJU/中国概况/第1课.md",
-    "NJU/时间系列/第1课.md",
-    "NJU/时间系列/第一节课.md",
-    "NJU/时间系列/Pasted image 20260917105315.png",
-    "NJU/时间系列/第二节课（听）.md",
-    "NJU/高级优化/Class 1.md",
-    "NJU/时间系列/Pasted image 20260917103609.png",
-    "NJU/刘老师/第一组会.md",
-    "NJU/高级优化",
-    "NJU/高级算法/3 Hashing.md",
-    "NJU/随机过程",
-    "NJU/高级算法/IMG_8585.jpeg",
-    "NJU/高级算法/3 Hashing Pictures",
-    "NJU/信息论及其/第一课.md",
-    "NJU/中国概况",
-    "NJU/时间系列",
-    "NJU/高级算法/第二课.md",
-    "NJU/刘老师",
-    "NJU/高级算法/第一课.md",
-    "NJU/信息论及其",
-    "Untitled.base",
-    "Untitled 1.base",
-    "Chinese/数理逻辑/第0章：集合基础.md",
-    "NJU/高级算法",
-    "Chinese/数理逻辑/Untitled.md",
-    "Chinese/HSK5/标准教程5/标准教程5（上）/第1课.md",
-    "Chinese/HSK5/标准教程5/标准教程5（上）/第2课.md",
-    "Chinese/《基础科技汉语教程》阅读课本（下）/第40课，课文一：实数.md",
-    "Masters/NeetCode/Arrays & Hashing/Top K Frequent Elements (Medium).md",
-    "Masters/NeetCode/Arrays & Hashing/Group Anagrams (Medium).md",
-    "Masters/NeetCode/Arrays & Hashing/Two Sum.md",
-    "Masters/NeetCode/Stacks/Daily Temperatures (Medium).md",
-    "Masters/NeetCode/Stacks/Evaluate Reverse Reverse Polish Notation (Medium).md",
-    "Masters/NeetCode/Stacks/Valid Parentheses (Easy).md",
-    "Masters/NeetCode/Arrays & Hashing/Container With Most Water.md",
-    "Masters/Index.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
-    "Untitled.canvas",
-    "School/Distributed Systems/Guía/Screenshot 2025-05-26 at 6.25.07 p.m..png",
-    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-5.png",
-    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-4.png",
-    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-3.png",
-    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-2.png",
-    "Masters/Introduction to Compilers and Modern Design/Assets/fig4-1.png",
-    "School/Distributed Systems/Guía/Assets/redes2-fig11.png",
-    "School/TC3005B/TC3005B.5/Niveles de Desarrollo.canvas",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
-    "School/Quantum/Life, The Science of Biology/Untitled.canvas",
-    "Chinese/HSK4/书学/Untitled.canvas"
-  ]
+  "active": "6065a912adaa1065",
+  "lastOpenFiles": []
 }
