@@ -11,10 +11,15 @@
             "id": "6065a912adaa1065",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "NJU/时间系列/第1课.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "第1课"
             }
           }
         ]
@@ -95,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NJU/时间系列/第1课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NJU/时间系列/第1课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -141,6 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "NJU/时间系列/第1课.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -173,5 +181,8 @@
     }
   },
   "active": "6065a912adaa1065",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "NJU/时间系列/第一节课.md",
+    "NJU/时间系列/第1课.md"
+  ]
 }
