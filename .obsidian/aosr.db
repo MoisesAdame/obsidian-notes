@@ -23908,8 +23908,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:42",
      "Next": "2026-10-06 16:42",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:01:25",
+     "LearnedCount": -1
     },
     {
      "id": "#AOSR/28tei/s/5g4p",
@@ -24019,8 +24019,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:49",
      "Next": "2026-10-06 16:49",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:04:21",
+     "LearnedCount": -1
     },
     {
      "id": "#AOSR/3aph0/s/74gd",
@@ -24085,16 +24085,16 @@
      "Opts": "3",
      "Last": "2026-10-06 13:40",
      "Next": "2026-10-06 16:40",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:00:28",
+     "LearnedCount": -0.5
     },
     {
      "id": "#AOSR/44sdl/s/3cjt",
      "Opts": "0",
      "Last": "2026-10-06 13:58",
      "Next": "2026-10-06 18:56",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:09:58",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/44sdl/s/3nff",
@@ -24109,8 +24109,8 @@
      "Opts": "1",
      "Last": "2026-10-06 14:03",
      "Next": "2026-10-07 21:24",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/44sdl/s/4err",
@@ -24146,8 +24146,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:56",
      "Next": "2026-10-06 18:58",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:09:11",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/37rl7/s/62v9",
@@ -24225,8 +24225,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:43",
      "Next": "2026-10-06 18:35",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:02:21",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/328nv/s/aide",
@@ -24241,8 +24241,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:42",
      "Next": "2026-10-06 16:42",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:02:01",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24296,8 +24296,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:41",
      "Next": "2026-10-06 18:40",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:00:56",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/60d0k/s/2e1u",
@@ -24320,8 +24320,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:57",
      "Next": "2026-10-06 18:32",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:09:32",
+     "LearnedCount": 0
     },
     {
      "id": "#AOSR/60d0k/s/6ka0",
@@ -24336,16 +24336,16 @@
      "Opts": "0",
      "Last": "2026-10-06 14:00",
      "Next": "2026-10-06 19:00",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:10:50",
+     "LearnedCount": -2
     },
     {
      "id": "#AOSR/60d0k/s/7kkb",
      "Opts": "0",
      "Last": "2026-10-06 13:49",
      "Next": "2026-10-06 18:51",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:04:26",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/60d0k/s/7vk4",
@@ -24394,8 +24394,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:44",
      "Next": "2026-10-06 18:27",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:03:03",
+     "LearnedCount": 0.5
     }
    ]
   },
@@ -24407,8 +24407,8 @@
      "Opts": "0",
      "Last": "2026-10-06 14:03",
      "Next": "2026-10-06 18:41",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:12:14",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/6lekp/s/6r9l",
@@ -24483,8 +24483,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:51",
      "Next": "2026-10-06 18:43",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:06:24",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/1ht5n/s/4cf5",
@@ -24504,16 +24504,16 @@
      "Opts": "0",
      "Last": "2026-10-06 13:52",
      "Next": "2026-10-06 18:36",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:07:17",
+     "LearnedCount": 0
     },
     {
      "id": "#AOSR/5gv6u/s/7n82",
      "Opts": "3",
      "Last": "2026-10-06 13:38",
      "Next": "2026-10-06 16:38",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:00:20",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24554,8 +24554,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:50",
      "Next": "2026-10-06 16:50",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:05:38",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24567,8 +24567,8 @@
      "Opts": "0",
      "Last": "2026-10-06 13:50",
      "Next": "2026-10-06 18:34",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:05:12",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24580,8 +24580,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:52",
      "Next": "2026-10-06 16:52",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:06:41",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24606,8 +24606,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:55",
      "Next": "2026-10-06 16:55",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:08:22",
+     "LearnedCount": -2
     }
    ]
   },
@@ -24619,8 +24619,8 @@
      "Opts": "3",
      "Last": "2026-10-06 13:59",
      "Next": "2026-10-06 16:59",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:10:05",
+     "LearnedCount": -0.5
     }
    ]
   },
@@ -24632,16 +24632,16 @@
      "Opts": "3",
      "Last": "2026-10-06 14:01",
      "Next": "2026-10-06 17:01",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-06 15:11:16",
+     "LearnedCount": -0.5
     },
     {
      "id": "#AOSR/75ibs/s/8fmm",
      "Opts": "2",
      "Last": "2026-10-06 14:02",
      "Next": "2026-10-08 20:28",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -24653,8 +24653,8 @@
      "Opts": "3",
      "Last": "2026-10-06 14:04",
      "Next": "2026-10-06 17:04",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-06 15:12:24",
+     "LearnedCount": -0.5
     }
    ]
   }
