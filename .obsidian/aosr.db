@@ -24801,8 +24801,8 @@
      "Opts": "3",
      "Last": "2026-10-07 08:52",
      "Next": "2026-10-07 11:52",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:15:12",
+     "LearnedCount": -0.5
     },
     {
      "id": "#AOSR/5j2n5/s/5bbj",
@@ -24949,8 +24949,8 @@
      "Opts": "3",
      "Last": "2026-10-07 08:48",
      "Next": "2026-10-07 11:48",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:14:10",
+     "LearnedCount": -0.5
     }
    ]
   },
@@ -24962,8 +24962,8 @@
      "Opts": "3",
      "Last": "2026-10-07 09:03",
      "Next": "2026-10-07 12:03",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:19:43",
+     "LearnedCount": -2
     },
     {
      "id": "#AOSR/6a6ht/s/5f1e",
@@ -24978,8 +24978,8 @@
      "Opts": "3",
      "Last": "2026-10-07 09:00",
      "Next": "2026-10-07 12:00",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:18:40",
+     "LearnedCount": -2
     }
    ]
   },
@@ -25036,8 +25036,8 @@
      "Opts": "0",
      "Last": "2026-10-07 08:56",
      "Next": "2026-10-07 13:32",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:17:29",
+     "LearnedCount": 0
     },
     {
      "id": "#AOSR/66a8h/s/40ou",
@@ -25052,8 +25052,8 @@
      "Opts": "0",
      "Last": "2026-10-07 08:45",
      "Next": "2026-10-07 13:19",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:12:30",
+     "LearnedCount": 0.5
     }
    ]
   },
@@ -25181,8 +25181,8 @@
      "Opts": "0",
      "Last": "2026-10-07 09:20",
      "Next": "2026-10-07 14:02",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:21:02",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/5tv1g/s/52sg",
@@ -25205,8 +25205,8 @@
      "Opts": "3",
      "Last": "2026-10-07 08:46",
      "Next": "2026-10-07 11:46",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:12:46",
+     "LearnedCount": -0.5
     }
    ]
   },
@@ -25266,8 +25266,8 @@
      "Opts": "3",
      "Last": "2026-10-07 08:54",
      "Next": "2026-10-07 11:54",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:15:53",
+     "LearnedCount": -2
     },
     {
      "id": "#AOSR/6aqgo/s/7pqm",
@@ -25427,8 +25427,8 @@
      "Opts": "0",
      "Last": "2026-10-07 08:50",
      "Next": "2026-10-07 13:50",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:14:36",
+     "LearnedCount": -2
     },
     {
      "id": "#AOSR/69b4h/s/4k5s",
@@ -25451,24 +25451,24 @@
      "Opts": "0",
      "Last": "2026-10-07 09:01",
      "Next": "2026-10-07 13:46",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:19:10",
+     "LearnedCount": 0
     },
     {
      "id": "#AOSR/69b4h/s/7hgc",
      "Opts": "3",
      "Last": "2026-10-07 08:58",
      "Next": "2026-10-07 11:58",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:18:03",
+     "LearnedCount": -2
     },
     {
      "id": "#AOSR/69b4h/s/ohkf",
      "Opts": "0",
      "Last": "2026-10-07 08:44",
      "Next": "2026-10-07 13:25",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:12:14",
+     "LearnedCount": 0.5
     }
    ]
   },
@@ -25704,16 +25704,16 @@
      "Opts": "3",
      "Last": "2026-10-07 09:04",
      "Next": "2026-10-07 12:04",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:20:01",
+     "LearnedCount": -0.5
     },
     {
      "id": "#AOSR/2j51b/s/7baj",
      "Opts": "2",
      "Last": "2026-10-07 09:30",
      "Next": "2026-10-09 15:36",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/2j51b/s/jmti",
@@ -25783,16 +25783,16 @@
      "Opts": "0",
      "Last": "2026-10-07 08:47",
      "Next": "2026-10-07 13:44",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:13:46",
+     "LearnedCount": 0.5
     },
     {
      "id": "#AOSR/3nogi/s/6q3d",
      "Opts": "2",
      "Last": "2026-10-07 09:23",
      "Next": "2026-10-09 13:40",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -25812,8 +25812,8 @@
      "Opts": "3",
      "Last": "2026-10-07 09:17",
      "Next": "2026-10-07 12:17",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": "2026-10-07 11:20:41",
+     "LearnedCount": -2
     }
    ]
   },
@@ -25825,16 +25825,16 @@
      "Opts": "3",
      "Last": "2026-10-07 09:26",
      "Next": "2026-10-07 12:26",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/50v31/s/3mah",
      "Opts": "3",
      "Last": "2026-10-07 08:56",
      "Next": "2026-10-07 11:56",
-     "Learned": null,
-     "LearnedCount": null
+     "Learned": "2026-10-07 11:16:02",
+     "LearnedCount": -0.5
     }
    ]
   },
