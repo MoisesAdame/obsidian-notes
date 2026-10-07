@@ -24657,6 +24657,19 @@
      "LearnedCount": -0.5
     }
    ]
+  },
+  {
+   "ID": "5nivg",
+   "CardSchedules": [
+    {
+     "id": "#AOSR/5nivg/s/5s9r",
+     "Opts": "3",
+     "Last": "2026-10-07 08:11",
+     "Next": "2026-10-07 11:11",
+     "LearnedCount": null,
+     "Learned": null
+    }
+   ]
   }
  ]
 }
