@@ -24662,12 +24662,20 @@
    "ID": "5nivg",
    "CardSchedules": [
     {
+     "id": "#AOSR/5nivg/s/380b",
+     "Opts": "1",
+     "Last": "2026-10-07 09:17",
+     "Next": "2026-10-08 14:59",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/5nivg/s/5agu",
      "Opts": "2",
      "Last": "2026-10-07 08:55",
      "Next": "2026-10-09 14:35",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/5nivg/s/5ne7",
@@ -24707,12 +24715,20 @@
      "LearnedCount": null
     },
     {
+     "id": "#AOSR/6vg0m/s/7leg",
+     "Opts": "2",
+     "Last": "2026-10-07 09:19",
+     "Next": "2026-10-09 16:10",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/6vg0m/s/sfei",
      "Opts": "2",
      "Last": "2026-10-07 08:23",
      "Next": "2026-10-09 15:43",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -24803,8 +24819,8 @@
      "Opts": "2",
      "Last": "2026-10-07 08:35",
      "Next": "2026-10-09 14:27",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/7ahkb/s/2jhs",
@@ -24821,6 +24837,14 @@
      "Next": "2026-10-09 13:22",
      "Learned": null,
      "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/7ahkb/s/nhfm",
+     "Opts": "2",
+     "Last": "2026-10-07 09:18",
+     "Next": "2026-10-09 17:39",
+     "LearnedCount": null,
+     "Learned": null
     }
    ]
   },
@@ -24878,12 +24902,28 @@
    "ID": "6a6ht",
    "CardSchedules": [
     {
+     "id": "#AOSR/6a6ht/s/2g9j",
+     "Opts": "3",
+     "Last": "2026-10-07 09:03",
+     "Next": "2026-10-07 12:03",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/6a6ht/s/5f1e",
      "Opts": "0",
      "Last": "2026-10-07 08:16",
      "Next": "2026-10-07 13:10",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/6a6ht/s/5igv",
+     "Opts": "3",
+     "Last": "2026-10-07 09:00",
+     "Next": "2026-10-07 12:00",
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -25041,6 +25081,14 @@
    "ID": "5tv1g",
    "CardSchedules": [
     {
+     "id": "#AOSR/5tv1g/s/4s53",
+     "Opts": "0",
+     "Last": "2026-10-07 09:20",
+     "Next": "2026-10-07 14:02",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/5tv1g/s/52sg",
      "Opts": "3",
      "Last": "2026-10-07 08:21",
@@ -25053,8 +25101,8 @@
      "Opts": "3",
      "Last": "2026-10-07 08:46",
      "Next": "2026-10-07 11:46",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -25070,12 +25118,20 @@
      "LearnedCount": null
     },
     {
+     "id": "#AOSR/6aqgo/s/4fcs",
+     "Opts": "2",
+     "Last": "2026-10-07 09:18",
+     "Next": "2026-10-09 16:24",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/6aqgo/s/4npq",
      "Opts": "3",
      "Last": "2026-10-07 08:54",
      "Next": "2026-10-07 11:54",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/6aqgo/s/7pqm",
@@ -25231,12 +25287,20 @@
      "LearnedCount": null
     },
     {
+     "id": "#AOSR/69b4h/s/5eea",
+     "Opts": "0",
+     "Last": "2026-10-07 09:01",
+     "Next": "2026-10-07 13:46",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/69b4h/s/7hgc",
      "Opts": "3",
      "Last": "2026-10-07 08:58",
      "Next": "2026-10-07 11:58",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/69b4h/s/ohkf",
@@ -25264,6 +25328,14 @@
      "Opts": "2",
      "Last": "2026-10-07 08:59",
      "Next": "2026-10-09 16:14",
+     "Learned": null,
+     "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/70s55/s/77ck",
+     "Opts": "2",
+     "Last": "2026-10-07 08:59",
+     "Next": "2026-10-09 14:20",
      "LearnedCount": null,
      "Learned": null
     }
@@ -25314,6 +25386,14 @@
      "Opts": "2",
      "Last": "2026-10-07 08:33",
      "Next": "2026-10-09 12:55",
+     "Learned": null,
+     "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/56dsa/s/cc70",
+     "Opts": "2",
+     "Last": "2026-10-07 09:00",
+     "Next": "2026-10-09 16:25",
      "LearnedCount": null,
      "Learned": null
     }
@@ -25416,6 +25496,14 @@
      "Opts": "2",
      "Last": "2026-10-07 08:59",
      "Next": "2026-10-09 17:08",
+     "Learned": null,
+     "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/2j51b/s/59tu",
+     "Opts": "3",
+     "Last": "2026-10-07 09:04",
+     "Next": "2026-10-07 12:04",
      "LearnedCount": null,
      "Learned": null
     },
@@ -25484,6 +25572,14 @@
      "Opts": "2",
      "Last": "2026-10-07 08:49",
      "Next": "2026-10-09 13:52",
+     "Learned": null,
+     "LearnedCount": null
+    },
+    {
+     "id": "#AOSR/4e3i9/s/5oh3",
+     "Opts": "3",
+     "Last": "2026-10-07 09:17",
+     "Next": "2026-10-07 12:17",
      "LearnedCount": null,
      "Learned": null
     }
@@ -25506,12 +25602,20 @@
    "ID": "7na3f",
    "CardSchedules": [
     {
+     "id": "#AOSR/7na3f/s/1scc",
+     "Opts": "2",
+     "Last": "2026-10-07 09:01",
+     "Next": "2026-10-09 13:00",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/7na3f/s/44og",
      "Opts": "1",
      "Last": "2026-10-07 08:57",
      "Next": "2026-10-08 15:56",
-     "LearnedCount": null,
-     "Learned": null
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
