@@ -4,68 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cb2a6395a054dcd5",
+        "id": "8421dbd2c8273c75",
         "type": "tabs",
         "children": [
           {
-            "id": "2f4d7de76efb6d49",
+            "id": "fcb10b52fc202b7a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/时间系列/教室的记本/第3课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "第3课（听）"
-            }
-          },
-          {
-            "id": "2cefdfe7dd921514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/时间系列/教室的记本/第4课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第4课（听）"
-            }
-          },
-          {
-            "id": "5142889c1b573203",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/时间系列/第2课.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第2课"
-            }
-          },
-          {
-            "id": "97f5a09d1b7a5df6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,14 +175,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2cefdfe7dd921514",
+  "active": "fcb10b52fc202b7a",
   "lastOpenFiles": [
     "NJU/时间系列/教室的记本/第3课（听）.md",
+    "NJU/时间系列/第2课.md",
     "NJU/时间系列/教室的记本/第4课（听）.md",
     "NJU/随机过程/第2课（听）.md",
     "NJU/随机过程/第1课（听）.md",
     "NJU/时间系列/第1课.md",
-    "NJU/时间系列/第2课.md",
     "NJU/时间系列/images/image-6.1.png",
     "NJU/时间系列/images/image-9.png",
     "NJU/时间系列/images/image-8.png",
