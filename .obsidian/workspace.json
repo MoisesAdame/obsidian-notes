@@ -11,10 +11,15 @@
             "id": "fcb10b52fc202b7a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "NJU/随机过程/作业/第1个作业.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "第1个作业"
             }
           }
         ]
@@ -177,6 +182,8 @@
   },
   "active": "fcb10b52fc202b7a",
   "lastOpenFiles": [
+    "NJU/随机过程/作业/第1个作业.md",
+    "NJU/随机过程/作业",
     "NJU/时间系列/教室的记本/第3课（听）.md",
     "NJU/时间系列/第2课.md",
     "NJU/时间系列/教室的记本/第4课（听）.md",
