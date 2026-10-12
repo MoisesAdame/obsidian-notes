@@ -138,5 +138,14 @@ $$
 
 To obtain its Moment Generating Function:
 $$
-M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}et
+M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}e^{tx}\lambda e^{-\lambda t}\frac{(\lambda t)^{n-1}}{(n-1)!}dt
 $$
+
+We can manipulate the terms inside the integral, so the integral we have to solve is:
+$$
+\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}
+$$
+
+Pulling out the constants and manipulating the inside of the integral, we g
+
+
