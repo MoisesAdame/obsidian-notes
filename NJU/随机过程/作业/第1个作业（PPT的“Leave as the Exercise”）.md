@@ -209,22 +209,7 @@ $$
 Thus, verifying the first condition.
 
 ### Part 2 (The Process Has Independent Increments)
-We have to obtain $P\{ N(s + t) - N(s) = a\} = P\{ N(t) = a\}$
-$$
-P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + (N_{2}(s + t) - N_{2}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
-$$
-
-Because $\{ N_{i}(t), t\geq 0\}$ where $i \in \{ 1,2,\dots,n \}$ is a Poisson Process, then, by definition their increments are independent, so:
-$$
-P\{ N(s + t) - N(s) = a\} = P\{ N_{1}(t) + N_{2}(t) + \cdots + N_{n}(t) = a \}
-$$
-
-Which ends up being
-$$
-P\{ N(s + t) - N(s) = a\} = P\{ N(t)= a \}
-$$
-
-Thus, verifying the second condition.
+Given some $t_{n} < t_{n+1}$ we can say that
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
@@ -233,23 +218,24 @@ $$
 
 Now, let $a = \sum_{i = 1}^{n} a_{i}$, so we can say:
 $$
-P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\} = P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}, \dots, (N_{n}(s + t) - N_{n}(s))= a_{n}\} 
+P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\} = \sum _{a_{1} + a_{2} + \cdots + a_{n} = a}P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}, \dots, (N_{n}(s + t) - N_{n}(s))= a_{n}\} 
 $$
 
 By independence, we can say:
 $$
-= P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}\} \cdots P\{(N_{n}(s + t) - N_{n}(s))= a_{n}\} 
+= \sum _{a_{1} + a_{2} + \cdots + a_{n} = a} P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}\} \cdots P\{(N_{n}(s + t) - N_{n}(s))= a_{n}\} 
 $$
 
 By the definition of each $N_{i}$:
 $$
-= e^{-\lambda_{1}t} \frac{(\lambda_{1} t)^{a_{1}}}{a_{1}!} \cdots e^{-\lambda_{n}t} \frac{(\lambda_{n} t)^{a_{n}}}{a_{n}!}
+= \sum _{a_{1} + a_{2} + \cdots + a_{n} = a} e^{-\lambda_{1}t} \frac{(\lambda_{1} t)^{a_{1}}}{a_{1}!} \cdots e^{-\lambda_{n}t} \frac{(\lambda_{n} t)^{a_{n}}}{a_{n}!}
 $$
 
 Rearranging some terms, we get:
 $$
-= e^{-t(\lambda_{1}+\lambda_{2}+\cdots+\lambda_{n})} \frac{\lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}}{a_{1}!a_{2}!\cdots a_{n}!} t^{a_{1} + a_{2} + \cdots + a_{n}}
+= e^{-t(\lambda_{1}+\lambda_{2}+\cdots+\lambda_{n})} t^{a_{1} + a_{2} + \cdots + a_{n}} \sum _{a_{1} + a_{2} + \cdots + a_{n} = a} \frac{\lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}}{a_{1}!a_{2}!\cdots a_{n}!} 
 $$
+
 Given that we know that the multinomial theorem has this form:
 $$
 (\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})^{a} = \sum_{a_{1} + a_{2} + \cdots + a_{n} = a} \frac{a!}{a_{1}! a_{2}! \cdots a_{n!}} \lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}
@@ -259,6 +245,7 @@ Then:
 $$
 = e^{-t(\lambda_{1}+\lambda_{2}+\cdots+\lambda_{n})} \frac{(t(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n}))^{a}}{a!}
 $$
+
 Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
 
 
