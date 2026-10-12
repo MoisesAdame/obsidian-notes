@@ -100,6 +100,27 @@ $$
 
 ## Problem 2
 ### Solution 1 ($P\{ N(t) \geq n \} = P\{ S_{n}  \leq t\}$)
+We know that $S_{n} \leq t$ is equivalent to $N(t) \geq n$, that is why, their probabilities are equal:
+$$
+P\{ S_{n} \leq t \} = P\{ N(t) \geq n \}
+$$
+Given the fact that:
+$$
+P\{ N(t) \geq n \} = e^{-\lambda t}\frac{(\lambda t)^n}{n!} + e^{-\lambda t}\frac{(\lambda t)^{n+1}}{(n+1)!} + e^{-\lambda t}\frac{(\lambda t)^{n+2}}{(n+2)!} + \cdots
+$$
+
+After differentiating, we obtain the density function of $S_{n}$, which is:
+$$
+f_{S_{n}}(t) = \frac{d}{dt}\left(e^{-\lambda t}\frac{(\lambda t)^n}{n!} + e^{-\lambda t}\frac{(\lambda t)^{n+1}}{(n+1)!} + e^{-\lambda t}\frac{(\lambda t)^{n+2}}{(n+2)!} + \cdots\right)
+$$
+$$
+f_{S_{n}}(t) = e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^n}{n!}  +\lambda\frac{(\lambda t)^{n-1}}{(n-1)!} \right) + e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+1}}{(n+1)!}  +\lambda\frac{(\lambda t)^{n}}{(n)!} \right) + e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+2}}{(n+2)!}  +\lambda\frac{(\lambda t)^{n+1}}{(n+1)!} \right) + \cdots
+$$
+$$
+f_{S_{n}}(t) = e^{-\lambda t}\lambda\frac{(\lambda t)^{n-1}}{(n-1)!}
+$$
+
+
 
 
 
