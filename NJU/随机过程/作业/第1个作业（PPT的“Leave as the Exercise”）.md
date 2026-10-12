@@ -238,6 +238,23 @@ $$
 
 By independence, we can say:
 $$
+= P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}\} \cdots P\{(N_{n}(s + t) - N_{n}(s))= a_{n}\} 
+$$
+
+By the definition of each $N_{i}$:
+$$
+= e^{-\lambda_{1}t} \frac{(\lambda_{1} t)^{a_{1}}}{a_{1}!} \cdots e^{-\lambda_{n}t} \frac{(\lambda_{n} t)^{a_{n}}}{a_{n}!}
+$$
+
+Rearranging some terms, we get:
+$$
+= e^{-t(\lambda_{1}+\lambda_{2}+\cdots+\lambda_{n})} \frac{\lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}}{a_{1}!a_{2}!\cdots a_{n}!} t^{a_{1} + a_{2} + \cdots + a_{n}}
+$$
+Using the multinomial theorem, given that $a = \sum_{i = 1}^{n} a_{i}$, obtain the following result:
+$$
+(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})^{a} = \sum_{a_{1} + a_{2} + \cdots + a_{n} = a} \frac{a!}{a_{1}! a_{2}! \cdots a_{n!}}  
+$$
+$$
 
 $$
 
