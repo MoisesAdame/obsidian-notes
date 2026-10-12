@@ -228,13 +228,18 @@ Thus, verifying the second condition.
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
-P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + (N_{2}(s + t) - N_{2}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
+P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
+$$
+
+Now, let $a = \sum_{i = 1}^{n} a_{i}$, so we can say:
+$$
+P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\} = P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}, \dots, (N_{n}(s + t) - N_{n}(s))= a_{n}\} 
+$$
+
+By independence, we can say:
 $$
 
 $$
-P\{ (N_{1}(s + t) - N_{1}(s)) = a\} = e^{-(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})t} \frac{((\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})t)^n}{n!}
-$$
-
 
 
 
