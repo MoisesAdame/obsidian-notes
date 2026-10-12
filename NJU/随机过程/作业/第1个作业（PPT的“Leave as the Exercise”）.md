@@ -105,3 +105,17 @@ $$
 
 
 ### Solution 2 (Moment Generating Functions)
+We can obtain the Moment Generating Function of $S_{n}$ as follows:
+$$
+M_{S_{n}}(t) = \mathbb{E}[e^{tS_{n}}] = \mathbb{E}[e^{t(X_{1} + X_{2} + \cdots X_{n})}] = \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ]
+$$
+
+Because $X_{k}, k\geq_{1}$ are independent, we can say:
+$$
+\mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ][e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
+$$
+
+Now, lets obtain the Moment Generating Function of $X_{k}$:
+$$
+M_{X_{k}}(t) = \mathbb{E}[e^{tX_{k}}] = 
+$$
