@@ -99,3 +99,9 @@ P\{ N(h) \geq 2 \} = o(h)
 $$
 
 ## Problem 2
+### Solution 1 ($P\{ N(t) \geq n \} = P\{ S_{n}  \leq t\}$)
+
+
+
+
+### Solution 2 (Moment Generating Functions)
