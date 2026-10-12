@@ -143,9 +143,31 @@ $$
 
 We can manipulate the terms inside the integral, so the integral we have to solve is:
 $$
-\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}
+\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n t^{n-1}e^{-\lambda t}}{(n-1)!}dt
 $$
 
-Pulling out the constants and manipulating the inside of the integral, we g
+Pulling out the constants and manipulating the inside of the integral, we get:
+$$
+\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{t (x-\lambda)} t^{n-1}dt
+$$
 
+Letting $u = t(\lambda-x)$:
+$$
+\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{-u} \left( \frac{u}{\lambda-x} \right)^{n-1} \frac{du}{\lambda - x}
+$$
+
+Manipulating the constants
+$$
+\frac{\lambda^n}{(n-1)! (\lambda-x)^n}\int_{0}^{\infty}e^{-u} u^{n-1} du
+$$
+
+By the definition of the gamma function, we know:
+$$
+\Gamma(n) = \int_{0}^{\infty}t^{n-1}e^{-t}dt
+$$
+
+This leads that the MGF of the gamma distribution is:
+$$
+M_{X}(t) = \frac{\lambda^n}{(n-1)!} \Gamma(n) = \left(\frac{\lambda}{\lambda-x}\right)^n
+$$
 
