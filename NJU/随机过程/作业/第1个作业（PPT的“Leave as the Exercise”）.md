@@ -214,10 +214,9 @@ $$
 N(t_{k+1}) - N(t_{k}) = \sum_{i = 1}^{n}N_{i}(t_{k+1}) - N_{i}(t_{k})
 $$
 
-Now, because by definition $N_{i}(t_{k+1}) - N_{i}(t_{k})$ where $i \in \{ 1, 2, \dots, n \}$ is independent and $N_{i}$, $N_{j}$ where $i \neq j$ are independent, then the vector
-$$
-N_{1}()
-$$
+Now, because by definition $N_{i}(t_{k+1}) - N_{i}(t_{k})$ where $i \in \{ 1, 2, \dots, n \}$ is independent and $N_{i}$, $N_{j}$ where $i \neq j$ are independent, then the vector of increments $[N_{1}(t_{k + 1}) - N_{1}(t_{k}), \dots, N_{n}(t_{k + 1}) - N_{n}(t_{k})]$ is independent of any previous increments.
+
+Since $N(t_{k+1}) - N(t_{k})$ is the sum of the components of the vector presented above, then $N(t_{k+1}) - N(t_{k})$ is independent of the past increments for all $k \in \mathbb{N}$.x|x
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
