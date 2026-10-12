@@ -105,6 +105,7 @@ $$
 
 
 ### Solution 2 (Moment Generating Functions)
+#### Part 1 (Obtain MGF of $S_{n}$)
 We can obtain the Moment Generating Function of $S_{n}$ as follows:
 $$
 M_{S_{n}}(t) = \mathbb{E}[e^{tS_{n}}] = \mathbb{E}[e^{t(X_{1} + X_{2} + \cdots X_{n})}] = \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ]
@@ -115,7 +116,27 @@ $$
 \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ][e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
 $$
 
-Now, lets obtain the Moment Generating Function of $X_{k}$:
+Now, lets obtain the Moment Generating Function of $X_{k}$. 
 $$
-M_{X_{k}}(t) = \mathbb{E}[e^{tX_{k}}] = 
+M_{X_{k}}(t) = \mathbb{E}[e^{tX_{k}}] = \int_{0}^{\infty}e^{tx}\lambda e^{-\lambda x}dx = \lambda \int_{0}^{\infty}e^{x(t-\lambda)}
+dx = \frac{\lambda}{t-\lambda}e^{x(t-\lambda)} \Big|_{0}^\infty$$
+
+For the following to converge we need $t < \lambda$, that way, we have:
+$$
+M_{X_{k}}(t) = \frac{\lambda}{t - \lambda} (0 - 1) = \frac{\lambda}{\lambda - t}
+$$
+
+Because $X_{k}, k\geq_{1}$ are identically distributed, we can say:
+$$
+M_{S_{n}}(t) = \left( \frac{\lambda}{\lambda - t}\right)^n
+$$
+#### Part 2 (Obtain MGF of Gamma Distribution)
+As we know, the probability density function for the Gamma Distribution is the following:
+$$
+f_{X}(t) = \lambda e^{-\lambda t}\frac{(\lambda t)^{n-1}}{(n-1)!}
+$$
+
+To obtain its Moment Generating Function:
+$$
+M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}et
 $$
