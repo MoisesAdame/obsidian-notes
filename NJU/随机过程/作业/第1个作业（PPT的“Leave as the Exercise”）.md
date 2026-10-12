@@ -1,4 +1,4 @@
-## Problem 1
+## Problem 1 (Definition 1 -> Definition 2)
 ### Part 1 (Obtaining $P\{ N(h) = 1 \}$)
 Let $s = 0$, then using the Definition 1 section (iii), we get:
 $$
@@ -98,7 +98,7 @@ $$
 P\{ N(h) \geq 2 \} = o(h)
 $$
 
-## Problem 2
+## Problem 2 (Gamma Function)
 ### Solution 1 ($P\{ N(t) \geq n \} = P\{ S_{n}  \leq t\}$)
 We know that $S_{n} \leq t$ is equivalent to $N(t) \geq n$, that is why, their probabilities are equal:
 $$
@@ -120,10 +120,7 @@ $$
 f_{S_{n}}(t) = e^{-\lambda t}\lambda\frac{(\lambda t)^{n-1}}{(n-1)!}
 $$
 
-
-
-
-
+And thus, we see that $S_{n}$ has a gamma distribution with parameters $\lambda$ and $n$
 
 ### Solution 2 (Moment Generating Functions)
 #### Part 1 (Obtain MGF of $S_{n}$)
@@ -196,4 +193,25 @@ Because the property of **uniqueness if the Moment Generating Functions** we can
 $$
 M_{S_{n}}(t) = M_{X}(t) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
+
+## Problem 3 (Independent Poisson Process)
+For this proof, we will use the first Definition of a Poisson Process, each part of the proof will consist on verifying each of the three conditions stablished by the definition
+
+### Part 1 (N(0) = 0)
+Given the fact that $N(t) = N_{1}(t)+N_{2}(t)+ \cdots +N_{n}(t)$, we have to obtain $N(0)$, thus:
+$$
+N(0) = N_{1}(0)+N_{2}(0)+ \cdots +N_{n}(0)
+$$
+Because $\{ N_{i}(t), t\geq 0\}$ where $i \in \{ 1,2,\dots,n \}$ is a Poisson Process, then, by definition $N_{i}(0) = 0$
+$$
+N(0) = 0 + 0 + \cdots + 0 = 0
+$$
+Thus, verifying the first condition
+
+### Part 2 (The Process Has Independent Increments)
+We have to obtain $P\{ N(s + t) - N(s) = a\} = P\{ N(t) = a\}$
+$$
+P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + (N_{2}(s + t) - N_{2}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
+$$
+
 
