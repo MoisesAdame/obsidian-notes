@@ -206,12 +206,37 @@ Because $\{ N_{i}(t), t\geq 0\}$ where $i \in \{ 1,2,\dots,n \}$ is a Poisson Pr
 $$
 N(0) = 0 + 0 + \cdots + 0 = 0
 $$
-Thus, verifying the first condition
+Thus, verifying the first condition.
 
 ### Part 2 (The Process Has Independent Increments)
 We have to obtain $P\{ N(s + t) - N(s) = a\} = P\{ N(t) = a\}$
 $$
 P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + (N_{2}(s + t) - N_{2}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
 $$
+
+Because $\{ N_{i}(t), t\geq 0\}$ where $i \in \{ 1,2,\dots,n \}$ is a Poisson Process, then, by definition their increments are independent, so:
+$$
+P\{ N(s + t) - N(s) = a\} = P\{ N_{1}(t) + N_{2}(t) + \cdots + N_{n}(t) = a \}
+$$
+
+Which ends up being
+$$
+P\{ N(s + t) - N(s) = a\} = P\{ N(t)= a \}
+$$
+
+Thus, verifying the second condition.
+
+### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
+$$
+P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + (N_{2}(s + t) - N_{2}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
+$$
+
+$$
+P\{ (N_{1}(s + t) - N_{1}(s)) = a\} = e^{-(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})t} \frac{((\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})t)^n}{n!}
+$$
+
+
+
+
 
 
