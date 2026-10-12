@@ -209,7 +209,15 @@ $$
 Thus, verifying the first condition.
 
 ### Part 2 (The Process Has Independent Increments)
-Given some $t_{n} < t_{n+1}$ we can say that
+Given some $t_{k} < t_{k+1}$ where $k \in \mathbb{N}$ we can say that the difference between increments in $N$ looks as follows:
+$$
+N(t_{k+1}) - N(t_{k}) = \sum_{i = 1}^{n}N_{i}(t_{k+1}) - N_{i}(t_{k})
+$$
+
+Now, because by definition $N_{i}(t_{k+1}) - N_{i}(t_{k})$ where $i \in \{ 1, 2, \dots, n \}$ is independent and $N_{i}$, $N_{j}$ where $i \neq j$ are independent, then the vector
+$$
+N_{1}()
+$$
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
