@@ -133,32 +133,32 @@ $$
 #### Part 2 (Obtain MGF of Gamma Distribution)
 As we know, the probability density function for the Gamma Distribution is the following:
 $$
-f_{X}(t) = \lambda e^{-\lambda t}\frac{(\lambda t)^{n-1}}{(n-1)!}
+f_{X}(x) = \lambda e^{-\lambda x}\frac{(\lambda x)^{n-1}}{(n-1)!}
 $$
 
 To obtain its Moment Generating Function:
 $$
-M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}e^{tx}\lambda e^{-\lambda t}\frac{(\lambda t)^{n-1}}{(n-1)!}dt
+M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}e^{xt}\lambda e^{-\lambda x}\frac{(\lambda x)^{n-1}}{(n-1)!}dx
 $$
 
 We can manipulate the terms inside the integral, so the integral we have to solve is:
 $$
-\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n t^{n-1}e^{-\lambda t}}{(n-1)!}dt
+\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}dx
 $$
 
 Pulling out the constants and manipulating the inside of the integral, we get:
 $$
-\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{t (x-\lambda)} t^{n-1}dt
+\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{x (t-\lambda)} x^{n-1}dt
 $$
 
-Letting $u = t(\lambda-x)$:
+Letting $u = x(\lambda-t)$:
 $$
-\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{-u} \left( \frac{u}{\lambda-x} \right)^{n-1} \frac{du}{\lambda - x}
+\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{-u} \left( \frac{u}{\lambda-t} \right)^{n-1} \frac{du}{\lambda - t}
 $$
 
 Manipulating the constants
 $$
-\frac{\lambda^n}{(n-1)! (\lambda-x)^n}\int_{0}^{\infty}e^{-u} u^{n-1} du
+\frac{\lambda^n}{(n-1)! (\lambda-t)^n}\int_{0}^{\infty}e^{-u} u^{n-1} du
 $$
 
 By the definition of the gamma function, we know:
@@ -168,6 +168,7 @@ $$
 
 This leads that the MGF of the gamma distribution is:
 $$
-M_{X}(t) = \frac{\lambda^n}{(n-1)!} \Gamma(n) = \left(\frac{\lambda}{\lambda-x}\right)^n
+M_{X}(t) = \frac{\lambda^n}{(n-1)!} \Gamma(n) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
 
+Because the property of **uniqueness if the Moment Generating Functions** 
