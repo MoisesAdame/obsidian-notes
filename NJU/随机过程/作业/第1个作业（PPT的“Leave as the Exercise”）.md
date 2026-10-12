@@ -171,4 +171,8 @@ $$
 M_{X}(t) = \frac{\lambda^n}{(n-1)!} \Gamma(n) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
 
-Because the property of **uniqueness if the Moment Generating Functions** 
+Because the property of **uniqueness if the Moment Generating Functions** we can say that $S_{n}$ has a gamma distribution with parameters $n$ and $\lambda$, because:
+$$
+M_{S_{n}}(t) = M_{X}(t) = \left(\frac{\lambda}{\lambda-t}\right)^n
+$$
+
