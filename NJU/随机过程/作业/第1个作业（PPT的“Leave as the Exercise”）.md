@@ -271,13 +271,40 @@ $$
 
 By plugging in the value of the expression $\mathbb{E}[e^{x(N(t+h) - N(t))}]$, obtained using the conditions of the Definition 1 of a Non-Homogeneous Poisson Process, we get:
 $$
-= \left(e^{x \times 0} (1-\lambda(t)h + o(h))  + e^{x \times 1}  (1 + \lambda(t)h + o(h)) + e^{x \times 2} o(h) + e^{x \times 3} o(h) + \cdots\right)\mathbb{E}[e^{xN(t)}]
+= \left(e^{x \times 0} (1-\lambda(t)h + o(h))  + e^{x \times 1}  ( \lambda(t)h + o(h)) + e^{x \times 2} o(h) + e^{x \times 3} o(h) + \cdots\right)\mathbb{E}[e^{xN(t)}]
 $$
 
 Manipulating the previous expression we get
 $$
-= 1 - \lambda(t)h +o(h) + e^x + e^x \lambda(t)h + e^x o(h) + 
+= (1 - \lambda(t)h + e^x \lambda(t)h + o(h))\mathbb{E}[e^{xN(t)}] 
 $$
+
+Let $M_{t}(x) = \mathbb{E}[e^{xN(t)}]$, then we get:
+$$
+M_{t+h}(x) = M_{t}(x) - M_{t}(x)\lambda(t)h + e^x \lambda(t) h M_{t}(x) + M_{t}(x)o(h)
+$$
+
+Dividing both sides of the previous expression by $h$ and obtaining the limit as $h \to 0$, we get:
+$$
+\lim_{ h \to 0 } \left(\frac{M_{t+h}(x) - M_{t}(x)}{h}\right) = \lim_{ h \to 0 } \left(- M_{t}(x)\lambda(t) + e^x \lambda(t) M_{t}(x) + \frac{o(h)}{h} M_{t}(x)\right)
+$$
+$$
+M'_{t}(x) = - M_{t}(x)\lambda(t) + e^x \lambda(t) M_{t}(x) 
+$$
+
+Having to solve the following differential equation:
+$$
+\frac{M'_{t}(x)}{M_{t}(x)} = e^x\lambda(t) - \lambda(t) = \lambda(t) (e^x - 1)
+$$
+
+Integrating both sides with respect to $t$.
+$$
+\int_{0}^t \frac{M'_{t}(x)}{M_{t}(x)}dt = \int_{0}^t\lambda(t) (e^x - 1)dt
+$$
+
+
+
+
 
 
 
