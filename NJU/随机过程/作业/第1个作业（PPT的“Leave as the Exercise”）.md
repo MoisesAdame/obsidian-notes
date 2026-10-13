@@ -255,6 +255,19 @@ $$
 
 Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
 
+## Problem 4
+For the following problem, we'll analyze the Probability Generating Functions that can be obtained from the Definition 1 of the Non-Homogeneous Poisson Process, thus, let:
+$$
+M_{t+h}(x) = \mathbb{E}[e^{-xN(t+h)}]
+$$
+$$
+= \mathbb{E}[e^{x(N(t+h) - N(t) + N(t))}] = \mathbb{E}[e^{x(N(t+h) - N(t))} e^{xN(t)}]
+$$
+
+By independent increments:
+$$
+= \mathbb{E}[e^{x(N(t+h) - N(t))}] \mathbb{E}[e^{xN(t)}]
+$$
 
 
 
