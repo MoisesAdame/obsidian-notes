@@ -340,12 +340,25 @@ $$
 $$
 
 ### Part 2 (Obtaining the Moment Generating Function of $N(t+s) - N(t)$)
-As we know $P\{ N(t+s) - N(t) = n\}=e^{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}$, so applying the definition of the Moment Generating Function, we get:
+As we know $P\{ N(t+s) - N(t) = n\}=e^-{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}$, so applying the definition of the Moment Generating Function, we get:
 $$
-\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^n e^{ x i } e^{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^i}{i!}
+\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^i}{i!}
 $$
 
-For the sake of simplicity, let $\Delta = $
+For the sake of simplicity, let $\Delta = m(t+s) - m(t)$
+$$
+\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-\Delta} \frac{\Delta^i}{i!} = \sum_{i = 0}^\infty e^{-\Delta} \frac{(\Delta e^x)^i}{i!} = e^{-\Delta}\sum_{i = 0}^\infty  \frac{(\Delta e^x)^i}{i!}
+$$
+Using the Taylor expansion for $e^x$, we get
+$$
+\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{-\Delta} e^{\Delta e^{ x }} = e^{\Delta (e^x - 1)}
+$$
+
+Rewriting the expression using $\Delta = m(t+s) - m(t)$
+$$
+\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{(m(t+s) - m(t)) (e^x - 1)}
+$$
+
 
 
 
