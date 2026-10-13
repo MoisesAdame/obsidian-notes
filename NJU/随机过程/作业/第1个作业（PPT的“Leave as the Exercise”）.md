@@ -256,9 +256,9 @@ $$
 Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
 
 ## Problem 4
-For the following problem, we'll analyze the Probability Generating Functions that can be obtained from the Definition 1 of the Non-Homogeneous Poisson Process, thus, let:
+For the following problem, we'll analyze the Moment Generating Functions that can be obtained from the Definition 1 of the Non-Homogeneous Poisson Process, thus, let:
 $$
-M_{t+h}(x) = \mathbb{E}[e^{-xN(t+h)}]
+M_{t+h}(x) = \mathbb{E}[e^{xN(t+h)}]
 $$
 $$
 = \mathbb{E}[e^{x(N(t+h) - N(t) + N(t))}] = \mathbb{E}[e^{x(N(t+h) - N(t))} e^{xN(t)}]
@@ -268,6 +268,17 @@ By independent increments:
 $$
 = \mathbb{E}[e^{x(N(t+h) - N(t))}] \mathbb{E}[e^{xN(t)}]
 $$
+
+By plugging in the value of the expression $\mathbb{E}[e^{x(N(t+h) - N(t))}]$, obtained using the conditions of the Definition 1 of a Non-Homogeneous Poisson Process, we get:
+$$
+= \left(e^{x \times 0} (1-\lambda(t)h + o(h))  + e^{x \times 1}  (1 + \lambda(t)h + o(h)) + e^{x \times 2} o(h) + e^{x \times 3} o(h) + \cdots\right)\mathbb{E}[e^{xN(t)}]
+$$
+
+Manipulating the previous expression we get
+$$
+= 1 - \lambda(t)h +o(h) + e^x + e^x \lambda(t)h + e^x o(h) + 
+$$
+
 
 
 
