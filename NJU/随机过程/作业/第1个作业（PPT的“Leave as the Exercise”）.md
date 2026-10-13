@@ -302,6 +302,45 @@ $$
 \int_{0}^t \frac{M'_{t}(x)}{M_{t}(x)}dt = \int_{0}^t\lambda(t) (e^x - 1)dt
 $$
 
+Letting $m(t) = \int_{0}^t \lambda(t)$.
+$$
+\ln[M_{t}(x)] \Big|_{0}^t = (e^x - 1)m(t)
+$$
+$$
+\ln[\mathbb{E}[e^{xN(t)}]] -  \ln[\mathbb{E}[e^{xN(0)}]] = (e^x - 1)m(t)
+$$
+
+Using the first condition of the definition, we know that:
+$$
+\ln[\mathbb{E}[e^{xN(t)}]] = (e^x - 1)m(t)
+$$
+
+By manipulating the expression, we get that:
+$$
+\mathbb{E}[e^{xN(t)}]= e^{(e^x - 1)m(t)}
+$$
+
+Now, by changing variables letting $t = t' + h'$
+$$
+\mathbb{E}[e^{xN(t' + h')}] = \mathbb{E}[e^{x[N(t' + h') + N(t') - N(t')]}] = e^{(e^x - 1)m(t' + h')}
+$$
+
+By independent increments
+$$
+\mathbb{E}[e^{x[N(t' + h') - N(t')]}]\mathbb{E}[e^{xN(t')}]= \mathbb{E}[e^{x[N(t' + h') - N(t')]}] \left(e^{(e^x - 1)m(t')}\right)= e^{(e^x - 1)m(t' + h')}
+$$
+
+Dividing both sides of the previous equation by $e^{(e^x - 1)m(t')}$ we get
+$$
+\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)m(t' + h')} e^{-(e^x - 1)m(t')}
+$$
+$$
+\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)m(t' + h')} e^{-(e^x - 1)m(t')}
+$$
+
+
+
+
 
 
 
