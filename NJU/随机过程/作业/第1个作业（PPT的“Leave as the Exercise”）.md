@@ -256,6 +256,7 @@ $$
 Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
 
 ## Problem 4
+### Part 1 (Obtaining the Moment Generating Function of $N(t + h)$ using Definition 1)
 For the following problem, we'll analyze the Moment Generating Functions that can be obtained from the Definition 1 of the Non-Homogeneous Poisson Process, thus, let:
 $$
 M_{t+h}(x) = \mathbb{E}[e^{xN(t+h)}]
@@ -335,8 +336,18 @@ $$
 \mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)m(t' + h')} e^{-(e^x - 1)m(t')}
 $$
 $$
-\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)m(t' + h')} e^{-(e^x - 1)m(t')}
+\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)[m(t' + h') - m(t')]}
 $$
+
+### Part 2 (Obtaining the Moment Generating Function of $N(t+s) - N(t)$)
+As we know $P\{ N(t+s) - N(t) = n\}=e^{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}$, so applying the definition of the Moment Generating Function, we get:
+$$
+\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^n e^{ x i } e^{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^i}{i!}
+$$
+
+For the sake of simplicity, let $\Delta = $
+
+
 
 
 
