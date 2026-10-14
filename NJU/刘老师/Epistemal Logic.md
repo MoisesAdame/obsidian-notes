@@ -32,5 +32,22 @@ Sigma AND fei phsi 不可满足 为啥？？？
 
 合区 = AND
 
+$$
+||\phi||_{\Sigma} 
+$$
+sigma的范数有什么定义
+
+### NP神谕（divination）
+
+### 完全性证明的标准结构
+no entendi ese 小于 de meaning
+$$
+<_{p}{s}
+$$
+
+### 从$BL_{k}$到OL的规约
+|= 蕴含
+
+
 
 
