@@ -359,6 +359,11 @@ $$
 \mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{(m(t+s) - m(t)) (e^x - 1)}
 $$
 
+Finally, because the property of **uniqueness if the Moment Generating Functions** we can say that the random variable $N(t+s)−N(t)$ follows a Poisson distribution with mean $m(t+s)−m(t)$, therefore, the probability mass function is:
+$$
+P(N(t+s) - N(t) = n) = e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}
+$$
+And the result is proven.
 
 
 
