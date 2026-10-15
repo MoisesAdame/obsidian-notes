@@ -24628,6 +24628,14 @@
    "ID": "75ibs",
    "CardSchedules": [
     {
+     "id": "#AOSR/75ibs/m/7h0q",
+     "Opts": "3",
+     "Last": "2026-10-15 14:36",
+     "Next": "2026-10-15 17:36",
+     "LearnedCount": null,
+     "Learned": null
+    },
+    {
      "id": "#AOSR/75ibs/s/7qbn",
      "Opts": "322",
      "Last": "2026-10-15 14:08",

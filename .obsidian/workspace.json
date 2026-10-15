@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/时间系列/第2课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第1课"
+              "title": "第2课"
             }
           }
         ],
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/时间系列/第2课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,8 +213,8 @@
   },
   "active": "2014988b4d5bd1f8",
   "lastOpenFiles": [
-    "NJU/时间系列/第2课.md",
     "NJU/时间系列/第1课.md",
+    "NJU/时间系列/第2课.md",
     "NJU/时间系列/教室的记本/第5课.md",
     "NJU/时间系列/教室的记本/第4课（听）.md",
     "NJU/刘老师/Epistemal Logic.md",
