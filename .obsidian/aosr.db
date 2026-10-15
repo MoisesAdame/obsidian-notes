@@ -25880,17 +25880,17 @@
    "CardSchedules": [
     {
      "id": "#AOSR/5e58i/s/2pk7",
-     "Opts": "3",
-     "Last": "2026-10-07 09:30",
-     "Next": "2026-10-07 12:30",
-     "Learned": "2026-10-07 11:26:19",
-     "LearnedCount": -2
+     "Opts": "33",
+     "Last": "2026-10-15 20:04",
+     "Next": "2026-10-15 23:04",
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/5e58i/s/5sga",
-     "Opts": "1",
-     "Last": "2026-10-07 08:57",
-     "Next": "2026-10-08 16:00",
+     "Opts": "13",
+     "Last": "2026-10-15 20:04",
+     "Next": "2026-10-15 23:04",
      "Learned": null,
      "LearnedCount": null
     },
