@@ -24814,19 +24814,19 @@
     },
     {
      "id": "#AOSR/5j2n5/s/5bbj",
-     "Opts": "1",
-     "Last": "2026-10-07 08:12",
-     "Next": "2026-10-08 12:57",
+     "Opts": "13",
+     "Last": "2026-10-15 18:36",
+     "Next": "2026-10-15 21:36",
      "Learned": null,
      "LearnedCount": null
     },
     {
      "id": "#AOSR/5j2n5/s/gk55",
-     "Opts": "3",
-     "Last": "2026-10-07 08:20",
-     "Next": "2026-10-07 11:20",
-     "Learned": "2026-10-07 10:59:23",
-     "LearnedCount": -0.5
+     "Opts": "30",
+     "Last": "2026-10-15 18:36",
+     "Next": "2026-10-15 21:36",
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -25300,25 +25300,25 @@
    "CardSchedules": [
     {
      "id": "#AOSR/4nth8/s/184r",
-     "Opts": "0",
-     "Last": "2026-10-07 08:22",
-     "Next": "2026-10-07 13:23",
-     "Learned": "2026-10-07 11:00:53",
-     "LearnedCount": 0.5
+     "Opts": "00",
+     "Last": "2026-10-15 18:35",
+     "Next": "2026-10-15 21:35",
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/4nth8/s/2vto",
-     "Opts": "1",
-     "Last": "2026-10-07 08:23",
-     "Next": "2026-10-08 14:19",
+     "Opts": "12",
+     "Last": "2026-10-15 18:35",
+     "Next": "2026-10-31 22:15",
      "Learned": null,
      "LearnedCount": null
     },
     {
      "id": "#AOSR/4nth8/s/37qb",
-     "Opts": "2",
-     "Last": "2026-10-07 08:23",
-     "Next": "2026-10-09 17:01",
+     "Opts": "22",
+     "Last": "2026-10-15 18:34",
+     "Next": "2026-11-01 22:20",
      "Learned": null,
      "LearnedCount": null
     }
@@ -25329,41 +25329,41 @@
    "CardSchedules": [
     {
      "id": "#AOSR/56flc/s/351e",
-     "Opts": "2",
-     "Last": "2026-10-07 09:31",
-     "Next": "2026-10-09 15:38",
+     "Opts": "23",
+     "Last": "2026-10-15 18:33",
+     "Next": "2026-10-15 21:33",
      "Learned": null,
      "LearnedCount": null
     },
     {
      "id": "#AOSR/56flc/s/36sc",
-     "Opts": "2",
-     "Last": "2026-10-07 08:22",
-     "Next": "2026-10-09 12:28",
+     "Opts": "22",
+     "Last": "2026-10-15 18:31",
+     "Next": "2026-11-03 05:36",
      "Learned": null,
      "LearnedCount": null
     },
     {
      "id": "#AOSR/56flc/s/3egk",
-     "Opts": "3",
-     "Last": "2026-10-07 09:36",
-     "Next": "2026-10-07 12:36",
-     "Learned": "2026-10-07 11:27:28",
-     "LearnedCount": -2
+     "Opts": "33",
+     "Last": "2026-10-15 18:32",
+     "Next": "2026-10-15 21:32",
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/56flc/s/4pht",
-     "Opts": "2",
-     "Last": "2026-10-07 08:53",
-     "Next": "2026-10-09 13:12",
+     "Opts": "22",
+     "Last": "2026-10-15 18:32",
+     "Next": "2026-11-01 18:36",
      "Learned": null,
      "LearnedCount": null
     },
     {
      "id": "#AOSR/56flc/s/5o3o",
-     "Opts": "1",
-     "Last": "2026-10-07 08:44",
-     "Next": "2026-10-08 16:04",
+     "Opts": "11",
+     "Last": "2026-10-15 18:32",
+     "Next": "2026-10-30 20:50",
      "Learned": null,
      "LearnedCount": null
     }
@@ -25419,11 +25419,11 @@
    "CardSchedules": [
     {
      "id": "#AOSR/1b3bc/s/6hc7",
-     "Opts": "1",
-     "Last": "2026-10-07 08:24",
-     "Next": "2026-10-08 14:11",
-     "LearnedCount": null,
-     "Learned": null
+     "Opts": "12",
+     "Last": "2026-10-15 18:34",
+     "Next": "2026-11-01 03:51",
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
@@ -25830,19 +25830,19 @@
    "CardSchedules": [
     {
      "id": "#AOSR/50v31/s/127f",
-     "Opts": "3",
-     "Last": "2026-10-07 09:26",
-     "Next": "2026-10-07 12:26",
-     "Learned": "2026-10-07 11:25:00",
-     "LearnedCount": -2
+     "Opts": "30",
+     "Last": "2026-10-15 18:35",
+     "Next": "2026-10-15 21:35",
+     "Learned": null,
+     "LearnedCount": null
     },
     {
      "id": "#AOSR/50v31/s/3mah",
-     "Opts": "3",
-     "Last": "2026-10-07 08:56",
-     "Next": "2026-10-07 11:56",
-     "Learned": "2026-10-07 11:16:02",
-     "LearnedCount": -0.5
+     "Opts": "32",
+     "Last": "2026-10-15 18:35",
+     "Next": "2026-10-25 10:38",
+     "Learned": null,
+     "LearnedCount": null
     }
    ]
   },
