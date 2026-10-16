@@ -1,6 +1,6 @@
-## Problem 1 (Definition 1 -> Definition 2)
+## Problem 1
 ### Part 1 (Obtaining $P\{ N(h) = 1 \}$)
-Let $s = 0$, then using the Definition 1 section (iii), we get:
+Let $s = 0$, then using the Definition 1 condition (iii), we get:
 $$
 P\{ N(0 + t) - N(0) = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
@@ -36,7 +36,7 @@ $$
 \lim_{ x \to 0 }\left( \frac{f(x)}{x} \right) = \lim_{ x \to 0 } \left( - x + \frac{x^2}{2!} -\frac{x^3}{3!} + \cdots \right) = 0
 $$
 
-That is why we get (The point (iii) of Definition 2)
+That is why we get condition (iii) of Definition 2
 $$
 P\{ N(t) = 1\} = \lambda t + o(t)
 $$
@@ -67,13 +67,14 @@ $$
 $$
 P\{ N(h) \geq 2 \} = e^{-\lambda h} \left( \frac{(\lambda t)^2}{2!} +  \frac{(\lambda t)^3}{3!} + \cdots \right)
 $$
+
 Because of the Taylor Expansion of $e^{\lambda t}$, we know that:
 
 $$
 P\{ N(h) \geq 2 \} = e^{-\lambda h} \left( e^{\lambda h} -\lambda h - 1\right)
 $$
 
-If we distribute the $e^{-\lambda h}$ inside the parenthesis, we would get:
+If we distribute the $e^{-\lambda h}$ inside the parenthesis, we get:
 $$
 P\{ N(h) \geq 2 \} = 1 -\lambda h e^{-\lambda h}  - e^{-\lambda h} = 1 - e^{-\lambda h }(\lambda h + 1)
 $$
@@ -83,9 +84,11 @@ $$
 P\{ N(h) \geq 2 \} = 1-(\lambda h+1)\left(1 - (\lambda h) + \frac{(\lambda h)^2}{2!} - \frac{(\lambda h)^3}{3!} + \cdots \right)
 $$
 
-After distributing the $(\lambda h+1)$ parenthsis we get:
+After distributing the $(\lambda h+1)$ inside the parenthesis we get:
 $$
-P\{ N(h) \geq 2 \} = 1 + \left(-(\lambda h) + (\lambda h)^2 - \frac{(\lambda h)^3}{2!} + \frac{(\lambda h)^4}{3!} + \cdots \right) + \left(-1 + (\lambda h) - \frac{(\lambda h)^2}{2!} + \frac{(\lambda h)^3}{3!} + \cdots \right)
+P\{ N(h) \geq 2 \} = 1 + \left(-(\lambda h) + (\lambda h)^2 - \frac{(\lambda h)^3}{2!} + \frac{(\lambda h)^4}{3!} + \cdots \right) + \\
+
+\left(-1 + (\lambda h) - \frac{(\lambda h)^2}{2!} + \frac{(\lambda h)^3}{3!} + \cdots \right)
 $$
 
 Analizing this, we can se that $1$ and $-1$ cancel each other and also $-(\lambda h)$ and $-(\lambda h)$ cancel each other, thus, we get:
@@ -98,12 +101,13 @@ $$
 P\{ N(h) \geq 2 \} = o(h)
 $$
 
-## Problem 2 (Gamma Function)
+## Problem 2
 ### Solution 1 ($P\{ N(t) \geq n \} = P\{ S_{n}  \leq t\}$)
 We know that $S_{n} \leq t$ is equivalent to $N(t) \geq n$, that is why, their probabilities are equal:
 $$
 P\{ S_{n} \leq t \} = P\{ N(t) \geq n \}
 $$
+
 Given the fact that:
 $$
 P\{ N(t) \geq n \} = e^{-\lambda t}\frac{(\lambda t)^n}{n!} + e^{-\lambda t}\frac{(\lambda t)^{n+1}}{(n+1)!} + e^{-\lambda t}\frac{(\lambda t)^{n+2}}{(n+2)!} + \cdots
@@ -114,7 +118,7 @@ $$
 f_{S_{n}}(t) = \frac{d}{dt}\left(e^{-\lambda t}\frac{(\lambda t)^n}{n!} + e^{-\lambda t}\frac{(\lambda t)^{n+1}}{(n+1)!} + e^{-\lambda t}\frac{(\lambda t)^{n+2}}{(n+2)!} + \cdots\right)
 $$
 $$
-f_{S_{n}}(t) = e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^n}{n!}  +\lambda\frac{(\lambda t)^{n-1}}{(n-1)!} \right) + e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+1}}{(n+1)!}  +\lambda\frac{(\lambda t)^{n}}{(n)!} \right) + e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+2}}{(n+2)!}  +\lambda\frac{(\lambda t)^{n+1}}{(n+1)!} \right) + \cdots
+f_{S_{n}}(t) = e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^n}{n!}  +\lambda\frac{(\lambda t)^{n-1}}{(n-1)!} \right) + e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+1}}{(n+1)!}  +\lambda\frac{(\lambda t)^{n}}{(n)!} \right) + \\ e^{-\lambda t} \left(-\lambda \frac{(\lambda t)^{n+2}}{(n+2)!}  +\lambda\frac{(\lambda t)^{n+1}}{(n+1)!} \right) + \cdots
 $$
 $$
 f_{S_{n}}(t) = e^{-\lambda t}\lambda\frac{(\lambda t)^{n-1}}{(n-1)!}
@@ -123,7 +127,7 @@ $$
 And thus, we see that $S_{n}$ has a gamma distribution with parameters $\lambda$ and $n$
 
 ### Solution 2 (Moment Generating Functions)
-#### Part 1 (Obtain MGF of $S_{n}$)
+#### Part 1 (Obtaining the MGF of $S_{n}$)
 We can obtain the Moment Generating Function of $S_{n}$ as follows:
 $$
 M_{S_{n}}(t) = \mathbb{E}[e^{tS_{n}}] = \mathbb{E}[e^{t(X_{1} + X_{2} + \cdots X_{n})}] = \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ]
