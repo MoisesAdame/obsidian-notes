@@ -451,22 +451,24 @@ And the result is proven.
 
 ## Problem 6
 ### Part 1 (Verifying Axiom 1 from Definition N2)
+For this, we have to prove that $N(0) = N^{\star}(m(0))$.
 
-
-
-
-
-
-
-
-
-
-
+Using the definition of $m(t)$, we know that:
 $$
-\begin{align}
-& =  
-\end{align}
+m(0) = \int_{0}^{0} \lambda(x)dx = 0
 $$
+
+This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by definition of the homogeneous Poisson Process is $N^{\star}(m(0)) = 0$, which implies that $N(0) = 0$.
+
+### Part 2 (Verifying Axiom 2 from Definition N2)
+We 
+
+
+
+
+
+
+
 
 
 
