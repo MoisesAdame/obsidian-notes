@@ -413,6 +413,49 @@ $$
 p = \int_{t}^{t+s} \frac{1}{s} \frac{\lambda(y)}{\lambda}dy = \frac{m(t+s) - m(t)}{s \lambda}
 $$
 
+Considering this, because we have $n$ counted events and $m$ not counted ones, then:
+$$
+P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \} = {n + m\choose n} p^n (1-p)^m
+$$
+
+Thus:
+$$
+\begin{align}
+P\{ N'_{n}(t;t+s), N_{n + m}(t;t+s) \} & = {n + m\choose n} p^n (1-p)^m e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!} \\
+& = \frac{(n+m)!}{n! m!} \frac{(\lambda s)^{n +m}}{(n + m)!}p^n (1-p)^m e^{- \lambda s}  \\
+& = \frac{(\lambda s)^{n +m}}{n! m!}p^n (1-p)^m e^{- \lambda s}
+\end{align}
+$$
+
+So, we can rewrite $P\{ N'(t+s) - N'(t) = n\}$ as follows:
+$$
+\begin{align}
+P\{ N'(t+s) - N'(t) = n\} & = \sum_{m = 0}^{\infty} \frac{(\lambda s)^{n +m}}{n! m!}p^n (1-p)^m e^{- \lambda s} \\
+& = \frac{(\lambda s)^n}{n!} p^n e^{-\lambda s} \sum_{m = 0}^{\infty} \frac{(\lambda s[1- p])^m}{m!} \\
+& = \frac{(\lambda s)^n}{n!} p^n e^{-\lambda s} e^{ \lambda s - \lambda s p } \\
+& = \frac{(\lambda s p)^n}{n!} e^{ - \lambda s p }
+\end{align}
+$$
+
+Using the previously obtained equation about $p$, we know that:
+$$
+\lambda s p = \lambda s \frac{m(t+s) - m(t)}{s \lambda} = m(t+s) - m(t)
+$$
+
+Thus,
+$$
+P\{ N'(t+s) - N'(t) = n\} = \frac{(m(t+s) - m(t))^n}{n!} e^{ - (m(t+s) - m(t))}
+$$
+
+And the result is proven.
+
+## Problem 6
+### Part 1 (Verifying Axiom 1 from Definition N2)
+
+
+
+
+
 
 
 
@@ -421,7 +464,7 @@ $$
 
 $$
 \begin{align}
-& =  {n + m\choose n} p^n (1-p)^m e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!}
+& =  
 \end{align}
 $$
 
