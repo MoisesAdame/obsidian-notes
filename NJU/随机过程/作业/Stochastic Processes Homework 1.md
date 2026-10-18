@@ -496,7 +496,7 @@ As seen in the **problem 6**, we showed how $m(0) = 0$, being easy to see that $
 
 ### Part 2 (Verifying Axiom 2 from Definition 2 of Homogeneous Poisson Distribution)
 #### Part 2.1 (Verifying Independent Increments)
-
+Given $t_{0} < t_{1} < t_{2} < \cdots < t_{n}$, as we showed in the previous problem, for any $t_{i} > t_{i - 1}$, given the fact that $\lambda(t) > 0$, the
 
 #### Part 2.2 (Verifying Stationary Increments)
 
