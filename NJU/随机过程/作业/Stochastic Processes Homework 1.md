@@ -398,10 +398,29 @@ P\{ N'_{n}(t;t+s)\}  = &P\{ N'_{n}(t;t+s), N_{n}(t;t+s)\} + \\
 \end{align}
 $$
 
-For the purpose of analyzing the behaviour of each line, well generalize it as follows:
+For the purpose of analyzing the behaviour of each line, will generalize it as follows:
+$$
+P\{ N'_{n}(t;t+s), N_{n + m}(t;t+s) \} =  P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \} P\{ N_{n + m} (t;t+s) \} 
+$$
+
+Using the definition of the homogeneous poisson process we know that:
+$$
+P\{ N_{n + m} (t;t+s) \} = e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!}
+$$
+
+For the other part, in order to calculate $P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \}$ the probability of counting one event inside our interval $(t, t+s]$. Because we know events are uniformly distributed over the interval and additionally, an event at time $y$ is counted with a probability of $\frac{\lambda(y)}{\lambda}$, then, the probability it gets counted is:
+$$
+p = \int_{t}^{t+s} \frac{1}{s} \frac{\lambda(y)}{\lambda}dy = \frac{m(t+s) - m(t)}{s \lambda}
+$$
+
+
+
+
+
+
+
 $$
 \begin{align}
-P\{ N'_{n}(t;t+s), N_{n + m}(t;t+s) \} & =  P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \} P\{ N_{n + m} (t;t+s) \} \\
 & =  {n + m\choose n} p^n (1-p)^m e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!}
 \end{align}
 $$
