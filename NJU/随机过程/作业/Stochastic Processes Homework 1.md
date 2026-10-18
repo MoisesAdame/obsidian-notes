@@ -489,16 +489,46 @@ $$
 And the result is proven.
 
 ## Problem 7
-### Part 1 (Verifying Axiom 1 from Definition 2 of Homogeneous Poisson Distribution)
+### Part 1 (Verifying Axiom 1 from Definition 1 of Homogeneous Poisson Distribution)
 For this, we have to prove that $N^{\star}(0) = N(m^{-1}(0))$.
 
 As seen in the **problem 6**, we showed how $m(0) = 0$, being easy to see that $m^{-1}(0) = 0$. By definition of the Non-Homogeneous Poisson Process, we know that $N(0) = 0$, hence $N^\star(0) = 0$.
 
-### Part 2 (Verifying Axiom 2 from Definition 2 of Homogeneous Poisson Distribution)
+### Part 2 (Verifying Axiom 2 from Definition 1 of Homogeneous Poisson Distribution)
 #### Part 2.1 (Verifying Independent Increments)
-Given $t_{0} < t_{1} < t_{2} < \cdots < t_{n}$, as we showed in the previous problem, for any $t_{i} > t_{i - 1}$, given the fact that $\lambda(t) > 0$, the
+Given $t_{0} < t_{1} < t_{2} < \cdots < t_{n}$, as we showed in the previous problem, for any $t_{i} > t_{i - 1}$, given the fact that $\lambda(t) > 0$, then $m(t_{i}) > m(t_{i -1})$. Thus $m^{-1}(t_{i}) > m^{-1}(t_{i-1})$.
+
+Now, we can say that:
+$$
+N^\star(t_{i}) - N^\star(t_{i-1}) = N(m^{-1}(t_{i})) - N(m^{-1}(t_{i-1})
+$$
+
+By **definition N2**, we can say that because $N$ has independent increments over the disjoint intervals $(m^{-1}(t_{i}), m^{-1}(t_{i-1}]$, then $N^\star$ also does.
 
 #### Part 2.2 (Verifying Stationary Increments)
+We know that:
+$$
+N^\star(t+s) - N^\star(t) = N(m^{-1}(t+s)) - N(m^{-1}(t+s))
+$$
+
+By **definition N2** we know that:
+$$
+\begin{align}
+P\{ N(m^{-1}(t+s)) - N(m^{-1}(t)) = n \} & = e^{ - (m(m^{-1}(t+s)) - m(m^{-1}(t))) } \frac{[m(m^{-1}(t+s)) - m(m^{-1}(t))]^n}{n!} \\
+& = e^{ - (t + s - t) } \frac{(t + s - t)^n}{n!} \\
+& = e^{ - s } \frac{s^n}{n!} \\
+\end{align}
+$$
+
+This implies that $\forall s > 0$, $N(m^{-1}(t+s)) - N(m^{-1}(t+s))$ has the same distribution for all $t$, thus $N^\star$ has stationary increments.
+
+### Part 3 (Verifying Axiom 3 from Definition 1 of Homogeneous Poisson Distribution)
+As we saw earlier:
+$$
+P\{ N(m^{-1}(t+s)) - N(m^{-1}(t)) = n \} = 
+$$
+
+
 
 
 
