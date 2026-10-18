@@ -90,19 +90,17 @@ $$
 After distributing the $(\lambda h+1)$ inside the parenthesis we get:
 $$
 \begin{align}
-P\{ N(h) \geq 2 \} & = 1 + \left[-(1 + \lambda h) + (\lambda h)(1 + \lambda h) - \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right] \\
-& = 1 + \left[(1 + \lambda h) - (\lambda h)(1 + \lambda h) + \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right]
+P\{ N(h) \geq 2 \} & = 1 + \left[-(1 + \lambda h) + (\lambda h)(1 + \lambda h) - \frac{(\lambda h)^2}{2!}(1 + \lambda h) + \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right] \\ 
+& = 1 + \left[-1 - \lambda h + (\lambda h) + (\lambda h)^2 - \frac{(\lambda h)^2}{2!}(1 + \lambda h) + \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right] \\
+& = (\lambda h)^2 - \frac{(\lambda h)^2}{2!}(1 + \lambda h) + \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots
 \end{align}
-P\{ N(h) \geq 2 \} = 1 + \left[(1 + \lambda h) - (\lambda h)(1 + \lambda h) + \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right]
+$$
+Obtaining the limit as $h \to 0$
+$$
+\lim_{ h \to 0 } \left[\frac{1}{h}\left((\lambda h)^2 - \frac{(\lambda h)^2}{2!}(1 + \lambda h) + \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right)\right] = 0
 $$
 
-
-Analysing this, we can se that $1$ and $-1$ cancel each other and also $-(\lambda h)$ and $-(\lambda h)$ cancel each other, thus, we get:
-$$
-P\{ N(h) \geq 2 \} =  \left( (\lambda h)^2 - \frac{(\lambda h)^3}{2!} + \frac{(\lambda h)^4}{3!} + \cdots \right) + \left( - \frac{(\lambda h)^2}{2!} + \frac{(\lambda h)^3}{3!} + \cdots \right)
-$$
-
-Then, it is easy to see that:
+Showing that:
 $$
 P\{ N(h) \geq 2 \} = o(h)
 $$
@@ -142,7 +140,7 @@ $$
 
 Because $X_{k}, k\geq_{1}$ are independent, we can say:
 $$
-\mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ][e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
+\mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
 $$
 
 Now, lets obtain the Moment Generating Function of $X_{k}$. 
