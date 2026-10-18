@@ -5,7 +5,7 @@ $$
 P\{ N(0 + t) - N(0) = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
 
-Because of condition (i), we get:
+Because of axiom (i) of Definition 1, we get:
 $$
 P\{ N(t) - 0 = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
@@ -21,7 +21,7 @@ $$
 
 Using the exponential Taylor expansion, we get:
 $$
-P\{ N(t) = 1\} = e^{-\lambda t} \lambda t = \lambda t \left(1 - \lambda t + \frac{(\lambda t )^2}{2!} + \frac{(\lambda t )^3}{3!} + \cdots \right)
+P\{ N(t) = 1\} = e^{-\lambda t} \lambda t = \lambda t \left(1 - \lambda t + \frac{(\lambda t )^2}{2!} - \frac{(\lambda t )^3}{3!} + \cdots \right)
 $$
 $$
 P\{ N(t) = 1\} = \lambda t - (\lambda t)^2 + \frac{(\lambda t )^3}{2!} -\frac{(\lambda t )^4}{3!} + \cdots
@@ -36,7 +36,7 @@ $$
 \lim_{ x \to 0 }\left( \frac{f(x)}{x} \right) = \lim_{ x \to 0 } \left( - x + \frac{x^2}{2!} -\frac{x^3}{3!} + \cdots \right) = 0
 $$
 
-That is why we get condition (iii) of Definition 2
+That is why we get axiom (iii) of Definition 2
 $$
 P\{ N(t) = 1\} = \lambda t + o(t)
 $$
@@ -47,7 +47,7 @@ P\{ N(h) = 1\} = \lambda h + o(h)
 $$
 
 ### Part 2 (Obtaining $P\{ N(h) \geq 2 \}$)
-Let $s = 0$, then using the Definition 1 section (iii), we get:
+Let $s = 0$, then using the Definition 1 axiom (iii), we get:
 $$
 P\{ N(0 + t) - N(0) = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
@@ -523,10 +523,15 @@ $$
 This implies that $\forall s > 0$, $N(m^{-1}(t+s)) - N(m^{-1}(t+s))$ has the same distribution for all $t$, thus $N^\star$ has stationary increments.
 
 ### Part 3 (Verifying Axiom 3 from Definition 1 of Homogeneous Poisson Distribution)
-As we saw earlier:
+As it was seen in the **part 2.2** of this proof:
 $$
-P\{ N(m^{-1}(t+s)) - N(m^{-1}(t)) = n \} = 
+P\{ N^\star(t+s) - N^\star(t) = n \} = e^{ - s } \frac{s^n}{n!}
 $$
+
+Which implies that the number of events in any interval is poisson distributed with mean $\lambda s$ (in this case $\lambda = 1$), proving our result.
+
+
+
 
 
 
