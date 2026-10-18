@@ -378,7 +378,34 @@ Given the fact that at $N(0) = 0$, then we can assert that $N'(0) = 0$, that is,
 We know that the **counted events** from the interval $(t, t+s]$ relies on the number of events from the interval $(t, t+s]$, because the latter is independent to the number of events prior to $t$, then we can conclude that the counted events from the interval $(t, t+s]$ is also independent from the number of events prior to $t$.
 
 ### Part 3 (Verifying Axiom 3 from Definition N2)
-For this part we'll analyze the following probability $P\{ N'(t+s) - N(t) = n\}$, which can be seen as follows:
+For this part we'll analyze the following probability $P\{ N'(t+s) - N'(t) = n\}$, that is
+$$
+\begin{align}
+P\{ N'(t+s) - N'(t) = n\}  = &P\{ N'(t+s) - N'(t) = n, N(t+s) - N(t) = n\} + \\
+& P\{ N'(t+s) - N'(t) = n, N(t+s) - N(t) = n + 1\} + \\
+& P\{ N'(t+s) - N'(t) = n, N(t+s) - N(t) = n + 2\} + \\
+& \vdots
+\end{align}
+$$
+
+For easier writability, will write $N'(t+s) - N'(t) = n$ as $N'_{n}(t;t+s)$, that is:
+$$
+\begin{align}
+P\{ N'_{n}(t;t+s)\}  = &P\{ N'_{n}(t;t+s), N_{n}(t;t+s)\} + \\
+& P\{ N'_{n}(t;t+s), N_{n + 1}(t;t+s)\} + \\
+& P\{ N'_{n}(t;t+s), N_{n + 2}(t;t+s)\} + \\
+& \vdots
+\end{align}
+$$
+
+For the purpose of analyzing the behaviour of each line, well generalize it as follows:
+$$
+\begin{align}
+P\{ N'_{n}(t;t+s), N_{n + m}(t;t+s) \} & =  P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \} P\{ N_{n + m} (t;t+s) \} \\
+& =  {n + m\choose n} p^n (1-p)^m e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!}
+\end{align}
+$$
+
 
 
 
