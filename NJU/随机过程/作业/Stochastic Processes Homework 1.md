@@ -489,7 +489,16 @@ $$
 And the result is proven.
 
 ## Problem 7
+### Part 1 (Verifying Axiom 1 from Definition 2 of Homogeneous Poisson Distribution)
+For this, we have to prove that $N^{\star}(0) = N(m^{-1}(0))$.
 
+As seen in the **problem 6**, we showed how $m(0) = 0$, being easy to see that $m^{-1}(0) = 0$. By definition of the Non-Homogeneous Poisson Process, we know that $N(0) = 0$, hence $N^\star(0) = 0$.
+
+### Part 2 (Verifying Axiom 2 from Definition 2 of Homogeneous Poisson Distribution)
+#### Part 2.1 (Verifying Independent Increments)
+
+
+#### Part 2.2 (Verifying Stationary Increments)
 
 
 
