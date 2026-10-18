@@ -461,7 +461,34 @@ $$
 This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by definition of the homogeneous Poisson Process is $N^{\star}(m(0)) = 0$, which implies that $N(0) = 0$.
 
 ### Part 2 (Verifying Axiom 2 from Definition N2)
-We 
+Let $t'_{i} = m(t_{i})$ and $t'_{i - 1} = m(t_{i - 1})$, because $t_{i} > t_{i - 1}$ and $\lambda(t) > 0$, we know that $t'_{i} > t'_{i - 1}$.
+
+Now, we know that:
+$$
+N(t_{i}) - N(t_{i - 1})= N^\star(m(t_{i})) - N^\star(m(t_{i - 1})) = N^\star(t'_{i}) - N^\star(t'_{i-1})
+$$
+
+Since, by definition of homogeneous Poisson Process, $N^\star$ has independent increments over the disjoint intervals $(t'_{i}, t'_{i-1}]$, then $N$ also does.
+
+### Part 3 (Verifying Axiom 3 from Definition N2)
+We know that:
+$$
+P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s)) - N^\star(m(t)) = n \}
+$$
+
+By stationary increments of $N^\star$, we know that:
+$$
+P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s) - m(t)) = n \}
+$$
+
+This, can be rewritten as follows (considering that $\lambda = 1$)
+$$
+P\{ N(t + s) - N(t) = n \} = e^{ -(m(t + s) - m(t)) } \frac{(m(t + s) - m(t))^n}{n!}
+$$
+
+And the result is proven.
+
+## Problem 7
 
 
 
