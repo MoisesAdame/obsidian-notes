@@ -1,6 +1,9 @@
 ## Problem 1
-### Part 1 (Obtaining $P\{ N(h) = 1 \}$)
-Let $s = 0$, then using the Definition 1 condition (iii), we get:
+### Part 1 (Showing Increments are Stationary and Independent.)
+Following the *axiom (ii) of Definition 1*, we know that the **increments are independent**. Additionally, following axiom (iii) of Definition 1, we can see that number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$, which means that the **increments are stationary**.
+
+### Part 2 (Obtaining $P\{ N(h) = 1 \}$)
+Let $s = 0$, then using the *Definition 1 axiom (iii)*, we get:
 $$
 P\{ N(0 + t) - N(0) = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
@@ -36,18 +39,18 @@ $$
 \lim_{ x \to 0 }\left( \frac{f(x)}{x} \right) = \lim_{ x \to 0 } \left( - x + \frac{x^2}{2!} -\frac{x^3}{3!} + \cdots \right) = 0
 $$
 
-That is why we get axiom (iii) of Definition 2
+That is why we get
 $$
 P\{ N(t) = 1\} = \lambda t + o(t)
 $$
 
-If we change variables from $t = h$, then we get:
+If we change variables from $t = h$, then we get, matching the *axiom (iii) of Definition 2*.
 $$
 P\{ N(h) = 1\} = \lambda h + o(h)
 $$
 
-### Part 2 (Obtaining $P\{ N(h) \geq 2 \}$)
-Let $s = 0$, then using the Definition 1 axiom (iii), we get:
+### Part 3 (Obtaining $P\{ N(h) \geq 2 \}$)
+Let $s = 0$, then using the *Definition 1 axiom (iii)*, we get:
 $$
 P\{ N(0 + t) - N(0) = n\} = e^{-\lambda t} \frac{(\lambda t)^n}{n!}
 $$
@@ -62,13 +65,13 @@ $$
 
 Which would yield in
 $$
-P\{ N(h) \geq 2 \} = e^{-\lambda h} \frac{(\lambda t)^2}{2!} + e^{-\lambda h} \frac{(\lambda t)^3}{3!} + \cdots
+P\{ N(h) \geq 2 \} = e^{-\lambda h} \frac{(\lambda h)^2}{2!} + e^{-\lambda h} \frac{(\lambda h)^3}{3!} + \cdots
 $$
 $$
-P\{ N(h) \geq 2 \} = e^{-\lambda h} \left( \frac{(\lambda t)^2}{2!} +  \frac{(\lambda t)^3}{3!} + \cdots \right)
+P\{ N(h) \geq 2 \} = e^{-\lambda h} \left( \frac{(\lambda h)^2}{2!} +  \frac{(\lambda h)^3}{3!} + \cdots \right)
 $$
 
-Because of the Taylor Expansion of $e^{\lambda t}$, we know that:
+Because of the Taylor Expansion of $e^{\lambda h}$, we know that:
 
 $$
 P\{ N(h) \geq 2 \} = e^{-\lambda h} \left( e^{\lambda h} -\lambda h - 1\right)
@@ -86,10 +89,13 @@ $$
 
 After distributing the $(\lambda h+1)$ inside the parenthesis we get:
 $$
-P\{ N(h) \geq 2 \} = 1 + \left(-(\lambda h) + (\lambda h)^2 - \frac{(\lambda h)^3}{2!} + \frac{(\lambda h)^4}{3!} + \cdots \right) + \\
-
-\left(-1 + (\lambda h) - \frac{(\lambda h)^2}{2!} + \frac{(\lambda h)^3}{3!} + \cdots \right)
+\begin{align}
+P\{ N(h) \geq 2 \} & = 1 + \left[-(1 + \lambda h) + (\lambda h)(1 + \lambda h) - \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right] \\
+& = 1 + \left[(1 + \lambda h) - (\lambda h)(1 + \lambda h) + \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right]
+\end{align}
+P\{ N(h) \geq 2 \} = 1 + \left[(1 + \lambda h) - (\lambda h)(1 + \lambda h) + \frac{(\lambda h)^2}{2!}(1 + \lambda h) - \frac{(\lambda h)^3}{3!}(1 + \lambda h) + \cdots \right]
 $$
+
 
 Analysing this, we can se that $1$ and $-1$ cancel each other and also $-(\lambda h)$ and $-(\lambda h)$ cancel each other, thus, we get:
 $$
