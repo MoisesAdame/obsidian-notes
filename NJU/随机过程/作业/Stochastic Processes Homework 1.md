@@ -370,6 +370,18 @@ P(N(t+s) - N(t) = n) = e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}
 $$
 And the result is proven.
 
+## Problem 5
+### Part 1 (Verifying Axiom 1 from Definition N2)
+Given the fact that at $N(0) = 0$, then we can assert that $N'(0) = 0$, that is, due to the fact that there are no events at time 0, the events that can be counted are 0.
+
+### Part 2 (Verifying Axiom 2 from Definition N2)
+We know that the **counted events** from the interval $(t, t+s]$ relies on the number of events from the interval $(t, t+s]$, because the latter is independent to the number of events prior to $t$, then we can conclude that the counted events from the interval $(t, t+s]$ is also independent from the number of events prior to $t$.
+
+### Part 3 (Verifying Axiom 3 from Definition N2)
+For this part we'll analyze the following probability $P\{ N'(t+s) - N(t) = n\}$, which can be seen as follows:
+
+
+
 
 
 
