@@ -272,7 +272,7 @@ Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
 
 ## Problem 4
 ### Part 1 (Obtaining the Moment Generating Function of $N(t + h)$ using Definition 1)
-For the following problem, we'll analyze the Moment Generating Functions that can be obtained from the Definition 1 of the Non-Homogeneous Poisson Process, thus, let:
+For the following problem, we'll analyze the Moment Generating Functions that can be obtained from the Definition N1 of the Non-Homogeneous Poisson Process, thus, let:
 $$
 M_{t+h}(x) = \mathbb{E}[e^{xN(t+h)}]
 $$
