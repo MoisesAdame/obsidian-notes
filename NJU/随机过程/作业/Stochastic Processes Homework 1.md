@@ -138,7 +138,7 @@ $$
 M_{S_{n}}(t) = \mathbb{E}[e^{tS_{n}}] = \mathbb{E}[e^{t(X_{1} + X_{2} + \cdots X_{n})}] = \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ]
 $$
 
-Because $X_{k}, k\geq_{1}$ are independent, we can say:
+Because $X_{k}, k \in [n]$ are independent, we can say:
 $$
 \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
 $$
@@ -160,25 +160,20 @@ $$
 #### Part 2 (Obtain MGF of Gamma Distribution)
 As we know, the probability density function for the Gamma Distribution is the following:
 $$
-f_{X}(x) = \lambda e^{-\lambda x}\frac{(\lambda x)^{n-1}}{(n-1)!}
+f_{X}(x) = \frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}
 $$
 
 To obtain its Moment Generating Function:
 $$
-M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}e^{xt}\lambda e^{-\lambda x}\frac{(\lambda x)^{n-1}}{(n-1)!}dx
-$$
-
-We can manipulate the terms inside the integral, so the integral we have to solve is:
-$$
-\int_{0}^{\infty}e^{x t} \cdot \frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}dx
+M_{X}(t) = \mathbb{E}[e^{tX}] = \int_{0}^{\infty}e^{xt}\frac{\lambda^n x^{n-1}e^{-\lambda x}}{(n-1)!}dx
 $$
 
 Pulling out the constants and manipulating the inside of the integral, we get:
 $$
-\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{x (t-\lambda)} x^{n-1}dt
+\frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{x (t-\lambda)} x^{n-1}dx
 $$
 
-Letting $u = x(\lambda-t)$:
+Letting $u = x(\lambda-t)$, having m:
 $$
 \frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{-u} \left( \frac{u}{\lambda-t} \right)^{n-1} \frac{du}{\lambda - t}
 $$
@@ -193,9 +188,9 @@ $$
 \Gamma(n) = \int_{0}^{\infty}t^{n-1}e^{-t}dt
 $$
 
-This leads that the MGF of the gamma distribution is:
+Given that $\Gamma(n) = (n-1)!$, the MGF of the gamma distribution is:
 $$
-M_{X}(t) = \frac{\lambda^n}{(n-1)!} \Gamma(n) = \left(\frac{\lambda}{\lambda-t}\right)^n
+M_{X}(t) = \frac{\lambda^n}{(n-1)! (\lambda-t)^n} \Gamma(n) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
 
 Because the property of **uniqueness if the Moment Generating Functions** we can say that $S_{n}$ has a gamma distribution with parameters $n$ and $\lambda$, because:
