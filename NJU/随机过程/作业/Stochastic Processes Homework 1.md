@@ -143,12 +143,19 @@ $$
 \mathbb{E}[e^{tX_{1}} e^{tX_{2}} \cdots e^{tX_{n}} ] = \mathbb{E}[e^{tX_{1}}]\mathbb{E}[e^{tX_{2}}] \cdots \mathbb{E}[e^{tX_{n}}]
 $$
 
-Now, lets obtain the Moment Generating Function of $X_{k}$. 
+Now, let's obtain the Moment Generating Function of $X_{k}$. 
 $$
-M_{X_{k}}(t) = \mathbb{E}[e^{tX_{k}}] = \int_{0}^{\infty}e^{tx}\lambda e^{-\lambda x}dx = \lambda \int_{0}^{\infty}e^{x(t-\lambda)}
-dx = \frac{\lambda}{t-\lambda}e^{x(t-\lambda)} \Big|_{0}^\infty$$
+\begin{align}
+M_{X_{k}}(t) & = \mathbb{E}[e^{tX_{k}}]  \\
+& = \int_{0}^{\infty}e^{tx}\lambda e^{-\lambda x}dx  \\
+& = \lambda \int_{0}^{\infty}e^{x(t-\lambda)}dx  \\
+& = \frac{\lambda}{t-\lambda}e^{x(t-\lambda)} \Big|_{0}^\infty \\
+& = \frac{\lambda}{t-\lambda}\left(\lim_{ x \to \infty } (e^{x(t-\lambda)}) - e^{0} \right)  \\
+& = \frac{\lambda}{t-\lambda}\left(\lim_{ x \to \infty } (e^{x(t-\lambda)}) - e^{0} \right)  \\
+\end{align}
+$$
 
-For the following to converge we need $t < \lambda$, that way, we have:
+For the previous limit to converge we need $t < \lambda$, that way, we have:
 $$
 M_{X_{k}}(t) = \frac{\lambda}{t - \lambda} (0 - 1) = \frac{\lambda}{\lambda - t}
 $$
@@ -173,7 +180,7 @@ $$
 \frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{x (t-\lambda)} x^{n-1}dx
 $$
 
-Letting $u = x(\lambda-t)$, having m:
+Letting $u = x(\lambda-t)$, having $t < \lambda$:
 $$
 \frac{\lambda^n}{(n-1)!}\int_{0}^{\infty}e^{-u} \left( \frac{u}{\lambda-t} \right)^{n-1} \frac{du}{\lambda - t}
 $$
@@ -190,7 +197,11 @@ $$
 
 Given that $\Gamma(n) = (n-1)!$, the MGF of the gamma distribution is:
 $$
-M_{X}(t) = \frac{\lambda^n}{(n-1)! (\lambda-t)^n} \Gamma(n) = \left(\frac{\lambda}{\lambda-t}\right)^n
+\begin{align}
+M_{X}(t) & = \frac{\lambda^n}{(n-1)! (\lambda-t)^n} \Gamma(n)  \\
+& = \frac{\lambda^n (n-1)!}{(n-1)! (\lambda-t)^n} \\
+& = \left(\frac{\lambda}{\lambda-t}\right)^n
+\end{align}
 $$
 
 Because the property of **uniqueness if the Moment Generating Functions** we can say that $S_{n}$ has a gamma distribution with parameters $n$ and $\lambda$, because:
@@ -198,7 +209,7 @@ $$
 M_{S_{n}}(t) = M_{X}(t) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
 
-## Problem 3 (Independent Poisson Process)
+## Problem 3
 For this proof, we will use the first Definition of a Poisson Process, each part of the proof will consist on verifying each of the three conditions stablished by the definition
 
 ### Part 1 (N(0) = 0)
@@ -220,7 +231,7 @@ $$
 
 Now, because by definition $N_{i}(t_{k+1}) - N_{i}(t_{k})$ where $i \in \{ 1, 2, \dots, n \}$ is independent and $N_{i}$, $N_{j}$ where $i \neq j$ are independent, then the vector of increments $[N_{1}(t_{k + 1}) - N_{1}(t_{k}), \dots, N_{n}(t_{k + 1}) - N_{n}(t_{k})]$ is independent of any previous increments.
 
-Since $N(t_{k+1}) - N(t_{k})$ is the sum of the components of the vector presented above, then $N(t_{k+1}) - N(t_{k})$ is independent of the past increments for all $k \in \mathbb{N}$.x|x
+Since $N(t_{k+1}) - N(t_{k})$ is the sum of the components of the vector presented above, then $N(t_{k+1}) - N(t_{k})$ is independent of the past increments for all $k \in \mathbb{N}$.
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
@@ -249,7 +260,7 @@ $$
 
 Given that we know that the multinomial theorem has this form:
 $$
-(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})^{a} = \sum_{a_{1} + a_{2} + \cdots + a_{n} = a} \frac{a!}{a_{1}! a_{2}! \cdots a_{n!}} \lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}
+(\lambda_{1} + \lambda_{2} + \cdots + \lambda_{n})^{a} = \sum_{a_{1} + a_{2} + \cdots + a_{n} = a} \frac{a!}{a_{1}! a_{2}! \cdots a_{n}!} \lambda_{1}^{a_{1}}\lambda_{2}^{a_{2}} \cdots \lambda_{n}^{a_{n}}
 $$
 
 Then:
