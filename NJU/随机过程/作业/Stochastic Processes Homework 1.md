@@ -538,6 +538,7 @@ Often Artificial Intelligence models process streams of data that are continuous
 That is why a Poisson Process can be helpful to model the number and timing of these outlier events.
 
 #### 2. Example in an AI Scenario
+#### 2.1 Homogeneous Poisson Process
 Let's suppose we have an AI model that monitors a stream of data from industrial sensors and flags unusual readings as the outliers. In normal conditions, the model detects an average of 11 outliers per minute.
 
 Thus, we can assume that the outlier events follow a Poisson Process whose rate is $\lambda = 11$ per minute.
@@ -559,7 +560,13 @@ P\{ N(1) \geq 50 \} & = 1 - P\{ N(1) < 50 \}  \\
 \end{align}
 $$
 
+This means that for the model to detect 50 or more outlier events in one minute is very unlikely under the assumed normal conditions.
 
+#### 2.2 Non-Homogeneous Poisson Process
+In a real AI system, the rate of outliers perhaps may not always be constant. Let's say for example that an AI model that monitors industrial sensors may detect more outliers when the machinery is under a very heavy loads. In that case we can apply **Non-Homogeneous Poisson Process**, due to the fact that the rate changes over time, in that sense, let the instantaneous outlier rate be:
+$$
+
+$$
 
 
 
