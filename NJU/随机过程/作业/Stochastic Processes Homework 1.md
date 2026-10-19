@@ -565,9 +565,37 @@ This means that for the model to detect 50 or more outlier events in one minute 
 #### 2.2 Non-Homogeneous Poisson Process
 In a real AI system, the rate of outliers perhaps may not always be constant. Let's say for example that an AI model that monitors industrial sensors may detect more outliers when the machinery is under a very heavy loads. In that case we can apply **Non-Homogeneous Poisson Process**, due to the fact that the rate changes over time, in that sense, let the instantaneous outlier rate be:
 $$
+\lambda(t) = 11t +3
+$$
+where $t$ is measured in minutes and $\lambda(t)$ is measured in outliers per minute.
 
+In that case if we want to calculate the probability of having no outliers between the minutes $t_{1} = 5$ and $t_{2} = 10$, we just have to apply the **definition N2 of the Non-Homogeneous Poisson Process**, which basically tells us that:
+$$
+P\{ N(t+s) - N(t) = n \} = e^{ -[m(t+s) - m(t)] } \frac{(m(t+s) - m(t))^n}{n!}
 $$
 
+where $m(t) = \int_{0}^t\lambda(x)dx$. 
+
+For this, we first have to obtain $m(t+s) - m(t)$, which can be obtained as follows:
+$$
+\begin{align}
+m(10) - m(5) & = \int_{0}^{10}(11x + 3) dx - \int_{0}^{5}(11x + 3)dx \\
+& = \int_{5}^{10}(11x + 3) dx \\
+& = \frac{11x^2}{2} + 3x \Big|_{5}^{10} \\
+& = 427.5
+\end{align}
+$$
+
+Thus the expected number of outliers between these two moments is $427.5$.
+
+Now, calculating the probability of having no outliers between the minutes $t_{1} = 5$ and $t_{2} = 10$, we just have to plug in $m(10) - m(5) = 427.5$ and $n = 0$, which leads to:
+$$
+\begin{align}
+P\{ N(10) - N(5) = 0 \} & = e^{ -427.5 } \frac{42.5^0}{0!} \\
+& = e^{ -427.5 }
+\end{align}
+
+$$
 
 
 
