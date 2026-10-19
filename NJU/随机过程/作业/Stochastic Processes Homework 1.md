@@ -351,33 +351,20 @@ $$
 \mathbb{E}[e^{ x [N(t + s) - N(t)] }] = e^{(e^x - 1)[m(t + s) - m(t)]}
 $$
 
-### Part 2 (Obtaining the Moment Generating Function of $N(t+s) - N(t)$)
-We know that the Moment Generating Function of a Poisson random variable $Y$ with mean $$
-
-
-
-
-As we know $P\{ N(t+s) - N(t) = n\}=e^-{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}$, so applying the definition of the Moment Generating Function, we get:
+### Part 2 (Proving $N(t+s) - N(t)$ is Poisson distributed)
+We know that the Moment Generating Function of a Poisson random variable $Y$ with mean $\Delta$ is:
 $$
-\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^i}{i!}
+M_{Y}(x) = \mathbb{E}[e^{ xY }] = e^{ \Delta(e^{ x } - 1) }
 $$
 
-For the sake of simplicity, let $\Delta = m(t+s) - m(t)$
+From Part 1, we established that the MGF of the increment $N(t+s) - N(t)$ is:
 $$
-\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-\Delta} \frac{\Delta^i}{i!} = \sum_{i = 0}^\infty e^{-\Delta} \frac{(\Delta e^x)^i}{i!} = e^{-\Delta}\sum_{i = 0}^\infty  \frac{(\Delta e^x)^i}{i!}
-$$
-
-Using the Taylor expansion for $e^x$, we get
-$$
-\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{-\Delta} e^{\Delta e^{ x }} = e^{\Delta (e^x - 1)}
+\mathbb{E}[e^{ x [N(t + s) - N(t)] }] = e^{(e^x - 1)[m(t + s) - m(t)]}
 $$
 
-Rewriting the expression using $\Delta = m(t+s) - m(t)$
-$$
-\mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{(m(t+s) - m(t)) (e^x - 1)}
-$$
+Notice that this takes the exact form of the Poisson MGF with mean $\Delta = m(t+s) - m(t)$
 
-Finally, because the property of **uniqueness of the Moment Generating Functions** we can say that the random variable $N(t+s)−N(t)$ follows a Poisson distribution with mean $m(t+s)−m(t)$, therefore, the probability mass function is:
+Finally, because the property of **uniqueness of the Moment Generating Functions** we can say that the random variable $N(t+s)−N(t)$ follows a Poisson with mean  $m(t+s) - m(t)$ distribution with mean $m(t+s)−m(t)$, therefore, the probability mass function is:
 $$
 P(N(t+s) - N(t) = n) = e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}
 $$
@@ -412,7 +399,7 @@ P\{ N'_{n}(t;t+s)\}  = &P\{ N'_{n}(t;t+s), N_{n}(t;t+s)\} + \\
 \end{align}
 $$
 
-For the purpose of analyzing the behaviour of each line, will generalize it as follows:
+For the purpose of analyzing the behavior of each line, will generalize it as follows:
 $$
 P\{ N'_{n}(t;t+s), N_{n + m}(t;t+s) \} =  P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \} P\{ N_{n + m} (t;t+s) \} 
 $$
@@ -422,7 +409,7 @@ $$
 P\{ N_{n + m} (t;t+s) \} = e^{- \lambda s} \frac{(\lambda s)^{n +m}}{(n + m)!}
 $$
 
-For the other part, in order to calculate $P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \}$ the probability of counting one event inside our interval $(t, t+s]$. Because we know events are uniformly distributed over the interval and additionally, an event at time $y$ is counted with a probability of $\frac{\lambda(y)}{\lambda}$, then, the probability it gets counted is:
+For the other part, in order to calculate $P\{ N'_{n}(t;t+s)| N_{n + m} (t;t+s) \}$ the probability of counting one event inside our interval $(t, t+s]$. For this, we have to use the fact that we have $N(t+s) - N(t) = n + m$ events, whose arrival times are the random variables $Y_{1}, Y_{2}, \dots, Y_{n+m}$, which are i.i.d over the interval $(t, t+s]$, that is why the probability that any specific event is counted is:
 $$
 p = \int_{t}^{t+s} \frac{1}{s} \frac{\lambda(y)}{\lambda}dy = \frac{m(t+s) - m(t)}{s \lambda}
 $$
@@ -472,7 +459,7 @@ $$
 m(0) = \int_{0}^{0} \lambda(x)dx = 0
 $$
 
-This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by definition of the homogeneous Poisson Process is $N^{\star}(m(0)) = 0$, which implies that $N(0) = 0$.
+This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by definition of the homogeneous Poisson Process is $N^{\star}(0) = 0$, implying that $N(0) = 0$.
 
 ### Part 2 (Verifying Axiom 2 from Definition N2)
 Let $t'_{i} = m(t_{i})$ and $t'_{i - 1} = m(t_{i - 1})$, because $t_{i} > t_{i - 1}$ and $\lambda(t) > 0$, we know that $t'_{i} > t'_{i - 1}$.
