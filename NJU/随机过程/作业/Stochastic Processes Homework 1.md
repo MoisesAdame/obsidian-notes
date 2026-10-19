@@ -540,6 +540,25 @@ That is why a Poisson Process can be helpful to model the number and timing of t
 #### 2. Example in an AI Scenario
 Let's suppose we have an AI model that monitors a stream of data from industrial sensors and flags unusual readings as the outliers. In normal conditions, the model detects an average of 11 outliers per minute.
 
+Thus, we can assume that the outlier events follow a Poisson Process whose rate is $\lambda = 11$ per minute.
+
+Now let's say that 50 or more outlier events in one minute can be considered as an abnormal change in the incoming data. To calculate the probability of this happening
+
+For example, if we want to calculate the probability that the model detects 50 or more outlier events in one minute (this might be considered as an abnormal change in the incoming data), then:
+$$
+P\{ N(t + 1) - N(t) \geq 50 \}
+$$
+
+Given the fact that what we are modeling is a **Homogeneous Poisson Process**, then, due to stationary increments, our previous equation would yield in:
+$$
+\begin{align}
+P\{ N(1) \geq 50 \} & = 1 - P\{ N(1) < 50 \}  \\
+& = 1 - \sum_{i = 0}^{49}e^{-(11 * 1)} \frac{(11 * 1)^{i}}{i!}\\
+& \approx 1 - 0.999 \\
+& \approx 0.001 \\
+\end{align}
+$$
+
 
 
 
