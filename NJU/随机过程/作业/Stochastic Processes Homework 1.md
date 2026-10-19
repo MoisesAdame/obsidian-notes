@@ -531,7 +531,14 @@ $$
 Which implies that the number of events in any interval is poisson distributed with mean $\lambda s$ (in this case $\lambda = 1$), proving our result.
 
 ## Problem 8
-### 
+### Using a Poisson Process to Monitor Outliers in an AI Data Stream
+#### 1. Introduction
+Often Artificial Intelligence models process streams of data that are continuous, such as user activity or sensor readings. Some observations may not be common, and that is where outliers come into play. Depending on the situation, a sudden increase in the number of outliers may indicate things such as a potential security threat or a sensor malfunction.
+
+That is why a Poisson Process can be helpful to model the number and timing of these outlier events.
+
+#### 2. Example in an AI Scenario
+Let's suppose we have an AI model that monitors a stream of data from industrial sensors and flags unusual readings as the outliers. In normal conditions, the model detects an average of 11 outliers per minute.
 
 
 
