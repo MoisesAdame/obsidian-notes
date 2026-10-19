@@ -1,6 +1,8 @@
 **学生：** Moisés Adame Aguilar
 **学号：** 522026375001
 
+sss
+
 ## Problem 1
 ### Part 1 (Showing Increments are Stationary and Independent.)
 Following the *axiom (ii) of Definition 1*, we know that the **increments are independent**. Additionally, following axiom (iii) of Definition 1, we can see that number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$, which means that the **increments are stationary**.

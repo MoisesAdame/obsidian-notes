@@ -197,18 +197,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "aosr:Aosr": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
-      "bases:Create new base": false,
-      "aosr:Aosr": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "bases:Create new base": false
     }
   },
   "active": "2014988b4d5bd1f8",
