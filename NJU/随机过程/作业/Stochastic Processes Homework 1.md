@@ -610,13 +610,20 @@ $$
 For instance, calculating the probability of detecting $k = 50$ or more outliers, which result in:
 $$
 \begin{align}
-P\{ N(10) - N(5) \geq 50 \} & = 1 - \sum_{i = 0}^{k - 1}e^{ -427.5 } \frac{42.5^i}{i!} \\
-& = 1
+P\{ N(10) - N(5) \geq 50 \} & = 1 - \sum_{i = 0}^{50 - 1}e^{ -427.5 } \frac{42.5^i}{i!} \\
+& \approx 0.999
 \end{align}
-
 $$
 
+Meaning that it is very likely for the system  to encounter more than 50 outlier events between the minutes $t_{1} = 5$ and $t_{2} = 10$.
+
 #### 3. Applications
+As we saw previously, either considering a **constant** rate of outlier events per minute $\lambda$ or a **variable** rate $\lambda(t)$, this AI monitoring system could use the probabilities to establish an **alert threshold**, which means that if our system surpasses a given amount of detected outliers in one minute (for the constant rate) or in a given period of time (for the variable rate), the system could raise an alert for undesirable behavior.
+
+It is important to establish that this approach does not identify the outliers, and instead, it helps monitor their frequency and whether their occurrence has exceeded the expectations becoming unusually high.
+
+#### 4. Assumptions and Limitations
+
 
 
 
