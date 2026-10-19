@@ -1,7 +1,6 @@
 **学生：** Moisés Adame Aguilar
 **学号：** 522026375001
 
-sss
 
 ## Problem 1
 ### Part 1 (Showing Increments are Stationary and Independent.)
