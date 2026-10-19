@@ -1,3 +1,4 @@
+
 ## Problem 1
 ### Part 1 (Showing Increments are Stationary and Independent.)
 Following the *axiom (ii) of Definition 1*, we know that the **increments are independent**. Additionally, following axiom (iii) of Definition 1, we can see that number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$, which means that the **increments are stationary**.
@@ -29,6 +30,7 @@ $$
 $$
 P\{ N(t) = 1\} = \lambda t - (\lambda t)^2 + \frac{(\lambda t )^3}{2!} -\frac{(\lambda t )^4}{3!} + \cdots
 $$
+
 Let 
 $$
 f(x) = - x^2 + \frac{x^3}{2!} -\frac{x^4}{3!} + \cdots
@@ -104,6 +106,7 @@ Showing that:
 $$
 P\{ N(h) \geq 2 \} = o(h)
 $$
+
 
 ## Problem 2
 ### Solution 1 ($P\{ N(t) \geq n \} = P\{ S_{n}  \leq t\}$)
@@ -235,12 +238,13 @@ Since $N(t_{k+1}) - N(t_{k})$ is the sum of the components of the vector present
 
 ### Part 3 (The number of events in any interval of length $t$ is Poisson distributed with mean $\lambda t$)
 $$
-P\{ N(s + t) - N(s) = a\} = P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
+P\{ N(s + t) - N(s) = a\} = \\
+P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\}
 $$
 
 Now, let $a = \sum_{i = 1}^{n} a_{i}$, so we can say:
 $$
-P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\} = \sum _{a_{1} + a_{2} + \cdots + a_{n} = a}P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}, \dots, (N_{n}(s + t) - N_{n}(s))= a_{n}\} 
+P\{ (N_{1}(s + t) - N_{1}(s)) + \cdots + (N_{n}(s + t) - N_{n}(s))= a\} = \\ \sum _{a_{1} + a_{2} + \cdots + a_{n} = a}P\{ (N_{1}(s + t) - N_{1}(s)) = a_{1}, \dots, (N_{n}(s + t) - N_{n}(s))= a_{n}\} 
 $$
 
 By independence, we can say:
