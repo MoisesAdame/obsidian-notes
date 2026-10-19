@@ -564,7 +564,7 @@ Given the fact that what we are modeling is a **Homogeneous Poisson Process**, t
 $$
 \begin{align}
 P\{ N(1) \geq 50 \} & = 1 - P\{ N(1) < 50 \}  \\
-& = 1 - \sum_{i = 0}^{49}e^{-(11 * 1)} \frac{(11 * 1)^{i}}{i!}\\
+& = 1 - \sum_{i = 0}^{49} e^{-(11 * 1)} \frac{(11 * 1)^{i}}{i!}\\
 & \approx 1 - 0.999 \\
 & \approx 0.001 \\
 \end{align}
