@@ -469,7 +469,7 @@ $$
 N(t_{i}) - N(t_{i - 1})= N^\star(m(t_{i})) - N^\star(m(t_{i - 1})) = N^\star(t'_{i}) - N^\star(t'_{i-1})
 $$
 
-Since, $m(t)$ as it was shown earlier is non-decreasing, disjoint intervals in $t$ map to disjoint intervals in $t'$. That is to say, if $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{j}]$ are disjoint, then $(m()t_{i-1}, t_{i}]$ and $(m(t_{j-1}), m(t_{j})]$ are also disjoint. Because of this, and due to the fact that $N^\star$ by *definition of the homogeneous Poisson Process*, is independent over disjoint intervals, then, $N(t)$ has independent increments. 
+Since, $m(t)$ as it was shown earlier is non-decreasing, disjoint intervals in $t$ map to disjoint intervals in $t'$. That is to say, if $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{j}]$ are disjoint, then $(m(t_{i-1}), m(t_{i})]$ and $(m(t_{j-1}), m(t_{j})]$ are also disjoint. Because of this, and due to the fact that $N^\star$ by *definition of the homogeneous Poisson Process*, is independent over disjoint intervals, then, $N(t)$ has independent increments. 
 
 ### Part 3 (Verifying Axiom 3 from Definition N2)
 We know that:
@@ -477,8 +477,7 @@ $$
 P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s)) - N^\star(m(t)) = n \}
 $$
 
-Because by definition of the homogeneous poisson process $N^\star$ has has stationary increments, the distribution of $N(a) - N(b)$ only depends on the length $a - b$. That is why $N^\star(m(t + s)) - N^\star(m(t))$ has the same distribution as $N^\star(m(t + s) - m(t))$
-By stationary increments of $N^\star$, we know that:
+Because by *definition of the homogeneous Poisson Process* $N^\star$ has stationary increments, the distribution of $N^\star(a) - N^\star(b)$ only depends on the length $a - b$. That is why $N^\star(m(t + s)) - N^\star(m(t))$ has the same distribution as $N^\star(m(t + s) - m(t))$. Therefore we can write:
 $$
 P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s) - m(t)) = n \}
 $$
@@ -494,7 +493,7 @@ And the result is proven.
 ### Part 1 (Verifying Axiom 1 from Definition 1 of Homogeneous Poisson Distribution)
 For this, we have to prove that $N^{\star}(0) = N(m^{-1}(0))$.
 
-As seen in the **problem 6**, we showed how $m(0) = 0$, being easy to see that $m^{-1}(0) = 0$. By definition of the Non-Homogeneous Poisson Process, we know that $N(0) = 0$, hence $N^\star(0) = 0$.
+As seen in the **problem 6**, we showed how $m(0) = 0$, being easy to see that $m^{-1}(0) = 0$. By *definition N2*, we know that $N(0) = 0$, hence $N^\star(0) = 0$.
 
 ### Part 2 (Verifying Axiom 2 from Definition 1 of Homogeneous Poisson Distribution)
 #### Part 2.1 (Verifying Independent Increments)
@@ -502,8 +501,11 @@ Given $t_{0} < t_{1} < t_{2} < \cdots < t_{n}$, as we showed in the previous pro
 
 Now, we can say that:
 $$
-N^\star(t_{i}) - N^\star(t_{i-1}) = N(m^{-1}(t_{i})) - N(m^{-1}(t_{i-1})
+N^\star(t_{i}) - N^\star(t_{i-1}) = N(m^{-1}(t_{i})) - N(m^{-1}(t_{i-1}))
 $$
+Given the fact that is $m^{-1}$ is increasing the, we can say that given the disjoint intervals $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{i}]$
+
+
 
 By **definition N2**, we can say that because $N$ has independent increments over the disjoint intervals $(m^{-1}(t_{i}), m^{-1}(t_{i-1}]$, then $N^\star$ also does.
 
@@ -522,7 +524,7 @@ P\{ N(m^{-1}(t+s)) - N(m^{-1}(t)) = n \} & = e^{ - (m(m^{-1}(t+s)) - m(m^{-1}(t)
 \end{align}
 $$
 
-This implies that $\forall s > 0$, $N(m^{-1}(t+s)) - N(m^{-1}(t+s))$ has the same distribution for all $t$, thus $N^\star$ has stationary increments.
+This implies that $\forall s > 0$, $N(m^{-1}(t+s)) - N(m^{-1}(t))$ has the same distribution for all $t$, which in other words, means that the distribution is dependent only on $s$, thus $N^\star$ has stationary increments.
 
 ### Part 3 (Verifying Axiom 3 from Definition 1 of Homogeneous Poisson Distribution)
 As it was seen in the **part 2.2** of this proof:
