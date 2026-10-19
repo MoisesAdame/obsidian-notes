@@ -459,7 +459,7 @@ $$
 m(0) = \int_{0}^{0} \lambda(x)dx = 0
 $$
 
-This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by definition of the homogeneous Poisson Process is $N^{\star}(0) = 0$, implying that $N(0) = 0$.
+This means that $N^{\star}(m(0)) = N^{\star}(0)$, which by *definition of the homogeneous Poisson Process* is $N^{\star}(0) = 0$, implying that $N(0) = 0$.
 
 ### Part 2 (Verifying Axiom 2 from Definition N2)
 Let $t'_{i} = m(t_{i})$ and $t'_{i - 1} = m(t_{i - 1})$, because $t_{i} > t_{i - 1}$ and $\lambda(t) > 0$, we know that $t'_{i} > t'_{i - 1}$.
@@ -469,7 +469,7 @@ $$
 N(t_{i}) - N(t_{i - 1})= N^\star(m(t_{i})) - N^\star(m(t_{i - 1})) = N^\star(t'_{i}) - N^\star(t'_{i-1})
 $$
 
-Since, by definition of homogeneous Poisson Process, $N^\star$ has independent increments over the disjoint intervals $(t'_{i}, t'_{i-1}]$, then $N$ also does.
+Since, $m(t)$ as it was shown earlier is non-decreasing, disjoint intervals in $t$ map to disjoint intervals in $t'$. That is to say, if $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{j}]$ are disjoint, then $(m()t_{i-1}, t_{i}]$ and $(m(t_{j-1}), m(t_{j})]$ are also disjoint. Because of this, and due to the fact that $N^\star$ by *definition of the homogeneous Poisson Process*, is independent over disjoint intervals, then, $N(t)$ has independent increments. 
 
 ### Part 3 (Verifying Axiom 3 from Definition N2)
 We know that:
@@ -477,6 +477,7 @@ $$
 P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s)) - N^\star(m(t)) = n \}
 $$
 
+Because by definition of the homogeneous poisson process $N^\star$ has has stationary increments, the distribution of $N(a) - N(b)$ only depends on the length $a - b$. That is why $N^\star(m(t + s)) - N^\star(m(t))$ has the same distribution as $N^\star(m(t + s) - m(t))$
 By stationary increments of $N^\star$, we know that:
 $$
 P\{ N(t + s) - N(t) = n \} = P\{ N^\star(m(t + s) - m(t)) = n \}
