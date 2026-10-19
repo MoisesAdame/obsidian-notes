@@ -1,3 +1,5 @@
+**学生：** Moisés Adame Aguilar
+**学号：** 522026375001
 
 ## Problem 1
 ### Part 1 (Showing Increments are Stationary and Independent.)
@@ -212,6 +214,7 @@ $$
 M_{S_{n}}(t) = M_{X}(t) = \left(\frac{\lambda}{\lambda-t}\right)^n
 $$
 
+
 ## Problem 3
 For this proof, we will use the first Definition of a Poisson Process, each part of the proof will consist on verifying each of the three conditions stablished by the definition
 
@@ -273,6 +276,7 @@ $$
 $$
 
 Obtaining a Poisson Distribution whose rate is $\sum_{i = 1}^{n} \lambda_{i}$
+
 
 ## Problem 4
 ### Part 1 (Obtaining the Moment Generating Function of $N(t + h)$ using Definition 1)
@@ -375,6 +379,7 @@ $$
 
 And the result is proven.
 
+
 ## Problem 5
 ### Part 1 (Verifying Axiom 1 from Definition N2)
 Given the fact that at $N(0) = 0$, then we can assert that $N'(0) = 0$, that is, due to the fact that there are no events at time 0, the events that can be counted are 0.
@@ -454,6 +459,7 @@ $$
 
 And the result is proven.
 
+
 ## Problem 6
 ### Part 1 (Verifying Axiom 1 from Definition N2)
 For this, we have to prove that $N(0) = N^{\star}(m(0))$.
@@ -492,6 +498,7 @@ P\{ N(t + s) - N(t) = n \} = e^{ -(m(t + s) - m(t)) } \frac{(m(t + s) - m(t))^n}
 $$
 
 And the result is proven.
+
 
 ## Problem 7
 ### Part 1 (Verifying Axiom 1 from Definition 1 of Homogeneous Poisson Distribution)
@@ -533,6 +540,7 @@ P\{ N^\star(t+s) - N^\star(t) = n \} = e^{ - s } \frac{s^n}{n!}
 $$
 
 Which implies that the number of events in any interval is poisson distributed with mean $\lambda s$ (in this case $\lambda = 1$), proving our result.
+
 
 ## Problem 8
 ### Using a Poisson Process to Monitor Outliers in an AI Data Stream
