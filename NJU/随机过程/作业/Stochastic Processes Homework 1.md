@@ -305,20 +305,20 @@ $$
 \lim_{ h \to 0 } \left(\frac{M_{t+h}(x) - M_{t}(x)}{h}\right) = \lim_{ h \to 0 } \left(- M_{t}(x)\lambda(t) + e^x \lambda(t) M_{t}(x) + \frac{o(h)}{h} M_{t}(x)\right)
 $$
 $$
-M'_{t}(x) = - M_{t}(x)\lambda(t) + e^x \lambda(t) M_{t}(x) 
+\frac{\partial M_{t}(x)}{\partial t} = - M_{t}(x)\lambda(t) + e^x \lambda(t) M_{t}(x) 
 $$
 
 Having to solve the following differential equation:
 $$
-\frac{M'_{t}(x)}{M_{t}(x)} = e^x\lambda(t) - \lambda(t) = \lambda(t) (e^x - 1)
+\frac{1}{M_{t}(x)} \frac{\partial M_{t}(x)}{\partial t} = e^x\lambda(t) - \lambda(t) = \lambda(t) (e^x - 1)
 $$
 
 Integrating both sides with respect to $t$.
 $$
-\int_{0}^t \frac{M'_{t}(x)}{M_{t}(x)}dt = \int_{0}^t\lambda(t) (e^x - 1)dt
+\int_{0}^t \frac{1}{M_{t}(x)} \frac{\partial M_{t}(x)}{\partial t} dt = \int_{0}^t\lambda(t) (e^x - 1)dt
 $$
 
-Letting $m(t) = \int_{0}^t \lambda(t)$.
+Letting $m(t) = \int_{0}^t \lambda(x)dx$.
 $$
 \ln[M_{t}(x)] \Big|_{0}^t = (e^x - 1)m(t)
 $$
@@ -328,7 +328,7 @@ $$
 
 Using the first condition of the definition, we know that:
 $$
-\ln[\mathbb{E}[e^{xN(t)}]] = (e^x - 1)m(t)
+\ln[\mathbb{E}[e^{xN(t)}]] -  \ln[\mathbb{E}[e^0]] = (e^x - 1)m(t)
 $$
 
 By manipulating the expression, we get that:
