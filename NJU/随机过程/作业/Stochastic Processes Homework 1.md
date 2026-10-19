@@ -533,7 +533,7 @@ Which implies that the number of events in any interval is poisson distributed w
 ## Problem 8
 ### Using a Poisson Process to Monitor Outliers in an AI Data Stream
 #### 1. Introduction
-Often Artificial Intelligence models process streams of data that are continuous, such as user activity or sensor readings. Some observations may not be common, and that is where outliers come into play. Depending on the situation, a sudden increase in the number of outliers may indicate things such as a potential security threat or a sensor malfunction.
+Often Artificial Intelligence models process continuous streams of data, such as user activity or sensor readings. Some observations may not be common, and that is where outliers come into play. Depending on the situation, a sudden increase in the number of outliers may indicate things such as a potential security threat or a sensor malfunction.
 
 That is why a Poisson Process can be helpful to model the number and timing of these outlier events.
 
@@ -542,8 +542,6 @@ That is why a Poisson Process can be helpful to model the number and timing of t
 Let's suppose we have an AI model that monitors a stream of data from industrial sensors and flags unusual readings as the outliers. In normal conditions, the model detects an average of 11 outliers per minute.
 
 Thus, we can assume that the outlier events follow a Poisson Process whose rate is $\lambda = 11$ per minute.
-
-Now let's say that 50 or more outlier events in one minute can be considered as an abnormal change in the incoming data. To calculate the probability of this happening
 
 For example, if we want to calculate the probability that the model detects 50 or more outlier events in one minute (this might be considered as an abnormal change in the incoming data), then:
 $$
@@ -591,7 +589,7 @@ Thus the expected number of outliers between these two moments is $427.5$.
 Now, calculating the probability of having no outliers between the minutes $t_{1} = 5$ and $t_{2} = 10$, we just have to plug in $m(10) - m(5) = 427.5$ and $n = 0$, which leads to:
 $$
 \begin{align}
-P\{ N(10) - N(5) = 0 \} & = e^{ -427.5 } \frac{42.5^0}{0!} \\
+P\{ N(10) - N(5) = 0 \} & = e^{ -427.5 } \frac{427.5^0}{0!} \\
 & = e^{ -427.5 } \\
 & \approx 0
 \end{align}
@@ -599,18 +597,18 @@ $$
 
 Meaning that it is very unlikely for the system not to encounter outlier events between the minutes $t_{1} = 5$ and $t_{2} = 10$.
 
-Conversely, if we want to calculate the probability of detecting $k$ or more outliers in this same time period, we can just calculate $P\{ P\{ N(10) - N(5) \geq k \} \}$, which is:
+Conversely, if we want to calculate the probability of detecting $k$ or more outliers in this same time period, we can just calculate $P\{ N(10) - N(5) \geq k \}$, which is:
 $$
 \begin{align}
 P\{ N(10) - N(5) \geq k \} & = 1 - P\{ N(10) - N(5) < k \} \\
-& = 1 - \sum_{i = 0}^{k - 1}e^{ -427.5 } \frac{42.5^i}{i!}
+& = 1 - \sum_{i = 0}^{k - 1}e^{ -427.5 } \frac{427.5^i}{i!}
 \end{align}
 $$
 
 For instance, calculating the probability of detecting $k = 50$ or more outliers, which result in:
 $$
 \begin{align}
-P\{ N(10) - N(5) \geq 50 \} & = 1 - \sum_{i = 0}^{50 - 1}e^{ -427.5 } \frac{42.5^i}{i!} \\
+P\{ N(10) - N(5) \geq 50 \} & = 1 - \sum_{i = 0}^{50 - 1}e^{ -427.5 } \frac{427.5^i}{i!} \\
 & \approx 0.999
 \end{align}
 $$
@@ -623,7 +621,12 @@ As we saw previously, either considering a **constant** rate of outlier events p
 It is important to establish that this approach does not identify the outliers, and instead, it helps monitor their frequency and whether their occurrence has exceeded the expectations becoming unusually high.
 
 #### 4. Assumptions and Limitations
+The two previously described models assume that the outlier events occur **independently** and with a **constant average rate** (in the case of the first model) or a **variable rate** (in the case of the second model). 
 
+Due to the fact that we assume independence in the outlier events, one big limitation is that if these outlier events occur in **clusters**, a Homogeneous or a Non-Homogeneous Poisson Process may not accurately describe the data.
+
+#### 5. Conclusion
+The Poisson Process is a very useful tool for monitoring the amount of outlier events in AI data streams. And so, trough the calculation of the probability of very large outlier counts, an AI monitoring system can detect possible anomalies in the incoming data stream and prompting and investigation.
 
 
 
