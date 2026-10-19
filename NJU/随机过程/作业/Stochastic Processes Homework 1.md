@@ -503,16 +503,12 @@ Now, we can say that:
 $$
 N^\star(t_{i}) - N^\star(t_{i-1}) = N(m^{-1}(t_{i})) - N(m^{-1}(t_{i-1}))
 $$
-Given the fact that is $m^{-1}$ is increasing the, we can say that given the disjoint intervals $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{i}]$
-
-
-
-By **definition N2**, we can say that because $N$ has independent increments over the disjoint intervals $(m^{-1}(t_{i}), m^{-1}(t_{i-1}]$, then $N^\star$ also does.
+Given the fact that is $m^{-1}$ is increasing the, we can say that given the disjoint intervals $(t_{i-1}, t_{i}]$ and $(t_{j-1}, t_{j}]$, then, $(m^{-1}(t_{i-1}), m^{-1}(t_{i})]$ and $(m^{-1}(t_{j-1}), m^{-1}(t_{j})]$ are also disjoint. By **definition N2**, we can say that because $N$ has independent increments over the disjoint intervals, then $N^\star$ also does.
 
 #### Part 2.2 (Verifying Stationary Increments)
 We know that:
 $$
-N^\star(t+s) - N^\star(t) = N(m^{-1}(t+s)) - N(m^{-1}(t+s))
+N^\star(t+s) - N^\star(t) = N(m^{-1}(t+s)) - N(m^{-1}(t))
 $$
 
 By **definition N2** we know that:
