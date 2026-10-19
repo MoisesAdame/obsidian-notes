@@ -326,9 +326,9 @@ $$
 \ln[\mathbb{E}[e^{xN(t)}]] -  \ln[\mathbb{E}[e^{xN(0)}]] = (e^x - 1)m(t)
 $$
 
-Using the first condition of the definition, we know that:
+Using the *axiom (i) of Definition N1*, we know that:
 $$
-\ln[\mathbb{E}[e^{xN(t)}]] -  \ln[\mathbb{E}[e^0]] = (e^x - 1)m(t)
+\ln[\mathbb{E}[e^{xN(t)}]] -  \ln[\mathbb{E}[e^0]] = \ln[\mathbb{E}[e^{xN(t)}]] = (e^x - 1)m(t)
 $$
 
 By manipulating the expression, we get that:
@@ -336,25 +336,27 @@ $$
 \mathbb{E}[e^{xN(t)}]= e^{(e^x - 1)m(t)}
 $$
 
-Now, by changing variables letting $t = t' + h'$
+To find the MGF of the increment, we evaluate $N(t+s)$ and use independent increments:
 $$
-\mathbb{E}[e^{xN(t' + h')}] = \mathbb{E}[e^{x[N(t' + h') + N(t') - N(t')]}] = e^{(e^x - 1)m(t' + h')}
-$$
-
-By independent increments
-$$
-\mathbb{E}[e^{x[N(t' + h') - N(t')]}]\mathbb{E}[e^{xN(t')}]= \mathbb{E}[e^{x[N(t' + h') - N(t')]}] \left(e^{(e^x - 1)m(t')}\right)= e^{(e^x - 1)m(t' + h')}
+\mathbb{E}[e^{ x N(t + s) }] = \mathbb{E}[e^{ x [N(t + s) - N(t) + N(t)] }] = \mathbb{E}[e^{ x [N(t + s) - N(t)] }] \mathbb{E}[e^{ x [N(t)] }]
 $$
 
-Dividing both sides of the previous equation by $e^{(e^x - 1)m(t')}$ we get
+Substituting the known MGFs:
 $$
-\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)m(t' + h')} e^{-(e^x - 1)m(t')}
+e^{(e^x - 1)m(t + s)} = \mathbb{E}[e^{ x [N(t + s) - N(t)] }]  e^{(e^x - 1)m(t)}
 $$
+
+Dividing both sides by $e^{(e^x - 1)m(t)}$
 $$
-\mathbb{E}[e^{x[N(t' + h') - N(t')]}]= e^{(e^x - 1)[m(t' + h') - m(t')]}
+\mathbb{E}[e^{ x [N(t + s) - N(t)] }] = e^{(e^x - 1)[m(t + s) - m(t)]}
 $$
 
 ### Part 2 (Obtaining the Moment Generating Function of $N(t+s) - N(t)$)
+We know that the Moment Generating Function of a Poisson random variable $Y$ with mean $$
+
+
+
+
 As we know $P\{ N(t+s) - N(t) = n\}=e^-{(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}$, so applying the definition of the Moment Generating Function, we get:
 $$
 \mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^i}{i!}
@@ -364,6 +366,7 @@ For the sake of simplicity, let $\Delta = m(t+s) - m(t)$
 $$
 \mathbb{E}[e^{ x(N(t+s) - N(t)) }] = \sum_{i = 0}^\infty e^{ x i } e^{-\Delta} \frac{\Delta^i}{i!} = \sum_{i = 0}^\infty e^{-\Delta} \frac{(\Delta e^x)^i}{i!} = e^{-\Delta}\sum_{i = 0}^\infty  \frac{(\Delta e^x)^i}{i!}
 $$
+
 Using the Taylor expansion for $e^x$, we get
 $$
 \mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{-\Delta} e^{\Delta e^{ x }} = e^{\Delta (e^x - 1)}
@@ -374,10 +377,11 @@ $$
 \mathbb{E}[e^{ x(N(t+s) - N(t)) }] = e^{(m(t+s) - m(t)) (e^x - 1)}
 $$
 
-Finally, because the property of **uniqueness if the Moment Generating Functions** we can say that the random variable $N(t+s)−N(t)$ follows a Poisson distribution with mean $m(t+s)−m(t)$, therefore, the probability mass function is:
+Finally, because the property of **uniqueness of the Moment Generating Functions** we can say that the random variable $N(t+s)−N(t)$ follows a Poisson distribution with mean $m(t+s)−m(t)$, therefore, the probability mass function is:
 $$
 P(N(t+s) - N(t) = n) = e^{-(m(t+s) - m(t))} \frac{(m(t+s) - m(t))^n}{n!}
 $$
+
 And the result is proven.
 
 ## Problem 5
