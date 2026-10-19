@@ -1,59 +1,25 @@
 {
   "main": {
-    "id": "4d078b80fc2573b8",
+    "id": "9d1742bac028d480",
     "type": "split",
     "children": [
       {
-        "id": "2491632a773db69e",
+        "id": "5afa50a9f9509701",
         "type": "tabs",
         "children": [
           {
-            "id": "661b8f868c962945",
+            "id": "0630609b5d971bcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+                "file": "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "3 Introduction to the Situation Calculus"
-=======
-              "title": "第一组会"
-            }
-          },
-          {
-            "id": "5cbfb04008a6c3e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/时间系列/教室的记本/第4课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第4课（听）"
-            }
-          },
-          {
-            "id": "2014988b4d5bd1f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos"
->>>>>>> 83a5bb3c (vault backup: 2026-10-19 22:40:10)
+              "title": "Progression with Probabilities in the Situation Calculus"
             }
           }
         ]
@@ -62,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a554f2b5e6d0de98",
+    "id": "4d8b86ae1739f549",
     "type": "split",
     "children": [
       {
-        "id": "6d3caedae92f5442",
+        "id": "d71271ea6fabff75",
         "type": "tabs",
         "children": [
           {
-            "id": "d97341b5977ffe98",
+            "id": "85753297cc7b57d9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -85,12 +51,12 @@
             }
           },
           {
-            "id": "8a454250355aa51a",
+            "id": "ab95b8f511e255ca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:complex-vector-space",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +68,7 @@
             }
           },
           {
-            "id": "dd8ed0c48452057e",
+            "id": "6b28b184805003c7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -118,23 +84,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "eef440023776e91d",
+    "id": "9cb271245be54543",
     "type": "split",
     "children": [
       {
-        "id": "006807e12a2d564f",
+        "id": "78f9df4316e0a673",
         "type": "tabs",
         "children": [
           {
-            "id": "145e97834241ec0a",
+            "id": "6e3fe6012d845962",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第2课.md",
+                "file": "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,12 +114,12 @@
             }
           },
           {
-            "id": "0b89ebc510934177",
+            "id": "54df24932deca31d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -162,7 +128,7 @@
             }
           },
           {
-            "id": "8ef2bfa51ce88495",
+            "id": "444d3f3b8ffb8a35",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -177,12 +143,12 @@
             }
           },
           {
-            "id": "f71ad766714c0fce",
+            "id": "135c1e126b6ccdf1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,84 +166,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "aosr:Aosr": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "aosr:Aosr": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "661b8f868c962945",
+  "active": "0630609b5d971bcc",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
-    "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
-    "NJU/刘老师/concepts/Situation Calculus.md",
-    "NJU/刘老师/concepts/First Order Logic.md",
-    "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+    "conflict-files-obsidian-git.md",
     "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
     "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
-    "NJU/高级优化/Hilbert Space.md",
-    "NJU/高级优化/Dual Space.md",
-    "NJU/高级优化/Banach Space.md",
-    "NJU/高级优化/Complete Metric Space.md",
-    "NJU/高级优化/Normed Vector Space.md",
-    "NJU/高级优化/Cauchy & Convergent Sequences.md",
-    "NJU/高级优化/Metric Space.md",
-    "NJU/高级优化/Class 1.md",
-    "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
-    "NJU/刘老师/concepts/Propositional Logic.md",
-    "NJU/刘老师/concepts/Markov Networks.md",
-    "NJU/刘老师/books/Knowled In Action",
-    "NJU/刘老师/books",
-    "NJU/刘老师/concepts",
-    "NJU/刘老师/papers",
-    "Templates/中文文件.md",
-    "Templates/Normal Note.md",
-    "Templates/Normal Note (Flascard).md",
-    "Templates",
-    "conflict-files-obsidian-git.md",
-=======
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-    "NJU/中国概况/第3课.md",
-    "NJU/中国概况/第1课.md",
-    "NJU/随机过程/作业/Stochastic Processes Homework 1.md",
-    "obsidian-notes",
-    "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
-    "NJU/随机过程/作业/Untitled.md",
-    "NJU/时间系列/第2课.md",
-    "NJU/时间系列/第1课.md",
-    "NJU/时间系列/教室的记本/第5课.md",
-    "NJU/时间系列/教室的记本/第4课（听）.md",
->>>>>>> 83a5bb3c (vault backup: 2026-10-19 22:40:10)
-    "NJU/刘老师/Epistemal Logic.md",
-    "NJU/刘老师/第一组会.md",
-    "School/Distributed Systems/Reto/Reto Conf.md",
-    "School/Distributed Systems/Reto/Configuración Física.md",
-    "School/Quantum/Reto",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.6.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
-    "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets/fig40.2.1.gif",
-    "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
-    "obsidian-notes/School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
-    "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
-    "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas"
+    "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md"
   ]
 }
