@@ -592,10 +592,33 @@ Now, calculating the probability of having no outliers between the minutes $t_{1
 $$
 \begin{align}
 P\{ N(10) - N(5) = 0 \} & = e^{ -427.5 } \frac{42.5^0}{0!} \\
-& = e^{ -427.5 }
+& = e^{ -427.5 } \\
+& \approx 0
+\end{align}
+$$
+
+Meaning that it is very unlikely for the system not to encounter outlier events between the minutes $t_{1} = 5$ and $t_{2} = 10$.
+
+Conversely, if we want to calculate the probability of detecting $k$ or more outliers in this same time period, we can just calculate $P\{ P\{ N(10) - N(5) \geq k \} \}$, which is:
+$$
+\begin{align}
+P\{ N(10) - N(5) \geq k \} & = 1 - P\{ N(10) - N(5) < k \} \\
+& = 1 - \sum_{i = 0}^{k - 1}e^{ -427.5 } \frac{42.5^i}{i!}
+\end{align}
+$$
+
+For instance, calculating the probability of detecting $k = 50$ or more outliers, which result in:
+$$
+\begin{align}
+P\{ N(10) - N(5) \geq 50 \} & = 1 - \sum_{i = 0}^{k - 1}e^{ -427.5 } \frac{42.5^i}{i!} \\
+& = 1
 \end{align}
 
 $$
+
+#### 3. Applications
+
+
 
 
 
