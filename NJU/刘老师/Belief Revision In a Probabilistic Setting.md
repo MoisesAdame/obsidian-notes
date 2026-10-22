@@ -105,7 +105,7 @@ Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that
 
 Now let's say we calculated the **total preorder** $\preceq_{\mathcal{K}}={10, 01} ≻ {00} ≻ {11}$
 
-Lets say now we pick a *belief set* (a set of formulas closed under deduction) $K = Cn(\{ a \vee b \}) = \{ 11, 01, 10 \}$
+Lets say now we pick a *belief set* (a set of formulas closed under deduction) $K = Cn(\{ a \vee b \}) = \{ 11, 01, 10 \}$. Now we have to ask, is our preorder faithful to this
 
 
 
