@@ -80,4 +80,9 @@ Let $K = \left\langle W, P\right\rangle$ be an epistemic state, then its **induc
 ### Jeffrey's Rule
 Jeffreys rule is just a way of updating one given world's $w$ probability.
 
-It comes from the fact that 
+It comes from the fact that $[\phi] = $
+$$
+P = \begin{cases}
+
+\end{cases}
+$$
