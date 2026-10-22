@@ -75,5 +75,5 @@ Given $W'\subseteq W$, then we say that for a given $X \subseteq W'$, $X$ is **P
 Given an epistemic state $\mathcal{K}$ with a world $W$ we say that $X$ is a possible world set wrt $W' \subseteq W$ if $X$ is the *minimal P-Stable Set wrt $W'$* is $X$ (minimal maeans with the lesser amount of elements).
 
 ### Induced total preorder $\preceq_{\mathcal{K}}$
-This is defined as a set of 
+This is defined as a set of set of worlds, $\preceq_{\mathcal{K}} = \{ K_{0}, K_{1}, \dots, K_{n} \}$
 
