@@ -97,5 +97,7 @@ $$
 
 In this case is said to be a *proposition*, but in the context of this paper, a proposition is a set of worlds, for example $[\phi]$.
 
+### Constraints C1 and C2
+
 
 
