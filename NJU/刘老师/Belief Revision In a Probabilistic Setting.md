@@ -112,7 +112,7 @@ The answer is **NO** because given $11 \in K$ and $00 \not\in K$, this does not 
 **NOTE!** Do not read $\preceq$ as lesser or equal $\leq$.
 
 #### Definition
-
+A faithful assignment is a total preorder for a given belief set
 
 
 
