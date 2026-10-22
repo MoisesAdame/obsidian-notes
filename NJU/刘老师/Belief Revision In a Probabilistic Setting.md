@@ -107,7 +107,8 @@ Now let's say we calculated the **total preorder** $\preceq_{\mathcal{K}}={10, 0
 
 Lets say now we pick a *belief set* (a set of formulas closed under deduction) $K = Cn(\{ a \vee b \}) = \{ 11, 01, 10 \}$. Now we have to ask, is our preorder faithful to this?
 
-The answer is **NO** because given $11 \in K$ and $00 \not\in K$, $11 \preceq_{\mathcal{K}} 00$
+The answer is **NO** because given $11 \in K$ and $00 \not\in K$, this does not hold: $11 \preceq_{\mathcal{K}} 00$. Because here we are saying 11 is better than 00, and in fact, in our total preorder 00 is better than 11.
 
+**NOTE!** Do not read $\preceq$ as lesser or equal $<$
 
 
