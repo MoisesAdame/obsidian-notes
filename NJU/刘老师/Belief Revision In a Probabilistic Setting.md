@@ -100,7 +100,8 @@ In this case is said to be a *proposition*, but in the context of this paper, a 
 ### Constraints C1 and C2
 
 ### Faithful Assignment
-
+**Example:**
+Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that case we 
 
 
 
