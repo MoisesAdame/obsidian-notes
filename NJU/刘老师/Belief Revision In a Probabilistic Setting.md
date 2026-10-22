@@ -72,4 +72,4 @@ Given a world $W$ and a subset $X \subseteq W$, we say that $X$ is **P-Stable** 
 Given $W'\subseteq W$, then we say that for a given $X \subseteq W'$, $X$ is **P Stable wrt $W'$** if $\forall w \in X \implies P(w) > P(W' - X)$.
 
 ### PW-belief set
-Given an epistemic state $\mathcal{K}$ with 
+Given an epistemic state $\mathcal{K}$ with a world $W$
