@@ -72,5 +72,7 @@ Given a world $W$ and a subset $X \subseteq W$, we say that $X$ is **P-Stable** 
 Given $W'\subseteq W$, then we say that for a given $X \subseteq W'$, $X$ is **P Stable wrt $W'$** if $\forall w \in X \implies P(w) > P(W' - X)$.
 
 ### PW-belief set
-Given an epistemic state $\mathcal{K}$ with a world $W$ we say that $X$ is a possible world set wrt $W' \subseteq W$ if $X$ is the *minimal P-Stable Set wrt $W'$* is $X$ (minimal maeans with the less)
+Given an epistemic state $\mathcal{K}$ with a world $W$ we say that $X$ is a possible world set wrt $W' \subseteq W$ if $X$ is the *minimal P-Stable Set wrt $W'$* is $X$ (minimal maeans with the lesser amount of elements).
+
+### Induced total preorder $≼_K$
 
