@@ -103,7 +103,9 @@ In this case is said to be a *proposition*, but in the context of this paper, a 
 **Example:**
 Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that case we have the following worlds $W=\{ \emptyset, \{ a \}, \{ b \}, \{ a, b \} \}$. They can be written as 00, 10, 01, 11.
 
-Now let's say we calculated the **total preorder** $\preceq_{\mathcal{}}$
+Now let's say we calculated the **total preorder** $\preceq_{\mathcal{K}}={10, 01} ≻ {00} ≻ {11}$
+
+Lets say now we pick a *belief set* ()
 
 
 
