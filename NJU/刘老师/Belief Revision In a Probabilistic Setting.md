@@ -75,5 +75,9 @@ Given $W'\subseteq W$, then we say that for a given $X \subseteq W'$, $X$ is **P
 Given an epistemic state $\mathcal{K}$ with a world $W$ we say that $X$ is a possible world set wrt $W' \subseteq W$ if $X$ is the *minimal P-Stable Set wrt $W'$* is $X$ (minimal maeans with the lesser amount of elements).
 
 ### Induced total preorder $\preceq_{\mathcal{K}}$
-Let $K = \left\langle W, P\right\rangle$This is defined as a set of set of worlds, $\preceq_{\mathcal{K}} = \{ W_{0}, W_{1}, \dots, W_{n} \}$. Where $K_{0}$ is the pw-belief set wrt W. And $$
+Let $K = \left\langle W, P\right\rangle$ be an epistemic state, then its **induced total preorder** $\preceq_{\mathcal{K}} = \{ W_{0}, W_{1}, \dots, W_{n} \}$. Where $K_{0}$ is the pw-belief set wrt W. And $W_{i}$ is pw-belief set wrt $W - \bigcup_{0}^{i-1}W_{i}$.
 
+### Jeffrey's Rule
+Jeffreys rule is just a way of updating one given world's $w$ probability.
+
+It comes from the fact that 
