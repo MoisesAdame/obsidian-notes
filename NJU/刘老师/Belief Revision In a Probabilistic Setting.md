@@ -113,7 +113,7 @@ The answer is **NO** because given $11 \in K$ and $00 \not\in K$, this does not 
 
 #### Definition
 A faithful assignment is a *total preorder* for a belief set $K$ ($\preceq_{K}$) satisfying the following properties:
-1. 
+1. $$
 
 
 
