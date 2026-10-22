@@ -89,8 +89,13 @@ $$
 
 Then we have:
 $$
-P = \begin{cases}
+P(w) = \begin{cases}
 \frac{sP(w)}{P(A)} & w \in A \\
-\frac{sP(w)}{1-P(A)}
+\frac{(1-s)P(w)}{1-P(A)} & w \not\in A
 \end{cases}
 $$
+
+In this case is said to be a *proposition*, but in the context of this paper, a proposition is a set of worlds, for example $[\phi]$.
+
+
+
