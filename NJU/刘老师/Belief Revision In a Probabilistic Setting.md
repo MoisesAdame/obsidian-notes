@@ -100,15 +100,20 @@ In this case is said to be a *proposition*, but in the context of this paper, a 
 ### Constraints C1 and C2
 
 ### Faithful Assignment
-**Example:**
+#### Example
 Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that case we have the following worlds $W=\{ \emptyset, \{ a \}, \{ b \}, \{ a, b \} \}$. They can be written as 00, 10, 01, 11.
 
 Now let's say we calculated the **total preorder** $\preceq_{\mathcal{K}}={10, 01} ≻ {00} ≻ {11}$
 
-Lets say now we pick a *belief set* (a set of formulas closed under deduction) $K = Cn(\{ a \vee b \}) = \{ 11, 01, 10 \}$. Now we have to ask, is our preorder faithful to this?
+Lets say now we pick a *belief set* (a set of formulas closed under deduction) $K = Cn(\{ a \vee b \})$, thus $[K] = \{ 11, 01, 10 \}$. Now we have to ask, is our preorder faithful to this?
 
 The answer is **NO** because given $11 \in K$ and $00 \not\in K$, this does not hold: $11 \preceq_{\mathcal{K}} 00$. Because here we are saying 11 is better than 00, and in fact, in our total preorder 00 is better than 11.
 
-**NOTE!** Do not read $\preceq$ as lesser or equal $<$
+**NOTE!** Do not read $\preceq$ as lesser or equal $\leq$.
+
+#### Definition
+
+
+
 
 
