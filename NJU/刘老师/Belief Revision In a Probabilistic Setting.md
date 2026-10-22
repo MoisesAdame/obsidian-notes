@@ -101,7 +101,9 @@ In this case is said to be a *proposition*, but in the context of this paper, a 
 
 ### Faithful Assignment
 **Example:**
-Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that case we 
+Let's say we have a set of *atomic formulas* $\mathcal{P} = \{ a, b \}$. In that case we have the following worlds $W=\{ \emptyset, \{ a \}, \{ b \}, \{ a, b \} \}$. They can be written as 00, 10, 01, 11.
+
+Now let's say we calculated the **total preorder** $\preceq_{\mathcal{}}$
 
 
 
