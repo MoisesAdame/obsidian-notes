@@ -69,4 +69,4 @@ The other postulates are more complex.
 ### P-Stable Set
 Given a world $W$ and a subset $X \subseteq W$, we say that $X$ is **P-Stable** if $\forall w \in X$ then, $P(w) > P(W-X)$
 
-Given a subset m
+Given $W'\subseteq W$, then we say that for a given $X \subseteq W'$, $X$ is **P Stable wrt $W'$** if $\forall w \in X \implies$
