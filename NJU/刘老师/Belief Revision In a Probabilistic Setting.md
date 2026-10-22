@@ -99,5 +99,7 @@ In this case is said to be a *proposition*, but in the context of this paper, a 
 
 ### Constraints C1 and C2
 
+### Faithful 
+
 
 
