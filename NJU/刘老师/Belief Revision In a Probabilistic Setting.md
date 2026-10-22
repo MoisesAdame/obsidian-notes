@@ -68,3 +68,5 @@ The other postulates are more complex.
 ## Paper's Glossary
 ### P-Stable Set
 Given a world $W$ and a subset $X \subseteq W$, we say that $X$ is **P-Stable** if $\forall w \in X$ then, $P(w) > P(W-X)$
+
+Given a subset m
