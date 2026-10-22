@@ -1,48 +1,12 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "tag:#/Q",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "tag:#hsk4  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#biology  ",
-      "color": {
-        "a": 1,
-        "rgb": 1684308
-      }
-    },
-    {
-      "query": "tag:#database  ",
-      "color": {
-        "a": 1,
-        "rgb": 4422393
-      }
-    },
-    {
-      "query": "tag:#ceneval",
-      "color": {
-        "a": 1,
-        "rgb": 16740602
-      }
-    },
-    {
-      "query": "alphabet",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -50,9 +14,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 11.193328009937,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 129,
-  "scale": 0.2636262340528382,
-  "close": true
+  "linkDistance": 250,
+  "scale": 0.1602060558547,
+  "close": false
 }
