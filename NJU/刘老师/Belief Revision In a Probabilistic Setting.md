@@ -78,7 +78,9 @@ Given an epistemic state $\mathcal{K}$ with a world $W$ we say that $X$ is a pos
 Let $K = \left\langle W, P\right\rangle$ be an epistemic state, then its **induced total preorder** $\preceq_{\mathcal{K}} = \{ W_{0}, W_{1}, \dots, W_{n} \}$. Where $K_{0}$ is the pw-belief set wrt W. And $W_{i}$ is pw-belief set wrt $W - \bigcup_{0}^{i-1}W_{i}$.
 
 ### Jeffrey's Rule
-Jeffreys rule is just a way of updating one given world's $w$ probability.
+Jeffreys rule is just a way of updating one given one world $w$'s probability.
+
+It comes from the *law of total probability*, where$P(B) = P(B,A)$
 
 It comes from the fact that $[\phi] = $
 $$
