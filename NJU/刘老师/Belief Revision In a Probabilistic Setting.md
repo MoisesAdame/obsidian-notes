@@ -80,11 +80,17 @@ Let $K = \left\langle W, P\right\rangle$ be an epistemic state, then its **induc
 ### Jeffrey's Rule
 Jeffreys rule is just a way of updating one given one world $w$'s probability.
 
-It comes from the *law of total probability*, where$P(B) = P(B,A)$
+It comes from the *law of total probability*, where$P(B) = P(B,A) + P(B,W-A) = P(A)P(B|A) + P(W-A)P(B|W-A)=P(A)P(B|A) + (1-P(A))P(B|W-A)$.
 
-It comes from the fact that $[\phi] = $
+If we receive evidence that the new probability $P(A) = s$, then:
+$$
+P(B) = sP(B|A) + (1-s)P(B|W-A)
+$$
+
+Then we have:
 $$
 P = \begin{cases}
-
+\frac{sP(w)}{P(A)} & w \in A \\
+\frac{sP(w)}{1-P(A)}
 \end{cases}
 $$
