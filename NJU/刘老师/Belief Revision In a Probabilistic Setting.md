@@ -189,4 +189,4 @@ And when this condition fails, means that conditions **C1** and **C2** cannot be
 #### Question 14
 
 #### Question 15
-
+The reason why the **probabilistic account cannot satisfy DPS1** is because that after applying Jeffrey's rule, the worlds that are not inside $[\phi]$ get two higher layers
