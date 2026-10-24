@@ -222,5 +222,5 @@ Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,
 The paper goes from a qualitative to a quantitative perspective in what revision is. It leverages AGM and DP postulates as well as Jeffrey's rule to express revision. The main result is that theorems 12 and 13 together show that $\mathcal{K} * \phi = Cn(min([\phi], \preceq_{\mathcal{K}})) \iff \text{Our operator holds for AGM postulates}$.
 
 ### The Static Theory
-First we know that **P-stability** means that for all $w \in X$, int this case $X \subseteq W$, then $P(w) < P(W\setminus X)$
+First we know that **P-stability** means that for all $w \in X$, int this case $X \subseteq W$, then $P(w) > P(W\setminus X)$, this leads to the definition of a **pw-belief set** which is basically the minimal p-stable set. Using this definitions, we can build on the new definition, that is the **total preorder**, which can be defined as $\preceq_{K} =\langle W_{0}, W_{1},\dot{s}\rangle$
 
