@@ -153,9 +153,15 @@ Together, theorem 12 and 13 let us see that the AGM postulates are held iff our 
 The relation between Theorems 12 and 13 and The KM Theorem is that Theorems 12 and 13 apply KM Theorem to the probabilistic setting.
 
 ### Part 3: The Dynamic Account (Jeffrey, C1/C2, Prop. 16, Thm 18)
-The main taget of a revision by the epistemic level 
+The main taget of a revision by the epistemic level is that given our original epistmic state $\mathcal{K}=\langle W, P\rangle$, we obtain a new epistemic state $\mathcal{K'}=\langle W, P'\rangle$. Thus, after revising $\mathcal{K}$ by $\phi$, the new pw-belief set would be $min([\phi], \preceq_{\mathcal{K}})$
 
-
+Jeffrey Conditioning help us update the world's probability. We use Jeffrey's rule that is defined=  as follows:
+$$
+P(w) = \begin{cases}
+\frac{s \cdot P(w)}{P(A)} & w\in A \\
+\frac{s \cdot P(w)}{1- P(A)} & w\not\in A \\
+\end{cases}
+$$
 
 
 
