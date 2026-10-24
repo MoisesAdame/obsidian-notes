@@ -217,4 +217,5 @@ Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,
 
 *dont know how to answer part B*
 
-##
+## Synthesis
+### What is the paper about?
