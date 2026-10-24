@@ -166,7 +166,8 @@ $$
 
 In this case $s$ represents the old probability for $A$. But im not sure why does $s \in (0, 1)$.
 
-Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem. 
+Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem. We know that the new epistemic state's $W'_{0}=min([\phi], \preceq_{K})$. So, using this we can have two conditions:
+1. **Condition 1:** 
 
 
 
