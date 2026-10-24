@@ -203,4 +203,6 @@ The reason of existance of the **$\epsilon$ device** is that originally the prob
 *dont know how to answer part c*
 
 #### Question 17
+*dont know how to answer part A*
 
+It is weakend but just in 
