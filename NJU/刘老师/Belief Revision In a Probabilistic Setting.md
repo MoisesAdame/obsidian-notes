@@ -200,4 +200,6 @@ The **independence towards revision** means that they belong to totally differen
 
 The reason of existance of the **$\epsilon$ device** is that originally the probabilities of $w_{1}$ to $w_{4}$ summed 1, the sammed happend to the probabilities of $w_{5}$ to $w_{8}$. Now, in order for building a new epistemic state where we can have worlds from $w_{1}$ to $w_{8}$ we need their probabilitiers to sum 1so, by multiplying all the probabilities of the first group by $(1-\epsilon)$ and doing the same but with $\epsilon$, we get a new epistemic state that doesn't break any rules.
 
+*dont know how to answer part c*
 
+#### 
