@@ -164,11 +164,11 @@ P'(w) = \begin{cases}
 \end{cases}
 $$
 
-In this case $s$ represents the *new probability assigned for $A$*. But im not sure why does $s \in (0, 1)$.
+In this case $s$ represents the *new probability assigned for $A$*. 
 
 Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem. We know that the new epistemic state's $W'_{0}=min([\phi], \preceq_{K})$. So, using this we can have two conditions:
 1. **Condition 1:** $\forall w \in min([\phi], \preceq_{K}),  P'(w) > P'(W \setminus min([\phi], \preceq_{K}))$.
-2. **Condition 2:** Given an $X' \subset min([\phi], \preceq_{K})$ $\forall x' \in X', P(x')\leq P(W \setminus min([\phi], \preceq_{K}))$
+2. **Condition 2:** Given an $X' \subset min([\phi], \preceq_{K})$ $\forall x' \in X', P'(x')\leq P'(W \setminus X')$
 
 By condition 1
 We first have to question ourselves, what is $W$? We then can say that $W = [\neg \phi] \cup [\phi]$. Thus, $W \setminus min([\phi], \preceq_{K}) = [\neg \phi] \cup [\phi]\setminus min([\phi], \preceq_{K})$
