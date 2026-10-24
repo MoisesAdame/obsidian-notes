@@ -185,3 +185,5 @@ $$
 
 And when this condition fails, means that conditions **C1** and **C2** cannot be jointly satisfied, which implies that the Jeffrey's update cannot make $min([\phi], \preceq_{\mathcal{K}})$ be the new pw-belief set, which for instance makes the operator not satisfy all of the AGM postulates.
 
+### Part 4: Iterated Revision (§4.4): DPW, Table 2, ε-device
+
