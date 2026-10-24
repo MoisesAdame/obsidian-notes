@@ -173,7 +173,14 @@ Now, the problem arises. How are we supposed to calculate $s$? This can be done 
 By condition 1
 We first have to question ourselves, what is $W$? We then can say that $W = [\neg \phi] \cup [\phi]$. Thus, $W \setminus min([\phi], \preceq_{K}) = [\neg \phi] \cup [\phi]\setminus min([\phi], \preceq_{K})$
 
-In that case, we can say:
+Using this, we obtain $s$ lower bound.
+
+By condition 2
+We obtain $s$ upper bound.
+
+Then, joing what we obtained from the calculation of $s$ upper and lower bounds, we can say that the feasability condition for a given formula $\phi$ being revised and accepeted by a epistemic state is that:
 $$
-P'(w) = \frac{sP(w)}{P(A)} > \frac{sP(w) [P([\neg \phi]) + P(\phi\setminus min([\phi], \preceq_{K}))]}{P(A)}
+P(w') - P(w) < P(min([\phi], \preceq_{\mathcal{K}}\setminus X')) 
 $$
+
+And when this condition fails, means that the formula $\phi$ is not logically plausibble and that leads to the update of two AGM conditions. In that sense, if the formula is not logically plausible, then after revisioning our epistemic state by it, we obtain the original epistemic state.
