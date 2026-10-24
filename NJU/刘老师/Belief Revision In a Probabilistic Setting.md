@@ -148,9 +148,7 @@ Given some epistemic state $\mathcal{K}$ we can induce a total preorder $\preceq
 
 **Theorem 12 (state to AGM)** tells us that if $K*\phi=Cn(min([\phi], \preceq_{K}))$, then $*$ satisfies the AGM postulates. **Theorem 13 (AGM to state)** tells us that given an $*$ that satisfies the AGM postulates, then the belief set $K$ is given by $K =Cn(W_{0})$. Together they form an iff.
 
-Together, theorem 12 and 13 let us see that the AGM postulates are held iff our 
-
-I dont know why both theorems are needed.
+Together, theorem 12 and 13 let us see that the AGM postulates are held iff our probabilistic construction is $K*\phi=Cn(min([\phi], \preceq_{K}))$
 
 The relation to KM Theorem is that the mananged to show that $[K*\phi]=min([\phi], \preceq_{K})$.
 
