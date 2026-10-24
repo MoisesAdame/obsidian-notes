@@ -157,18 +157,16 @@ The main taget of a revision by the epistemic level is that given our original e
 
 Jeffrey Conditioning help us update the world's probability. We use Jeffrey's rule that is defined as follows:
 
-Comes from the law of total probability, where:
 $$
-P(B) = P(B|A)P(A) + P(B|W\setminus A)P(W\setminus A) 
-$$
-
-$$
-P(w) = \begin{cases}
+P'(w) = \begin{cases}
 \frac{s \cdot P(w)}{P(A)} & w\in A \\
-\frac{s \cdot P(w)}{1- P(A)} & w\not\in A \\
+\frac{(1-s) \cdot P(w)}{1- P(A)} & w\not\in A \\
 \end{cases}
 $$
 
+In this case $s$ represents the old probability for $A$. But im not sure why does $s \in (0, 1)$.
+
+Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem.
 
 
 
