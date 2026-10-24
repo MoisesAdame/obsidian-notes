@@ -193,4 +193,11 @@ The reason why the **probabilistic account cannot satisfy DPS1** is because that
 
 In table two, we can see how before revision $w_{5}$ and $w_{7}$ both belong to the same layer, but after revision, $w_{5}$ and $w_{7}$ end up in different layers, making the equation not hold.
 
+*dont know how to answer part c*
+
+#### Question 16
+The **independence towards revision** means that they belong to totally different layers in the total preorder.
+
+The reason of existance of the **$\epsilon$ device** is that originally the probabilities of $w_{1}$ to $w_{4}$ summed 1, the sammed happend to the probabilities of $w_{5}$ to $w_{8}$. Now, in order for building a new epistemic state where we can have worlds from $w_{1}$ to $w_{8}$ we need their probabilitiers to sum 1so, by multiplying all the probabilities of the first group by $(1-\epsilon)$ and doing the same but with $\epsilon$, we get a new epistemic state that doesn't break any rules.
+
 
