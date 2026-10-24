@@ -152,6 +152,10 @@ Together, theorem 12 and 13 let us see that the AGM postulates are held iff our 
 
 The relation between Theorems 12 and 13 and The KM Theorem is that Theorems 12 and 13 apply KM Theorem to the probabilistic setting.
 
+### Part 3: The Dynamic Account (Jeffrey, C1/C2, Prop. 16, Thm 18)
+The main taget of a revision by the epistemic level 
+
+
 
 
 
