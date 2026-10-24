@@ -207,3 +207,4 @@ The reason of existance of the **$\epsilon$ device** is that originally the prob
 
 It is weakend but just in the sense that instead of $\preceq_{\mathcal{K}}$, we have $\prec_{\mathcal{K}}$, but the implies stays the same.
 
+**DPW4 does not need to be weakend** because $w_{1}$ is always going to be in a lower layer if $w_{2}$ does not belong to $[\phi]$.
