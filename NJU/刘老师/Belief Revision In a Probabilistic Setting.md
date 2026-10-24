@@ -175,5 +175,5 @@ We first have to question ourselves, what is $W$? We then can say that $W = [\ne
 
 In that case, we can say:
 $$
-P'(w) =
+P'(w) = \frac{s}{P(w)}
 $$
