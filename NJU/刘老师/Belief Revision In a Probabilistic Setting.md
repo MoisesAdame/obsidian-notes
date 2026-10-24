@@ -212,3 +212,4 @@ It is weakend but just in the sense that instead of $\preceq_{\mathcal{K}}$, we 
 **DPW is weaker** because the worlds in the new epistemic state do not need to be in the same layer.
 
 #### Question 18
+Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,p_{100}$ and only learn that $\neg p_{1}$
