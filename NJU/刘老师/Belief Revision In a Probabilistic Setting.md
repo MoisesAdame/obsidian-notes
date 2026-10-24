@@ -155,7 +155,13 @@ The relation between Theorems 12 and 13 and The KM Theorem is that Theorems 12 a
 ### Part 3: The Dynamic Account (Jeffrey, C1/C2, Prop. 16, Thm 18)
 The main taget of a revision by the epistemic level is that given our original epistmic state $\mathcal{K}=\langle W, P\rangle$, we obtain a new epistemic state $\mathcal{K'}=\langle W, P'\rangle$. Thus, after revising $\mathcal{K}$ by $\phi$, the new pw-belief set would be $min([\phi], \preceq_{\mathcal{K}})$
 
-Jeffrey Conditioning help us update the world's probability. We use Jeffrey's rule that is defined=  as follows:
+Jeffrey Conditioning help us update the world's probability. We use Jeffrey's rule that is defined as follows:
+
+Comes from the law of total probability, where:
+$$
+P(B) = P(B|A)P(A) + P(B|W\setminus A)P(W\setminus A) 
+$$
+
 $$
 P(w) = \begin{cases}
 \frac{s \cdot P(w)}{P(A)} & w\in A \\
