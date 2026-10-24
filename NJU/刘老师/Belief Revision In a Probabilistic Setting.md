@@ -166,7 +166,7 @@ $$
 
 In this case $s$ represents the old probability for $A$. But im not sure why does $s \in (0, 1)$.
 
-Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem.
+Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem. 
 
 
 
