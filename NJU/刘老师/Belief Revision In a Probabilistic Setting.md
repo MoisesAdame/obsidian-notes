@@ -171,6 +171,6 @@ Now, the problem arises. How are we supposed to calculate $s$? This can be done 
 2. **Condition 2:** Given an $X' \subset min([\phi], \preceq_{K})$ $\forall x' \in X', P(x')\leq P(W \setminus min([\phi], \preceq_{K}))$
 
 By condition 1
-
+We first have to question ourselves, what is $W$? We then can say that $W = [nott]$
 
 
