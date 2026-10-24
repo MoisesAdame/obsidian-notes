@@ -150,7 +150,7 @@ Given some epistemic state $\mathcal{K}$ we can induce a total preorder $\preceq
 
 Together, theorem 12 and 13 let us see that the AGM postulates are held iff our probabilistic construction is $K*\phi=Cn(min([\phi], \preceq_{K}))$
 
-
+The relation between Theorems 12 and 13 and The KM Theorem is that Theorems 12 and 13 apply KM Theorem to the probabilistic setting.
 
 
 
