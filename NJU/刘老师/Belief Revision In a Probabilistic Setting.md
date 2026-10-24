@@ -187,7 +187,7 @@ And when this condition fails, means that conditions **C1** and **C2** cannot be
 
 ### Part 4: Iterated Revision (§4.4): DPW, Table 2, ε-device
 #### Question 14
-I dont know
+The main difference between **AGM and DP** is that the first one works with **belief sets** and the second onw, works with **total preorder $\preceq_{K}$**.
 
 #### Question 15
 The reason why the **probabilistic account cannot satisfy DPS1** is because that after applying Jeffrey's rule, the worlds that are not inside $[\phi]$ get two higher layers, so for instance if in the original belief set two worlds where in the same layer, but one of the was not in $[\phi]$, then, after applyingg Jeffreys rule the world that was inside and didn't belong to $[\phi]$ will be pushed up making the equation not hold.
