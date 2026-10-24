@@ -175,5 +175,5 @@ We first have to question ourselves, what is $W$? We then can say that $W = [\ne
 
 In that case, we can say:
 $$
-P'(w) = \frac{sP(w)}{P(A)} > \frac{sP(w) [P()]}{P(A)}
+P'(w) = \frac{sP(w)}{P(A)} > \frac{sP(w) [P() + P()]}{P(A)}
 $$
