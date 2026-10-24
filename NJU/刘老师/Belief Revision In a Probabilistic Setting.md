@@ -183,4 +183,5 @@ $$
 P(w') - P(w) < P(min([\phi], \preceq_{\mathcal{K}}\setminus X')) 
 $$
 
-And when this condition fails, means that the formula $\phi$ is not logically plausibble and that leads to the update of two AGM conditions. In that sense, if the formula is not logically plausible, then after revisioning our epistemic state by it, we obtain the original epistemic state.
+And when this condition fails, means that conditions **C1** and **C2** cannot be jointly satisfied, which implies that the Jeffrey's update cannot make $min([\phi], \preceq_{\mathcal{K}})$ be the new pw-belief set, which for instance makes the operator not satisfy all of the AGM postulates.
+
