@@ -205,4 +205,5 @@ The reason of existance of the **$\epsilon$ device** is that originally the prob
 #### Question 17
 *dont know how to answer part A*
 
-It is weakend but just in the sense that instead of $\preceq_{\mathcal{K}}$, we have $\preceq_{\mathcal{K}}$
+It is weakend but just in the sense that instead of $\preceq_{\mathcal{K}}$, we have $\prec_{\mathcal{K}}$, but the implies stays the same.
+
