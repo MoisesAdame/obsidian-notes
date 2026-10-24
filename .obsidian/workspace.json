@@ -26,15 +26,14 @@
             "id": "203cd8c9c0d1092b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+                "bFile": "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Belief Revision In a Probabilistic Setting"
+              "icon": "diff",
+              "title": "Diff: Belief Revision In a Probabilistic Setting  (Working Tree)"
             }
           }
         ],
@@ -198,8 +197,8 @@
   },
   "active": "203cd8c9c0d1092b",
   "lastOpenFiles": [
-    "NJU/刘老师/Epistemal Logic.md",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "NJU/刘老师/Epistemal Logic.md",
     "School/Distributed Systems/Reto/Reto Conf.md",
     "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Distributed Systems/Reto/Configuraciones.md",
