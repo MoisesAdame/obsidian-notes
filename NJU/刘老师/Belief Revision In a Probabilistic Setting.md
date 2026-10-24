@@ -219,5 +219,8 @@ Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,
 
 ## Synthesis
 ### What is the paper about?
-The paper goes from a qualitative to a quantitative perspective in what revision is. It leverages AGM and DP postulates as well as Jeffrey's rule to express revision. The main result is that tehorems 12 and 13 together show that $\mathcal{K} * \phi = Cn(min([\phi], \preceq_{\mathcal{K}})) \iff \text{Our operator holds for AGM postulates}$.
+The paper goes from a qualitative to a quantitative perspective in what revision is. It leverages AGM and DP postulates as well as Jeffrey's rule to express revision. The main result is that theorems 12 and 13 together show that $\mathcal{K} * \phi = Cn(min([\phi], \preceq_{\mathcal{K}})) \iff \text{Our operator holds for AGM postulates}$.
+
+### The Static Theory
+
 
