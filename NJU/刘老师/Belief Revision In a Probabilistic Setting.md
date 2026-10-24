@@ -219,3 +219,4 @@ Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,
 
 ## Synthesis
 ### What is the paper about?
+The paper goes from a qualitative to a quantitative perspective in what revision is
