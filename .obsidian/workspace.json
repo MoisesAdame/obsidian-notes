@@ -8,37 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fcb10b52fc202b7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/刘老师/第一组会.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第一组会"
-            }
-          },
-          {
-            "id": "5cbfb04008a6c3e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/时间系列/教室的记本/第4课（听）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "第4课（听）"
-            }
-          },
-          {
             "id": "2014988b4d5bd1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/刘老师/Epistemal Logic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Epistemal Logic"
+            }
+          },
+          {
+            "id": "203cd8c9c0d1092b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +196,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "2014988b4d5bd1f8",
+  "active": "203cd8c9c0d1092b",
   "lastOpenFiles": [
     "NJU/刘老师/Epistemal Logic.md",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "School/Distributed Systems/Reto/Reto Conf.md",
+    "School/Distributed Systems/Reto/Configuración Física.md",
+    "School/Distributed Systems/Reto/Configuraciones.md",
+    "School/Distributed Systems/Reto/Casos de Uso.md",
+    "conflict-files-obsidian-git.md",
+    "NJU/时间系列/教室的记本/第4课（听）.md",
+    "NJU/刘老师/第一组会.md",
+    "Templates/中文文件.md",
+    "Templates/Normal Note.md",
+    "Templates/Normal Note (Flascard).md",
+    "Templates",
+    "School/Quantum/Reto/Configuración Física.md",
+    "School/Quantum/Reto/Reto Conf.md",
+    "School/Quantum/Reto/Configuraciones.md",
+    "School/Quantum/Reto/Casos de Uso.md",
+    "School/Quantum/Reto",
+    "NJU/时间系列/教室的记本/第6课.md",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.6.png",
@@ -234,22 +236,7 @@
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 5.md",
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 4.md",
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 4.2.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 12.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 3.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 2.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Virtual Local Area Network.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Spanning Tree Protocol.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Site-To-Site VPN.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Open Shortest Path First.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Switch Layer 3.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Inter VLAN Routing, Router On A Stick.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Hot Standby Router Protocol.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Ether Channel.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Dynamic Host Configuration Protocol.md",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos/Border Gateway Protocol.md",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/3. Multiple Sequence Alignment.md",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/2. Sequence Databases and Database Searching.md",
     "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
     "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
@@ -259,8 +246,6 @@
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
     "obsidian-notes/School/Quantum/Class Notes/Entregables",
     "obsidian-notes/School/Quantum/Class Notes/Biology",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos",
-    "obsidian-notes/School/Distributed Systems/Guía/Assets",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook"
+    "obsidian-notes/School/Distributed Systems/Guía/Protocolos"
   ]
 }
