@@ -228,7 +228,8 @@ First we know that **P-stability** means that for all $w \in X$, int this case $
 After reviewing **AGM Revision** we can see how it does not tells us anything about the epistemic state, that is why using this approach we cannot know how $P$ changes. For this issue, we can rely on **Jeffrey's Rule** which allouws us to update each world's probability. It is important to state that this rule, relies heavily on the parameter $s$, which is basically the new (post-revision) probability for $A$. The problem is, how can we obtain this value $s$? This can be done via the calculation of it using its lower and/or upper bounds that are given by **conditions C1 and C2**, which in plain words state that $min([\phi], \preceq_{K})$ is is fact p-stable, and that some subsets of it are not (respectively). Using this upper and lower bound we can arrive to **proposition 16**, which basically states that there is an $s$ that jointly satisfies C1 and C2 iff $P(w') - P(w) < P(min([\phi], \preceq_{\mathcal{K}})\setminus X')$. Sometimes the formula that we are revisionig is not satisfiable, in that case, the new epistemic state remains unchanged, that is basically the statement of **Theorem 18**.
 
 ### Questions
-
+- What is the purpose of Theorems 12 and 13?
+- 
 
 
 
