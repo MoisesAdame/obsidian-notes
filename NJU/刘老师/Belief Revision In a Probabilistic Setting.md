@@ -231,6 +231,6 @@ After reviewing **AGM Revision** we can see how it does not tells us anything ab
 - What is the purpose of Theorems 12 and 13?
 - Changing $A=[\phi]$ could make C1 and C2 always hold?
 - What would be another natural option for $A$.
-- 
+- Is there a way to compute our $\epsilon$?. Because it looks from the paper that they did it a bit empirically.
 
 
