@@ -229,7 +229,6 @@ After reviewing **AGM Revision** we can see how it does not tells us anything ab
 
 ### Questions
 - What is the purpose of Theorems 12 and 13?
-- 
-
+- Changing $A=[\phi]$
 
 
