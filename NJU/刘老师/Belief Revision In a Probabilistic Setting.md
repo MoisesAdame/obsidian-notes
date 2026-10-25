@@ -229,6 +229,8 @@ After reviewing **AGM Revision** we can see how it does not tells us anything ab
 
 ### Questions
 - What is the purpose of Theorems 12 and 13?
-- Changing $A=[\phi]$
+- Changing $A=[\phi]$ could make C1 and C2 always hold?
+- What would be another natural option for $A$.
+- 
 
 
