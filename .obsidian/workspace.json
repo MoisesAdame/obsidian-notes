@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8421dbd2c8273c75",
+        "id": "dbdb8c91d27ff4b9",
         "type": "tabs",
         "children": [
           {
-            "id": "2014988b4d5bd1f8",
+            "id": "9b498eb8e72c4fc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Belief Revision In a Probabilistic Setting"
             }
+          },
+          {
+            "id": "b51e5ba3fcf67525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Progression with Probabilities in the Situation Calculus"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,70 +182,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "aosr:Aosr": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "aosr:Aosr": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "2014988b4d5bd1f8",
+  "active": "b51e5ba3fcf67525",
   "lastOpenFiles": [
-    "NJU/刘老师/Epistemal Logic.md",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
+    "NJU/刘老师/Epistemal Logic.md",
+    "NJU/刘老师/第一组会.md",
     "School/Distributed Systems/Reto/Reto Conf.md",
     "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Distributed Systems/Reto/Configuraciones.md",
     "School/Distributed Systems/Reto/Casos de Uso.md",
-    "conflict-files-obsidian-git.md",
-    "NJU/时间系列/教室的记本/第4课（听）.md",
-    "NJU/刘老师/第一组会.md",
+    "School/Distributed Systems/Reto",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
     "Templates/Normal Note (Flascard).md",
     "Templates",
-    "School/Quantum/Reto/Configuración Física.md",
     "School/Quantum/Reto/Reto Conf.md",
+    "School/Quantum/Reto/Configuración Física.md",
     "School/Quantum/Reto/Configuraciones.md",
     "School/Quantum/Reto/Casos de Uso.md",
     "School/Quantum/Reto",
     "NJU/时间系列/教室的记本/第6课.md",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.6.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig4.1.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig3.2.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig3.1.png",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets/fig1.2.png",
-    "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets/fig40.2.1.gif",
-    "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
-    "obsidian-notes/School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
-    "obsidian-notes/School/Quantum/Class Notes/Entregables/Entregable Final.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 6.md",
-    "obsidian-notes/School/Quantum/Class Notes/Entregables/Entregable 0.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 9.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 8.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 7.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 5.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 4.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 4.2.md",
-    "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
-    "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
-    "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
-    "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
-    "obsidian-notes/School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-    "obsidian-notes/School/Quantum/Class Notes/Entregables",
-    "obsidian-notes/School/Quantum/Class Notes/Biology",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos"
+    "conflict-files-obsidian-git.md",
+    "NJU/时间系列/教室的记本/第4课（听）.md",
+    "NJU/时间系列/教室的记本/第5课.md",
+    "NJU/时间系列/第2课.md",
+    "NJU/时间系列/第1课.md",
+    "Masters/NeetCode/Arrays & Hashing/Group Anagrams (Medium).md",
+    "Masters/NeetCode/Arrays & Hashing/Container With Most Water.md",
+    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
+    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
+    "NJU/中国概况/第3课.md",
+    "NJU/中国概况/第1课.md",
+    "obsidian-notes",
+    "NJU/随机过程/作业",
+    "NJU/时间系列/images/image-6.1.png",
+    "NJU/时间系列/images/image-9.png",
+    "NJU/时间系列/images/image-8.png",
+    "NJU/时间系列/images/image-7.png",
+    "NJU/时间系列/images/image-6.png",
+    "NJU/时间系列/images/image-5.png",
+    "NJU/时间系列/images/image-4.png",
+    "NJU/时间系列/images/image-3.png",
+    "NJU/时间系列/images/image-2.png",
+    "NJU/时间系列/images/image-1.png",
+    "NJU/时间系列/images",
+    "NJU/时间系列/教室的记本"
   ]
 }
