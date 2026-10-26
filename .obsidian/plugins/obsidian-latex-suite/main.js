@@ -190,6 +190,7 @@ ${lr(e)}`}})}function ul(t,e){let{replacement:r,priority:n,description:i}=t,s=cr
     {trigger: "=>", replacement: "\\\\implies", options: "mA"},
 	{trigger: "=<", replacement: "\\\\impliedby", options: "mA"},
 
+	// Set theory
 	{trigger: "and", replacement: "\\\\cap", options: "mA"},
 	{trigger: "orr", replacement: "\\\\cup", options: "mA"},
 	{trigger: "inn", replacement: "\\\\in", options: "mA"},
@@ -201,6 +202,7 @@ ${lr(e)}`}})}function ul(t,e){let{replacement:r,priority:n,description:i}=t,s=cr
 	{trigger: "set", replacement: "\\\\{ $0 \\\\}$1", options: "mA"},
 	{trigger: "e\\\\xi sts", replacement: "\\\\exists", options: "mA", priority: 1},
 
+	\\ Caligraphy
 	{trigger: "LL", replacement: "\\\\mathcal{L}", options: "mA"},
 	{trigger: "HH", replacement: "\\\\mathcal{H}", options: "mA"},
 	{trigger: "CC", replacement: "\\\\mathbb{C}", options: "mA"},
