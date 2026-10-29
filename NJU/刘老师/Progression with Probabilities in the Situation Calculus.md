@@ -13,3 +13,7 @@ Date: 2026-10-29 : 17:25
 - Section 4.2's final paragraph + Section 5
 
 ## Prerequisites
+- [[Propositional Logic]]
+- [[First Order Logic]]
+- [[Situation Calculus]]
+- [[Markov Networks]]
