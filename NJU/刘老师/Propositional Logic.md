@@ -12,7 +12,7 @@ Date: 2026-10-29 : 20:19
 - **Satisfisable**: If the sentence is true in at least one world. (ej. $B \land \neg B$  one cannot be and not be a man at the same time.)
 
 ## Entailment
-We say $A $
+We say $A$
 
 
 
