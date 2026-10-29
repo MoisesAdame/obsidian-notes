@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Progression with Probabilities in the Situation Calculus"
             }
+          },
+          {
+            "id": "45890ec0370b49d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/刘老师/Markov Networks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Markov Networks"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,11 +196,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "d97341b5977ffe98",
+  "active": "45890ec0370b49d3",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
+    "NJU/刘老师/Markov Networks.md",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "Templates/中文文件.md",
+    "Templates/Normal Note.md",
+    "Templates/Normal Note (Flascard).md",
+    "Templates",
+    "conflict-files-obsidian-git.md",
     "NJU/刘老师/Epistemal Logic.md",
     "NJU/刘老师/第一组会.md",
     "School/Distributed Systems/Reto/Reto Conf.md",
@@ -192,10 +213,6 @@
     "School/Distributed Systems/Reto/Configuraciones.md",
     "School/Distributed Systems/Reto/Casos de Uso.md",
     "NJU/时间系列/教室的记本/第4课（听）.md",
-    "Templates/中文文件.md",
-    "Templates/Normal Note.md",
-    "Templates/Normal Note (Flascard).md",
-    "Templates",
     "School/Quantum/Reto/Configuración Física.md",
     "School/Quantum/Reto/Reto Conf.md",
     "School/Quantum/Reto/Configuraciones.md",
@@ -219,7 +236,6 @@
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 8.md",
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 7.md",
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 5.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 4.md",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",

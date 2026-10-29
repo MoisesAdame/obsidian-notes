@@ -1,5 +1,7 @@
 ---
 tags:
+  - belief-revision
+  - agm-conditionalism
 ---
 Date: 2026-10-24 : 10:20
 ***
