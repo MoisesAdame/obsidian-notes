@@ -15,8 +15,10 @@ A Markov Network is an **undirected graph** whose vertices are random variables 
 
 Lets say the random variables are: $\mathbf{X} = X_{1}, \dots, X_{n}$, then the locality property is:
 $$
-P(X_{i} | X_{1}, \dots, X_{i-1}, X_{i+1}, \dots, X_{n}) =P(X_{i} )
+P(X_{i} | X_{1}, \dots, X_{i-1}, X_{i+1}, \dots, X_{n}) =P(X_{i} | Nei(X_{i}))
 $$
+
+
 
 
 
