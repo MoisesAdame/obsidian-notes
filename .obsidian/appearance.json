@@ -8,5 +8,6 @@
   "enabledCssSnippets": [
     "autofading-ui"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "nativeMenus": false
 }
