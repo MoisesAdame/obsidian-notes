@@ -19,6 +19,18 @@ P(X_{i} | X_{1}, \dots, X_{i-1}, X_{i+1}, \dots, X_{n}) =P(X_{i} | Nei(X_{i}))
 $$
 
 Example:
+For the following Markov Network, because of the localityb property:
+$$
+P(q_{1} | q_{2}, q_{3}, q_{4}) = P(q_{1} | q_{2}) \quad \text{Because only $q_2$ is neigbor}
+$$
 ```mermaid
-
+graph LR
+A((q1)) --- B
+B((q2)) --- C
+C((q3)) --- D((q4))
 ```
+
+## Types of Markov Networks
+Two types:
+- Regular: A lattice.
+- Irregular: Not a lattice.
