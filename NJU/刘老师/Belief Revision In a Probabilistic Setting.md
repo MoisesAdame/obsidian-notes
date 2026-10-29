@@ -5,11 +5,7 @@ tags:
 ---
 Date: 2026-10-24 : 10:20
 ***
-
 ## General Glossary 
-### First Order Logic
-
-
 ### Belief State
 The database. Its not a set of **logically independent facts**, instead it is a set of **axioms** that can help derive others.
 
@@ -132,92 +128,6 @@ $$
 $$
 min([\phi],\preceq_{K}) = \{ w \in W : w\models\phi \text{ and } \nexists w' \in [\phi] st. w' \prec_{K}w\}
 $$
-
-
-
-## Summary
-### Part 1: The problem & The Belief Notion
-The **paper's central question** is, can *qualitative* AGM belief revision (the formulas and postulates), and its iterated revision (PD postulates) be recovered from a purely probabilistic (*quantitative*) semantics? 
-
-For instance in this context an **epistemic state** is defined as a tuple $\mathcal{K}=\langle W,P\rangle$, where $W=2^{ \mathcal{P} }$ are the wolrds and $\mathcal{P}$ are the atomic formulas. Aditionnaly $P$ are the probabilities associated to the worlds $W$.
-
-Let $W' \subseteq W$ and $X\subseteq W'$. If for all $w \in X, P(w)> P(W'\setminus X)$, then we can say **$X$ is P-stable with respect to $W'$**. Aditionally, if $W'=W$, then **$X$ is P-stable**. The reason for it to exist is that $P(\phi)>0.5$ breaks conjunction.
-
-Related to this concept, we have the notion of **pw-belief set**, whic basically is the *minimal* P-stable set. For minimal we refer to the set with the less amount of elements. Some important resul that we get related to pw-belief set is that the belief set $K=Cn(W_{0})$ is geven by all the logical consecuences of the pw-belief set wrt $W$.
-
-### Part 2: The AGM Level Results
-Given some epistemic state $\mathcal{K}$ we can induce a total preorder $\preceq_{\mathcal{K}} = \langle W_{0}, W_{1}, \dots, W_{n}\rangle$ where $W_{0}$ is the *pw-belief set* and $W_{i}$ is the pw-belief set wrt $W\setminus \bigcup_{i=0}^{ i-1 }W_{i}$. Their **ordering** is the following: $w_{i}\preceq_{\mathcal{K}}w_{j} \iff w_{i} \in W_{i}, w_{j}\in W_{j}, i\leq j$.
-
-**Theorem 12 (state to AGM)** tells us that if $K*\phi=Cn(min([\phi], \preceq_{K}))$, then $*$ satisfies the AGM postulates. **Theorem 13 (AGM to state)** tells us that given an $*$ that satisfies the AGM postulates, then the belief set $K$ is given by $K =Cn(W_{0})$. Together they form an iff.
-
-Together, theorem 12 and 13 let us see that the AGM postulates are held iff our probabilistic construction is $K*\phi=Cn(min([\phi], \preceq_{K}))$
-
-The relation between Theorems 12 and 13 and The KM Theorem is that Theorems 12 and 13 apply KM Theorem to the probabilistic setting.
-
-### Part 3: The Dynamic Account (Jeffrey, C1/C2, Prop. 16, Thm 18)
-The main taget of a revision by the epistemic level is that given our original epistmic state $\mathcal{K}=\langle W, P\rangle$, we obtain a new epistemic state $\mathcal{K'}=\langle W, P'\rangle$. Thus, after revising $\mathcal{K}$ by $\phi$, the new pw-belief set would be $min([\phi], \preceq_{\mathcal{K}})$
-
-Jeffrey Conditioning help us update the world's probability. We use Jeffrey's rule that is defined as follows:
-
-$$
-P'(w) = \begin{cases}
-\frac{s \cdot P(w)}{P(A)} & w\in A \\
-\frac{(1-s) \cdot P(w)}{1- P(A)} & w\not\in A \\
-\end{cases}
-$$
-
-In this case $s$ represents the *new probability assigned for $A$*. 
-
-Now, the problem arises. How are we supposed to calculate $s$? This can be done by first properly defining our problem. We know that the new epistemic state's $W'_{0}=min([\phi], \preceq_{K})$. So, using this we can have two conditions:
-1. **Condition 1:** $\forall w \in min([\phi], \preceq_{K}),  P'(w) > P'(W \setminus min([\phi], \preceq_{K}))$.
-2. **Condition 2:** Given an $X' \subset min([\phi], \preceq_{K})$ $\forall x' \in X', P'(x')\leq P'(W \setminus X')$
-
-By condition 1
-We first have to question ourselves, what is $W$? We then can say that $W = [\neg \phi] \cup [\phi]$. Thus, $W \setminus min([\phi], \preceq_{K}) = [\neg \phi] \cup [\phi]\setminus min([\phi], \preceq_{K})$
-
-Using this, we obtain $s$ lower bound.
-
-By condition 2
-We obtain $s$ upper bound.
-
-Then, joing what we obtained from the calculation of $s$ upper and lower bounds, we can say that the feasability condition for a given formula $\phi$ being revised and accepeted by a epistemic state is that:
-$$
-P(w') - P(w) < P(min([\phi], \preceq_{\mathcal{K}}\setminus X')) 
-$$
-
-And when this condition fails, means that conditions **C1** and **C2** cannot be jointly satisfied, which implies that the Jeffrey's update cannot make $min([\phi], \preceq_{\mathcal{K}})$ be the new pw-belief set, which for instance makes the operator not satisfy all of the AGM postulates.
-
-### Part 4: Iterated Revision (§4.4): DPW, Table 2, ε-device
-#### Question 14
-The main difference between **AGM and DP** is that the first one works with **belief sets** and the second onw, works with **total preorder $\preceq_{K}$**.
-
-#### Question 15
-The reason why the **probabilistic account cannot satisfy DPS1** is because that after applying Jeffrey's rule, the worlds that are not inside $[\phi]$ get two higher layers, so for instance if in the original belief set two worlds where in the same layer, but one of the was not in $[\phi]$, then, after applyingg Jeffreys rule the world that was inside and didn't belong to $[\phi]$ will be pushed up making the equation not hold.
-
-In table two, we can see how before revision $w_{5}$ and $w_{7}$ both belong to the same layer, but after revision, $w_{5}$ and $w_{7}$ end up in different layers, making the equation not hold.
-
-*dont know how to answer part c*
-
-#### Question 16
-The **independence towards revision** means that they belong to totally different layers in the total preorder.
-
-The reason of existance of the **$\epsilon$ device** is that originally the probabilities of $w_{1}$ to $w_{4}$ summed 1, the sammed happend to the probabilities of $w_{5}$ to $w_{8}$. Now, in order for building a new epistemic state where we can have worlds from $w_{1}$ to $w_{8}$ we need their probabilitiers to sum 1so, by multiplying all the probabilities of the first group by $(1-\epsilon)$ and doing the same but with $\epsilon$, we get a new epistemic state that doesn't break any rules.
-
-*dont know how to answer part c*
-
-#### Question 17
-*dont know how to answer part A*
-
-It is weakend but just in the sense that instead of $\preceq_{\mathcal{K}}$, we have $\prec_{\mathcal{K}}$, but the implies stays the same.
-
-**DPS4 does not need to be weakend** because $w_{1}$ is always going to be in a lower layer if $w_{2}$ does not belong to $[\phi]$. 
-
-**DPW is weaker** because the worlds in the new epistemic state do not need to be in the same layer.
-
-#### Question 18
-Forces us to forget everything that we learned from $p_{1}, p_{2}, p_{2}, \dots,p_{100}$ and only learn that $\neg p_{1}$
-
-*dont know how to answer part B*
 
 ## Synthesis
 ### What is the paper about?
