@@ -166,6 +166,7 @@ ${lr(e)}`}})}function ul(t,e){let{replacement:r,priority:n,description:i}=t,s=cr
     {trigger: "+-", replacement: "\\\\pm", options: "mA"},
 	{trigger: "-+", replacement: "\\\\mp", options: "mA"},
     {trigger: "...", replacement: "\\\\dots", options: "mA"},
+	{trigger: "c...", replacement: "\\\\cdots", options: "mA"},
     {trigger: "nabl", replacement: "\\\\nabla", options: "mA"},
     // The operator nabla is also called del, but using "del" as a trigger conflicts with the greek letter delta.
 	// {trigger: "del", replacement: "\\\\nabla", options: "mA"},
