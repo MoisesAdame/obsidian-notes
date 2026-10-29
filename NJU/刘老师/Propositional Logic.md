@@ -11,7 +11,8 @@ Date: 2026-10-29 : 20:19
 - **Valid**: If the sentence is true in all the worlds.
 - **Satisfisable**: If the sentence is true in at least one world. (ej. $B \land \neg B$  one cannot be and not be a man at the same time.)
 
-## Inference
+## Entailment
+
 
 
 
