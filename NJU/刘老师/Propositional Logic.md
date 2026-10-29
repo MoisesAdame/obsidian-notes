@@ -1,5 +1,6 @@
 ---
 tags:
+  - propositional-logic
 ---
 Date: 2026-10-29 : 20:19
 ***
@@ -12,7 +13,4 @@ Date: 2026-10-29 : 20:19
 - **Satisfisable**: If the sentence is true in at least one world. (ej. $B \land \neg B$  one cannot be and not be a man at the same time.)
 
 ## Entailment
-We say $A \models B$
-
-
-
+We say $A \models B$ if in all the worlds where $A$ is true, $B$ is true.

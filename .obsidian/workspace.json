@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/Propositional Logic.md",
+                "file": "NJU/刘老师/First Order Logic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Propositional Logic"
+              "title": "First Order Logic"
             }
           }
         ],
@@ -243,12 +243,12 @@
   },
   "active": "b842c16b0f50142f",
   "lastOpenFiles": [
+    "NJU/刘老师/Propositional Logic.md",
+    "NJU/刘老师/First Order Logic.md",
     "NJU/刘老师/Situation Calculus.md",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
-    "NJU/刘老师/First Order Logic.md",
     "NJU/刘老师/Markov Networks.md",
     "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
-    "NJU/刘老师/Propositional Logic.md",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
     "Templates/Normal Note (Flascard).md",
