@@ -18,8 +18,5 @@ $$
 P(X_{i} | X_{1}, \dots, X_{i-1}, X_{i+1}, \dots, X_{n}) =P(X_{i} | Nei(X_{i}))
 $$
 
+Example:
 
-
-
-
-## 
