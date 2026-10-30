@@ -4,5 +4,5 @@ tags:
 ---
 Date: 2026-10-29 : 20:00
 ***
-## Subtitle
-Value
+## Building Blocks
+- **Constants**: 
