@@ -28,3 +28,4 @@ Divided in two:
 
 ### Domain of Quantification
 **Assumption**: Every object has its own standard name. This means that there are not unnamable objects.
+
