@@ -18,3 +18,6 @@ The **keys** of our database.
 If all the *terms* are divided into *equivalence classes* (A set were all the objects are rsflexive, symetric and transitive, in plain words if best_friend(moy) and brother(chabellini) belomg to the same equivalence class, by symmetry we know that brother(chabellini) = best_friend(moy) implies best_friend(moy) = brother(chabellini)), then each equivalence class is one **standard name**.
 
 ### Syntax of $\mathcal{L}$
+Divided in two:
+- Logical symbols: 
+- Non Logical Symbols: 
