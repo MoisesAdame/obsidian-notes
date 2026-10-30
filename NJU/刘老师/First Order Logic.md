@@ -22,4 +22,4 @@ Divided in two:
 - **Logical symbols**: Variables, standard names, equality ($=$) and logical connectives ($\forall, \exists,\neg,\vee$)
 - **Non Logical Symbols**: Predicates, functions.
 
-The **expressions** of $\mathcal{L}$ can be: *Terms* or *Well Formed Formulas*.
+The **expressions** of $\mathcal{L}$ can be: *Terms* (describe individuals, thus have functions) or *Well Formed Formulas* (describe relations, thus have predicates).
