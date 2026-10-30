@@ -22,4 +22,6 @@ Divided in two:
 - **Logical symbols**: Variables, standard names, equality ($=$) and logical connectives ($\forall, \exists,\neg,\vee$)
 - **Non Logical Symbols**: Predicates, functions.
 
-The **expressions** of $\mathcal{L}$ can be: *Terms* (describe individuals, thus have functions) or *Well Formed Formulas* (describe relations, thus have predicates).
+**Expressions** of $\mathcal{L}$ can be: *Terms* (describe individuals, thus have functions) or *Well Formed Formulas* (describe relations, thus have predicates).
+
+**Sentences** are wff's with no free variables.
