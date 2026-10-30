@@ -27,3 +27,4 @@ Divided in two:
 **Sentences** are wff's with no free variables. They can have a *truth value*, so they represent knowledge.
 
 ### Domain of Quantification
+**Assumption**: Every object has its own standard name. This means that there are not unnamable objects.
