@@ -9,4 +9,7 @@ Date: 2026-10-29 : 20:00
 - **Variables**: Placeholders for the names.
 - **Predicates**: Properties of or relations between objects (Loves (x, y))
 - **Functions**: Map from one object to another (a = Father(b))
-- **Terms**: 
+- **Terms**: Constants, variables or functions applied to terms (best_friend(moy))
+
+## Complex Concepts
+### Standard Names
