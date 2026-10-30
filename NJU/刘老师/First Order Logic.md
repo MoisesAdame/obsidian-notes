@@ -15,4 +15,4 @@ Date: 2026-10-29 : 20:00
 ### Standard Names
 The **keys** of our database.
 
-If all the *terms* are divided into *equivalence classes* (A set were 1) if $a = b =$), then each equivalence class is one **standard name**.
+If all the *terms* are divided into *equivalence classes* (A set were all the objects are rsflexive, symetric and transit), then each equivalence class is one **standard name**.
