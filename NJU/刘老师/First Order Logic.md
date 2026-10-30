@@ -19,5 +19,6 @@ If all the *terms* are divided into *equivalence classes* (A set were all the ob
 
 ### Syntax of $\mathcal{L}$
 Divided in two:
-- Logical symbols: 
-- Non Logical Symbols: 
+- **Logical symbols**: Variables, standard names, equality ($=$) and logical connectives ($\forall, \exists,\neg,\vee$)
+- **Non Logical Symbols**: Predicates, functions.
+- 
