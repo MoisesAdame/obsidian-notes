@@ -24,11 +24,15 @@ A robot that stacks blocks in a tower.
 - Fluents: `handempty(s)`, `holding(x, s)`, `on(x, y, s)`, `clear(x, s)`
 
 ### Axioms
-They are the desciption of our language. They are first order sentences. Example:
+Description of our language. 
+Describe the effects of actions. 
+They are first order sentences.
+
+Example:
 $$
 Poss(stack(x, y), s) \equiv holding(x, s) \land clear(y, s)
 $$
-
+In plain words `Poss(a, s)` is execute action `a` on situation `s`. So, we can only stack block x on block y iff we are holding it and there is no block on top of block y.
 
 
 
