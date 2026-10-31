@@ -38,7 +38,7 @@ In plain words `Poss(a, s)` is execute action `a` on situation `s`. So, we can o
 ### Frame Problem
 When describing our actions, we only say what they change, and what they dont change or affect, we just dont mention it.
 
-This is a problem, because if we want to derive  
+This is a problem, because if we want to derive what is not changed by the action, we cant. This is the **Frame Problem**. 
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
