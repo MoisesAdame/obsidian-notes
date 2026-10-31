@@ -7,15 +7,16 @@ Date: 2026-10-29 : 19:44
 ## What it is?
 A first order language that represents change.
 
-## Important Concepts
-### Situation
+## Concepts
+### Situation, Action and Fluents
+#### Situation
 
 
-### Action
+#### Action
+What makes the world change from one situation to another.
 
-
-### Fluent
-
+#### Fluents
+Functions that describe the effects of actions. They depend on the situation
 
 ## Reference
 
