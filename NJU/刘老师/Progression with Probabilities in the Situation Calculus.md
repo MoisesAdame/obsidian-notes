@@ -17,3 +17,5 @@ Date: 2026-10-29 : 17:25
 - [[First Order Logic]]
 - [[Situation Calculus]]
 - [[Markov Networks]]
+
+
