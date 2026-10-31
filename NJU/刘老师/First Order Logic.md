@@ -28,10 +28,17 @@ Two important types of terms:
 - **Ground Term**: A term without variables.
 - **Primitive Term**: A ground term with only one function.
 
+Two important types of wff's:
+- 
+
 **Sentences** are wff's with no free variables. They can have a *truth value*, so they represent knowledge.
 
 ### Domain of Quantification
 **Assumption**: Every object has its own standard name. This means that there are not unnamable objects.
 
 ### World
+In propositional logic one specifies the *interpretation* by giving each atomic sentence a truth value, after which you can calculate the truth value for the non atomic sentences.
 
+Inf FOL you need to specify two things:
+- Truth value for each primitive atom.
+- 
