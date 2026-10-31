@@ -51,7 +51,7 @@ Steps:
 	- In this case because $on()$ does not have a negation, it belongs to the possitive effect axioms $\gamma^+$. 
 	- So, we get $\gamma^+_{n}(a, \vec{x}, s) \supset F(\vec{x}, do(a, s))$. Where $a$ is the action, $\vec{x}$ are the parameters of our fluent, $s$ is the situation, and $F$ is the fluent.
 3. Apply the *Succesor-State Axiom Formula*.
-	- Formula: F()
+	- Formula: $F(\vec{x}, do(a, s)) \equiv \gamma^+(a, \vec{x}, s) $
 
 
 
