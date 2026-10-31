@@ -40,5 +40,8 @@ When describing our actions, we only say what they change, and what they dont ch
 
 This is a problem, because if we want to derive what is not changed by the action, we cant. This is the **Frame Problem**. 
 
+#### Solution: Reiter's Solution
+
+
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
