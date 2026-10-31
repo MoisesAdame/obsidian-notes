@@ -57,3 +57,4 @@ This solution, helps us entail results as $In_{1}\{ Alice \}, In_{1}\{ Bob \}$, 
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
+- The Dramatic True Story of the Frame Default, Lifschitz, 
