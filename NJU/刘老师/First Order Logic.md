@@ -24,7 +24,7 @@ Divided in two:
 
 **Expressions** of $\mathcal{L}$ can be: *Terms* (describe individuals, thus have functions) or *Well Formed Formulas* (describe relations, thus have predicates).
 
-Two importan
+Two important
 
 **Sentences** are wff's with no free variables. They can have a *truth value*, so they represent knowledge.
 
