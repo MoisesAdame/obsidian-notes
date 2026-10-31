@@ -18,4 +18,8 @@ Date: 2026-10-29 : 17:25
 - [[Situation Calculus]]
 - [[Markov Networks]]
 
+## Remarks
+### Section 2.2
+
+
 
