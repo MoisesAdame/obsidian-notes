@@ -10,7 +10,7 @@ A first order language that represents change.
 ## Concepts
 ### Situation, Action and Fluents
 #### Situation
-
+FOL objects. 
 
 #### Action
 What makes the world change from one situation to another.
