@@ -47,7 +47,7 @@ If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice 
 Steps:
 1. Identify the *fluents* of our probelm.
 2. Write the *effect axioms* (possitive $\gamma^+$ and negative $\gamma^-$).
-	- Example: The effect axiom `on(x, y, do(stack(x, y), s))` is rewritten as $a = stack(x, y) \supset on(x, y, do(a, s))$, which reads: ""
+	- Example: The effect axiom `on(x, y, do(stack(x, y), s))` is rewritten as $a = stack(x, y) \supset on(x, y, do(a, s))$, which reads: "If the actiom $a$ "
 3. Apply the Succesor-State Axiom Formula.
 
 
