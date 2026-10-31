@@ -26,7 +26,7 @@ Given a set of fluents $\mathcal{F} = \{ F_{1}, \dots, F_{n} \}$ a a BAT $\Sigma
 - **Succesor State Axioms (SSA's) $\Sigma_{post}$**: $F(\vec{x}) \equiv \gamma^+(a, \vec{x}, s), \lor (F(\vec{x}, s) \land \gamma^-(a, \vec{x}, s))$ for every $F \in \mathcal{F}$. (Our axioms for each succesor tanking into accoun the frame problem)
 
 #### Definition: Progression 
-Given a Basic Action Theory $$
+Given a Basic Action Theory $\Sigma_{0} \cup $
 
 
 ## Questions
