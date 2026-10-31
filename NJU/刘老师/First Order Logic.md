@@ -54,5 +54,7 @@ w \models P(t_{1}, \dots, t_{k}) \iff w[P(t_{1}, \dots, t_{k})] = 1
 $$
 
 ### Satisﬁability, Implication and Validity
-- 
+- **Satisfiability**: $\Gamma$ is satisfied if $\forall \alpha \in \Gamma w \models \alpha$.
+- **Implication**: $\Gamma \models \alpha$ if $\Gamma \cup \{ \neg \alpha \}$ is insatisfiable.
+- **Validity**: 
 
