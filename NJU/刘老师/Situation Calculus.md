@@ -24,7 +24,10 @@ A robot that stacks blocks in a tower.
 - Fluents: `handempty(s)`, `holding(x, s)`, `on(x, y, s)`, `clear(x, s)`
 
 ### Axioms
-
+They are the desciption of our language. They are first order sentences. Example:
+$$
+Poss(stack(x, y), s) \equiv holding(x, s) vor
+$$
 
 
 
