@@ -32,8 +32,10 @@ Example:
 $$
 Poss(stack(x, y), s) \equiv holding(x, s) \land clear(y, s)
 $$
+
 In plain words `Poss(a, s)` is execute action `a` on situation `s`. So, we can only stack block x on block y iff we are holding it and there is no block on top of block y.
 
+### Frame Problem
 
 
 ## Reference
