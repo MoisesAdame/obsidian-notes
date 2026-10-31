@@ -31,7 +31,7 @@ Given a set of fluents $\mathcal{F} = \{ F_{1}, \dots, F_{n} \}$ a a BAT $\Sigma
 
 ## Questions
 ### Section 2.2
-1. In definition of Basic action theory, what is the difference between 
+1. In definition of Basic action theory, what is the difference between between an 
 
 
 
