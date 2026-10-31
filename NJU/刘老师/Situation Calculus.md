@@ -47,7 +47,7 @@ If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice 
 Steps:
 1. Identify the fluents of our probelm.
 2. Write the effect axioms (possitive $\gamma^+$ and negative $\gamma^-$).
-3. Apply the Succesos-State
+3. Apply the Succesos-State Axiom Formula.
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
