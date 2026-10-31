@@ -46,7 +46,7 @@ If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice 
 #### Reiter's Solution
 Steps:
 1. Identify the fluents of our probelm.
-2. Write the effect actions (possitive )
+2. Write the effect actions (possitive $\gamma^+$ and negative $\gamma$)
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
