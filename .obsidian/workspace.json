@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/Situation Calculus.md",
+                "file": "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Situation Calculus"
+              "title": "Progression with Probabilities in the Situation Calculus"
             }
           }
         ],
@@ -243,8 +243,8 @@
   },
   "active": "b842c16b0f50142f",
   "lastOpenFiles": [
-    "NJU/刘老师/Markov Networks.md",
     "NJU/刘老师/Situation Calculus.md",
+    "NJU/刘老师/Markov Networks.md",
     "NJU/刘老师/First Order Logic.md",
     "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
     "NJU/刘老师/Propositional Logic.md",
