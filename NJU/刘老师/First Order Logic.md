@@ -47,9 +47,12 @@ Inf FOL you need to specify two things:
 
 Those assignments are the **world state** or **worlds**.
 
-### Evaluating sentnces
+### Evaluating Sentences
 A sentence $\alpha$ is modelled by a world $w$ iff that sentence is true in that world.
 $$
 w \models P(t_{1}, \dots, t_{k}) \iff w[P(t_{1}, \dots, t_{k})] = 1
 $$
+
+### Satisﬁability, Implication and Validity
+- 
 
