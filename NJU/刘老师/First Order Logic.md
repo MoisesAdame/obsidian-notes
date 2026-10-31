@@ -24,11 +24,11 @@ Divided in two:
 
 **Expressions** of $\mathcal{L}$ can be: *Terms* (describe individuals, thus have functions) or *Well Formed Formulas* (describe relations, thus have predicates).
 
-Two important types of terms:
+Two important *types of terms*:
 - **Ground Term**: A term without variables.
 - **Primitive Term**: A ground term with only one function.
 
-Two important types of wff's:
+Two important *types of wff's*:
 - 
 
 **Sentences** are wff's with no free variables. They can have a *truth value*, so they represent knowledge.
