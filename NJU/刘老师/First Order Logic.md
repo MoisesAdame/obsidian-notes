@@ -28,8 +28,10 @@ Two important *types of terms*:
 - **Ground Term**: A term without variables.
 - **Primitive Term**: A ground term with only one function.
 
-Two important *types of wff's*:
-- 
+Three important *types of wff's*:
+- **Atoms**: They are of the form $P(t_{1}, \dots, t_{k})$, where $t_{i}$ is a term and $P$ is a predicate.
+- **Ground Atoms**: An atom without variables.
+- **Primitive Atom**: An atom where every $t_{i}$ is a standard name.
 
 **Sentences** are wff's with no free variables. They can have a *truth value*, so they represent knowledge.
 
@@ -40,5 +42,7 @@ Two important *types of wff's*:
 In propositional logic one specifies the *interpretation* by giving each atomic sentence a truth value, after which you can calculate the truth value for the non atomic sentences.
 
 Inf FOL you need to specify two things:
-- Truth value for each primitive atom.
-- 
+- *Truth value* for each *primitive atom*.
+- *Standard name* for each *primitive term*.
+
+Those assignments are the **world state** or **worlds**.
