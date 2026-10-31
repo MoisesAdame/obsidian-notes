@@ -16,7 +16,17 @@ FOL objects. The complete state of the universe ate an instance of time.
 What makes the world change from one situation to another.
 
 #### Fluents
-Functions that describe the effects of actions. They depend on the situation
+Functions that describe the effects of actions. They depend on the situation.
+
+#### Example
+A robot that stacks blocks in a tower.
+- Actions: `stack(x, y)`, `unstack(x, y)`, `putdow(x)`, `pickup(x)`
+- Fluents: `handempty(s)`, `holding(x, s)`, `on(x, y, s)`, `clear(x, s)`
+
+### Axioms
+
+
+
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
