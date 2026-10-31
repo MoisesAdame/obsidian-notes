@@ -46,3 +46,5 @@ Inf FOL you need to specify two things:
 - *Standard name* for each *primitive term*.
 
 Those assignments are the **world state** or **worlds**.
+
+### Term and Formula Semantic Evaluation
