@@ -25,7 +25,6 @@ Given a set of fluents $\mathcal{F} = \{ F_{1}, \dots, F_{n} \}$ a a BAT $\Sigma
 - **Initial Theory $\Sigma_{0}$**: The initial set of fluents. (Closely related to the initial situation $s_{0}$).
 - **Succesor State Axioms (SSA's) $\Sigma_{post}$**: $F(\vec{x}) \equiv \gamma^+(a, \vec{x}, s), \lor (F(\vec{x}, s) \land \gamma^-(a, \vec{x}, s))$ for every $F \in \mathcal{F}$. (Our axioms for each succesor tanking into accoun the frame problem)
 
-
 #### Definition: Progression 
 
 
