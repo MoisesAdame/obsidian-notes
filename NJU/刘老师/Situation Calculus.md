@@ -41,7 +41,7 @@ When describing our actions, we only say what they change, and what they dont ch
 This is a problem, because if we want to derive what is not changed by the action, we cant. This is the **Frame Problem**. 
 
 #### Example: Bob and Alice and the Room
-If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice \}, \neg In_{0}\{ Bob \}$. If we apply the function `Enter()`, defined as $\forall x (Enter(x) \to In_{1}\{ x \})$ to Bob. Then our conclussion is: $In_{0}\{ Alice \}, In_{0}\{ Bob \}$. But neither the initial condition, nor the definition of `Enter()` tells us why Alice is still in, there is the problem.
+If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice \}, \neg In_{0}\{ Bob \}$. If we apply the function `Enter()`, defined as $\forall x (Enter(x) \to In_{1}\{ x \})$ to Bob. Then our conclussion is: $In_{1}\{ Alice \}, In_{1}\{ Bob \}$. But neither the initial condition, nor the definition of `Enter()` tells us why Alice is still in, there is the problem.
 
 #### Reiter's Solution
 Steps:
@@ -51,9 +51,9 @@ Steps:
 	- In this case because $on()$ does not have a negation, it belongs to the possitive effect axioms $\gamma^+$. 
 	- So, we get $\gamma^+_{n}(a, \vec{x}, s) \supset F(\vec{x}, do(a, s))$. Where $a$ is the action, $\vec{x}$ are the parameters of our fluent, $s$ is the situation, and $F$ is the fluent.
 3. Apply the *Succesor-State Axiom Formula*.
-	- Formula: $F(\vec{x}, do(a, s)) \equiv \gamma^+(a, \vec{x}, s) $
+	- Formula: $F(\vec{x}, do(a, s)) \equiv \gamma^+(a, \vec{x}, s) \lor (F(\vec{x}, s) \land \neg \gamma^-(a, \vec{x}, s))$
 
-
+This solution, helps us entail results as $In_{1}\{ Alice \}, In_{1}\{ Bob \}$, solving the frame problem.
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
