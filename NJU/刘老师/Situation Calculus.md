@@ -44,7 +44,9 @@ This is a problem, because if we want to derive what is not changed by the actio
 If Alice is in a room and Bob is not, our initial situation is: $In_{0}\{ Alice \}, \neg In_{0}\{ Bob \}$. If we apply the function `Enter()`, defined as $\forall x (Enter(x) \to In_{1}\{ x \})$ to Bob. Then our conclussion is: $In_{0}\{ Alice \}, In_{0}\{ Bob \}$. But neither the initial condition, nor the definition of `Enter()` tells us why Alice is still in, there is the problem.
 
 #### Reiter's Solution
-
+Steps:
+1. Detect the fluents of our probelm.
+2. 
 
 ## Reference
 - Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
