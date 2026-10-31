@@ -22,6 +22,7 @@ Date: 2026-10-29 : 17:25
 ### Section 2.2
 #### Definition: Basic Action Theory
 Given a set of fluents $\mathcal{F} = \{ F_{1}, \dots, F_{n} \}$ a a BAT $\Sigma$ has:
+- **Initial Theory**: The initial set of fluents. (The initial situation).
 - 
 
 
