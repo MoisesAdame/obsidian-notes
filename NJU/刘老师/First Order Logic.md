@@ -56,5 +56,5 @@ $$
 ### Satisﬁability, Implication and Validity
 - **Satisfiability**: $\Gamma$ is satisfied if $\forall \alpha \in \Gamma,  \exists w \text{ s.t. } w \models \alpha$.
 - **Implication**: $\Gamma \models \alpha$ if $\Gamma \cup \{ \neg \alpha \}$ is insatisfiable.
-- **Validity**: 
+- **Validity**: Written as $$
 
