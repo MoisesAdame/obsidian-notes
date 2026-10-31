@@ -26,8 +26,9 @@ A robot that stacks blocks in a tower.
 ### Axioms
 They are the desciption of our language. They are first order sentences. Example:
 $$
-Poss(stack(x, y), s) \equiv holding(x, s) ~\vee~
+Poss(stack(x, y), s) \equiv holding(x, s) \land clear(y, s)
 $$
+
 
 
 
