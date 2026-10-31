@@ -19,4 +19,4 @@ What makes the world change from one situation to another.
 Functions that describe the effects of actions. They depend on the situation
 
 ## Reference
-
+- Handbook of Knowledge Representation (Chapter 16), Lin Fangzhen.
