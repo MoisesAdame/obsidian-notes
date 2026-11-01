@@ -45,6 +45,22 @@ It has been showed that this can be done wehn the SSA's are either:
 - Strongly Context Free: 
 - Local Effect:
 
+#### Theorem 2.8: Forgetting a Predicate When There Is No Total Agreement
+Let $\Delta = \{ t_{1}, \dots, t_{n} \}$ be a set of vector of ground terms, $P$ and $Q$ two predicates, $Q(\Delta)$ be the set $\{ Q(\vec{t}) | t \in \Delta \}$ and $P\approx_{\Delta} Q$ denote the formula $\vec{\forall}x \not\in \Delta \supset P(\vec{x}) \equiv Q(\vec{x})$. Then $forget(\phi \land P \approx_{\Delta}Q, Q) \iff forget(\phi, Q(\Delta))^Q_{P}$.
+
+**Plain Words**: This means that if we have a sentence where the predicates $P$ and $Q$ totally agree (have the same truth value) ($\phi \land P \approx_{\Delta}Q$), except for a few ones ($Q(\Delta)$) and we forget all the $Q$'s. It is just the same as having the original sentence $\phi$ and forgetting all the not agreeing $Q$'s ($Q(\Delta)$) and then substituting all the $Q$'s for $P$'s.
+
+**Example**:
+$P$: $\text{sleeping}()$
+$Q$: $\text{snoring}()$
+$\phi$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock)$
+$\Delta$: $\{ petsock \}$
+$P\approx_{\Delta}Q$: $\forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
+$\phi \land P\approx_{\Delta}Q$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
+
+$\text{forget}(\phi \land P\approx_{\Delta}Q, Q) = \text{sleeping}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
+$\text{forget}(\phi, Q(\Delta)) = \text{sleeping}(petsock)$
+
 
 ## Questions
 ### Section 2.2
