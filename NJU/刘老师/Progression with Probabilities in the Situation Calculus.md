@@ -35,6 +35,12 @@ This definition can be seen from two perspectives (past = before progression, fu
 - **Past Perspective**: The sentence $\phi$ holds after the action $t$ ($t[\phi]$) using the initial BAT.
 - **Future Perspective**: We can entail  $\phi$ via the progressed BAT.
 
+#### Theorem 2.6: Progression with SO Variables
+The progression of $\Sigma_{0}$ wrt $t$ and $\Sigma_{post}$ is:
+$$
+\Sigma_{0}' =\exists \vec{V}.(\Sigma_{0})_{\vec{V}}^{\vec{F}} \land \bigwedge_{i} \forall \vec{x}. F_{i}(\vec{x}) \equiv (\gamma_{F_{i}}(\vec{x}, t))_{\vec{V}}^\vec{F}
+$$
+
 #### Forgetting as Progression
 ##### Definition 1: Preidcate
 - Why? Because if we forget a predicate, we have a new theory that will entail new conlusions (weaker conclusions).
@@ -43,8 +49,8 @@ This definition can be seen from two perspectives (past = before progression, fu
 
 #### Defining Progression with FOL
 It has been showed that this can be done wehn the SSA's are either:
-- Strongly Context Free: 
-- Local Effect:
+- Strongly Context Free: $\gamma_{F}(\vec{x}, a) = \bigvee_{j}\exists \vec{u}_{j}.[a = A_{j}(\vec{u})_{j}]$
+- Local Effect Condition: $\gamma_{F}(\vec{x}, a) = \bigvee_{j}\exists \vec{u}_{j}.[a = A_{j}(\vec{u})_{j} \land \phi_{j}(\vec{u}_{j})]$
 
 #### Theorem 2.8: Forgetting a Predicate When There Is No Total Agreement
 Let $\Delta = \{ t_{1}, \dots, t_{n} \}$ be a set of vector of ground terms, $P$ and $Q$ two predicates, $Q(\Delta)$ be the set $\{ Q(\vec{t}) | t \in \Delta \}$ and $P\approx_{\Delta} Q$ denote the formula $\vec{\forall}x \not\in \Delta \supset P(\vec{x}) \equiv Q(\vec{x})$. Then $forget(\phi \land P \approx_{\Delta}Q, Q) \iff forget(\phi, Q(\Delta))^Q_{P}$.
