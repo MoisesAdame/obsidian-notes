@@ -102,6 +102,7 @@ Where:
 
 ### Section 3.1
 1. Are FI-PKB and WR-PKB the only types of PKB's?
+2. Are WR-PKB closed under progression? If so, why?
 
 
 
