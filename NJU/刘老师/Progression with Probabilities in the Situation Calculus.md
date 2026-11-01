@@ -65,10 +65,14 @@ $\Delta$: $\{ petsock \}$
 $P\approx_{\Delta}Q$: $\forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
 $\phi \land P\approx_{\Delta}Q$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
 
+### Section 3.1
+
+
 
 ## Questions
 ### Section 2.2
 1. In definition of Basic action theory, what is the difference the initial situation $s_{0}$ the initial theory $\Sigma_{0}$?
+2. How do you go from Theorem 2.6 to Theorem 2.9
 
 
 
