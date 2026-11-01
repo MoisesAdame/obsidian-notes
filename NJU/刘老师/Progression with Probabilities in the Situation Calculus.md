@@ -66,13 +66,43 @@ $P\approx_{\Delta}Q$: $\forall x \neq petsock \supset \text{sleeping}(x) \equiv 
 $\phi \land P\approx_{\Delta}Q$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
 
 ### Section 3.1
+#### Probabilistic Knowledge Base (PKB)
+A set of static subjective fluent formulas without nested $\mathbf{B}$.
+- Static: Current state. There is no $[a]$ or $\square$.
+- Subjective: What the agent believes, not the objective world.
+- No nested: There are no $\mathbf{B}(\mathbf{B(\theta : r_{1})}, r_{2})$
 
+##### Types of PKBs
+###### Fact-Independent PKB (FI-PKB)
+It has a two theories:
+- $T=\{ \mathbf{B}(\alpha_{1}:n_{1}), \dots, \mathbf{B}(\alpha_{k}:n_{k}) \}$.
+- $T_{ind}$
+
+Where:
+- $T$ tells uss each fact $a_{i}$ is believed with a probability $n_{i}$.
+- $T_{ind}$ tells us that the facts are *mutually independent*.
+
+**NOT CLOSED UNDER PROGESSION**: Because adding new facts might add independencies between them.
+
+###### World Representation PKB (WR-PKB)
+ It has one theory:
+- $T = \{ \mathbf{B}(\theta:r_{\theta}) : \theta \in \Theta\}$
+
+Where:
+- $\theta = \beta_{1} \land \beta_{2} \land \dots \land  \beta_{k}$.
+- $\beta_{i} = \{ \alpha_{i}, \neg\alpha_{i} \}$ either our fact is true or false.
+- $\Theta$ is all the possible combinations of $\theta$'s. There should be $2^k$.
+- $r_{\theta}$ is the probability for each combination $\theta$.
 
 
 ## Questions
 ### Section 2.2
 1. In definition of Basic action theory, what is the difference the initial situation $s_{0}$ the initial theory $\Sigma_{0}$?
-2. How do you go from Theorem 2.6 to Theorem 2.9
+2. How do you go from Theorem 2.6 to Theorem 2.9.
+
+### Section 3.1
+1. Are FI-PKB and WR-PKB the only types of PKB's?
+
 
 
 
