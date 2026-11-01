@@ -36,6 +36,7 @@ This definition can be seen from two perspectives (past = before progression, fu
 - **Future Perspective**: We can entail  $\phi$ via the progressed BAT.
 
 #### Forgetting as Progression
+##### Definition 1: Preidcate
 - Why? Because if we forget a predicate, we have a new theory that will entail new conlusions (weaker conclusions).
 - Syntactically: $forget(P, \phi) \equiv \exists V.\phi^P_{V}$ (This $V$ is a second order variable that we can choose to be true).
 - Example: If $\phi = P(a) \land Q(b)$, then we substitute all the P's for V's $forget(P, \phi) \equiv \exists V.(V(a) \land Q(b)) \equiv Q(b)$)
@@ -57,9 +58,6 @@ $\phi$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock)$
 $\Delta$: $\{ petsock \}$
 $P\approx_{\Delta}Q$: $\forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
 $\phi \land P\approx_{\Delta}Q$: $\text{sleeping}(petsock) \land \neg \text{snoring}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
-
-$\text{forget}(\phi \land P\approx_{\Delta}Q, Q) = \text{sleeping}(petsock) \land \forall x \neq petsock \supset \text{sleeping}(x) \equiv \text{snoring}(x)$
-$\text{forget}(\phi, Q(\Delta)) = \text{sleeping}(petsock)$
 
 
 ## Questions
