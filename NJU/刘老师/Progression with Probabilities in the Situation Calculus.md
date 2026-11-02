@@ -1,7 +1,7 @@
 ---
 tags:
 ---
-Date: 2026-10-29 : 17:25
+opate: 2026-10-29 : 17:25
 ***
 ## How to Read
 ### First read
