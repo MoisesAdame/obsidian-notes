@@ -5,6 +5,9 @@ tags:
 ---
 Date: 2026-11-02 : 16:37
 ***
+## Chapter's Tip
+Reference material. You need: many-sorted logic and the reduction to unsorted logic, and **second-order logic for inductive definitions** (smallest set / intersection of all sets). This is why the foundational axioms and the `Do` macro for iteration are second-order. Skim 2.1 if you're comfortable; read 2.2.3 carefully.
+
 ## First Order Logic
 #### Syntax
 The vocabulary is divided in:
@@ -41,4 +44,9 @@ $\models_{\mathcal{S}} \sigma$: A sentence $\sigma$ is true on the struecture $\
 - **Unsatisfiability**: iff it has no models.
 - **Logical Entailment**: Let $\Gamma$ be a set of sentences. $\Gamma \models \sigma$ iff evry model of $\Gamma$ is a model of $\sigma$.
 
-##### Soundness & Completeness
+##### Many-Sorted First Order Languages
+The universe of our FOL is partitioned into **disjoint sub-universes**, for example one partition for variables, one for terms.
+
+In situation calculus, this happens for situations, actions and other things.
+
+

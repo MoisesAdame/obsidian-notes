@@ -8,22 +8,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45890ec0370b49d3",
+            "id": "a4dde8a5e46b5c0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/concepts/Situation Calculus.md",
+                "file": "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Situation Calculus"
+              "title": "1 Introduction"
             }
           },
           {
-            "id": "a4dde8a5e46b5c0d",
+            "id": "21c6287a9a0e723c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2 Logical Preliminaries"
+            }
+          },
+          {
+            "id": "459fc32cba5447a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "3 Introduction to the Situation Calculus"
+            }
+          },
+          {
+            "id": "97277eacd0074630",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,10 +226,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "a4dde8a5e46b5c0d",
+  "active": "97277eacd0074630",
   "lastOpenFiles": [
-    "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+    "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
     "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
+    "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+    "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
     "NJU/刘老师/concepts/Situation Calculus.md",
     "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
     "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
@@ -238,8 +270,6 @@
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets/fig40.2.1.gif",
     "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets/figA2.1.png",
     "obsidian-notes/School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets/fig4.7.png",
-    "obsidian-notes/School/Quantum/Class Notes/Entregables/Entregable Final.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 6.md",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
