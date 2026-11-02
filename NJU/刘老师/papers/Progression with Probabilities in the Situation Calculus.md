@@ -4,6 +4,10 @@ tags:
   - first-order-logic
   - situation-caluclus
   - markov-network
+  - probabilistic-knowledge-base
+  - knowledge-base
+  - second-order-logic
+  - successor-state-axiom
 ---
 opate: 2026-10-29 : 17:25
 ***

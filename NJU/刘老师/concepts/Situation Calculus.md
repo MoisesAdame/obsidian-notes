@@ -1,6 +1,8 @@
 ---
 tags:
   - situation-caluclus
+  - successor-state-axiom
+  - frame-problem
 ---
 Date: 2026-10-29 : 19:44
 ***
