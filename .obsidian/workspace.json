@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Chapter 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Progression with Probabilities in the Situation Calculus"
+              "title": "Chapter 1"
             }
           },
           {
@@ -227,12 +227,17 @@
   },
   "active": "45890ec0370b49d3",
   "lastOpenFiles": [
-    "NJU/刘老师/Markov Networks.md",
-    "NJU/刘老师/First Order Logic.md",
-    "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
-    "NJU/刘老师/Situation Calculus.md",
-    "NJU/刘老师/Progression with Probabilities in the Situation Calculus.md",
-    "NJU/刘老师/Propositional Logic.md",
+    "NJU/刘老师/concepts/Situation Calculus.md",
+    "NJU/刘老师/books/Knowled In Action/Chapter 1.md",
+    "NJU/刘老师/books/Knowled In Action",
+    "NJU/刘老师/books",
+    "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
+    "NJU/刘老师/concepts",
+    "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
+    "NJU/刘老师/papers",
+    "NJU/刘老师/concepts/Markov Networks.md",
+    "NJU/刘老师/concepts/First Order Logic.md",
+    "NJU/刘老师/concepts/Propositional Logic.md",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
     "Templates/Normal Note (Flascard).md",
@@ -264,17 +269,12 @@
     "obsidian-notes/School/Quantum/Class Notes/Entregables/Entregable Final.md",
     "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 6.md",
     "obsidian-notes/School/Quantum/Class Notes/Entregables/Entregable 0.md",
-    "obsidian-notes/School/Quantum/Class Notes/Biology/Semana 9.md",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
     "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
-    "obsidian-notes/School/Quantum/Books/Bioinformatics for DNA Sequence Analysis/Assets",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
-    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-    "obsidian-notes/School/Quantum/Class Notes/Entregables",
-    "obsidian-notes/School/Quantum/Class Notes/Biology",
-    "obsidian-notes/School/Distributed Systems/Guía/Protocolos"
+    "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas"
   ]
 }

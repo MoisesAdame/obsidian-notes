@@ -1,5 +1,9 @@
 ---
 tags:
+  - propositional-logic
+  - first-order-logic
+  - situation-caluclus
+  - markov-network
 ---
 opate: 2026-10-29 : 17:25
 ***
