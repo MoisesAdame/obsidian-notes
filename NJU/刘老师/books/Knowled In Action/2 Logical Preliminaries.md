@@ -24,6 +24,7 @@ $$
 $$
 
 #### Semantics
+##### Structure
 A **structure** $\mathcal{S}$ (also called *interpretation*) is a function whose domain are the *parameters* (functions, predicates) of our language. For isntance $S(P)$ gives us the tuples where $P$ is true and $S(f)$ returns the actual function.
 
 It is defined by:
@@ -31,3 +32,13 @@ It is defined by:
 2. For $n$-ary predicates: $P^\mathcal{S}\subseteq \lvert \mathcal{S} \rvert^n$ (all the combinations where predicate $P$ is true).
 3. For $n$-ary functions: $f^\mathcal{S} : \lvert \mathcal{S} \rvert^n \to \lvert \mathcal{S} \rvert$ (for example in situation calculus actions are functions, thus $a_{1} = \text{PickUp}(x, y)$, where $a_{1} \in \lvert \mathcal{S} \rvert$)
 
+$\models_{\mathcal{S}} \sigma$: A sentence $\sigma$ is true on the struecture $\mathcal{S}$.
+
+##### Attributes of a Sentence
+- **Satisfiability**: A structure $\mathcal{S}$ satisfies $\sigma$ iff $\models_{\mathcal{S}} \sigma[s]$ for all $s$. In this case $s$ is a function defined as $s: V \to \lvert \mathcal{S} \rvert$ where $V$ are the variables. 
+- **Models**: A structure $\mathcal{S}$ models $\sigma$ iff $\mathcal{S}$ satisifes $\sigma$.
+- **Validity**: $\sigma$ is valid, written as $\models \sigma$ iff all the structures of our FOL are models of $\sigma$.
+- **Unsatisfiability**: iff it has no models.
+- **Logical Entailment**: Let $\Gamma$ be a set of sentences. $\Gamma \models \sigma$ iff evry model of $\Gamma$ is a model of $\sigma$.
+
+##### Soundness & Completeness
