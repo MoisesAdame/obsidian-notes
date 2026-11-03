@@ -58,17 +58,77 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/高级优化/Cauchy & Convergent Sequences.md",
+                "file": "NJU/高级优化/Complete Metric Space.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cauchy & Convergent Sequences"
+              "title": "Complete Metric Space"
+            }
+          },
+          {
+            "id": "8e4599ba04ee8876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/高级优化/Normed Vector Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Normed Vector Space"
+            }
+          },
+          {
+            "id": "25cc20f456ba1d0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/高级优化/Banach Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Banach Space"
+            }
+          },
+          {
+            "id": "7365d7d4e861e3f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/高级优化/Hilbert Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Hilbert Space"
+            }
+          },
+          {
+            "id": "57baf49d240644d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NJU/高级优化/Dual Space.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Dual Space"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -102,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ceneval",
+                "query": "tag:complex-vector-space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,10 +286,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "97277eacd0074630",
+  "active": "57baf49d240644d9",
   "lastOpenFiles": [
-    "NJU/高级优化/Metric Space.md",
+    "NJU/高级优化/Hilbert Space.md",
+    "NJU/高级优化/Dual Space.md",
+    "NJU/高级优化/Banach Space.md",
+    "NJU/高级优化/Complete Metric Space.md",
+    "NJU/高级优化/Normed Vector Space.md",
     "NJU/高级优化/Cauchy & Convergent Sequences.md",
+    "NJU/高级优化/Metric Space.md",
     "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
     "NJU/高级优化/Class 1.md",
     "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
@@ -254,11 +319,6 @@
     "NJU/刘老师/第一组会.md",
     "School/Distributed Systems/Reto/Reto Conf.md",
     "School/Distributed Systems/Reto/Configuración Física.md",
-    "School/Distributed Systems/Reto/Configuraciones.md",
-    "School/Distributed Systems/Reto/Casos de Uso.md",
-    "NJU/时间系列/教室的记本/第4课（听）.md",
-    "School/Quantum/Reto/Configuración Física.md",
-    "School/Quantum/Reto/Reto Conf.md",
     "School/Quantum/Reto",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",

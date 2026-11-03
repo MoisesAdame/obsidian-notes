@@ -15,3 +15,7 @@ $$
 **Clearly Speaking**: If I give you a really small number, you should be able to find two elements of the sequence, whose distance is smaller than that tiny number i gave you.
 
 ## Convergent Sequence
+The sequence $\{ x_{n} \}$ converges to a poin $x \in X$ if:
+$$
+\lim_{ n \to \infty } d(x_{n}, x) = 0
+$$
