@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "tag:ceneval OR tag:hsk4 OR -tag:#AOSR OR -tag:#Q",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -53,6 +53,6 @@
   "repelStrength": 11.193328009937,
   "linkStrength": 1,
   "linkDistance": 129,
-  "scale": 1.532052094488563,
+  "scale": 0.2636262340528382,
   "close": true
 }

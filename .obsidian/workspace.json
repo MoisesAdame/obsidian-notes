@@ -4,131 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8421dbd2c8273c75",
+        "id": "2491632a773db69e",
         "type": "tabs",
         "children": [
           {
-            "id": "a4dde8a5e46b5c0d",
+            "id": "661b8f868c962945",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+                "file": "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1 Introduction"
-            }
-          },
-          {
-            "id": "21c6287a9a0e723c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2 Logical Preliminaries"
-            }
-          },
-          {
-            "id": "459fc32cba5447a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "3 Introduction to the Situation Calculus"
-            }
-          },
-          {
-            "id": "97277eacd0074630",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/高级优化/Complete Metric Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Complete Metric Space"
-            }
-          },
-          {
-            "id": "8e4599ba04ee8876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/高级优化/Normed Vector Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Normed Vector Space"
-            }
-          },
-          {
-            "id": "25cc20f456ba1d0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/高级优化/Banach Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Banach Space"
-            }
-          },
-          {
-            "id": "7365d7d4e861e3f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/高级优化/Hilbert Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hilbert Space"
-            }
-          },
-          {
-            "id": "57baf49d240644d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NJU/高级优化/Hilbert Space.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Hilbert Space"
+              "title": "Progression with Probabilities in the Situation Calculus"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -286,10 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "57baf49d240644d9",
+  "active": "661b8f868c962945",
   "lastOpenFiles": [
-    "NJU/高级优化/Dual Space.md",
+    "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
+    "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
     "NJU/高级优化/Hilbert Space.md",
+    "NJU/高级优化/Dual Space.md",
     "NJU/高级优化/Banach Space.md",
     "NJU/高级优化/Complete Metric Space.md",
     "NJU/高级优化/Normed Vector Space.md",
@@ -301,8 +197,6 @@
     "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
     "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
     "NJU/刘老师/concepts/Situation Calculus.md",
-    "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
-    "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
     "NJU/刘老师/concepts/Propositional Logic.md",
     "NJU/刘老师/concepts/First Order Logic.md",
     "NJU/刘老师/concepts/Markov Networks.md",
