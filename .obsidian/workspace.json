@@ -118,13 +118,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/高级优化/Dual Space.md",
+                "file": "NJU/高级优化/Hilbert Space.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dual Space"
+              "title": "Hilbert Space"
             }
           }
         ],
@@ -288,8 +288,8 @@
   },
   "active": "57baf49d240644d9",
   "lastOpenFiles": [
-    "NJU/高级优化/Hilbert Space.md",
     "NJU/高级优化/Dual Space.md",
+    "NJU/高级优化/Hilbert Space.md",
     "NJU/高级优化/Banach Space.md",
     "NJU/高级优化/Complete Metric Space.md",
     "NJU/高级优化/Normed Vector Space.md",
