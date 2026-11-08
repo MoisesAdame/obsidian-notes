@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+                "file": "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3 Introduction to the Situation Calculus"
+              "title": "4 Foundations"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "661b8f868c962945",
   "lastOpenFiles": [
-    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
     "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
     "NJU/刘老师/concepts/Situation Calculus.md",
     "NJU/刘老师/concepts/First Order Logic.md",
     "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
