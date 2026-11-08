@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
+                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "4 Foundations"
+              "title": "3 Introduction to the Situation Calculus"
             }
           }
         ]
@@ -180,9 +180,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "661b8f868c962945",
+  "active": "d97341b5977ffe98",
   "lastOpenFiles": [
     "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+    "conflict-files-obsidian-git.md",
+    "NJU/高级优化/Homework 1, Subproblem 4.md",
+    "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
     "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
     "NJU/刘老师/concepts/Situation Calculus.md",
     "NJU/刘老师/concepts/First Order Logic.md",
@@ -197,7 +200,6 @@
     "NJU/高级优化/Cauchy & Convergent Sequences.md",
     "NJU/高级优化/Metric Space.md",
     "NJU/高级优化/Class 1.md",
-    "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
     "NJU/刘老师/concepts/Propositional Logic.md",
     "NJU/刘老师/concepts/Markov Networks.md",
     "NJU/刘老师/books/Knowled In Action",
@@ -208,11 +210,9 @@
     "Templates/Normal Note.md",
     "Templates/Normal Note (Flascard).md",
     "Templates",
-    "conflict-files-obsidian-git.md",
     "NJU/刘老师/Epistemal Logic.md",
     "NJU/刘老师/第一组会.md",
     "School/Distributed Systems/Reto/Reto Conf.md",
-    "School/Distributed Systems/Reto/Configuración Física.md",
     "School/Quantum/Reto",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.7.png",
