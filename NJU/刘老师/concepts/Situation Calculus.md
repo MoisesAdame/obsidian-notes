@@ -12,7 +12,7 @@ A first order language that represents change.
 ## Concepts
 ### Situation, Action and Fluents
 #### Situation
-FOL objects. The complete state of the universe ate an instance of time.
+FOL objects. The complete state of the universe at an instance of time.
 
 #### Action
 What makes the world change from one situation to another.

@@ -49,3 +49,92 @@ The frame problem has **two** parts:
 
 ### Solution
 Somehow find a way to systematically use the *efect axioms* to write the *frame axioms*.
+
+## Frame Problem: Pednault Proposal
+### Example
+We have the following *state* axioms for different lights that whose state is moddled by `on()` and the action that affects this is `flip()`, thus:
+$$
+on(x, s) \land x = y \supset \neg on(x, do(flip(y), s))
+$$
+$$
+\neg on(x, s) \land y = x \supset on(x, do(flip(y), s))
+$$
+
+Now let say that both $on(x, s)$ and $\neg on(x, do(flip(y), s))$ are true. Because the axioms are always true, the only way for $\neg on(x, do(flip(y), s))$ to be true is that $on(x, s) \land x = y$ was true. We can see it in the following way:
+$$
+A = on(x, s) \land x = y, \quad B = \neg on(x, do(flip(y), s))
+$$
+
+Because they are an axiom, we know:
+$$
+A \to B \equiv T
+$$
+
+Then, for $B$ to be true, by the truth table, $A$ can have any value. But because of the axioms **ONLY** if $on(x, s) \land x = y$ is true, then $\neg on(x, do(flip(y), s))$ is also true.
+
+Then our conclusion is:
+$$
+on(x, s) \land \neg on(x, do(flip(y), s)) \supset on(x, s) \land x = y
+$$
+
+Then if we say $P: on(x, s)$, $\neg Q: \neg on(x, do(flip(y), s))$ and $R: x=y$, thenwe have:
+$$
+\begin{align*}
+& P \land \neg Q \supset P\land R\\
+& \implies \neg(P \land \neg Q ) \lor ( P\land R)\\
+& \implies \neg P \lor Q \lor ( P\land R)\\
+& \implies (\neg P \lor Q \lor P) \land (\neg P \lor Q \lor R) \\
+& \implies (T\lor Q ) \land (\neg P \lor Q \lor R) \\
+& \implies T \land (\neg P \lor Q \lor R) \\
+& \implies \neg P \lor Q \lor R \\
+& \implies \neg (P \land \neg R) \lor Q \\
+& \implies P \land \neg R \supset Q \\
+\end{align*}
+$$
+Which means:
+$$
+on(x, s) \land x \neq y \supset on(x, do(flip(y), s))
+$$
+
+This is a **frame axiom** because it tells you that light $x$ remains on when you flip another light $y$.
+
+### Generalization
+Given the following positive and negative *state axioms* for the action $A(\vec{y})$ and the fluent $F(\vec{x}, s)$:
+$$
+\varepsilon_F^+(\vec{x}, \vec{y}, s) \supset F(\vec{x}, do(A(\vec{y}), s)) \quad \text{(P.1)}
+$$
+$$
+\varepsilon_F^-(\vec{x}, \vec{y}, s) \supset \neg F(\vec{x}, do(A(\vec{y}), s)) \quad \text{(P.2)}
+$$
+
+If we let $F(\vec{x}, s)$ and $\neg F(\vec{x}, do(A(\vec{y}), s))$ to be true, then we can conclude that:
+$$
+F(\vec{x}, s) \land \neg F(\vec{x}, do(A(\vec{y}), s)) \supset \varepsilon_F^-(\vec{x}, \vec{y}, s)
+$$
+
+Which can be retwritten as: **A FRAME AXIOM**
+$$
+F(\vec{x}, s) \land \neg \varepsilon_F^-(\vec{x}, \vec{y}, s) \supset F(\vec{x}, do(A(\vec{y}), s))
+$$
+
+For the possitive case we can say:
+$$
+\neg F(\vec{x}, s) \land \neg \varepsilon_F^+(\vec{x}, \vec{y}, s) \supset \neg F(\vec{x}, do(A(\vec{y}), s))
+$$
+
+This frame axioms can only be optained by the **Causal Completness Assuption**, whic states that the axioms (P.1) and (P.2) specify all the casual laws that relate action $A$ and fluent $F$
+
+### The Problem
+If there is no relation between one action and one fluent, we have to do something like this:
+$$
+false \supset broken(x, do(paint(y, c), s))
+$$
+
+Which is basically the same as enumerating all of the frame axioms.
+
+## Frame Problem: Reiter's Solution
+### Example
+For the fluent `broken(x,s)` we have the following *positive effect axioms*:
+$$
+
+$$

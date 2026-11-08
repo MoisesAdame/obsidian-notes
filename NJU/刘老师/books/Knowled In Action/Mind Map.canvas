@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"f1d44e6365c5fdcd","type":"text","text":"**First Order Logic**","x":-820,"y":-800,"width":250,"height":60},
+		{"id":"33b4eb24267d2ea4","type":"text","text":"**Syntax**: Logical Symbols, Parameters","x":-695,"y":-700,"width":335,"height":60},
+		{"id":"e30b913051f2ad3e","type":"text","text":"**Knowledge Representation Hypothesis**\n\nProposed by: Brian Smith, 1982\n\nConsequences:\n1. Express a system using logical sentences.\n2. This sentences entail new sentnces that model the system behaviour.\n\n","x":-820,"y":-1280,"width":400,"height":280},
+		{"id":"7e350476632cf1e6","type":"text","text":"**Second Order Logic**","x":160,"y":-800,"width":250,"height":60},
+		{"id":"71775385e235d81f","type":"text","text":"**Difference with FOL**: \n- **FOL**: Only quantifies over objects. (Ex. $\\forall x Human(X)\\supset Mortal(x)$)\n- **SOL**: Can quantify over anything (objects, rleations, etc.) (Ex. $\\forall P(P(s) \\land \\neg Destroyed(P, a), \\supset P(do(a, s)))$)","x":285,"y":-700,"width":335,"height":320},
+		{"id":"ee17b7fe29342f2b","type":"text","text":"**Syntax**: Same as FOL, and has more variables such as *individual variables*, *function variables* and *predicate variables*.","x":285,"y":-320,"width":335,"height":140},
+		{"id":"b3584b6d15283354","type":"text","text":"**Basic Definitions**:\n- **Actions**: SOL functions. Do something by someone at some situation.\n- **Fluents**: SOL predicates. The state of something at a given siatuation\n- **Situations**: FOL objects. The complete state of the universe at an instance of time.\n","x":285,"y":260,"width":335,"height":340},
+		{"id":"35a3243ec9d26407","type":"text","text":"**Situation Calculus**","x":160,"y":0,"width":250,"height":60},
+		{"id":"b22c69c44e9c6e3a","type":"text","text":"**What is?**: A SOL that tries to explain the changes in a wolrd.\n","x":285,"y":120,"width":335,"height":100},
+		{"id":"228aa86515ff6346","type":"text","text":"Building Blocks:\n- **Constants**: Names for specific objects (a, b)\n- **Variables**: Placeholders for the names.\n- **Predicates**: Properties of or relations between objects (Loves (x, y))\n- **Functions**: Map from one object to another (a = Father(b))\n- **Terms**: Variables, standard names or functions applied to terms (best_friend(moy))\n- **Sentcnes**: A formula with no free variables.","x":-570,"y":-610,"width":490,"height":360},
+		{"id":"6209eb5ea00f8d9b","type":"text","text":"**Semantics**: The Structure (S) is a function. We have S(P) and f(P)","x":-695,"y":-163,"width":335,"height":83},
+		{"id":"742811a15614c6f4","type":"text","text":"**Many Sorted FOL**: The universe is partitioned into different subuniverses","x":-695,"y":-20,"width":335,"height":100},
+		{"id":"cee0e22eda97e883","type":"text","text":"**Important Functions**:\n\n- **Poss()**: \n- **Do()**: SOL predicates. The state of something at a given siatuation\n","x":285,"y":680,"width":335,"height":340}
+	],
+	"edges":[
+		{"id":"6000337f591e6d88","fromNode":"f1d44e6365c5fdcd","fromSide":"left","toNode":"6209eb5ea00f8d9b","toSide":"left"},
+		{"id":"36bb25557c37a4b6","fromNode":"f1d44e6365c5fdcd","fromSide":"left","toNode":"742811a15614c6f4","toSide":"left"},
+		{"id":"5027de43d1693008","fromNode":"f1d44e6365c5fdcd","fromSide":"left","toNode":"33b4eb24267d2ea4","toSide":"left"},
+		{"id":"0c1ca12f837380e5","fromNode":"7e350476632cf1e6","fromSide":"left","toNode":"71775385e235d81f","toSide":"left"},
+		{"id":"23d1ce0bb97b60ed","fromNode":"7e350476632cf1e6","fromSide":"left","toNode":"ee17b7fe29342f2b","toSide":"left"},
+		{"id":"b5d1e7e4f6b412ca","fromNode":"e30b913051f2ad3e","fromSide":"bottom","toNode":"f1d44e6365c5fdcd","toSide":"top"},
+		{"id":"259f91f3d606a91d","fromNode":"e30b913051f2ad3e","fromSide":"bottom","toNode":"7e350476632cf1e6","toSide":"top"},
+		{"id":"2c06998de70d2418","fromNode":"7e350476632cf1e6","fromSide":"left","toNode":"35a3243ec9d26407","toSide":"left"},
+		{"id":"dceec173fb1b47d4","fromNode":"35a3243ec9d26407","fromSide":"left","toNode":"b22c69c44e9c6e3a","toSide":"left"},
+		{"id":"bdebb6a158a4a2e4","fromNode":"33b4eb24267d2ea4","fromSide":"left","toNode":"228aa86515ff6346","toSide":"left"},
+		{"id":"a0b3ae202e1267bc","fromNode":"35a3243ec9d26407","fromSide":"left","toNode":"b3584b6d15283354","toSide":"left"}
+	]
+}

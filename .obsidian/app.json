@@ -7,7 +7,7 @@
     "downscalePercent": 90
   },
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "tabSize": 6,
   "newFileLocation": "current",
   "attachmentFolderPath": "./"
