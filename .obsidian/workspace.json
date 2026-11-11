@@ -75,13 +75,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/随机过程/Renewal Theory/Renewal Theorem.md",
+                "file": "NJU/随机过程/Renewal Theory/Elementary Renewal Theorem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Renewal Theorem"
+              "title": "Elementary Renewal Theorem"
             }
           }
         ],
@@ -245,7 +245,8 @@
   },
   "active": "5c283d38ed9647c0",
   "lastOpenFiles": [
-    "NJU/随机过程/Renewal Theory/Renewal Theorem.md",
+    "NJU/随机过程/Renewal Theory/images/image-2.jpg",
+    "NJU/随机过程/Renewal Theory/Elementary Renewal Theorem.md",
     "NJU/随机过程/Renewal Theory/Renewal Function.md",
     "NJU/随机过程/Renewal Theory/Renewal Process.md",
     "NJU/随机过程/Concepts/Law Of Total Expectation.md",
@@ -275,7 +276,6 @@
     "NJU/高级优化/Complete Metric Space.md",
     "NJU/高级优化/Normed Vector Space.md",
     "NJU/高级优化/Cauchy & Convergent Sequences.md",
-    "NJU/高级优化/Metric Space.md",
     "NJU/刘老师/books/Knowled In Action",
     "NJU/刘老师/books",
     "NJU/刘老师/concepts",
