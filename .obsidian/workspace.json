@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+                "file": "NJU/随机过程/Renewal Theory/Renewal Process.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3 Introduction to the Situation Calculus"
+              "title": "Renewal Process"
             }
           }
         ],
@@ -213,13 +213,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "15ba31eb05c83419",
+  "active": "d97341b5977ffe98",
   "lastOpenFiles": [
+    "NJU/随机过程/Renewal Theory/images",
+    "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+    "NJU/随机过程/Renewal Theory/Renewal Process.md",
+    "NJU/随机过程/Renewal Theory",
     "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
     "NJU/刘老师/concepts/Situation Calculus.md",
     "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
     "NJU/刘老师/concepts/Untitled.md",
-    "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
     "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
     "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
     "NJU/刘老师/concepts/First Order Logic.md",
@@ -244,7 +247,6 @@
     "NJU/刘老师/papers",
     "Templates/中文文件.md",
     "Templates/Normal Note.md",
-    "Templates/Normal Note (Flascard).md",
     "Templates",
     "School/Quantum/Reto",
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets/fig3.9.png",
@@ -260,7 +262,6 @@
     "obsidian-notes/School/Quantum/Books/The Phylogenetic Handbook/Assets",
     "obsidian-notes/School/Quantum/Books/Quantum Computing for Computer Scientists/Assets",
     "obsidian-notes/School/Quantum/Books/Physics for Science and Engineering/Assets",
-    "obsidian-notes/School/Quantum/Books/Mutation, Randomness, and Evolution/Assets",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas"
