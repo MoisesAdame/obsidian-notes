@@ -35,5 +35,28 @@ $$
 **Conclussion**: Its impossible to have finite events when time tens to infnity.
 
 ## Distribution of $N(t)$
+Given the following image:
 
+![[NJU/随机过程/Renewal Theory/images/image-1.png|500]]
 
+We can see that:
+$$
+N(t) \geq n \iff S_{n} \leq t
+$$
+
+Because between the moment $t$ and $S_{n}$ can happen more events, that is why the lower bound for $N(t)$ is $n$.
+
+$$
+\begin{align}
+P\{ N(t) = n \} 
+& = P\{ N(t) \geq n \} - P\{ N(t) \geq n+1 \} & \quad \text{(1)}\\
+& = P\{ S_{n}\leq t \} - P\{ S_{n+1} \leq t \} & \quad \text{(2)} \\
+& = F_{n}(t) - F_{n+1}(t) & \quad \text{(3)} \\
+\end{align}
+$$
+
+2. Comes from $N(t) \geq n \iff S_{n} \leq t$, where $P(N(t) \geq n) = P(S_{n} \leq t)$.
+3. Because $S_{n} = X_{1} + X_{2} + \cdots + X_{n}$ and all the X's are distribuited identically with respect to distribution $F$, then $P\{ S_{n}\leq t \}=P\{  X_{1} + X_{2} + \cdots + X_{n}\leq t \}$, which is a sum of different random variables, thus $F_{n}$ is the nth convoluyion of $F$.
+
+## The mean value/renewal function $m(t)$ of $N(t)$
+Notes: [[Renewal Function]]
