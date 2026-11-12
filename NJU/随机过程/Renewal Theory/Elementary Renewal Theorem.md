@@ -130,4 +130,13 @@ We conclude that:
 $$
 \lim_{ t \to \infty }\left( \frac{m(t)}{t}  \right) = \frac{1}{\mu}
 $$
+---
+## Central Limit Theorem for Renewal process
+### Statement
+$$
+\lim_{ t \to \infty } P\left\{ \frac{N(t) -t/\mu}{\sqrt{ t\sigma^2 /\mu^3}} < x\right\} = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^x e^{ -x^2/2 }dx
+$$
+
+### Proof
+Lets rewrite the probability as follows:
 
