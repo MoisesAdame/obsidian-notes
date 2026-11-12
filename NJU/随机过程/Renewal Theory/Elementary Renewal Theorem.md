@@ -163,6 +163,11 @@ $$
 
 Plugging in $r = x\sqrt{ t\sigma^2 /\mu^3} +t/\mu$. we get:
 $$
-
-
+P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > -x \left( 1 + \frac{y\sigma}{\sqrt{ t\mu }} \right)^{-1/2} \right\} 
 $$
+
+When $t\to \infty$ we get:
+$$
+-x \left( 1 + \frac{y\sigma}{\sqrt{ t\mu }} \right) =-x
+$$
+And
