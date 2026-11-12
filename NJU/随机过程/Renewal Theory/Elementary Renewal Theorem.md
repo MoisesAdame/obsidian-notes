@@ -139,4 +139,30 @@ $$
 
 ### Proof
 Lets rewrite the probability as follows:
+$$
+P\left\{ N(t) < x\sqrt{ t\sigma^2 /\mu^3} +t/\mu\right\}
+$$
 
+Let $r = x\sqrt{ t\sigma^2 /\mu^3} +t/\mu$, so we get:
+$$
+P\left\{ N(t) < r\right\}
+$$
+
+Because $S_{n} > t \iff N(t) < n$
+![[image-5.jpg|400]]
+
+Then we can say:
+$$
+P\{ S_{r} > t\}
+$$
+
+This is the same as:
+$$
+P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > \frac{t - r \mu}{\sigma \sqrt{ r }} \right\}
+$$
+
+Plugging in $r = x\sqrt{ t\sigma^2 /\mu^3} +t/\mu$. we get:
+$$
+
+
+$$
