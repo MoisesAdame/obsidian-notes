@@ -1,38 +1,38 @@
 {
   "main": {
-    "id": "4d078b80fc2573b8",
+    "id": "9d1742bac028d480",
     "type": "split",
     "children": [
       {
-        "id": "2491632a773db69e",
+        "id": "5afa50a9f9509701",
         "type": "tabs",
         "children": [
           {
-            "id": "74ff178e11638924",
+            "id": "0630609b5d971bcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+                "file": "NJU/高级优化/Banach Space.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1 Introduction"
+              "title": "Banach Space"
             }
           },
           {
-            "id": "d69ad0dc31e9a75a",
+            "id": "64395f0bc003e76c",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "viewState": {
-                  "x": 489.66151408482335,
-                  "y": 618.199960387838,
-                  "zoom": -0.4536876361024933
+                  "x": 51.644384517415716,
+                  "y": 99.74235603179079,
+                  "zoom": -1.1505403910211804
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -40,7 +40,7 @@
             }
           },
           {
-            "id": "15ba31eb05c83419",
+            "id": "d852e4e946ab72e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,21 +85,25 @@
             }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 4
+=======
+        "currentTab": 1
+>>>>>>> 1bc57e0b5df4d8ce184066eb932b23ae1bc79d9b
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a554f2b5e6d0de98",
+    "id": "4d8b86ae1739f549",
     "type": "split",
     "children": [
       {
-        "id": "6d3caedae92f5442",
+        "id": "d71271ea6fabff75",
         "type": "tabs",
         "children": [
           {
-            "id": "d97341b5977ffe98",
+            "id": "85753297cc7b57d9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -114,12 +118,12 @@
             }
           },
           {
-            "id": "8a454250355aa51a",
+            "id": "ab95b8f511e255ca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:complex-vector-space",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +135,7 @@
             }
           },
           {
-            "id": "dd8ed0c48452057e",
+            "id": "6b28b184805003c7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -147,23 +151,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "eef440023776e91d",
+    "id": "9cb271245be54543",
     "type": "split",
     "children": [
       {
-        "id": "006807e12a2d564f",
+        "id": "78f9df4316e0a673",
         "type": "tabs",
         "children": [
           {
-            "id": "145e97834241ec0a",
+            "id": "6e3fe6012d845962",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第2课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,12 +181,12 @@
             }
           },
           {
-            "id": "0b89ebc510934177",
+            "id": "54df24932deca31d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -191,7 +195,7 @@
             }
           },
           {
-            "id": "8ef2bfa51ce88495",
+            "id": "444d3f3b8ffb8a35",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -206,12 +210,12 @@
             }
           },
           {
-            "id": "f71ad766714c0fce",
+            "id": "135c1e126b6ccdf1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -229,18 +233,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "aosr:Aosr": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "pomodoro-timer:Toggle timer panel": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "aosr:Aosr": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "5c283d38ed9647c0",
@@ -262,17 +266,18 @@
     "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
     "NJU/刘老师/concepts/Untitled.md",
     "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
-    "Masters/Introduction to Compilers and Modern Design/4 Parsing.md",
-    "NJU/刘老师/concepts/First Order Logic.md",
-    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
-    "NJU/刘老师/concepts/Propositional Logic.md",
-    "conflict-files-obsidian-git.md",
-    "NJU/高级优化/Homework 1, Subproblem 4.md",
+    "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
     "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
     "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md",
-    "NJU/高级优化/Hilbert Space.md",
-    "NJU/高级优化/Dual Space.md",
+    "NJU/时间系列/教室的记本/第6课.md",
+    "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "NJU/刘老师/books/Knowled In Action/2 Logical Preliminaries.md",
+    "NJU/刘老师/concepts/Situation Calculus.md",
+    "NJU/刘老师/concepts/First Order Logic.md",
+    "NJU/刘老师/books/Knowled In Action/1 Introduction.md",
+    "NJU/高级优化/Homework 1, Subproblem 4.md",
     "NJU/高级优化/Banach Space.md",
+<<<<<<< HEAD
     "NJU/高级优化/Complete Metric Space.md",
     "NJU/高级优化/Normed Vector Space.md",
     "NJU/高级优化/Cauchy & Convergent Sequences.md",
@@ -295,5 +300,8 @@
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.3.A SRS.canvas",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.2.A Ingeniería de Requerimientos.canvas",
     "obsidian-notes/School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas"
+=======
+    "conflict-files-obsidian-git.md"
+>>>>>>> 1bc57e0b5df4d8ce184066eb932b23ae1bc79d9b
   ]
 }

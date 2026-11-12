@@ -133,8 +133,59 @@ $$
 Which is basically the same as enumerating all of the frame axioms.
 
 ## Frame Problem: Reiter's Solution
-### Example
+### Example 1
 For the fluent `broken(x,s)` we have the following *positive effect axioms*:
 $$
-
+fragile(x) \supset broken(x, do(drop(r, x), s))
 $$
+$$
+nextTo(x, b, s) \supset broken(x, do(explode(b)))
+$$
+
+We can rewrite them as a logical expression:
+$$
+\begin{align}
+[(\exists r) & [a = drop(r, x) \land fragile(x)] \\
+& \lor (\exists b)  [a = explode(b) \land nextTo(x, b, s)]]\\ 
+& \supset broken(x, do(a, s))
+\end{align}
+$$
+
+For the *negative effect axioms* we have:
+$$
+\neg broken(x, do(repair(r, x), s))
+$$
+
+Written as a logical expression:
+$$
+(\exists r)[a = repair(r, x)] \supset \neg broken(x, do(a, s))
+$$
+
+Supposing that $\neg broken(x, s)$ and $broken(x, do(a, s))$ are true, then $[(\exists r)  [a = drop(r, x) \land fragile(x)]  \lor (\exists b)  [a = explode(b) \land nextTo(x, b, s)]]$ must be true, letting us conclude that:
+$$
+\begin{align}
+\neg broken(x, s) \land & broken(x, do(a, s)) \supset \\
+&[(\exists r)  [a = drop(r, x) \land fragile(x)]  \lor (\exists b)  [a = explode(b) \land nextTo(x, b, s)]]
+\end{align}
+$$
+
+Which is a **Explanation Closure Axiom**.
+
+### Example 2
+We wrote all the **positive effect axioms** in just one logical expression:
+$$
+\begin{align}
+[(\exists r) & [a = drop(r, x) \land fragile(x)] \\
+& \lor (\exists b)  [a = explode(b) \land nextTo(x, b, s)]]\\ 
+& \supset broken(x, do(a, s))
+\end{align}
+$$
+
+We can rewrite this in a more general way for **positive** and **negative effect axioms**:
+$$
+(+) \quad \gamma_{F}^+(\vec{x}, a, s) \supset F(\vec{x}, do(a, s))
+$$
+$$
+(-) \quad \gamma_{F}^-(\vec{x}, a, s) \supset \neg F(\vec{x}, do(a, s))
+$$
+### Transformation of Effect Axioms to Normal Form
