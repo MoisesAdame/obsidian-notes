@@ -30,13 +30,25 @@
               "state": {
                 "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "viewState": {
-                  "x": 51.644384517415716,
-                  "y": 99.74235603179079,
+                  "x": 485.12263728705665,
+                  "y": 512.8031548666298,
                   "zoom": -1.1505403910211804
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Mind Map"
+            }
+          },
+          {
+            "id": "3d4ef3542856a52f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
             }
           },
           {
@@ -55,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,7 +225,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "64395f0bc003e76c",
+  "active": "3d4ef3542856a52f",
   "lastOpenFiles": [
     "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
     "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
