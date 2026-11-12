@@ -166,9 +166,17 @@ $$
 P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > -x \left( 1 + \frac{y\sigma}{\sqrt{ t\mu }} \right)^{-1/2} \right\} 
 $$
 
-We know that:
+Then we know that:
 $$
-\lim_{ t \to \infty } P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} \leq a \right\} = \int_{-\infty}^a \frac{1}{\sqrt{ 2\pi }}e^{ -x^2/2 }dx
+\lim_{ t \to \infty } P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > -x \right\} = \int_{-x}^{\infty} \frac{1}{\sqrt{ 2\pi }}e^{ -x^2/2 }dx
 $$
 
-So
+By symmetry, this is the same as:
+$$
+\lim_{ t \to \infty } P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > -x \right\} = \int_{-\infty}^{x} \frac{1}{\sqrt{ 2\pi }}e^{ -x^2/2 }dx
+$$
+
+So finally, we have:
+$$
+\lim_{ t \to \infty } P\left\{ \frac{N(t) -t/\mu}{\sqrt{ t\sigma^2 /\mu^3}} < x\right\} = \frac{1}{\sqrt{ 2\pi }} \int_{-\infty}^x e^{ -x^2/2 }dx
+$$
