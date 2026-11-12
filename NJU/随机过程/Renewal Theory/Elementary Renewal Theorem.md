@@ -166,8 +166,9 @@ $$
 P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} > -x \left( 1 + \frac{y\sigma}{\sqrt{ t\mu }} \right)^{-1/2} \right\} 
 $$
 
-When $t\to \infty$ we get:
+We know that:
 $$
--x \left( 1 + \frac{y\sigma}{\sqrt{ t\mu }} \right) =-x
+\lim_{ t \to \infty } P\left\{  \frac{S_{r} - r \mu}{\sigma \sqrt{ r }} \leq a \right\} = \int_{-\infty}^a \frac{1}{\sqrt{ 2\pi }}e^{ -x^2/2 }dx
 $$
-And
+
+So
