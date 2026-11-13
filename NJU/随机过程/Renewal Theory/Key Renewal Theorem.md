@@ -99,6 +99,7 @@ $$
 
 **Diagram**
 ![[image-7.jpg| 400]]
+
 ---
 ## 4. Key Renewal Theorem
 ### Statement

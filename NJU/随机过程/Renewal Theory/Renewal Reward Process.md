@@ -6,7 +6,7 @@ tags:
 Date: 2026-11-13 : 12:16
 ***
 ## Definition
-A **renewal reward process** $\{ R(t), t\geq_{0} \}$ is a renewal process $\{ N(t), t\geq 0 \}$, having interarrival times $X_{n}, n\geq1$ such that every time a renewal occurs, we get a reward $R_{n}$. With the following properties:
+A **renewal reward process** $\{ R(t), t\geq 0 \}$ is a renewal process $\{ N(t), t\geq 0 \}$, having interarrival times $X_{n}, n\geq1$ such that every time a renewal occurs, we get a reward $R_{n}$. With the following properties:
 1. Rewards are iid.
 2. Reward may be dependent on $X_{n}$
 

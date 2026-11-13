@@ -47,7 +47,6 @@ $$
 $$
 
 ---
-
 ## 2. The Renewal Function $m(t)$
 
 Let $N(t)$ be the number of renewals by time $t$, $S_k$ the time of the $k$-th renewal, and $F_k$ the distribution of $S_k$ (the $k$-th convolution of the interarrival distribution $F$).
@@ -62,14 +61,12 @@ m(t) &= \mathbb{E}[N(t)] \\
 $$
 
 ---
-
 ## 3. Properties
 
 - **Uniqueness:** $m(t)$ uniquely determines the renewal process. There is a one-to-one correspondence between the interarrival distribution $F$ and the mean value function $m(t)$.
 - **Finiteness:** $m(t) < \infty$ for all $t < \infty$.
 
 ---
-
 ## 4. The Renewal Equation
 
 ### Statement
