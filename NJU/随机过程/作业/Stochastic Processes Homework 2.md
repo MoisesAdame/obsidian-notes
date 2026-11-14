@@ -71,9 +71,15 @@ $$
 P\{ A \text{ before } B\} = \frac{\mathbb{E}[N_{B}] + \mathbb{E}[N_{A|B}] - \mathbb{E}[N_{A}]}{\mathbb{E}[N_{B|A}] + \mathbb{E}[N_{A|B}]}
 $$
 
-We just have to finde the values of $\mathbb{E}[N_{A|B}]$, $\mathbb{E}[N_{B|A}]$, $\mathbb{E}[N_{A}]$ and $\mathbb{E}[N_{B}]$.
+We just have to find the values of $\mathbb{E}[N_{A|B}]$, $\mathbb{E}[N_{B|A}]$, $\mathbb{E}[N_{A}]$ and $\mathbb{E}[N_{B}]$.
 
-When trying to find $\mathbb{E}[N_{A|B}]$ we will find out that because there is no overlap when we start with $0100$ 
+When trying to find $\mathbb{E}[N_{A|B}]$ we will find out that because there is no overlap when we start with $0100$ with $1010$, then $\mathbb{E}[N_{A|B}]$ is the same as $\mathbb{E}[N_{A}]$, that is:
+$$
+\mathbb{E}[N_{A|B}] = \mathbb{E}[N_{A}] = \mathbb{E}[N_{1010}] = \mathbb{E}[N_{1010|10}] + \mathbb{E}[N_{10}] = p^{-2}q^{-2} + p^{-1}q^{-1}
+$$
+
+When trying to find $\mathbb{E}[N_{B|A}]$ we can see that because there is an overlap with the three last digits of $A$, with the first three digits of $B$
+
 
 
 
