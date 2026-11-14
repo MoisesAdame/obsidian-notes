@@ -40,40 +40,37 @@ A(t) & = S_{N(t)} + t
 $$
 
 ### Deriving $\lim_{ t \to \infty }P\{ A(t) \leq x\}$
-Since $x$ is a real number, it can be bigger or smaller or equal to $X$, Considering the previosly mentioned theorem
+Lets say we have an alternating renewal process $\{ X_{n}, n\geq 1\}$ where $X_{n} = Z_{n} + Y_{n}$ and the states on and off are defined as follows:
+- **On $Z_n$**: Is when $A(t)\leq x$
+- **Off $Y_n$**: Is when $A(t) >x$
+
+We have then 2 possible scenarios:
+- $x \geq X$: The *on time* is dictated by $X$.
+- $x < X$: The *on time* is dicated by $x$.
+
+Applying the Alternating Renewal Process Theorem, we get:
 $$
-\lim_{ t \to \infty } P(A(t) \leq x) = \frac{\mathbb{E}[\text{min}\{ X, x \}]}{\mathbb{E}[X]}
+\lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{\mathbb{E}[Z_{n}]}{\mathbb{E}[X_{n}]}
 $$
 
-By definition of expected value:
+Since we have two possible scenarions for the on time, then $Z_{n} = \text{min}\{ x, X \}$ and because all the cycles are identically distributed, we know that $\mathbb{E}[X_{n}]=\mathbb{E}[X]=\mu$, so we get:
 $$
-\lim_{ t \to \infty } P(A(t) \leq x) = \frac{1}{\mathbb{E}[X]} \int_{0}^\infty P\{ \text{min}\{ X, x \} > y \} dy
-$$
-
-What is inside of the integral can be rewritten as:
-$$
-\{ \text{min}\{ X, x \} > y \}  = \{ X > y \} \cap \{ x > y \}
+\lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{\mathbb{E}[\text{min}\{ x, X \}]}{\mu}
 $$
 
-Since $x$ is a constant:
+Given that $\text{min}\{ x, X \}$ is a nonnegative random variable, we can apply the following identity for the expected value $\mathbb{E}[Y]\int_{0}^\infty P\{ Y > y \}dy$
 $$
- P\{ \text{min}\{ X, x \} > y \} =
- \begin{cases}
- P\{ X > y \}, & 0\leq y < x \\
- 0, & y \geq x
- \end{cases}
+\lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{1}{\mu} \int_{0}^\infty P\{ \text{min}\{ x, X \} > y \}dy
 $$
 
-And thus:
+To solve this integral, we first need to understand $P\{ \text{min}\{ x, X \} > y \}$. Given the defiinition of the $\text{min}\{ \cdot \}$ function, we can rewrite the probability as $P\{ x > y \land X >y \}$. Because $x$ is a constant, this implies that when $y \in [x, \infty)$ the probability is $0$ and when $y \in [0, x)$ the probability is $P\{ X > y \}$, therefore:
 $$
-\lim_{ t \to \infty } P(A(t) \leq x) = \frac{1}{\mu} \int_{0}^x P\{ X > y \} dy
-$$
-
-Which is the same as
-$$
-\lim_{ t \to \infty } P(A(t) \leq x) = \int_{0}^x \bar{F}(y) dy
+\lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{1}{\mu} \int_{0}^x P\{ X > y \}dy
 $$
 
-
+Concluding that:
+$$
+\lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{1}{\mu} \int_{0}^x \bar{F}(y)dy
+$$
 
 
