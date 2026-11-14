@@ -64,5 +64,16 @@ $$
  \end{cases}
 $$
 
+And thus:
+$$
+\lim_{ t \to \infty } P(A(t) \leq x) = \frac{1}{\mu} \int_{0}^x P\{ X > y \} dy
+$$
+
+Which is the same as
+$$
+\lim_{ t \to \infty } P(A(t) \leq x) = \int_{0}^x \bar{F}(y) dy
+$$
+
+
 
 
