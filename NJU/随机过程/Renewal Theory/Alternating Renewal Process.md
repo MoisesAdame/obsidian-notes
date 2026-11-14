@@ -27,4 +27,42 @@ $$
 \lim_{ t \to \infty } P(t) = \frac{\mathbb{E}[Z]}{\mathbb{E}[Z] +\mathbb{E}[Y]}
 $$
 
+## Excess Life $Y(t)$ and Age at $t$ $A(t)$
+**Diagram**
+![[NJU/随机过程/Renewal Theory/images/image-9.png]]
+
+**Formulas**
+$$
+\begin{align}
+Y(t) & = S_{N(t) + 1} - t \\
+A(t) & = S_{N(t)} + t
+\end{align}
+$$
+
+### Deriving $\lim_{ t \to \infty }P\{ A(t) \leq x\}$
+Since $x$ is a real number, it can be bigger or smaller or equal to $X$, Considering the previosly mentioned theorem
+$$
+\lim_{ t \to \infty } P(A(t) \leq x) = \frac{\mathbb{E}[\text{min}\{ X, x \}]}{\mathbb{E}[X]}
+$$
+
+By definition of expected value:
+$$
+\lim_{ t \to \infty } P(A(t) \leq x) = \frac{1}{\mathbb{E}[X]} \int_{0}^\infty P\{ \text{min}\{ X, x \} > y \} dy
+$$
+
+What is inside of the integral can be rewritten as:
+$$
+\{ \text{min}\{ X, x \} > y \}  = \{ X > y \} \cap \{ x > y \}
+$$
+
+Since $x$ is a constant:
+$$
+ P\{ \text{min}\{ X, x \} > y \} =
+ \begin{cases}
+ P\{ X > y \}, & 0\leq y < x \\
+ 0, & y \geq x
+ \end{cases}
+$$
+
+
 
