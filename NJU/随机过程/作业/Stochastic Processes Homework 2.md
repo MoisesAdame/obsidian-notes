@@ -66,6 +66,22 @@ $$
 Consider flipping a coin independently, each time with probability $p$ comes up with $1$, and with probability $q = 1 −p$ comes up with $0$. Let $A = 1010$, $B = 0100$. Find $P(A \text{ before } B)$, i.e., the probability that pattern $A$ occurs before pattern $B$. (Here we set $p = \frac{1}{4}$.)
 
 ### Proof
+Since we know that in order to calculate $P\{ A \text{ before } B\}$ wer can just use the following equation:
+$$
+P\{ A \text{ before } B\} = \frac{\mathbb{E}[N_{B}] + \mathbb{E}[N_{A|B}] - \mathbb{E}[N_{A}]}{\mathbb{E}[N_{B|A}] + \mathbb{E}[N_{A|B}]}
+$$
+
+We just have to finde the values of $\mathbb{E}[N_{A|B}]$, $\mathbb{E}[N_{B|A}]$, $\mathbb{E}[N_{A}]$ and $\mathbb{E}[N_{B}]$.
+
+For instance
+$$
+\begin{align}
+\mathbb{E}[N_{A|B}] & = \mathbb{E}[\text{additional number to 1010 starting with 0100}] \\
+& = \mathbb{E}[N_{1010}] - \mathbb{E}[N_{0100}] \\
+& = \mathbb{E}[N_{1010|10}] + \mathbb{E}[N_{10}] - \mathbb{E}[N_{0100}] \\
+& = p^{-2}q^{-2}+ p^{-1}q^{-2} - \mathbb{E}[N_{0100}]
+\end{align}
+$$
 
 
 
