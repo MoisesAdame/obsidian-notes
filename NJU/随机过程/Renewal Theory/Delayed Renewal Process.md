@@ -16,3 +16,7 @@ $$
 
 So $\{ N_{D}(t), t \geq 0 \}$ is the *delayed renewal process*.
 
+## Properties
+![[image-10.png|400]]
+
+## Example
