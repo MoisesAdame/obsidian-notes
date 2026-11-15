@@ -66,7 +66,7 @@ $$
 Consider flipping a coin independently, each time with probability $p$ comes up with $1$, and with probability $q = 1 −p$ comes up with $0$. Let $A = 1010$, $B = 0100$. Find $P(A \text{ before } B)$, i.e., the probability that pattern $A$ occurs before pattern $B$. (Here we set $p = \frac{1}{4}$.)
 
 ### Proof
-Since we know that in order to calculate $P\{ A \text{ before } B\}$ wer can just use the following equation:
+Since we know that in order to calculate $P\{ A \text{ before } B\}$ we can just use the following equation:
 $$
 P\{ A \text{ before } B\} = \frac{\mathbb{E}[N_{B}] + \mathbb{E}[N_{A|B}] - \mathbb{E}[N_{A}]}{\mathbb{E}[N_{B|A}] + \mathbb{E}[N_{A|B}]}
 $$
@@ -75,10 +75,29 @@ We just have to find the values of $\mathbb{E}[N_{A|B}]$, $\mathbb{E}[N_{B|A}]$,
 
 When trying to find $\mathbb{E}[N_{A|B}]$ we will find out that because there is no overlap when we start with $0100$ with $1010$, then $\mathbb{E}[N_{A|B}]$ is the same as $\mathbb{E}[N_{A}]$, that is:
 $$
-\mathbb{E}[N_{A|B}] = \mathbb{E}[N_{A}] = \mathbb{E}[N_{1010}] = \mathbb{E}[N_{1010|10}] + \mathbb{E}[N_{10}] = p^{-2}q^{-2} + p^{-1}q^{-1}
+\mathbb{E}[N_{A|B}] = \mathbb{E}[N_{A}] = \mathbb{E}[N_{1010}] = \mathbb{E}[N_{1010|10}] + \mathbb{E}[N_{10}] = p^{-2}q^{-2} + p^{-1}q^{-1} = \frac{304}{9}
 $$
 
-When trying to find $\mathbb{E}[N_{B|A}]$ we can see that because there is an overlap with the three last digits of $A$, with the first three digits of $B$
+When trying to find $\mathbb{E}[N_{B|A}]$ we can see that because there is an overlap with the three last digits of $A$, with the first three digits of $B$, since:
+$$
+\mathbb{E}[N_{0100}] = \mathbb{E}[N_{010}] + \mathbb{E}[N_{0100|010}]
+$$
+
+Rearranging, we get:
+$$
+\mathbb{E}[N_{B|A}] =\mathbb{E}[N_{0100|010}] = \mathbb{E}[N_{0100}] - \mathbb{E}[N_{010}] = p^{-1}q^{-3} - p^{-1}q^{-2} = \frac{64}{27}
+$$
+
+Finally, computing $\mathbb{E}[N_{B}]$ we get:
+$$
+\mathbb{E}[N_{B}] = \mathbb{E}[N_{0100}] = \mathbb{E}[N_{0}] +p^{-1}q^{-3} = q^{-1} + p^{-1}q^{-3} = \frac{292}{27}
+$$
+
+Resulting in:
+$$
+P\{ A \text{ before } B\} = \frac{\frac{292}{27} + \frac{304}{9} - \frac{304}{9}}{\frac{64}{27} + \frac{304}{9}} = \frac{73}{244}
+$$
+
 
 
 
