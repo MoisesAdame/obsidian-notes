@@ -98,7 +98,18 @@ $$
 P\{ A \text{ before } B\} = \frac{\frac{292}{27} + \frac{304}{9} - \frac{304}{9}}{\frac{64}{27} + \frac{304}{9}} = \frac{73}{244}
 $$
 
+## Problem 4
 
+## Problem 5
+### Statement
+Express in words what the random variable $X_{N(t)+1}$ represents. (Hint: It is the length of which renewal interval?)
+
+Show that:
+$$
+P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)
+$$
+### Proof
+$X_{N(t)+1}$ represents the length of the renewal interval where the point $t$ is located
 
 
 
