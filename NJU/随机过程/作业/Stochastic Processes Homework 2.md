@@ -109,7 +109,9 @@ $$
 P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)
 $$
 ### Proof
-$X_{N(t)+1}$ represents the length of the renewal interval where the point $t$ is located
+$X_{N(t)+1}$ represents the length of the renewal interval where the point $t$ is located.
+
+To show that $P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)$
 
 
 
