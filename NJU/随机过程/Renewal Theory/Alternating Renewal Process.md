@@ -58,7 +58,7 @@ $$
 \lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{\mathbb{E}[\text{min}\{ x, X \}]}{\mu}
 $$
 
-Given that $\text{min}\{ x, X \}$ is a nonnegative random variable, we can apply the following identity for the expected value $\mathbb{E}[Y]\int_{0}^\infty P\{ Y > y \}dy$
+Given that $\text{min}\{ x, X \}$ is a nonnegative random variable, we can apply the following identity for the expected value $\mathbb{E}[Y]=\int_{0}^\infty P\{ Y > y \}dy$
 $$
 \lim_{ t \to \infty } P\{ A(t) \leq x \} = \frac{1}{\mu} \int_{0}^\infty P\{ \text{min}\{ x, X \} > y \}dy
 $$
