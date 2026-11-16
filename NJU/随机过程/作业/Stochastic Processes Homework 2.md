@@ -146,6 +146,30 @@ $$
 P\{ X_{N(t) + 1} \geq x \}\geq \bar{F}(x)
 $$
 
+## Problem 6
+### Statement
+Two new GPU workers start running in parallel at time 0. When one worker fails, it stays out of service while the other continues to run. Once both workers have failed, they are immediately replaced by two new workers, which start running together. The lifetimes of all workers, including all newly installed workers, are mutually independent and exponentially distributed with rate 1. 
+
+Show that the fraction of time in $[0,t]$ during which exactly one worker is running con verges almost surely as $t\to \infty$, and find its limit. 
+
+**Hint:** Treat each replacement of the pair as a renewal. Let reward accrue at rate 1 when exactly one worker is running and at rate 0 otherwise.
+
+### Proof
+For the following analysis we are going to consider a renewal reward process where every process is a alternating renewal process. We can think of it as having two states:
+- **On**: Both workers are on service.
+- **Off**: Only one worker is on service.
+
+Since we earn at a rate of 1 only when one worker is on service, this means that the **off time** is equal to the **reward** per renewal process.
+
+Since $\mathbb{E}[R]=\mathbb{E}[\text{"off" time}]=1<\infty$ and $\mathbb{E}[X]=\mathbb{E}[\text{"on" time}]+\mathbb{E}[\text{"off" time}]=2<\infty$, then we can apply the **renewal reward process theorem**, which states that, with probability 1,
+$$
+\frac{R(t)}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}\quad\text{as } t\to \infty
+$$
+
+Which, applied to our problem, we can say:
+$$
+\frac{\text{"off" time at [0, t]}}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}=\frac{1}{2}\quad\text{as } t\to \infty
+$$
 
 
 
