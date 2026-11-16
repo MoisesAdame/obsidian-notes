@@ -142,6 +142,10 @@ $$
 P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} = \sum_{i=1}^nP\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n-1}> 0,Z_{2n}=2i\}
 $$
 
+Applying the **ballot theorem** we know that the number of paths that have the for of the inside of the sum are $\frac{2i}{2n}{2n \choose n - i}$ each one of them, having a probability of $\frac{1}{2^{2n}}$. In order to execute this sum, the folloing identity is applied
+$$
+
+$$
 
 ## Problem 5
 ### Statement
