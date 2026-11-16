@@ -46,7 +46,7 @@ Concluding that:
 $$
 \lim_{ t \to \infty } P\{ Y(t) \leq x \} = \frac{1}{\mu} \int_{0}^x \bar{F}(y)dy
 $$
-
+---
 ## Problem 2
 ### Statement
 Consider flipping a coin independently, each time with probability $p$ comes up with $1$, and with probability $q = 1 −p$ comes up with $0$. Find $E[N_{11\dots1}]$, i.e., the expected time until pattern $11\dots1$ ($k$ consecutive $1$s) occurs for the first time.
@@ -61,6 +61,7 @@ This reasoning can be extended, which results in:
 $$
 \mathbb{E}[N_{11\dots1}] = \frac{1}{p^k} + \frac{1}{p^{k-1}} +\cdots + \frac{1}{p^{1}}
 $$
+---
 ## Problem 3
 ### Statement
 Consider flipping a coin independently, each time with probability $p$ comes up with $1$, and with probability $q = 1 −p$ comes up with $0$. Let $A = 1010$, $B = 0100$. Find $P(A \text{ before } B)$, i.e., the probability that pattern $A$ occurs before pattern $B$. (Here we set $p = \frac{1}{4}$.)
@@ -97,7 +98,7 @@ Resulting in:
 $$
 P\{ A \text{ before } B\} = \frac{\frac{292}{27} + \frac{304}{9} - \frac{304}{9}}{\frac{64}{27} + \frac{304}{9}} = \frac{73}{244}
 $$
-
+---
 ## Problem 4
 ### Statement
 Let $Y_{1},Y_{2},\dots$ be i.i.d. with
@@ -122,48 +123,45 @@ P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = u_{n}
 $$
 
 ### Proof
-Given that not any single $X$ is equal to zero, we have two possibilities, either the random walk is positive or it is negative, that can be expressed as:
+By the Ballot Theorem, the probability that the *first* return to 0 occurs at time $2j$ is $\frac{u_j}{2j-1}$. Therefore, we have:
 $$
-\begin{align}
-P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \}  = &
-P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} + \\
-&P\{ Z_{1}<0, Z_{2}<0,\dots,Z_{2n}< 0\} 
-\end{align}
+P(\text{hit 0 by time } 2n) = \sum_{j=1}^{n} \frac{u_j}{2j - 1}
 $$
 
-Given that the probability of this two events is the same we just say
+We can rewrite our original probability as
 $$
-P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \}  =
-2P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\}
-$$
-
-Analyzing the probability $P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\}$ we can express it as
-$$
-P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} = \sum_{i=1}^nP\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n-1}> 0,Z_{2n}=2i\}
+P\{ Z_1 \neq 0, \dots, Z_{2n} \neq 0 \}= 1 - \sum_{j=1}^{n} \frac{u_j}{2j - 1}
 $$
 
-Applying the **ballot theorem** we know that the number of paths that have the for of the inside of the sum are $\frac{2i}{2n}{2n \choose n - i}$ each one of them, having a probability of $\frac{1}{2^{2n}}$. Thus
+Then, we just have to prove that
 $$
-P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = \frac{1}{2^{2n-1}}\sum_{i=1}^n\frac{i}{n}{2n \choose n - i}
-$$
-
-Hence, we must show that:
-$$
-u_{n} = \frac{1}{2^{2n-1}}\sum_{i=1}^n\frac{i}{n}{2n \choose n - i}
+u_n = 1 - \sum_{j=1}^{n} \frac{u_j}{2j - 1}
 $$
 
-When $n=1$
-$$u_{1}={2\choose1} \left( \frac{1}{2} \right)^2=2\cdot \frac{1}{4}=\frac{1}{2}$$
+**Base case $n=1$:** Since $u_1 = \frac{1}{2}$:
 $$
-\frac{1}{2^{2-1}}\sum_{i=1}^1\frac{i}{1}{2 \choose 1 - i}=\frac{1}{2}\cdot1=\frac{1}{2}
+1 - \frac{u_1}{2(1)-1} = 1 - \frac{1}{2} = \frac{1}{2} = u_1
 $$
 
-When $n=n-1$
+**Inductive step:** Assuming that $u_n = 1 - \sum_{j=1}^{n} \frac{u_j}{2j - 1}$ holds for $n-1$:
+$$
+u_{n-1} = 1 - \sum_{j=1}^{n-1} \frac{u_j}{2j - 1}
+$$
+Then for $n$:
+$$
+1 - \sum_{j=1}^{n} \frac{u_j}{2j - 1} = \left(1 - \sum_{j=1}^{n-1} \frac{u_j}{2j - 1}\right) - \frac{u_n}{2n - 1} = u_{n-1} - \frac{u_n}{2n - 1}
+$$
 
+Since we know that $u_{n}=\frac{2n-1}{2n}u_{n-1}$, we can see that:
+$$
+1 - \sum_{j=1}^{n} \frac{u_j}{2j - 1} = \frac{u_{n}2n}{2n-1} - \frac{u_n}{2n - 1} = u_{n}
+$$
 
-
-
-
+Proving that
+$$
+P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = u_{n}
+$$
+---
 ## Problem 5
 ### Statement
 Express in words what the random variable $X_{N(t)+1}$ represents. (Hint: It is the length of which renewal interval?)
@@ -209,7 +207,7 @@ Concluding finally that
 $$
 P\{ X_{N(t) + 1} \geq x \}\geq \bar{F}(x)
 $$
-
+---
 ## Problem 6
 ### Statement
 Two new GPU workers start running in parallel at time 0. When one worker fails, it stays out of service while the other continues to run. Once both workers have failed, they are immediately replaced by two new workers, which start running together. The lifetimes of all workers, including all newly installed workers, are mutually independent and exponentially distributed with rate 1. 
@@ -255,8 +253,3 @@ Which, applied to our problem, we can say:
 $$
 \frac{\text{"off" time at [0, t]}}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}=\frac{2}{3}\quad\text{as } t\to \infty
 $$
-
-
-
-
-
