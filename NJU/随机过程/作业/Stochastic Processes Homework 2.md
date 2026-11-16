@@ -142,11 +142,43 @@ $$
 P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} = \sum_{i=1}^nP\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n-1}> 0,Z_{2n}=2i\}
 $$
 
-Applying the **ballot theorem** we know that the number of paths that have the for of the inside of the sum are $\frac{2i}{2n}{2n \choose n - i}$ each one of them, having a probability of $\frac{1}{2^{2n}}$. In order to execute this sum, the folloing identity is applied
+Applying the **ballot theorem** we know that the number of paths that have the for of the inside of the sum are $\frac{2i}{2n}{2n \choose n - i}$ each one of them, having a probability of $\frac{1}{2^{2n}}$. Thus
+$$
+P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = \frac{1}{2^{2n-1}}\sum_{i=1}^n\frac{i}{n}{2n \choose n - i}
 $$
 
+Hence, we must show that:
+$$
+u_{n} = \frac{1}{2^{2n-1}}\sum_{i=1}^n\frac{i}{n}{2n \choose n - i}
 $$
 
+When $n=1$
+$$u_{1}={2\choose1} \left( \frac{1}{2} \right)^2=2\cdot \frac{1}{4}=\frac{1}{2}$$
+$$
+\frac{1}{2^{2-1}}\sum_{i=1}^1\frac{i}{1}{2 \choose 1 - i}=\frac{1}{2}\cdot1=\frac{1}{2}
+$$
+
+When $n=n-1$
+The sum takes the following shape:
+$$
+\begin{align}
+\frac{1}{2^{2n-1}}\sum_{i=1}^n\frac{i}{n}{2n \choose n - i}
+= & \frac{1}{2^{2n-3}}\sum_{i=1}^{n-1}\frac{i}{n-1}\binom{2n-2}{n-1-i} +\\
+&\frac{1}{2^{2n-1}}\frac{n}{n}{2n \choose n - n} \\
+= & \frac{1}{2^{2n-3}}\sum_{i=1}^{n-1}\frac{i}{n-1}\binom{2n-2}{n-1-i} +\frac{1}{2^{2n-1}} \\
+= & u_{n-1} + \frac{1}{2^{2n-1}}
+\end{align}
+$$
+
+
+$$
+\begin{align*}
+u_{n-1} + \frac{1}{2^{2n-1}} 
+&= \frac{1}{2^{2n-3}} \left( \frac{1}{2}\binom{2n-2}{n-1} \right) + \frac{1}{2^{2n-1}} \\[6pt]
+&= \frac{1}{2^{2n-2}} \binom{2n-2}{n-1} + \frac{1}{2^{2n-1}} \\[6pt]
+&= \frac{1}{2^{2n-2}} \left( \frac{n}{2n-1}\binom{2n}{n} \right) + \frac{1}{2^{2n-1}} 
+\end{align*}
+$$
 ## Problem 5
 ### Statement
 Express in words what the random variable $X_{N(t)+1}$ represents. (Hint: It is the length of which renewal interval?)
