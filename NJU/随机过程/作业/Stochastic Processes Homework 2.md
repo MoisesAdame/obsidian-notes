@@ -99,6 +99,30 @@ P\{ A \text{ before } B\} = \frac{\frac{292}{27} + \frac{304}{9} - \frac{304}{9}
 $$
 
 ## Problem 4
+### Statement
+Let $Y_{1},Y_{2},\dots$ be i.i.d. with
+$$
+P\{ Y_{i} = 1 \} = P\{ Y_{i} = -1 \} = \frac{1}{2}
+$$
+
+and define
+$$
+Z_{0}=0, \quad Z_{n}=\sum_{i = 1}^n Y_{i}
+$$
+
+$\{ Z_{n}, n\geq0 \}$ is called the *symmetric random walk process*. 
+
+Define
+$$
+u_{n} = P\{ Z_{2n}=0 \}={2n \choose n} \left( \frac{1}{2} \right)^{2n}
+$$
+Prove that
+$$
+P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = u_{n}
+$$
+
+### Proof
+
 
 ## Problem 5
 ### Statement
@@ -161,14 +185,35 @@ For the following analysis we are going to consider a renewal reward process whe
 
 Since we earn at a rate of 1 only when one worker is on service, this means that the **off time** is equal to the **reward** per renewal process.
 
-Since $\mathbb{E}[R]=\mathbb{E}[\text{"off" time}]=1<\infty$ and $\mathbb{E}[X]=\mathbb{E}[\text{"on" time}]+\mathbb{E}[\text{"off" time}]=2<\infty$, then we can apply the **renewal reward process theorem**, which states that, with probability 1,
+Now, in order to apply  the **renewal reward process theorem**, we first need to obtain $\mathbb{E}[R]$ and $\mathbb{E}[X]$. Since the reward time per cycle is exactly the off time, we know that: 
+$$
+\mathbb{E}[R]=\mathbb{E}[\text{"off" time}]=1<\infty
+$$
+
+In the other hand the expected time of the length of a cycle can be tought of as $\mathbb{E}[X]=\mathbb{E}[\text{"on" time}]+\mathbb{E}[\text{"off" time}]$, where the on time is just the $\text{min}\{ W_{1}, W_{2} \}$ where $W_{1}$ and $W_{2}$ are iid random variables representing the work lifetime of each worker respectively, then we can say:
+$$
+\begin{align}
+\mathbb{E}[X]&=\mathbb{E}[\text{"on" time}]+\mathbb{E}[\text{"off" time}] \\
+& = 1 + \mathbb{E}[\text{min}\{ W_{1}, W_{2} \}] \\
+& = 1 + \int_{0}^\infty P\{ \text{min}\{ W_{1}, W_{2} \} > y\}dy \\
+& = 1 + \int_{0}^\infty P\{ W_{1} > y \land W_{2} > y \}dy \\
+& = 1 + \int_{0}^\infty P\{ W_{1} > y \}P\{ W_{2} > y \}dy \\
+& = 1 + \int_{0}^\infty P\{ W_{1} > y \}^2dy \\
+& = 1 + \int_{0}^\infty (e^{ -y })^2dy \\
+& = 1 + \int_{0}^\infty e^{ -2y }dy \\
+& = 1 + \frac{1}{2} \\
+& = \frac{3}{2}
+\end{align}
+$$
+
+Since $\mathbb{E}[R]=1<\infty$ and $\mathbb{E}[X]=\frac{3}{2}<\infty$, then we can apply, which states that, with probability 1,
 $$
 \frac{R(t)}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}\quad\text{as } t\to \infty
 $$
 
 Which, applied to our problem, we can say:
 $$
-\frac{\text{"off" time at [0, t]}}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}=\frac{1}{2}\quad\text{as } t\to \infty
+\frac{\text{"off" time at [0, t]}}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}=\frac{2}{3}\quad\text{as } t\to \infty
 $$
 
 
