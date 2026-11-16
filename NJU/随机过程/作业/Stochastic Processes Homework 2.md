@@ -122,6 +122,25 @@ P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \} = u_{n}
 $$
 
 ### Proof
+Given that not any single $X$ is equal to zero, we have two possibilities, either the random walk is positive or it is negative, that can be expressed as:
+$$
+\begin{align}
+P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \}  = &
+P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} + \\
+&P\{ Z_{1}<0, Z_{2}<0,\dots,Z_{2n}< 0\} 
+\end{align}
+$$
+
+Given that the probability of this two events is the same we just say
+$$
+P\{ Z_{1}\neq0, Z_{2}\neq0,\dots,Z_{2n}\neq0 \}  =
+2P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\}
+$$
+
+Analyzing the probability $P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\}$ we can express it as
+$$
+P\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n}> 0\} = \sum_{i=1}^nP\{ Z_{1}>0, Z_{2}>0,\dots,Z_{2n-1}> 0,Z_{2n}=2i\}
+$$
 
 
 ## Problem 5
