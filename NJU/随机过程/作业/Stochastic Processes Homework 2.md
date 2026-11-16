@@ -109,9 +109,42 @@ $$
 P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)
 $$
 ### Proof
-$X_{N(t)+1}$ represents the length of the renewal interval where the point $t$ is located.
+$X_{N(t)+1}$ represents the length of the renewal interval where the point of time $t$ is located.
 
-To show that $P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)$
+To show that $P\{ X_{N(t) + 1} \geq x \} \geq \bar{F}(x)$ we first have to find the conditional probability of $X_{N(t) + 1} \geq x$ given that the age of the renewal process at $t$ is some constant $m$, that is:
+$$
+P\{ X_{N(t) + 1} \geq x | A(t)=m \}
+$$
+
+This means that our random variable has to be at least $m$ units of length, that is:
+$$
+P\{ X_{N(t) + 1} \geq x | A(t)=m \} = P\{ X_{N(t) + 1} \geq x | X_{N(t) + 1} \geq m \}
+$$
+
+Because the fact that we are in a renewal process, where random variables are identically distributed, we can then say that for any $X$ with distribution $F$ the following holds:
+$$
+P\{ X_{N(t) + 1} \geq x | X_{N(t) + 1} \geq m \} = P\{ X \geq x | X \geq m \}
+$$
+
+By conditional probability we know:
+$$
+P\{ X \geq x | X \geq m \} = \frac{P\{ X \geq x, X \geq m \}}{P\{ X \geq m \}}
+$$
+
+Now, if $x\geq m$, then $P\{ X \geq x, X \geq m \} = P\{ X \geq x\}$, that is:
+$$
+P\{ X \geq x | X \geq m \} = \frac{P\{ X \geq x\}}{P\{ X \geq m \}}
+$$
+
+Since $P\{ X \geq m \} \leq 1$ and $P\{ X \geq x\} \leq 1$, we then can say that 
+$$
+P\{ X \geq x | X \geq m \} \geq P\{ X \geq x\} = \bar{F}(x)
+$$
+
+Concluding finally that
+$$
+P\{ X_{N(t) + 1} \geq x \}\geq \bar{F}(x)
+$$
 
 
 
