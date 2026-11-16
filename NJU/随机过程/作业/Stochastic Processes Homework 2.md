@@ -244,7 +244,7 @@ $$
 \end{align}
 $$
 
-Since $\mathbb{E}[R]=1<\infty$ and $\mathbb{E}[X]=\frac{3}{2}<\infty$, then we can apply, which states that, with probability 1,
+Since $\mathbb{E}[R]=1<\infty$ and $\mathbb{E}[X]=\frac{3}{2}<\infty$, then we can apply the renewal reward process theorem, which states that, with probability 1,
 $$
 \frac{R(t)}{t} \to \frac{\mathbb{E}[R]}{\mathbb{E}[X]}\quad\text{as } t\to \infty
 $$
