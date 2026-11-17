@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "4d078b80fc2573b8",
+    "id": "9d1742bac028d480",
     "type": "split",
     "children": [
       {
-        "id": "c7198178b20b48d7",
+        "id": "5afa50a9f9509701",
         "type": "tabs",
         "children": [
           {
-            "id": "323b5f620a29f1d1",
+            "id": "d852e4e946ab72e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+                "file": "NJU/时间系列/第3课.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Belief Revision In a Probabilistic Setting"
+              "title": "第3课"
             }
           }
         ]
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a554f2b5e6d0de98",
+    "id": "4d8b86ae1739f549",
     "type": "split",
     "children": [
       {
-        "id": "6d3caedae92f5442",
+        "id": "d71271ea6fabff75",
         "type": "tabs",
         "children": [
           {
-            "id": "d97341b5977ffe98",
+            "id": "85753297cc7b57d9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -51,12 +51,12 @@
             }
           },
           {
-            "id": "8a454250355aa51a",
+            "id": "ab95b8f511e255ca",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:excess-function",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "dd8ed0c48452057e",
+            "id": "6b28b184805003c7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -84,23 +84,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 267.84316635131836
   },
   "right": {
-    "id": "eef440023776e91d",
+    "id": "9cb271245be54543",
     "type": "split",
     "children": [
       {
-        "id": "006807e12a2d564f",
+        "id": "78f9df4316e0a673",
         "type": "tabs",
         "children": [
           {
-            "id": "145e97834241ec0a",
+            "id": "6e3fe6012d845962",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第2课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,12 +114,12 @@
             }
           },
           {
-            "id": "0b89ebc510934177",
+            "id": "54df24932deca31d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -128,7 +128,7 @@
             }
           },
           {
-            "id": "8ef2bfa51ce88495",
+            "id": "444d3f3b8ffb8a35",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,12 +143,12 @@
             }
           },
           {
-            "id": "f71ad766714c0fce",
+            "id": "135c1e126b6ccdf1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "NJU/时间系列/第1课.md",
+                "file": "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,49 +180,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "323b5f620a29f1d1",
+  "active": "d852e4e946ab72e9",
   "lastOpenFiles": [
-    "NJU/时间系列/教室的记本/第4课（听）.md",
-    "NJU/时间系列/教室的记本/第5课.md",
-    "NJU/时间系列/第2课.md",
-    "NJU/时间系列/第1课.md",
-    "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
-    "NJU/刘老师/Epistemal Logic.md",
-    "NJU/时间系列/教室的记本/第6课.md",
-    "Templates/中文文件.md",
-    "Templates/Normal Note.md",
-    "Templates/Normal Note (Flascard).md",
-    "Templates",
-    "Masters/NeetCode/Arrays & Hashing/Group Anagrams (Medium).md",
-    "Masters/NeetCode/Arrays & Hashing/Container With Most Water.md",
-    "School/Ceneval/Guía/4. Gestión de Proyectos de Software/4.1 Gestión de Tiempos, Costos, Recursos Humanos y Riesgos.md",
-    "School/Ceneval/Guía/1. Análisis de Sistemas de Software/1.1.A Tipos de Requerimientos.canvas",
-    "NJU/中国概况/第3课.md",
-    "NJU/中国概况/第1课.md",
-    "NJU/随机过程/作业/Stochastic Processes Homework 1.md",
-    "obsidian-notes",
-    "NJU/随机过程/作业/Untitled.md",
-    "NJU/刘老师/第一组会.md",
-    "NJU/随机过程/作业",
-    "NJU/时间系列/教室的记本/第3课（听）.md",
-    "NJU/随机过程/第2课（听）.md",
     "NJU/随机过程/第1课（听）.md",
-    "NJU/时间系列/images/image-6.1.png",
-    "NJU/时间系列/images/image-9.png",
-    "NJU/时间系列/images/image-8.png",
-    "NJU/时间系列/images/image-7.png",
-    "NJU/时间系列/images/image-6.png",
-    "NJU/时间系列/images/image-5.png",
-    "NJU/时间系列/images/image-4.png",
-    "NJU/时间系列/images/image-3.png",
-    "NJU/时间系列/images/image-2.png",
-    "NJU/时间系列/images/image-1.png",
-    "NJU/时间系列/images",
-    "NJU/中国概况/第2课.md",
-    "NJU/时间系列/Untitled.md",
-    "NJU/时间系列/教室的记本",
-    "NJU/时间系列/教室的记本/第2课（听）.md",
-    "NJU/时间系列/教室的记本/第1课（听）.md",
-    "NJU/高级优化/Class 1.md"
+    "NJU/随机过程/第2课（听）.md",
+    "NJU/时间系列/第3课.md",
+    "conflict-files-obsidian-git.md",
+    "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
+    "NJU/时间系列/第1课.md",
+    "NJU/时间系列/第2课.md",
+    "NJU/随机过程/作业/Stochastic Processes Homework 2.md",
+    "NJU/随机过程/Renewal Theory/Key Renewal Theorem.md",
+    "NJU/随机过程/Renewal Theory/images/image-9.png",
+    "NJU/随机过程/Renewal Theory/images/image-8.png",
+    "NJU/随机过程/Renewal Theory/images/image-7.jpg",
+    "NJU/随机过程/Renewal Theory/images/image-6.jpg",
+    "NJU/随机过程/Renewal Theory/images/image-5.jpg",
+    "NJU/随机过程/Renewal Theory/images/image-10.png",
+    "NJU/随机过程/Renewal Theory/Symmetric Random Walk.md",
+    "NJU/随机过程/Renewal Theory/Renewal Reward Process.md",
+    "NJU/随机过程/Renewal Theory/Regenerative Process.md",
+    "NJU/随机过程/Renewal Theory/Delayed Renewal Process.md",
+    "NJU/随机过程/Renewal Theory/Alternating Renewal Process.md",
+    "NJU/随机过程/Concepts/Central Limit Theorem.md",
+    "NJU/随机过程/Renewal Theory/Elementary Renewal Theorem.md",
+    "NJU/随机过程/Renewal Theory/Renewal Function.md",
+    "NJU/随机过程/Renewal Theory/Renewal Process.md",
+    "NJU/随机过程/Renewal Theory/Stopping Time.md",
+    "NJU/随机过程/Concepts/Memoryless Property.md",
+    "NJU/随机过程/Concepts/Law Of Total Expectation.md",
+    "NJU/随机过程/Renewal Theory/images/image-4.png",
+    "NJU/随机过程/Renewal Theory/images/image-3.jpeg",
+    "NJU/高级优化/Banach Space.md",
+    "NJU/刘老师/books/Knowled In Action/Mind Map.canvas",
+    "NJU/随机过程/Renewal Theory/images/image-2.jpg",
+    "NJU/随机过程/Renewal Theory/images/image-1.png",
+    "NJU/随机过程/Renewal Theory/images",
+    "NJU/随机过程/Renewal Theory",
+    "NJU/随机过程/Concepts",
+    "NJU/刘老师/books/Knowled In Action/3 Introduction to the Situation Calculus.md",
+    "NJU/刘老师/books/Knowled In Action/4 Foundations.md",
+    "NJU/刘老师/papers/Progression with Probabilities in the Situation Calculus.md",
+    "NJU/刘老师/papers/Belief Revision In a Probabilistic Setting.md"
   ]
 }
