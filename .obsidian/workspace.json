@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "第5课"
             }
+          },
+          {
+            "id": "3e06066dce638539",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NJU/时间系列/教室的记本/Pasted image 20260917103609.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260917103609"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/教室的记本/Pasted image 20260917103609.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/教室的记本/Pasted image 20260917103609.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/教室的记本/Pasted image 20260917103609.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,9 +193,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f72e44148667f876",
+  "active": "84a2f043215732a9",
   "lastOpenFiles": [
+    "NJU/时间系列/教室的记本/Pasted image 20260917105315.png",
+    "NJU/时间系列/证明/第4课.md",
     "NJU/时间系列/证明/第5课.md",
+    "NJU/时间系列/教室的记本/第5课.md",
+    "NJU/时间系列/教室的记本/Pasted image 20260917103609.png",
     "NJU/时间系列/第5课.md",
     "NJU/时间系列/第2课.md",
     "NJU/时间系列/第1课-DESKTOP-ELAIAM5.md",
