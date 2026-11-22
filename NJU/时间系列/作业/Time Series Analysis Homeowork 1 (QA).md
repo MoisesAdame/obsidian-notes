@@ -30,7 +30,7 @@ $$
 
 As we can see a pattern arises, such that
 $$
-X_{t}=\sum_{i=0}^{\infty} \phi^i\epsilon_{t-i}
+\boxed{X_{t}=\sum_{i=0}^{\infty} \phi^i\epsilon_{t-i}}
 $$
 ### Question 1.2
 #### Statement
@@ -41,3 +41,20 @@ To which category of ARIMA(p, d, q) does each of the following processes belong?
 
 #### Solution
 ##### a) $X_{t}=\frac{5}{6}X_{t-1}-\frac{1}{6}X_{t-2}+\epsilon_{t}-\frac{1}{4}\epsilon_{t-1}$
+The process can be rewritten as
+$$
+X_{t}-\frac{5}{6}X_{t-1}+\frac{1}{6}X_{t-2}=\epsilon_{t}-\frac{1}{4}\epsilon_{t-1}
+$$
+
+Which is an **ARMA(2,1)** process, meaning that it is an **ARIMA(2,0,1)** process
+
+The characteristic equation of the left side (AR model) is
+$$
+\begin{align}
+& \Phi(z) = 1-\frac{5}{6}z+\frac{1}{6}z^2 \\
+& \implies \left( 1-\frac{1}{3}z \right)\left( 1-\frac{1}{2}z \right)=0 \\
+& \implies z_{1}=3, \quad z_{2} =2
+\end{align}
+$$
+
+Because the roots of the charcateristic euqation of the AR part are outside of the unit circle, we conclude thath the process is 
