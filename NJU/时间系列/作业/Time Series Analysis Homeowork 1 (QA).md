@@ -45,6 +45,11 @@ The process can be rewritten as
 $$
 X_{t}-\frac{5}{6}X_{t-1}+\frac{1}{6}X_{t-2}=\epsilon_{t}-\frac{1}{4}\epsilon_{t-1}
 $$
+$$
+\implies X_{t} \left( 1-\frac{5}{6}B + \frac{1}{6}B^2 \right) = \epsilon_{t} \left( 1 - \frac{1}{4}B \right)
+$$
+
+
 
 Which is an **ARMA(2,1)** process, meaning that it is an **ARIMA(2,0,1)** process
 
@@ -57,4 +62,56 @@ $$
 \end{align}
 $$
 
-Because the roots of the charcateristic euqation of the AR part are outside of the unit circle, we conclude thath the process is 
+Because the roots of the charcateristic euqation of the AR part are outside of the unit circle, we conclude thath the process is **stationary**.
+
+The characteristic equation of the right side (MA model) is
+$$
+\begin{align}
+& \Theta(z)=1-\frac{1}{4}z \\
+& \implies 1-\frac{1}{4}z=0 \\
+& \implies z_{1}=4
+\end{align}
+$$
+
+Because the root of the charcateristic equation of the MA part are outside of the unit circle, we conclude thath the process is **invertible**.
+
+$$
+\boxed{\text{ARIMA(2,0,1), invertible, stationary}}
+$$
+
+##### b) $X_{t}=\frac{4}{3}X_{t-1}-\frac{1}{3}X_{t-2}+\epsilon_{t}-\frac{1}{4}\epsilon_{t-1}$
+The process can be rewritten as
+$$
+X_{t}-\frac{4}{3}X_{t-1}+\frac{1}{3}X_{t-2}=\epsilon_{t}-\frac{1}{4}\epsilon_{t-1}
+$$
+
+Which is an **ARMA(1,1)** process, meaning that it is an **ARIMA(1,0,1)** process.
+
+The characteristic equation of the left side (AR model) is
+$$
+\begin{align}
+& \Phi(z) = 1-\frac{4}{3}z+\frac{1}{3}z^2 \\
+& \implies \left( 1-z \right)\left( 1-\frac{1}{3}z \right)=0 \\
+& \implies z_{1}=1, \quad z_{2} =3
+\end{align}
+$$
+
+Because the roots of the charcateristic euqation of the AR part are outside of the unit circle, we conclude that the process is **invertible**.
+
+The characteristic equation of the right side (MA model) is
+$$
+\begin{align}
+& \Theta(z)=1-\frac{1}{4}z \\
+& \implies 1-\frac{1}{4}z=0 \\
+& \implies z_{1}=4
+\end{align}
+$$
+
+Because the root of the charcateristic equation of the MA part are outside of the unit circle, we conclude thath the process is **stationary**.
+
+
+$$
+\boxed{\text{ARIMA(1,0,1), reversible, stationary}}
+$$
+
+
