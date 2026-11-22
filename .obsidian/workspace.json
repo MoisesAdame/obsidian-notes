@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/作业/Time Series Analysis Homeowork 1 (QA).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "第5课"
+              "title": "Time Series Analysis Homeowork 1 (QA)"
             }
           },
           {
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/作业/Time Series Analysis Homeowork 1 (QA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/作业/Time Series Analysis Homeowork 1 (QA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NJU/时间系列/第5课.md",
+                "file": "NJU/时间系列/作业/Time Series Analysis Homeowork 1 (QA).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,8 +213,12 @@
   },
   "active": "3e06066dce638539",
   "lastOpenFiles": [
+    "NJU/随机过程/作业/Stochastic Processes Homework 2.md",
+    "NJU/随机过程/作业/Stochastic Processes Homework 1.md",
     "NJU/时间系列/证明/第5课.md",
     "NJU/时间系列/第4课.md",
+    "NJU/时间系列/作业/Time Series Analysis Homeowork 1 (QA).md",
+    "NJU/时间系列/作业",
     "NJU/时间系列/第5课.md",
     "NJU/时间系列/教室的记本/Pasted image 20260917103609.png",
     "NJU/刘老师/Belief Revision In a Probabilistic Setting.md",
