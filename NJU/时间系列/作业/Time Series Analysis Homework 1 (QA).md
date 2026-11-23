@@ -336,3 +336,19 @@ Determine the autocovariance and autocorrelation functions for $\{ X_{t} \}$. Sk
 
 #### Solution
 ##### Autocovariance
+Since we have the process
+$$
+X_{t}-X_{t-1}+0.5X_{t-2}=\epsilon_{t}+0.5\epsilon_{t-1}
+$$
+
+By mutiplying $\epsilon_{t-k}$ to both sides of the eqaution and obtainig the expected value we get
+$$
+\gamma_{\epsilon X}(k) - \gamma_{\epsilon X}(k - 1) + \gamma_{\epsilon Y}(k - 2) = 0
+$$
+
+
+
+By multiplying $X_{t-k}$ to both sides of the process equation and obtaining the expected value we get
+$$
+\gamma_{XX}(k) - \gamma_{XX}(k-1) + 0.5\gamma_{XX}(k-2)=\gamma_{\epsilon X}(k) +0.5 \gamma_{\epsilon X}(k - 1)
+$$
