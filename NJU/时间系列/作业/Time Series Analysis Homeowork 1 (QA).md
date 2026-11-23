@@ -290,10 +290,11 @@ where $\{ \epsilon_{t} \}$ is white noise with $\mathbb{E}[\epsilon_{t}]=0$ and 
 
 ### Question 4.1
 #### Statement
-Rewrite the process into an AR form.
+Examine wheter $\{ X_{t} \}$ is stationary/invertible. Characterize the process.
 
 #### Solution
-In order to write the process in an AR form we first have to make sure that the process is invertible, which can be done via the analysis of the characteristic equation of the MA part, that is
+##### Invertibility
+To know if the process is invertible, we have to analyze the roots of the MA part, that is
 $$
 \Theta(z) = 1 + \frac{1}{2}z
 $$
@@ -303,9 +304,35 @@ $$
 z_{1}=-2
 $$
 
-Because the root is outside of the unit circle, then we can say that the current *process is invertible* and thus, we can express it as an $\text{AR}(\infty)$ process.
+Because the root is outside of the unit circle, then we can say that the current *process is invertible*.
 
-For instance, we can rewrite the process considering the following pattern
+##### Stationary
+To know if the process is stationary, we have to analyze the roots of the AR part, that is
+$$
+\Psi(z)=1-z+\frac{1}{2}z^2
+$$
+The roots of the characteristic equation are
+$$
+z_{1}=1+i, \quad z_{2}=1-i
+$$
 
+Therefore
+$$
+|z_{1}|=\sqrt{ 2 }\approx1.4, \quad |z_{2}|=\sqrt{ 2 }\approx1.4
+$$
 
+Because the roots are outside of the unit circle, then we can say that the current *process is stationary*.
 
+##### Charcaterization
+Given that $\Psi(z)$ is a second degree polynomial and $\Theta(z)$ is a first degree polynomial, this is a **ARMA(2, 1)** process.
+
+$$
+\boxed{\text{ARMA(2, 1), stationary, invertible}}
+$$
+
+### Question 4.2
+#### Statement
+Determine the autocovariance and autocorrelation functions for $\{ X_{t} \}$. Sketch the autocorrelation function for $\text{lags}\leq 6$.
+
+#### Solution
+##### Autocovariance
