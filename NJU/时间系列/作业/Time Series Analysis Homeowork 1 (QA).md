@@ -218,7 +218,7 @@ $$
 
 Concluding that the $\text{MA}(\infty)$ representation is
 $$
-X_{t}=\epsilon_{t}\left( 1+(\phi-\theta)\sum_{j=0}^{\infty}\phi^jB^{j+1}  \right)
+\boxed{X_{t}=\epsilon_{t}\left( 1+(\phi-\theta)\sum_{j=0}^{\infty}\phi^jB^{j+1}  \right)}
 $$
 
 Aditionally, $\text{Var}[X_{t}]$ can be expressed as
@@ -236,6 +236,10 @@ $$
 
 $$
 
+Therefore
+$$
+\boxed{\text{Var}[X_{t}]=\sigma_{\epsilon}^2\left(1+( \phi-\theta)^2 \sum_{j=0}^{\infty} \phi^{2j} \right)}
+$$
 
 
 ---
@@ -253,6 +257,55 @@ For this we have to analyze the roots of the AR part. Given its characteristic e
 $$
 \Phi(z)=1-1.2\bar{7}z+0.81z^2
 $$
+
+We can rewrite the previous equatiuon as
+$$
+\Phi(z)=\frac{9^2}{10^2}z^2-\frac{23}{18}z+1=0
+$$
+
+Being the roots
+$$
+z_{1}=\frac{575}{729} - \frac{5i\sqrt{ 13019 }}{729}, \quad z_{2}=\frac{575}{729} + \frac{5i\sqrt{ 13019 }}{729}
+$$
+
+Therefore
+$$
+|z_{1}|=\frac{10}{9}, \quad |z_{2}|=\frac{10}{9}
+$$
+
+Because the roots are outside of the unit circle, then we can say that the process is **stationary**.
+
+$$
+\boxed{\text{The given ARMA(2, 1) process is stationary}}
+$$
+---
+## Exercise 4
+#### Statement
+Consider a process $\{ X_{t} \}$ defined by
+$$
+(1-B+0.5B^2)X_{t}=(1+0.5B)\epsilon_{t}
+$$
+
+where $\{ \epsilon_{t} \}$ is white noise with $\mathbb{E}[\epsilon_{t}]=0$ and $\text{Var}[\epsilon_{t}]=\sigma_{\epsilon}^2$
+
+### Question 4.1
+#### Statement
+Rewrite the process into an AR form.
+
+#### Solution
+In order to write the process in an AR form we first have to make sure that the process is invertible, which can be done via the analysis of the characteristic equation of the MA part, that is
+$$
+\Theta(z) = 1 + \frac{1}{2}z
+$$
+
+The root of the characteristic equation is
+$$
+z_{1}=-2
+$$
+
+Because the root is outside of the unit circle, then we can say that the current *process is invertible* and thus, we can express it as an $\text{AR}(\infty)$ process.
+
+For instance, we can rewrite the process considering the following pattern
 
 
 
