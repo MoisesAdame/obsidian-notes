@@ -376,6 +376,39 @@ Solving the following set of equations
 $$
 \begin{cases}
 \gamma_{XX}(0)-\gamma_{XX}(1)+0.5\gamma_{XX}(2) & = 1.75 \\
--\gamma_{XX}(0)+1.5\gamma_{XX}(1)
+-\gamma_{XX}(0)+1.5\gamma_{XX}(1) & =0.5 \\
+0.5\gamma_{XX}(0)-\gamma_{XX}(1)+\gamma_{XX}(2) & =0
 \end{cases}
 $$
+
+We get that
+$$
+\gamma_{XX}(0)=\frac{23}{5}, \quad \gamma_{XX}(1)=\frac{17}{5}, \quad \gamma_{XX}(2)=\frac{11}{10}
+$$
+
+So we can conlude that
+$$
+\boxed{
+\gamma_{XX}(k)=
+\begin{cases}
+\frac{23}{5},  & \quad k=0 \\
+\frac{17}{5},  & \quad k=1 \\
+\frac{11}{10},  & \quad k=2 \\
+\gamma_{XX}(k-1) - 0.5\gamma_{XX}(k-2),  & \quad k > 2 \\
+\end{cases}}
+$$
+
+Since the autocorrelation function is by definition $\rho(k)=\gamma_{XX}(k)/\gamma_{XX}(0)$ so. it can be expressed as
+$$
+\boxed{
+\rho(k)=
+\begin{cases}
+1,  & \quad k=0 \\
+\frac{17}{23},  & \quad k=1 \\
+\frac{11}{46},  & \quad k=2 \\
+\frac{5}{23}(\gamma_{XX}(k-1) - 0.5\gamma_{XX}(k-2)),  & \quad k > 2 \\
+\end{cases}}
+$$
+
+Sketching the autocorrelation function for $\text{lags}\leq6$ we get
+
