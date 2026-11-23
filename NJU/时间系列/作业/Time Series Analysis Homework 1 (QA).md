@@ -412,3 +412,11 @@ $$
 
 Sketching the autocorrelation function for $\text{lags}\leq6$ we get
 
+|        ![Fig1](figure-1.png)         |
+| :----------------------------------: |
+| *Figure 1: Autocorrelation function* |
+### Question 4.3
+#### Statement
+Sketch the partial autocorrelation function for $\text{lags}\leq 4$.
+
+#### Solution
