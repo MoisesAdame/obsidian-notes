@@ -286,7 +286,7 @@ $$
 (1-B+0.5B^2)X_{t}=(1+0.5B)\epsilon_{t}
 $$
 
-where $\{ \epsilon_{t} \}$ is white noise with $\mathbb{E}[\epsilon_{t}]=0$ and $\text{Var}[\epsilon_{t}]=\sigma_{\epsilon}^2$
+where $\{ \epsilon_{t} \}$ is white noise with $\mathbb{E}[\epsilon_{t}]=0$ and $\text{Var}[\epsilon_{t}]=1$
 
 ### Question 4.1
 #### Statement
@@ -343,12 +343,30 @@ $$
 
 By mutiplying $\epsilon_{t-k}$ to both sides of the eqaution and obtainig the expected value we get
 $$
-\gamma_{\epsilon X}(k) - \gamma_{\epsilon X}(k - 1) + \gamma_{\epsilon Y}(k - 2) = 0
+\gamma_{\epsilon X}(k) - \gamma_{\epsilon X}(k - 1) + \gamma_{\epsilon Y}(k - 2) = \theta_{k}
 $$
 
+Then, we know that
+$$
+\begin{align}
+k=0, & \quad \gamma_{\epsilon X}(0)=1 \\
+k=1, & \quad \gamma_{\epsilon X}(1)=1 + 0.5=1.5 \\
+k\geq2, & \quad \gamma_{\epsilon X}(k) = \gamma_{\epsilon X}(k - 1) - \gamma_{\epsilon Y}(k - 2)
+\end{align}
+$$
 
 
 By multiplying $X_{t-k}$ to both sides of the process equation and obtaining the expected value we get
 $$
 \gamma_{XX}(k) - \gamma_{XX}(k-1) + 0.5\gamma_{XX}(k-2)=\gamma_{\epsilon X}(k) +0.5 \gamma_{\epsilon X}(k - 1)
 $$
+
+Then, we know that
+$$
+\begin{align}
+k=0, & \quad \gamma_{XX}(0) - \gamma_{XX}(1) + 0.5\gamma_{XX}(2)=\gamma_{\epsilon X}(0) = \sigma_{\epsilon}^2 \\
+k=1, & \quad \gamma_{XX}(1) - \gamma_{XX}(0) + 0.5\gamma_{XX}(1)=\gamma_{\epsilon X}(1) +0.5 \gamma_{\epsilon X}(0)=1.5\sigma_{\epsilon}^2+\sigma_{\epsilon}^2=2.5\sigma_{\epsilon}^2 \\
+k\geq2, & \quad \gamma_{XX}(k) - \gamma_{XX}(k-1) + 0.5\gamma_{XX}(k-2)=1.5\gamma_{\epsilon X}(k - 1) - \gamma_{\epsilon Y}(k - 2)
+\end{align}
+$$
+
