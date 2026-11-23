@@ -364,9 +364,11 @@ $$
 Then, we know that
 $$
 \begin{align}
-k=0, & \quad \gamma_{XX}(0) - \gamma_{XX}(1) + 0.5\gamma_{XX}(2)=\gamma_{\epsilon X}(0) = \sigma_{\epsilon}^2 \\
-k=1, & \quad \gamma_{XX}(1) - \gamma_{XX}(0) + 0.5\gamma_{XX}(1)=\gamma_{\epsilon X}(1) +0.5 \gamma_{\epsilon X}(0)=1.5\sigma_{\epsilon}^2+\sigma_{\epsilon}^2=2.5\sigma_{\epsilon}^2 \\
-k\geq2, & \quad \gamma_{XX}(k) - \gamma_{XX}(k-1) + 0.5\gamma_{XX}(k-2)=1.5\gamma_{\epsilon X}(k - 1) - \gamma_{\epsilon Y}(k - 2)
+k=0, & \quad \gamma_{XX}(0) - \gamma_{XX}(1) + 0.5\gamma_{XX}(2)= \gamma_{\epsilon X}(0) +0.5 \gamma_{\epsilon X}(1)=1+0.5 \cdot 1.5=1.75 \\
+
+k=1, & \quad \gamma_{XX}(1) - \gamma_{XX}(0) + 0.5\gamma_{XX}(1) = \gamma_{\epsilon X}(1) +0.5 \gamma_{\epsilon X}(0) = 1.5 + 0.5\cdot1=2\\
+
+k\geq2, & \quad \gamma_{XX}(k) - \gamma_{XX}(k-1) + 0.5\gamma_{XX}(k-2)=0
 \end{align}
 $$
 
